@@ -6,14 +6,16 @@ SPDX-License-Identifier: CC-BY-SA-3.0-DE
 
 # Ada & Zangemann - A fairy tale about software, skateboards and raspberry ice cream
 
+[![REUSE status](https://api.reuse.software/badge/git.fsfe.org/fsfe/ada-zangemann)](https://api.reuse.software/info/git.fsfe.org/fsfe/ada-zangemann)
+
 This are the sources for the illustrated children's book "Ada &
 Zangemann - A fairy tale about software, skateboards and raspberry ice
-cream". 
+cream".
 
 The book tells the story of the famous inventor Zangemann and the girl
 Ada, a curious tinkerer. Ada begins to experiment with hardware and
 software, and in the process realises how crucial it is for her and
-others to control technology. Here the short summary: 
+others to control technology. Here the short summary:
 
 > The famous inventor Zangemann lives in a huge villa high above the
 > city. Adults and children alike love his inventions and are desperate
@@ -28,7 +30,7 @@ This book by Matthias Kirschner (author) and Sandra Brandstätter
 (illustrator), thankfully published by dpunkt.verlag GmbH under the
 O'Reilly imprint, is licensed under the [Creative Commons CC-BY-SA 3.0
 DE licence](https://creativecommons.org/licenses/by-sa/3.0/de/deed.en),
-a free cultural license. 
+a free cultural license.
 
 You can share, copy, and redistribute the material in any medium or
 format. You can adapt, remix, transform, and build upon the material for
@@ -44,12 +46,12 @@ code](https://creativecommons.org/licenses/by-sa/3.0/de/legalcode).)
 Furthermore for remix versions (derivative works), the licensor asks you
 not to make any modifications of the author's personal acknowledgements
 and the author's and illustrator's short biographies; or else rather
-completely remove those parts from your remix version. 
+completely remove those parts from your remix version.
 
 Publication under this free cultural license was possible due to the
 great support by dpunkt.verlag GmbH / O'Reilly. Unfortunately Creative
 Commons licenses are still rare exceptions for commercial published
-books, and often considered revolutionary and risky by publishers. 
+books, and often considered revolutionary and risky by publishers.
 
 **A big thank you to dpunkt.verlag for understanding the values of
 software freedom, taking the time to discuss and understand the
@@ -82,7 +84,7 @@ Free Software Foundation Europe. The FSFE paid the illustrator Sandra
 Brandstätter and the children's book editor Wiebke Helmchen for their
 work. Linuxhotel GmbH made the project possible by already agreeing at
 the beginning of the writing process, to buy 1000 copies once the book
-was finished. 
+was finished.
 
 # Free as in freedom not price
 
