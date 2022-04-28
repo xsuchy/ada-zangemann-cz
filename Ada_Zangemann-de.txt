@@ -71,7 +71,7 @@ Die gedruckte Version sowie das E-Book können im Buchhandel oder direkt
 über diesen Partnerlink beim dpunkt.verlag bestellt werden (dort erhält
 die FSFE e.V. 12% Provision):
 
-  https://dpunkt.de/produkt/ada-und-zangemann/?ref=10022
+  https://oreilly.de/produkt/ada-und-zangemann/?ref=10022
 
 #####
 
