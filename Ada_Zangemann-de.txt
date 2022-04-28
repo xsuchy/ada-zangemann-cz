@@ -36,7 +36,7 @@ Dies ist das Impressum der Orginalausgabe des Buches, welche überall im
 Buchhandel oder direkt bei Dpunkt.verlag über diesen Affiliate-Link
 erworben werden kann (12% des Listenpreises gehen dabei an die FSFE): 
 
-  https://dpunkt.de/produkt/ada-und-zangemann/?ref=10022
+  https://oreilly.de/produkt/ada-und-zangemann/?ref=10022
 
 * Autor: Matthias Kirschner
 * Illustrationen: Sandra Brandstätter
