@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021 Free Software Foundation Europe <https://fsfe.org>
+
+SPDX-License-Identifier: CC-BY-SA-3.0-DE
+-->
+
 # Translation guidelines
 
 Below a few notes which we share with publishers who want to translate
