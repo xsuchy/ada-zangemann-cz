@@ -88,6 +88,10 @@ available:
   Dpunkt.verlag for which the FSFE will receive 12% of the
   list price](https://oreilly.de/produkt/ada-und-zangemann/?ref=10022).
 
+Thanks to a generous donation we also translated the book into
+Ukrainian, printed 2750 non-profit copies ourselves, and distributed
+those to organisations working with refugee children from Ukraine. 
+
 # Profits of sales
 
 Matthias Kirschner wrote the text on a voluntary basis for the FSFE. All
