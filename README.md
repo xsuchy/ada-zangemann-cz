@@ -27,10 +27,8 @@ others to control technology. Here the short summary:
 > forges a plan.
 
 This book by Matthias Kirschner (author) and Sandra Brandstätter
-(illustrator), thankfully published by dpunkt.verlag GmbH under the
-O'Reilly imprint, is licensed under the [Creative Commons CC-BY-SA 3.0
-DE licence](https://creativecommons.org/licenses/by-sa/3.0/de/deed.en),
-a free cultural license.
+(illustrator) is licensed under the Creative Commons CC-BY-SA a free
+cultural license.
 
 You can share, copy, and redistribute the material in any medium or
 format. You can adapt, remix, transform, and build upon the material for
@@ -40,8 +38,10 @@ may do so in any reasonable manner, but not in any way that suggests the
 licensor endorses you or your use. If you remix, transform, or build
 upon the material, you must distribute your contributions under the same
 license as the original. (This is a human-readable summary of - and not
-a substitute for - the [legal
-code](https://creativecommons.org/licenses/by-sa/3.0/de/legalcode).)
+a substitute for - the [legal code of CC-BY-SA 3.0
+DE](https://creativecommons.org/licenses/by-sa/3.0/de/legalcode) or
+[CC-BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0/en/legalcode).
 
 Furthermore for remix versions (derivative works), the licensor asks you
 not to make any modifications of the author's personal acknowledgements
@@ -49,14 +49,16 @@ and the author's and illustrator's short biographies; or else rather
 completely remove those parts from your remix version.
 
 Publication under this free cultural license was possible due to the
-great support by dpunkt.verlag GmbH / O'Reilly. Unfortunately Creative
-Commons licenses are still rare exceptions for commercial published
-books, and often considered revolutionary and risky by publishers.
+great support by dpunkt.verlag GmbH / O'Reilly for the German book and
+No Starch Press for the English book. Unfortunately Creative Commons
+licenses are still rare exceptions for commercial published books, and
+often considered revolutionary and risky by publishers.
 
-**A big thank you to dpunkt.verlag for understanding the values of
-software freedom, taking the time to discuss and understand the
-advantages of free cultural licenses, and the great support to publish
-this book under conditions that respect the FSFE's values.**
+**A big thank you to dpunkt.verlag and No Starch Press for understanding
+the values of software freedom, taking the time to discuss and
+understand the advantages of free cultural licenses, and the great
+support to publish this book under conditions that respect the FSFE's
+values.**
 
 # Translations
 
@@ -71,10 +73,24 @@ translations.
 The printed version as well as ebooks of the book are currently
 available:
 
+* In English by No Starch Press. You can pre-order the hardcover
+  [directly from No Starch Press](https://nostarch.com/ada-zangemann),
+  get 25% off with the coupon code "Hacking4Freedom", receive the DRM free ebook now, and
+  get the book sent from the US in starting in December. If you live
+  outside the US there are other options. According to the current plan,
+  by the end of 2022, you should be able to pre-order the book from
+  local book stores worldwide, so the book does not have to be shipped
+  from the US. Those book stores should then be able to ship the book
+  from ~May 2023 onwards.
+
 * In German by dpunkt.verlag GmbH under the O'Reilly imprint. You can
-  order it at any bookstore, or with this affiliate link [directly from
+  order it at any book store, or with this affiliate link [directly from
   Dpunkt.verlag for which the FSFE will receive 12% of the
   list price](https://oreilly.de/produkt/ada-und-zangemann/?ref=10022).
+
+Thanks to a generous donation we also translated the book into
+Ukrainian, printed 2750 non-profit copies ourselves, and distributed
+those to organisations working with refugee children from Ukraine. 
 
 # Profits of sales
 
