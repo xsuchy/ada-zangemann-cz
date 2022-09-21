@@ -14,6 +14,20 @@ $header=shift;
 $wrap=72;
 $remove_space=0;
 
+sub FixHTML {
+  my $str=shift;
+  my ($s1,$s2);
+  $s2="&";$s1="&amp;";
+  $str =~ s/$s1/$s2/ge;
+  $s2="\"";$s1="&quot;";
+  $str =~ s/$s1/$s2/ge;
+  $s2="<";$s1="&lt;";
+  $str =~ s/$s1/$s2/ge;
+  $s2=">";$s1="&gt;";
+  $str =~ s/$s1/$s2/ge;
+  return($str);
+}
+
 sub Wrap {
   my $text=shift;
   my($i,$ch,$s);
@@ -149,7 +163,7 @@ foreach $pn (@pn)
     }
   }
   if(length($text)>0) {
-    $text=Wrap($text);
+    $text=Wrap(FixHTML($text));
     $text_clean.=$text."\n\n";
     $text_turn.=$text."\n<!-- Change Page -->\n\n";
     $count++;
