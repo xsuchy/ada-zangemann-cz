@@ -75,7 +75,7 @@ available:
 
 * In English by No Starch Press. You can pre-order the hardcover
   [directly from No Starch Press](https://nostarch.com/ada-zangemann),
-  get 25% off with the coupon code, receive the DRM free ebook now, and
+  get 25% off with the coupon code "Hacking4Freedom", receive the DRM free ebook now, and
   get the book sent from the US in starting in December. If you live
   outside the US there are other options. According to the current plan,
   by the end of 2022, you should be able to pre-order the book from
