@@ -61,4 +61,11 @@ flowed text), you can use the program unwrap_simple.pl:
 ../unwrap_simple.pl presentation.xx.txt > presentation-flowed.txt
 ```
 
+# Generate PDF file from presentation
 
+To allow quick loading of the PDF page also from a low-end PC, the suggested 
+settings for PDF export are:
+
+* Compress images as JPEG
+* Quality: 90%
+* Resize to 300 dpi
