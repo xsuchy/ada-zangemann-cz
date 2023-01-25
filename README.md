@@ -73,12 +73,11 @@ translations.
 The printed version as well as ebooks of the book are currently
 available:
 
-* In English by No Starch Press. You can pre-order the hardcover
-  [directly from No Starch Press](https://nostarch.com/ada-zangemann),
-  get 25% off with the coupon code "Hacking4Freedom", receive the DRM free ebook now, and
-  get the book sent from the US in starting in December. If you live
-  outside the US there are other options. According to the current plan,
-  by the end of 2022, you should be able to pre-order the book from
+* In English by No Starch Press. You can order the hardcover [directly
+  from No Starch Press](https://nostarch.com/ada-zangemann), get 25% off
+  with the coupon code "Hacking4Freedom", receive the DRM free ebook
+  now, and get the book sent from the US now. If you live outside the US
+  there are other options: you should be able to pre-order the book from
   local book stores worldwide, so the book does not have to be shipped
   from the US. Those book stores should then be able to ship the book
   from ~May 2023 onwards.
@@ -90,7 +89,10 @@ available:
 
 Thanks to a generous donation we also translated the book into
 Ukrainian, printed 2750 non-profit copies ourselves, and distributed
-those to organisations working with refugee children from Ukraine. 
+those to organisations working with refugee children from Ukraine. After
+a follow-up donation we printed 7000 non-profit copies and again
+distributed them to organisations working with Arabic speaking children
+in Europe. 
 
 # Profits of sales
 
