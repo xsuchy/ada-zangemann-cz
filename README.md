@@ -90,9 +90,9 @@ available:
 Thanks to a generous donation we also translated the book into
 Ukrainian, printed 2750 non-profit copies ourselves, and distributed
 those to organisations working with refugee children from Ukraine. After
-a follow-up donation we printed 7000 non-profit copies and again
-distributed them to organisations working with Arabic speaking children
-in Europe. 
+a follow-up donation we translated it into Arabic, printed 7000
+non-profit copies, and again distributed them to organisations working
+with Arabic speaking children in Europe. 
 
 # Profits of sales
 
