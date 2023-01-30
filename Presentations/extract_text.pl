@@ -5,11 +5,15 @@
 # SPDX-License-Identifier: CC0-1.0
 
 use utf8;
+use Encode qw(encode decode);
 
 $file=shift;
 $base=shift;
 $postfix=shift;
 $header=shift;
+
+if($0=~m/-nowrap/) { $wrapping=0; }
+else { $wrapping=1; }
 
 $wrap=72;
 $remove_space=0;
@@ -109,6 +113,10 @@ if(!open(F,"unzip -q -c \"$file\" content.xml|"))
 binmode(F,":utf8");
 binmode(STDOUT,":utf8");
 
+$dir_left =decode('utf8',pack("C*",0xe2,0x80,0xaa)); # U+202a
+$dir_right=decode('utf8',pack("C*",0xe2,0x80,0xab)); # U+202b
+$dir_pop  =decode('utf8',pack("C*",0xe2,0x80,0xac)); # U+202c
+
 # Buffering
 $buf="";
 while(<F>)
@@ -130,6 +138,10 @@ foreach $pn (@pn)
   $text="";
   $last="";
   $i=0;
+  # Remove direction changes (not important since all the text is uni-directional)
+  $pn=~s/$dir_left//gs;
+  $pn=~s/$dir_right//gs;
+  $pn=~s/$dir_pop//gs;
   while(($i=index($pn,"<text:p",$i))>=0) {
     $i2=index($pn,">",$i);
     if($i2>0) {
@@ -147,6 +159,8 @@ foreach $pn (@pn)
 	if($i2>0) {
 	  $t2=substr($pn,$i,$i2-$i);
 	  $t2=~s/[ \t]+$//;
+	  $t2=~s/<text:span.*?>//gis;
+	  $t2=~s/<\/text:span>//gis;
 	  $text.=$t2."\n";
 	}
 	else {
@@ -163,7 +177,9 @@ foreach $pn (@pn)
     }
   }
   if(length($text)>0) {
-    $text=Wrap(FixHTML($text));
+    if($wrapping) {
+      $text=Wrap(FixHTML($text));
+    }
     $text_clean.=$text."\n\n";
     $text_turn.=$text."\n<!-- Change Page -->\n\n";
     $count++;
