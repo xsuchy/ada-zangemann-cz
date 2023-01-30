@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2021 Matthias Kirschner
+#
+# SPDX-License-Identifier: CC-BY-SA-3.0-DE
+
 ‫ماتياس كيرشنر‬
 ‫ساندرا براندشتياتر‬
 
