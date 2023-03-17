@@ -1,0 +1,561 @@
+# SPDX-FileCopyrightText: 2021 Matthias Kirschner
+#
+# SPDX-License-Identifier: CC-BY-SA-3.0-DE
+
+# ADA & ZANGEMANN
+
+## Un conte sur les logiciels, les skateboards et la glace à la 
+framboise 
+
+<!-- Change Page -->
+
+Il était une fois une petite fille qui s’appelait Ada. Sa famille était 
+si pauvre que toutes leurs économies tenaient dans une boîte à biscuits. 
+Ils n’avaient pas assez d’argent pour vivre dans une vraie maison. 
+Ainsi, Ada, sa mère et son petit frère Alan habitaient-ils une cabane à 
+proximité d’une décharge à la périphérie de la ville.
+
+Loin de là, à l’autre bout de la ville, vivait un célèbre inventeur du 
+nom de Zangemann. Il était immensément riche. Il n’y avait pas une seule 
+feuille de papier assez grande pour contenir tous les chiffres et les 
+zéros de son compte en banque. Il habitait une immense maison avec 
+piscine et toboggan aquatique, de nombreux escaliers, des tours, des 
+centaines de fenêtres et tant de pièces que lui-même s’y perdait 
+régulièrement. La propriété de Zangemann se trouvait au sommet d’une 
+montagne. De là-haut, il pouvait voir toute la ville.
+
+<!-- Change Page -->
+
+Depuis tout petit, Zangemann était fasciné par les ordinateurs. A cette 
+époque-là, il s’agissait encore d’énormes machines avec des tas de 
+câbles et de bruyants ventilateurs. A l’école, le petit Zangemann rêvait 
+souvent de tout ce qu’il pourrait faire avec les ordinateurs le jour où 
+ils seraient plus petits – suffisamment petits pour pouvoir être 
+intégrés à d’autres appareils. Pour commencer, il installerait un 
+ordinateur dans son skate pour lui faire faire des bruits cools en 
+roulant – comme une sirène de pompier ou une fusée au décollage. Et il 
+inventerait des machines à faire des glaces ! L’ordinateur pourrait 
+mixer les parfums les plus sensationnels et vendre automatiquement la 
+glace. Il y aurait des machines à tous les coins de rue, et il pourrait 
+aller chercher sa glace préférée à chaque fois qu’il en aurait envie. Il 
+construirait également un robot pour ranger et une machine pour trier 
+les briques de construction afin que sa chambre soit toujours bien 
+rangée. Chaque jour, Zangemann avait de nouvelles idées. Il n’arrivait 
+pas à penser à autre chose.
+
+Et en effet : plus Zangemann grandissait, plus les ordinateurs 
+rétrécissaient. Quand il finit par quitter l’école, ils étaient si 
+petits qu’ils pouvaient tenir dans la poche de son pantalon. Les plus 
+petits tenaient même sur le bout de ses doigts.
+
+<!-- Change Page -->
+
+« Je peux enfin mettre toutes mes idées en pratique ! », jubila 
+Zangemann, et il se mit au travail. Il intégra les petits ordinateurs à 
+tous les appareils possibles et imaginables, pour les rendre encore plus 
+pratiques. Et il vendit ensuite les appareils.
+
+Adultes et enfants adoraient ses inventions. Les enfants voulaient leur 
+skateboard Zangemann avec le dernier son à la mode pour épater les 
+copains dans la cour de l’école. Beaucoup possédaient également ses 
+enceintes très pratiques. Il suffisait de leur indiquer le nom d’une 
+chanson pour qu’elle soit diffusée. Et celui qui avait encore de 
+l’argent de poche allait l’après-midi s’acheter une glace préparée 
+automatiquement par la machine originale à mixer la glace de Zangemann. 
+C’était comme de la magie – mais tout cela était contrôlé par les petits 
+ordinateurs que Zangemann avait intégrés aux appareils.
+
+Dans l’école d’Ada aussi, ces inventions étaient très populaires et elle 
+avait beaucoup d’amis qui se baladaient avec des skateboards super 
+cools. Ada était souvent triste, car sa mère ne pouvait pas lui acheter 
+toutes ces merveilleuses choses : pas de skateboard, pas d’enceintes, 
+pas de glace.
+
+<!-- Change Page -->
+
+Par chance, Ada vivait juste à côté de la décharge. Elle y trouvait des 
+appareils cassés et des pièces rouillées avec lesquelles elle 
+fabriquaient des choses géniales : une caisse à savon dans laquelle son 
+frère Alan et elle dévalaient la colline, une éolienne ou des monstres 
+constitués de débris effrayants, qu’ils combattaient ensemble. Elle 
+trouvait aussi beaucoup d’objets utiles comme un vieux téléphone 
+portable par exemple. L’écran était certes tout fissuré mais elle 
+pourrait le réparer. Et dans la décharge, il n’y avait pas Internet mais 
+elle le capterait ailleurs.
+
+C’était un tel plaisir pour Ada de bricoler dans la décharge et de 
+réparer les objets cassés, qu’elle en oubliait complètement les 
+skateboards et les glaces.
+
+<!-- Change Page -->
+
+Comme tout le monde achetait ses inventions, Zangemann devint bientôt 
+l’homme le plus riche du monde. Avec tout son argent, il acheta un 
+énorme ordinateur en or avec un clavier en pierres précieuses et 
+l’installa dans la plus grande pièce de sa villa. De cet ordinateur, il 
+contrôlait par Internet tous les petits ordinateurs intégrés à ses 
+inventions.
+
+Il lui suffisait simplement de presser les bonnes touches de son 
+ordinateur en or et aussitôt toutes les machines à glace de la ville ne 
+distribuaient plus que de la glace à la vanille. Si Zangemann voulait 
+que les gens mangent de la glace au chocolat, il appuyait sur la 
+combinaison de touches correspondantes. S’il donnait l’ordre de vendre 
+des glaces au citron, alors les machines ne produisaient plus que des 
+glaces au citron. Zangemann adorait ses inventions et il était à chaque 
+fois émerveillé de constater à quel point ses machines fonctionnaient 
+magnifiquement bien. Parfois, les gens étaient déçus qu’il n’y ait pas 
+leur parfum préféré mais que pouvaient-ils y faire ? Au moins, il y 
+avait des glaces à chaque coin de rue.
+
+Cela amusait beaucoup Zangemann d’appuyer sur les touches scintillantes 
+et de voir les gens manger ses glaces. C’est ainsi qu’il passait tous 
+les jours de nombreuses heures devant son ordinateur en or. Il ne se 
+lassait pas de regarder la ville d’en haut à travers un long télescope 
+et de constater la fiabilité avec laquelle ses inventions exécutaient 
+ses ordres.
+
+<!-- Change Page -->
+
+Quand il n’était pas assis devant son ordinateur en or, Zangemann 
+installait ses petits ordinateurs dans de nouveaux appareils pour les 
+vendre ensuite. Il construisit des machines à laver qui envoyaient un 
+message sur le téléphone portable quand la lessive était terminée, des 
+aspirateurs qui diffusaient une joyeuse musique au lieu de vrombir 
+bruyamment, des lampes qui s’allumaient et s’éteignaient d’un claquement 
+de doigts et des voitures qui indiquaient au conducteur où se trouvait 
+le supermarché le plus proche.
+
+Bientôt presque tous les appareils furent contrôlés par un programme 
+informatique de Zangemann. Certes toutes les inventions n’étaient pas 
+toujours aussi pratiques qu’elles en avaient l’air, mais les gens 
+achetaient tout ce qui venait de lui. C’était comme ça. Tout le monde 
+voulait posséder les appareils de Zangemann, le plus grand inventeur du 
+monde.
+
+Un beau jour Zangemann se dit : « Aujourd’hui je vais aller observer mes 
+inventions de plus près ! ». Il mit son imposant téléscope de côté et 
+descendit plein d’entrain les nombreuses marches pour se rendre en 
+ville. Il se réjouissait à la perspective de voir ses super inventions.
+
+« Peut-être même que cette petite excursion me donnera quelques 
+nouvelles idées. Car, pour être tout à fait honnête, mes dernières 
+inventions n’étaient plus aussi pratiques que les premières… » pensait 
+Zangemann. « Mais mes machines à glace sont et restent indétrônables », 
+se dit-il juste après non sans fierté lorsqu’il passa devant un groupe 
+de personnes qui mangeaient une glace à la noix de coco – le parfum du 
+jour.
+
+<!-- Change Page -->
+
+Il était complètement plongé dans ses pensées lorsque soudain – BOUM ! – 
+quelque chose percuta son tibia à vive allure.
+
+Zangemann hurla et regarda autour de lui. Devant lui se tenait un 
+enfant, terriblement effrayé, avec un skateboard Zangemann sous le bras. 
+« Excusez-moi, je ne voulais pas », bégaya-t-il, mais Zangemann ne 
+l’écouta pas et s’éloigna, furieux. Une musique retentit soudain 
+bruyamment.
+
+Il n’avait jamais entendu quelque chose d’aussi horrible. Il regarda 
+autour de lui et vit que la musique provenait d’une enceinte qu’il avait 
+lui-même conçue et qu’un enfant, de l’autre côté de la rue, tenait dans 
+ses mains. La musique avait l’air de plaire à l’enfant mais elle donna 
+de terribles maux de tête à Zangemann dont l’humeur se dégrada encore un 
+peu plus. Ce n’est pas comme ça qu’il s’était imaginé sa promenade !
+
+<!-- Change Page -->
+
+Zangemann était fou de rage contre les enfants : Comment pouvaient-ils 
+utiliser ses inventions aussi mal ! Il n’arrivait pas à dormir et en 
+pleine nuit, il s’assit devant son ordinateur en or. De là, il donna 
+l’ordre à tous les mini-processeurs intégrés aux skateboards de ne plus 
+permettre de rouler sur les trottoirs. Aux mini-processeurs dans les 
+enceintes, il ordonna de ne jouer que de la musique à un niveau sonore 
+raisonnable – à l’exception de sa musique préférée qu’il écouta 
+immédiatement pour améliorer son humeur.
+
+<!-- Change Page -->
+
+Le lendemain, à l’école, régnait une grande agitation. Sur le chemin de 
+l’école les skateboards avaient cessé de fonctionner. Les roues 
+refusaient tout simplement de bouger. Et ensuite les enceintes. Les 
+enfants ne pouvaient plus monter le volume. Mais que se passait-t-il 
+donc ?
+
+Bien qu’elle ne possède aucun de ces objets, Ada s’étonna que les 
+skateboards et les enceintes cessent brutalement de fonctionner comme 
+avant. Mais elle n’avait pas beaucoup de temps pour y réfléchir, car 
+elle était de nouveau en train de bricoler. A partir des pièces 
+détachées de trois vélos cassés, elle fabriqua un nouveau vélo. Elle 
+l’offrit à sa mère pour qu’elle puisse économiser l’argent du ticket de 
+bus pour se rendre au travail. A son frère, elle offrit une enceinte 
+afin qu’il puisse écouter une histoire le soir avant d’aller dormir, 
+quand sa mère n’était pas encore rentrée du travail.
+
+En quelques jours, à l’école d’Ada, on oublia la frayeur du début. Les 
+skateboards ne roulaient certes plus sur les trottoirs mais à part ça, 
+ils fonctionnaient toujours. Les enfants tournaient en rond dans la cour 
+et écoutaient de la musique tout doucement. Seule une musique militaire, 
+pompeuse et bizarre, retentissait avec le même volume sonore qu’avant. 
+Plutôt énigmatique.
+
+<!-- Change Page -->
+
+Le jour préféré d’Ada était le mercredi. Tous les mercredis, sa mère 
+venait la chercher avec Alan à l’école et ils allaient ensemble à la 
+bibliothèque. Ada filait dans le coin consacré aux ouvrages techniques. 
+On y trouvait des livres avec des schémas de construction, des consignes 
+pour effectuer des expériences, et des explications sur le 
+fonctionnement de divers appareils. Dans la bibliothèque, Ada pouvait 
+aussi accéder à Internet sur son téléphone portable. Elle se rendit vite 
+compte qu’on pouvait y trouver tout un tas de choses. Sur Internet, 
+beaucoup de gens partageaient leurs idées et leurs astuces de réparation 
+pour aider les autres.
+
+Cet après-midi-là, Ada apprit deux nouveaux mots : hardware et software. 
+Hardware désignait quelque chose qu’en fait, Ada connaissait déjà : les 
+appareils électroniques sur lesquels elle bricolait. Ces appareils, elle 
+pouvait les tenir dans sa main et les traficoter. Mais le mot software, 
+ou logiciel, était tout à fait nouveau pour Ada. Elle comprit vite qu’il 
+désignait les consignes données aux appareils ou aux ordinateurs. Dans 
+certains livres, on appelait ces consignes des programmes ou des codes. 
+Avec un tel programme informatique, on pouvait par exemple dire aux 
+enceintes quelle chanson elles devaient diffuser et à quel niveau 
+sonore.
+
+Le plus fort dans la nouvelle découverte d’Ada était qu’on pouvait 
+bricoler les softwares de la même manière que les hardwares. On pouvait 
+bricoler un hardware avec un marteau, une perceuse ou des vis. On 
+construisait des softwares en inscrivant les ordres donnés aux hardwares 
+les uns à la suite des autres. Il existait même une langue pour ça : le 
+langage de programmation. Avec les softwares, Ada pourrait rendre ses 
+inventions encore plus pratiques. Elle voulait absolument apprendre le 
+langage de programmation.
+
+<!-- Change Page -->
+
+Les semaines suivantes, Ada passa ses après-midis à la bibliothèque. 
+Elle trouva des livres et des sites Internet qui expliquaient comment 
+fonctionnaient le langage de programmation et le code. Ada avait un peu 
+l’impression que c’était comme si elle apprenait un langage secret – ou 
+révisait du vocabulaire à l’école. Ada fit des recherches. Son premier 
+programme devait produire quelque chose de simple : « Fais clignoter 
+cette lampe ! »
+
+Bien sûr, elle voulut aussitôt essayer pour voir si cela fonctionnait 
+vraiment ! Dans la décharge, elle connecta son téléphone à une petite 
+lampe LED. Ensuite, elle rentra dans son téléphone les lignes de 
+programme qu’elle avait notées…
+
+Il ne se passa rien. Ada réfléchit à l’endroit où l’erreur pouvait se 
+trouver. Elle entreprit quelques modifications, tenta à nouveau et 
+« Ouiiii ! » La petite lampe commença à clignoter. Jour, nuit, jour, 
+nuit. Ada regarda avec émerveillement la LED. Elle avait créé son tout 
+premier programme !
+
+Ada était totalement ravie. Elle imagina les choses géniales qu’elle 
+pourrait faire fonctionner avec ça. Si elle entrait le bon code de 
+programmation, alors ses découvertes feraient exactement ce qu’elle 
+voudrait. Ce n’était pas si facile, mais au bout de quelques semaines, 
+Ada avait créé un programme vraiment pratique : l’enceinte d’Alan se 
+déconnectait désormais automatiquement au bout d’une demi-heure quand il 
+s’endormait.
+
+Ada avait déjà une nouvelle idée de programme, quelque chose de plus 
+important, un vrai projet. Elle aurait probablement besoin de toutes les 
+vacances d’été pour ça... et elle trépignait d’impatience !
+
+<!-- Change Page -->
+
+Zangemann avait terriblement mal dormi la nuit depuis l’horrible 
+promenade. Quand il allait se coucher le soir, de gros soucis 
+l’angoissaient : « Oh non, mes merveilleuses inventions ! Ce n’est pas 
+possible que tout le monde s’amuse avec comme ça. On ne sait pas ce qui 
+peut arriver. J’ai pourtant bien réfléchi à tout, jusque dans le moindre 
+détail. »
+
+Zangemann cogitait, cogitait, se tournait et retournait toute la nuit 
+dans son lit sans trouver le sommeil. Quand il se leva un matin, le 
+front creusé par les soucis, Zangemann prit une décision. Cela ne 
+pouvait pas continuer comme ainsi ! Il s’assit à son ordinateur en or et 
+écrivit un programme après l’autre. Dans ces programmes, il détermina 
+très précisément ce que ses inventions devaient faire et ce qui ne 
+devait en aucun cas se produire. Fini le chaos !
+
+Lorsqu’il eut terminé, il envoya tous les nouveaux programmes depuis son 
+ordinateur en or vers les appareils des gens. Zangemann ordonna à ses 
+enceintes de ne jouer que sa musique préférée lorsqu’il passait à 
+proximité, et aux machines à glace de ne plus vendre de glaces dans 
+l’après-midi. Son coûteux pantalon risquait en effet d’être tâché lors 
+d’une promenade. Toute la journée, il resta assis devant l’ordinateur et 
+pianota, pianota, pianota...
+
+<!-- Change Page -->
+
+Les vacances d’été étaient déjà à moitié terminées. Ada était face son 
+grand projet et se grattait la tête. A partir de vieilles pièces 
+détachées, elle avait construit un skateboard et raccordé un moteur qui 
+faisait tourner les roues. Avec un skateboard motorisé, Ada pourrait 
+foncer encore plus vite à la bibliothèque ou à la décharge après 
+l’école. Super pratique ! Mais ça ne fonctionnait pas. Quand elle 
+montait dessus et appuyait sur le bouton « marche », les roues se 
+mettaient certes en mouvement, mais beaucoup trop vite. A chaque départ, 
+Ada tombait de la planche. Elle avait beau essayer, elle n’y arrivait 
+tout simplement pas.
+
+Après être tombée sur les fesses pour la centième fois, elle alla à la 
+bibliothèque. Elle trouvait toujours là-bas des réponses à ses 
+questions. Et effectivement, sur Internet, elle tomba sur un programme 
+que quelqu’un avait écrit pour sa trotinette électrique. Elle aussi 
+devait démarrer lentement. Ada chargea le programme sur son téléphone.
+
+De retour à la décharge, elle recopia quelques lignes du programme pour 
+son skateboard. Elle adapta deux, trois choses et continua à bricoler.
+
+Après plusieurs tentatives ratées, le dernier jour des vacances, Ada 
+monta encore une fois sur la planche et appuya sur le bouton 
+« marche » : le skateboard se mit lentement en mouvement. Ensuite, il 
+accéléra. Ça fonctionnait ! Elle freina. Ça fonctionnait ! Ada poussa un 
+cri de joie et partit faire un tour au parc.
+
+<!-- Change Page -->
+
+Lorsque, après les vacances, Ada se rendit à l’école avec son skate, les 
+autres élèves n’en crurent pas leurs yeux. Pendant la grande récré, les 
+copains et les copines de classe firent un cercle autour d’Ada et lui 
+demandèrent, curieux : « Comment tu fais pour rouler sur le trottoir 
+avec ton skate ? »
+
+Ada réfléchit. « Je crois que ça ne vient pas de vos skates mais plutôt 
+du logiciel qu’il y a dedans. Sans doute que les logiciels ont été 
+programmés pour que les skates n’aient pas le droit de rouler sur le 
+trottoir. Mais on peut changer ça ! »
+
+Le soir même, Ada fit tout de suite un essai sur le skate de son 
+camarade Toni. Elle travailla en cachette jusque tard dans la nuit et le 
+lendemain, Toni pouvait de nouveau rouler sur le trottoir. En revanche, 
+son skate ne pouvait désormais hélas plus émettre les sons que ses 
+parents avaient achetés à Zangemann. A la place, un drôle de bruit 
+retentissait toutes les dix minutes qui ressemblait à un long rot. Ada 
+savait que ce genre d’erreurs pouvait toujours se produire. Mais le 
+skate rotant de Toni était en fait plutôt rigolo.
+
+<!-- Change Page -->
+
+Maintenant, les enfants étaient de plus en plus nombreux à venir voir 
+Ada l’après-midi à la décharge. Elle les aidait à modifier les 
+programmes de leur skate. Ils étaient plusieurs à s’enthousiasmer de 
+cette nouvelle découverte. Incroyable, tout ce qu’on pouvait faire avec 
+un programme informatique ! Ils voulaient qu’Ada leur apprenne tout sur 
+le langage de programmation. Et très vite, ils purent de nouveau rouler 
+où ils voulaient avec leurs skates.
+
+<!-- Change Page -->
+
+Mais ça n’était pas tout ! Grâce au logiciel, ils pouvaient donner de 
+nouvelles fonctionnalités très cools à leurs skates. Ainsi Marie 
+installa sur sa planche des ampoules à LED qui changeaient de couleur 
+selon la vitesse. Et Konrad fixa de vieux propulseurs à son skate pour 
+lui donner plus d’élan.
+
+Ada, Toni, Marie et Konrad passaient de nombreux après-midi à la 
+décharge. Ils s’étaient même aménagé un véritable atelier où ils 
+perfectionnaient leurs programmes pendant des heures en écoutant de la 
+musique avec les enceintes qu’Ada avait fabriquées pour Alan.
+
+« Les enceintes de ton frère sont bien plus puissantes que les nôtres », 
+remarqua Toni qui était occupé à fixer un indicateur de vitesse sur son 
+casque. « Cela vient certainement du logiciel », dit Marie.
+
+Ensemble ils modifièrent alors aussi le logiciel pour les enceintes. 
+Puis ils tournèrent le son aussi fort que possible et ils se mirent à 
+danser ensemble comme des fous.
+
+<!-- Change Page -->
+
+Tous les jours, Ada et ses amis élaboraient des projets pour 
+l’après-midi. A partir d’une machine à glace cassée, ils en 
+construisirent une nouvelle, capable de produire des glaces de toutes 
+les formes et de toutes les couleurs possibles et imaginables : ils 
+mangeaient des glaces en forme de carré, de cœur, de pyramide, des 
+glaces à la fraise, à la framboise, des glaces arc-en-ciel, le tout 
+parsemé de copeaux et nappé de chocolat, et bien meilleur que les 
+parfums des machines de Zangemann.
+
+Parfois, il arrivait même qu’ils aident les adultes qui avaient des 
+problèmes d’ordinateur. Toni reprogramma le fer à repasser de son père 
+pour qu’il puisse à nouveau repasser des cravates. Zangemann détestant 
+les cravates comme la peste, il en avait interdit le repassage à ses 
+appareils. Pour la conductrice de bus, ils construisirent un système 
+d’irrigation à partir d’un ordinateur et de tuyaux, pour que ses plantes 
+ne meurent pas de soif en plein été. Ils aidèrent également l’agent de 
+service de l’école à modifier son aspirateur pour qu’il reconnaisse 
+automatiquement les jouets et ne les aspire plus.
+
+Il arrivait qu’ils construisaient des choses, juste pour s’amuser. Comme 
+par exemple la machine à pets dans la chaise de leur professeure de 
+maths, Mme Gernet. A chaque fois que la professeure s’asseyait, un petit 
+pet retentissait. Alors Madame Gernet rouspétait, mais Ada était 
+persuadée qu’à chaque fois cela devait aussi la faire rire un peu.
+
+<!-- Change Page -->
+
+Un jour, Zangemann remarqua que certains ordinateurs n’obéissaient plus 
+à ses commandes de programmation. Il en fut terriblement choqué et fou 
+de rage. Aussitôt, il appela le président et hurla, la voix tremblante: 
+« Quelqu’un modifie les programmes dans mes appareils. C’est 
+inadmissible, ce sont tout de même mes inventions. Et de plus, c’est 
+beaucoup trop dangereux si tout le monde peut faire ce qu’il veut avec 
+les ordinateurs. Il faut une loi contre ça ! »
+
+Le président ne voulait pas contrarier Zangemann. C’est lui qui avait 
+programmé tous les ordinateurs du gouvernement. Sans eux, il ne pourrait 
+plus diriger le pays. Le gouvernement fit donc adopter la loi que 
+Zangemann avait exigée :
+
+« Tous les ordinateurs qui n’obéissent pas à Zangemann sont interdits ! 
+Quiconque déprogrammera les appareils de Zangemann, devra payer une 
+amende de 500 000 pièces d’or ! »
+
+<!-- Change Page -->
+
+Lorsque Ada et ses amis entendirent parler de cette loi, ils se mirent 
+très colère. « C’est tellement injuste. Nous avons nous-mêmes transformé 
+et reprogrammé nos skates. Maintenant ils sont bien mieux. On ne va 
+laisser personne nous les enlever ! »
+
+Ils se réunirent devant une des machines à glace qu’ils avaient 
+modifiées et discutèrent de la situation. Il était clair qu’il fallait 
+faire quelque chose contre cette nouvelle loi, et ils échafaudèrent un 
+plan…
+
+<!-- Change Page -->
+
+Le lendemain, ils n’allèrent pas à l’école. A la place, ils se rendirent 
+au parlement avec leur skate et de grandes pancartes de protestation 
+sous le bras et firent un sit-in devant le bâtiment. La veille, ils 
+avaient installé des petites ampoules à LED sur plusieurs pancartes, qui 
+maintenant s’illuminaient. Ils avaient interconnecté leurs enceintes si 
+bien que dans toutes les rues, on pouvait entendre ce qu’ils disaient. 
+Plusieurs passants s’arrêtèrent et demandèrent aux enfants pourquoi ils 
+manifestaient. « Pour des logiciels libres », leur répondirent-ils en 
+chœur et ils racontèrent leur histoire aux adultes. Ces derniers 
+acquiescèrent impressionnés, et le président aussi jeta un coup d’œil 
+curieux à leurs pancartes lorsqu’il entra dans le parlement.
+
+Dans les jours qui suivirent, Ada et ses amis se réunirent de nouveau 
+pour un sit-in devant le parlement. Mais cette fois avec du soutien : 
+plusieurs camarades de classe dont Ada avait reprogrammé le skate, se 
+joignirent à eux. Le papa de Toni aussi et d’autres adultes voulaient 
+soutenir leur protestation. Ils trouvaient les appareils des enfants 
+très pratiques.
+
+Chaque jour, toujours plus d’enfants et d’adultes venaient manifester. 
+La conductrice de bus qu’ils avaient aidée avec les plantes vint avec 
+son bus. Elle klaxonnait fort pour qu’encore plus de gens prêtent 
+attention à la manifestation. Le concierge amena quelques d’amis avec 
+lui. Le père de Toni vint avec ses collègues, qui portaient tous des 
+cravates automatiquement repassées. Même la professeure de mathématiques 
+vint. La foule grandissait à vue d’œil, et au bout de quelques semaines, 
+il n’y avait pas seulement des manifestations dans la ville d’Ada. Non, 
+partout dans le pays des manifestations avaient lieu.
+
+Ada manifestait tous les jours devant le parlement, même quand il 
+pleuvait à verse. Quand le président passa devant les enfants tout 
+mouillés, il ne put qu’admirer leur obstination. Il demanda à Ada : 
+« Pourquoi venez-vous tous les jours ici ? Que demandez-vous ? » Ada 
+répondit : « Nous voulons décider nous-mêmes de ce que nous avons le 
+droit de faire avec nos ordinateurs ou pas » et tous ses amis et amies 
+reprirent en choeur : « Sans programme, on rame ! »
+
+Le président considéra les visages déterminés des enfants. Pour être 
+tout à fait honnête, il aurait bien aimé lui aussi décider de ce que le 
+gouvernement avait le droit de faire ou pas avec ses ordinateurs. Mais 
+il n’y connaissait rien, ni aux ordinateurs, ni à la programmation et 
+c’est pour ça qu’il avait tout délégué à Zangemann. Pensif, le président 
+pénétra dans le parlement.
+
+<!-- Change Page -->
+
+Le jour suivant, il invita Ada et ses amis. « Nous aussi, nous voulons 
+pouvoir programmer nos logiciels nous-mêmes. Pour ça, le gouvernement ne 
+doit plus dépendre de Zangemann. Pouvez-vous me dire tout ce que vous 
+savez sur les ordinateurs ? », demanda-t-il. Ils lui expliquèrent avec 
+enthousiasme comme fonctionnaient les logiciels et tout ce qu’on pouvait 
+faire avec. Le président en fut tout étonné.
+
+Avec ces nouvelles connaissances, son gouvernement pourrait désormais 
+concevoir son propre logiciel, comme il le désirait, sans Zangemann. Il 
+fit immédiatement appel à ses conseillers. Lors d’une grande réunion, 
+ils discutèrent avec les enfants de tout ce qu’ils aimeraient changer et 
+améliorer dans le logiciel.
+
+Ce soir-là, les enfants rentrèrent chez eux, fiers et satisfaits. Il se 
+passait enfin quelque chose ! Leur longue protestation avait porté ses 
+fruits.
+
+Le lendemain matin, le téléphone sonna de bonne heure dans le bureau du 
+président. C’était Zangemann. Plus furieux que jamais, il tenta de 
+convaincre le président. « Sans moi, les ordinateurs du gouvernement ne 
+fonctionneront plus », menaça-t-il. Mais le président fut bref et 
+raccrocha rapidement. Le téléphone retentit encore de nombreuses fois ce 
+jour-là mais personne ne décrocha. Le président était en pleine réunion 
+avec Ada, Toni, Marie, Konrad et les experts et expertes du 
+gouvernement.
+
+Les jours qui suivirent, ils discutèrent du matin au soir et conçurent 
+leurs propres programmes pour les ordinateurs du gouvernement. Ils ne 
+furent plus dérangés par les appels de Zangemann. Toni avait eu la bonne 
+idée de reprogrammer les téléphones. Quand Zangemann appelait, il 
+tombait automatiquement sur le message suivant : « Le gouvernement ne 
+souhaite plus travailler qu’avec des logiciels qu’il pourra utiliser, 
+comprendre, diffuser et améliorer librement. Merci pour votre appel. »
+
+<!-- Change Page -->
+
+Après de longues semaines, ils eurent enfin fini : le parlement abrogea 
+l’ancienne loi-Zangemann et annonça :
+
+« Toute personne a le droit de programmer elle-même son ordinateur, tant 
+qu’elle respecte les autres lois. »
+
+Par ailleurs, une nouvelle matière fut introduite à l’école : 
+informatique et programmation.
+
+<!-- Change Page -->
+
+Ce soir-là, ils organisèrent tous ensemble une grande fête : Ada, Alan, 
+les enfants de l’école et leurs parents, le président, Mme Gernet la 
+conductrice de bus, le concierge. Ils étaient tous là. Ils décorèrent 
+les rues, écoutèrent de la musique bien fort et, pour célébrer la 
+journée, mangèrent des glaces à volonté, de toutes les formes et de 
+toutes les couleurs possibles imaginables.
+
+Pendant que les autres continuèrent la fête jusque tard dans la nuit, 
+Ada, Toni, Marie et Konrad s’éclipsèrent pour retourner à leur atelier. 
+Ils avaient déjà plein de nouvelles idées d’inventions. Et ils voulaient 
+s’y mettre sans tarder.
+
+<!-- Change Page -->
+
+Et Zangemann ? On n’en a plus beaucoup entendu parler. Peut-être 
+enrage-t-il encore dans son immense villa et qu’il reste assis, 
+renfrogné, devant son ordinateur en or. Peut-être qu’il n’ose plus aller 
+dans la rue et qu’il a condamné toutes les fenêtres de sa maison pour ne 
+pas être contrarié par l’utilisation de ses inventions. Mais peut-être 
+aussi qu’il observe le monde à travers son télescope et voit ce que les 
+enfants inventent chaque jour de nouveau. Peut-être qu’il se souvient 
+alors à quel point cela l’avait amusé autrefois, de bricoler et 
+d’expérimenter. Et peut-être que, mais seulement peut-être, il lèche une 
+glace à la framboise en forme de pyramide, parsemée de paillettes aux 
+couleurs de l’arc-en-ciel.
+
+<!-- Change Page -->
+
+END OF READING
+
+From this group we want to thanks ….
+
+<!-- Change Page -->
+
