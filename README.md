@@ -80,7 +80,7 @@ available:
   there are other options: you should be able to pre-order the book from
   local book stores worldwide, so the book does not have to be shipped
   from the US. Those book stores should then be able to ship the book
-  from ~May 2023 onwards.
+  from ~August 2023 onwards.
 
 * In German by dpunkt.verlag GmbH under the O'Reilly imprint. You can
   order it at any book store, or with this affiliate link [directly from
