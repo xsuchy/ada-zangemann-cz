@@ -78,7 +78,7 @@ community translations.
   close to this war, you should be fine and readers will not associate
   the Zangemann logo with the war.
 
-* It is highly appreciate if the FSFE get two copies. We can use
+* It is highly appreciated if the FSFE get two copies. We can use
   pictures with the book, or also all the different language versions of
   the book for advertisement of the book. 
 
