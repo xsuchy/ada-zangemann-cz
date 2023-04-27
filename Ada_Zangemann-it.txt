@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2021 Matthias Kirschner
 #
-# SPDX-License-Identifier: CC-BY-SA-3.0-DE
+# SPDX-License-Identifier: CC-BY-SA-4.0
 
 Matthias Kirschner
   Sandra Brandstätter
@@ -13,8 +13,7 @@ Una fiaba che parla di software, skateboard e gelato al lampone
 
 
 Questo libro è una traduzione non ufficiale dell’originale in tedesco e 
-viene pubblicato con la stessa licenza Creative Commons CC-BY-SA 3.0 
-DE.
+viene pubblicato con la stessa licenza Creative Commons CC-BY-SA 4.0.
 Puoi condividere, riprodurre, distribuire, comunicare al pubblico, 
 esporre in pubblico, rappresentare, eseguire e recitare questo materiale 
 con qualsiasi mezzo e formato. Puoi modificare, remixare, trasformare il 
@@ -151,7 +150,7 @@ per miscelare i gusti più incredibili e venderli automaticamente! Le
 macchine sarebbero state posizionate all’angolo di ogni strada e lui 
 avrebbe potuto avere il gelato al suo gusto preferito ogni volta che ne 
 avesse avuto voglia. Avrebbe costruito inoltre un robot per la pulizia e 
-una macchina per lo smistamento dei blocchetti per le costruzioni, in 
+una macchina per lo smistamento dei mattoncini per le costruzioni, in 
 modo che la sua camera fosse stata sempre pulita e ordinata. Zangemann 
 aveva nuove idee come queste ogni giorno e non riusciva a pensare a 
 nient’altro.
@@ -808,9 +807,9 @@ Licenza
 Il libro “Ada & Zangemann - Ein Märchen über Software, Skateboards und 
 Himbeereis” di Matthias Kirschner e Sandra Brandstätter, pubblicato da 
 dpunkt.verlag GmbH, è dato con la licenza "Creative Commons 
-Attribution-Share Alike 3.0 Germania (CC BY-SA 3.0 DE)".
+Attribution-Share Alike 4.0 International (CC BY-SA 4.0)".
 
-https://creativecommons.org/licenses/by-sa/3.0/de/
+https://creativecommons.org/licenses/by-sa/4.0/
 
 #####
 

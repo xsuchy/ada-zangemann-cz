@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2021 Matthias Kirschner
 #
-# SPDX-License-Identifier: CC-BY-SA-3.0-DE
+# SPDX-License-Identifier: CC-BY-SA-4.0
 
 Matthias Kirschner
   Sandra Brandstätter
@@ -47,8 +47,8 @@ Mathis)
 •	du Lycée Henri IV, Paris : classe de1ère Euro (Paul, Joséphine, 
 Marguerite, Elisabeth, Alexis,  Louna, Oriane, Camille, Sofiane, Carla, 
 Gabriel, Daphné, Mathilde, Emilie, Arthur, Rivka, Sofia, Sélène, 
-Justine, Jessica , Cindy), GPGE  (Canelle, Iris, Blanche, Héloïse B., 
-Eléonore, Augustin,Garance, Victoire, Lucas ,Héloïse KB, Apolline, Elsa 
+Justine, Jessica , Cindy), GPGE (Canelle, Iris, Blanche, Héloïse B., 
+Eléonore, Augustin, Garance, Victoire, Lucas ,Héloïse KB, Apolline, Elsa 
 , Hanaelle, Julia, Madeleine, Zoé, Cian, Darius, Inès), CPES (Anaé, 
 Nino, Cécile, Léane, Rayane, Clémentine, Safiya, Juliette, Anna, 
 Louis-Antoine, Roos)
@@ -64,7 +64,7 @@ nous avoir proposé ce beau projet de traduction collaborative.
 
 
 Ce livre pour enfants est publié sous la licence Creative Commons CC 
-BY-SA 3.0 FR, https://creativecommons.org/licenses/by-sa/3.0/fr/
+BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/deed.fr
 
 
 
@@ -758,9 +758,9 @@ Licence
 Le livre « Ada & Zangemann – Un conte sur les logiciels, les skateboards 
 et la glace à la framboise » de Matthias Kirschner et Sandra 
 Brandstätter, publié chez dpunkt.verlag SARL, a la licence « Creative 
-commons attribution (CC BY-SA 3.0 FR) » 
+commons attribution (CC BY-SA 4.0) » 
 
-https://creativecommons.org/licenses/by-sa/3.0/fr/
+https://creativecommons.org/licenses/by-sa/4.0/deed.fr
 
 
 #####
