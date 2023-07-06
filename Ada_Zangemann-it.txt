@@ -12,8 +12,9 @@ ZANGEMANN
 Una fiaba che parla di software, skateboard e gelato al lampone
 
 
-Questo libro è una traduzione non ufficiale dell’originale in tedesco e 
-viene pubblicato con la stessa licenza Creative Commons CC-BY-SA 4.0.
+Questo libro è una traduzione dell’originale in tedesco e viene 
+pubblicato con la licenza Creative Commons CC-BY-SA 4.0, una licenza 
+culturale libera.
 Puoi condividere, riprodurre, distribuire, comunicare al pubblico, 
 esporre in pubblico, rappresentare, eseguire e recitare questo materiale 
 con qualsiasi mezzo e formato. Puoi modificare, remixare, trasformare il 
@@ -87,9 +88,8 @@ PDF 978-3-96010-628-9
 Wieblinger Weg 17
 69123 Heidelberg
 
-Questo libro per bambini è pubblicato con licenza Creative Commons 
-Licence CC BY-SA 3.0 DE, 
-https://creativecommons.org/licenses/by-sa/3.0/de/
+Questo libro per bambini è pubblicato con licenza Creative Commons CC 
+BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/deed.it
 
 Il libro originale in tedesco appare in collaborazione con O’Reilly 
 Media, inc. sotto il marchio “O’REILLY”. O’REILLY è un marchio e un 
@@ -118,6 +118,7 @@ www.oreilly.plus
 
 #####
 
+===
 C’era una volta una bambina di nome Ada. La sua famiglia era così povera 
 che tutti i loro risparmi potevano essere messi in una scatola di 
 biscotti. Non avevano soldi per vivere in una casa vera. Ada, la sua 
@@ -132,10 +133,12 @@ mondo era abbastanza grande per poterci scrivere l’ammontare del suo
 conto in banca, con tutti i numeri e gli zeri. Viveva in una grande casa 
 con piscina e scivoli d’acqua, un sacco di scale e torri, centinaia di 
 finestre e così tante stanze che lui stesso vi si perdeva 
-sistematicamente. La villa di Zangemann era in alto su una collina, da 
+frequentemente. La villa di Zangemann era in alto su una collina, da 
 dove poteva vedere tutta la città.
 
 #####
+
+====
 
 I computer avevano sempre affascinato Zangemann fin da bambino. Ai 
 tempi, i computer erano macchine enormi con molti cavi e ventilatori 
@@ -162,6 +165,8 @@ pantaloni. Il più piccolo ci stava anche sulla punta di un dito.
 
 **
 
+====
+
 
 #####
 
@@ -171,15 +176,15 @@ computer in tutti i tipi di dispositivi per renderli ancora più
 divertenti e utili. E poi vendette le sue invenzioni.
 
 Grandi e piccini amavano le sue invenzioni. Tutti i bambini volevano 
-avere uno skateboard di Zangemann con incorporato l’ultimo rombo per 
-poterlo mostrare ai loro amici nel cortile della scuola, molti 
-possedevano anche i suoi pratici altoparlanti portatili che 
-riproducevano istantaneamente qualsiasi canzone si fosse in grado di 
-nominare. E, se per caso fosse rimasto qualche soldo in tasca, nel 
-pomeriggio potevano mangiare un gelato mescolato automaticamente da una 
-delle macchine-mischia-gelato originali Zangemann. Sembrava una cosa 
-magica, ma in realtà tutto questo era possibile grazie al piccolo 
-computer che Zangemann aveva incorporato nei dispositivi.
+avere uno skateboard di Zangemann con incorporati gli ultimi effetti 
+sonori per poterlo mostrare ai loro amici nel cortile della scuola. 
+Molti possedevano anche i suoi pratici altoparlanti portatili che 
+riproducevano istantaneamente qualsiasi canzone si richiedesse. E, se 
+per caso fosse rimasto qualche soldo in tasca, nel pomeriggio potevano 
+mangiare un gelato mescolato automaticamente da una delle 
+macchine-mischia-gelato originali Zangemann. Sembrava una cosa magica, 
+ma in realtà tutto questo era possibile grazie al piccolo computer che 
+Zangemann aveva incorporato nei dispositivi.
 
 **
 
@@ -187,6 +192,7 @@ Queste invenzioni erano molto popolari anche alla scuola di Ada, tanti
 dei suoi amici se ne andavano in giro su quei fantastici skateboard. Ada 
 era spesso triste, perché sua mamma non poteva comprarle nessuna di 
 quelle cose: niente skateboard, niente altoparlanti, niente gelato.
+====
 
 Per fortuna Ada viveva proprio vicino ad una discarica che era ricca di 
 molte apparecchiature rotte e pezzi arrugginiti. Per gioco Ada metteva 
@@ -204,6 +210,8 @@ discarica che si dimenticò completamente degli skateboard e del gelato.
 
 #####
 
+====
+
 Dal momento che tutti compravano le sue invenzioni, Zangemann diventò 
 presto l’uomo più ricco di tutto il mondo. Con tutti i suoi soldi, 
 acquistò un enorme computer d’oro con una tastiera di pietre preziose e 
@@ -220,18 +228,22 @@ per il gelato al limone, le macchine avrebbero prodotto solo gelato al
 limone. Zangemann amava le sue invenzioni ed era sempre elettrizzato 
 ogni volta che vedeva quanto le sue macchine funzionassero alla 
 perfezione. A volte le persone erano un po’ deluse che non ci fosse il 
-proprio gusto preferito, ma che cosa avrebbero potuto farci? Al di là di 
+loro gusto preferito, ma che cosa avrebbero potuto farci? Al di là di 
 questo dettaglio, c’era comunque gelato in ogni angolo della città.
 
 **
 
 Zangemann si divertiva tantissimo a premere i pulsanti scintillanti e 
 guardare la gente mangiare il suo gelato. Ogni giorno trascorreva molte 
-ore davanti al suo computer dorato; e poi guardava giù, verso la città, 
-con un lungo cannocchiale e ammirava quanto egregiamente le sue 
+ore davanti al suo computer dorato; e poi guardava  
+giù, verso la città, con un lungo cannocchiale  
+e ammirava quanto straordinariamente le sue  
 invenzioni eseguissero i suoi comandi.
 
 #####
+
+====
+
 
 Quando non era seduto di fronte al suo computer dorato, Zangemann 
 inseriva il suo piccolo computer in nuovi dispositivi e poi li vendeva. 
@@ -250,9 +262,9 @@ fabbricati da Zangemann, il più grande inventore del mondo.
 **
 
 Un bel giorno Zangemann pensò: «Oggi voglio guardare da vicino le mie 
-invenzioni!». Mise quindi via il suo grande cannocchiale e scese le 
-scale verso la città pieno di aspettative al pensiero di ammirare le sue 
-fantastiche invenzioni.
+invenzioni!». Mise quindi via il suo grande cannocchiale e scese  
+le scale verso la città pieno di aspettative al pensiero  
+di ammirare le sue fantastiche invenzioni.
 
 #####
 
@@ -262,6 +274,7 @@ utili come quelle di una volta» pensò Zangemann. «Ma le mie macchine per
 il gelato sono e rimangono insuperabili» pensò subito dopo ammirando 
 orgogliosamente un gruppo di persone che stavano leccando il gelato al 
 cocco – la varietà del giorno.
+====
 
 Era completamente preso dai suoi pensieri quando improvvisamente – BUUM! 
 – con una forza inaudita qualcosa si schiantò contro i suoi stinchi.
@@ -284,6 +297,8 @@ in quel modo!
 
 #####
 
+====
+
 Zangemann era enormemente infuriato con i due bambini: come potevano 
 usare le sue invenzioni in modo così sbagliato? Nel bel mezzo della 
 notte, non riuscendo a dormire, si sedette davanti al suo computer 
@@ -295,13 +310,15 @@ suo umore.
 
 **
 
+====
+
 
 #####
 
-Il giorno dopo alla scuola di Ada c’era un grande fermento. Gli 
-skateboard non funzionavano più sulla strada per andare a scuola, le 
-ruote semplicemente si fermavano. E poi le casse: i bambini non potevano 
-più alzare il volume. Cosa stava succedendo?
+Il giorno dopo alla scuola di Ada c’era un gran fermento. Gli skateboard 
+non funzionavano più sul percorso per andare a scuola, le ruote 
+semplicemente si fermavano. E poi le casse: i bambini non potevano più 
+alzare il volume. Cosa stava succedendo?
 
 **
 
@@ -311,18 +328,28 @@ prima, ma non ebbe il tempo di pensarci su molto, perché si mise di
 nuovo ad armeggiare con le sue cose. Mise insieme alcune parti di tre 
 bici rotte, ne costruì una nuova, la regalò a sua mamma per andare al 
 lavoro in modo da poter risparmiare i soldi del biglietto dell’autobus. 
-Ada costruì poi una cassa per suo fratello, in modo che questi potesse 
-dormire la sera ascoltando delle belle storie, nel caso la mamma non 
-fosse ancora tornata dal lavoro.
+Ada costruì poi una cassa per suo fratello, in modo che potesse dormire 
+la sera ascoltando delle belle storie, nel caso la mamma non fosse 
+ancora tornata dal lavoro.
 
-Dopo qualche giorno, tutti si erano già dimenticati di cosa era successo 
-alla scuola di Ada. Gli skateboard non andavano più sui marciapiedi, ma 
-a parte questo funzionavano ancora. E allo stesso modo i bambini 
-giravano in tondo nel cortile della scuola, ascoltando musica 
-tranquilla. Si sentiva però solo una divertente marcetta pomposa che 
-continuava ad essere riprodotta a volume invariato: un po’ misterioso.
+Dopo qualche giorno, tutti si erano già dimenticati di  
+cos’era successo alla scuola di Ada. Gli  
+skateboard non andavano più sui  
+marciapiedi, ma a parte questo  
+funzionavano ancora. E allo  
+stesso modo i bambini giravano  
+in tondo nel cortile della scuola,  
+ascoltando musica tranquilla.  
+Si sentiva però solo una  
+marcetta pomposa che  
+continuava ad essere  
+riprodotta a volume  
+invariato: un po’  
+misterioso.
 
 #####
+
+====
 
 Il giorno preferito di Ada era il mercoledì. Ogni mercoledì la mamma 
 andava a prendere a scuola lei e Alan, e insieme andavano in biblioteca. 
@@ -356,6 +383,8 @@ di programmazione!
 
 **
 
+====
+
 
 #####
 
@@ -369,7 +398,7 @@ questa lampadina!».
 
 Certo, voleva provarlo per vedere se funzionava per davvero! Alla 
 discarica collegò il suo cellulare ad una piccola lampadina a LED, poi 
-digitò sul suo cellulare le linee del programma che aveva preparato…
+digitò sul suo cellulare le linee del programma che aveva preparato.
 
 Non accadde nulla. Ada cominciò a riflettere su dove avrebbe potuto 
 essere l’errore. Fece alcuni piccoli cambiamenti, lo provò di nuovo 
@@ -393,13 +422,15 @@ più nella pelle!
 
 #####
 
+====
+
 
 **
 
 Zangemann dormì malissimo ogni notte dopo la terribile passeggiata. 
 Quando andava a letto la sera, lo tormentavano grandi preoccupazioni: 
 «Oh no, le mie meravigliose invenzioni! Non può essere che tutti ci 
-giochino e facciano ciò che vogliono. Quante cose che potrebbero finire 
+giochino e facciano ciò che vogliono. Quante cose potrebbero finire 
 male! In ognuna di esse ci ho messo così tanta cura, fino al più piccolo 
 dettaglio». Zangemann rimuginava e rimuginava e si girava e rigirava 
 tutta la notte nel suo letto senza riuscire a dormire.
@@ -421,6 +452,8 @@ passeggiata. Stette tutto il giorno seduto di fronte al computer a
 digitare e digitare e digitare…
 
 #####
+
+====
 
 Erano già trascorse metà delle vacanze estive. Ada si trovava di fronte 
 al suo grande progetto e aveva qualche grattacapo. Da vecchi componenti, 
@@ -451,6 +484,8 @@ subito un giro al parco.
 
 **
 
+====
+
 
 #####
 
@@ -480,12 +515,15 @@ divertente.
 
 #####
 
+====
+
 Sempre più bambini andavano nel pomeriggio da Ada alla discarica, e lei 
 li aiutò a riscrivere i programmi per i loro skateboard. Alcuni erano 
 molto entusiasti di questa nuova scoperta. Che cose incredibili si 
 potevano fare con il codice del software! Volevano imparare tutto ciò 
 che Ada sapeva sui linguaggi di programmazione, e presto anche loro 
 furono in grado di andare con i loro skateboard di nuovo dove volevano.
+====
 
 Ma si poteva fare ancora di più! Con il software avrebbero potuto 
 aggiungere ai loro skateboard nuove fantastiche funzionalità. Marie mise 
@@ -509,6 +547,8 @@ Insieme cambiarono quindi anche il software degli altoparlanti. Poi
 misero la musica a palla e ballarono insieme a più non posso.
 
 #####
+
+====
 
 
 **
@@ -546,6 +586,8 @@ ogni volta veniva da sorridere.
 
 #####
 
+====
+
 Un giorno Zangemann notò che alcuni computer non rispondevano più ai 
 suoi comandi. Era terribilmente sconvolto, tanto che gli usciva il fumo 
 dalle orecchie per la rabbia. Chiamò immediatamente il Presidente e 
@@ -561,10 +603,12 @@ sarebbero stati più in grado di governare il paese. Così il parlamento
 emanò la legge, come richiesto da Zangemann:
 
 «Tutti i computer che non sono sotto il controllo di Zangemann sono 
-proibiti. Chi ha riprogrammato i dispositivi di Zangemann verrà multato 
-con 500.000 pezzi d’oro!».
+proibiti. Chi ha riprogrammato i dispositivi di Zangemann riceverà una 
+multa da 500.000 pezzi d’oro!».
 
 **
+
+====
 
 
 #####
@@ -581,6 +625,8 @@ quindi un piano…
 
 **
 
+====
+
 Il giorno dopo non andarono a scuola. Con i loro skateboard e con grandi 
 cartelli e striscioni di protesta sotto il braccio, andarono invece fino 
 al parlamento e si sedettero lì davanti. La sera prima, su alcuni 
@@ -590,8 +636,8 @@ chiunque si trovasse in strada potesse sentire quello che dicevano.
 Alcuni passanti si fermarono e chiesero ai bambini per che cosa stavano 
 protestando. «Per la libertà del software!» risposero in coro, e 
 raccontarono agli adulti la loro storia. Impressionati dalla vicenda, 
-gli adulti annuirono con la testa, e il Presidente sbirciò con curiosità 
-i loro striscioni prima di entrare nell’edificio.
+gli adulti annuirono, e il Presidente sbirciò con curiosità i loro 
+striscioni prima di entrare nell’edificio.
 
 Il giorno dopo, Ada e i suoi amici andarono di nuovo di fronte al 
 parlamento. Questa volta con ulteriore sostegno: c’erano anche alcuni 
@@ -611,15 +657,14 @@ maestra di matematica. Il numero di manifestanti diventò sempre più
 grande e, dopo alcune settimane, la protesta non era limitata solo alla 
 città di Ada: no, adesso si protestava ovunque nel Paese.
 
-
-Fai i tuoi compiti signor Presidente che noi facciamo i nostri!
+## Fai i tuoi compiti signor Presidente che noi facciamo i nostri!
 
 **
 
 
-Sono giovani + hanno bisogno del codice!
+## Sono giovani + hanno bisogno del codice!
 
-Senza codice è tutto sciocco!    OPPURE   Vogliamo il codice libero!
+## Senza codice è tutto sciocco!    OPPURE   Vogliamo il codice libero!
 
 #####
 
@@ -638,6 +683,7 @@ cosa fosse permesso fare con i propri computer e cosa no. Ma non sapeva
 nulla di computer e di codice e quindi aveva sempre lasciato la gestione 
 a Zangemann. Assorto da questi pensieri, il Presidente entrò quindi in 
 parlamento.
+====
 
 Il giorno dopo il Presidente invitò Ada e i suoi amici ad entrare. 
 «Anche noi vorremmo essere in grado di gestire il nostro software. Ma 
@@ -671,16 +717,22 @@ riunione insieme ad Ada, Toni, Marie, Conrad e agli esperti del
 governo.
 
 Durante i giorni successivi, discussero da mattina fino a tarda sera e 
-progettarono i primi programmi per i computer del governo. Non erano più 
-disturbati dalle telefonate di Zangemann, perché Toni ebbe la magnifica 
-idea di riprogrammare i telefoni. Quando Zangemann chiamava, veniva 
-riprodotto un annuncio automatico: «Il governo vuole utilizzare solo 
-software che può liberamente usare, studiare, condividere e migliorare. 
-Grazie per aver chiamato».
+progettarono i primi programmi per i computer del governo.  
+Non erano più disturbati dalle telefonate di Zangemann,  
+perché Toni ebbe la magnifica idea di  
+riprogrammare i telefoni. Quando  
+Zangemann chiamava, veniva  
+riprodotto un annuncio automatico:  
+«Il governo vuole utilizzare solo  
+software che può liberamente  
+usare, studiare, condividere e  
+migliorare. Grazie per aver chiamato».
+====
 
-Infine, dopo molte settimane di proteste e di discussioni, era giunto 
-finalmente il momento: il parlamento abolì la vecchia legge di 
-Zangemann! Fu invece proclamato:
+Infine, dopo molte settimane di proteste  
+e di discussioni, era giunto finalmente  
+il momento: il parlamento abolì la vecchia  
+legge di Zangemann! Fu invece proclamato:
 
 **
 
@@ -691,6 +743,8 @@ Venne inoltre introdotta una nuova materia scolastica: computer e
 programmazione.
 
 #####
+
+====
 
 La sera stessa, tutti fecero una grande festa insieme. Ada, Alan, Toni, 
 Marie, Conrad, gli altri bambini della scuola e i loro genitori, il 
@@ -708,6 +762,8 @@ volevano mettersi subito al lavoro.
 
 #####
 
+====
+
 E Zangemann? Nessuno l’ha più sentito. Forse è ancora infuriato nella 
 sua enorme villa e sta seduto tutto arrabbiato davanti al suo computer 
 dorato. Forse non osa più uscire in strada e ha barricato tutte le 
@@ -720,6 +776,8 @@ lì a leccarsi un gelato al lampone a forma di piramide con sopra una
 spolverata di codette arcobaleno.
 
 **
+
+=====
 
 
 #####
@@ -742,9 +800,10 @@ alle molte persone del movimento del Software Libero, da cui mi è stato
 permesso di imparare e il cui impegno mi ha motivato.
 
 Per l’edizione italiana, vorrei ringraziare Francesca e Luca per aver 
-tradotto il libro utilizzando il proprio tempo libero, e ancora un 
-grande grazie a Luca per aver strutturato e per mantenere il repository 
-git del libro.
+tradotto il libro utilizzando il proprio tempo libero, Emma e Greta per 
+aver “testato” la traduzione e per i suggerimenti sui miglioramenti da 
+apportare, e ancora un grande grazie a Luca per aver strutturato e per 
+mantenere il repository git del libro.
 
 Grazie alla mia famiglia, che mi ha permesso di scrivere presto la 
 mattina, tardi la sera e in vacanza, e che sostiene sempre anche il mio 
@@ -763,10 +822,11 @@ Matthias Kirschner
 
 Matthias è sempre stato affascinato dai computer e dal software fin da 
 bambino. Ha avuto una connessione Internet già agli albori da cui ha 
-imparato molto. I bambini hanno il diritto di portare il loro futuro 
-nello loro mani. Pertanto, Matthias si impegna affinché tutte le persone 
-possano utilizzare il software in modo autodeterminato. Vorrebbe anche 
-costruire uno skateboard elettrico con il Software Libero.
+imparato molto.  
+I bambini hanno il diritto di portare il loro futuro nelle loro mani. 
+Pertanto, Matthias si impegna affinché tutte le persone possano 
+utilizzare il software in modo autodeterminato. Vorrebbe anche costruire 
+uno skateboard elettrico con il Software Libero.
 
 **
 
@@ -792,24 +852,24 @@ dà alle persone i mezzi per controllare la tecnologia. Il software è
 presente in tutti gli ambiti della nostra vita. È per questo che è 
 importante che questa tecnologia ci dia libertà anziché limitarci. Il 
 Software Libero (chiamato anche Open Source) dà a tutti il diritto di 
-utilizzare, comprendere, condividere e migliorare i programmi. Il 
-Software Libero aiuta quindi a sostenere altri diritti fondamentali come 
-la libertà di parola, la libertà di stampa e la privacy.
+utilizzare, studiare, condividere e migliorare i programmi. Il Software 
+Libero aiuta quindi a sostenere altri diritti fondamentali come la 
+libertà di parola, la libertà di stampa e la privacy.
 
-Nel sito web del libro troverete maggiori informazioni e materiale: 
-https://ada.fsfe.org
+Nel sito web del libro troverete maggiori informazioni e altro 
+materiale: https://ada.fsfe.org
 
 **
 
 Licenza
 
 
-Il libro “Ada & Zangemann - Ein Märchen über Software, Skateboards und 
-Himbeereis” di Matthias Kirschner e Sandra Brandstätter, pubblicato da 
-dpunkt.verlag GmbH, è dato con la licenza "Creative Commons 
-Attribution-Share Alike 4.0 International (CC BY-SA 4.0)".
+Il libro “Ada & Zangemann – Una fiaba che parla di software, skateboard 
+e gelato al lampone” di Matthias Kirschner e Sandra Brandstätter, 
+pubblicato da dpunkt.verlag GmbH, è dato con la licenza "Creative 
+Commons Attribution-Share Alike 4.0 International (CC BY-SA 4.0)".
 
-https://creativecommons.org/licenses/by-sa/4.0/
+https://creativecommons.org/licenses/by-sa/4.0/deed.it
 
 #####
 

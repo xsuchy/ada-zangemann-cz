@@ -1,6 +1,6 @@
-# SPDX-FileCopyrightText: 2021 Matthias Kirschner
+# SPDX-FileCopyrightText: 2021-2023 Matthias Kirschner
 #
-# SPDX-License-Identifier: CC-BY-SA-3.0-DE
+# SPDX-License-Identifier: CC-BY-SA-4.0
 
 # ADA & ZANGEMANN
 
@@ -20,7 +20,7 @@ mondo era abbastanza grande per poterci scrivere l’ammontare del suo
 conto in banca, con tutti i numeri e gli zeri. Viveva in una grande casa 
 con piscina e scivoli d’acqua, un sacco di scale e torri, centinaia di 
 finestre e così tante stanze che lui stesso vi si perdeva 
-sistematicamente. La villa di Zangemann era in alto su una collina, da 
+frequentemente. La villa di Zangemann era in alto su una collina, da 
 dove poteva vedere tutta la città.
 
 <!-- Change Page -->
@@ -56,15 +56,15 @@ computer in tutti i tipi di dispositivi per renderli ancora più
 divertenti e utili. E poi vendette le sue invenzioni.
 
 Grandi e piccini amavano le sue invenzioni. Tutti i bambini volevano 
-avere uno skateboard di Zangemann con incorporato l’ultimo rombo per 
-poterlo mostrare ai loro amici nel cortile della scuola, molti 
-possedevano anche i suoi pratici altoparlanti portatili che 
-riproducevano istantaneamente qualsiasi canzone si fosse in grado di 
-nominare. E, se per caso fosse rimasto qualche soldo in tasca, nel 
-pomeriggio potevano mangiare un gelato mescolato automaticamente da una 
-delle macchine-mischia-gelato originali Zangemann. Sembrava una cosa 
-magica, ma in realtà tutto questo era possibile grazie al piccolo 
-computer che Zangemann aveva incorporato nei dispositivi.
+avere uno skateboard di Zangemann con incorporati gli ultimi effetti 
+sonori per poterlo mostrare ai loro amici nel cortile della scuola. 
+Molti possedevano anche i suoi pratici altoparlanti portatili che 
+riproducevano istantaneamente qualsiasi canzone si richiedesse. E, se 
+per caso fosse rimasto qualche soldo in tasca, nel pomeriggio potevano 
+mangiare un gelato mescolato automaticamente da una delle 
+macchine-mischia-gelato originali Zangemann. Sembrava una cosa magica, 
+ma in realtà tutto questo era possibile grazie al piccolo computer che 
+Zangemann aveva incorporato nei dispositivi.
 
 Queste invenzioni erano molto popolari anche alla scuola di Ada, tanti 
 dei suoi amici se ne andavano in giro su quei fantastici skateboard. Ada 
@@ -105,13 +105,13 @@ per il gelato al limone, le macchine avrebbero prodotto solo gelato al
 limone. Zangemann amava le sue invenzioni ed era sempre elettrizzato 
 ogni volta che vedeva quanto le sue macchine funzionassero alla 
 perfezione. A volte le persone erano un po’ deluse che non ci fosse il 
-proprio gusto preferito, ma che cosa avrebbero potuto farci? Al di là di 
+loro gusto preferito, ma che cosa avrebbero potuto farci? Al di là di 
 questo dettaglio, c’era comunque gelato in ogni angolo della città.
 
 Zangemann si divertiva tantissimo a premere i pulsanti scintillanti e 
 guardare la gente mangiare il suo gelato. Ogni giorno trascorreva molte 
 ore davanti al suo computer dorato; e poi guardava giù, verso la città, 
-con un lungo cannocchiale e ammirava quanto egregiamente le sue 
+con un lungo cannocchiale e ammirava quanto straordinariamente le sue 
 invenzioni eseguissero i suoi comandi.
 
 <!-- Change Page -->
@@ -174,10 +174,10 @@ suo umore.
 
 <!-- Change Page -->
 
-Il giorno dopo alla scuola di Ada c’era un grande fermento. Gli 
-skateboard non funzionavano più sulla strada per andare a scuola, le 
-ruote semplicemente si fermavano. E poi le casse: i bambini non potevano 
-più alzare il volume. Cosa stava succedendo?
+Il giorno dopo alla scuola di Ada c’era un gran fermento. Gli skateboard 
+non funzionavano più sul percorso per andare a scuola, le ruote 
+semplicemente si fermavano. E poi le casse: i bambini non potevano più 
+alzare il volume. Cosa stava succedendo?
 
 Anche se non aveva nessuna di queste cose, Ada si chiese come mai gli 
 skateboard e gli altoparlanti improvvisamente non funzionavano più come 
@@ -185,16 +185,16 @@ prima, ma non ebbe il tempo di pensarci su molto, perché si mise di
 nuovo ad armeggiare con le sue cose. Mise insieme alcune parti di tre 
 bici rotte, ne costruì una nuova, la regalò a sua mamma per andare al 
 lavoro in modo da poter risparmiare i soldi del biglietto dell’autobus. 
-Ada costruì poi una cassa per suo fratello, in modo che questi potesse 
-dormire la sera ascoltando delle belle storie, nel caso la mamma non 
-fosse ancora tornata dal lavoro.
+Ada costruì poi una cassa per suo fratello, in modo che potesse dormire 
+la sera ascoltando delle belle storie, nel caso la mamma non fosse 
+ancora tornata dal lavoro.
 
-Dopo qualche giorno, tutti si erano già dimenticati di cosa era successo 
+Dopo qualche giorno, tutti si erano già dimenticati di cos’era successo 
 alla scuola di Ada. Gli skateboard non andavano più sui marciapiedi, ma 
 a parte questo funzionavano ancora. E allo stesso modo i bambini 
 giravano in tondo nel cortile della scuola, ascoltando musica 
-tranquilla. Si sentiva però solo una divertente marcetta pomposa che 
-continuava ad essere riprodotta a volume invariato: un po’ misterioso.
+tranquilla. Si sentiva però solo una marcetta pomposa che continuava ad 
+essere riprodotta a volume invariato: un po’ misterioso.
 
 <!-- Change Page -->
 
@@ -240,7 +240,7 @@ questa lampadina!».
 
 Certo, voleva provarlo per vedere se funzionava per davvero! Alla 
 discarica collegò il suo cellulare ad una piccola lampadina a LED, poi 
-digitò sul suo cellulare le linee del programma che aveva preparato…
+digitò sul suo cellulare le linee del programma che aveva preparato.
 
 Non accadde nulla. Ada cominciò a riflettere su dove avrebbe potuto 
 essere l’errore. Fece alcuni piccoli cambiamenti, lo provò di nuovo 
@@ -265,7 +265,7 @@ più nella pelle!
 Zangemann dormì malissimo ogni notte dopo la terribile passeggiata. 
 Quando andava a letto la sera, lo tormentavano grandi preoccupazioni: 
 «Oh no, le mie meravigliose invenzioni! Non può essere che tutti ci 
-giochino e facciano ciò che vogliono. Quante cose che potrebbero finire 
+giochino e facciano ciò che vogliono. Quante cose potrebbero finire 
 male! In ognuna di esse ci ho messo così tanta cura, fino al più piccolo 
 dettaglio». Zangemann rimuginava e rimuginava e si girava e rigirava 
 tutta la notte nel suo letto senza riuscire a dormire.
@@ -412,8 +412,8 @@ sarebbero stati più in grado di governare il paese. Così il parlamento
 emanò la legge, come richiesto da Zangemann:
 
 «Tutti i computer che non sono sotto il controllo di Zangemann sono 
-proibiti. Chi ha riprogrammato i dispositivi di Zangemann verrà multato 
-con 500.000 pezzi d’oro!».
+proibiti. Chi ha riprogrammato i dispositivi di Zangemann riceverà una 
+multa da 500.000 pezzi d’oro!».
 
 <!-- Change Page -->
 
@@ -436,12 +436,10 @@ cartelli avevano attaccato delle luci LED, che ora lampeggiavano
 vivacemente. Avevano collegato assieme le loro casse, in modo che 
 chiunque si trovasse in strada potesse sentire quello che dicevano. 
 Alcuni passanti si fermarono e chiesero ai bambini per che cosa stavano 
-protestando.
-
-«Per la libertà del software!» risposero in coro, e raccontarono agli 
-adulti la loro storia. Impressionati dalla vicenda, gli adulti annuirono 
-con la testa, e il Presidente sbirciò con curiosità i loro striscioni 
-prima di entrare nell’edificio.
+protestando. «Per la libertà del software!» risposero in coro, e 
+raccontarono agli adulti la loro storia. Impressionati dalla vicenda, 
+gli adulti annuirono, e il Presidente sbirciò con curiosità i loro 
+striscioni prima di entrare nell’edificio.
 
 Il giorno dopo, Ada e i suoi amici andarono di nuovo di fronte al 
 parlamento. Questa volta con ulteriore sostegno: c’erano anche alcuni 
