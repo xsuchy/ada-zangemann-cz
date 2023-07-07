@@ -38,36 +38,41 @@ community translations.
     Skateboards und Himbeereis"
   * The initials on some of the pages (we can provide them for the Latin
     alphabet)
-  * On 37-38 there is the demonstration, for the English version we are
-    working on we changed the text for "Ohne Code ist alles doof" and
-    "Sie sind jung + brauchen den Code!" and pencilled this again. We
+  * On page 40-41 there is the demonstration, for the English version we 
+    we changed the text for "Ohne Code ist alles doof" ("Don't wreck our 
+    tech") and "Sie sind jung + brauchen den Code!" ("They are young + 
+    they need the Code!") and pencilled this again. We
     recommend that your designer exchanges those with the slogans being
     used in your translation -- else you can also use the English
     version.
   * The headlines "Danksagung des Autors" + "Über den Author Matthias
     Kirschner" + "Über die Illustratorin Sandra Brandstätter" +
-    "Webseite zum Buch" + "Lizenz" are handwritten. For the Ukrainian
+    "Webseite zum Buch" + "Lizenz" are handwritten but based on the
+    font "Amatic SC". For the Ukrainian
     version they found a similar font for that. 
 
 * For the illustrations you can change the following:
-  * Page 42+43 - the left banner (two children), right button banner
+  * Page 40+41 - the left banner (two children), right button banner
     (Ada), and top right (grandma) can be translated, the others are
     more difficult and we recommend to keep them to also show that it is
     not just a protest in the local language.
-  * Page 34 - "Burp" can stay, or can be changed to local language
+  * Page 32 - "Burp" can stay, or can be changed to local language
 
 * We would advise to keep the following English text in the
   illustrations:
-  * Page 7 - richest man, can stay in EN (it is in an international magazine)
-  * Page 23 - programming, can stay in EN
-  * Page 44 - Ring ring, can stay    
+  * Page 5 - richest man, can stay in EN (it is in an international magazine)
+  * Page 21 - programming, can stay in EN
+  * Page 43 - Ring ring, can stay    
 
 * All fonts being used should be under a free cultural font license.
   E.g. the Open Font License so it is in line with CC-BY-SA of the book. 
 
 * Right to Left (mirror illustrations)
-  * But make sure that writing still works out (e.g. the "Z" Zangemann
-    logo, or the "Ring" with the phone or "Burp" with the skateboard.
+  * Keep all illustrations mirrored (already available in git repo),
+    but make sure that writing still works out (e.g. the "Z" Zangemann
+    logo), except the following ones:
+    * Page 5 - magazines
+    * Page 21 - programming
 
 * "Z": In the war against Ukraine the Russian army is using a "Z" sign
   on military vehicles. The "Z" is quite different to the "Z"-logo of

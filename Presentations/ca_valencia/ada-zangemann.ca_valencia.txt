@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2022-2023 Matthias Kirschner
+# SPDX-FileCopyrightText: 2021-2023 Matthias Kirschner
 #
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
@@ -65,7 +65,7 @@ fantàstiques: ni monopatí, ni altaveu, ni gelat.
 
 
 Per sort, Ada vivia al costat de l’abocador de ferralla. Hi havia molts 
-aparells trencats i peces oxidades que podia ajuntar per a crear noves 
+aparells trencats i peces rovellades que podia ajuntar per a crear noves 
 coses genials, com una carreta que ella i Alan conduïen corrent muntanya 
 avall, un molí de vent, i monstres esgarrifosos de ferralla contra els 
 quals lluitaven junts. Ada també hi trobava molts objectes útils —un 
@@ -93,7 +93,7 @@ funcionaven les seues màquines. A voltes la gent es sentia decebuda
 perquè el seu gelat favorit no estava disponible, però què podien fer? 
 Al cap i a la fi, hi havia gelat a cada cantonada.
 
-Zangeman es divertia molt polsant les brillants tecles i veient com la 
+Zangeman es divertia molt polsant les tecles brillants i veient com la 
 gent menjava gelat. Passava moltes hores cada dia fent açò davant del 
 seu ordinador d’or. Cada dos per tres observava la ciutat amb un llarg 
 telescopi, vigilant si els seus invents complien fidelment les seues 
@@ -217,7 +217,7 @@ bombeta LED menuda. I aleshores va escriure les línies de codi al seu
 mòbil.
 
 Primer no va ocórrer res. Ada es preguntava on estaria l’error. Va fer 
-uns xicotets canvis i tornà a provar… «Síii!» La bombeta començà a 
+uns canvis xicotets i tornà a provar… «Síii!» La bombeta començà a 
 parpellejar. Encesa, apagada, encesa, apagada. Ada es mirava el LED 
 sorpresa. Havia escrit el seu primer programa!
 
@@ -245,7 +245,7 @@ a escriure un programa rere l’altre. En ells, especificava què havien o
 no de fer els seus invents exactament sota cada circumstància. Calia 
 parar aquell caos!
 
-Quan va acabar, va enviar tots els nous programes des del seu ordinador 
+Quan va acabar, va enviar tots els programes nous des del seu ordinador 
 d’or als aparells de la gent. Va ordenar als seus altaveus que només 
 tocaren la seua música favorita quan ell estiguera a prop. Va programar 
 les màquines de gelat per a deixar de vendre gelat per la vesprada. Ben 
@@ -296,7 +296,7 @@ del seu company Toni. Va treballar en secret durant quasi tota la nit, i
 al dia següent, Toni tornava a poder circular per la vorera. Per 
 desgràcia, el seu monopatí ja no podia fer els sons que sos pares havien 
 comprat de Zangemann. En canvi, cada 10 minuts feia un soroll estrany 
-que sonava com un rot llarguíssim. Ada sabia que xicotets errors com 
+que sonava com un rot llarguíssim. Ada sabia que errors xicotets com 
 aquell podien ocórrer tothora en els programes. Però el monopatí de 
 Toni, amb els seus rots, era prou divertit al remat.
 
