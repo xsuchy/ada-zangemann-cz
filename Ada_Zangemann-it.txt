@@ -12,9 +12,16 @@ ZANGEMANN
 Una fiaba che parla di software, skateboard e gelato al lampone
 
 
+Autore: Matthias Kirschner
+Illustratrice: Sandra Brandstätter
+
+ADA & ZANGEMANN – Una fiaba che parla di software, skateboard e gelato 
+al lampone
+
 Questo libro è una traduzione dell’originale in tedesco e viene 
-pubblicato con la licenza Creative Commons CC-BY-SA 4.0, una licenza 
-culturale libera.
+pubblicato con la licenza Creative Commons CC-BY-SA 4.0 International, 
+una licenza culturale libera.
+
 Puoi condividere, riprodurre, distribuire, comunicare al pubblico, 
 esporre in pubblico, rappresentare, eseguire e recitare questo materiale 
 con qualsiasi mezzo e formato. Puoi modificare, remixare, trasformare il 
@@ -34,84 +41,40 @@ brevi biografie dell’autore e dell’illustratrice, o piuttosto eliminare
 completamente queste parti dalla versione remixata.
 
 La pubblicazione con una licenza culturale libera è stata possibile 
-grazie al grande sostegno di dpunkt.verlag GmbH / O'Reilly. Purtroppo le 
+grazie al grande sostegno di dpunkt.verlag GmbH / O'Reilly per il libro 
+in tedesco e di No Starch Press per l’edizione in inglese. Purtroppo le 
 licenze Creative Commons licenses sono ancora rare eccezioni nel mondo 
 delle pubblicazioni commerciali, e spesso sono considerate 
 rivoluzionarie e rischiose dagli editori.
 
-Un immenso grazie a dpunkt.verlag per aver compreso i valori della 
-libertà del software, aver dedicato del tempo per discutere e capire i 
-vantaggi delle licenze culturali libere, e per il grande sostegno nel 
-pubblicare questo libro con condizioni che rispettano i valori della 
-FSFE.
+Un immenso grazie a dpunkt.verlag e a No Stach Press per aver compreso i 
+valori della libertà del software, aver dedicato del tempo per discutere 
+e capire i vantaggi delle licenze culturali libere, e per il grande 
+sostegno nel pubblicare questo libro con condizioni che rispettano i 
+valori della FSFE.
 
 
 Libero come libertà, non gratis
-Il Software Libero riguarda la libertà che ricevi con il software, non 
-riguarda il prezzo. Allo stesso modo, pubblicare un libro con una 
-licenza culturale libera non significa avere il diritto di ottenere una 
-copia gratis del libro e dell’ebook. Significa invece avere i diritti 
-sopra descritti, che permette alla società di beneficiare ulteriormente 
-da esso, come dovrebbe essere per tutta la cultura.
+Il Software Libero riguarda le libertà che ricevi con il software, non 
+il prezzo. Allo stesso modo, pubblicare un libro con una licenza 
+culturale libera non significa avere il diritto di ottenere una copia 
+gratis del libro e dell’ebook. Significa invece avere i diritti sopra 
+descritti, che permette alla società di beneficiare ulteriormente da 
+esso, come dovrebbe essere per tutta la cultura.
 
 Ti incoraggiamo a sostenere autori, editori e altri coinvolti nella 
-creazione della cultura con licenze libere, con anche un sostegno 
+creazione della cultura con licenze libere, anche con un sostegno 
 finanziario attraverso l’acquisto o una donazione. La società dovrebbe 
 sostenere chi rispetta la libertà degli altri.
 
 #####
 
-Autore: Matthias Kirschner
-Illustratrice: Sandra Brandstätter
 
-Editore: Wiebke Helmchen e Ariane Hesse
-Correzione della bozza: Sibylle Feldmann, www.richtiger-text.de
-Impaginazione: Veronika Schnabel
-Design della copertina: Sandra Brandstätter e Veronika Schnabel
-Assistenza colori: Olga Biryukova, Noémi Sárkány, Nathalie Scattolon, 
-Kristina Haidinger, Jasmin Schlögl
-Produzione: Stefanie Weidner, Frank Heidt
-Stampa e rilegatura: Grafisches Centrum Cuno GmbH & Co. KG, 39240 Calbe 
-(Saale)
 
-Informazioni bibliografiche della Biblioteca Nazionale Tedesca
-La Biblioteca Nazionale Tedesca elenca questa pubblicazione nella 
-Bibliografia Nazionale Tedesca; i dati bibliografici dettagliati sono 
-disponibili su Internet via http://dnb.d-nb.de abrufbar.
-
-ISBN (Libro in tedesco):
-Stampa 978-3-96009-190-5
-PDF 978-3-96010-628-9
-
-1. Auflage 2022
-© 2022 dpunkt.verlag GmbH
-Wieblinger Weg 17
-69123 Heidelberg
 
 Questo libro per bambini è pubblicato con licenza Creative Commons CC 
 BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/deed.it
 
-Il libro originale in tedesco appare in collaborazione con O’Reilly 
-Media, inc. sotto il marchio “O’REILLY”. O’REILLY è un marchio e un 
-marchio registrato di O’Reilly Media, inc. ed è utilizzato con il 
-consenso del proprietario.
-
-Nota:
-Per il bene dell’ambiente, non viene utilizzato l’involucro 
-termoretraibile.
-
-Scrivici:
-Se hai suggerimenti, richieste o commenti, puoi scriverci a: 
-kommentar@oreilly.de.
-
-5 4 3 2 1 0
-
-
-Per il libro originale in tedesco – come anche per molti altri libri 
-O’Reilly – puoi anche scaricare il corrispettivo e-book in formato PDF. 
-Semplicemente iscriviti a oreilly.plus+:
-
-www.oreilly.plus
 
 **
 
@@ -415,7 +378,7 @@ automaticamente mezz’ora dopo che lui fosse andato a dormire.
 
 **
 
-Ada ebbe anche un’idea per il prossimo programma che avrebbe scritto. 
+Ada ebbe anche un’idea per il prossimo programma che avrebbe scritto.  
 Era una cosa più impegnativa, un vero progetto. Probabilmente avrebbe 
 avuto bisogno di tutte le vacanze estive per realizzarlo… ma non stava 
 più nella pelle!
@@ -620,7 +583,7 @@ nessuno di portarceli via!».
 
 Si incontrarono davanti ad una delle macchine per il gelato che erano 
 state modificate da loro e discussero della situazione. Era chiaro che 
-qualcosa doveva essere fatto contro la nuova legge, ed elaborarono 
+qualcosa doveva essere fatto contro la nuova legge, ed escogitarono 
 quindi un piano…
 
 **
@@ -770,10 +733,11 @@ dorato. Forse non osa più uscire in strada e ha barricato tutte le
 finestre della sua casa così da non doversi preoccupare di ciò che viene 
 fatto con le sue invenzioni. Ma, magari, qualche volta guarda ancora il 
 mondo attraverso il suo lungo cannocchiale per vedere ciò che i bambini 
-inventano di nuovo ogni giorno. Forse si ricorderà di quanto si sia 
-divertito quando smanettava e sperimentava. E forse, ma solo forse, sarà 
-lì a leccarsi un gelato al lampone a forma di piramide con sopra una 
-spolverata di codette arcobaleno.
+inventano di nuovo ogni giorno.  
+Forse si ricorderà di quanto si sia divertito quando smanettava e 
+sperimentava.  
+E forse, ma solo forse, sarà lì a leccarsi un gelato al lampone a forma 
+di piramide con sopra una spolverata di codette arcobaleno.
 
 **
 
@@ -837,10 +801,10 @@ Sandra Brandstätter
 Sandra ha sempre apprezzato il maneggiare con forbici, pinze, colla, 
 filo, tessuto e carta. Oggi lavora come illustratrice, autrice comica e 
 designer di personaggi per film e serie animate, per esempio per la 
-serie “Trudes Tier” (Spettacolo con il topolino). Da una macchina per il 
-gelato, Sandra prenderebbe un cremoso gelato arcobaleno al gusto di 
-cetriolo limone e con un sacco, ma proprio un sacco, di granelle di 
-zucchero.
+serie “Trudes Tier” (Spettacolo con il topolino).  
+Da una macchina per il gelato, Sandra prenderebbe un cremoso gelato 
+arcobaleno al gusto di cetriolo limone e con un sacco, ma proprio un 
+sacco, di granelle di zucchero.
 
 #####
 
@@ -849,15 +813,16 @@ Sito web del libro
 
 La Free Software Foundation Europe e.V. è un’associazione benefica che 
 dà alle persone i mezzi per controllare la tecnologia. Il software è 
-presente in tutti gli ambiti della nostra vita. È per questo che è 
-importante che questa tecnologia ci dia libertà anziché limitarci. Il 
-Software Libero (chiamato anche Open Source) dà a tutti il diritto di 
-utilizzare, studiare, condividere e migliorare i programmi. Il Software 
-Libero aiuta quindi a sostenere altri diritti fondamentali come la 
-libertà di parola, la libertà di stampa e la privacy.
+presente in tutti gli ambiti della nostra vita. Per questo è importante 
+che questa tecnologia ci dia libertà anziché limitarci. Il Software 
+Libero (chiamato anche Open Source) dà a tutti il diritto di utilizzare, 
+studiare, condividere e migliorare i programmi. Il Software Libero aiuta 
+quindi a sostenere altri diritti fondamentali come la libertà di parola, 
+la libertà di stampa e la privacy.
 
 Nel sito web del libro troverete maggiori informazioni e altro 
-materiale: https://ada.fsfe.org
+materiale:  
+https://ada.fsfe.org
 
 **
 
@@ -865,9 +830,9 @@ Licenza
 
 
 Il libro “Ada & Zangemann – Una fiaba che parla di software, skateboard 
-e gelato al lampone” di Matthias Kirschner e Sandra Brandstätter, 
-pubblicato da dpunkt.verlag GmbH, è dato con la licenza "Creative 
-Commons Attribution-Share Alike 4.0 International (CC BY-SA 4.0)".
+e gelato al lampone” di Matthias Kirschner e Sandra Brandstätter è dato 
+con la licenza "Creative Commons Attribution-Share Alike 4.0 
+International (CC BY-SA 4.0)".
 
 https://creativecommons.org/licenses/by-sa/4.0/deed.it
 
@@ -876,7 +841,8 @@ https://creativecommons.org/licenses/by-sa/4.0/deed.it
 Metti dei gusti deliziosi, divertenti o pazzeschi e disegnali sui coni 
 di gelato.
 Ulteriori modelli per colorare e informazioni sul libro si possono 
-trovare su https://ada.fsfe.org.
+trovare su  
+https://ada.fsfe.org.
 
 **
 
