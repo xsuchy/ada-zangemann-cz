@@ -78,14 +78,10 @@ language, then please [reach out to us](https://fsfe.org/about/contact).
 The printed version as well as ebooks of the book are currently
 available:
 
-* In English by No Starch Press. You can order the hardcover [directly
-  from No Starch Press](https://nostarch.com/ada-zangemann), get 25% off
-  with the coupon code "Hacking4Freedom", receive the DRM free ebook
-  now, and get the book sent from the US now. If you live outside the US
-  there are other options: you should be able to pre-order the book from
-  local book stores worldwide, so the book does not have to be shipped
-  from the US. Those book stores should then be able to ship the book
-  from ~August 2023 onwards.
+* In English by No Starch Press. You can order it at any book store, or
+  [directly from No Starch Press](https://nostarch.com/ada-zangemann),
+  get 25% off with the coupon code "Hacking4Freedom", and receive the
+  DRM free ebook. 
 
 * In German by dpunkt.verlag GmbH under the O'Reilly imprint. You can
   order it at any book store, or with this affiliate link [directly from
