@@ -53,7 +53,7 @@ Børn og voksne elskede hans opfindelser. Alle børnene ville have et af hans sk
 
 Opfindelserne var også meget populære på Adas skole. Mange af hendes venner kørte rundt på de seje skateboards. Ada var tit ked af det, fordi hendes mor ikke havde råd til nogen af de fantastiske ting: Hverken skateboard, højtalere eller is.
 ====
-Heldigvis boede Ada lige ved siden af lossepladsen. Der var masser af ødelagte apparater og rustne reservedele, som hun byggede seje ting med: en sæbekassebil, som hun og lillebror Alan kørte ned af bakken i, en vindmølle og nogle uhyggelige skraldemonstre, som hun og Alan kunne slås mod.  Hun fandt også mange ting, der stadig fungerede: En gammel mobiltelefon, for eksempel. Skærmen var smadret, men det kunne hun ordne. Der var godt nok ikke noget internet på lossepladsen, men det kunne hun få adgang til andre steder.
+Heldigvis boede Ada lige ved siden af lossepladsen. Der var masser af ødelagte apparater og rustne reservedele, som hun byggede seje ting med: en sæbekassebil, som hun og lillebror Alan kørte ned af bakken i, en vindmølle og nogle uhyggelige skraldemonstre, som hun og Alan kunne slås mod. Hun fandt også mange ting, der stadig fungerede: En gammel mobiltelefon, for eksempel. Skærmen var smadret, men det kunne hun ordne. Der var godt nok ikke noget internet på lossepladsen, men det kunne hun få adgang til andre steder.
 
 Ada havde det så sjovt med at makke på lossepladsen og fikse ødelagte ting, at hun glemte alt om skateboardene og isen.
 
@@ -128,7 +128,7 @@ undrede sig noget over.
 ====
 [A]das yndlingsdag var onsdag. Hver onsdag kom hendes mor og Alan og   
 hentede hende fra skolen, og så gik de alle tre på biblioteket sammen.  
-Ada gik altid direkte over i teknikafdelingen. Der stod der bøger med arbejdstegninger, instruktioner og eksperimenter og forklaringer på, hvordan forskellige apparater virkede.  På biblioteket kunne Ada også komme online med sin mobiltelefon. Hun fandt snart ud af, at der også var meget at gå på opdagelse i på internettet. Der var masser af mennesker, der delte deres ideer og reparationsfif med andre.
+Ada gik altid direkte over i teknikafdelingen. Der stod der bøger med arbejdstegninger, instruktioner og eksperimenter og forklaringer på, hvordan forskellige apparater virkede. På biblioteket kunne Ada også komme online med sin mobiltelefon. Hun fandt snart ud af, at der også var meget at gå på opdagelse i på internettet. Der var masser af mennesker, der delte deres ideer og reparationsfif med andre.
 
 Det var sådan en onsdag eftermiddag, at Ada lærte to nye ord: “hardware” og “software”. “Hardware” var et ord for noget Ada allerede kendte godt. Det var de elektroniske apparater, som hun kunne holde i sine hænder og prøve at reparere eller bygge nye ting med. Ordet “software” var til gengæld helt nyt for hende. Hun fandt snart ud af, at det betød “de instruktioner, som kører på en computer og lader den styre andre computere eller apparater”. Nogle bøger kaldte softwareinstruktionerne for “programmer” eller “kode”. Med sådan et computerprogram kunne man for eksempel fortælle en højtaler, hvilken sang den skulle spille og hvor højt den skulle gøre det.
 
@@ -142,15 +142,15 @@ Det bedste ved Adas nye opdagelse var, at hun fandt ud af, at hun kunne makke me
 og hjemmesider, der forklarede, hvordan programmeringssprog og kode   
 virkede. Ada havde det lidt, som om hun var ved at lære et hemmeligt sprog eller studerede grammatik i skolen. Hun slugte det hele. Hendes første program skulle gøre en simpel ting: “Få denne lampe til at blinke!”
 
-Hun havde selvfølgelig lyst til at prøve sit program af med det samme for at se, om det virkelig virkede. På lossepladsen forbandt hun sin mobiltelefon til en lille LED-pære.  Så skrev hun den programkode, som hun havde noteret ned, ind på mobiltelefonen.
+Hun havde selvfølgelig lyst til at prøve sit program af med det samme for at se, om det virkelig virkede. På lossepladsen forbandt hun sin mobiltelefon til en lille LED-pære. Så skrev hun den programkode, som hun havde noteret ned, ind på mobiltelefonen.
 
-Først skete der ikke noget. Ada undrede sig over, hvor fejlen kunne være.  Hun lavede et par små forandringer og... “Jaaaaa!”. Den lille pære begyndte at blinke. Tændt, slukket, tændt, slukket. Ada så begejstret på LED-pæren. Hun havde skrevet sit første program!
+Først skete der ikke noget. Ada undrede sig over, hvor fejlen kunne være. Hun lavede et par små forandringer og... “Jaaaaa!”. Den lille pære begyndte at blinke. Tændt, slukket, tændt, slukket. Ada så begejstret på LED-pæren. Hun havde skrevet sit første program!
 
 Ada var helt oppe at køre. Hun forestillede sig alle de fantastiske ting, hun kunne gøre. Hvis hun bare skrev den rette kode, kunne hun få sine opfindelser til at gøre lige, hvad hun ønskede. Det var ikke helt let, men efter et par uger skrev Ada et virkelig brugbart program: Et, der ville få Alans højtalere til at slukke automatisk en halv time efter, at han var faldet i søvn.
 
 ** 23 **
 
-Ada havde også en idé til det næste program, hun ville skrive. Det var en større sag. Et rigtigt projekt. Hun ville nok være nødt til at bruge hele sommerferien på det...  Hun kunne næsten ikke vente!
+Ada havde også en idé til det næste program, hun ville skrive. Det var en større sag. Et rigtigt projekt. Hun ville nok være nødt til at bruge hele sommerferien på det... Hun kunne næsten ikke vente!
 
 ## 24 ##
 
@@ -170,9 +170,9 @@ Da han var færdig, sendte han alle de nye programmer fra sin gyldne computer ti
 kløede sig i hovedet. Hun havde bygget et skateboard af gamle dele og   
 koblet en motor til det for at få hjulene til at køre rundt. Med et motoriseret skateboard kunne Ada suse afsted til biblioteket eller lossepladsen endnu hurtigere efter skole. Mega praktisk! Men det virkede ikke. Når hun stod på det og trykkede på Kør!-knappen, flyttede hjulene sig ganske vist, men alt for hurtigt. Ada faldt af skateboardet hver gang hun startede det. Ligemeget hvad hun prøvede, så kunne hun bare ikke få det til at virke.
 
-Efter at være faldet på rumpen for 117. gang vendte hun tilbage til biblioteket. Dér fandt hun altid svar på sine spørgsmål.  Og sandt nok: På internettet faldt hun over et program, som nogen havde skrevet til et elektrisk løbehjul, der også var nødt til at starte langsomt. Ada downloadede det til sin telefon.
+Efter at være faldet på rumpen for 117. gang vendte hun tilbage til biblioteket. Dér fandt hun altid svar på sine spørgsmål. Og sandt nok: På internettet faldt hun over et program, som nogen havde skrevet til et elektrisk løbehjul, der også var nødt til at starte langsomt. Ada downloadede det til sin telefon.
 
-Tilbage på lossepladsen skrev hun et par linjer kode ind i sit skateboardprogram.  Hun justerede et par ting og makkede videre.
+Tilbage på lossepladsen skrev hun et par linjer kode ind i sit skateboardprogram. Hun justerede et par ting og makkede videre.
 
 Flere fejlslagne forsøg senere, på sommerferiens sidste dag, var tiden endelig kommet. Ada stod på skateboardet og trykkede på Kør!-knappen. Skateboardet begyndte at bevæge sig. Først langsomt, så hurtigere. Det virkede! Hun forsøgte at bremse. Det virkede! Ada udbrød et glædesråb og tog en tur i parken.
 
@@ -202,7 +202,7 @@ Men det var ikke det hele. Med softwaren kunne de give deres skateboards nye, se
 
 Ada, Toni, Marie og Konrad brugte mange eftermiddage på lossepladsen. De lavede endda et rigtigt værksted, hvor de kunne finjustere deres programmer i timevis, mens de lyttede til musik fra de højtalere, Ada havde bygget til Alan.
 
-“Din brors højtalere spiller meget højere end vores,” bemærkede Toni, der var ved at montere  et speedometer på sin hjelm.
+“Din brors højtalere spiller meget højere end vores,” bemærkede Toni, der var ved at montere et speedometer på sin hjelm
 “Jeg er sikker på, at det også er på grund af softwaren,” sagde Marie.
 
 Sammen lavede vennerne om på højtalernes software. Så skruede de musikken op, så meget de kunne og dansede vildt sammen.
@@ -246,7 +246,7 @@ lavede en plan...
 ====
 [N]æste dag tog de ikke i skole. I stedet kørte de på deres skateboards ind   
 og satte sig foran parlamentsbygningen med store protestskilte. Aftenen   
-før havde de sat LED-lys på nogen af deres skilte, som nu blinkede klart.  De havde også koblet deres højtalere sammen, så alle på gaden kunne høre, hvad de sagde. Nogle forbipasserende stoppede og spurgte børnene, hvad de demonstrerede for.
+før havde de sat LED-lys på nogen af deres skilte, som nu blinkede klart. De havde også koblet deres højtalere sammen, så alle på gaden kunne høre, hvad de sagde. Nogle forbipasserende stoppede og spurgte børnene, hvad de demonstrerede for.
 
 “For software-frihed!”, svarede børnene i kor og fortalte de voksne hele historien. De voksne nikkede imponerede, og præsidenten kunne ikke lade være med at kigge nysgerrigt på deres skilte, da han ankom til bygningen.
 
@@ -266,7 +266,7 @@ For hver dag der gik, sluttede flere og flere børn og voksne sig til protesten.
 
 ## 42 ##
 
-[A]da protesterede foran parlamentsbygningen hver uge. Selv når det regnede. Det var på netop sådan en regnvejrsdag, at præsidenten kom forbi gruppen af dryppende våde børn. Han kunne ikke andet end beundre deres stædighed.  Han spurgte Ada: “Hvorfor sidder I her hver dag? Hvad er det, I vil opnå?” Ada svarede: “Vi vil selv bestemme, hvad vi må og ikke må med vores computere.” Hendes venner råbte i kor: “Uden kode er alt ude!, Uden kode er alt ude!” og “Vi vil kende koden! Vi vil kende koden!”
+[A]da protesterede foran parlamentsbygningen hver uge. Selv når det regnede. Det var på netop sådan en regnvejrsdag, at præsidenten kom forbi gruppen af dryppende våde børn. Han kunne ikke andet end beundre deres stædighed. Han spurgte Ada: “Hvorfor sidder I her hver dag? Hvad er det, I vil opnå?” Ada svarede: “Vi vil selv bestemme, hvad vi må og ikke må med vores computere.” Hendes venner råbte i kor: “Uden kode er alt ude!, Uden kode er alt ude!” og “Vi vil kende koden! Vi vil kende koden!”
 
 Præsidenten så på børnenes målbevidste ansigter. Ærlig talt havde han også selv mest lyst til at bestemme, hvad regeringen måtte og ikke måtte gøre med sine computere. Men han vidste ikke noget som helst om computere, så han havde altid ladet Zangemann bestemme. Fordybet i sine tanker gik præsidenten ind i parlamentsbygnigen.
 ====
@@ -360,7 +360,7 @@ Hjemmeside for bogen
 Free Software Foundation Europe e.V. er en nonprofit forening, der giver folk mulighed for at kontrollere teknologien. Software påvirker alle aspekter af vores daglige liv, og derfor er det vigtigt, at denne teknologi giver os frihed i stedet for at begrænse os. Fri software (også kaldet “open source”) giver alle retten til at bruge, undersøge, dele og forbedre programmer. Derfor støtter Fri Software grundlæggende rettigheder som ytringsfrihed, pressefrihed og retten til privatliv.
 
 På bogens hjemmeside kan du finde mere inspiration og flere ressourcer:  
-https://ada.fsfe.org.
+https://ada.fsfe.org/
 
 ** 55 **
 
@@ -374,7 +374,7 @@ https://creativecommons.org/licenses/by-sa/4.0/deed.da
 
 Find på lækre, sjove eller skøre is og tegn dem på isvaflerne på næste side.
 Der findes mere du kan farvelægge og information om bogen på  
-https://ada.fsfe.org.
+https://ada.fsfe.org/
 
 ** 57 **
 
