@@ -78,15 +78,19 @@ language, then please [reach out to us](https://fsfe.org/about/contact).
 The printed version as well as ebooks of the book are currently
 available:
 
-* In English by No Starch Press. You can order it at any book store, or
-  [directly from No Starch Press](https://nostarch.com/ada-zangemann),
-  get 25% off with the coupon code "Hacking4Freedom", and receive the
-  DRM free ebook. 
+* In English by No Starch Press. You can order it at your preferred book
+  store, or [directly from No Starch
+  Press](https://nostarch.com/ada-zangemann), get 25% off with the
+  coupon code "Hacking4Freedom", and receive the DRM free ebook. 
 
 * In German by dpunkt.verlag GmbH under the O'Reilly imprint. You can
-  order it at any book store, or with this affiliate link [directly from
-  Dpunkt.verlag for which the FSFE will receive 12% of the
-  list price](https://oreilly.de/produkt/ada-und-zangemann/?ref=10022).
+  order it at your preferred book store, or with this affiliate link
+  [directly from Dpunkt.verlag for which the FSFE will receive 12% of
+  the list
+  price](https://oreilly.de/produkt/ada-und-zangemann/?ref=10022).
+
+* In French by C&F éditions. You can order it at your preferred or
+  [directly from C&F éditions](https://cfeditions.com/ada).
 
 Thanks to a generous donation we also translated the book into
 Ukrainian, printed 2750 non-profit copies ourselves, and distributed
@@ -117,4 +121,3 @@ We encourage you to support authors, publishers, and others involved in
 the creation of culture under free licenses -- **including financially
 supporting them through purchases or
 [donations](https://fsfe.org/donate)**. Society should support those who
-respect others freedom.
