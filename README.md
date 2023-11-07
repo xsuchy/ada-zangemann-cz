@@ -4,13 +4,13 @@ SPDX-FileCopyrightText: 2021 Free Software Foundation Europe <https://fsfe.org>
 SPDX-License-Identifier: CC-BY-SA-3.0-DE
 -->
 
-# Ada & Zangemann - A fairy tale about software, skateboards and raspberry ice cream
+# Ada & Zangemann - A Tale of Software, Skateboards and Raspberry Ice Cream
 
 [![REUSE status](https://api.reuse.software/badge/git.fsfe.org/fsfe/ada-zangemann)](https://api.reuse.software/info/git.fsfe.org/fsfe/ada-zangemann)
 
 This are the sources for the illustrated children's book "Ada &
-Zangemann - A fairy tale about software, skateboards and raspberry ice
-cream".
+Zangemann - A Tale of Software, Skateboards and Raspberry Ice
+Cream".
 
 The book tells the story of the famous inventor Zangemann and the girl
 Ada, a curious tinkerer. Ada begins to experiment with hardware and
@@ -89,15 +89,15 @@ available:
   the list
   price](https://oreilly.de/produkt/ada-und-zangemann/?ref=10022).
 
-* In French by C&F éditions. You can order it at your preferred or
-  [directly from C&F éditions](https://cfeditions.com/ada).
+* In French by C&F éditions. You can order it at your preferred book
+  store, or [directly from C&F éditions](https://cfeditions.com/ada).
 
-Thanks to a generous donation we also translated the book into
-Ukrainian, printed 2750 non-profit copies ourselves, and distributed
-those to organisations working with refugee children from Ukraine. After
-a follow-up donation we translated it into Arabic, printed 7000
-non-profit copies, and again distributed them to organisations working
-with Arabic speaking children in Europe. 
+* In Italian by Luca Bonissi. You can order them at your preferred book
+  store, or [directly from StreeLib (softcover and 
+  eBooks)](https://streetlib.co/isbn-9791222461823) or from [Lulu.com 
+  (hardcover)](https://www.lulu.com/shop/matthias-kirschner-and-sandra-brandst%C3%A4tter-and-luca-bonissi/ada-zangemann-una-fiaba-che-parla-di-software-skateboard-e-gelato-al-lampone/hardcover/product-2m2gvqw.html) for 
+  which the FSFE will receive 42% of the list price for printed books and
+  72% for eBook.
 
 # Profits of sales
 
@@ -108,6 +108,9 @@ Brandstätter and the children's book editor Wiebke Helmchen for their
 work. Linuxhotel GmbH made the project possible by already agreeing at
 the beginning of the writing process, to buy 1000 copies once the book
 was finished.
+For the Italian edition, Luca Bonissi donated more than 2000 copies to 
+the FSFE and he sets all revenues of the books and eBooks sales to go 
+directly to the FSFE.
 
 # Free as in freedom not price
 
