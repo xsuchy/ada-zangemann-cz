@@ -93,7 +93,7 @@ available:
   store, or [directly from C&F éditions](https://cfeditions.com/ada).
 
 * In Italian by Luca Bonissi. You can order them at your preferred book
-  store, or [directly from StreeLib (softcover and 
+  store, or [directly from StreetLib (softcover and 
   eBooks)](https://streetlib.co/isbn-9791222461823) or from [Lulu.com 
   (hardcover)](https://www.lulu.com/shop/matthias-kirschner-and-sandra-brandst%C3%A4tter-and-luca-bonissi/ada-zangemann-una-fiaba-che-parla-di-software-skateboard-e-gelato-al-lampone/hardcover/product-2m2gvqw.html) for 
   which the FSFE will receive 42% of the list price for printed books and
