@@ -124,3 +124,4 @@ We encourage you to support authors, publishers, and others involved in
 the creation of culture under free licenses -- **including financially
 supporting them through purchases or
 [donations](https://fsfe.org/donate)**. Society should support those who
+respect others freedom.
