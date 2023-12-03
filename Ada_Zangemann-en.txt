@@ -66,7 +66,7 @@ purely coincidental.
 **
 
 This book by Matthias Kirschner (author) and Sandra Brandstätter 
-(illustrator) is licensed under the Creative Commons CC-BY-SA a free 
+(illustrator) is licensed under the Creative Commons CC-BY-SA, a free 
 cultural license.
 
 You can share, copy, and redistribute the material in any medium or 
@@ -638,7 +638,7 @@ cream with rainbow sprinkles.
 
 ## 50 ##
 
-ACKNOLEDGMENTS
+ACKNOWLEDGEMENTS
 
 Many thanks to Reinhard Wiesemann from the Linuxhotel for the financial 
 support and motivation to no longer plan but to make. Thanks to Sandra 
@@ -745,7 +745,7 @@ is human freedom!”
 and peril of software. Behind it all is a backdrop of 
 ethics of knowledge sharing upon which the arc 
 of human history rides.”
-– Vin Cerf, Cumputer Scientist and 
+– Vin Cerf, Computer Scientist and 
 One of the Inventors of the Internet
 
 ** OR **
