@@ -2,15 +2,19 @@
 #
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
-# ADA & ZANGEMANN
 
-## Una fiaba che parla di software, skateboard e gelato al lampone
+Matthias Kirschner
+Sandra Brandstätter
+
+ADA & ZANGEMANN
+
+Una fiaba che parla di software, skateboard e gelato al lampone
 
 
 C’era una volta una bambina di nome Ada. La sua famiglia era così povera 
 che tutti i loro risparmi potevano essere messi in una scatola di 
 biscotti. Non avevano soldi per vivere in una casa vera. Ada, la sua 
-mamma e il suo fratellino Alan vivevano in una baracca vicino ad una 
+mamma e il suo fratellino Alan vivevano in una casupola vicino ad una 
 discarica nella periferia della città.
 
 Lontano, dall’altra parte della città, viveva un famoso inventore di 
@@ -29,17 +33,16 @@ rumorosi. A scuola, il piccolo Zangemann sognava spesso tutte le cose
 che avrebbe potuto fare con i computer se fossero stati solo un po’ più 
 piccoli, abbastanza piccoli da poter farceli stare in altri dispositivi. 
 Sapeva bene cosa avrebbe fatto. Prima di tutto, avrebbe installato un 
-computer sul suo skateboard, in modo che questi avesse potuto fare un 
-bel rumore mentre lo si guidava, come la sirena dei vigili del fuoco o 
-come il lancio di un razzo. Avrebbe inventato una macchina per il gelato 
-per miscelare i gusti più incredibili e venderli automaticamente! Le 
-macchine sarebbero state posizionate all’angolo di ogni strada e lui 
-avrebbe potuto avere il gelato al suo gusto preferito ogni volta che ne 
-avesse avuto voglia. Avrebbe costruito inoltre un robot per la pulizia e 
-una macchina per lo smistamento dei mattoncini per le costruzioni, in 
-modo che la sua camera fosse stata sempre pulita e ordinata. Zangemann 
-aveva nuove idee come queste ogni giorno e non riusciva a pensare a 
-nient’altro.
+computer sul suo skateboard, in modo che facesse un bel rumore mentre lo 
+si guidava, come la sirena dei vigili del fuoco o come il lancio di un 
+razzo. Avrebbe inventato una macchina per il gelato per miscelare i 
+gusti più incredibili e venderli automaticamente! Le macchine sarebbero 
+state posizionate all’angolo di ogni strada e lui avrebbe potuto avere 
+il gelato al suo gusto preferito ogni volta che ne avesse avuto voglia. 
+Avrebbe costruito inoltre un robot per la pulizia e una macchina per lo 
+smistamento dei mattoncini per le costruzioni, in modo che la sua camera 
+potesse essere sempre pulita e ordinata. Zangemann aveva nuove idee come 
+queste ogni giorno e non riusciva a pensare a nient’altro.
 
 Più Zangemann diventava grande, più i computer diventavano piccoli. 
 Quando finalmente ebbe finito gli anni della scuola, i computer erano 
@@ -80,8 +83,8 @@ crepato. Ada pensò che avrebbe potuto aggiustarlo e, anche se nella
 discarica non c’era Internet, avrebbe poi potuto connettersi da qualche 
 altra parte.
 
-Ada era così entusiasta nel trovare e riparare cose rotte dalla 
-discarica che si dimenticò completamente degli skateboard e del gelato.
+Ada era così entusiasta nel trovare e riparare cose rotte che si 
+dimenticò completamente degli skateboard e del gelato.
 
 
 Dal momento che tutti compravano le sue invenzioni, Zangemann diventò 
@@ -117,7 +120,6 @@ il bucato era finito, aspirapolvere che suonavano musica allegra invece
 di produrre rumore, lampade che si accendevano e si spegnevano con lo 
 schiocco delle dita e auto che ti dicevano, mentre stavi guidando, dove 
 si trovava il supermercato più vicino.
-
 Molto presto, venne installato un computer di Zangemann su quasi tutti i 
 dispositivi del mondo. Non tutte le sue invenzioni erano però così utili 
 come avrebbero potuto sembrare a prima vista, ma la gente le comprava 
@@ -161,7 +163,7 @@ notte, non riuscendo a dormire, si sedette davanti al suo computer
 dorato e diede il comando a tutti i minicomputer negli skateboard di non 
 poter andare più sui marciapiedi. Ordinò al piccolo computer inserito 
 nelle casse di riprodurre solo musica a basso volume, ad eccezione della 
-sua musica preferita, che immediatamente riprodusse per migliorare il 
+sua musica preferita, che fece suonare immediatamente per migliorare il 
 suo umore.
 
 
@@ -185,7 +187,7 @@ alla scuola di Ada. Gli skateboard non andavano più sui marciapiedi, ma
 a parte questo funzionavano ancora. E allo stesso modo i bambini 
 giravano in tondo nel cortile della scuola, ascoltando musica 
 tranquilla. Si sentiva però solo una marcetta pomposa che continuava ad 
-essere riprodotta a volume invariato: un po’ misterioso.
+essere riprodotta a volume invariato: che mistero!
 
 
 Il giorno preferito di Ada era il mercoledì. Ogni mercoledì la mamma 
@@ -206,15 +208,15 @@ software era invece completamente nuova per Ada. Scoprì presto che
 questa parola significava un insieme di istruzioni con cui era possibile 
 controllare i dispositivi o i computer. In alcuni libri, queste 
 istruzioni venivano chiamate programmi o codice. Con un programma per il 
-computer si potrebbe, ad esempio, dire ad un altoparlante quale canzone 
-debba essere suonata e a che volume.
+computer si poteva, ad esempio, dire ad un altoparlante quale canzone 
+dovesse essere suonata e a che volume.
 
 La cosa più bella delle nuove scoperte di Ada era che si poteva 
 smanettare con il software proprio come faceva con l’hardware. 
 Sull’hardware si lavorava con martello, trapano e cacciavite, con il 
 software bastava semplicemente scrivere i comandi per l’hardware, uno 
 dopo l’altro. C’era persino un apposito linguaggio: il linguaggio di 
-programmazione. Con il software, Ada poteva far diventare le sue 
+programmazione. Con il software, Ada avrebbe potuto far diventare le sue 
 invenzioni ancora più utili. Voleva assolutamente imparare il linguaggio 
 di programmazione!
 
@@ -305,7 +307,7 @@ subito un giro al parco.
 
 Quando, il primo giorno dopo le vacanze, Ada andò a scuola con il suo 
 skateboard, gli altri bambini rimasero stupiti. Durante la ricreazione, 
-Ada era completamente circondata dai compagni di classe incuriositi.
+Ada era circondata dai compagni di classe incuriositi.
 
 «Perché tu puoi andare con il tuo skateboard sul marciapiede?» le 
 chiesero.
@@ -316,7 +318,7 @@ programmato in modo che gli skateboard non possano andare sul
 marciapiede. Ma possiamo cambiarlo!».
 
 La sera Ada tentò di fare le stesse modifiche sullo skateboard del suo 
-compagno di classe Toni. Lavorò di nascosto fino a notte fonda, e il 
+compagno di classe Toni. Lavorò di nascosto fino a notte fonda e il 
 giorno dopo Toni poté di nuovo andare sul marciapiede. Dopo questa 
 modifica, però, il suo skateboard non poteva più fare i suoni che i suoi 
 genitori avevano comprato da Zangemann. Invece, ogni dieci minuti faceva 
@@ -326,7 +328,7 @@ Però lo skateboard ruttante di Toni era in realtà abbastanza divertente.
 
 
 Sempre più bambini andavano nel pomeriggio da Ada alla discarica, e lei 
-li aiutò a riscrivere i programmi per i loro skateboard. Alcuni erano 
+li aiutava a riscrivere i programmi per i loro skateboard. Alcuni erano 
 molto entusiasti di questa nuova scoperta. Che cose incredibili si 
 potevano fare con il codice del software! Volevano imparare tutto ciò 
 che Ada sapeva sui linguaggi di programmazione, e presto anche loro 
@@ -366,7 +368,7 @@ computer. Toni riprogrammò la stiratrice di suo papà in modo che potesse
 stirare di nuovo anche le cravatte. Zangemann odiava le cravatte come la 
 peste e aveva proibito ai suoi dispositivi di stirarle. Costruirono un 
 sistema di irrigazione automatico da un vecchio computer e da vecchi 
-tubi per l’autista dell’autobus in modo che le sue piante non morissero 
+tubi per l’autista dell’autobus, in modo che le sue piante non morissero 
 di sete durante l’estate. E aiutarono il bidello della scuola a 
 modificare il suo aspirapolvere in modo che riconoscesse automaticamente 
 i giocattoli e non li risucchiasse più.
@@ -382,7 +384,7 @@ ogni volta veniva da sorridere.
 Un giorno Zangemann notò che alcuni computer non rispondevano più ai 
 suoi comandi. Era terribilmente sconvolto, tanto che gli usciva il fumo 
 dalle orecchie per la rabbia. Chiamò immediatamente il Presidente e 
-gridò con voce tuonante: «Qualcuno sta riscrivendo i programmi nei miei 
+gridò con voce tonante: «Qualcuno sta riscrivendo i programmi nei miei 
 dispositivi. Non possono farlo, dopotutto sono le mie invenzioni. E 
 sarebbe anche troppo pericoloso se tutti potessero fare quello che 
 vogliono con i computer. Bisogna fare una legge che proibisca tutto 
@@ -430,12 +432,12 @@ trovato molto utili i dispositivi modificati dai bambini.
 Con ogni giorno che passava, sempre più bambini e adulti si univano alla 
 protesta. L’autista del bus che era stata aiutata con le sue piante 
 venne davanti al parlamento con il suo autobus. Suonò forte il clacson 
-per attirare l’attenzione di ancora più persone sulla protesta. Il 
-bidello portò alcuni amici, e il papà di Toni venne con i suoi colleghi, 
-tutti indossando cravatte stirate automaticamente. Venne anche la 
-maestra di matematica. Il numero di manifestanti diventò sempre più 
-grande e, dopo alcune settimane, la protesta non era limitata solo alla 
-città di Ada: no, adesso si protestava ovunque nel Paese.
+per attirare l’attenzione del maggior numero possibile di persone sulla 
+protesta. Il bidello portò alcuni amici, e il papà di Toni venne con i 
+suoi colleghi, tutti indossando cravatte stirate automaticamente. Venne 
+anche la maestra di matematica. Il numero di manifestanti diventò sempre 
+più grande e, dopo alcune settimane, la protesta non era limitata solo 
+alla città di Ada: no, adesso si protestava ovunque nel Paese.
 
 Ada protestò ogni settimana davanti al parlamento, anche quando pioveva 
 a dirotto. In un giorno di pioggia, il Presidente passò davanti ai 
@@ -519,16 +521,9 @@ dorato. Forse non osa più uscire in strada e ha barricato tutte le
 finestre della sua casa così da non doversi preoccupare di ciò che viene 
 fatto con le sue invenzioni. Ma, magari, qualche volta guarda ancora il 
 mondo attraverso il suo lungo cannocchiale per vedere ciò che i bambini 
-inventano di nuovo ogni giorno. Forse si ricorderà di quanto si sia 
-divertito quando smanettava e sperimentava. E forse, ma solo forse, sarà 
+inventano di nuovo ogni giorno. Forse si ricorderà di quanto si 
+divertiva quando smanettava e sperimentava. E forse, ma solo forse, sarà 
 lì a leccarsi un gelato al lampone a forma di piramide con sopra una 
 spolverata di codette arcobaleno.
-
-
-FINE
-
-Un grandissimo applauso per Sandra e le sue magnifiche illustrazioni!!!
-
-Da questo gruppo vogliamo ringraziare ......
 
 
