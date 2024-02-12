@@ -13,10 +13,10 @@ ADA & ZANGEMANN
 En Fortælling om Software, Skateboards og Hindbæris
 
 
-Oversat fra tysk af Øjvind Fritjof Arnfred
+Oversat til dansk af Øjvind Fritjof Arnfred
 
 
-Denne bog er oversat fra den tyske originaltekst og stilles til rådighed
+Denne bog er oversat fra den tyske originaltekst med skæven til den italienske oversættelse, og stilles til rådighed
 under Create Commons CC-BY-SA, som er en licens for fri kultur.
 Se https://creativecommons.org/licenses/by-sa/4.0/deed.da
 
@@ -83,18 +83,18 @@ lillebror Alan i en hytte tæt på en losseplads i udkanten af byen.
 Langt væk, i den anden ende af byen, boede der en berømt opfinder ved 
 navn Zangemann. Han var helt enormt rig. Der fandtes ikke et stykke 
 papir i hele verden der var stort nok til at man kunne skrive på det 
-hvor mange penge han havde. Så mange ettaller og nuller var der i det! 
+hvor mange penge han havde. Ikke engang hvis man skrev tallet med småt! 
 Zangemann boede i et kæmpestort hus med en svømmepøl og en 
 vandrutchebane, massevis af trapper og tårne, hundredevis af vinduer og 
-så mange værelser, at han selv tit for vild i dem. Hans palæ stod på en 
-høj bakke. Derfra kunne han se ud over hele byen.
+så mange værelser, at han selv tit fòr vild i dem.
+Hans palæ stod på en høj bakke. Derfra kunne han se ud over hele byen.
 
 ## 6 ##
 
 Zangemann havde været fascineret af computere, siden han var barn. Da 
 han var ung, var computere store maskiner med masser af kabler og 
 støjende blæsere. I skolen drømte lille Zangemann ofte om alle de ting, 
-han ville gøre med computere, hvis de bare var en lille smule mindre så 
+han ville gøre med computere, hvis de bare var en lille smule mindre. Så
 små, at de kunne bygges ind i andre sjove ting. Han vidste lige, hvad 
 han ville gøre med dem. Først ville han bygge en computer ind i sit 
 skateboard, så det kunne sige seje lyde, når han kørte på det - måske 
@@ -124,7 +124,7 @@ mere brugbare. Og så solgte han dem.
 Børn og voksne elskede hans opfindelser. Alle børnene ville have et af 
 hans skateboards med de seneste lyde indbygget, så de kunne vise dem til 
 deres venner i skolen. De var også vilde med hans smarte højtalere, der 
-kunde spille lige den sang, man ønskede sig. Og selvfølgelig var alle 
+kunne spille lige den sang, man ønskede sig. Og selvfølgelig var alle 
 helt vilde med den is, der blev serveret hver eftermiddag fra den 
 automatiske ekstralækre Originale Zangemann Ismaskine. Det var som magi, 
 men i virkeligheden var det hele meget simpelt: det var de små 
@@ -140,15 +140,14 @@ skateboard, højtalere eller is.
 
 Heldigvis boede Ada lige ved siden af lossepladsen. Der var masser af 
 ødelagte apparater og rustne reservedele, som hun byggede seje ting med: 
-en sæbekassebil, som hun og lillebror Alan kørte ned af bakken i, en 
-vindmølle og nogle uhyggelige skraldemonstre, som hun og Alan kunne slås 
-mod.  Hun fandt også mange ting, der stadig fungerede: En gammel 
+en sæbekassebil, som hun og lillebror Alan kørte ned af bakken i; og en 
+vindmølle og nogle uhyggelige skraldemonstre, som de sammen kunne slås mod.  Hun fandt også mange ting, der stadig fungerede: En gammel 
 mobiltelefon, for eksempel. Skærmen var smadret, men det kunne hun 
 ordne. Der var godt nok ikke noget internet på lossepladsen, men det 
 kunne hun få adgang til andre steder.
 
 Ada havde det så sjovt med at makke på lossepladsen og fikse ødelagte 
-ting, at hun glemte alt om skateboardene og isen.
+ting, at hun glemte alt om skateboardsene og isen.
 
 ## 10 ##
 
@@ -229,7 +228,7 @@ gåtur!
 Zangemann var vildt irriteret på de to børn. Hvordan kunne de bruge hans 
 opfindelser så forkert? Den nat kunne han ikke sove, så han satte sig 
 ved sin gyldne computer. Derfra sendte han en kommando ud til alle de 
-små computere i skateboardene om, at de ikke længere måtte køre på 
+små computere i skateboardsene om, at de ikke længere måtte køre på 
 fortovene. Han fik også de små computere i højtalerne til at skrue ned 
 til lav volumen, bortset fra når det var hans yndlingsmusik, som han 
 straks satte på for at komme i bedre humør.
@@ -246,7 +245,7 @@ for dem. Hvad foregik der?
 ** 19 **
 
 Selv om hun ikke ejede nogen af tingene selv, undrede Ada sig over, 
-hvordan det kunne være, at skateboardene og højtalerne pludselig holdt 
+hvordan det kunne være, at skateboardsene og højtalerne pludselig holdt 
 op med at virke. Men hun havde ikke tid til at spekulere for meget over 
 det, for hun var i gang med at makke igen. Hun byggede en cykel som en 
 gave til sin mor, så hun ikke skulle bruge penge på at tage bussen til 
@@ -255,7 +254,7 @@ til rare godnathistorier om aftenen, når han skulle sove og deres mor
 stadig var på arbejde.
 
 Efter et par dage var opstandelsen på Adas skole glemt igen. 
-Skateboardene kunne stadig ikke køre på fortovet, men bortset fra det 
+Skateboardsene kunne stadig ikke køre på fortovet, men bortset fra det 
 virkede de stadig. Så nu kørte børnene rundt i cirkler på legepladsen og 
 lyttede til stille musik. Det eneste, der blev afspillet ved en uændret 
 styrke, var en sær pompøs marchmusik, som børnene undrede sig noget 
@@ -267,7 +266,7 @@ Adas yndlingsdag var onsdag. Hver onsdag kom hendes mor og Alan og
 hentede hende fra skolen, og så gik de alle tre på biblioteket sammen. 
 Ada gik altid direkte over i teknikafdelingen. Der stod der bøger med 
 arbejdstegninger, instruktioner og eksperimenter og forklaringer på, 
-hvordan forskellige apparater virkede.  På biblioteket kunne Ada også 
+hvordan forskellige apparater virkede. På biblioteket kunne Ada også 
 komme online med sin mobiltelefon. Hun fandt snart ud af, at der også 
 var meget at gå på opdagelse i på internettet. Der var masser af 
 mennesker, der delte deres ideer og reparationsfif med andre.
@@ -288,7 +287,7 @@ makke med software, præcis ligesom hun kunne makke med hardware.
 Hardware er bygget med værktøj som hamre, bor og skruer. Software blev 
 bygget ved, at man skrev kommandoerne til hardwaren ned en efter en. Der 
 fandtes et særligt sprog til det - programmeringssproget. Med software 
-kunne Ada gøre sine opfindelse endnu mere brugbare. Hun ville virkelig 
+kunne Ada gøre sine opfindelser endnu mere brugbare. Hun ville virkelig 
 gerne lære det programmeringssprog!
 
 ** 21 **
@@ -304,11 +303,11 @@ blinke!”
 
 Hun havde selvfølgelig lyst til at prøve sit program af med det samme 
 for at se, om det virkelig virkede. På lossepladsen forbandt hun sin 
-mobiltelefon til en lille LED-pære.  Så skrev hun den programkode, som 
+mobiltelefon til en lille LED-pære. Så skrev hun den programkode, som 
 hun havde noteret ned, ind på mobiltelefonen.
 
 Først skete der ikke noget. Ada undrede sig over, hvor fejlen kunne 
-være.  Hun lavede et par små forandringer og... “Jaaaaa!”. Den lille 
+være. Hun lavede et par små forandringer og... “Jaaaaa!”. Den lille 
 pære begyndte at blinke. Tændt, slukket, tændt, slukket. Ada så 
 begejstret på LED-pæren. Hun havde skrevet sit første program!
 
@@ -364,13 +363,15 @@ gang hun startede det. Ligemeget hvad hun prøvede, så kunne hun bare
 ikke få det til at virke.
 
 Efter at være faldet på rumpen for 117. gang vendte hun tilbage til 
-biblioteket. Dér fandt hun altid svar på sine spørgsmål.  Og sandt nok: 
+biblioteket. Dér fandt hun altid svar på sine spørgsmål.
+Og sandt nok: 
 På internettet faldt hun over et program, som nogen havde skrevet til et 
 elektrisk løbehjul, der også var nødt til at starte langsomt. Ada 
 downloadede det til sin telefon.
 
 Tilbage på lossepladsen skrev hun et par linjer kode ind i sit 
-skateboardprogram.  Hun justerede et par ting og makkede videre.
+skateboardprogram.
+Hun justerede et par ting og makkede videre.
 
 Flere fejlslagne forsøg senere, på sommerferiens sidste dag, var tiden 
 endelig kommet. Ada stod på skateboardet og trykkede på Kør!-knappen. 
@@ -383,7 +384,7 @@ tog en tur i parken.
 ## 28 ##
 
 Da Ada kom i skole den første dag efter sommerferien på sit skateboard, 
-blev de andre børn imponerede. I frikvarteret blev Ada omringet af 
+blev de andre børn imponerede. I frikvarteret blev hun omringet af 
 nysgerrige klassekammerater.
 
 “Hvordan kan du køre dit skateboard på fortovet, når vi ikke kan?”, 
@@ -393,7 +394,7 @@ spurgte de.
 
 Ada tænkte sig om et øjeblik og sagde så: “Jeg tror ikke, det er jeres 
 skateboards, men mere softwaren i dem, der gør det. Det er sandsynligvis 
-programmeret ind i softwaren, at skateboardene ikke må køre på fortovet. 
+programmeret ind i softwaren, at skateboardsene ikke må køre på fortovet. 
 Men det kan der laves om på!”
 
 Den aften undersøgte Ada sin teori på sin klassekammerat Tonis 
@@ -428,7 +429,7 @@ programmer i timevis, mens de lyttede til musik fra de højtalere, Ada
 havde bygget til Alan.
 
 “Din brors højtalere spiller meget højere end vores,” bemærkede Toni, 
-der var ved at montere  et speedometer på sin hjelm.
+der var ved at montere et speedometer på sin hjelm.
 “Jeg er sikker på, at det også er på grund af softwaren,” sagde Marie.
 
 Sammen lavede vennerne om på højtalernes software. Så skruede de 
@@ -497,7 +498,8 @@ de lavede en plan...
 Næste dag tog de ikke i skole. I stedet kørte de på deres skateboards 
 ind og satte sig foran parlamentsbygningen med store protestskilte. 
 Aftenen før havde de sat LED-lys på nogen af deres skilte, som nu 
-blinkede klart.  De havde også koblet deres højtalere sammen, så alle på 
+blinkede klart.
+De havde også koblet deres højtalere sammen, så alle på 
 gaden kunne høre, hvad de sagde. Nogle forbipasserende stoppede og 
 spurgte børnene, hvad de demonstrerede for.
 
@@ -536,7 +538,8 @@ landet.
 Ada protesterede foran parlamentsbygningen hver uge. Selv når det 
 regnede. Det var på netop sådan en regnvejrsdag, at præsidenten kom 
 forbi gruppen af dryppende våde børn. Han kunne ikke andet end beundre 
-deres stædighed.  Han spurgte Ada: “Hvorfor sidder I her hver dag? Hvad 
+deres stædighed.
+Han spurgte Ada: “Hvorfor sidder I her hver dag? Hvad 
 er det, I vil opnå?” Ada svarede: “Vi vil selv bestemme, hvad vi må og 
 ikke må med vores computere.” Hendes venner råbte i kor: “Uden kode er 
 alt ude!, Uden kode er alt ude!” og “Vi vil kende koden! Vi vil kende 
@@ -605,7 +608,7 @@ ville, og med enhver tænkelig form og farve.
 ** 47 **
 
 Mens de andre fortsatte festen, smuttede Ada og hendes venner over i 
-deres værksted. De havde allerede masser af ideer til nye opfindelse, og 
+deres værksted. De havde allerede masser af ideer til nye opfindelser, og 
 de ville i gang med det samme.
 
 ## 48 ##
