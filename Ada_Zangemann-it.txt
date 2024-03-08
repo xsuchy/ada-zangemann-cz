@@ -6,6 +6,7 @@
 # - R1.00 2023-10-31: Initial release
 # - R1.01 2023-11-07: Removed "template" wording on page 56
 # - R1.02 2023-12-14: Improved language by Iolanda suggestions
+# - R1.03 2023-03-08: Improved images description following English proofreading
 
 ** 0 **
 
@@ -281,7 +282,7 @@ pulsanti per la scelta del gusto, e la buca per la restituzione delle
 monete.
 In alto c'è un insegna rotonda dove è disegnato un gelato rosa confetto 
 dentro un cono.
-Sul retro della macchina c'è il motore refrigerante con la “Z“ del logo 
+Sul retro della macchina c'è il motore refrigerante con la “Z” del logo 
 di Zangemann.
 ]]
 Grandi e piccini amavano le sue invenzioni. Tutti i bambini volevano 
@@ -312,9 +313,9 @@ altoparlante mezzo smontato. Il tavolo è composto da una tavola di legno
 sorretta da due fusti (uno grigio e uno rosso) e un piedistallo di 
 legno. Dietro Ada c'è una lavatrice, delle canne fumarie e una asse di 
 legno. Davanti al tavolino improvvisato ci sono degli pneumatici, un 
-vecchio telefono con filo guasto. Sulla destra, Alan sta portando ad Ada 
-un ventilatore giallo che tiene sopra la testa. Alan adesso indossa 
-calzini bianchi e scarpe gialle.
+vecchio telefono con filo guasto. Alan sta portando ad Ada un 
+ventilatore giallo che tiene sopra la testa. Alan adesso indossa calzini 
+bianchi e scarpe gialle.
 ]]
 Queste invenzioni erano molto popolari anche alla scuola di Ada, tanti 
 dei suoi amici se ne andavano in giro su quei fantastici skateboard. Ada 
@@ -463,7 +464,7 @@ Davanti ai cartelloni pubblicitari sta passando la maestra di
 matematica, la signora Gernet, un'anziana signora con capelli bianchi 
 corti, è vestita con una maglietta verde chiaro e un maglione verde 
 pisello, dei pantaloni marrone scuoro, delle scarpe con tacchi verde 
-chiaro e una borsetta a tracolla fucsia.
+chiaro e una borsetta a tracolla fucsia, che rimane sulla sua schiena.
 Spinge un piccolo carrello della spesa nel quale c'è un piccolo cane 
 tutto marrone con un collare e medaglietta.
 ]]
@@ -489,9 +490,9 @@ connessione ad Internet.
 ** 17 **
 
 [[I:ada-p17
-IMMAGINE: Altra parte della città, dove sullo sfondo c'è la collina con 
-la villa di Zangemann dalla cui antenna escono i segnali per comandare i 
-vari dispositivi.
+IMMAGINE: Continuazione della precedente immagine con altra parte della 
+città, dove sullo sfondo c'è la collina con la villa di Zangemann dalla 
+cui antenna escono i segnali per comandare i vari dispositivi.
 Nei fumetti ci sono: uno skateboard elettrico rosso, una lampadina, una 
 macchina per il gelato, un water, tutti che stanno ricevendo comandi da 
 Zangemann.
@@ -507,7 +508,7 @@ alzare il volume. Cosa stava succedendo?
 IMMAGINE: Cinque bambini della scuola che non riescono a far funzionare 
 gli skateboard. Due bambine indossano un caschetto, rispettivamente 
 azzurro e rosso, mentre una bambina con capelli castani legati a boccoli 
-con elastici rossi è inginocchiata e sta cercando di capire come mai lo 
+con elastici gialli è inginocchiata e sta cercando di capire come mai lo 
 skateboard della sua amica con caschetto rosso non funziona. Quattro 
 bambini hanno lo zaino sulle spalle, mentre la bambina con il caschetto 
 rosso lo ha lasciato appoggiato ad una panchina sulla quale ci sono una 
@@ -527,8 +528,8 @@ la sera ascoltando delle belle storie, nel caso la mamma non fosse
 ancora tornata dal lavoro.
 
 [[I:ada-p19
-IMMAGINE: Primo piano di Ada pensierosa, con zaino in spalla e con la 
-mano destra portata sul mento e quella sinistra appoggiata sul fianco.
+IMMAGINE: Primo piano di Ada pensierosa, con zaino in spalla e con una 
+mano portata sul mento e l'altra appoggiata sul fianco.
 ]]
 Dopo qualche giorno, tutti si erano già dimenticati di  
 cos’era successo alla scuola di Ada. Gli  
@@ -580,12 +581,13 @@ di programmazione!
 ** 21 **
 [[I:ada-p21
 IMMAGINE: Schermo di un computer dal quale emergono simbolicamente i 
-vari blocchi del linguaggio di programmazione: “while“, “init“, “sx=42“, 
-“print(msg)”, “a+b+c+d=e”, “break”, “continue”, “exit()“.
+vari elementi del linguaggio di programmazione: “while num > 0“, “init“, 
+“sx=42“, “for”, “v**3“.
 La mano destra di Ada sta digitando su una tastiera bianca con filo 
 azzurro, mentre la mano sinistra entra nello schermo per sistemare i 
-blocchi del del programma. Di fianco alla tastiera ci sono una matita ed 
-una gomma.
+blocchi del del programma: “print(msg)”, “a+b+c+d=e”, “if“, “break”, 
+“continue”, “exit()“.
+Di fianco alla tastiera ci sono una matita ed una gomma.
 ]]
 
 ## 22 ##
@@ -625,7 +627,8 @@ elettronica sulla quale è saldato un LED giallo. Lo smartphone è
 alimentato da un trasformatore collegato ad una ciabatta per la corrente 
 con un filo e spina grigi.
 Sul tavolo ci sono anche: 3 libri, di cui uno aperto; un blocco per gli 
-appunti e una matita; pinze; colla; stagno e relativo saldatore.
+appunti e una matita; pinze; colla; rotolino di stagno e relativo 
+saldatore.
 ]]
 Ada ebbe anche un’idea per il prossimo programma che avrebbe scritto. 
 Era una cosa più impegnativa, un vero progetto. Probabilmente avrebbe 
@@ -703,28 +706,30 @@ marciapiedi della città. Lo skateboard di Ada è azzurro, con ruote
 grigie e rosa, la parte elettronica è posta sopra lo skateboard (al 
 contrario di quelli di Zangemann dove la parte elettronica è sotto) ed 
 ha in mano un telecomando per manovrarlo.
-Sulla sinistra ci sono Marie e Toni che portano il proprio skateboard 
-sotto il braccio e guardano stupiti Ada.
+Dietro Ada ci sono Marie e Toni che portano il proprio skateboard sotto 
+il braccio e guardano stupiti Ada, che è sfrecciata sul marciapiede 
+passando davanti a loro.
 Marie ha capelli lunghi scuri con due trecce legate con fiocchi 
-arancioni, due orecchini gialli, una maglietta fucsia con maniche 
-bianche a righe orizzontali viola, una gonna bianca, delle scarpe da 
-ginnastica bianche e gialle, calzini bianchi, un cappello bianco con le 
-parti laterali gialle, e uno zaino viola chiaro sulle spalle. La gamba 
-destra di Marie è artificiale di colore blu. Lo skateboard di Marie è 
-azzurro con ruote gialle.
+arancioni, orecchini gialli, una maglietta fucsia con maniche bianche a 
+righe orizzontali viola, una gonna bianca, delle scarpe da ginnastica 
+bianche e gialle, calzini bianchi, un cappello bianco con le parti 
+laterali gialle, e uno zaino viola chiaro sulle spalle. Marie ha una 
+gamba artificiale che è di colore blu. Il suo skateboard è azzurro con 
+ruote gialle.
 Toni ha capelli rossi con i fianchi rasati, mentre indossa una felpa 
 azzurra, pantaloni verde scuro e scarpe bianche. Ha uno zaino rosso con 
-inserti e spallacci bianchi. Ha la mano sinistra vicino alla bocca. Il 
-suo skateboard è viola con ruote arancioni.
-C'è anche un papà con suo figlio che guardano Ada: il papà è vestito con 
-giacca blu a quadretti e pantaloni blu e tiene in mano una borsa 
-marrone. Suo figlio ha una maglietta azzurra, pantaloncini blue, scarpe 
-bianche, zaino in spalla e un cappello rosso e bianco. Tiene sotto il 
-braccio uno skateboard Zangemann giallo con ruote marrone chiaro e 
-sorride guardando Ada.
+inserti e spallacci bianchi. Ha una mano vicino alla bocca. Il suo 
+skateboard è viola con ruote arancioni.
+C'è anche un papà con suo figlio che guardano Ada camminando il 
+direzione opposta: il papà è vestito con giacca blu a quadretti e 
+pantaloni blu e tiene in mano una borsa marrone. Sta sorridendo ad Ada.
+Suo figlio ha una maglietta azzurra, pantaloncini blue, scarpe bianche, 
+zaino in spalla e un cappello rosso e bianco. Tiene sotto il braccio uno 
+skateboard Zangemann giallo con ruote marrone chiaro e sorride guardando 
+Ada.
 Sullo sfondo c'è una panetteria con ampie vetrate da cui si intravede il 
-pane, ed ha una tenda a righe verdi e bianche sul fronte e un cartello 
-con la lista dei prodotti sul marciapiede.
+pane, ed ha una tenda da sole a righe verdi e bianche sul fronte e un 
+cartello con la lista dei prodotti sul marciapiede.
 Sulla strada c'è una pozzanghera che riflette l'azzurro del cielo.
 ]]
 
@@ -737,15 +742,15 @@ Ada era circondata dai compagni di classe incuriositi.
 «Perché tu puoi andare con il tuo skateboard sul marciapiede?» le 
 chiesero.
 [[I:ada-p28
-Ada ferma sul suo skateboard attorniata da bambini. Alla sinistra c'è 
-Marie che indica con la mano lo skateboard di Ada e sta parlando.
-Subito dopo c'è Conrad, con capelli biondi corti, un caschetto grigio 
+Ada ferma sul suo skateboard attorniata da bambini. Da un lato c'è Marie 
+che indica con la mano lo skateboard di Ada e sta parlando.
+Vicino a lei c'è Conrad, con capelli biondi corti, un caschetto grigio 
 scuro, occhiali, maglietta verde con risvolti bianchi, pantaloni blu 
-chiaro sempre con risvolti bianchi, scarpe grige con suole bianche. Ha 
+chiaro ancora con risvolti bianchi, scarpe grige con suole bianche. Ha 
 uno skateboard rosso con ruote arancioni.
-Dietro Ada ci sono altri 4 bambini, mentre alla sua destra c'è Toni con 
-faccia soddisfatta che si tocca il mento con una mano mentre con l'altra 
-tiene un caschetto giallo per i lacci.
+Dietro Ada ci sono altri 4 bambini. Dall'altro lato c'è Toni con faccia 
+sorridente che si tocca il mento con una mano mentre con l'altra tiene 
+un caschetto giallo per i lacci.
 ]]
 
 ** 29 **
@@ -764,13 +769,14 @@ un rumore divertente che assomigliava ad un lungo rutto. Ada sapeva bene
 che piccoli errori come quello possono sempre spuntare nei programmi. 
 Però lo skateboard ruttante di Toni era in realtà abbastanza divertente.
 [[I:ada-p29
-IMMAGINE: Gioco dei numeri in cui saltare disegnato con il gessetto 
-sull'asfalto. Da sinistra a destra, scritti all'interno di quadrati i 
-numeri: 1, 2, 3 e 4, 5, 6, 7 e 8, 9. Il numero 9 non è all'interno di un 
-quadrato ma di un semicerchio in continuità con i bordi dei numeri 7 e 
-8.
-Tra il numero 1 e 2 c'è una borraccia azzurra con pois bianchi.
-Sulla sinistra c'è uno skateboard Zangemann giallo con ruote arancioni.
+IMMAGINE: Gioco della “Campana“ disegnato con il gessetto sull'asfalto. 
+In fila, scritti all'interno di quadrati, i numeri: 1, 2, 3 e 4 l'uno 
+vicino all'atro, 5, 6, 7 e 8 l'uno vicino all'altro. Il numero 9 non è 
+all'interno di un quadrato ma di un semicerchio in continuità con i 
+bordi dei numeri 7 e 8.
+Tra i numeri 1 e 2 c'è una borraccia azzurra con pois bianchi.
+A fianco del disegno c'è uno skateboard Zangemann giallo con ruote 
+arancioni.
 ]]
 
 ## 30 ##
@@ -817,7 +823,7 @@ e tre led: giallo, verde, rosa.
 IMMAGINE: Laboratorio alla discarica, sotto la veranda della casa di 
 Ada.
 Ada è seduta su una cassa dell'acqua con una gamba ripiegata 
-all'indietro sulla cassa e sta armeggiando con il saldatore a stagno.
+all'indietro e sta armeggiando con il saldatore a stagno.
 Conrad è vicino a lei e sta smontando un altoparlante.
 Marie è seduta su due pneumatici con un braccio appoggiato ad un tavolo 
 ed ha di fronte il suo skateboard capovolto da cui escono dei fili. Sta 
@@ -831,10 +837,10 @@ gialle e un ventilatore.
 ]]
 
 ** 33 **
+
 [[I:ada-p33
-IMMAGINE: Marie, Ada, Alan, Conrad e la mamma di Ada stanno ballando. 
-Sulla destra c'è una cassa appoggiata ad un fusto dalla quale esce la 
-musica.
+IMMAGINE: Marie, Ada, Alan, Conrad e la mamma di Ada stanno ballando. Da 
+un lato c'è una cassa appoggiata ad un fusto dalla quale esce la musica.
 Vicino alla cassa ci sono due topini che ballano.
 Toni sta saltando tra gli pneumatici.
 Il cagnolino di Ada sta ululando, e dalla sua bocca esce un fumetto con 
@@ -852,7 +858,7 @@ stecchino;
 gelato a forma di pesce rosa;
 gelato a forma di piramide con zuccherini, glassa di cioccolato e una 
 ciliegina in cima;
-gelato arcobaleno con un cappellino giallo;
+gelato arcobaleno con un ombrellino giallo;
 gelato a forma di fantasma azzurro con zuccherini sopra.
 ]]
 
@@ -912,13 +918,14 @@ Il videotelefono è composto da un vecchio telefono rosso a rotella con
 cornetta collagato ad un monitor. Sul monitor compare la faccia di 
 Zangemann, mentre dalla cornetta esce una fiammata gialla della voce 
 tonante di Zangemann, ed il Presidente si tiene a debita distanza.
+Il Presidente ha i capelli bianchi ed indossa una camicia azzurra, una 
+cravatta rossa e una giacca blu con bottoni gialli.
 Il Presidente è seduto su una poltrona verde con righe verticali 
 bianche, mentre sulla scrivania, oltre al videotelefono, ci sono dei 
 fogli con scritto qualcosa e una stilografica viola.
-Il Presidente stava mangiando un tramezzino con verdure e olive sopra un 
-tovagliolo a quadretti azzurri con righe bianche.
-Il Presidente ha i capelli bianchi ed indossa una camicia azzurra, una 
-cravatta rossa e una giacca blu con bottoni gialli.
+Il Presidente stava mangiando un tramezzino con verdure e due olive 
+infilate con in uno stuzzicadenti, il tutto sopra un tovagliolo a 
+quadretti azzurri con righe bianche.
 ]]
 
 ## 38 ##
@@ -933,9 +940,9 @@ state modificate da loro e discussero della situazione. Era chiaro che
 qualcosa doveva essere fatto contro la nuova legge, ed escogitarono 
 quindi un piano…
 [[I:ada-p38
-IMMAGINE: Barattoli di vernice verde, azzurra, rosa e gialla; un 
-indelebile verde chiaro; uno striscione arrotolato su cui è caduta un 
-po' di vernice azzurra.
+IMMAGINE: Barattoli di vernice verde, azzurra e rosa; un pennello con 
+vernice gialla; un indelebile verde chiaro; uno striscione arrotolato su 
+cui è caduta un po' di vernice azzurra.
 ]]
 
 ** 39 **
@@ -980,19 +987,21 @@ la mamma di Ada che tiene per mano Alan e che ha in mano un gelato rosa;
 3 colleghi del papà di Toni vestiti con la cravatta;
 due bambini che tengono lo striscione “Fai i tuoi compiti signor 
 Presidente che noi facciamo i nostri!”;
-un robot con cingoli e ferri da stiro come piedi, un ventilatore come 
-addome, un monitor come testa e una frusta come mano destra che tiene 
-nella mano sinistra un gelato azzurro;
+un robot con cingoli e ferri da stiro come piedi, un ventilatore 
+elettrico come addome, un monitor come testa e con una frusta al posto 
+di una mano e che tiene con l'altra mano un gelato azzurro;
 due genitori che tengono lo striscione “Hacking 4 Freedom”;
 una signora che tiene in mano un cartello luminoso con scritto “There is 
 a code B”;
 due uccellini;
-la maestra Gernet che ha inserito nel suo carrellino un cartello con 
-scritto “Sono giovani + hanno bisogno del codice!”;
-Ada, Marie, Toni e Conrad tengono o sono vicini allo striscione 
-“Vogliamo il codice libero!“, e Marie ha in mano un megafono con il 
-quale si fa sentire;
-il cagnolino della famiglia di Ada che indossa delle strisce a LED.
+la maestra di matematica, la signora Gernet, che ha inserito nel suo 
+carrellino un cartello con scritto “Sono giovani + hanno bisogno del 
+codice!”; nel carrellino c'è anche il suo cagnolino che abbaia;
+Ada Conrad tengono lo striscione “Vogliamo il codice libero!“ mentre 
+Marie e Toni stanno camminando vicino allo striscione, e Marie ha in 
+mano un megafono con il quale si fa sentire;
+il cagnolino della famiglia di Ada che indossa una imbracatura rossa con 
+delle strisce a LED gialli scintillanti.
 ]]
 
 	## Fai i tuoi compiti signor Presidente che noi facciamo i nostri!
@@ -1005,10 +1014,11 @@ striscione “Fai i tuoi compiti signor Presidente che noi facciamo i
 nostri!”.
 ]]
 [[I:ada-p41
-IMMAGINE: Ada, Marie, Toni e Conrad tengono o sono vicini allo 
-striscione “Vogliamo il codice libero!“, e Marie ha in mano un megafono 
-con il quale si fa sentire;
-il cagnolino della famiglia di Ada che indossa delle strisce a LED.
+IMMAGINE: Un altro dettaglio dell'immagine precedente: Ada Conrad 
+tengono lo striscione “Vogliamo il codice libero!“ mentre Marie e Toni 
+stanno camminando vicino allo striscione, e Marie ha in mano un megafono 
+con il il cagnolino della famiglia di Ada che indossa una imbracatura 
+rossa con delle strisce a LED gialli scintillanti.
 ]]
 	## Sono giovani + hanno bisogno del codice!
 
@@ -1035,7 +1045,7 @@ parlamento.
 [[I:ada-p42
 IMMAGINE: Uno degli amici di Ada a pancia in giù con una gamba piegata 
 che sta digitando al computer. Ha capelli castani a caschetto, una felpa 
-rossa, pantaloni azzurri ed è senza scarpe con le calze bianche. Di 
+rossa, pantaloni azzurri ed è senza scarpe ma con le calze bianche. Di 
 fianco al computer c'è una tazza verde e due libri aperti.
 ]]
 Il giorno dopo il Presidente invitò Ada e i suoi amici ad entrare. 
@@ -1114,7 +1124,7 @@ Marie è in alto su una scala che sta parlando al microfono.
 Conrad tiene saldamente la scala su cui c'è Marie.
 Ada è in piedi su una sedia e tiene in mano la carta bollata della nuova 
 legge.
-Il cagnolino di Ada è di fronte a lei seduto sulle zampe posteriori.
+Il cagnolino di Ada è seduto di fronte a lei.
 ]]
 
 ## 46 ##
@@ -1130,9 +1140,10 @@ IMMAGINE: Festa tutti insieme.
 Bambini che hanno in mano gelati e palloncini con la scritta “I love FS 
 (Io amo il Software Libero)”;
 altri bambini che viaggiano con gli skateboard;
+bandierine gialle e arancioni appese per far festa;
 delle grosse casse da cui esce musica;
-la signora Gernet con un mano un gelato rosa a forma di albero con sopra 
-una stella gialla;
+la signora Gernet tiene in mano un gelato rosa a forma di albero con 
+sopra una stella gialla;
 la mamma di Ada che sta ballando con un signore.
 ]]
 
@@ -1145,7 +1156,7 @@ volevano mettersi subito al lavoro.
 [[I:ada-p47
 IMMAGINE: Il Presidente, la segretaria e altre persone intorno ad un 
 tavolo che si stanno gustando gelati pazzeschi;
-bandierine gialle e arancioni appese per far festa;
+le bandierine gialle e arancioni continuano dall'immagine precedente;
 una bambina che ha appena preso dalla macchina modifica dai ragazzi un 
 gelato rosa a forma di fantasma;
 il cagnolino di Ada, Conrad, Marie, Ada e Toni che stanno sgattaiolando 
@@ -1210,7 +1221,7 @@ di loro questo libro non esisterebbe.
 [[I:ada-p51
 IMMAGINE: Il cagnolino di Ada che scodinzola dopo aver trovato Zangemann 
 nascosto dietro una tenda che si sta mangiando un gelato al lampone con 
-sopra tantissime codette arcobaleno e un ombrellino azzurro.
+sopra tantissime codette colorate e un ombrellino azzurro.
 ]]
 
 ## 52 ##
@@ -1220,8 +1231,9 @@ Matthias Kirschner
 
 
 [[I:ada-p52
-IMMAGINE: Primo piano di Matthias che saluta con una mano e che indossa 
-cuffie e microfono. Matthias ha i capelli corti ed un pochino di barba.
+IMMAGINE: Primo piano di Matthias che sorride e saluta con una mano. 
+Indossa cuffie e microfono. Matthias ha i capelli corti ed un pochino di 
+barba.
 ]]
 Matthias è sempre stato affascinato dai computer e dal software fin da 
 bambino. Ha avuto una connessione Internet già agli albori da cui ha 
@@ -1238,9 +1250,9 @@ Sandra Brandstätter
 
 
 [[I:ada-p53
-IMMAGINE: Sandra sorridente con in mano una matita che appoggia al mento 
-e ha nelle orecchie degli auricolari con microfono integrato. Sandra ha 
-capelli corti a caschetto e occhiali.
+IMMAGINE: Sandra sorridente con in mano una matita che appoggia al 
+mento. Ha nelle orecchie degli auricolari con microfono integrato. 
+Sandra ha capelli corti a caschetto e occhiali.
 ]]
 Sandra ha sempre apprezzato il maneggiare con forbici, pinze, colla, 
 filo, tessuto e carta. Oggi lavora come illustratrice, autrice comica e 
@@ -1285,8 +1297,8 @@ https://creativecommons.org/licenses/by-sa/4.0/deed.it
 
 [[I:ada-p56
 IMMAGINE: Una mano che tiene un cono gelato a forma di pesce e con un 
-cetriolo su una bacchetta, da colorare. Sulla sinistra una matita che 
-scrive.
+cetriolo su una bacchetta, da colorare. In un angolo in basso, una 
+matita che scrive.
 ]]
 Metti dei gusti deliziosi, divertenti o pazzeschi e disegnali sui coni 
 di gelato nella prossima pagina.
@@ -1297,7 +1309,8 @@ https://ada.fsfe.org
 
 [[I:ada-p57
 IMMAGINE: Tre mani che tengono altrettanti coni gelato vuoti, da 
-disegnare e colorare.
+disegnare e colorare. Sospeso in aria sopra il cono centrale c'è un 
+ombrellino.
 ]]
 
 ## 58 ##
@@ -1307,8 +1320,8 @@ disegnare e colorare.
 ## 60 ##
 
 [[I:back_cover-a
-IMMAGINE: Un saldatore a stagno e un pennello con vernice gialla, 
-collegati da una linea bianca che forma una simil-cornice.
+IMMAGINE: Un saldatore a stagno e un pennello e barattolo con vernice 
+gialla, collegati da una cavo bianco che forma una simil-cornice.
 ]]
 
 [L]’inventore Zangemann è famoso in tutto il mondo ed è immensamente 
@@ -1323,7 +1336,7 @@ Un libro che stimola l’interesse nello sperimentare e incoraggia a
 plasmare la tecnologia.
 
 [[I:back_cover-b
-IMMAGINE: Una ciabatta per la corrente, sempre collegata con una linea 
-bianca che fa da cornice.
+IMMAGINE: Una ciabatta per la corrente, collegata anch'essa con una cavo 
+bianco che fa da cornice.
 ]]
 
