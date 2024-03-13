@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
-** 3 **
+** 1 **
 
 Matthias Kirschner
   Sandra Brandstätter
@@ -10,6 +10,7 @@ Matthias Kirschner
 ADA & ZANGEMANN
 A Tale of Software, Skateboards, and Raspberry Ice Cream
 
+## 2 ##
 
 Copyright © 2023 Matthias Kirschner and Sandra Brandstätter.
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
@@ -109,6 +110,8 @@ We encourage you to support authors, publishers, and others involved in
 the creation of culture under free licenses – including financially 
 supporting them through purchases or donations. Society should support 
 those who respect others freedom.
+
+** 3 **
 
 ## 4 ##
 
