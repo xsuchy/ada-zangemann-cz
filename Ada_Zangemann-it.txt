@@ -6,7 +6,7 @@
 # - R1.00 2023-10-31: Initial release
 # - R1.01 2023-11-07: Removed "template" wording on page 56
 # - R1.02 2023-12-14: Improved language by Iolanda suggestions
-# - R1.03 2023-03-08: Improved images description following English proofreading
+# - R1.03 2024-03-08: Improved images description following English proofreading
 
 ** 0 **
 
@@ -92,6 +92,8 @@ ISBN  979-12-224-6182-3 (libro con copertina morbida e carta patinata)
 ISBN  978-1-4466-8698-0 (libro con copertina rigida e carta usomano)
 ISBN  979-12-224-6592-0 (eBook in formato ePub, Mobi e PDF)
 
+Revisione 1.03 20240308
+
 Questo libro è un’opera derivata (traduzione in italiano) del libro 
 originale in tedesco “Ada und Zangemann: Ein Märchen über Software, 
 Skateboards und Himbeereise” e viene pubblicato con la licenza 
@@ -129,6 +131,7 @@ dedicato del tempo per discutere e capire i vantaggi delle licenze
 culturali libere, e per il grande sostegno nel pubblicare questo libro 
 con condizioni che rispettano i valori della FSFE.
 
+## 2BB ##
 
 <b>Libero come libertà, non gratis</b>
 Il Software Libero riguarda le libertà che ricevi con il software, non 
@@ -142,7 +145,7 @@ Ti incoraggiamo a sostenere autori, editori e altri coinvolti nella
 creazione della cultura con licenze libere, anche con <b>un sostegno 
 finanziario attraverso l’acquisto</b> (tutti i proventi della vendita di 
 questa edizione in italiano saranno direttamente devoluti alla FSFE) 
-<b>o una donazione</b> (https://fsfe.org/donate).
+o <b>una donazione</b> (https://fsfe.org/donate).
 La società dovrebbe sostenere chi rispetta la libertà degli altri.
 
 ** 3 **
@@ -296,7 +299,7 @@ macchine-mischia-gelato originali Zangemann. Sembrava una cosa magica,
 ma in realtà tutto questo era possibile grazie al piccolo computer che 
 Zangemann aveva incorporato nei dispositivi.
 [[I:ada-p08a
-Uno skateboard elettrico originale Zangemann che sfreccia via e lascia 
+IMMAGINE: Uno skateboard elettrico originale Zangemann che sfreccia via e lascia 
 una scia azzurra con note musicali e cerchi colorati. Sullo skateboard 
 si vede solo la parte sotto le ginocchia del bambino che lo sta usando, 
 che ha calzini bianchi e scarpe verde oliva con suole bianche.
@@ -742,7 +745,7 @@ Ada era circondata dai compagni di classe incuriositi.
 «Perché tu puoi andare con il tuo skateboard sul marciapiede?» le 
 chiesero.
 [[I:ada-p28
-Ada ferma sul suo skateboard attorniata da bambini. Da un lato c'è Marie 
+IMMAGINE: Ada ferma sul suo skateboard attorniata da bambini. Da un lato c'è Marie 
 che indica con la mano lo skateboard di Ada e sta parlando.
 Vicino a lei c'è Conrad, con capelli biondi corti, un caschetto grigio 
 scuro, occhiali, maglietta verde con risvolti bianchi, pantaloni blu 
@@ -938,7 +941,7 @@ nessuno di portarceli via!».
 Si incontrarono davanti ad una delle macchine per il gelato che erano 
 state modificate da loro e discussero della situazione. Era chiaro che 
 qualcosa doveva essere fatto contro la nuova legge, ed escogitarono 
-quindi un piano…
+quindi un piano...
 [[I:ada-p38
 IMMAGINE: Barattoli di vernice verde, azzurra e rosa; un pennello con 
 vernice gialla; un indelebile verde chiaro; uno striscione arrotolato su 
