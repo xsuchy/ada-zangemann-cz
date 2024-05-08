@@ -1,1 +1,1 @@
-to_reading.pl
+to_scribus.pl
