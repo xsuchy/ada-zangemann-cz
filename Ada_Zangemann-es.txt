@@ -34,8 +34,8 @@ chapter-22,back_cover:Sinopsis
 ]]
 
 [[I:cover
-IMAGEN: ADA & ZANGEMANN - Un cuento sobre Software, Monopatines y helado 
-de frambuesa
+IMAGEN: ADA & ZANGEMANN - Un cuento sobre Software, Monopatines y Helado 
+de Frambuesa
 ]]
 
 ** 1 **
@@ -51,8 +51,8 @@ Copyright © 2022-2024 Matthias Kirschner (texto), Free Software
 Foundation Europe e.V. (ilustraciones); autor: Matthias Kirschner, 
 ilustradora: Sandra Brandstätter.
 
-<b>ADA & ZANGEMANN</b> – Un cuento sobre software, monopatines y helado 
-de frambuesa
+<b>ADA & ZANGEMANN</b> – Un cuento sobre <i>Software</i>, Monopatines y 
+Helado de Frambuesa
 
 Este libro es una obra derivada (traducción al español) del libro 
 original en alemán “Ada und Zangemann: Ein Märchen über Software, 
@@ -84,21 +84,21 @@ publicación comercial, y a menudo son consideradas revolucionarias y
 arriesgadas por los editores.
 
 <b>Un enorme agradecimiento</b> a <b>dpunkt.verlag</b> y <b>No Starch 
-Press</b> por comprender los valores de la libertad del software, 
+Press</b> por comprender los valores de la libertad del <i>software</i>, 
 tomarse el tiempo para discutir y comprender los beneficios de las 
 licencias culturales libres, y por el gran apoyo en la publicación de 
-este libro en condiciones que respetan los valores de la FSFE (Free 
-Software Foundation Europe).
+este libro en condiciones que respetan los valores de la FSFE (<i>Free 
+Software Foundation Europe</i>).
 
 ## 2BB ##
 
 <b>Libre como en libertad, no gratis</b>
-El Software Libre trata de las libertades que recibes con el software, 
-no del precio. De la misma manera, publicar un libro bajo una licencia 
-cultural libre no significa tener derecho a obtener una copia gratuita 
-del libro y del ebook. Significa tener los derechos descritos 
-anteriormente, que permiten a la sociedad beneficiarse aún más de él, 
-como debería ser para toda la cultura.
+El <i>Software Libre</i> trata de las libertades que recibes con el 
+<i>software</i>, no del precio. De la misma manera, publicar un libro 
+bajo una licencia cultural libre no significa tener derecho a obtener 
+una copia gratuita del libro y del ebook. Significa tener los derechos 
+descritos anteriormente, que permiten a la sociedad beneficiarse aún más 
+de él, como debería ser para toda la cultura.
 
 Te animamos a apoyar a los autores, editores y otros involucrados en la 
 creación de cultura con licencias libres, incluso con <b>apoyo 
@@ -120,7 +120,7 @@ Matthias Kirschner
 ADA &
 ZANGEMANN
 
-Un cuento sobre Software, Monopatines y helado de frambuesa
+Un cuento sobre <i>Software</i>, Monopatines y Helado de Frambuesa
 
 ## 4 ##
 ==== Slide 2
@@ -179,16 +179,16 @@ IMAGEN:
 
 ## 8 ##
 ==== Slide 4
-“¡Por fin puedo convertir todas mis ideas en objetos reales!” Zangemann 
+“¡Por fin puedo convertir todas mis ideas en objetos reales!”. Zangemann 
 estaba feliz y se puso manos a la obra. Encontró la manera de integrar 
 los ordenadores en todo tipo de objetos para hacerlos aún más divertidos 
-y útiles. Y luego loos vendió.
+y útiles. Y luego los vendió.
 
 [[I:ada-p08b
 IMAGEN:
 ]]
 Sus inventos encantaban a niños y adultos. Todos los niños querían sus 
-monopatines con los últimos sonidos para enseñárrselo a sus amigos del 
+monopatines con los últimos sonidos para enseñárselo a sus amigos del 
 colegio. A los niños también les encantaba el altavoz que inventó, que 
 al instante reproducía cualquier canción que le pidieras. Y por 
 supuesto, a todo el mundo le encantaba el helado que todas las tardes 
@@ -238,7 +238,7 @@ chocolate. Si daba la orden de helado de limón, las máquinas sólo
 suministraban helado de limón. Zangemann adoraba sus inventos y siempre 
 se emocionaba al ver lo bien que funcionaban sus máquinas. A veces la 
 gente se decepcionaba cuando su sabor favorito no estaba disponible, 
-pero,... ¿qué podían hacer?. Al fin y al cabo, tenían helados en cada 
+pero ¿qué podían hacer? Al fin y al cabo, tenían helados en cada 
 esquina.
 [[I:ada-p10
 IMAGEN:
@@ -267,6 +267,7 @@ dónde estaba el supermercado más cercano.
 [[I:ada-p12
 IMAGEN:
 ]]
+
 Pronto, casi todos los electrodomésticos llevaban integrado un ordenador 
 Zangemann. Al principio no todos sus inventos parecían necesarios, pero 
 la gente los compraba. Todos querían los aparatos fabricados por 
@@ -291,8 +292,8 @@ son y seguirán siendo insuperables”, pensó inmediatamente después, y con
 orgullo, al pasar junto a un grupo de gente que comía helado de coco, el 
 sabor del día.
 ==== Slide 8
-Estaba completamente absorto en sus pensamientos cuando, de repente 
-–¡BAM!– algo se estrelló contra su espinilla.
+Estaba completamente absorto en sus pensamientos cuando, de repente – 
+¡BAM! – algo se estrelló contra su espinilla.
 [[I:ada-p14
 IMAGEN:
 ]]
@@ -309,7 +310,7 @@ Nunca había oído algo tan horrible. Miró a su alrededor y vio que la
 música provenía de un altavoz que él mismo había construido. Un niño lo 
 sostenía al otro lado de la calle. Al niño parecía gustarle la música, 
 pero a Zangemann le dio un terrible dolor de cabeza y su humor empeoró. 
-¡No era así como había imaginado su paseo!.
+¡No era así como había imaginado su paseo!
 [[I:ada-p15
 IMAGEN:
 ]]
@@ -346,7 +347,7 @@ IMAGEN:
 ** 19 **
 
 Aunque no tenía ninguno de estos aparatos, Ada se preguntaba por qué, de 
-repente, los monopatines y los altavoces habían dejado de funcionar . 
+repente, los monopatines y los altavoces habían dejado de funcionar. 
 Pero no pensó mucho en ello porque enseguida estaba trasteando de nuevo. 
 Con las piezas de tres bicicletas rotas, montó una bicicleta completa. 
 Se la regaló a su madre para que no tuviera que gastar su dinero en 
@@ -357,8 +358,7 @@ historias bonitas, cuando su madre seguía trabajando.
 [[I:ada-p19
 IMAGEN:
 ]]
-Al cabo de unos días, el susto inicial en la escuela de Ada se había 
-olvidado.  
+Al cabo de unos días, el susto inicial en la escuela de Ada se había olvidado.  
 Los monopatines seguían sin poder ir por  
 la acera, pero aparte de eso funcionaban.  
 Así que ahora los niños montaban en  
@@ -383,24 +383,25 @@ cuenta de que también había mucho que descubrir en Internet. Allí, mucha
 gente compartía sus ideas y consejos de reparación para ayudar a los 
 demás.
 
-Una de esas tardes Ada aprendió dos palabras nuevas: hardware y 
-software. Hardware era una palabra para algo que Ada ya conocía: los 
-aparatos electrónicos con los que jugueteaba después de clase, o los que 
-podía sostener en sus manos e intentar arreglar, o convertir en otra 
-cosa. Lo que era completamente nuevo para Ada era la palabra software. 
-Pronto aprendió que eran instrucciones que se ejecutaban en un ordenador 
-para controlar otros dispositivos u ordenadores. Algunos libros llamaban 
-a esas instrucciones programa o código. Con un programa de ordenador se 
-podía, por ejemplo, decir a un altavoz qué canción poner y a qué 
-volumen.
+Una de esas tardes Ada aprendió dos palabras nuevas: <i>hardware</i> y 
+<i>software</i>. <i>Hardware</i> era una palabra para algo que Ada ya 
+conocía: los aparatos electrónicos con los que jugueteaba después de 
+clase, o los que podía sostener en sus manos e intentar arreglar, o 
+convertir en otra cosa. Lo que era completamente nuevo para Ada era la 
+palabra <i>software</i>. Pronto aprendió que eran instrucciones que se 
+ejecutaban en un ordenador para controlar otros dispositivos u 
+ordenadores. Algunos libros llamaban a esas instrucciones programa o 
+código. Con un programa de ordenador se podía, por ejemplo, decir a un 
+altavoz qué canción poner y a qué volumen.
 
 Lo mejor del nuevo descubrimiento de Ada fue darse cuenta de que podía 
-modificar el software igual que el hardware. El hardware se construía 
-con herramientas: martillos, taladros y tornillos. El software se 
-construía simplemente escribiendo las órdenes para el hardware, una tras 
-otra. Existía un lenguaje propio para ello: el lenguaje de programación. 
-Con el software Ada podría hacer sus inventos aún más útiles. Ada quería 
-a toda costa aprender el lenguaje de programación.
+modificar el <i>software</i> igual que el <i>hardware</i>. El 
+<i>hardware</i> se construía con herramientas: martillos, taladros y 
+tornillos. El <i>software</i> se construía simplemente escribiendo las 
+órdenes para el <i>hardware</i>, una tras otra. Existía un lenguaje 
+propio para ello: el lenguaje de programación. Con el <i>software</i> 
+Ada podría hacer sus inventos aún más útiles. Ada quería a toda costa 
+aprender el lenguaje de programación.
 
 ** 21 **
 [[I:ada-p21
@@ -421,9 +422,9 @@ realmente funcionaba. En el desguace conectó su móvil a una pequeña
 lámpara LED. Luego tecleó las líneas de código en el móvil.
 
 Al principio no ocurrió nada. Ada se preguntó dónde podía estar el 
-error. Hizo unos pequeños cambios y lo intentó de nuevo y. . . “¡Sí!”. 
-La luz comenzó a parpadear. Encendido, apagado, encendido, apagado. Ada 
-miró la lámpara con asombro. ¡Había escrito su primer programa!.
+error. Hizo unos pequeños cambios y lo intentó de nuevo y... “¡Sí!”. La 
+luz comenzó a parpadear. Encendido, apagado, encendido, apagado. Ada 
+miró la lámpara con asombro. ¡Había escrito su primer programa!
 
 Ada estaba encantada. Se imaginaba todas las cosas geniales que podía 
 hacer. Si introducía el código correcto podría hacer que sus inventos 
@@ -439,7 +440,7 @@ IMAGEN:
 ]]
 Ada también tuvo una idea para el siguiente programa que escribiría. Era 
 algo más grande, un proyecto de verdad. Probablemente necesitaría todo 
-el verano... ¡Y no podía esperar!.
+el verano... ¡Y no podía esperar!
 
 ## 24 ##
 
@@ -451,23 +452,23 @@ IMAGEN:
 ==== Slide 13
 [Z]angemann había dormido horriblemente todas las noches desde su 
 terrible paseo por la ciudad. Cada noche, cuando se iba a la cama las 
-preocupaciones le atormentaban. “¡Oh, no, mis maravillosos inventos!. No 
+preocupaciones le atormentaban. “¡Oh, no, mis maravillosos inventos! No 
 puede ser que todo el mundo juegue de esta manera con ellos. ¡Cuántas 
 cosas podrían salir mal! He pensado tanto en todo, hasta el último 
 detalle”. Zangemann reflexionó y reflexionó... y dio vueltas en la cama 
 toda la noche.
 
-Por Lla mañana siguiente se levantó con el ceño fruncido y tomó una 
-decisión. Tenía que hacer un cambio. Zangemann se sentó ante su 
-ordenador dorado y escribió un programa tras otro. En estos programas 
-especificaba exactamente lo que sus inventos debían y lo que no debían 
-hacer bajo ninguna circunstancia. ¡Había que acabar con el caos!
+Por la mañana se levantó con el ceño fruncido y tomó una decisión. Tenía 
+que hacer un cambio. Zangemann se sentó ante su ordenador dorado y 
+escribió un programa tras otro. En estos programas especificaba 
+exactamente lo que sus inventos debían y lo que no debían hacer bajo 
+ninguna circunstancia. ¡Había que acabar con el caos!
 
-Una vez que terminó envió desde su ordenador dorado todos los nuevos 
-programass a a los dispositivos de la gente. Ordenó a sus altavoces que, 
+Una vez que terminó, envió desde su ordenador dorado todos los nuevos 
+programas a los dispositivos de la gente. Ordenó a sus altavoces que, 
 siempre que estuviera cerca, reprodujeran sólo su música favorita. 
 Programó las máquinas de helado para que dejaran de vender helados por 
-la tarde. Al fin y al cabo no quería que su ropa cara se manchara de 
+la tarde. Al fin y al cabo, no quería que su ropa cara se manchara de 
 helado mientras paseaba. Durante todo el día se sentó ante el ordenador 
 y tecleó y tecleó y tecleó...
 
@@ -478,8 +479,8 @@ a su gran proyecto y se rascó la cabeza. Había construido un monopatín
 con piezas de otros viejos monopatines y luego conectado un motor para 
 hacer girar las ruedas. Con un monopatín motorizado Ada podría ir más 
 rápido a la biblioteca o al desguace al salir de clase. ¡Super práctico! 
-Pero no funcionaba. Cuando se subía y apretaba el botón ”AdelanteStart”, 
-las ruedas se movían aunque demasiado rápido. Ada se caía del monopatín 
+Pero no funcionaba. Cuando se subía y apretaba el botón “Comenzar”, las 
+ruedas se movían, aunque demasiado rápido. Ada se caía del monopatín 
 cada vez que arrancaba. No importaba lo que intentara, no conseguía 
 hacerlo bien.
 
@@ -493,10 +494,9 @@ De vuelta al desguace, adaptó algunas líneas del código de su programa
 de monopatín. Modificó algunas cosas y siguió trasteando.
 
 Tras varios intentos, en el último día de las vacaciones de verano, Ada 
-se subió al monopatín y pulsó el botón ”AdelanteStart”. El monopatín 
-empezó a moverse, primero despacio y luego más rápido. ¡Funcionó!. 
-Intentó frenar. ¡Y funcionó! . Ada lanzó un grito de alegría y fue a 
-probarlo al parque.
+se subió al monopatín y pulsó el botón “Comenzar”. El monopatín empezó a 
+moverse, primero despacio y luego más rápido. ¡Funcionó! Intentó frenar. 
+¡Y funcionó! Ada lanzó un grito de alegría y fue a probarlo al parque.
 
 ** 27 **
 
@@ -506,9 +506,9 @@ IMAGEN:
 
 ## 28 ##
 ==== Slide 15
-Cuando Ada., el primer día después de las vacaciones de verano, fue a la 
+Cuando Ada, el primer día después de las vacaciones de verano, fue a la 
 escuela en monopatín, los demás niños se quedaron asombrados. Durante el 
-recreo, rodearon curiosos a Ada.
+recreo rodearon curiosos a Ada.
 
 “¿Cómo puedes ir en monopatín por la acera?”, le preguntaron.
 [[I:ada-p28
@@ -518,9 +518,9 @@ IMAGEN:
 ** 29 **
 
 Ada pensó un momento y luego dijo: “No creo que sean vuestros 
-monopatines sino el software que llevan. Probablemente esté programado 
-para que los monopatines no puedan ir por la acera. Pero eso se puede 
-cambiar”.
+monopatines sino el <i>software</i> que llevan. Probablemente esté 
+programado para que los monopatines no puedan ir por la acera. Pero eso 
+se puede cambiar”.
 
 Esa tarde Ada puso a prueba su teoría con el monopatín de Toni. Trabajó 
 en secreto durante casi toda la noche, y al día siguiente, Toni pudo 
@@ -539,16 +539,15 @@ IMAGEN:
 [M]ás y más niños empezaron a visitar a Ada en el desguace después del 
 colegio y ella les ayudó a reescribir los programas en sus monopatines. 
 Algunos de sus compañeros estaban muy entusiasmados con este nuevo 
-descubrimiento. ¡Era increíble lo que se podía hacer sabiendo 
-programar!. Querían aprender todo lo que Ada sabía sobre lenguajes de 
-programación y pronto volvieron a montar sus monopatines donde les diese 
-la gana.
+descubrimiento. ¡Era increíble lo que se podía hacer sabiendo programar! 
+Querían aprender todo lo que Ada sabía sobre lenguajes de programación y 
+pronto volvieron a montar sus monopatines donde les diese la gana.
 ==== Slide 17
-Pero eso no era todo. Gracias al software podían agregar características 
-nuevas y sorprendentes a sus monopatines. Marie le conectó luces LED de 
-colores que brillaban con diferentes colores dependiendo de la 
-velocidad. Konrad le integró unas viejas hélices para aumentar la 
-velocidad.
+Pero eso no era todo. Gracias al <i>software</i> podían agregar 
+características nuevas y sorprendentes a sus monopatines. Marie le 
+conectó luces LED de colores que brillaban con diferentes colores 
+dependiendo de la velocidad. Konrad le integró unas viejas hélices para 
+aumentar la velocidad.
 [[I:ada-p30
 IMAGEN:
 ]]
@@ -562,10 +561,10 @@ construido para Alan.
 
 “Los altavoces de tu hermano suenan mucho más fuerte que los nuestros”, 
 comentó Toni, que estaba ocupado colocando un velocímetro en su casco. 
-“Seguro que también se debe al software”, dijo Marie.
+“Seguro que también se debe al <i>software</i>”, dijo Marie.
 
-Juntos, cambiaron el software de los altavoces. Después, subieron el 
-volumen de la música al máximo y bailaron juntos como locos.
+Juntos, cambiaron el <i>software</i> de los altavoces. Después, subieron 
+el volumen de la música al máximo y bailaron juntos como locos.
 [[I:ada-p31
 IMAGEN:
 ]]
@@ -596,11 +595,11 @@ helados de todas las formas y colores imaginables. Comían helado
 cuadrado, helado en forma de corazón e incluso helado en forma de 
 pirámide, así como helado de fresa, frambuesa y arco iris, todos con 
 virutas y chocolate caliente. Eran mucho mejor que los helados de las 
-maquinas de Zangemann.
+máquinas de Zangemann.
 
 A veces incluso podían ayudar a los adultos que tenían problemas con sus 
 ordenadores. Toni reprogramó la plancha de su padre para que también 
-pudiera planchar corbatas. Zangemann lo había prohibido porque odiaba a 
+pudiera planchar corbatas. Zangemann lo había prohibido porque odiaba 
 las corbatas como a la peste. Para la conductora de autobús, 
 construyeron un sistema de riego automático con mangueras viejas y un 
 ordenador para que sus plantas no murieran de sed en los días de verano. 
@@ -610,15 +609,15 @@ reconociera automáticamente los juguetes y no los aspirara.
 Algunas cosas las construyeron sólo por diversión, como la máquina de 
 pedos que colocaban en la silla de su profesora de matemáticas. Cada vez 
 que la señora Gernet se sentaba, la máquina hacía sonar un pedo. La 
-profesora les reñía, pero Ada estaba segura de que en secreto sonreía un 
-poco cada vez.
+profesora les reñía, pero Ada estaba segura de que, en secreto, sonreía 
+cada vez un poco más.
 
 ## 36 ##
 ==== Slide 19
 [U]n día, Zangemann se dio cuenta de que algunos ordenadores ya no 
 obedecían sus órdenes de programación. Sorprendido y furioso llamó al 
 presidente. Con voz temblorosa, Zangemann gritó: “¡Alguien está 
-reescribiendo los programas de mis aparatos!. Eso no puede pasar; al fin 
+reescribiendo los programas de mis aparatos! Eso no puede pasar; al fin 
 y al cabo, son mis inventos. Es demasiado peligroso si todo el mundo 
 puede hacer lo que quiera con los ordenadores. Hay que hacer una ley 
 contra esto”.
@@ -630,7 +629,7 @@ y como Zangemann pidió:
 
 “Los ordenadores que no escuchen a Zangemann están prohibidos. 
 Cualquiera que reprograme los dispositivos de Zangemann será multado con 
-500.000 piezas de oro.”
+500.000 piezas de oro”.
 
 ** 37 **
 
@@ -640,10 +639,10 @@ IMAGEN:
 
 ## 38 ##
 ==== Slide 20
-Cuando Ada y sus amigos oyeron esto, se pusieron furiosos. “Esto es 
-injusto”, dijeron. “Hemos reconstruido y reprogramado nuestros 
-monopatines nosotros mismos. Ahora son mucho mejores. No dejaremos que 
-nadie nos lo quite”.
+Cuando Ada y sus amigos oyeron esto, se pusieron furiosos. “Es injusto”, 
+dijeron. “Hemos reconstruido y reprogramado nuestros monopatines 
+nosotros mismos. Ahora son mucho mejores. No dejaremos que nadie nos lo 
+quite”.
 
 Se reunieron frente a una de sus máquinas de helados reconstruidas y 
 discutieron la situación. Estaba claro que había que hacer algo sobre la 
@@ -660,15 +659,15 @@ sentaron frente al edificio. La noche anterior habían colocado luces LED
 en algunas de las pancartas, que ahora parpadeaban intensamente. Habían 
 conectado sus altavoces para que todo el mundo en la calle pudiera oír 
 lo que decían. Algunos transeúntes se pararon y preguntaron a los niños 
-por qué se manifestaban. “¡Por la libertad del software!”, respondieron 
-al unísono y contaron su historia a los adultos. Impresionados, los 
-adultos asintieron y el presidente también miró con curiosidad suslos 
-carteles mientras se acercaba al edificio.
+por qué se manifestaban. “¡Por la libertad del <i>software</i>!”, 
+respondieron al unísono y contaron su historia a los adultos. 
+Impresionados, los adultos asintieron y el presidente también miró con 
+curiosidad los carteles mientras se acercaba al edificio.
 
 Al día siguiente Ada y sus amigos volvieron a sentarse frente al 
-Parlamento, esta vez con acompañadospoyo. Acudieron algunos compañeros 
-cuyos monopatines Ada había re-programado. El padre de Toni y otros 
-padres también quisieron apoyar la protesta. Les parecían muy útiles los 
+Parlamento, esta vez acompañados. Acudieron algunos compañeros cuyos 
+monopatines Ada había reprogramado. El padre de Toni y otros padres 
+también quisieron apoyar la protesta. Les parecían muy útiles los 
 inventos de los niños.
 [[I:ada-p39
 IMAGEN:
@@ -676,14 +675,14 @@ IMAGEN:
 
 ## 40 ##
 
-Cada día que pasaba Según pasaban los días, más niños y adultos se unían 
-a la protesta. La conductora de autobús a la que habían ayudado llegó en 
-su autobús. Tocó la bocina para atraer a más gente a la protesta. El 
-conserje trajo algunos amigos y el padre de Toni trajo a sus compañeros 
-de trabajo, todos con corbatas perfectamente planchadas. Incluso vino la 
-señora Gernet. La multitud creció y, al cabo de unas semanas, hubo 
-protestas no solo en la ciudad de Ada, sino también en muchas otras 
-ciudades de todo el país.
+Según pasaban los días, más niños y adultos se unían a la protesta. La 
+conductora de autobús a la que habían ayudado llegó en su autobús. Tocó 
+la bocina para atraer a más gente a la protesta. El conserje trajo 
+algunos amigos y el padre de Toni trajo a sus compañeros de trabajo, 
+todos con corbatas perfectamente planchadas. Incluso vino la señora 
+Gernet. La multitud creció y, al cabo de unas semanas, hubo protestas no 
+solo en la ciudad de Ada, sino también en muchas otras ciudades de todo 
+el país.
 [[I:ada-p40-41
 IMAGEN:
 ]]
@@ -700,7 +699,7 @@ IMAGEN:
 ]]
 	## ¡Son jóvenes + necesitan el código!
 
-	## ¡Queremos el código abierto!  // No destrocéis nuestra tecnología
+	## ¡Queremos código abierto!  // No destrocéis nuestra tecnología
 
 ## 42 ##
 
@@ -711,8 +710,7 @@ terquedad. Preguntó a Ada: “¿Por qué os sentáis aquí todos los días?
 ¿Qué queréis conseguir?”. Ada respondió: “Queremos decidir por nosotros 
 mismos lo que podemos y no podemos hacer con nuestros ordenadores”. Sus 
 amigos gritaron al unísono: “¡No destrocéis nuestra tecnología! ¡No 
-destrocéis nuestra tecnologías! y ¡Queremos el cCodigo abierto! 
-¡Queremos el cCódigo abierto!”
+destrocéis nuestra tecnologías!” y “¡Codigo abierto! ¡Código abierto!”.
 
 El presidente miró las caras decididas de los niños. Sinceramente, él 
 también quería decidir por sí mismo lo que el gobierno podía y no podía 
@@ -723,23 +721,22 @@ el presidente entró en el edificio.
 [[I:ada-p42
 IMAGEN:
 ]]
-Al día siguiente, el presidente invitóconvocó a Ada y a sus amigos. 
-“También nosotros queremos controlar nuestro software. Para que eso sea 
+Al día siguiente, el presidente convocó a Ada y a sus amigos. “También 
+nosotros queremos controlar nuestro <i>software</i>. Para que eso sea 
 posible el gobierno debe ser independiente de Zangemann. ¿Podéis decirme 
 lo que sabéis sobre programas informáticos?”, les preguntó. Con 
-entusiasmo, los niños le explicaron cómo funciona el software y lo que 
-se puede hacer con él. El presidente se quedó asombrado.
+entusiasmo, los niños le explicaron cómo funciona el <i>software</i> y 
+lo que se puede hacer con él. El presidente se quedó asombrado.
 
 ** 43 **
 
 Con estos nuevos conocimientos, el gobierno podría diseñar su propio 
-software como quisiera, sin Zangemann. Inmediatamente, el presidente 
-llamó a sus asesores. Todos juntos, discutieron con los niños todo lo 
-que podían cambiar y cómo mejorar el software.
+<i>software</i> como quisiera, sin Zangemann. Inmediatamente, el 
+presidente llamó a sus asesores. Todos juntos, discutieron con los niños 
+todo lo que podían cambiar y cómo mejorar el <i>software</i>.
 
-Esa tarde, los niños volvieron a casa orgullosos y satisfechos. ¡Algo 
-por fin Por fín había ocurrido algo! Su larga protesta había merecido la 
-pena.
+Esa tarde, los niños volvieron a casa orgullosos y satisfechos. ¡Por fin 
+había ocurrido algo! Su larga protesta había merecido la pena.
 [[I:ada-p43
 IMAGEN:
 ]]
@@ -756,17 +753,16 @@ Toni, Marie, Konrad y los expertos del gobierno.
 [[I:ada-p44
 IMAGEN:
 ]]
-EnDurante los los días siguientes, hablaron dedesde la mañana hasta la 
-noche y diseñaron sus primeros programas para los ordenadores del 
-gobierno.  
+Durante los días siguientes, hablaron desde la mañana hasta la noche y 
+diseñaron sus primeros programas para los ordenadores del gobierno.  
 Ya no les molestaban las llamadas de Zangemann.  
-Toni tuvo la buena idea de reprogramarre-programar  
+Toni tuvo la buena idea de reprogramar  
 los teléfonos. Cuando Zangemann llamaba,  
 sólo oía una grabación automática:  
 “El gobierno sólo quiere utilizar  
-software que pueda utilizarusar,  
-estudiar, mejorar y compartir  
-libremente. Gracias por llamar”.
+<i>software</i> que pueda usar, estudiar,  
+mejorar y compartir libremente.  
+Gracias por llamar”.
 ==== Slide 23
 Después de muchas semanas de  
 protestas y debates, por fin llegó  
@@ -811,11 +807,10 @@ IMAGEN:
 sentado enfadado delante de su ordenador dorado. Tal vez no se atreve a 
 salir a la calle y ha tapiado todas las ventanas de su mansión para no 
 tener que preocuparse por lo que hacen los demás con sus inventos. Pero 
-quizá, también, a veces, mira al mundo a través de su telescopio y ve lo 
-que los niños inventan cada día. QuizáTal vez entonces recuerde lo 
-divertido que para él era para él trastear y experimentar. Y tal vez, 
-sólo tal vez, coma helado de frambuesa con de forma piramidaen forma de 
-pirámide l con virutas de arco iris.
+quizá, a veces, mire el mundo a través de su telescopio y vea lo que los 
+niños inventan cada día. Tal vez entonces recuerde lo divertido que era 
+para él trastear y experimentar. Y tal vez, sólo tal vez, coma helado de 
+frambuesa con forma de pirámide y virutas de arco iris.
 [[I:ada-p48
 IMAGEN:
 ]]
@@ -832,29 +827,30 @@ Agradecimientos del autor
 
 
 Muchas gracias a Reinhard Wiesemann del LinuxHotel por el apoyo 
-financiero para el libro y por el consejo de dejar de planificar y 
-empezar a hacer concretamente. Gracias a Sandra Brandstätter, que me 
-llenó de inmensa alegría con cada nuevo dibujo para las ilustraciones. 
-Gracias a mi editora Wiebke Helmchen, con quien me divertí mucho 
-desarrollando y perfeccionando la historia, y a Ariane Hesse por el gran 
-apoyo desde la editorial.
+financiero y la motivación para dejar de planear y ponerme manos a la 
+bora. Gracias a Sandra Brandstätter, que me fue llenando de alegría con 
+cada diseño para las ilustraciones. Gracias a mi editora Wiebke 
+Helmchen, quien hizo que desarrollar y afinar la historia fuera muy 
+divertido, y a No Starch Press por aceptar publicar el libro bajo una 
+licencia de cultura libre.
 
 Gracias a Bea y Benni, Christine y Marc, Cory, Bernhard, Isabel y 
 Amelia, Katta, Kristina, Martin, Mona y Arne, Nina, Oliver, Reinhard, 
-Sabine y Torsten por las geniales ideas, inspiraciones y consejos 
-prácticos, y gracias a las muchas personas en el movimiento del Software 
-Libre, de quienes pude aprender y cuyo compromiso me motivó.
+Sabine y Torsten por sus ideas geniales, su inspiración y sus consejos 
+prácticos, y gracias a las muchas personas en el movimiento del 
+<i>Software Libre</i>, de quienes pude aprender y cuyo compromiso me 
+motivó.
 
 Esta edición en español ha sido posible gracias a la iniciativa y 
-energía de Ricardo Bacchini de Volkswagen Group España Distribución, 
-el trabajo de traducción de Tanja Pengue y Luis Lorenzo, y finalmente, 
+energía de Ricardo Bacchini de Volkswagen Group España Distribución, el 
+trabajo de traducción de Tanja Pengue y Luis Lorenzo, y finalmente, 
 gracias a Ana y Lina por la corrección de pruebas.
 
-Gracias a mi familia, que me permitió escribir temprano por la mañana, 
+Gracias a mi familia, que me motivó a escribir temprano por la mañana, 
 tarde por la noche y en vacaciones, y que siempre apoya mi trabajo por 
-la libertad del software. Sobre todo, me gustaría agradecer a mis hijos, 
-que me inspiraron con nuevas ideas con cada relectura. Sin ellos, este 
-libro no existiría.
+la libertad del <i>software</i>. En especial, me gustaría agradecer a 
+mis hijos, que me inspiraron con nuevas ideas con cada lectura. Sin 
+ellos, este libro no existiría.
 
 ** 51 **
 
@@ -868,14 +864,13 @@ Información sobre el autor
 Matthias Kirschner
 
 
-Matthias siempre ha estado fascinado por las computadoras y el software 
-desde que era niño. Ya tenía una conexión a Internet en sus primeros 
-días, de la cual aprendió mucho.
-Los niños tienen derecho a dar forma a su futuro. Por lo tanto, Matthias 
-se compromete a asegurar que todas las personas puedan utilizar el 
-software de forma autónoma. También le gustaría construir un monopatín 
-eléctrico con Software Libre.
-
+A Matthias siempre le han fascinado los ordenadores y el 
+<i>software</i>. Desde muy pronto tuvo conexión a Internet con la que 
+aprendió mucho.
+Los niños tienen derecho a tomar las riendas de su futuro. Por lo tanto, 
+Matthias está comprometido con el objetivo de que todos los seres 
+humanos usen el <i>software</i> de forma auto-determinada. También 
+quiere construir un monopatín eléctrico con <i>Software Libre</i>.
 
 [[I:ada-p52
 IMAGEN:
@@ -887,13 +882,12 @@ Información sobre la ilustradora
 Sandra Brandstätter
 
 
-A Sandra siempre le ha gustado trabajar con tijeras, alicates, 
-pegamento, hilo, tela y papel. Hoy en día trabaja como ilustradora, 
-autora de cómics y diseñadora de personajes para películas y series 
-animadas, por ejemplo para la serie “Trudes Tier” (Die Sendung mit der 
-Maus).
-De una máquina de helados, Sandra tomaría un helado cremoso de arcoíris 
-con sabor a limón de pepino y un montón, pero un montón, de virutas.
+A Sandra siempre le han gustado las manualidades con tijeras, alicates, 
+pegamento, alambre, tela y papel. Hoy trabaja como ilustradora, autora 
+de cómics y diseñadora de personajes para películas y series de 
+animación, como la serie de la televisión pública alemana “Trudes Tier”.
+En una máquina de helados, Sandra elegiría un cremoso helado de arcoíris 
+con sabor a pepino limón y un montón de virutas.
 
 [[I:ada-p53
 IMAGEN:
@@ -904,18 +898,19 @@ IMAGEN:
 Sitio web del libro
 
 
-La Free Software Foundation Europe e.V. es una organización benéfica y 
-sin ánimo de lucro que brinda a las personas los medios para controlar 
-la tecnología.
-El software está presente en todas las áreas de nuestras vidas. Por eso 
-es importante que esta tecnología nos dé libertad en lugar de 
-limitarnos.
-El Software Libre (también llamado Open Source) le da a todos el derecho 
-a usar, estudiar, compartir y mejorar los programas. El Software Libre 
-ayuda a respaldar otros derechos fundamentales como la libertad de 
-expresión, la libertad de prensa y la privacidad.
+La <i>Free Software Foundation Europe e.V.</i> es una organización sin 
+ánimo de lucro que brinda a las personas los medios para controlar la 
+tecnología.
+El <i>software</i> está presente en todos los ámbitos de nuestras vidas. 
+Por eso es importante que esta tecnología nos dé libertad en lugar de 
+restringirnos.
+El <i>Software Libre</i> (también llamado <i>Open Source</i>) le da a 
+todo el mundo el derecho a usar, estudiar, compartir y mejorar los 
+programas. El <i>Software Libre</i> ayuda a respaldar otros derechos 
+fundamentales como la libertad de expresión, la libertad de prensa y la 
+privacidad.
 
-En el sitio web del libro encontrarás más información y otros 
+En la página web del libro encontrarás más información y otros 
 materiales:
 https://ada.fsfe.org
 
@@ -925,11 +920,11 @@ https://ada.fsfe.org
 Licencia
 
 
-El libro “Ada & Zangemann - Un cuento sobre software, monopatines y 
-helado de frambuesa” de Matthias Kirschner y Sandra Brandstätter, 
-publicado por la Free Software Foundation Europe, está licenciado bajo 
-la licencia “Creative Commons Attribution-Share Alike 4.0 International 
-(CC BY-SA 4.0)”.
+El libro “Ada & Zangemann - Un cuento sobre <i>Software</i>, Monopatines 
+y Helado de Frambuesa” de Matthias Kirschner y Sandra Brandstätter, 
+publicado por la <i>Free Software Foundation Europe</i>, está bajo 
+licencia “<i>Creative Commons Attribution-Share Alike 4.0 International 
+(CC BY-SA 4.0)</i>”.
 
 https://creativecommons.org/licenses/by-sa/4.0/deed.es
 
