@@ -7,8 +7,9 @@
 # - R1.01 2023-11-07: Removed "template" wording on page 56
 # - R1.02 2023-12-14: Improved language by Iolanda suggestions
 # - R1.03 2024-03-08: Improved images description following English proofreading
+# - R1.04 2024-05-09: Replaced "scooter" with "monopattino" (page 26)
 
-** 0 **
+## 0 ##
 
 [[IDX:
 toc:Indice
@@ -144,8 +145,8 @@ esso, come dovrebbe essere per tutta la cultura.
 Ti incoraggiamo a sostenere autori, editori e altri coinvolti nella 
 creazione della cultura con licenze libere, anche con <b>un sostegno 
 finanziario attraverso l’acquisto</b> (tutti i proventi della vendita di 
-questa edizione in italiano saranno direttamente devoluti alla FSFE) 
-o <b>una donazione</b> (https://fsfe.org/donate).
+questa edizione in italiano saranno direttamente devoluti alla FSFE) o 
+<b>una donazione</b> (https://fsfe.org/donate).
 La società dovrebbe sostenere chi rispetta la libertà degli altri.
 
 ** 3 **
@@ -299,10 +300,11 @@ macchine-mischia-gelato originali Zangemann. Sembrava una cosa magica,
 ma in realtà tutto questo era possibile grazie al piccolo computer che 
 Zangemann aveva incorporato nei dispositivi.
 [[I:ada-p08a
-IMMAGINE: Uno skateboard elettrico originale Zangemann che sfreccia via e lascia 
-una scia azzurra con note musicali e cerchi colorati. Sullo skateboard 
-si vede solo la parte sotto le ginocchia del bambino che lo sta usando, 
-che ha calzini bianchi e scarpe verde oliva con suole bianche.
+IMMAGINE: Uno skateboard elettrico originale Zangemann che sfreccia via 
+e lascia una scia azzurra con note musicali e cerchi colorati. Sullo 
+skateboard si vede solo la parte sotto le ginocchia del bambino che lo 
+sta usando, che ha calzini bianchi e scarpe verde oliva con suole 
+bianche.
 ]]
 
 ** 9 **
@@ -635,7 +637,7 @@ saldatore.
 ]]
 Ada ebbe anche un’idea per il prossimo programma che avrebbe scritto. 
 Era una cosa più impegnativa, un vero progetto. Probabilmente avrebbe 
-avuto bisogno di tutte le vacanze estive per realizzarlo… ma non stava 
+avuto bisogno di tutte le vacanze estive per realizzarlo... ma non stava 
 più nella pelle!
 
 ## 24 ##
@@ -687,7 +689,7 @@ di esercizio: semplicemente non funzionava come avrebbe voluto.
 Dopo che Ada cadde sul suo fondoschiena per la centesima volta, decise 
 di andare in biblioteca. Là aveva sempre trovato ciò che le serviva, e 
 infatti trovò su Internet un programma che qualcuno aveva scritto per il 
-proprio scooter elettrico, che aveva la stessa esigenza di partire 
+proprio monopattino elettrico, che aveva la stessa esigenza di partire 
 lentamente. Ada scaricò il programma sul suo cellulare.
 
 Tornata in discarica, prese alcune parti del codice scaricato e le 
@@ -745,8 +747,8 @@ Ada era circondata dai compagni di classe incuriositi.
 «Perché tu puoi andare con il tuo skateboard sul marciapiede?» le 
 chiesero.
 [[I:ada-p28
-IMMAGINE: Ada ferma sul suo skateboard attorniata da bambini. Da un lato c'è Marie 
-che indica con la mano lo skateboard di Ada e sta parlando.
+IMMAGINE: Ada ferma sul suo skateboard attorniata da bambini. Da un lato 
+c'è Marie che indica con la mano lo skateboard di Ada e sta parlando.
 Vicino a lei c'è Conrad, con capelli biondi corti, un caschetto grigio 
 scuro, occhiali, maglietta verde con risvolti bianchi, pantaloni blu 
 chiaro ancora con risvolti bianchi, scarpe grige con suole bianche. Ha 
@@ -1289,10 +1291,9 @@ Licenza
 
 
 Il libro “Ada & Zangemann – Una fiaba che parla di software, skateboard 
-e gelato al lampone” di Matthias Kirschner e Sandra Brandstätter, 
-pubblicato dalla Free Software Foundation Europe, è dato con la licenza 
-“Creative Commons Attribution-Share Alike 4.0 International (CC BY-SA 
-4.0)”.
+e gelato al lampone” di Matthias Kirschner e Sandra Brandstätter è dato 
+con la licenza “Creative Commons Attribution-Share Alike 4.0 
+International (CC BY-SA 4.0)”.
 
 https://creativecommons.org/licenses/by-sa/4.0/deed.it
 

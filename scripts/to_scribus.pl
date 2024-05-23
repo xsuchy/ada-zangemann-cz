@@ -7,6 +7,8 @@
 $TXT=0;
 $ODP=1;
 $SLA=2;
+$REA=3;
+$EPU=4;
 
 $format=$TXT;
 
@@ -16,14 +18,27 @@ if($0=~/scribus/) {
 elsif($0=~/odp/) {
   $format=$ODP;
 }
+elsif($0=~/reading/) {
+  $format=$REA;
+}
+elsif($0=~/epub/) {
+  $format=$EPU;
+}
+
 
 $textfile=shift;
 $templatefile=shift;
 $templatedir=shift;
 
-if(length($textfile)==0 || ($format==$SLA && length($templatefile)==0)) {
+if(length($textfile)==0 
+   || (($format==$SLA || $format==$ODP) && length($templatefile)==0)
+   || (($format==$ODP) && length($templatedir)==0)
+  ) {
   if($format==$SLA) {
     print STDERR "\nUsage: $0 source.txt template.sla > destination.sla\n\n";
+  }
+  elsif($format==$ODP) {
+    print STDERR "\nUsage: $0 source.txt template.odp destination.odp\n\n";
   }
   else {
     print STDERR "\nUsage: $0 source.txt > destination.txt \n\n";
@@ -61,6 +76,8 @@ sub Unformat {
   my $s=shift;
   $s=~s|<b>||gis;
   $s=~s|</b>||gis;
+  $s=~s|<i>||gis;
+  $s=~s|</i>||gis;
   return($s);
 }
 
@@ -73,34 +90,71 @@ sub FormatXML {
   return($s);
 }
 
+sub ReplaceFormat
+{
+  my ($par,$fmt,$font)=@_;
+  my ($i,$f,$c0,$c1,$c2,$lc,$ofmt,$cfmt);
+  $lc=lc($par);
+  # Check for bold
+  $c0=0;
+  $ofmt="<$fmt>";
+  $cfmt="</$fmt>";
+  while(($c1=index($lc,$ofmt,$c0))>=0) {
+    if($c1>$c0) {
+      $f.=substr($par,$c0,$c1-$c0);
+    }
+    $c1+=length($ofmt);
+    $c2=index($lc,$cfmt,$c1);
+    if($c2>$c1) {
+      $f.="<ITEXT FONT=\"$font\" CH=\"".FormatXML(substr($par,$c1,$c2-$c1))."\"/>";
+      $c0=$c2+length($cfmt);
+    }
+    else {
+      # Wrong formatting...
+      $f.=substr($par,$c1);
+      $c0=length($lc);
+    }
+  }
+  if($c0<length($lc)) {
+    $f.=substr($par,$c0);
+  }
+  return($f);
+}
+
 sub FormatSLA {
   my $s=shift;
   my $space=shift;
-  my (@par,$i,$f,$c0,$c1,$c2,$lc);
+  my (@par,$i,$f,$c0,$c1,$c2,$lc,$slocal,$ofmt,$cfmt);
   @par=split("\n",$s);
   for($i=0;$i<=$#par;$i++) 
   {
-    # Check for bold
+    $slocal=$par[$i];
+    $slocal=ReplaceFormat($slocal,"b",$bold);
+    $slocal=ReplaceFormat($slocal,"i",$italic);
+    $slocal=ReplaceFormat($slocal,"bi",$bolditalic);
+    $lc=$slocal;
+    # Place XML tags
     $c0=0;
-    $lc=lc($par[$i]);
-    while(($c1=index($lc,"<b>",$c0))>=0) {
+    $ofmt="<ITEXT ";
+    $cfmt="\"/>";
+    while(($c1=index($lc,$ofmt,$c0))>=0) {
       if($c1>$c0) {
-        $f.=$space."<ITEXT CH=\"".FormatXML(substr($par[$i],$c0,$c1-$c0))."\"/>\n";
+	$f.=$space."<ITEXT CH=\"".FormatXML(substr($slocal,$c0,$c1-$c0))."\"/>\n";
       }
-      $c1+=3;
-      $c2=index($lc,"</b>",$c1);
+      $c2=index($lc,$cfmt,$c1);
       if($c2>$c1) {
-        $f.=$space."<ITEXT FONT=\"$bold\" CH=\"".FormatXML(substr($par[$i],$c1,$c2-$c1))."\"/>\n";
-	$c0=$c2+4;
+	$c2+=length($cfmt);
+	$f.=$space.substr($slocal,$c1,$c2-$c1)."\n";
+	$c0=$c2;
       }
       else {
-        # Wrong formatting...
-        $f.=$space."<ITEXT CH=\"".FormatXML(substr($par[$i],$c1))."\"/>\n";
+	# Wrong formatting...
+	$f.=$space."<ITEXT CH=\"".FormatXML(substr($slocal,$c1))."\"/>\n";
 	$c0=length($lc);
       }
     }
     if($c0<length($lc)) {
-      $f.=$space."<ITEXT CH=\"".FormatXML(substr($par[$i],$c0))."\"/>\n";
+      $f.=$space."<ITEXT CH=\"".FormatXML(substr($slocal,$c0))."\"/>\n";
     }
     if($i<$#par) {
       $f.=$space."<para/>\n";
@@ -117,24 +171,36 @@ $pagenum=0;
 while(<F>) {
   if($status==-1) {
     if(m/^#/) {
-      print if($format==$TXT);
+      print if($format==$TXT || $format==$REA);
       $_="";
     }
     else {
-      $status=1;
+      if($format==$REA) { $status=0; }
+      else { $status=1; }
     }
   }
   else {
     if(m/^\[\[/) {
       $status|=0x10;
     }
-    if(m/^===/) {
+    if($format==$REA) {
+      if(m/^=== /) {
+	$status=1;
+	$pagechange=0 if($pagechange>=0);
+      }
+      elsif(m/^=====/) {
+	$status=3 if($format==$REA);
+      }
+    }
+    elsif(m/^===/) {
       $_="\n";
       $br=0;
+      $pagechange=0 if($pagechange>=0);
     }
+
     if(m/ $/) {
       if((m/\S   $/ && $format==$ODP) ||
-	 (m/\S  $/ && $format!=$TXT)
+	 (m/\S  $/ && $format==$SLA)
 	)
       {
 	s/ +$//;
@@ -152,6 +218,28 @@ while(<F>) {
         $fpagenum=sprintf("%02d",$pagenum+0).$fpagenum;
 	if($format!=$TXT || $pagenum ne ($pagenum+0)) { $_=""; }
       }
+      if($format==$REA) {
+	if(m/^===/) {
+	  if($pagechange>=0) {
+	    $pagechange=1;
+	  }
+	  else {
+	    if(!$br) { print "\n"; }
+	    print "\n";
+	    $br=1;
+	    $_="";
+	  }
+	}
+	if($pagechange>0) {
+	  if(!$br) { print "\n"; }
+	  ($slide)=m/= (.*)/;
+	  if(length($slide)>0) { $slide="($slide)"; }
+	  print "<!-- Change Page $slide -->\n\n";
+	  $_="";
+	  $br=1;
+	  $pagechange=0;
+	}
+      }
       if(m/^\t?#/ && $format!=$TXT) {
         $_="";
       }
@@ -164,7 +252,7 @@ while(<F>) {
 	}
 	$pagecap[$pagenum]=$capfile;
 	#print STDERR "PAGECAP $pagenum=$cap ($rest)\n";
-	if($format==$TXT) {
+	if($format==$TXT || $format==$REA) {
 	  $_=$cap.$rest;
         }
 	else {
@@ -172,7 +260,7 @@ while(<F>) {
 	  $_=$rest;
 	}
       }
-      elsif(m/^$/) {
+      if(m/^$/) {
 	if($br) {
 	  $_="";
 	}
@@ -181,7 +269,7 @@ while(<F>) {
       else {
 	$br=0;
       }
-      print Unformat($_) if($format==$TXT);
+      print Unformat($_) if($format==$TXT || $format==$REA);
       if($pagenum ne ($pagenum+0)) {
         # Special case
         $pagetext{$fpagenum}.=$_;
@@ -192,7 +280,11 @@ while(<F>) {
     }
     if(m/^\]\]/) {
       $status&= ~0x10;
-      $br=0;
+      $br=0 if($format!=$REA);
+    }
+    if($format==$REA && ($status & 0x02)) {
+      #$status&=0xFE;
+      $status=2;
     }
   }
 }
@@ -224,7 +316,9 @@ foreach $i (keys %pagetext)
 
 if($format==$SLA)
 {
-  $bold="Heebo Bold1";
+  $bold="Heebo Bold";
+  $italic="Heebo Italic";
+  $bolditalic="Heebo Bold Italic";
   if($templatefile=~m/\.gz$/) {
     $err=open(S,"gunzip -c \"$templatefile\"|");
   }
@@ -236,8 +330,14 @@ if($format==$SLA)
     exit(2);
   }
   while(<S>) {
-    if(m/<Fonts .*Bold/i) {
+    if(m/<Fonts .*Bold.*Italic/i) {
+      ($bolditalic)=m/<Fonts .*Name="(.*?)"/;
+    }
+    elsif(m/<Fonts .*Bold/i) {
       ($bold)=m/<Fonts .*Name="(.*?)"/;
+    }
+    elsif(m/<Fonts .*Italic/i) {
+      ($italic)=m/<Fonts .*Name="(.*?)"/;
     }
     s/ LANGUAGE="\S+?"/ LANGUAGE="$language"/g;
     if(m/PFILE="Capitals/) {
