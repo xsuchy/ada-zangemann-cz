@@ -55,8 +55,8 @@ Uma história de software, skates e gelado de framboesa
 ## 2 ##
 
 Copyright © 2022-2024 Matthias Kirschner (texto), Free Software 
-Foundation Europe e.V. (ilustrações) e Vítor de Matos (tradução); autor: 
-Matthias Kirschner, ilustratora: Sandra Brandstätter.
+Foundation Europe e.V. (ilustrações) e Vítor de Matos (tradução); 
+autor: Matthias Kirschner, ilustratora: Sandra Brandstätter.
 
 <b>ADA & ZANGEMANN</b> – Uma história de software, skates e gelado de 
 framboesa
