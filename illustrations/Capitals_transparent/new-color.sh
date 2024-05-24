@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 # Uncomment to help debugging this script
-set -o xtrace
+# set -o xtrace
 
 cd "$(dirname "${0}")"  # Operate in the directory with transparent capitals
 
