@@ -30,8 +30,3 @@ all: $(sla-output) nl-reading.txt
 .PHONY: clean
 clean:
 	rm $(sla-output)
-
-
-
-
-
