@@ -4,609 +4,785 @@
 #
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
-** 3 **
+** 0 **
 
-Matthias Kirschner  
-  Sandra Brandstätter  
-  
+[[IDX:
+toc:Table of Contents
+text:Text
+cover:Cover
+other.titlepage:Front Cover
+chapter-01,cover:Front Cover
+chapter-02,page_02:Imprint
+chapter-03,page_04:Ada & Zangemann
+chapter-04,page_06:Zangemann and computers
+chapter-05,page_13:One day...
+chapter-06,page_18:Skateboards no longer work
+chapter-07,page_20:Ada and software
+chapter-08,page_22:Programming
+chapter-09,page_25:A horrible night
+chapter-10,page_26:First real project
+chapter-11,page_30:Hacking for freedom
+chapter-12,page_36:Zangemann and the President
+chapter-13,page_39:Protest
+chapter-14,page_42:Children help the government
+chapter-15,page_44:New law
+chapter-16,page_48:And Zangemann?
+chapter-17,page_50:Acknowledgments
+chapter-18,page_52:About the Author - Matthias Kirschner
+chapter-19,page_53:About the Illustrator - Sandra Brandstätter
+chapter-20,page_54:Website for the book and license
+chapter-21,page_55:Drawing templates
+chapter-22,back_cover:Back cover and synopsis
+]]
+
+[[I:cover
+IMAGE: TODO
+]]
+
+** 1 **
+
+[[I:ada-p01
+ADA & ZANGEMANN
+]]
+
+Matthias Kirschner
+  Sandra Brandstätter
+
 ADA & ZANGEMANN  
-Een verhaal over software, skateboards en frambozenijs  
-  
-  
+Een verhaal over software, skateboards en frambozenijs 
+
+## 2 ##
+
 Copyright © 2023 Matthias Kirschner en Sandra Brandstätter. Op dit werk is een
 Creative Commons Attribution-ShareAlike 4.0 International License van
-toepassing. Bezoek http://creativecommons.org/licenses/by-sa/4.0/ om een kopie
-van deze licentie te zien of stuur een brief aan Creative Commons, PO Box 1866,
+toepassing. Bezoek http://creativecommons.org/licenses/by-sa/4.0/ om een kopie 
+van deze licentie te zien of stuur een brief aan Creative Commons, PO Box 1866, 
 Mountain View, CA 94042, USA.
-  
-Ada & Zangemann: Een verhaal over software, skateboards en frambozenijs is een
-vertaling van het Duitse origineel: Ada und Zangemann: Ein Märchen über
-Software, Skateboards und Himbeereis, gepubliceerd door Dpunkt.verlag in
-samenwerking met O’Reilly Media, Inc., onder de handelsnaam “O’REILLY,” © 2022
+
+Ada & Zangemann: Een verhaal over software, skateboards en frambozenijs is een 
+vertaling van het Duitse origineel: Ada und Zangemann: Ein Märchen über 
+Software, Skateboards und Himbeereis, gepubliceerd door Dpunkt.verlag in 
+samenwerking met O’Reilly Media, Inc., onder de handelsnaam “O’REILLY,” © 2022 
 door Matthias Kirschner en Sandra Brandstätter.
-  
-Eerste druk  
-  
-26 25 24 23 22 1 2 3 4 5  
-  
-ISBN-13: 978-1-7185-0318-2 (print)  
-ISBN-13: 978-1-7185-0319-9 (ebook)  
-  
-Uitgever: William Pollock  
-Auteur: Matthias Kirschner  
-illustratrice: Sandra Brandstätter  
-Eindredactie: Jill Franklin  
-Productie-redactie: Jennifer Kepler  
-Redactie: Wiebke Helmchen  
-Kleurassistentie: Olga Biryukova, Noémi Sárkány, Nathalie Scattolon, Kristina Haidinger,   
-en Jasmin Schlögl  
-Ontwerp voorkant: Sandra Brandstätter en Susan Brown  
-Letterzetster: Maureen Forys, Happenstance Type-O-Rama  
-  
-Neem voor informatie over distributie, bulkverkoop of zakelijke verkoop
-alstublieft contact op met No Starch Press, Inc., direct via info@nostarch.com
+
+Eerste druk
+
+26 25 24 23 22 1 2 3 4 5
+
+ISBN-13: 978-1-7185-0318-2 (print)
+ISBN-13: 978-1-7185-0319-9 (ebook)
+
+Uitgever: William Pollock
+Auteur: Matthias Kirschner
+illustratrice: Sandra Brandstätter
+Eindredactie: Jill Franklin
+Productie-redactie: Jennifer Kepler
+Redactie: Wiebke Helmchen
+Kleurassistentie: Olga Biryukova, Noémi Sárkány, Nathalie Scattolon, Kristina Haidinger, 
+en Jasmin Schlögl
+Ontwerp voorkant: Sandra Brandstätter en Susan Brown
+Letterzetster: Maureen Forys, Happenstance Type-O-Rama
+
+Neem voor informatie over distributie, bulkverkoop of zakelijke verkoop 
+alstublieft contact op met No Starch Press, Inc., direct via info@nostarch.com 
 of:
-  
-No Starch Press, Inc.  
-245 8th Street, San Francisco, CA 94103  
-USA  
-telefoon: 1.415.863.9900  
+
+No Starch Press, Inc.
+245 8th Street, San Francisco, CA 94103 USA
+telefoon: 1.415.863.9900
 www.nostarch.com
 
-Een cataloguskaart van dit boek is beschikbaar bij het Library of Congress.  
+Een cataloguskaart van dit boek is beschikbaar bij het Library of Congress.
 
-No Starch Press en het No Starch Press-logo zijn geregistreerde handelsmerken
-van No Starch Press, Inc. Andere hierin genoemde product- en bedrijfsnamen
-zouden de handelsmerken van hun respectievelijke eigenaren kunnen zijn. In
-plaats van bij ieder geval van een handelsmerk een handelsmerksymbool te
-gebruiken, gebruiken we de namen alleen op een redactionele wijze en ten
-voordeel van de handelsmerkeigenaar, zonder intentie om inbreuk te maken op het
+No Starch Press en het No Starch Press-logo zijn geregistreerde handelsmerken 
+van No Starch Press, Inc. Andere hierin genoemde product- en bedrijfsnamen 
+zouden de handelsmerken van hun respectievelijke eigenaren kunnen zijn. In 
+plaats van bij ieder geval van een handelsmerk een handelsmerksymbool te 
+gebruiken, gebruiken we de namen alleen op een redactionele wijze en ten 
+voordeel van de handelsmerkeigenaar, zonder intentie om inbreuk te maken op het 
 handelsmerk.
 
-De informatie in dit boek is gedistribueerd op een “Koop op eigen bate en
-schade”-basis, zonder garantie. Hoewel iedere voorzorg is genomen bij de
-voorbereiding van dit werk, zullen noch de auteur, noch No Starch Press, Inc.
-welke aansprakelijkheid hebben naar welk persoon of welke entiteit dan ook met
-betrekking tot welk verlies of schade, veroorzaakt of beweerd, direct of
+De informatie in dit boek is gedistribueerd op een “Koop op eigen bate en 
+schade”-basis, zonder garantie. Hoewel iedere voorzorg is genomen bij de 
+voorbereiding van dit werk, zullen noch de auteur, noch No Starch Press, Inc. 
+welke aansprakelijkheid hebben naar welk persoon of welke entiteit dan ook met 
+betrekking tot welk verlies of schade, veroorzaakt of beweerd, direct of 
 indirect, door de informatie die het bevat.
 
-Alle karakters in deze publicatie zijn fictie en welke overeenkomst met echte
+Alle karakters in deze publicatie zijn fictie en welke overeenkomst met echte 
 personen, levend of dood, is volledig toevallig.
 
 **
 
-Dit boek van Matthias Kirschner (auteur) en Sandra Brandstätter
+Dit boek van Matthias Kirschner (auteur) en Sandra Brandstätter 
 (illustratrice) valt onder Creative Commons CC-BY-SA, een vrije culturele licentie.
 
-U kunt het materiaal in welk medium of formaat dan ook delen, kopiëren en redistribueren. U kunt het materiaal voor welk doel dan ook, zelfs commercieel, aanpassen, remixen, veranderen en op voortbouwen. U moet de juiste naam vermelden, een link naar de licentie leveren en duidelijk maken of er veranderingen zijn gemaakt. U mag dit doet op een redelijke manier, maar niet zodanig dat de indruk gewekt wordt dat de licentiegever instemt met uw werk of uw gebruik van het werk. Als u het werk hebt geremixt, veranderd, of op het werk hebt voortgebouwd, moet u het veranderde materiaal verspreiden onder dezelfde licentie als het originele werk. (Dit is een door mensen leesbare samenvatting, en geen vervanging voor, de juridische code van CC-BY-SA 4.0).  
-  
-Verder vraagt de licentiehouder voor geremixte versies (afgeleide werken) aan u om de persoonlijke dankbetuigingen van de auteur en de korte biografieën van de auteur en de illustratrice niet te veranderen; of liever deze delen geheel verwijderen van uw geremixte versie.  
-  
-Publicatie onder deze vrije culturele licentie was mogelijk dankzij fantastische steun van dpunkt.verlag GmbH / O'Reilly voor het Duitse boek en No Starch Press voor het Engelse boek. Helaas vormen Creative Commons-licenties nog steeds zeldzame uitzonderingen voor commercieel gepubliceerde boeken en worden ze vaak als revolutionair en riskant gezien door uitgevers.  
-  
-Met heel veel dank aan dpunkt.verlag en No Starch Press voor het begrijpen van de waarden van softwarevrijheid, het nemen van de tijd om de voordelen van vrije culturele licenties te begrijpen en erover te discussiëren en de fantastische steun voor het publiceren van dit boek onder voorwaarden die de waarden van de FSFE respecteren.  
-  
-  
-Vrij als in vrijheid, niet prijs  
-   
-Vrije Software gaat over de vrijheden die u met de software ontvangt, niet over de prijs. Zo betekent een boek publiceren onder een vrije culturele licentie niet dat u het recht hebt om een gratis kopie van het boek of ebook te ontvangen. Het betekent dat u de hierboven beschreven rechten ontvangt, die de samenleving in staat stellen om er verder van te profiteren, zoals alle cultuur zou moeten.  
-  
+U kunt het materiaal in welk medium of formaat dan ook delen, kopiëren en redistribueren. U kunt het materiaal voor welk doel dan ook, zelfs commercieel, aanpassen, remixen, veranderen en op voortbouwen. U moet de juiste naam vermelden, een link naar de licentie leveren en duidelijk maken of er veranderingen zijn gemaakt. U mag dit doet op een redelijke manier, maar niet zodanig dat de indruk gewekt wordt dat de licentiegever instemt met uw werk of uw gebruik van het werk. Als u het werk hebt geremixt, veranderd, of op het werk hebt voortgebouwd, moet u het veranderde materiaal verspreiden onder dezelfde licentie als het originele werk. (Dit is een door mensen leesbare samenvatting, en geen vervanging voor, de juridische code van CC-BY-SA 4.0).
+
+Verder vraagt de licentiehouder voor geremixte versies (afgeleide werken) aan u om de persoonlijke dankbetuigingen van de auteur en de korte biografieën van de auteur en de illustratrice niet te veranderen; of liever deze delen geheel verwijderen van uw geremixte versie.
+
+Publicatie onder deze vrije culturele licentie was mogelijk dankzij fantastische steun van dpunkt.verlag GmbH / O'Reilly voor het Duitse boek en No Starch Press voor het Engelse boek. Helaas vormen Creative Commons-licenties nog steeds zeldzame uitzonderingen voor commercieel gepubliceerde boeken en worden ze vaak als revolutionair en riskant gezien door uitgevers.
+
+Met heel veel dank aan dpunkt.verlag en No Starch Press voor het begrijpen van de waarden van softwarevrijheid, het nemen van de tijd om de voordelen van vrije culturele licenties te begrijpen en erover te discussiëren en de fantastische steun voor het publiceren van dit boek onder voorwaarden die de waarden van de FSFE respecteren.
+
+## 2BB ##
+
+Vrij als in vrijheid, niet prijs
+
+Vrije Software gaat over de vrijheden die u met de software ontvangt, niet over de prijs. Zo betekent een boek publiceren onder een vrije culturele licentie niet dat u het recht hebt om een gratis kopie van het boek of ebook te ontvangen. Het betekent dat u de hierboven beschreven rechten ontvangt, die de samenleving in staat stellen om er verder van te profiteren, zoals alle cultuur zou moeten.
+
 We moedigen u aan om auteurs, uitgevers en anderen die betrokken zijn bij de creatie van cultuur onder vrije licenties, inclusief financieel, te steunen door aankopen of donaties. De samenleving zou zij die die vrijheid van de anderen respecteren moeten steunen.
 
-## 4 ##
+** 3 **
+=== Slide 1
 
-Er was eens een klein meisje genaamd Ada. Haar familie was zo arm dat al hun spaargeld in een koekjesdoos paste. Ze hadden niet genoeg geld om in een echt huis te wonen. In plaats daarvan woonde Ada met haar moeder en haar kleine broer Alan in een hut in de buurt van een vuilnisbelt aan de rand van de stad.
+[[I:ada-p03
+IMAGE: TODO 
+]]
+Matthias Kirschner
+Sandra Brandstätter
+
+ADA & ZANGEMANN
+
+A Tale of Software, Skateboards, and Raspberry Ice Cream
+
+## 4 ##
+==== Slide 2
+[E]r was eens een klein meisje genaamd Ada. Haar familie was zo arm dat al hun spaargeld in een koekjesdoos paste. Ze hadden niet genoeg geld om in een echt huis te wonen. In plaats daarvan woonde Ada met haar moeder en haar kleine broer Alan in een hut in de buurt van een vuilnisbelt aan de rand van de stad.
+[[I:ada-p04
+IMAGE: TODO
+]]
 
 ** 5 **
 
+[[I:ada-p05
+IMAGE: TODO
+]]
 Ver weg, aan de andere kant van de stad, woonde een beroemde uitvinder genaamd Zangemann. Hij was ongelooflijk rijk. Geen papier in de wereld was groot genoeg voor zjn bankafschrift met alle getallen en nullen! Hij woonde in een enorm huis met een zwembad en waterglijbaan, veel trappen en torens, honderden ramen en zoveel kamers dat hijzelf vaak verdwaalde. Zangemann's landhuis stond hoog op een heuvel. Daar vandaan kon hij over de hele stad uit kijken.
 
 ## 6 ##
+==== Slide 3
+[C]omputers hadden Zangemann's fascinatie sinds hij een kind was. Toen hij jong was waren computers enorme machines met veel kabels en luidruchtige ventilatoren. Op school droomde kleine Zangemann vaak over alle dingen die hij zou doen met computers als ze slechts een klein stukje kleiner zouden zijn; klein genoeg om in andere leuke dingen in te kunnen bouwen. Hij zou eerst een computer in zijn skateboard bouwen zodat er koele geluiden uit zouden komen als hij er op reed: misschien een sirene van een brandweervoertuig of het geluid van een raketlancering. Dan zou hij een computer gebruiken om ijscomachines uit te vinden! De computer zou de koelste smaken mixen en zelfs verkopen. Er zouden machines staan op iedere straathoek en hij zou aan ijs in zijn favoriete smaak kunnen komen wanneer hij ook wilde, en zoveel hij wilde. Daarna zou hij een schoonmaakrobot bouwen en een bloksorteermachine zodat zijn kamer altijd netjes en schoon zou zijn. Zangemann had iedere dag dit soort geweldige nieuwe ideeën. Hij kon aan niets anders denken.
 
-Computers hadden Zangemann's fascinatie sinds hij een kind was. Toen hij jong was waren computers enorme machines met veel kabels en luidruchtige ventilatoren. Op school droomde kleine Zangemann vaak over alle dingen die hij zou doen met computers als ze slechts een klein stukje kleiner zouden zijn; klein genoeg om in andere leuke dingen in te kunnen bouwen. Hij zou eerst een computer in zijn skateboard bouwen zodat er koele geluiden uit zouden komen als hij er op reed: misschien een sirene van een brandweervoertuig of het geluid van een raketlancering. Dan zou hij een computer gebruiken om ijscomachines uit te vinden! De computer zou de koelste smaken mixen en zelfs verkopen. Er zouden machines staan op iedere straathoek en hij zou aan ijs in zijn favoriete smaak kunnen komen wanneer hij ook wilde, en zoveel hij wilde. Daarna zou hij een schoonmaakrobot bouwen en een bloksorteermachine zodat zijn kamer altijd netjes en schoon zou zijn. Zangemann had iedere dag dit soort geweldige nieuwe ideeën. Hij kon aan niets anders denken.  
-  
 Terwijl de jaren voorbij gingen groeide Zangemann en werden computers kleiner. Na zijn schooltijd waren ze in feite zo klein dat ze in zijn zak pasten. De kleinsten pasten zelfs op zijn vingertop.
 
 ** 7 **
 
-## 8 ##
+[[I:ada-p07
+IMAGE: TODO
+]]
 
-“Eindelijk kan ik al mijn ideeën in echte dingen waar maken!” riep Zangemann uit, en ging meteen aan het werk. Hij vond manieren om kleine computers aan allerlei dingen toe te voegen om ze nog leuker en bruikbaarder te maken. En toen verkocht hij ze.  
-  
+## 8 ##
+==== Slide 4
+“Eindelijk kan ik al mijn ideeën realiseren!” riep Zangemann uit, en ging meteen aan het werk. Hij vond manieren om kleine computers aan allerlei dingen toe te voegen om ze nog leuker en bruikbaarder te maken. En toen verkocht hij ze.
+
+[[I:ada-p08b
+IMAGE: TODO
+]]
 Volwassenen en kinderen hielden van zijn uitvindingen. Alle kinderen wilden een van zijn skateboards, compleet met de nieuwste geluiden, hebben om indruk te maken op hun vrienden op school. Kinderen hielden ook van zijn speaker-uitvinding, die direct ieder lied kon spelen dat je aanvroeg. En natuurlijk hield iedereen van de ijsco's die iedere middag werden geserveerd door de automatische, extra-lekkere Originele Zangemann IJscomachines. Het leek allemaal magie, maar het geheim was eenvoudig: de kleine computers die Zangemann in zijn machines bouwde maakten het allemaal mogelijk.
+[[I:ada-p08a
+IMAGE: TODO
+]]
 
 ** 9 **
 
-Deze uitvindingen waren erg populair op Ada's school en veel van haar vrienden
-reden rond op de coole skateboards. Ada was vaak verdrietig, omdat haar moeder
+[[I:ada-p09
+IMAGE: TODO
+]]
+Deze uitvindingen waren erg populair op Ada's school en veel van haar vrienden 
+reden rond op de coole skateboards. Ada was vaak verdrietig, omdat haar moeder 
 zulke grote dingen niet kon kopen: geen skateboard, geen speakers, geen ijsco's.
-
-Gelukkig woonde Ada direct naast de schroothoop. Er waren veel kapotte gadgets
-en roestige onderdelen, die ze samen bracht om coole nieuwe dingen te maken,
-zoals een zeepkist waarin zij en Alan van de berg naar beneden scheurden, een
-windmolen en enge sloopmonsters waar zij en Alan samen tegen zouden vechten. Ze
-vond ook veel nuttige dingen—een oude mobiele telefoon, bijvoorbeeld. Het scherm
-was gebroken, maar dat kon ze repareren, en hoewel er geen internet was op de
+==== Slide 5
+Gelukkig woonde Ada direct naast de schroothoop. Er waren veel kapotte gadgets 
+en roestige onderdelen, die ze samen bracht om coole nieuwe dingen te maken, 
+zoals een zeepkist waarin zij en Alan van de berg naar beneden scheurden, een 
+windmolen en enge sloopmonsters waar zij en Alan samen tegen zouden vechten. Ze 
+vond ook veel nuttige dingen—een oude mobiele telefoon, bijvoorbeeld. Het scherm 
+was gebroken, maar dat kon ze repareren, en hoewel er geen internet was op de 
 schroothoop, kon ze wel ergens anders toegang krijgen.
 
-Ada had zoveel plezier met het sleutelen op de schroothoop en met het repareren
+Ada had zoveel plezier met het sleutelen op de schroothoop en met het repareren 
 van kapotte dingen dat ze niet meer dacht aan de skateboards en het ijs.
 
 ## 10 ##
-
-Omdat iedereen zijn uitvindingen kocht, werd Zangemann snel de rijkste persoon
-in de wijde wereld. Met al zijn geld kocht hij een gigantische gouden computer
-met een toetsenbord gemaakt van juwelen en zette het op in de grootste kamer van
-zijn landhuis. Van daaruit, via het internet, kon hij alle kleine computers
+==== Slide 6
+Omdat iedereen zijn uitvindingen kocht, werd Zangemann snel de rijkste persoon 
+in de wijde wereld. Met al zijn geld kocht hij een gigantische gouden computer 
+met een toetsenbord gemaakt van juwelen en zette het op in de grootste kamer van 
+zijn landhuis. Van daaruit, via het internet, kon hij alle kleine computers 
 bedienen die in zijn uitvindingen zaten ingebouwd.
 
-Hij hoefde alleen maar de juiste toets in te drukken op zijn gouden computer en
-meteen zouden alle ijsmachines in de stad alleen maar vanille-ijs uitgeven. Als
-Zangemann wilde dat mensen chocolade-ijs aten, drukte hij op de knop voor
-chocolade-ijs. Als hij de opdracht gaf voor citroenijs, maakten de machines
-alleen citroenijs. Zangemann hield van zijn uitvindingen en was altijd
-opgewonden over hoe geweldig goed zijn machines werkten. Soms waren mensen
-teleurgesteld dat hun favoriete ijssmaak niet beschikbaar was, maar wat konden
+Hij hoefde alleen maar de juiste toets in te drukken op zijn gouden computer en 
+meteen zouden alle ijsmachines in de stad alleen maar vanille-ijs uitgeven. Als 
+Zangemann wilde dat mensen chocolade-ijs aten, drukte hij op de knop voor 
+chocolade-ijs. Als hij de opdracht gaf voor citroenijs, maakten de machines 
+alleen citroenijs. Zangemann hield van zijn uitvindingen en was altijd 
+opgewonden over hoe geweldig goed zijn machines werkten. Soms waren mensen 
+teleurgesteld dat hun favoriete ijssmaak niet beschikbaar was, maar wat konden 
 ze doen? Er was tenslotte ijs op elke straathoek.
+[[I:ada-p10
+IMAGE: TODO
+]]
 
 ** 11 **
 
-Zangemann had veel plezier met het indrukken van de fonkelende toetsen en met
-het toekijken hoe mensen ijsco's aten. Elke dag bracht hij veel uren door voor
-zijn gouden computer hiermee. Keer op keer keek hij neer op de stad door een
-lange telescoop om te aanschouwen hoe betrouwbaar zijn uitvindingen zijn
+Zangemann had veel plezier met het indrukken van de fonkelende toetsen en met 
+het toekijken hoe mensen ijsco's aten. Elke dag bracht hij veel uren door voor 
+zijn gouden computer hiermee. Keer op keer keek hij neer op de stad door een 
+lange telescoop om te aanschouwen hoe betrouwbaar zijn uitvindingen zijn 
 commando's opvolgden.
+[[I:ada-p11
+IMAGE: TODO
+]]
 
 ## 12 ##
-
-Als hij niet achter zijn gouden computer zat, was Zangemann zijn kleine
-computers in nieuwe apparaten aan het inbouwen om ze daarna te verkopen. Hij
-bouwde wasmachines die berichtjes stuurden naar je telefoon als je was klaar
-was. Hij maakte stofzuigers die een leuk deuntje speelden in plaats van luid te
-ronken. Hij vond lampen uit die aan en uit gingen op een vingerknip en auto's
+==== Slide 7
+Als hij niet achter zijn gouden computer zat, was Zangemann zijn kleine 
+computers in nieuwe apparaten aan het inbouwen om ze daarna te verkopen. Hij 
+bouwde wasmachines die berichtjes stuurden naar je telefoon als je was klaar 
+was. Hij maakte stofzuigers die een leuk deuntje speelden in plaats van luid te 
+ronken. Hij vond lampen uit die aan en uit gingen op een vingerknip en auto's 
 die je vertelden waar de dichtstbijzijnde supermarkt was.
-
-Al snel had bijna elk apparaat een Zangemann-computer ingebouwd. Niet al zijn
-uitvindingen leken direct noodzakelijk, maar mensen kochten alles dat hij
-maakte. Zo was het gewoon. Iedereen wilde de apparaten gemaakt door Zangemann,
+[[I:ada-p12
+IMAGE: TODO
+]]
+Al snel had bijna elk apparaat een Zangemann-computer ingebouwd. Niet al zijn 
+uitvindingen leken direct noodzakelijk, maar mensen kochten alles dat hij 
+maakte. Zo was het gewoon. Iedereen wilde de apparaten gemaakt door Zangemann, 
 de grootste uitvinder ter wereld.
 
 ** 13 **
 
-Op een dag dacht Zangemann "Vandaag wil ik mijn uitvindingen van dichtbij zien."
-Hij borg zijn grote telescoop op, liep de lange trap naar beneden van zijn
-landhuis en waagde zich de stad in, vol verwachting met het vooruitzicht van
+Op een dag dacht Zangemann "Vandaag wil ik mijn uitvindingen van dichtbij zien." 
+Hij borg zijn grote telescoop op, liep de lange trap naar beneden van zijn 
+landhuis en waagde zich de stad in, vol verwachting met het vooruitzicht van 
 zijn coole apparaten te genieten.
+[[I:ada-p13
+IMAGE: TODO
+]]
 
 ## 14 ##
 
-"Misschien zal een klein uitstapje me zelfs een paar nieuwe ideeën geven. Als ik
-helemaal eerlijk ben, waren mijn laatste uitvindingen lang niet zo nuttig als de
-eerste....," overpeinsde Zangemann. "Maar mijn ijsmachines zijn en zullen
-ongeëvenaard blijven," dacht hij direct daarna en met enige trots terwijl hij
+"Misschien zal een klein uitstapje me zelfs een paar nieuwe ideeën geven. Als ik 
+helemaal eerlijk ben, waren mijn laatste uitvindingen lang niet zo nuttig als de 
+eerste....," overpeinsde Zangemann. "Maar mijn ijsmachines zijn en zullen 
+ongeëvenaard blijven," dacht hij direct daarna en met enige trots terwijl hij 
 een groep mensen passeerde die allemaal kokosnotenijs aten, de smaak van de dag.
-
+==== Slide 8
 Hij was diep in gedachten toen plots — BAM! — iets botste tegen zijn scheenbeen.
+[[I:ada-p14
+IMAGE: TODO 
+]]
 
 ** 15 **
 
-Zangemann gilde en keek rond voor de oorzaak. Een geschrokken kind stond voor
-hem, met een origineel Zangemann skateboard onder zijn arm. "Sorry, dat was niet
+Zangemann gilde en keek rond voor de oorzaak. Een geschrokken kind stond voor 
+hem, met een origineel Zangemann skateboard onder zijn arm. "Sorry, dat was niet 
 mijn bedoeling," stamelde het kind, maar Zangemann luisterde niet.
 
-Een boze Zangemann hinkelde weg. Plots hoorde hij luide muziek. Hij had nog
-nooit zoiets afschuwelijks gehoord. Hij keek rond en zag dat de muziek afkomstig
-was van een luidspreker die hij zelf had gebouwd. Een kind aan de overkant van
-de straat hield die vast. Het kind leek de muziek leuk te vinden, maar het gaf
-Zangemann een vervelende hoofdpijn en zijn stemming verslechterde. Dit was niet
+Een boze Zangemann hinkelde weg. Plots hoorde hij luide muziek. Hij had nog 
+nooit zoiets afschuwelijks gehoord. Hij keek rond en zag dat de muziek afkomstig 
+was van een luidspreker die hij zelf had gebouwd. Een kind aan de overkant van 
+de straat hield die vast. Het kind leek de muziek leuk te vinden, maar het gaf 
+Zangemann een vervelende hoofdpijn en zijn stemming verslechterde. Dit was niet 
 hoe hij zijn wandeling had voorgesteld!
+[[I:ada-p15
+IMAGE: TODO
+]]
 
 ## 16 ##
-
-Zangemann was zo woedend op de twee kinderen. Hoe durfden ze zijn uitvindingen
-zo te gebruiken? Die nacht kon hij niet slapen, dus ging hij achter zijn gouden
-computer zitten. Daarvandaan gaf hij alle kleine computers in de skateboards de
-opdracht dat het niet langer was toegestaan om de stoep op te gaan. Hij droeg de
-kleine computers in de speakers op om muziek alleen op een laag volume af te
-speken, behalve zijn favoriete muziek, die hij meteen opzette om in een betere
+==== Slide 9
+Zangemann was zo woedend op de twee kinderen. Hoe durfden ze zijn uitvindingen 
+zo te gebruiken? Die nacht kon hij niet slapen, dus ging hij achter zijn gouden 
+computer zitten. Daarvandaan gaf hij alle kleine computers in de skateboards de 
+opdracht dat het niet langer was toegestaan om de stoep op te gaan. Hij droeg de 
+kleine computers in de speakers op om muziek alleen op een laag volume af te 
+speken, behalve zijn favoriete muziek, die hij meteen opzette om in een betere 
 stemming te komen.
 
 ** 17 **
 
-## 18 ##
+[[I:ada-p17
+IMAGE: TODO
+]]
 
-De volgende dag was er veel commotie op Ada's school. Onderweg naar school
-stopten de skateboards van de kinderen ermee. De wielen stonden simpelweg stil.
+## 18 ##
+==== Slide 10
+[D]e volgende dag was er veel commotie op Ada's school. Onderweg naar school 
+stopten de skateboards van de kinderen ermee. De wielen stonden simpelweg stil. 
 En de kinderen konden niet langer hun speakers harder zetten. Wat gebeurde er?
+[[I:ada-p18
+IMAGE: TODO
+]]
 
 ** 19 **
 
-Hoewel ze geen van die dingen bezat vroeg Ada zich af waarom de skateboards en
-speakers plotseling niet meer werkte. Maar ze had niet echt de tijd om erover na
-te denken omdat ze al weer aan het sleutelen was. Ze bouwde een complete fiets
-van de onderdelen van drie kapotte fietsen. Ze gaf de fiets aan haar moeder als
-een cadeau zodat ze haar geld niet hoefde uit te geven aan kaartjes voor de
-busrit naar haar werk. Voor haar broer bouwde Ada een luidspreker zodat hij in
-slaap kon vallen bij leuke verhalen in de avonden als hun moeder nog op het werk
+Hoewel ze geen van die dingen bezat vroeg Ada zich af waarom de skateboards en 
+speakers plotseling niet meer werkte. Maar ze had niet echt de tijd om erover na 
+te denken omdat ze al weer aan het sleutelen was. Ze bouwde een complete fiets 
+van de onderdelen van drie kapotte fietsen. Ze gaf de fiets aan haar moeder als 
+een cadeau zodat ze haar geld niet hoefde uit te geven aan kaartjes voor de 
+busrit naar haar werk. Voor haar broer bouwde Ada een luidspreker zodat hij in 
+slaap kon vallen bij leuke verhalen in de avonden als hun moeder nog op het werk 
 was.
 
-Na een paar dagen was de eerste schok alweer vergeten. De skateboards konden nog
-steeds de stoep niet op maar verder werketen ze nog wel. En dus reden de
-kinderen nu in rondjes om de speelplaats en luisterden ze naar zachte muziek.
-Alleen een vreemde deftige marsmuziek bleef op een onveranderd volume spelen,
+[[I:ada-p19
+IMAGE: TODO 
+]]
+Na een paar dagen was de eerste schok alweer vergeten. De skateboards konden nog 
+steeds de stoep niet op maar verder werketen ze nog wel. En dus reden de 
+kinderen nu in rondjes om de speelplaats en luisterden ze naar zachte muziek. 
+Alleen een vreemde deftige marsmuziek bleef op een onveranderd volume spelen, 
 wat de kinderen nogal verbaasde.
 
 ## 20 ##
-
-Ada hield van woensdagen. Elke woensdag kwamen haar moeder en Alan haar ophalen
-van school en gingen ze samen naar de bibliotheek. Ada was altijd aangetrokken
-tot de technologieafdeling. Daar waren boeken met blauwdrukken, instructies voor
-experimenten en uitleg over hoe verschillende apparaten werkten. In de
-bibliotheek kon Ada ook online gaan met haar telefoon. Ze had snel door dat er
-ook veel te ontdekken was op het internet. Daar deelden veel mensen hun ideeën
+==== Slide 11
+[A]da hield van woensdagen. Elke woensdag kwamen haar moeder en Alan haar ophalen 
+van school en gingen ze samen naar de bibliotheek. Ada was altijd aangetrokken 
+tot de technologieafdeling. Daar waren boeken met blauwdrukken, instructies voor 
+experimenten en uitleg over hoe verschillende apparaten werkten. In de 
+bibliotheek kon Ada ook online gaan met haar telefoon. Ze had snel door dat er 
+ook veel te ontdekken was op het internet. Daar deelden veel mensen hun ideeën 
 en reparatietips om anderen te helpen.
 
-Op een van deze middagen leerde Ada twee nieuwe woorden: hardware en software.
-Hardware was een woord voor iets dat Ada al kende: de elektronische apparaten
-waarmee ze sleutelde na schooltijd of de apparaten die ze in haar handen kon
-houden en kon repareren of iets anders van kon maken. Wat was compleet nieuw
-voor Ada was het woord software. Ze leerde snel dat het instructies betekende
-die draaiden op een computer om andere apparaten of computers te besturen.
-Sommige boeken noemden die instructies programma's of code. Met zo'n
-computerprogramma kon iemand bijvoorbeeld een luidspreker vertellen welk nummer
+Op een van deze middagen leerde Ada twee nieuwe woorden: hardware en software. 
+Hardware was een woord voor iets dat Ada al kende: de elektronische apparaten 
+waarmee ze sleutelde na schooltijd of de apparaten die ze in haar handen kon 
+houden en kon repareren of iets anders van kon maken. Wat was compleet nieuw 
+voor Ada was het woord software. Ze leerde snel dat het instructies betekende 
+die draaiden op een computer om andere apparaten of computers te besturen. 
+Sommige boeken noemden die instructies programma's of code. Met zo'n 
+computerprogramma kon iemand bijvoorbeeld een luidspreker vertellen welk nummer 
 te spelen en hoe luid.
 
-Het beste aan Ada's nieuwe ontdekking was de realisatie dat ze net zo kon
-sleutelen aan software als ze kon aan hardware. Hardware is gebouwd met
-gereedschap — hamers, boren en schroeven. Software is gebouwd door simpelweg de
-commando's voor de hardware op te schrijven, de ene na de andere Er was een
-aparte taal hiervoor — de programmeertaal. Met software kon Ada haar
-uitvindingen nog veel nuttiger maken. Ze wilde heel graag de programmeertaal
+Het beste aan Ada's nieuwe ontdekking was de realisatie dat ze net zo kon 
+sleutelen aan software als ze kon aan hardware. Hardware is gebouwd met 
+gereedschap — hamers, boren en schroeven. Software is gebouwd door simpelweg de 
+commando's voor de hardware op te schrijven, de ene na de andere Er was een 
+aparte taal hiervoor — de programmeertaal. Met software kon Ada haar 
+uitvindingen nog veel nuttiger maken. Ze wilde heel graag de programmeertaal 
 leren!
 
 ** 21 **
 
-## 22 ##
+[[I:ada-p21
+IMAGE: TODO
+]]
 
-In de daarop volgende weken bracht Ada haar middagen door in de bibliotheek. Ze
-vond boeken en websites die uitlegden hoe programmeertalen en code werkte. Voor
-Ada voelde het een beetje als het leren van een geheimtaal, of zoals op school
-het uitbreiden van de woordenschat. Ada kon er geen genoeg van krijgen. Ze
-verwachtte dat haar eerste programma iets simpels zou doen zoals: "Laat dit
+## 22 ##
+==== Slide 12
+[I]n de daarop volgende weken bracht Ada haar middagen door in de bibliotheek. Ze 
+vond boeken en websites die uitlegden hoe programmeertalen en code werkte. Voor 
+Ada voelde het een beetje als het leren van een geheimtaal, of zoals op school 
+het uitbreiden van de woordenschat. Ada kon er geen genoeg van krijgen. Ze 
+verwachtte dat haar eerste programma iets simpels zou doen zoals: "Laat dit 
 lampje knipperen!"
 
-Natuurlijk wilde ze haar programma meteen uitproberen om te zien of het echt
-werkte. Op de schroothoop koppelde ze haar telefoon aan een klein ledlampje.
+Natuurlijk wilde ze haar programma meteen uitproberen om te zien of het echt 
+werkte. Op de schroothoop koppelde ze haar telefoon aan een klein ledlampje. 
 Toen typte ze de regels van de code in haar telefoon.
 
-Eerst gebeurde er niets. Ada vroeg zich af wat de fout zou kunnen zijn. Ze
-maakte een paar kleine aanpassingen en probeerde opnieuw en . . . “Jaaa!” Het
-kleine lichtje begon te knipperen. Aan, uit, aan, uit. Ada keek vol bewondering
+Eerst gebeurde er niets. Ada vroeg zich af wat de fout zou kunnen zijn. Ze 
+maakte een paar kleine aanpassingen en probeerde opnieuw en . . . “Jaaa!” Het 
+kleine lichtje begon te knipperen. Aan, uit, aan, uit. Ada keek vol bewondering 
 naar de led. Ze had haar eerste programma geschreven!
 
-Ada was totaal enthousiast. Ze stelde zich alle geweldige dingen voor die ze kon
-doen. Als ze maar de juiste code invoerde kon ze haar uitvindingen precies laten
-doen wat ze wilde. Het was niet zo eenvoudig maar na een paar weken schreef Ada
-een echt nuttig programma: een die Alan's speakers automatisch uit liet
+Ada was totaal enthousiast. Ze stelde zich alle geweldige dingen voor die ze kon 
+doen. Als ze maar de juiste code invoerde kon ze haar uitvindingen precies laten 
+doen wat ze wilde. Het was niet zo eenvoudig maar na een paar weken schreef Ada 
+een echt nuttig programma: een die Alan's speakers automatisch uit liet 
 schakelen een halfuur nadat hij in slaap was gevallen.
 
 ** 23 **
 
-Ada had ook een idee voor het volgende programma dat ze zou schrijven. Het was
-een grotere zaak, een echt project. Ze zou er waarschijnlijk de hele
+[[I:ada-p23
+IMAGE: TODO
+]]
+Ada had ook een idee voor het volgende programma dat ze zou schrijven. Het was 
+een grotere zaak, een echt project. Ze zou er waarschijnlijk de hele 
 zomervakantie voor nodig hebben … En ze kon amper wachten!
 
 ## 24 ##
 
-** 25 **
+[[I:ada-p24
+IMAGE: TODO
+]]
 
-Zangemann had elke nacht slecht geslapen sinds zijn afschuwelijke wandeling in
-de stad. Elke avond wanneer hij naar bed ging werd hij geplaagd door zorgen. "Oh
-nee, mijn geweldige uitvindingen. Het kan toch niet zo zijn dat iedereen er maar
-wat mee rond loopt te spelen*.* Wat er allemaal wel niet mis kan Alle dingen die
-mis kunnen gaan! Ik heb alles tot op het kleinste detail uitgedacht." Zangemann
+** 25 **
+==== Slide 13
+[Z]angemann had elke nacht slecht geslapen sinds zijn afschuwelijke wandeling in 
+de stad. Elke avond wanneer hij naar bed ging werd hij geplaagd door zorgen. "Oh 
+nee, mijn geweldige uitvindingen. Het kan toch niet zo zijn dat iedereen er maar 
+wat mee rond loopt te spelen*.* Wat er allemaal wel niet mis kan Alle dingen die 
+mis kunnen gaan! Ik heb alles tot op het kleinste detail uitgedacht." Zangemann 
 piekerde en piekerde en draaide de hele nacht slapeloos in zijn bed.
 
-Toen hij op een ochtend met diep gefronste wenkbrouwen opstond, nam hij een
-besluit. Zo kan het niet langer! Hij ging achter zijn gouden computer zitten en
-scheef het ene programma na het andere. In deze programma's legde hij haarfijn
-vast wat zijn uitvindingen moesten doen en wat in geen geval mocht gebeuren. De
+Toen hij op een ochtend met diep gefronste wenkbrouwen opstond, nam hij een 
+besluit. Zo kan het niet langer! Hij ging achter zijn gouden computer zitten en 
+scheef het ene programma na het andere. In deze programma's legde hij haarfijn 
+vast wat zijn uitvindingen moesten doen en wat in geen geval mocht gebeuren. De 
 chaos moest stoppen!
 
-Toen hij klaar was stuurde hij alle nieuwe programma's van zijn gouden computer
-naar de apparaten van de mensen. Hij gaf zijn speakers de opdracht alleen nog
-zijn lievelingsmuziek te spelen als hij in gehoorsafstand was. Hij programmeerde
-de ijsmachines om in de middag geen ijs meer te verkopen. Hij wilde tenslotte
-niet dat er bij een wandeling een ijsvlek op zijn dure broek zou komen. De hele
+Toen hij klaar was stuurde hij alle nieuwe programma's van zijn gouden computer 
+naar de apparaten van de mensen. Hij gaf zijn speakers de opdracht alleen nog 
+zijn lievelingsmuziek te spelen als hij in gehoorsafstand was. Hij programmeerde 
+de ijsmachines om in de middag geen ijs meer te verkopen. Hij wilde tenslotte 
+niet dat er bij een wandeling een ijsvlek op zijn dure broek zou komen. De hele 
 dag zat hij achter zijn computer en typte en typte en typte…
 
 ## 26 ##
+==== Slide 14
+[D]e zomervakantie was al half voorbij. Ada stond voor haar grote project en krabte zich achter de oren. Uit oude onderdelen had ze een skateboard gebouwd en er een motor op aangesloten die die wielen liet draaien. Met een gemotoriseerd skateboard kon Ada na schooltijd nog sneller naar de bibliotheek of schroothoop sjezen. Maar het werkte niet. Als ze erop stond en de Ga!-knop indrukte bewogen de wielen, maar veel te snel. Ada viel bij het starten elke keer van het skateboard. Wat ze ook probeerde, ze kreeg het niet voor elkaar.
 
-Zangemann had elke nacht slecht geslapen sinds zijn afschuwelijke wandeling in
-de stad. Elke avond wanneer hij naar bed ging werd hij geplaagd door zorgen. "Oh
-nee, mijn geweldige uitvindingen. Het kan toch niet zo zijn dat iedereen er maar
-wat mee rond loopt te spelen*.* Wat er allemaal wel niet mis kan Alle dingen die
-mis kunnen gaan! Ik heb alles tot op het kleinste detail uitgedacht." Zangemann
-piekerde en piekerde en draaide de hele nacht slapeloos in zijn bed.
+Na voor de honderdste keer op haar achterste gevallen te zijn, ging ze naar de bibliotheek. Daar vond ze eigenlijk altijd antwoorden op haar vragen. En inderdaad, op het internet stuitte ze op een programma dat iemand voor een elektrische scooter geschreven had. Ook die moest langzaam starten. Ada downloadde het programma naar haar telefoon.
 
-Toen hij op een ochtend met diep gefronste wenkbrouwen opstond, nam hij een
-besluit. Zo kan het niet langer! Hij ging achter zijn gouden computer zitten en
-scheef het ene programma na het andere. In deze programma's legde hij haarfijn
-vast wat zijn uitvindingen moesten doen en wat in geen geval mocht gebeuren. De
-chaos moest stoppen!
+Terug op de schroothoop nam ze enkele programmadelen over voor haar skateboardprogramma. Ze paste een paar dingen aan en bleef sleutelen.
 
-Toen hij klaar was stuurde hij alle nieuwe programma's van zijn gouden computer
-naar de apparaten van de mensen. Hij gaf zijn speakers de opdracht alleen nog
-zijn lievelingsmuziek te spelen als hij in gehoorsafstand was. Hij programmeerde
-de ijsmachines om in de middag geen ijs meer te verkopen. Hij wilde tenslotte
-niet dat er bij een wandeling een ijsvlek op zijn dure broek zou komen. De hele
-dag zat hij achter zijn computer en typte en typte en typte…
+Meerdere mislukte pogingen later, op de laatste dag vakantiedag, ging Ada wederom op het skateboard staan en drukte op de Ga!-knop. Het skateboard begon langzaam te bewegen en daarna sneller. Het werkte! Ze probeerde te remmen. Het lukte! Ada juigte van plezier en nam een uitstapje naar het park.
 
 ** 27 **
 
-## 28 ##
+[[I:ada-p27
+IMAGE: TODO
+]]
 
-Toen Ada op de eerste schooldag na de vakantie met haar skateboard naar school
-reed, waren de andere kinderen onder de indruk. In de grote pauze was Ada
+## 28 ##
+==== Slide 15
+Toen Ada op de eerste schooldag na de vakantie met haar skateboard naar school 
+reed, waren de andere kinderen onder de indruk. In de grote pauze was Ada 
 omringt door nieuwsgierige klasgenoten.
 
 “Hoe kan je jouw skateboard op de stoep rijden?” vroegen ze.
+[[I:ada-p28
+IMAGE: TODO
+]]
 
 ** 29 **
 
-Ada dacht even na en zei “Ik denk dat het niet aan jullie skateboards ligt, maar
-aan de software erin. Waarschijnlijk is in die software geprogrammeerd dat de
+Ada dacht even na en zei “Ik denk dat het niet aan jullie skateboards ligt, maar 
+aan de software erin. Waarschijnlijk is in die software geprogrammeerd dat de 
 skateboards niet het voetpad op mogen. Maar dat is aan te passen!”
 
-Die avond probeerde Ada haar theorie uit op het skateboard van haar klasgenoot
-Toni. Ze werkte stiekem tot laat in de nacht en de volgende dat kon Toni weer op
-de stoep rijden. Helaas kon zijn skateboard nu niet langer de geluiden maken die
-zijn ouders hadden gekocht van Zangemann. In plaats daarvan maakte het elke 10
-minuten een vreemd geluid dat klonk als een langgerekte boer. Ada wist dat in
-programma’s steeds weer zulke kleine fouten konden opduiken. Toni’s boerende
+Die avond probeerde Ada haar theorie uit op het skateboard van haar klasgenoot 
+Toni. Ze werkte stiekem tot laat in de nacht en de volgende dat kon Toni weer op 
+de stoep rijden. Helaas kon zijn skateboard nu niet langer de geluiden maken die 
+zijn ouders hadden gekocht van Zangemann. In plaats daarvan maakte het elke 10 
+minuten een vreemd geluid dat klonk als een langgerekte boer. Ada wist dat in 
+programma’s steeds weer zulke kleine fouten konden opduiken. Toni’s boerende 
 skateboard was eigenlijk best grappig.
+[[I:ada-p29
+IMAGE: TODO
+]]
 
 ## 30 ##
-
-Steeds meer kinderen kwamen ‘s middags na school langs bij Ada op de
-schroothoop, en ze hielp hen de programma’s in hun skateboards te herschrijven.
-Sommige van haar klasgenoten waren helemaal weg van deze nieuwe ontdekking.
-Ongelofelijk wat je allemaal kon doen met programmacode! Ze wilden van Ada alles
-over programmeertalen leren. En al snel reden ze met hun skateboards weer overal
+==== Slide 16
+[S]teeds meer kinderen kwamen ‘s middags na school langs bij Ada op de 
+schroothoop, en ze hielp hen de programma’s in hun skateboards te herschrijven. 
+Sommige van haar klasgenoten waren helemaal weg van deze nieuwe ontdekking. 
+Ongelofelijk wat je allemaal kon doen met programmacode! Ze wilden van Ada alles 
+over programmeertalen leren. En al snel reden ze met hun skateboards weer overal 
 waar ze wilden.
-
-Maar dat was niet alles! Met de software konden ze hun skateboards nieuwe coole
-mogelijkheden geven. Marie maakte kleurrijke LED-lampen aan haar board die in
-verschillende kleuren oplichtten afhankelijk van haar snelheid. En Konrad bouwde
+==== Slide 17
+Maar dat was niet alles! Met de software konden ze hun skateboards nieuwe coole 
+mogelijkheden geven. Marie maakte kleurrijke LED-lampen aan haar board die in 
+verschillende kleuren oplichtten afhankelijk van haar snelheid. En Konrad bouwde 
 oude propellers aan zijn skateboard die voor extra aandrijving zorgden.
+[[I:ada-p30
+IMAGE: TODO
+]]
 
 ** 31 **
 
-Ada, Toni, Marie en Konrad brachten veel middagen door op de schroothoop. Ze
-hadden zowaar een heuse werkplaats ingericht waarin ze urenlang hun programma’s
-konden verfijnen. Daarbij luisterden ze naar muziek uit de luidsprekers die Ada
+Ada, Toni, Marie en Konrad brachten veel middagen door op de schroothoop. Ze 
+hadden zowaar een heuse werkplaats ingericht waarin ze urenlang hun programma’s 
+konden verfijnen. Daarbij luisterden ze naar muziek uit de luidsprekers die Ada 
 voor Alan gebouwd had.
 
-“De luidsprekers van je broer zijn veel luider dan die van ons”, merkte Toni op,
-die bezig was een snelheidsmeter aan zijn helm te bevestigen. “Dat ligt vast en
+“De luidsprekers van je broer zijn veel luider dan die van ons”, merkte Toni op, 
+die bezig was een snelheidsmeter aan zijn helm te bevestigen. “Dat ligt vast en 
 zeker aan de software”, zei Marie.
 
-Samen veranderden ze daarop de software voor de luidsprekers. Ze speelden de
+Samen veranderden ze daarop de software voor de luidsprekers. Ze speelden de 
 muziek zo hard als mogelijk en dansten samen wild op de muziek.
+[[I:ada-p31
+IMAGE: TODO
+]]
 
 ## 32 ##
 
+[[I:ada-p32
+IMAGE: TODO
+]]
+
 ** 33 **
+
+[[I:ada-p33
+IMAGE: TODO
+]]
 
 ## 34 ##
 
-** 35 **
+[[I:ada-p34
+IMAGE: TODO
+]]
 
-Elke dag maakte Ada en haar vrienden plannen voor de middag. Uit een kapotte
-ijsmachine bouwden ze een nieuwe die ijs in elke denkbare vorm en kleur kon
-maken. Ze aten vierkant ijs, hartvormig ijs, en zelfs piramidevormig ijs, als
-ook aardbei, framboos en regenboogijs, en allemaal met discodip en chocodip –
+** 35 **
+==== Slide 18
+[E]lke dag maakte Ada en haar vrienden plannen voor de middag. Uit een kapotte 
+ijsmachine bouwden ze een nieuwe die ijs in elke denkbare vorm en kleur kon 
+maken. Ze aten vierkant ijs, hartvormig ijs, en zelfs piramidevormig ijs, als 
+ook aardbei, framboos en regenboogijs, en allemaal met discodip en chocodip – 
 veel beter dan de keuzes uit de Zangemann-machines.
 
-Soms konden ze zelfs volwassenen helpen die problemen met hun computers hadden.
-Toni herprogrammeerde zijn vaders strijkmachine zodat die ook weer stropdassen
-kon strijken. Zangemann had een pesthekel aan stropdassen en had het zijn
-apparaten verboden. Voor de buschauffeur bouwden ze een computer bouwden ze een
-automatisch bewateringssyteem uit oude slangen en een computer zodat haar
-planten niet zouden verdrogen in de zomerdag. En de conciërge hielpen ze zijn
-stofzuiger zo om te bouwen dat deze speelgoed automatisch herkende en ze niet
+Soms konden ze zelfs volwassenen helpen die problemen met hun computers hadden. 
+Toni herprogrammeerde zijn vaders strijkmachine zodat die ook weer stropdassen 
+kon strijken. Zangemann had een pesthekel aan stropdassen en had het zijn 
+apparaten verboden. Voor de buschauffeur bouwden ze een computer bouwden ze een 
+automatisch bewateringssyteem uit oude slangen en een computer zodat haar 
+planten niet zouden verdrogen in de zomerdag. En de conciërge hielpen ze zijn 
+stofzuiger zo om te bouwen dat deze speelgoed automatisch herkende en ze niet 
 meer opzoog.
 
-Sommige dingen bouwden ze puur voor de lol, zoals de scheetmachine die ze in de
-stoel van hun wiskundeleraar plaatsten. Als mevrouw Gernet ging zitten speelde
-de machine een klein scheetgeluidje af. Mevrouw Gernet vloekte dan, maar Ada
+Sommige dingen bouwden ze puur voor de lol, zoals de scheetmachine die ze in de 
+stoel van hun wiskundeleraar plaatsten. Als mevrouw Gernet ging zitten speelde 
+de machine een klein scheetgeluidje af. Mevrouw Gernet vloekte dan, maar Ada 
 wist zeker dat ze stiekem ook een beetje moest grijnzen.
 
 ## 36 ##
-
-Op een dag merkte Zangemann dat sommige computers niet meer luisterden naar zijn
-programmeerbevelen. Geschrokken en stomend van woede belde hij de president. Hij
-brulde met een bevende stem: “Iemand herschrijft de programma’s in mijn. Dat kan
-niet, dat zijn namelijk mijn uitvindingen. En het is veel te gevaarlijk als
-iedereen met computers kan doen wat ze willen. Daar moet je een wet tegen
+==== Slide 19
+[O]p een dag merkte Zangemann dat sommige computers niet meer luisterden naar zijn 
+programmeerbevelen. Geschrokken en stomend van woede belde hij de president. Hij 
+brulde met een bevende stem: “Iemand herschrijft de programma’s in mijn. Dat kan 
+niet, dat zijn namelijk mijn uitvindingen. En het is veel te gevaarlijk als 
+iedereen met computers kan doen wat ze willen. Daar moet je een wet tegen 
 maken!”
 
-De president wilde Zangemann niet boos maken. Alle computers van de regering
-waren geprogrammeerd door Zangemann. Zonder die computers kon de regering het
-land niet meer besturen. Dus keurde het parlement een wet goed zoals Zangemann
+De president wilde Zangemann niet boos maken. Alle computers van de regering 
+waren geprogrammeerd door Zangemann. Zonder die computers kon de regering het 
+land niet meer besturen. Dus keurde het parlement een wet goed zoals Zangemann 
 het wilde:
 
-“Alle computers, die niet naar Zangemann luisteren zijn verboden. Iedereen die
+“Alle computers, die niet naar Zangemann luisteren zijn verboden. Iedereen die 
 Zangemann’s apparaten herprogrammeert moet 500.000 goudstukken betalen!”
 
 ** 37 **
 
-## 38 ##
+[[I:ada-p37
+IMAGE: TODO
+]]
 
-Toen Ada en haar vrienden dit hoorden werende ze echt woedend. “Dit is zo
-oneerlijk” zeiden ze. “We hebben onze skateboards zelf omgebouwd en
+## 38 ##
+==== Slide 20
+Toen Ada en haar vrienden dit hoorden werende ze echt woedend. “Dit is zo 
+oneerlijk” zeiden ze. “We hebben onze skateboards zelf omgebouwd en 
 omgeprogrammeerd. Ze zijn nu veel beter. Dat laten we niemand ons afpakken!”
 
-Ze verzamelden voor een van hun gebouwde ijsmachines en bespraken de situatie.
-Het was duidelijk dat iets gedaan moest worden aan deze nieuwe wet, en ze smeden
+Ze verzamelden voor een van hun gebouwde ijsmachines en bespraken de situatie. 
+Het was duidelijk dat iets gedaan moest worden aan deze nieuwe wet, en ze smeden 
 een plan …
+[[I:ada-p38
+IMAGE: TODO
+]]
 
 ** 39 **
-
-De volgende dag gingen ze niet naar school. In plaats daarvan reden ze op hun
-skateboards naar het parlementsgebouw, met grote protestborden onder hun armen,
-en gingen voor het gebouw zitten. Aan enkele borden hadden ze de avond ervoor
-hadden ze LED-lampen vastgemaakt die nu fel knipperden. Ze hadden hun
-luidsprekers aangesloten zodat iedereen in de straat kon horen wat ze zeiden.
-Enkele voorbijgangers stopten en vroegen de kinderen waar ze voor
+==== Slide 21
+[D]e volgende dag gingen ze niet naar school. In plaats daarvan reden ze op hun 
+skateboards naar het parlementsgebouw, met grote protestborden onder hun armen, 
+en gingen voor het gebouw zitten. Aan enkele borden hadden ze de avond ervoor 
+hadden ze LED-lampen vastgemaakt die nu fel knipperden. Ze hadden hun 
+luidsprekers aangesloten zodat iedereen in de straat kon horen wat ze zeiden. 
+Enkele voorbijgangers stopten en vroegen de kinderen waar ze voor 
 demonstreerden.
-
-“Voor softwarevrijheid!” antwoorden ze in koor en vertelden de volwassenen hun
-verhaal. Onder de indruk knikten de volwassenen, en ook de president keek
+“Voor softwarevrijheid!” antwoorden ze in koor en vertelden de volwassenen hun 
+verhaal. Onder de indruk knikten de volwassenen, en ook de president keek 
 nieuwsgierig naar de spandoeken toen hij het gebouw binnen liep.
 
-Ook op de volgende dag gingen Ada en haar vrienden weer zitten voor het
-parlementsgebouw. Deze keer met ondersteuning. Sommige klasgenoten, waarvoor Ada
-hun skateboards omgeprogrammeerd had, waren ook gekomen. Toni’s vader en andere
-volwassenen wilden ook het protest steunen. Ze vonden de apparaten van de
+Ook op de volgende dag gingen Ada en haar vrienden weer zitten voor het 
+parlementsgebouw. Deze keer met ondersteuning. Sommige klasgenoten, waarvoor Ada 
+hun skateboards omgeprogrammeerd had, waren ook gekomen. Toni’s vader en andere 
+volwassenen wilden ook het protest steunen. Ze vonden de apparaten van de 
 kinderen erg praktisch.
+[[I:ada-p39
+IMAGE: TODO 
+]]
 
 ## 40 ##
 
-Met de dag kwamen er meer en meer kinderen en volwassenen meeprotesteren. De
-buschauffeur die ze hadden geholpen kwam met haar bus voorgereden. Ze toeterde
-luid om nog meer mensen te wijzen op de demonstratie. De conciërge bracht een
-paar vrienden mee. En Toni’s vader kwam met zijn collega’s, die allemaal
-automatisch gestreken stopdassen droegen. Zelfs mevrouw Gernet kwam. De menigte
-werd steeds groter en na een week waren er niet alleen protesten in Ada’s stad –
+Met de dag kwamen er meer en meer kinderen en volwassenen meeprotesteren. De 
+buschauffeur die ze hadden geholpen kwam met haar bus voorgereden. Ze toeterde 
+luid om nog meer mensen te wijzen op de demonstratie. De conciërge bracht een 
+paar vrienden mee. En Toni’s vader kwam met zijn collega’s, die allemaal 
+automatisch gestreken stopdassen droegen. Zelfs mevrouw Gernet kwam. De menigte 
+werd steeds groter en na een week waren er niet alleen protesten in Ada’s stad – 
 nee, overal in het land werd gedemonstreerd.
+[[I:ada-p40-41
+IMAGE: TODO
+]]
 
-  ## Groot bord: “Doe je huiswerk meneer President en wij doen het onze!”
+	## Groot bord: “Doe je huiswerk meneer President en wij doen het onze!”
 
 ** 41 **
 
-  ## Bord leraar: “Ze zijn jong + hebben de code nodig!”
+[[I:ada-p40
+IMAGE: TODO
+]]
+[[I:ada-p41
+IMAGE: TODO
+]]
+	## Bord leraar: “Ze zijn jong + hebben de code nodig!”
 
-  ## Middelgroot bord: “Zonder code is alles saai!”
+	## Middelgroot bord: “Zonder code is alles saai!”
 
 ## 42 ##
 
-Ada protesteerde elke week voor het parlementsgebouw, zelfs in de stromende
-regen. Op zo’n regenachtige dag, toen de president voorbij de groep zeiknatte
-kinderen kwam, kon hij niet anders dan hun volharding bewonderen. Hij vroeg Ada,
-“Waarom zit jij hier elke dag? Wat wil je bereiken?” Ada antwoorde, “We willen
-zelf kunnen bepalen wat we wel en niet met onze computers doen.” Haar vrienden
-riepen in koor: “Zonder code is alles saai! Zonder code is alles saai!” en “We
+[A]da protesteerde elke week voor het parlementsgebouw, zelfs in de stromende 
+regen. Op zo’n regenachtige dag, toen de president voorbij de groep zeiknatte 
+kinderen kwam, kon hij niet anders dan hun volharding bewonderen. Hij vroeg Ada, 
+“Waarom zit jij hier elke dag? Wat wil je bereiken?” Ada antwoorde, “We willen 
+zelf kunnen bepalen wat we wel en niet met onze computers doen.” Haar vrienden 
+riepen in koor: “Zonder code is alles saai! Zonder code is alles saai!” en “We 
 willen de code! We willen de code!”
 
-De president keek naar de vastbesloten gezichten van de kinderen. Als hij
-eerlijk was, wilde hij ook graag zelf besluiten was de regering met haar
-computers kon doen en wat niet. Maar hij begreep niets van computers en code,
-dus hadden ze dat altijd aan Zangemann overgelaten. Diep in gedachten betrad de
+De president keek naar de vastbesloten gezichten van de kinderen. Als hij 
+eerlijk was, wilde hij ook graag zelf besluiten was de regering met haar 
+computers kon doen en wat niet. Maar hij begreep niets van computers en code, 
+dus hadden ze dat altijd aan Zangemann overgelaten. Diep in gedachten betrad de 
 president het gebouw.
-
-De volgende dag nodigde de president Ada en haar vrienden uit. “We willen ook de
-controle over onze software willen hebben. Daarvoor moet de regering
-onafhankelijk zijn van Zangemann. Kan je me vertellen wat je over
-computerprogramma’s weet?”, vroeg hij. Enthousiast legden ze hem uit hoe
+==== Slide 22
+[[I:ada-p42
+IMAGE: TODO
+]]
+De volgende dag nodigde de president Ada en haar vrienden uit. “We willen ook de 
+controle over onze software willen hebben. Daarvoor moet de regering 
+onafhankelijk zijn van Zangemann. Kan je me vertellen wat je over 
+computerprogramma’s weet?”, vroeg hij. Enthousiast legden ze hem uit hoe 
 software werkt en wat je er allemaal mee kan doen. De president stond versteld.
 
 ** 43 **
 
-Met deze nieuwe kennis kon de regering haar eigen software ontwerpen, zoals ze
-het wilde – helemaal zonder Zangemann. Onmiddellijk riep de president zijn
-adviseurs bij hem. In een grote groep bespraken ze met de kinderen wat ze graag
+Met deze nieuwe kennis kon de regering haar eigen software ontwerpen, zoals ze 
+het wilde – helemaal zonder Zangemann. Onmiddellijk riep de president zijn 
+adviseurs bij hem. In een grote groep bespraken ze met de kinderen wat ze graag 
 aan de software veranderen en verbeteren wilden.
 
-Die avond gingen de kinderen trots en tevreden naar huis. Eindelijk gebeurde er
+Die avond gingen de kinderen trots en tevreden naar huis. Eindelijk gebeurde er 
 wat! Hun lange protest was het waard.
+[[I:ada-p43
+IMAGE: TODO
+]]
 
 ## 44 ##
 
-De volgende ochtend rinkelde de telefoon van de president erg vroeg. Het was
-Zangemann. Hij was woedender dan ooit. “Zonder mij zullen de computers van de
-regering niet langer werken,” dreigde hij. Maar de president hield het gesprek
-kort en hing snel op. De telefoon rinkelde nog veel vaker die dag, maar niemand
-nam op. De president zat samen met Ada, Toni Marie, Konrad en experts van de
+[D]e volgende ochtend rinkelde de telefoon van de president erg vroeg. Het was 
+Zangemann. Hij was woedender dan ooit. “Zonder mij zullen de computers van de 
+regering niet langer werken,” dreigde hij. Maar de president hield het gesprek 
+kort en hing snel op. De telefoon rinkelde nog veel vaker die dag, maar niemand 
+nam op. De president zat samen met Ada, Toni Marie, Konrad en experts van de 
 regering in een bespreking.
 
-De dagen daarna spraken ze van ‘s ochtends tot laat in de avond en ontworpen ze
-eerste programma’s voor de computers van de regering. Door Zangemanns
-telefoontjes werden ze niet langer getoort. Toni had het goede idee om de
-telefoon om te programmeren. Als Zangemann belde hoorde hij alleen nog een
-automatisch antwoord: “De regering wil alleen nog software gebruiken die ze vrij
+[[I:ada-p44
+IMAGE: TODO
+]]
+De dagen daarna spraken ze van ‘s ochtends tot laat in de avond en ontworpen ze 
+eerste programma’s voor de computers van de regering. Door Zangemanns 
+telefoontjes werden ze niet langer getoort. Toni had het goede idee om de 
+telefoon om te programmeren. Als Zangemann belde hoorde hij alleen nog een 
+automatisch antwoord: “De regering wil alleen nog software gebruiken die ze vrij 
 gebruiken, begrijpen, verspreiden en verbeteren kan. Dank voor uw oproep.”
-
-Na vele weken van protesten en gesprekken was het eindelijk zo ver: het
-parlement schafte de oude Zangemann-wet af! In plaats daarvan kondigde de
+==== Slide 23
+Na vele weken van protesten en gesprekken was het eindelijk zo ver: het 
+parlement schafte de oude Zangemann-wet af! In plaats daarvan kondigde de 
 regering aan:
 
 ** 45 **
 
-“Iedereen is toegestaan om zelf diens computer te programmeren zolang ze zich
+“Iedereen is toegestaan om zelf diens computer te programmeren zolang ze zich 
 daarbij aan de andere wetten houden.”
 
 Bovendien werd een nieuw schoolvak ingevoerd: computer en programmeren.
+[[I:ada-p45
+IMAGE: TODO
+]]
 
 ## 46 ##
-
-Die avond vierde iedereen samen een groot feest. Ada, Alan, Toni, Marie, Konrad,
-de andere kinderen van school en hun ouders, de president, mevrouw Gernet, de
-buschauffeur, de conciërge – ze waren er allemaal bij. Ze versierden de straten,
-luisterden naar luide muziek en aten ijs zoveel als ze wilden en in elke
+==== Slide 24
+Die avond vierde iedereen samen een groot feest. Ada, Alan, Toni, Marie, Konrad, 
+de andere kinderen van school en hun ouders, de president, mevrouw Gernet, de 
+buschauffeur, de conciërge – ze waren er allemaal bij. Ze versierden de straten, 
+luisterden naar luide muziek en aten ijs zoveel als ze wilden en in elke 
 denkbare vorm en kleur.
+[[I:ada-p46
+IMAGE: TODO
+]]
 
 ** 47 **
 
-Terwijl anderen tot laat in de nacht bleven feesten, knepen Ada Toni, Marie en
-Konrad ertussenuit naar hun werkplaats. Ze hadden al veel ideeën voor nieuwe
+Terwijl anderen tot laat in de nacht bleven feesten, knepen Ada Toni, Marie en 
+Konrad ertussenuit naar hun werkplaats. Ze hadden al veel ideeën voor nieuwe 
 uitvindingen. En ze wilden er direct mee beginnen.
+[[I:ada-p47
+IMAGE: TODO
+]]
 
 ## 48 ##
-
-En Zangemann? Van hem heeft men niet zoveel meer vernomen. Misschien zit hij nog
-altijd geërgerd achter zijn gouden computer. Misschien durft hij niet meer de
-straat op te gaan en heeft hij alle luiken van zijn landhuis dichtgedaan zodat
-hij zich niet druk hoeft te maken over wat anderen doen met zijn uitvindingen.
-Maar misschien kijkt hij ook door zijn telescoop naar de wereld en ziet hij wat
-de kinderen elke dag nieuw uitvinden. Misschien herinnert hij hoeveel plezier
-het hemzelf vroeger gaf om te sleutelen en te experimenteren. En misschien, heel
+==== Slide 25
+[E]n Zangemann? Van hem heeft men niet zoveel meer vernomen. Misschien zit hij nog 
+altijd geërgerd achter zijn gouden computer. Misschien durft hij niet meer de 
+straat op te gaan en heeft hij alle luiken van zijn landhuis dichtgedaan zodat 
+hij zich niet druk hoeft te maken over wat anderen doen met zijn uitvindingen. 
+Maar misschien kijkt hij ook door zijn telescoop naar de wereld en ziet hij wat 
+de kinderen elke dag nieuw uitvinden. Misschien herinnert hij hoeveel plezier 
+het hemzelf vroeger gaf om te sleutelen en te experimenteren. En misschien, heel 
 misschien, eet hij piramidevormig frambozenijs met discodip.
-
+[[I:ada-p48
+IMAGE: TODO
+]]
+===== Slide 26
 ** 49 **
+
+[[I:ada-p49
+IMAGE: TODO
+]]
 
 ## 50 ##
 
 Dankwoord
 
-Veel dank aan Reinhard Wiesemann van het Linuxhotel voor de financiële steun
-voor het boek en motivatie om niet langer te plannen maar ook te doen. Dank aan
-Sandra Brandstätter, die met elk nieuw ontwerp voor de illustraties plezier
-gebracht heeft. Dank aan mijn redacteur Wiebke Helmchen, met wie het leuk was
+Veel dank aan Reinhard Wiesemann van het Linuxhotel voor de financiële steun 
+voor het boek en motivatie om niet langer te plannen maar ook te doen. Dank aan 
+Sandra Brandstätter, die met elk nieuw ontwerp voor de illustraties plezier 
+gebracht heeft. Dank aan mijn redacteur Wiebke Helmchen, met wie het leuk was 
 het verhaal te ontwikkelen en aan te scherpen.
 
-Dank aan Bea en Bennie, Brian, Christine en Marc, Cory, Bernhard, Isable en
-Amelia, Katta, Kristina, Martin, Mona en Arne, Nina, Oliver, Reinhard, Sabine en
-Torsten voor goede ideeën, inspiratie en praktische tips, en aan de vele mensen
-van de Vrije Softwarebeweging, waarvan ik kon leren en wiens betrokkenheid me
+Dank aan Bea en Bennie, Brian, Christine en Marc, Cory, Bernhard, Isable en 
+Amelia, Katta, Kristina, Martin, Mona en Arne, Nina, Oliver, Reinhard, Sabine en 
+Torsten voor goede ideeën, inspiratie en praktische tips, en aan de vele mensen 
+van de Vrije Softwarebeweging, waarvan ik kon leren en wiens betrokkenheid me 
 motiveert.
 
-Hartelijk dank aan mijn familie die mij ‘s ochtends vroeg en ‘s avonds laat in
-de vakantie lieten schrijven en die mijn werk voor softwarevrijheid altijd
-ondersteunt. In het bijzonder wil ik mijn kinderen bedanken die mij bij het
+Hartelijk dank aan mijn familie die mij ‘s ochtends vroeg en ‘s avonds laat in 
+de vakantie lieten schrijven en die mijn werk voor softwarevrijheid altijd 
+ondersteunt. In het bijzonder wil ik mijn kinderen bedanken die mij bij het 
 voorlezen met nieuwe ideeën inspireerden. Zonder hen zou dit boek niet bestaan.
 
 ** 51 **
+
+[[I:ada-p51
+IMAGE: TODO
+]]
 
 ## 52 ##
 
 Over de auteur
 Matthias Kirschner
 
-Matthias was als kind al gefascineerd door computers en software. Hij had al
-vroeg een internetaansluiting en heeft daardoor veel geleerd. Kinderen hebben
-het recht hun toekomst in eigen hand te nemen. Daarom zet Matthias zich in voor
-het doel dat alle mensen software in zelfbeschikking kunnen gebruiken. Hij wil
+[[I:ada-p52
+IMAGE: TODO
+]]
+Matthias was als kind al gefascineerd door computers en software. Hij had al 
+vroeg een internetaansluiting en heeft daardoor veel geleerd. Kinderen hebben 
+het recht hun toekomst in eigen hand te nemen. Daarom zet Matthias zich in voor 
+het doel dat alle mensen software in zelfbeschikking kunnen gebruiken. Hij wil 
 ook een elektrisch skateboard met Vrije Software bouwen.
 
 ** 53 **
@@ -614,22 +790,26 @@ ook een elektrisch skateboard met Vrije Software bouwen.
 Illustrator
 Sandra Brandstätter
 
-Sandra heeft altijd graag geknutseld met scharen, tangen, lijm, draad, stof en
-papier. Vandaag werkt ze als een illustrator, stripauteur en karakterontwerpster
-voor animatiefilms en series, bijvoorbeeld voor de Duitse televisieserie Trudes
-Tier. Op een ijsco-machine zou Sandra kiezen voor een romig regenboogijs met
+[[I:ada-p53
+IMAGE: TODO
+]]
+Sandra heeft altijd graag geknutseld met scharen, tangen, lijm, draad, stof en 
+papier. Vandaag werkt ze als een illustrator, stripauteur en karakterontwerpster 
+voor animatiefilms en series, bijvoorbeeld voor de Duitse televisieserie Trudes 
+Tier. Op een ijsco-machine zou Sandra kiezen voor een romig regenboogijs met 
 citroenkomkommersmaak en veel spikkels.
 
 ## 54 ##
 
 Website bij het boek
 
-De Free Software Foundation Europe e.V. is een liefdadigheidsvereniging zonder
-winstoogmerk die gebruikers in staat stelt om technologie te controleren.
-Software is sterk verweven met alle aspecten van onze levens. Het is belangrijk
-dat deze technologie ons tot iets in staat stelt in plaats van ons te beperken.
-Vrije Software geeft iedereen het recht om software te gebruiken, te begrijpen,
-aan te passen en te delen. Deze rechten helpen het ondersteunen van andere
+
+De Free Software Foundation Europe e.V. is een liefdadigheidsvereniging zonder 
+winstoogmerk die gebruikers in staat stelt om technologie te controleren. 
+Software is sterk verweven met alle aspecten van onze levens. Het is belangrijk 
+dat deze technologie ons tot iets in staat stelt in plaats van ons te beperken. 
+Vrije Software geeft iedereen het recht om software te gebruiken, te begrijpen, 
+aan te passen en te delen. Deze rechten helpen het ondersteunen van andere 
 fundamentele vrijheden zoals de vrijheid van meningsuiting, pers en privacy.
 
 Op de website van het boek vind je meer informatie en materiaal: https://ada.fsfe.org
@@ -638,19 +818,26 @@ Op de website van het boek vind je meer informatie en materiaal: https://ada.fsf
 
 Licentie
 
-Het boek Ada & Zangemann: Een verhaal over software, skateboards en frambozenijs
-door Matthias Kirschner en Sandra Brandstätter is gelicenseerd onder “Creative
+Het boek Ada & Zangemann: Een verhaal over software, skateboards en frambozenijs 
+door Matthias Kirschner en Sandra Brandstätter is gelicenseerd onder “Creative 
 Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).”
 
 https://creativecommons.org/licenses/by-sa/4.0/
 
 ## 56 ##
 
-Bedenk een paar lekkere, leuke of gekke ijssoorten en teken ze in de
-ijshoorntjes op de volgende pagina. Meer kleurplaten en informatie over het boek
+[[I:ada-p56
+IMAGE: TODO
+]]
+Bedenk een paar lekkere, leuke of gekke ijssoorten en teken ze in de 
+ijshoorntjes op de volgende pagina. Meer kleurplaten en informatie over het boek 
 is te vinden op https://ada.fsfe.org.
 
 ** 57 **
+
+[[I:ada-p57
+IMAGE: TODO
+]]
 
 ## 58 ##
 
@@ -658,13 +845,21 @@ is te vinden op https://ada.fsfe.org.
 
 ## 60 ##
 
-De uitvinder Zangemann is wereldberoemd en ongelofelijk rijk. Ouders net als
-kinderen houden van zijn fabelachtige technische uitvindingen. Maar op een dag
-is er een probleem: de elektronische skateboards van de kinderen werken niet
-meer goed. Wat is er aan de hand? De nieuwsgierige Ada heeft door wat er aan de
-hand is. Samen met haar vrienden experimenteert ze met hardware en software en
-de kinderen smeden een plan: Zangemann zal niet langer als enige controle over
+[[I:back_cover-a
+IMAGE: TODO
+]]
+
+[D]e uitvinder Zangemann is wereldberoemd en ongelofelijk rijk. Ouders net als 
+kinderen houden van zijn fabelachtige technische uitvindingen. Maar op een dag 
+is er een probleem: de elektronische skateboards van de kinderen werken niet 
+meer goed. Wat is er aan de hand? De nieuwsgierige Ada heeft door wat er aan de 
+hand is. Samen met haar vrienden experimenteert ze met hardware en software en 
+de kinderen smeden een plan: Zangemann zal niet langer als enige controle over 
 de apparaten hebben!
 
-Een boek dat bij kinderen de interesse aanwakkert voor sleutelen en een autonome
+Een boek dat bij kinderen de interesse aanwakkert voor sleutelen en een autonome 
 omgang met techniek aanmoedigt.
+
+[[I:back_cover-b
+IMAGE: TODO
+]]
