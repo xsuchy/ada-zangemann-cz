@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# SPDX-FileCopyrightText: 2024 Nico Rikken
+# SPDX-FileCopyrightText: 2024 Nico Rikken <nico.rikken@fsfe.org>
 #
 # SPDX-License-Identifier: CC0-1.0
 
