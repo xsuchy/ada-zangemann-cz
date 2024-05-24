@@ -10,7 +10,7 @@
 cd "$(dirname "${0}")"  # Operate in the directory with transparent capitals
 
 if ! [[ -x "$(command -v convert)" ]] ; then
-    echo "Ensure that ImageMagick is installed so the 'convert' command is available."
+    echo "Ensure that ImageMagick is installed so the 'convert' command is available." >&2
     exit 1
 fi
 
