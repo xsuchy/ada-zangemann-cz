@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Nico Rikken <nico.rikken@fsfe.org>
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Capitals source
 
 This directory contains the source files for the capitals used in the book.
