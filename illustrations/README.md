@@ -53,3 +53,5 @@ Different pages use different colors for the capitals.
 | red3      | #e74c5b  |
 | violet    | #81579a  |
 | yellow    | #f8d66a  |
+| yellow2   | #fddd66  |
+

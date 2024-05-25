@@ -52,6 +52,7 @@ case ${color} in
     red3     ) hexcolor="#e74c5b";;
     violet   ) hexcolor="#81579a";;
     yellow   ) hexcolor="#f8d66a";;
+    yellow2  ) hexcolor="#fddd66";;
 esac
 
 if [[ -z ${hexcolor} ]] ; then
