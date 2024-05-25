@@ -38,21 +38,36 @@ source text.
 
 ### to_scribus.pl
 
-Insert the translate in one of the [Scribus](https://www.scribus.net/) templates
-or .odp presentation templates. These Scribus files are used for the printed
-book (cover and contents) as well as pdf format.
-
-### to_text.pl
-
-_Needs a description._
+Insert the translation in one of the [Scribus](https://www.scribus.net/)
+templates or .odp presentation templates. These Scribus files are used for the
+printed book (cover and contents) as well as pdf format.
 
 ### unwrapada.pl
 
-_Needs a description._
+Remove hard line breaks so that each paragraph is on a single line. This unwraps
+hard line breaks preceded by a space.
+
+```shell
+$ ./unwrapada.pl Ada_Zangemann-en.txt > Ada_Zangemann-en-unwrapped.pl
+```
 
 ### wrapada.pl
 
-_Needs a description._
+Add hard line breaks in lines to limited the length. Each line is wrapped on a
+whole word to stay in a length of maximum 72 characters.
+
+```shell
+$ scripts/./unwrapada.pl Ada_Zangemann-en.txt > Ada_Zangemann-en-unwrapped.pl
+```
+
+Line breaks with a preceding space signify a continuation of the paragraph.
+These types of line breaks are not treated as a special case. So in order to
+change the line breaks inside paragraphs, the unwrapdata.pl and wrapada.pl
+scripts can be combined:
+
+```shell
+$ cat Ada_Zangemann-en.txt | scripts/./unwrapada.pl | scripts/./wrapada.pl > Ada_Zangemann-en-unwrapped.pl
+```
 
 ## Compatiblity and development
 
