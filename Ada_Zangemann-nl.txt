@@ -49,13 +49,13 @@ ADA & ZANGEMANN
 Matthias Kirschner
   Sandra Brandstätter
 
-ADA & ZANGEMANN  
+ADA & ZANGEMANN
 Een verhaal over software, skateboards en frambozenijs 
 
 ## 2 ##
 
-Copyright © 2023 Matthias Kirschner en Sandra Brandstätter. Op dit werk is een
-Creative Commons Attribution-ShareAlike 4.0 International License van
+Copyright © 2023 Matthias Kirschner en Sandra Brandstätter. Op dit werk is een 
+Creative Commons Attribution-ShareAlike 4.0 International License van 
 toepassing. Bezoek http://creativecommons.org/licenses/by-sa/4.0/ om een kopie 
 van deze licentie te zien of stuur een brief aan Creative Commons, PO Box 1866, 
 Mountain View, CA 94042, USA.
@@ -138,7 +138,7 @@ We moedigen u aan om auteurs, uitgevers en anderen die betrokken zijn bij de cre
 === Slide 1
 
 [[I:ada-p03
-IMAGE: TODO 
+IMAGE: TODO
 ]]
 Matthias Kirschner
 Sandra Brandstätter
@@ -163,7 +163,7 @@ Ver weg, aan de andere kant van de stad, woonde een beroemde uitvinder genaamd Z
 
 ## 6 ##
 ==== Slide 3
-[C]omputers hadden Zangemanns fascinatie sinds hij een kind was. Toen hij jong was waren computers enorme machines met veel kabels en luidruchtige ventilatoren. Op school droomde kleine Zangemann vaak over alle dingen die hij zou doen met computers als ze slechts een klein stukje kleiner zouden zijn; klein genoeg om in andere leuke dingen in te kunnen bouwen. Hij zou eerst een computer in zijn skateboard bouwen zodat er koele geluiden uit zouden komen als hij er op reed: misschien een sirene van een brandweervoertuig of het geluid van een raketlancering. Dan zou hij een computer gebruiken om ijscomachines uit te vinden! De computer zou de koelste smaken mixen en zelfs verkopen. Er zouden machines staan op iedere straathoek en hij zou aan ijs in zijn favoriete smaak kunnen komen wanneer hij ook wilde, en zoveel hij wilde. Daarna zou hij een schoonmaakrobot bouwen en een bloksorteermachine zodat zijn kamer altijd netjes en schoon zou zijn. Zangemann had iedere dag dit soort geweldige nieuwe ideeën. Hij kon aan niets anders denken.
+[C]omputers hadden Zangemanns fascinatie sinds hij een kind was. Toen hij jong was waren computers enorme machines met veel kabels en luidruchtige ventilatoren. Op school droomde kleine Zangemann vaak over alle dingen die hij zou doen met computers als ze slechts een klein stukje kleiner zouden zijn; klein genoeg om in andere leuke dingen in te kunnen bouwen. Hij zou eerst een computer in zijn skateboard bouwen zodat er coole geluiden uit zouden komen als hij er op reed: misschien een sirene van een brandweervoertuig of het geluid van een raketlancering. Dan zou hij een computer gebruiken om ijscomachines uit te vinden! De computer zou de coolste smaken mixen en zelfs verkopen. Er zouden machines staan op iedere straathoek en hij zou aan ijs in zijn favoriete smaak kunnen komen wanneer hij ook wilde, en zoveel hij wilde. Daarna zou hij een schoonmaakrobot bouwen en een bloksorteermachine zodat zijn kamer altijd netjes en schoon zou zijn. Zangemann had iedere dag dit soort geweldige nieuwe ideeën. Hij kon aan niets anders denken.
 
 Terwijl de jaren voorbij gingen groeide Zangemann en werden computers kleiner. Na zijn schooltijd waren ze in feite zo klein dat ze in zijn zak pasten. De kleinsten pasten zelfs op zijn vingertop.
 
