@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: 2022 Matthias Kirschner
 # SPDX-FileCopyrightText: 2024 André Ockers
 # SPDX-FileCopyrightText: 2024 Nico Rikken
+# SPDX-FileCopyrightText: 2024 Carmen Bianca Bakker
 #
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
@@ -74,7 +75,7 @@ ISBN-13: 978-1-7185-0319-9 (ebook)
 
 Uitgever: William Pollock
 Auteur: Matthias Kirschner
-illustratrice: Sandra Brandstätter
+Illustratrice: Sandra Brandstätter
 Eindredactie: Jill Franklin
 Productie-redactie: Jennifer Kepler
 Redactie: Wiebke Helmchen
@@ -158,11 +159,11 @@ IMAGE: TODO
 [[I:ada-p05
 IMAGE: TODO
 ]]
-Ver weg, aan de andere kant van de stad, woonde een beroemde uitvinder genaamd Zangemann. Hij was ongelooflijk rijk. Geen papier in de wereld was groot genoeg voor zjn bankafschrift met alle getallen en nullen! Hij woonde in een enorm huis met een zwembad en waterglijbaan, veel trappen en torens, honderden ramen en zoveel kamers dat hijzelf vaak verdwaalde. Zangemann's landhuis stond hoog op een heuvel. Daar vandaan kon hij over de hele stad uit kijken.
+Ver weg, aan de andere kant van de stad, woonde een beroemde uitvinder genaamd Zangemann. Hij was ongelooflijk rijk. Geen papier in de wereld was groot genoeg voor zjn bankafschrift met alle getallen en nullen! Hij woonde in een enorm huis met een zwembad en waterglijbaan, veel trappen en torens, honderden ramen en zoveel kamers dat hijzelf vaak verdwaalde. Zangemanns landhuis stond hoog op een heuvel. Daar vandaan kon hij over de hele stad uit kijken.
 
 ## 6 ##
 ==== Slide 3
-[C]omputers hadden Zangemann's fascinatie sinds hij een kind was. Toen hij jong was waren computers enorme machines met veel kabels en luidruchtige ventilatoren. Op school droomde kleine Zangemann vaak over alle dingen die hij zou doen met computers als ze slechts een klein stukje kleiner zouden zijn; klein genoeg om in andere leuke dingen in te kunnen bouwen. Hij zou eerst een computer in zijn skateboard bouwen zodat er koele geluiden uit zouden komen als hij er op reed: misschien een sirene van een brandweervoertuig of het geluid van een raketlancering. Dan zou hij een computer gebruiken om ijscomachines uit te vinden! De computer zou de koelste smaken mixen en zelfs verkopen. Er zouden machines staan op iedere straathoek en hij zou aan ijs in zijn favoriete smaak kunnen komen wanneer hij ook wilde, en zoveel hij wilde. Daarna zou hij een schoonmaakrobot bouwen en een bloksorteermachine zodat zijn kamer altijd netjes en schoon zou zijn. Zangemann had iedere dag dit soort geweldige nieuwe ideeën. Hij kon aan niets anders denken.
+[C]omputers hadden Zangemanns fascinatie sinds hij een kind was. Toen hij jong was waren computers enorme machines met veel kabels en luidruchtige ventilatoren. Op school droomde kleine Zangemann vaak over alle dingen die hij zou doen met computers als ze slechts een klein stukje kleiner zouden zijn; klein genoeg om in andere leuke dingen in te kunnen bouwen. Hij zou eerst een computer in zijn skateboard bouwen zodat er koele geluiden uit zouden komen als hij er op reed: misschien een sirene van een brandweervoertuig of het geluid van een raketlancering. Dan zou hij een computer gebruiken om ijscomachines uit te vinden! De computer zou de koelste smaken mixen en zelfs verkopen. Er zouden machines staan op iedere straathoek en hij zou aan ijs in zijn favoriete smaak kunnen komen wanneer hij ook wilde, en zoveel hij wilde. Daarna zou hij een schoonmaakrobot bouwen en een bloksorteermachine zodat zijn kamer altijd netjes en schoon zou zijn. Zangemann had iedere dag dit soort geweldige nieuwe ideeën. Hij kon aan niets anders denken.
 
 Terwijl de jaren voorbij gingen groeide Zangemann en werden computers kleiner. Na zijn schooltijd waren ze in feite zo klein dat ze in zijn zak pasten. De kleinsten pasten zelfs op zijn vingertop.
 
