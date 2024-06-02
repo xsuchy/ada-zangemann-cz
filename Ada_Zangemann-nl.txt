@@ -71,7 +71,7 @@ Eerste druk
 26 25 24 23 22 1 2 3 4 5
 
 ISBN-13: 978-1-7185-0318-2 (print)
-ISBN-13: 978-1-7185-0319-9 (ebook)
+ISBN-13: 978-1-7185-0319-9 (e-book)
 
 Uitgever: William Pollock
 Auteur: Matthias Kirschner
@@ -157,14 +157,14 @@ Vrij als in vrijheid, niet prijs
 Vrije Software gaat over de vrijheden die u met de software ontvangt, 
 niet over de prijs. Zo betekent een boek publiceren onder een vrije 
 culturele licentie niet dat u het recht hebt om een gratis kopie van het 
-boek of ebook te ontvangen. Het betekent dat u de hierboven beschreven 
+boek of e-book te ontvangen. Het betekent dat u de hierboven beschreven 
 rechten ontvangt, die de samenleving in staat stellen om er verder van 
 te profiteren, zoals alle cultuur zou moeten.
 
-We moedigen u aan om auteurs, uitgevers en anderen die betrokken zijn 
-bij de creatie van cultuur onder vrije licenties, inclusief financieel, 
-te steunen door aankopen of donaties. De samenleving zou zij die die 
-vrijheid van de anderen respecteren moeten steunen.
+We moedigen u aan om auteurs, uitgevers en anderen te steunen die 
+betrokken zijn bij de creatie van cultuur onder vrije licenties, 
+inclusief financiële steun door aankopen of donaties. De samenleving zou 
+zij die die vrijheid van de anderen respecteren moeten steunen.
 
 ** 3 **
 === Slide 1
@@ -196,30 +196,30 @@ IMAGE: TODO
 IMAGE: TODO
 ]]
 Ver weg, aan de andere kant van de stad, woonde een beroemde uitvinder 
-genaamd Zangemann. Hij was ongelooflijk rijk. Geen papier in de wereld 
-was groot genoeg voor zijn bankafschrift met alle getallen en nullen! 
-Hij woonde in een enorm huis met een zwembad en waterglijbaan, veel 
-trappen en torens, honderden ramen en zoveel kamers dat hijzelf vaak 
-verdwaalde. Zangemanns landhuis stond hoog op een heuvel. Daar vandaan 
-kon hij over de hele stad uitkijken.
+genaamd Zangemann. Hij was ongelooflijk rijk. Geen papier ter wereld was 
+groot genoeg voor zijn bankafschrift met al die getallen en nullen! Hij 
+woonde in een enorm huis met een zwembad en waterglijbaan, veel trappen 
+en torens, honderden ramen en zoveel kamers dat hijzelf vaak verdwaalde. 
+Zangemanns landhuis stond hoog op een heuvel. Daar vandaan kon hij over 
+de hele stad uitkijken.
 
 ## 6 ##
 ==== Slide 3
 [C]omputers hadden Zangemann gefascineerd sinds hij een kind was. Toen 
 hij jong was waren computers enorme machines met veel kabels en 
 luidruchtige ventilatoren. Op school droomde kleine Zangemann vaak over 
-alle dingen die hij zou doen met computers als ze slechts een klein 
-stukje kleiner zouden zijn; klein genoeg om in andere leuke dingen in te 
-kunnen bouwen. Hij zou eerst een computer in zijn skateboard bouwen 
-zodat er coole geluiden uit zouden komen als hij er op reed: misschien 
-een sirene van een brandweerwagen of het geluid van een raketlancering. 
-Dan zou hij een computer gebruiken om ijscomachines uit te vinden! De 
-computer zou de coolste smaken mixen en zelfs verkopen. Er zouden 
-machines staan op iedere straathoek en hij zou aan ijs in zijn favoriete 
-smaak kunnen komen wanneer hij maar wilde, en zoveel hij maar wilde. 
-Daarna zou hij een schoonmaakrobot bouwen en een bloksorteermachine 
-zodat zijn kamer altijd netjes en schoon zou zijn. Zangemann had iedere 
-dag dit soort geweldige nieuwe ideeën. Hij kon aan niets anders denken.
+alle dingen die hij zou doen met computers als ze slechts een beetje 
+kleiner zouden zijn; klein genoeg om in andere leuke dingen in te kunnen 
+bouwen. Hij zou eerst een computer in zijn skateboard bouwen zodat er 
+coole geluiden uit zouden komen als hij er op reed: misschien een sirene 
+van een brandweerwagen of het geluid van een raketlancering. Dan zou hij 
+een computer gebruiken om ijscomachines uit te vinden! De computer zou 
+de coolste smaken mixen en zelfs verkopen. Er zouden machines staan op 
+iedere straathoek en hij zou aan ijs in zijn favoriete smaak kunnen 
+komen wanneer hij maar wilde, en zoveel hij maar wilde. Daarna zou hij 
+een schoonmaakrobot bouwen en een bloksorteermachine zodat zijn kamer 
+altijd netjes en schoon zou zijn. Zangemann had iedere dag dit soort 
+geweldige nieuwe ideeën. Hij kon aan niets anders denken.
 
 Terwijl de jaren voorbij gingen, groeide Zangemann en werden computers 
 kleiner. Na zijn schooltijd waren ze in feite zo klein dat ze in zijn 
