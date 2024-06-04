@@ -30,7 +30,7 @@ chapter-15,page_44:Nieuwe wet
 chapter-16,page_48:En Zangemann?
 chapter-17,page_50:Dankbetuigingen
 chapter-18,page_52:Over de auteur - Matthias Kirschner
-chapter-19,page_53:Over de Illustrator - Sandra Brandstätter
+chapter-19,page_53:Over de illustrator - Sandra Brandstätter
 chapter-20,page_54:Website voor het boek en licentie
 chapter-21,page_55:Kleurplaten
 chapter-22,back_cover:Achterkant en samenvatting
