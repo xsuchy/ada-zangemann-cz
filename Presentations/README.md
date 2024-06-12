@@ -21,7 +21,7 @@ other without), you have to run the following command.
 installed by default in every GNU/Linux system.
 
 ```
-../create_reading.sh <langcode>
+./create_reading.sh <langcode>
 ```
 
 This will create the following 2 files:
