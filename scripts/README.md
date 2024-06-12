@@ -42,6 +42,11 @@ Insert the translation in one of the [Scribus](https://www.scribus.net/)
 templates or .odp presentation templates. These Scribus files are used for the
 printed book (cover and contents) as well as pdf format.
 
+### to_odp.pl
+
+Insert the translation in the .odp presentation notes, to be used for
+reading sessions. As template you can use an .odp file from other languages.
+
 ### unwrapada.pl
 
 Remove hard line breaks so that each paragraph is on a single line. This unwraps
@@ -57,7 +62,7 @@ Add hard line breaks in lines to limited the length. Each line is wrapped on a
 whole word to stay in a length of maximum 72 characters.
 
 ```shell
-$ scripts/./unwrapada.pl Ada_Zangemann-en.txt > Ada_Zangemann-en-unwrapped.pl
+$ scripts/unwrapada.pl Ada_Zangemann-en.txt > Ada_Zangemann-en-unwrapped.pl
 ```
 
 Line breaks with a preceding space signify a continuation of the paragraph.
