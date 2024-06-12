@@ -25,6 +25,8 @@ elsif($0=~/epub/) {
   $format=$EPU;
 }
 
+$cwd=`pwd`;
+chomp($cwd);
 
 $textfile=shift;
 $templatefile=shift;
@@ -79,6 +81,26 @@ sub Unformat {
   $s=~s|<i>||gis;
   $s=~s|</i>||gis;
   return($s);
+}
+
+sub SplitXML {
+  my $buffer=shift;
+  my($i,$i2,$i3,@xml);
+  $i=-1;
+  while($i<length($buffer)) {
+    $i2=index($buffer,"<",$i+1);
+    if($i2>=0) {
+      if($i2>0) {
+        push(@xml,substr($buffer,$i,$i2-$i));
+      }
+      $i=$i2;
+    }
+    else {
+      push(@xml,substr($buffer,$i));
+      $i=length($buffer);
+    }
+  }
+  return(@xml);
 }
 
 sub FormatXML {
@@ -163,11 +185,51 @@ sub FormatSLA {
   return($f);
 }
 
+sub FormatODPNotes {
+  my $s=shift;
+  my (@par,$i,$f);
+  @par=split("\n",$s);
+  for($i=0;$i<=$#par;$i++) 
+  {
+    if(length($par[$i])==0) { $f.="<text:p/>\n"; }
+    else { $f.="<text:p>".FormatXML($par[$i])."</text:p>\n"; }
+  }
+  return($f);
+}
+
+$text_pre="<text:p text:style-name=\"P6\">";
+$span_pre="<text:span text:style-name=\"T2\">";
+$text_post="</text:p>";
+$span_post="</text:span>";
+
+sub FormatODPLast {
+  my $s=shift;
+  my (@par,$i,$f,$pre,$post,$link);
+  @par=split("\n",$s);
+  for($i=0;$i<=$#par;$i++) 
+  {
+    if($par[$i]=~m/https:/) { 
+      # Split the link and format the rest
+      ($pre,$link,$post)=($par[$i]=~m|^(.*)(https:\S+)(.*)|);
+      $f.=$text_pre;
+      if(length($pre)>0) { $f.=$span_pre.FormatXML($pre).$span_post; }
+      $f.=$span_pre."<text:a xlink:href=\"$link\" xlink:type=\"simple\">$link</text:a>".$span_post;
+      if(length($post)>0) { $f.=$span_pre.FormatXML($post).$span_post; }
+      $f.=$text_post;
+    }
+    else {
+      $f.=$text_pre.$span_pre.FormatXML($par[$i]).$span_post.$text_post;
+    }
+  }
+  return($f);
+}
+
 
 $status=-1;
 $pagechange=0;
 $br=0;
 $pagenum=0;
+$slidenum=0;
 while(<F>) {
   if($status==-1) {
     if(m/^#/) {
@@ -183,7 +245,7 @@ while(<F>) {
     if(m/^\[\[/) {
       $status|=0x10;
     }
-    if($format==$REA) {
+    if($format==$REA || $format==$ODP) {
       if(m/^=== /) {
 	$status=1;
 	$pagechange=0 if($pagechange>=0);
@@ -218,23 +280,32 @@ while(<F>) {
         $fpagenum=sprintf("%02d",$pagenum+0).$fpagenum;
 	if($format!=$TXT || $pagenum ne ($pagenum+0)) { $_=""; }
       }
-      if($format==$REA) {
+      if($format==$REA || $format==$ODP) {
 	if(m/^===/) {
 	  if($pagechange>=0) {
 	    $pagechange=1;
 	  }
 	  else {
-	    if(!$br) { print "\n"; }
-	    print "\n";
+	    if($format==$REA) {
+	      if(!$br) { print "\n"; }
+	      print "\n";
+	    }
 	    $br=1;
 	    $_="";
 	  }
 	}
 	if($pagechange>0) {
-	  if(!$br) { print "\n"; }
 	  ($slide)=m/= (.*)/;
 	  if(length($slide)>0) { $slide="($slide)"; }
-	  print "<!-- Change Page $slide -->\n\n";
+	  if($format==$REA) {
+	    if(!$br) { print "\n"; }
+	    print "<!-- Change Page $slide -->\n" if(!$templatefile);
+	    print "\n";
+	  }
+	  if($slide=~m/\d+/) { ($slidenum)=($slide=~m/(\d+)/); }
+	  else { $slidenum++; }
+	  if($slidenum>=26) { $slidenum=0; }
+	  #print STDERR "SLIDENUM $slide $slidenum\n";
 	  $_="";
 	  $br=1;
 	  $pagechange=0;
@@ -252,7 +323,7 @@ while(<F>) {
 	}
 	$pagecap[$pagenum]=$capfile;
 	#print STDERR "PAGECAP $pagenum=$cap ($rest)\n";
-	if($format==$TXT || $format==$REA) {
+	if($format==$TXT || $format==$REA || $format==$ODP) {
 	  $_=$cap.$rest;
         }
 	else {
@@ -276,6 +347,9 @@ while(<F>) {
       }
       else {
         $pagetext[$pagenum].=$_;
+      }
+      if($slidenum>0) {
+        $slide[$slidenum].=Unformat($_);
       }
     }
     if(m/^\]\]/) {
@@ -312,6 +386,10 @@ for($i=0;$i<=$pagenum;$i++) {
 foreach $i (keys %pagetext)
 {
   $pagetext{$i}=RemoveLF($pagetext{$i});
+}
+
+for($i=1;$i<=$slidenum;$i++) {
+  $slide[$i]=RemoveLF($slide[$i]);
 }
 
 if($format==$SLA)
@@ -385,4 +463,105 @@ if($format==$SLA)
     print;
   }
   close(S);
+}
+elsif($format==$ODP)
+{
+  if(!($templatefile=~m|^/|)) {
+    $templatefile="$cwd/$templatefile";
+  }
+  if(!($templatedir=~m|^/|)) {
+    $templatedir="$cwd/$templatedir";
+  }
+  if(!-f $templatefile) {
+    print STDERR "Template file ($templatefile) does not exists. Aborting.\n";
+    exit(2);
+  }
+  if(length($ENV{TMP})==0) { $ENV{TMP}="/tmp"; }
+  $tmpdir="$ENV{TMP}/odp_$$";
+  if(!mkdir($tmpdir)) {
+    print STDERR "Cannot create temporary directory: $!\n";
+    exit(3);
+  }
+  # Unzip template
+  system("cd '$tmpdir'; unzip $templatefile");
+  # Opening template content file:
+  if(!open(T,"$tmpdir/content.xml")) {
+    print STDERR "Could not open 'content.xml' file from template.\nPlease check that the template file is readeable\nand it is an OpenDocument Presentation zip file\n";
+    system("rm -rf $tmpdir");
+    exit(4);
+  }
+  $buffer="";
+  while(<T>) {
+    $buffer.=$_;
+  }
+  close(T);
+  # Split XML elements:
+  @xml=SplitXML($buffer);
+  $status=0;
+  $slidenum=0;
+  $out="";
+  for($i=0;$i<=$#xml;$i++) {
+    $xml=$xml[$i];
+    if($status==0 && $xml=~m|^<draw:page|) {
+      $status=1;
+      ($slide)=($xml=~m|draw:name="page(\d+)"|s);
+      if($slide==0) {
+        $slidenum++;
+	$slide=$slidenum;
+      }
+      else {
+        $slidenum=$slide+0;
+      }
+      if($slide==26) {
+        # Special case, license text
+	$status=26;
+      }
+    }
+    elsif($xml=~m|^<presentation:notes|) {
+      $status=2;
+      #print STDERR "NOTES $slide...\n";
+    }
+    elsif($status==2 && $xml=~m|^<draw:text-box|) {
+      #print STDERR "DRAWBOX $slide...\n";
+      if(length($slide[$slide])>0) {
+        $xml.=FormatODPNotes($slide[$slide]);
+        $status=3;
+      }
+    }
+    elsif($status==3 && $xml=~m|^</draw:text-box|) {
+      $status=2;
+    }
+    elsif($status==3 && $xml=~m|^</?text:|) {
+      $xml="";
+    }
+    elsif($status==26 && $xml=~m|^<text:p text:style-name="P6"|) {
+      $status=27;
+      $xml=FormatODPLast(Unformat($pagetext[55]));
+    }
+    elsif($status==27 && $xml=~m|</?text:|) {
+      $xml="";
+    }
+    elsif($xml=~m|^</presentation:notes|) {
+      $status=1;
+    }
+    elsif($status==27 && $xml=~m|^</draw:text-box|) {
+      $status=1;
+    }
+    elsif($status==1 && $xml=~m|^</draw:page|) {
+      $status=0;
+    }
+    $out.=$xml;
+    #print STDERR "$status) ".substr($xml,0,40)."...\n";
+  }
+  if(!open(T,">$tmpdir/content.xml")) {
+    print STDERR "Cannot open file 'content.xml' for writing: $!\n";
+    system("rm -rf $tmpdir");
+    exit(5);
+  }
+  print T $out;
+  close(T);
+  #$out=~s|<|\n<|gs;
+  #print $out;
+  system("cd '$tmpdir'; zip -9 -r $templatedir *");
+  system("rm -rf $tmpdir");
 }

@@ -260,7 +260,7 @@ automaticamente mezz’ora dopo che lui fosse andato a dormire.
 
 Ada ebbe anche un’idea per il prossimo programma che avrebbe scritto. 
 Era una cosa più impegnativa, un vero progetto. Probabilmente avrebbe 
-avuto bisogno di tutte le vacanze estive per realizzarlo… ma non stava 
+avuto bisogno di tutte le vacanze estive per realizzarlo... ma non stava 
 più nella pelle!
 
 <!-- Change Page (Slide 13) -->
@@ -304,7 +304,7 @@ di esercizio: semplicemente non funzionava come avrebbe voluto.
 Dopo che Ada cadde sul suo fondoschiena per la centesima volta, decise 
 di andare in biblioteca. Là aveva sempre trovato ciò che le serviva, e 
 infatti trovò su Internet un programma che qualcuno aveva scritto per il 
-proprio scooter elettrico, che aveva la stessa esigenza di partire 
+proprio monopattino elettrico, che aveva la stessa esigenza di partire 
 lentamente. Ada scaricò il programma sul suo cellulare.
 
 Tornata in discarica, prese alcune parti del codice scaricato e le 
@@ -428,7 +428,7 @@ nessuno di portarceli via!».
 Si incontrarono davanti ad una delle macchine per il gelato che erano 
 state modificate da loro e discussero della situazione. Era chiaro che 
 qualcosa doveva essere fatto contro la nuova legge, ed escogitarono 
-quindi un piano…
+quindi un piano...
 
 <!-- Change Page (Slide 21) -->
 

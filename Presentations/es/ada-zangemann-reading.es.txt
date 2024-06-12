@@ -1,0 +1,518 @@
+# SPDX-FileCopyrightText: 2021-2024 Matthias Kirschner
+#
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
+<!-- Change Page (Slide 1) -->
+
+Matthias Kirschner
+  Sandra Brandstätter
+
+ADA &
+ZANGEMANN
+
+Un cuento sobre Software, Monopatines y Helado de Frambuesa
+
+<!-- Change Page (Slide 2) -->
+
+Érase una vez una niña llamada Ada. Su familia era tan pobre que todos 
+sus ahorros cabían en una caja de galletas. No tenían suficiente dinero 
+para vivir en una casa decente. En su lugar, Ada vivía con su madre y su 
+hermano pequeño Alan en una cabaña cerca de un desguace, a las afueras 
+de la ciudad.
+
+Muy lejos, en el otro extremo de la ciudad, vivía un famoso inventor 
+llamado Zangemann. Era inmensamente rico. No había en el mundo hoja de 
+papel lo suficientemente grande para mostrar todo el dinero que tenía, 
+con todos sus números y ceros. Vivía en una casa enorme, con piscina y 
+tobogán, muchas escaleras y torres, cientos de ventanas y tantas 
+habitaciones que a menudo se perdía en ellas. La mansión de Zangemann 
+estaba en lo alto de una colina. Desde allí podía contemplar toda la 
+ciudad.
+
+<!-- Change Page (Slide 3) -->
+
+Los ordenadores habían fascinado a Zangemann desde que era pequeño. 
+Cuando era joven, los ordenadores eran máquinas enormes con muchos 
+cables y ventiladores ruidosos. En la escuela, el pequeño Zangemann, a 
+menudo, soñaba con todo lo que podría hacer con los ordenadores si 
+fueran un poco más pequeños. Lo suficientemente pequeños como para poder 
+incorporarlos en otras cosas y añadirles funciones divertidas. Él ya 
+sabía lo que haría. Primero instalaría un ordenador en su monopatín para 
+que hiciera sonidos chulos cuando lo montara, como una sirena o el 
+sonido del despegue de un cohete. Luego usaría el ordenador para 
+inventar máquinas que hicieran helados. El ordenador mezclaría los 
+sabores, e incluso, vendería el helado. Habría máquinas en cada esquina. 
+Podría comprar helado de su sabor favorito cuando le apeteciera y tanto 
+como quisiera. Después construiría un robot de limpieza y una máquina 
+recogedora de juguetes para que su habitación estuviera siempre limpia y 
+ordenada. Cada día, Zangemann tenía ideas nuevas e ingeniosas. Sólo 
+podía pensar en ello.
+
+A medida que pasaban los años, Zangemann crecía y los ordenadores se 
+hacían más pequeños. De hecho, cuando terminó la escuela eran tan 
+pequeños que cabían en su bolsillo. Los más pequeños incluso le cabían 
+en la punta del dedo.
+
+<!-- Change Page (Slide 4) -->
+
+“¡Por fin puedo convertir todas mis ideas en objetos reales!”. Zangemann 
+estaba feliz y se puso manos a la obra. Encontró la manera de integrar 
+los ordenadores en todo tipo de objetos para hacerlos aún más divertidos 
+y útiles. Y luego los vendió.
+
+Sus inventos encantaban a niños y adultos. Todos los niños querían sus 
+monopatines con los últimos sonidos para enseñárselo a sus amigos del 
+colegio. A los niños también les encantaba el altavoz que inventó, que 
+al instante reproducía cualquier canción que le pidieras. Y por 
+supuesto, a todo el mundo le encantaba el helado que todas las tardes 
+servía la “Máquina de Helados Original Zangemann”. Todo parecía mágico, 
+pero el secreto era sencillo: los pequeños ordenadores que Zangemann 
+incorporó a sus máquinas.
+
+Estos inventos eran muy populares en el colegio de Ada y muchos de sus 
+amigos montaban en esos monopatines. Pero Ada, a menudo, estaba triste, 
+ya que su madre no podía comprarle ninguna de esas cosas geniales: ni el 
+monopatín, ni los altavoces, ni helados.
+
+<!-- Change Page (Slide 5) -->
+
+Por suerte, Ada vivía justo al lado del desguace. Había montones de 
+aparatos rotos y piezas oxidadas que ella juntaba para construir cosas 
+nuevas y geniales, como una caja grande de madera en la que Alan y ella 
+se deslizaban colina abajo a toda velocidad, un molino de viento y 
+monstruos de chatarra contra los que luchaban. También encontró muchos 
+objetos útiles como, por ejemplo, un viejo teléfono móvil. La pantalla 
+estaba rota pero podía arreglarla y, aunque no había internet en el 
+desguace, podía acceder a él en otro sitio.
+
+Tanto se divertía Ada trasteando en el desguace y arreglando cosas rotas 
+que se olvidó por completo de los monopatines y el helado.
+
+<!-- Change Page (Slide 6) -->
+
+Como todo el mundo compraba sus inventos, Zangemann pronto se convirtió 
+en la persona más rica del mundo. Con todo su dinero, compró un enorme 
+ordenador dorado con un teclado hecho de joyas y lo instaló en la 
+habitación más grande de su mansión. Desde allí, a través de Internet, 
+podía controlar todos los pequeños ordenadores integrados en sus 
+inventos.
+
+Lo único que tenía que hacer era pulsar, en el ordenador de oro, la 
+tecla adecuada, e inmediatamente todas las máquinas de helados en la 
+ciudad dispensarían sólo helado de vainilla. Si Zangemann quería que la 
+gente comiera helado de chocolate, pulsaba la tecla del helado de 
+chocolate. Si daba la orden de helado de limón, las máquinas sólo 
+suministraban helado de limón. Zangemann adoraba sus inventos y siempre 
+se emocionaba al ver lo bien que funcionaban sus máquinas. A veces la 
+gente se decepcionaba cuando su sabor favorito no estaba disponible, 
+pero ¿qué podían hacer? Al fin y al cabo, tenían helados en cada 
+esquina.
+
+Zangemann se divertía mucho pulsando las brillantes teclas y viendo a la 
+gente comer helado. Pasaba muchas horas al día frente a su ordenador 
+dorado. Una y otra vez miraba la ciudad a través de un gran telescopio, 
+observando lo bien que sus inventos ejecutaban sus órdenes.
+
+<!-- Change Page (Slide 7) -->
+
+Cuando no estaba sentado frente a su ordenador dorado, Zangemann 
+construía con sus pequeños ordenadores nuevos dispositivos que luego 
+vendía. Construyó lavadoras que enviaban un mensaje al teléfono móvil 
+cuando la colada había terminado. Fabricó aspiradoras que tocaban música 
+alegre en lugar de zumbar ruidosamente. Inventó bombillas que se 
+encendían y apagaban con un chasquido de dedos y coches que indicaban 
+dónde estaba el supermercado más cercano.
+
+Pronto, casi todos los electrodomésticos llevaban integrado un ordenador 
+Zangemann. Al principio no todos sus inventos parecían necesarios, pero 
+la gente los compraba. Todos querían los aparatos fabricados por 
+Zangemann, el mejor inventor del mundo.
+
+Un día Zangemann pensó: “Hoy quiero ver mis inventos de cerca”. Guardó 
+su gran telescopio, bajó todas las escaleras de su mansión y se aventuró 
+a salir a la ciudad, entusiasmado con la idea de disfrutar de sus 
+geniales aparatos.
+
+“Puede que un viajecito incluso me dé algunas ideas nuevas. Si soy 
+completamente honesto mis últimos inventos no han sido tan útiles como 
+los primeros...”, reflexionó Zangemann. “Pero mis máquinas de helados 
+son y seguirán siendo insuperables”, pensó inmediatamente después, y con 
+orgullo, al pasar junto a un grupo de gente que comía helado de coco, el 
+sabor del día.
+
+<!-- Change Page (Slide 8) -->
+
+Estaba completamente absorto en sus pensamientos cuando, de repente – 
+¡BAM! – algo se estrelló contra su espinilla.
+
+Zangemann pegó un grito y miró a su alrededor, buscando qué lo había 
+golpeado. Frente a él estaba un niño asustado, con un monopatín original 
+de Zangemann bajo el brazo. “Lo siento, ha sido sin querer”, balbuceó el 
+niño, pero Zangemann no le escuchaba.
+
+Zangemann se alejó cojeando. De repente, oyó música a todo volumen. 
+Nunca había oído algo tan horrible. Miró a su alrededor y vio que la 
+música provenía de un altavoz que él mismo había construido. Un niño lo 
+sostenía al otro lado de la calle. Al niño parecía gustarle la música, 
+pero a Zangemann le dio un terrible dolor de cabeza y su humor empeoró. 
+¡No era así como había imaginado su paseo!
+
+<!-- Change Page (Slide 9) -->
+
+Zangemann estaba furioso con los dos niños. ¿Cómo se atrevían a utilizar 
+sus inventos de esa manera? Esa noche no pudo dormir, así que se sentó 
+ante su ordenador dorado. Desde allí dio a todos los ordenadores de los 
+monopatines una orden: ya no se les permitía circular por las aceras. 
+Ordenó a los ordenadores de los altavoces que, pusieran música a un 
+volumen bajo, excepto su música favorita, que encendió inmediatamente 
+para ponerse de mejor humor.
+
+<!-- Change Page (Slide 10) -->
+
+Al día siguiente hubo un gran alboroto en la escuela de Ada. De camino a 
+la escuela, los monopatines de los niños dejaron de funcionar. Las 
+ruedas simplemente quedaron paradas. Y los niños ya no podían subir el 
+volumen de sus altavoces. ¿Qué estaba pasando?
+
+Aunque no tenía ninguno de estos aparatos, Ada se preguntaba por qué, de 
+repente, los monopatines y los altavoces habían dejado de funcionar. 
+Pero no pensó mucho en ello porque enseguida estaba trasteando de nuevo. 
+Con las piezas de tres bicicletas rotas, montó una bicicleta completa. 
+Se la regaló a su madre para que no tuviera que gastar su dinero en 
+billetes de autobús para ir a trabajar. Para su hermano, Ada construyó 
+un altavoz para que pudiera dormirse, por las tardes, escuchando 
+historias bonitas, cuando su madre seguía trabajando.
+
+Al cabo de unos días, el susto inicial en la escuela de Ada se había 
+olvidado. Los monopatines seguían sin poder ir por la acera, pero aparte 
+de eso funcionaban. Así que ahora los niños montaban en círculos por el 
+patio de recreo y escuchaban música tranquila. Sólo seguía sonando a un 
+volumen invariable una extraña y pomposa marcha, algo que los niños 
+encontraban muy desconcertante.
+
+<!-- Change Page (Slide 11) -->
+
+A Ada le encantaban los miércoles. Todos los miércoles, su madre y Alan 
+la recogían del colegio e iban juntos a la biblioteca. A Ada siempre le 
+había interesado la sección de tecnología. Había libros con planos, 
+instrucciones para experimentos y explicaciones sobre el funcionamiento 
+de diferentes dispositivos. En la biblioteca Ada también podía 
+conectarse a Internet con su teléfono móvil. Rápidamente se dio cuenta 
+de que también había mucho que descubrir en Internet. Allí, mucha gente 
+compartía sus ideas y consejos de reparación para ayudar a los demás.
+
+Una de esas tardes Ada aprendió dos palabras nuevas: hardware y 
+software. Hardware era una palabra para algo que Ada ya conocía: los 
+aparatos electrónicos con los que jugueteaba después de clase, o los que 
+podía sostener en sus manos e intentar arreglar, o convertir en otra 
+cosa. Lo que era completamente nuevo para Ada era la palabra software. 
+Pronto aprendió que eran instrucciones que se ejecutaban en un ordenador 
+para controlar otros dispositivos u ordenadores. Algunos libros llamaban 
+a esas instrucciones programa o código. Con un programa de ordenador se 
+podía, por ejemplo, decir a un altavoz qué canción poner y a qué 
+volumen.
+
+Lo mejor del nuevo descubrimiento de Ada fue darse cuenta de que podía 
+modificar el software igual que el hardware. El hardware se construía 
+con herramientas: martillos, taladros y tornillos. El software se 
+construía simplemente escribiendo las órdenes para el hardware, una tras 
+otra. Existía un lenguaje propio para ello: el lenguaje de programación. 
+Con el software Ada podría hacer sus inventos aún más útiles. Ada quería 
+a toda costa aprender el lenguaje de programación.
+
+<!-- Change Page (Slide 12) -->
+
+Durante las semanas siguientes, Ada pasó las tardes en la biblioteca. 
+Entre libros y páginas web que explicaban cómo funcionaban los lenguajes 
+de programación y el código. Para Ada fue un poco como aprender un 
+lenguaje secreto o como estudiar vocabulario en la escuela. Ada absorbió 
+todo. Esperaba que su primer programa hiciera algo sencillo: “¡Haz que 
+esta lámpara parpadee!”.
+
+Por supuesto, quería probar su programa de inmediato para ver si 
+realmente funcionaba. En el desguace conectó su móvil a una pequeña 
+lámpara LED. Luego tecleó las líneas de código en el móvil.
+
+Al principio no ocurrió nada. Ada se preguntó dónde podía estar el 
+error. Hizo unos pequeños cambios y lo intentó de nuevo y... “¡Sí!”. La 
+luz comenzó a parpadear. Encendido, apagado, encendido, apagado. Ada 
+miró la lámpara con asombro. ¡Había escrito su primer programa!
+
+Ada estaba encantada. Se imaginaba todas las cosas geniales que podía 
+hacer. Si introducía el código correcto podría hacer que sus inventos 
+hicieran exactamente lo que quería. No fue tan fácil, pero después de 
+unas semanas Ada escribió un programa realmente útil: uno que haría que 
+los altavoces de Alan se apagaran automáticamente media hora después de 
+que se hubiera dormido.
+
+Ada también tuvo una idea para el siguiente programa que escribiría. Era 
+algo más grande, un proyecto de verdad. Probablemente necesitaría todo 
+el verano... ¡Y no podía esperar!
+
+<!-- Change Page (Slide 13) -->
+
+Zangemann había dormido horriblemente todas las noches desde su terrible 
+paseo por la ciudad. Cada noche, cuando se iba a la cama las 
+preocupaciones le atormentaban. “¡Oh, no, mis maravillosos inventos! No 
+puede ser que todo el mundo juegue de esta manera con ellos. ¡Cuántas 
+cosas podrían salir mal! He pensado tanto en todo, hasta el último 
+detalle”. Zangemann reflexionó y reflexionó... y dio vueltas en la cama 
+toda la noche.
+
+Por la mañana se levantó con el ceño fruncido y tomó una decisión. Tenía 
+que hacer un cambio. Zangemann se sentó ante su ordenador dorado y 
+escribió un programa tras otro. En estos programas especificaba 
+exactamente lo que sus inventos debían y lo que no debían hacer bajo 
+ninguna circunstancia. ¡Había que acabar con el caos!
+
+Una vez que terminó, envió desde su ordenador dorado todos los nuevos 
+programas a los dispositivos de la gente. Ordenó a sus altavoces que, 
+siempre que estuviera cerca, reprodujeran sólo su música favorita. 
+Programó las máquinas de helado para que dejaran de vender helados por 
+la tarde. Al fin y al cabo, no quería que su ropa cara se manchara de 
+helado mientras paseaba. Durante todo el día se sentó ante el ordenador 
+y tecleó y tecleó y tecleó...
+
+<!-- Change Page (Slide 14) -->
+
+Las vacaciones de verano habían llegado a la mitad. Ada se paró frente a 
+su gran proyecto y se rascó la cabeza. Había construido un monopatín con 
+piezas de otros viejos monopatines y luego conectado un motor para hacer 
+girar las ruedas. Con un monopatín motorizado Ada podría ir más rápido a 
+la biblioteca o al desguace al salir de clase. ¡Super práctico! Pero no 
+funcionaba. Cuando se subía y apretaba el botón “Comenzar”, las ruedas 
+se movían, aunque demasiado rápido. Ada se caía del monopatín cada vez 
+que arrancaba. No importaba lo que intentara, no conseguía hacerlo bien.
+
+Después de caerse por enésima vez, volvió a la biblioteca. Allí siempre 
+encontraba respuestas a sus preguntas. Y efectivamente, en Internet, se 
+encontró con un programa que alguien había escrito para un escúter 
+eléctrico que también necesitaba arrancar lentamente. Ada lo descargó en 
+su teléfono.
+
+De vuelta al desguace, adaptó algunas líneas del código de su programa 
+de monopatín. Modificó algunas cosas y siguió trasteando.
+
+Tras varios intentos, en el último día de las vacaciones de verano, Ada 
+se subió al monopatín y pulsó el botón “Comenzar”. El monopatín empezó a 
+moverse, primero despacio y luego más rápido. ¡Funcionó! Intentó frenar. 
+¡Y funcionó! Ada lanzó un grito de alegría y fue a probarlo al parque.
+
+<!-- Change Page (Slide 15) -->
+
+Cuando Ada, el primer día después de las vacaciones de verano, fue a la 
+escuela en monopatín, los demás niños se quedaron asombrados. Durante el 
+recreo rodearon curiosos a Ada.
+
+“¿Cómo puedes ir en monopatín por la acera?”, le preguntaron.
+
+Ada pensó un momento y luego dijo: “No creo que sean vuestros 
+monopatines sino el software que llevan. Probablemente esté programado 
+para que los monopatines no puedan ir por la acera. Pero eso se puede 
+cambiar”.
+
+Esa tarde Ada puso a prueba su teoría con el monopatín de Toni. Trabajó 
+en secreto durante casi toda la noche, y al día siguiente, Toni pudo 
+volver a circular por la acera. Por desgracia, su monopatín ya no emitía 
+los sonidos que sus padres habían comprado a Zangemann. En su lugar, 
+cada 10 minutos hacía un ruido extraño que sonaba como un eructo 
+larguísimo. Ada sabía que pequeños errores como ese podían aparecer en 
+los programas todo el tiempo. Pero el eructo del monopatín de Toni 
+era... realmente divertido.
+
+<!-- Change Page (Slide 16) -->
+
+Más y más niños empezaron a visitar a Ada en el desguace después del 
+colegio y ella les ayudó a reescribir los programas en sus monopatines. 
+Algunos de sus compañeros estaban muy entusiasmados con este nuevo 
+descubrimiento. ¡Era increíble lo que se podía hacer sabiendo programar! 
+Querían aprender todo lo que Ada sabía sobre lenguajes de programación y 
+pronto volvieron a montar sus monopatines donde les diese la gana.
+
+<!-- Change Page (Slide 17) -->
+
+Pero eso no era todo. Gracias al software podían agregar características 
+nuevas y sorprendentes a sus monopatines. Marie le conectó luces LED de 
+colores que brillaban con diferentes colores dependiendo de la 
+velocidad. Konrad le integró unas viejas hélices para aumentar la 
+velocidad.
+
+Ada, Toni, Marie y Konrad pasaban muchas tardes en el desguace. Incluso 
+montaron un verdadero taller donde, durante horas, podían perfeccionar 
+sus programas, escuchando música en los altavoces que Ada había 
+construido para Alan.
+
+“Los altavoces de tu hermano suenan mucho más fuerte que los nuestros”, 
+comentó Toni, que estaba ocupado colocando un velocímetro en su casco. 
+“Seguro que también se debe al software”, dijo Marie.
+
+Juntos, cambiaron el software de los altavoces. Después, subieron el 
+volumen de la música al máximo y bailaron juntos como locos.
+
+<!-- Change Page (Slide 18) -->
+
+Todos los días Ada y sus amigos hacían planes para la tarde. A partir de 
+una máquina de helados rota, construyeron una nueva que podía hacer 
+helados de todas las formas y colores imaginables. Comían helado 
+cuadrado, helado en forma de corazón e incluso helado en forma de 
+pirámide, así como helado de fresa, frambuesa y arco iris, todos con 
+virutas y chocolate caliente. Eran mucho mejor que los helados de las 
+máquinas de Zangemann.
+
+A veces incluso podían ayudar a los adultos que tenían problemas con sus 
+ordenadores. Toni reprogramó la plancha de su padre para que también 
+pudiera planchar corbatas. Zangemann lo había prohibido porque odiaba 
+las corbatas como a la peste. Para la conductora de autobús, 
+construyeron un sistema de riego automático con mangueras viejas y un 
+ordenador para que sus plantas no murieran de sed en los días de verano. 
+Y ayudaron al conserje del colegio a modificar su aspiradora para que 
+reconociera automáticamente los juguetes y no los aspirara.
+
+Algunas cosas las construyeron sólo por diversión, como la máquina de 
+pedos que colocaban en la silla de su profesora de matemáticas. Cada vez 
+que la señora Gernet se sentaba, la máquina hacía sonar un pedo. La 
+profesora les reñía, pero Ada estaba segura de que, en secreto, sonreía 
+cada vez un poco más.
+
+<!-- Change Page (Slide 19) -->
+
+Un día, Zangemann se dio cuenta de que algunos ordenadores ya no 
+obedecían sus órdenes de programación. Sorprendido y furioso llamó al 
+presidente. Con voz temblorosa, Zangemann gritó: “¡Alguien está 
+reescribiendo los programas de mis aparatos! Eso no puede pasar; al fin 
+y al cabo, son mis inventos. Es demasiado peligroso si todo el mundo 
+puede hacer lo que quiera con los ordenadores. Hay que hacer una ley 
+contra esto”.
+
+El presidente no quería enfadar a Zangemann. Todos los ordenadores del 
+gobierno fueron programados por Zangemann. Sin los ordenadores, el 
+gobierno no sería capaz de dirigir el país. Así que aprobaron la ley tal 
+y como Zangemann pidió:
+
+“Los ordenadores que no escuchen a Zangemann están prohibidos. 
+Cualquiera que reprograme los dispositivos de Zangemann será multado con 
+500.000 piezas de oro”.
+
+<!-- Change Page (Slide 20) -->
+
+Cuando Ada y sus amigos oyeron esto, se pusieron furiosos. “Es injusto”, 
+dijeron. “Hemos reconstruido y reprogramado nuestros monopatines 
+nosotros mismos. Ahora son mucho mejores. No dejaremos que nadie nos lo 
+quite”.
+
+Se reunieron frente a una de sus máquinas de helados reconstruidas y 
+discutieron la situación. Estaba claro que había que hacer algo sobre la 
+nueva ley y trazaron un plan...
+
+<!-- Change Page (Slide 21) -->
+
+Al día siguiente no fueron al colegio. Fueron con sus monopatines hasta 
+el Parlamento, con grandes carteles de protesta bajo el brazo y se 
+sentaron frente al edificio. La noche anterior habían colocado luces LED 
+en algunas de las pancartas, que ahora parpadeaban intensamente. Habían 
+conectado sus altavoces para que todo el mundo en la calle pudiera oír 
+lo que decían. Algunos transeúntes se pararon y preguntaron a los niños 
+por qué se manifestaban. “¡Por la libertad del software!”, respondieron 
+al unísono y contaron su historia a los adultos. Impresionados, los 
+adultos asintieron y el presidente también miró con curiosidad los 
+carteles mientras se acercaba al edificio.
+
+Al día siguiente Ada y sus amigos volvieron a sentarse frente al 
+Parlamento, esta vez acompañados. Acudieron algunos compañeros cuyos 
+monopatines Ada había reprogramado. El padre de Toni y otros padres 
+también quisieron apoyar la protesta. Les parecían muy útiles los 
+inventos de los niños.
+
+Según pasaban los días, más niños y adultos se unían a la protesta. La 
+conductora de autobús a la que habían ayudado llegó en su autobús. Tocó 
+la bocina para atraer a más gente a la protesta. El conserje trajo 
+algunos amigos y el padre de Toni trajo a sus compañeros de trabajo, 
+todos con corbatas perfectamente planchadas. Incluso vino la señora 
+Gernet. La multitud creció y, al cabo de unas semanas, hubo protestas no 
+solo en la ciudad de Ada, sino también en muchas otras ciudades de todo 
+el país.
+
+Ada protestaba ante el Parlamento todas las semanas, incluso bajo la 
+lluvia torrencial. En uno de esos días de lluvia, cuando el presidente 
+se cruzó con el grupo de niños empapados, no pudo sino admirar su 
+terquedad. Preguntó a Ada: “¿Por qué os sentáis aquí todos los días? 
+¿Qué queréis conseguir?”. Ada respondió: “Queremos decidir por nosotros 
+mismos lo que podemos y no podemos hacer con nuestros ordenadores”. Sus 
+amigos gritaron al unísono: “¡No destrocéis nuestra tecnología! ¡No 
+destrocéis nuestra tecnologías!” y “¡Codigo abierto! ¡Código abierto!”.
+
+El presidente miró las caras decididas de los niños. Sinceramente, él 
+también quería decidir por sí mismo lo que el gobierno podía y no podía 
+hacer con sus ordenadores. Pero no entendía nada de ordenadores ni de 
+programación, así que siempre se lo había dejado a Zangemann. Pensativo, 
+el presidente entró en el edificio.
+
+<!-- Change Page (Slide 22) -->
+
+Al día siguiente, el presidente convocó a Ada y a sus amigos. “También 
+nosotros queremos controlar nuestro software. Para que eso sea posible 
+el gobierno debe ser independiente de Zangemann. ¿Podéis decirme lo que 
+sabéis sobre programas informáticos?”, les preguntó. Con entusiasmo, los 
+niños le explicaron cómo funciona el software y lo que se puede hacer 
+con él. El presidente se quedó asombrado.
+
+Con estos nuevos conocimientos, el gobierno podría diseñar su propio 
+software como quisiera, sin Zangemann. Inmediatamente, el presidente 
+llamó a sus asesores. Todos juntos, discutieron con los niños todo lo 
+que podían cambiar y cómo mejorar el software.
+
+Esa tarde, los niños volvieron a casa orgullosos y satisfechos. ¡Por fin 
+había ocurrido algo! Su larga protesta había merecido la pena.
+
+A la mañana siguiente, muy temprano, sonó el teléfono del presidente. 
+Era Zangemann. Estaba más enfadado que nunca. “Sin mí, los ordenadores 
+no funcionarán”, amenazó. Pero el presidente colgó rápidamente. A lo 
+largo el día el teléfono sonó muchas más veces, pero las llamadas de 
+Zangemann quedaron sin respuesta; el presidente estaba reunido con Ada, 
+Toni, Marie, Konrad y los expertos del gobierno.
+
+Durante los días siguientes, hablaron desde la mañana hasta la noche y 
+diseñaron sus primeros programas para los ordenadores del gobierno. Ya 
+no les molestaban las llamadas de Zangemann. Toni tuvo la buena idea de 
+reprogramar los teléfonos. Cuando Zangemann llamaba, sólo oía una 
+grabación automática: “El gobierno sólo quiere utilizar software que 
+pueda usar, estudiar, mejorar y compartir libremente. Gracias por 
+llamar”.
+
+<!-- Change Page (Slide 23) -->
+
+Después de muchas semanas de protestas y debates, por fin llegó el 
+momento: ¡Abolieron la antigua ley Zangemann! En su lugar, el gobierno 
+anunció:
+
+“Todo el mundo está autorizado a programar sus propios ordenadores, 
+siempre y cuando se respeten las demás leyes”.
+
+Además, se introdujo una nueva asignatura en los colegios: equipos y 
+programas informáticos.
+
+<!-- Change Page (Slide 24) -->
+
+Esa noche todos lo celebraron con una gran fiesta: Ada, Alan, otros 
+niños de la escuela y sus padres, el presidente, la señora Gernet, la 
+conductora del autobús y el conserje. Decoraron las calles, escucharon 
+música a todo volumen y comieron helado, tanto como quisieron y de todas 
+las formas y colores imaginables.
+
+Mientras los demás seguían de fiesta hasta altas horas de la madrugada, 
+Ada, Toni, Marie y Konrad se escabulleron a su taller. Tenían muchas 
+ideas para nuevos inventos y querían empezar enseguida.
+
+<!-- Change Page (Slide 25) -->
+
+¿Y Zangemann? No sé sabe mucho de él. Tal vez todavía está sentado 
+enfadado delante de su ordenador dorado. Tal vez no se atreve a salir a 
+la calle y ha tapiado todas las ventanas de su mansión para no tener que 
+preocuparse por lo que hacen los demás con sus inventos. Pero quizá, a 
+veces, mire el mundo a través de su telescopio y vea lo que los niños 
+inventan cada día. Tal vez entonces recuerde lo divertido que era para 
+él trastear y experimentar. Y tal vez, sólo tal vez, coma helado de 
+frambuesa con forma de pirámide y virutas de arco iris.
+
+<!-- Change Page (Slide 26) -->
+

@@ -2,9 +2,13 @@
 #
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
-# ADA & ZANGEMANN
 
-## A Tale of Software, Skateboards, and Raspberry Ice Cream
+Matthias Kirschner
+Sandra Brandstätter
+
+ADA & ZANGEMANN
+
+A Tale of Software, Skateboards, and Raspberry Ice Cream
 
 
 Once upon a time, there was a little girl named Ada. Her family was so 
@@ -14,12 +18,12 @@ mother and her little brother, Alan, in a cabin near a junkyard on the
 edge of town.
 
 Far away, at the other end of town, lived a famous inventor named 
-Zangemann. He was immensely rich. No sheet of paper in the world was big 
-enough to show his bank balance with all its numbers and zeros! He lived 
-in a huge house with a swimming pool and waterslide, lots of staircases 
-and towers, hundreds of windows, and so many rooms that he often got 
-lost in them himself. Zangemann’s mansion stood high on a hill. From 
-there, he could look out over the whole city.
+Zangemann.  He was immensely rich. No sheet of paper in the world was 
+big enough to show his bank balance with all its numbers and zeros! He 
+lived in a huge house with a swimming pool and waterslide, lots of 
+staircases and towers, hundreds of windows, and so many rooms that he 
+often got lost in them himself. Zangemann’s mansion stood high on a 
+hill. From there, he could look out over the whole city.
 
 
 Computers had fascinated Zangemann ever since he was a child. When he 
@@ -101,11 +105,10 @@ out his commands.
 When he wasn’t sitting at his golden computer, Zangemann was building 
 his little computers into new devices and then selling those. He built 
 washing machines that sent a message to your cell phone when your 
-laundry was done. He made vacuums that played happy music instead of 
+laundry was done.  He made vacuums that played happy music instead of 
 droning loudly. He invented light bulbs that turned on and off at the 
 snap of a finger and cars that told you where the nearest grocery store 
 was.
-
 Soon, almost every appliance in the world had a Zangemann computer built 
 into it. Not all of his inventions seemed necessary at first, but people 
 bought everything he made. That’s just the way it was. Everyone wanted 
@@ -157,11 +160,11 @@ their speakers. What was going on?
 Although she didn’t own any of these things, Ada wondered why the 
 skateboards and the speakers suddenly stopped working. But she didn’t 
 really have time to think much about it, because she was tinkering 
-again. She put together a complete bicycle from the parts of three 
-broken bicycles. She gave the bicycle to her mother as a present so that 
-she wouldn’t have to spend her money on bus tickets to work. For her 
-brother, Ada built a loudspeaker so he could fall asleep to nice stories 
-in the evenings when their mother was still at work.
+again.  She put together a complete bicycle from the parts of three 
+broken bicycles.  She gave the bicycle to her mother as a present so 
+that she wouldn’t have to spend her money on bus tickets to work. For 
+her brother, Ada built a loudspeaker so he could fall asleep to nice 
+stories in the evenings when their mother was still at work.
 
 After a few days, the initial shock at Ada’s school was forgotten. The 
 skateboards still didn’t go on the sidewalk, but apart from that, they 
@@ -181,7 +184,7 @@ discover on the internet. There, many people shared their ideas and
 repair tips to help others.
 
 On one of those afternoons, Ada learned two new words: hardware and 
-software. Hardware was a word for something Ada already knew: the 
+software.  Hardware was a word for something Ada already knew: the 
 electronic devices she tinkered with after school, or those devices she 
 could hold in her hands and try to fix or make into something else. What 
 was completely new to Ada was the word software. She soon learned that 
@@ -210,7 +213,7 @@ really worked. At the junkyard, she connected her cell phone to a small
 LED lamp. Then she typed the lines of code into her cell phone.
 
 At first, nothing happened. Ada wondered where the error could be. She 
-made a few small changes and tried again and . . . “Yeesss!” The little 
+made a few small changes and tried again and .... “Yeesss!” The little 
 light began to flash. On, off, on, off. Ada looked at the LED in 
 amazement. She had written her first program!
 
@@ -257,10 +260,10 @@ Ada fell off the skateboard every time she started. No matter what she
 tried, she just couldn’t get it right.
 
 After falling on her bottom for the hundredth time, she went back to the 
-library. She always found answers to her questions there. And indeed, on 
-the internet, she came across a program that someone had written for an 
-electric scooter that also needed to start slowly. Ada downloaded it to 
-her phone.
+library.  She always found answers to her questions there. And indeed, 
+on the internet, she came across a program that someone had written for 
+an electric scooter that also needed to start slowly. Ada downloaded it 
+to her phone.
 
 Back at the junkyard, she adapted some lines of code for her skateboard 
 program. She tweaked a few things and kept tinkering.
@@ -284,11 +287,11 @@ into the software that the skateboards aren’t allowed to go on the
 sidewalk. But that can be changed!”
 
 That evening, Ada tested out her theory on her classmate Toni’s 
-skateboard. She worked secretly through most of the night, and the next 
+skateboard.  She worked secretly through most of the night, and the next 
 day, Toni could ride on the sidewalk again. Unfortunately, his 
 skateboard could no longer make the sounds that his parents had bought 
 from Zangemann. Instead, every 10 minutes it made a strange noise that 
-sounded like a drawn-out burp. Ada knew that little errors like that 
+sounded like a drawn-out burp.  Ada knew that little errors like that 
 could pop up in programs all the time. But Toni’s burping skateboard was 
 really quite funny.
 
@@ -313,7 +316,6 @@ built for Alan.
 
 “Your brother’s speakers are much louder than ours,” remarked Toni, who 
 was busy attaching a speedometer to his helmet.
-
 “I’m sure that’s also because of the software,” Marie said.
 
 Together, they changed the software for the speakers too. Then they 
@@ -355,8 +357,7 @@ government would not be able to run the country. So they passed the law
 as Zangemann requested:
 
 “All computers that do not listen to Zangemann are banned. Anyone who 
-reprograms Zangemann’s devices will be fined 500,000 gold pieces!”
-
+reprograms Zangemann’s devices will be fined 500,000 gold pieces!” 
 
 When Ada and her friends heard this, they were furious. “This is 
 unfair,” they said. “We rebuilt and reprogrammed our skateboards 
@@ -375,9 +376,8 @@ they had put LED lights on some of the signs, which were now flashing
 brightly. They had connected their speakers together so everyone in the 
 street could hear what they were saying. Some passersby stopped and 
 asked the children what they were demonstrating for.
-
 “For software freedom!” they replied in unison and told the adults their 
-story. Impressed, the adults nodded, and the president also looked 
+story.  Impressed, the adults nodded, and the president also looked 
 curiously at their signs as he approached the building.
 
 On the following day, Ada and her friends again sat down in front of the 
@@ -387,7 +387,7 @@ adults also wanted to support the protest. They found the children’s
 devices very useful.
 
 With each passing day, more and more children and adults joined the 
-protest. The bus driver they had helped drove up in her bus. She honked 
+protest.  The bus driver they had helped drove up in her bus. She honked 
 loudly to attract even more people to the protest. The custodian brought 
 a few friends, and Toni’s father brought his colleagues from work, all 
 wearing perfectly ironed ties. Even Ms. Gernet came. The crowd grew, and 
@@ -471,12 +471,5 @@ the world through his telescope and sees what the children are inventing
 every day. Perhaps then he will remember how much fun it was for himself 
 to tinker and experiment. And maybe, just maybe, he eats pyramid-shaped 
 raspberry ice cream with rainbow sprinkles.
-
-
-The END
-
-Big applause for Sandra for those great illustrations!!!
-
-From this group Thanks to ......
 
 
