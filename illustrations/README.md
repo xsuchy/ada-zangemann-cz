@@ -39,19 +39,23 @@ language are placed in the language directory.
 
 Different pages use different colors for the capitals.
 
-| Name      | Hex code |
-|-----------|----------|
-| brown     | #b79b55  |
-| cyan      | #5cb2d4  |
-| fucsia    | #d70071  |
-| green     | #6cba81  |
-| lightcyan | #93ccd3  |
-| olive     | #bcc85a  |
-| pink      | #f5b6cd  |
-| red1      | #e75156  |
-| red2      | #e64f55  |
-| red3      | #e74c5b  |
-| violet    | #81579a  |
-| yellow    | #f8d66a  |
-| yellow2   | #fddd66  |
+Some publishers and priting services are not able to handle transparency, which
+is why a background color is required. For most pages the background color is
+full white.
+
+| Name      | Capital color | Background color |
+|-----------|---------------|------------------|
+| brown     | #b79b55       | #ffffff          |
+| cyan      | #5cb2d4       | #ffffff          |
+| fucsia    | #d70071       | #ffffff          |
+| green     | #6cba81       | #ffffff          |
+| lightcyan | #93ccd3       | #ffffff          |
+| olive     | #bcc85a       | #ffffff          |
+| pink      | #f5b6cd       | #ffffff          |
+| red1      | #e75156       | #fdf08d          |
+| red2      | #e64f55       | #ffffff          |
+| red3      | #e74c5b       | #ffffff          |
+| violet    | #81579a       | #ffffff          |
+| yellow    | #f8d66a       | #ffffff          |
+| yellow2   | #fddd66       | #71aaa4          |
 
