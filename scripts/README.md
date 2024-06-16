@@ -7,10 +7,11 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Scripts
 
 This directory contains scripts to automatically generate book variants based on
-templates and the translated text. Automation allows translators to focus on the
-text and spend less time formatting the translation for the various publication
-formats. The scripts are linked from the various book translation directories so
-that these scripts can easily be executed from the context of a translation.
+templates and the translated text. It also contains a Makefile to easily run
+these scripts. Automation allows translators to focus on the text and spend
+less time formatting the translation for the various publication formats. The
+scripts are linked from the various book translation directories so that these
+scripts can easily be executed from the context of a translation.
 
 ## Usage
 
@@ -72,6 +73,19 @@ scripts can be combined:
 
 ```shell
 $ cat Ada_Zangemann-en.txt | scripts/./unwrapada.pl | scripts/./wrapada.pl > Ada_Zangemann-en-unwrapped.pl
+```
+
+### Makefile
+
+The typical tasks of generating output files is simplified using GNU Make. For
+each output file a job has been defined. All available output jobs can be
+called using the 'make all' command. Some examples:
+
+```shell
+$ make help
+$ make clean
+$ make nl-screen.sla
+$ make all
 ```
 
 ## Compatiblity and development
