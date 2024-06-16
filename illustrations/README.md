@@ -35,7 +35,7 @@ language has a separate directory that contains symbolic links to existing
 illustrations that are used in multiple translations. Files unique to the
 language are placed in the language directory.
 
-# Capital colors
+## Capital colors
 
 Different pages use different colors for the capitals.
 
@@ -59,3 +59,22 @@ full white.
 | yellow    | #f8d66a       | #ffffff          |
 | yellow2   | #fddd66       | #71aaa4          |
 
+## Generate new colors of existing capitals
+
+As each page requires a different color of capital it is likely that a
+translation requires new colors of existing capital letters. These colors can be
+created by recoloring existing transparent capitals. This is automated using the
+new-color.sh shell script.
+
+Provide the new-color.sh shell script with the filename of the desired output
+file. The script looks up an existing capital for the same character in the
+Capitals\_transparent directory and recolors it based on the color name. The
+resulting capitals end up in the Capitals\_transparent and Capitals\_opaque
+directory.
+
+Example usage:
+
+```shell
+$ ./new-color.sh E-brown.png
+$ ./new-color.sh Shta-red3.png
+```

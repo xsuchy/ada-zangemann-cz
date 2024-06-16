@@ -7,7 +7,7 @@
 # Uncomment to help debugging this script
 # set -o xtrace
 
-cd "$(dirname "${0}")"  # Operate in the directory with transparent capitals
+cd "$(dirname "${0}")"  # Operate in the illustrations directory
 
 if ! [[ -x "$(command -v convert)" ]] ; then
     echo "Ensure that ImageMagick is installed so the 'convert' command is available." >&2
@@ -33,10 +33,11 @@ else
     exit 1
 fi
 
-src_filename="$(ls -t "${capital}"-*.png | tail -n 1)" # Oldest file for this capital
+# Look for starting point in the Capitals_transparent directory.
+src_filename="$(ls -t "Capitals_transparent/${capital}"-*.png | tail -n 1)" # Oldest file for this capital
 
 if [[ -z ${src_filename} ]] ; then
-    echo "Couldn't find the base character, ensure it is present in this directory" >&2
+    echo "Couldn't find the base character, ensure it is present in the Capitals_transparent directory" >&2
     exit 1
 fi
 
@@ -61,8 +62,8 @@ if [[ -z ${fg_color} ]] ; then
     exit 1
 fi
 
-convert -fill "${fg_color}" -colorize 100,100,100 "${src_filename}" "${dest_filename}"
-convert -fill "${fg_color}" -colorize 100,100,100 -background "${bg_color}" -layers flatten "${src_filename}" "../Capitals/${dest_filename}"
+convert -fill "${fg_color}" -colorize 100,100,100 "${src_filename}" "Capitals_transparent/${dest_filename}"
+convert -fill "${fg_color}" -colorize 100,100,100 -background "${bg_color}" -layers flatten "${src_filename}" "Capitals_opaque/${dest_filename}"
 
 src_license="${src_filename}.license"
 
@@ -71,6 +72,6 @@ if ! [[ -f ${src_license} ]] ; then
     echo "Please ensure the source file and newly created file include copyright and license information." >&2
     exit 0
 else
-    cp "${src_license}" "${dest_filename}.license"
-    cp "${src_license}" "../Capitals/${dest_filename}.license"
+    cp "${src_license}" "Capitals_transparent/${dest_filename}.license"
+    cp "${src_license}" "Capitals_opaque/${dest_filename}.license"
 fi
