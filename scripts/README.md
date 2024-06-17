@@ -48,6 +48,16 @@ printed book (cover and contents) as well as pdf format.
 Insert the translation in the .odp presentation notes, to be used for
 reading sessions. As template you can use an .odp file from other languages.
 
+### to_pdf.sh
+
+Automatically generate a pdf file from a Scribus .sla file. The output filename
+is determined by replacing the file extension to .pdf. Scribus will show a user
+interface while doing the conversion.
+
+```shell
+$ ./to_pdf.sh ../Book/nl/nl-screen.sla
+```
+
 ### unwrapada.pl
 
 Remove hard line breaks so that each paragraph is on a single line. This unwraps
@@ -87,6 +97,12 @@ $ make clean
 $ make nl-screen.sla
 $ make all
 ```
+
+### scribus_pdf.py
+
+This is not a script to be run directly. It is a script that can be called from
+Scribus to automatically generate a pdf file. This process is automated in the
+to_pdf.sh script.
 
 ## Compatiblity and development
 
