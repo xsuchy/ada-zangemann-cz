@@ -13,7 +13,7 @@ src-text = Ada_Zangemann-$(lang).txt
 sla-output = $(lang)-print.sla $(lang)-screen.sla $(lang)-coversoft.sla $(lang)-coverhard.sla
 pdf-output = $(sla-output:.sla=.pdf)
 reading-output = $(lang)-reading.txt
-all-output = $(sla-output) $(reading-output) $(pdf-output)
+all-output = $(reading-output) $(sla-output) $(pdf-output)
 
 $(lang)-%.sla: template-%.sla $(src-text)
 	./to_scribus.pl $(src-text) template-$*.sla > $(lang)-$*.sla
@@ -29,12 +29,14 @@ help:
 	@echo "Use this Makefile to generate output files:" >&2
 	@echo "Create a single output file:" >&2
 	@echo "  make nl-screen.sla" >&2
-	@echo "Create all output files:" >&2
+	@echo "Create all defined output files:" >&2
 	@echo "  make all" >&2
 	@echo "Remove output files" >&2
 	@echo "  make clean" >&2
 	@echo "Print this help output" >&2
 	@echo "  make help" >&2
+	@echo "All defined output files to make here:" >&2
+	@echo "  $(all-output)"
 
 .PHONY: all
 all: $(all-output)
