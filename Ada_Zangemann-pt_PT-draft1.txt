@@ -1,0 +1,990 @@
+# SPDX-FileCopyrightText: 2022 Matthias Kirschner
+#
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
+## 0 ##
+
+[[IDX:
+toc:Table of Contents
+text:Text
+cover:Cover
+other.titlepage:Front Cover
+chapter-01,cover:Front Cover
+chapter-02,page_02:Imprint
+chapter-03,page_04:Ada & Zangemann
+chapter-04,page_06:Zangemann and computers
+chapter-05,page_13:One day...
+chapter-06,page_18:Skateboards no longer work
+chapter-07,page_20:Ada and software
+chapter-08,page_22:Programming
+chapter-09,page_25:A horrible night
+chapter-10,page_26:First real project
+chapter-11,page_30:Hacking for freedom
+chapter-12,page_36:Zangemann and the President
+chapter-13,page_39:Protest
+chapter-14,page_42:Children help the government
+chapter-15,page_44:New law
+chapter-16,page_48:And Zangemann?
+chapter-17,page_50:Acknowledgments
+chapter-18,page_52:About the Author - Matthias Kirschner
+chapter-19,page_53:About the Illustrator - Sandra Brandstätter
+chapter-20,page_54:Website for the book and license
+chapter-21,page_55:Drawing templates
+chapter-22,back_cover:Back cover and synopsis
+]]
+
+[[I:cover
+IMAGEM: ADA & ZANGEMANN – Uma história de software, skates e gelado de 
+framboesa
+]]
+
+** 1 **
+
+[[I:ada-p01
+ADA & ZANGEMANN
+]]
+
+Matthias Kirschner
+  Sandra Brandstätter
+
+ADA & 
+ZANGEMANN
+
+Uma história de software, skates e gelado de framboesa
+
+## 2 ##
+
+Copyright © 2022-2024 Matthias Kirschner (texto), Free Software 
+Foundation Europe e.V. (ilustrações) e Vítor de Matos (tradução); 
+autor: Matthias Kirschner, ilustratora: Sandra Brandstätter.
+
+<b>ADA & ZANGEMANN</b> – Uma história de software, skates e gelado de 
+framboesa
+
+Esta edição de Ada & Zangemann: Uma história de software, skates e 
+gelado de framboesa é baseada na tradução inglesa, que foi traduzida do 
+original alemão, Ada und Zangemann: Ein Märchen über Software, 
+Skateboards und Himbeereis, publicado por Dpunkt.verlag em colaboração 
+com O’Reilly Media, Inc., under the imprint “O’REILLY,” © 2022, por 
+Matthias Kirschner e Sandra Brandstätter. Foi traduzida do inglês para 
+português de Portugal por Vítor de Matos.
+
+Este livro de Matthias Kirschner (autor) e Sandra Brandstätter 
+(ilustradora) está licenciado sob a <b>Creative Commons CC-BY-SA 4.0 
+International</b>, uma licença cultural livre.
+
+<b>Pode</b> partilhar, copiar e redistribuir o material em qualquer meio 
+ou formato. <b>Pode</b> adaptar, remisturar, transformar e desenvolver o 
+material para qualquer objetivo, mesmo comercialmente.
+<b>Deve</b> dar os devidos créditos, fornecer uma hiperligação para a 
+licença e indicar se foram efectuadas alterações. O utilizador pode 
+fazê-lo de qualquer forma razoável, mas não de uma forma que sugira que 
+o licenciante o apoie a si ou à sua utilização. Se remisturar, 
+transformar ou construir ou construir sobre o material, <b>deve</b> 
+distribuir as suas contribuições ao abrigo da mesma licença que a 
+original. (Este é um resumo legível por humanos – e não um substituto 
+para – o código legal da CC-BY-SA 4.0)
+
+Além disso, para as versões remix (obras derivadas), o licenciante 
+pede-lhe que não modifique os agradecimentos pessoais do autor e das 
+breves biografias do autor e do ilustrador; ou então que remova 
+completamente essas partes da sua versão remix.
+
+A publicação sob esta licença cultural livre foi possível graças ao 
+grande apoio da dpunkt.verlag GmbH / O’Reilly para o livro em alemão e 
+da No Starch Press para o livro em inglês. Infelizmente, as licenças 
+Creative Commons ainda são raras excepções para livros publicados 
+comercialmente, e são frequentemente consideradas revolucionárias e 
+arriscadas pelos editores.
+
+<b>Um grande obrigado</b> à <b>dpunkt.verlag</b> e à <b>No Starch 
+Press</b> por compreenderem os valores da liberdade de software, por 
+dedicarem tempo a discutir e a compreender as vantagens das licenças 
+culturais livres, e o grande apoio para publicar este livro em condições 
+que respeitam os valores da FSFE.
+
+## 2BB ##
+
+<b>Livre como em liberdade, não em preço</b>
+
+O Software Livre tem a ver com as liberdades que recebe com o software, 
+não o preço. Da mesma forma, publicar um livro sob uma licença de 
+cultura livre não significa que tem o direito de obter uma cópia 
+gratuita do livro ou ebook. Significa que obtém os direitos acima 
+descritos, que permitem à sociedade beneficiar ainda mais do livro, como 
+toda a cultura deve fazer.
+
+Encorajamo-lo a apoiar os autores, os editores e outros envolvidos na 
+criação de cultura sob licenças livres – incluindo <b>o apoio financeiro 
+apoiando-os financeiramente através de compras</b> ou <b>donativos</b>  
+(https://fsfe.org/donate). A sociedade deve apoiar aqueles que respeitam 
+a liberdade dos outros.
+
+** 3 **
+=== Slide 1
+
+[[I:ada-p03
+IMAGEM: Matthias Kirschner, Sandra Brandstätter – ADA & ZANGEMANN – Uma 
+história de software, skates e gelado de framboesa.
+]]
+
+Matthias Kirschner
+  Sandra Brandstätter
+
+ADA & ZANGEMANN
+
+Uma história de software, skates e gelado de framboesa
+
+## 4 ##
+==== Slide 2
+[E]ra uma vez uma menina chamada Ada. A sua família era tão pobre que 
+todas as suas poupanças cabiam numa lata de bolachas. Não tinham 
+dinheiro suficiente para viver numa casa decente. Em vez disso, a Ada 
+vivia com a sua mãe e o seu irmão mais novo, Alan, numa cabana perto de 
+uma sucata nos limites da cidade.
+[[I:ada-p04
+IMAGEM: 
+]]
+
+** 5 **
+
+[[I:ada-p05
+IMAGEM: 
+]]
+Muito longe, no outro extremo da cidade, vivia um famoso inventor 
+chamado Zangemann. Ele era imensamente rico. Nenhuma folha de papel no 
+mundo era suficientemente grande para para mostrar o seu saldo bancário 
+com todos os seus números e zeros! Vivia numa casa enorme, com uma 
+piscina e um escorrega, muitas escadarias e torres, centenas de janelas 
+e tantas divisões que muitas vezes ele próprio se perdia nelas. A mansão 
+de Zangemann ficava no alto de uma colina. De lá, ele podia observar 
+toda a cidade.
+
+## 6 ##
+==== Slide 3
+[O]s computadores fascinaram Zangemann desde muito novo. Quando ele era 
+jovem, os computadores eram máquinas enormes com muitos cabos e 
+ventoinhas barulhentas. Na escola, o pequeno Zangemann sonhava com todas 
+as coisas que poderia fazer com os computadores se estes fossem 
+suficientemente pequenos para poderem ser integrados noutras coisas 
+divertidas. Ele sabia o que iria fazer. Primeiro, iria incorporar um 
+computador no seu skate para que fizesse barulhos fixes quando andasse 
+nele - talvez uma sirene de um carro de bombeiros ou o som de um 
+foguetão a descolar da rampa de lançamento. Depois, usaria o computador 
+para inventar máquinas de fazer gelados! O computador misturaria os 
+sabores mais fixes e até venderia o gelado. Haveria máquinas em todas as 
+esquinas, e ele poderia comprar gelado do seu sabor preferido sempre que 
+lhe apetecesse, e na quantidade que quisesse. Depois disso, construiria 
+um robô de limpeza e uma máquina de seleção de blocos para que o seu 
+quarto estivesse sempre arrumado e limpo. O Zangemann tinha ideias novas 
+como estas todos os dias. Não pensava noutra coisa.
+
+Com o passar dos anos, o Zangemann cresceu e os computadores ficaram 
+mais pequenos.
+De facto, quando terminou a escola, os computadores eram tão pequenos 
+que cabiam no seu bolso. Os mais pequenos até cabiam na ponta do dedo.
+
+** 7 **
+
+[[I:ada-p07
+IMAGEM: 
+]]
+
+## 8 ##
+==== Slide 4
+“Finalmente, posso transformar todas as minhas ideias em coisas reais!” 
+exclamou Zangemann, e pôs-se logo a trabalhar. Encontrou formas de 
+colocar os pequenos computadores em todo o tipo de coisas para as tornar 
+ainda mais divertidas e úteis. E depois vendeu-as.
+
+[[I:ada-p08b
+IMAGEM: 
+]]
+Adultos e crianças adoravam as suas invenções. Todos os miúdos queriam 
+ter um dos seus skates - completo com os sons mais recentes para mostrar 
+aos seus amigos na escola.
+As crianças também adoraram a sua invenção do altifalante, que podia 
+tocar instantaneamente qualquer música que se pedisse. E, claro, todos 
+adoravam o gelado servido todas as tardes na automática e 
+extra-deliciosa máquina de gelados Original Zangemann.
+Tudo parecia mágico, mas o segredo era simples: os pequenos computadores 
+que Zangemann incorporava nas suas máquinas tornavam tudo isto possível.
+[[I:ada-p08a
+IMAGEM: 
+]]
+
+** 9 **
+
+[[I:ada-p09
+IMAGEM: 
+]]
+Estas invenções eram muito populares na escola da Ada, e muitos dos seus 
+amigos andavam nos skates fixes. A Ada ficava muitas vezes triste, 
+porque a sua mãe não podia comprar-lhe nenhuma dessas coisas 
+fantásticas: nem skate, nem altifalantes, nem gelados.
+==== Slide 5
+Felizmente, Ada vivia mesmo ao lado do ferro-velho. Havia muitos 
+aparelhos avariados e peças ferrugentas, que ela juntava para fazer 
+coisas novas e fixes, como uma caixa de sabão que ela e o Alan montavam 
+ao descer a colina, um moinho de vento e monstros assustadores de 
+sucata, com os quais ela e o Alan lutavam juntos. Ela também encontrou 
+muitos objectos úteis - um telemóvel antigo, por exemplo. O ecrã estava 
+rachado, mas ela pôde arranjá-lo, e embora não houvesse Internet no 
+ferro-velho, ela podia ter acesso noutro sítio.
+
+A Ada divertia-se tanto a mexer na sucata e a arranjar coisas partidas 
+que se esqueceu dos skates e dos gelados.
+
+## 10 ##
+==== Slide 6
+Como toda a gente comprava as suas invenções, Zangemann tornou-se 
+rapidamente a pessoa mais rica do mundo. Com todo o seu dinheiro, 
+comprou um enorme computador dourado com um teclado feito de jóias e 
+instalou-o na maior sala da sua mansão. A partir daí, através da 
+Internet, ele podia controlar todos os pequenos computadores integrados 
+nas suas invenções.
+
+Tudo o que ele tinha de fazer era premir a tecla correcta no computador 
+dourado e imediatamente todas as máquinas de gelado da cidade passariam 
+a servir apenas gelado de baunilha. Se Zangemann quisesse que as pessoas 
+comessem gelado de chocolate, carregava na tecla para gelado de 
+chocolate. Se ele pedisse gelado de limão, as máquinas só faziam gelado 
+de limão. Zangemann adorava as suas invenções e ficava sempre 
+entusiasmado com o facto de as suas máquinas funcionarem tão bem. Por 
+vezes as pessoas ficavam desiludidas quando o seu sabor preferido não 
+estava disponível, mas o que poderiam fazer? No fim de contas, sempre 
+havia gelados em todas as esquinas.
+[[I:ada-p10
+IMAGEM: 
+]]
+
+** 11 **
+
+Zangemann divertia-se muito a carregar nas teclas cintilantes e ver as 
+pessoas a comer gelado. Passava muitas horas por dia todos os dias em 
+frente ao seu computador dourado a fazer isto. Olhava para a cidade 
+vezes sem conta através de um comprido  
+telescópio, observando uma e outra vez a  
+fiabilidade com que as suas invenções  
+executavam as suas ordens.
+[[I:ada-p11
+IMAGEM: 
+]]
+
+## 12 ##
+==== Slide 7
+Quando não estava sentado ao seu computador dourado, Zangemann 
+incorporava os seus pequenos computadores em novos dispositivos e depois 
+vendia-os. Ele construiu máquinas de lavar roupa que enviavam uma 
+mensagem para o telemóvel quando a roupa estava lavada. Criou 
+aspiradores que tocavam música alegre em vez de fazerem barulho enquanto 
+aspiravam. Inventou lâmpadas que se ligavam e desligavam com um estalar 
+de dedos e carros que nos diziam onde ficava a mercearia mais próxima.
+[[I:ada-p12
+IMAGEM: 
+]]
+
+Em pouco tempo, quase todos os electrodomésticos do mundo tinham um 
+computador Zangemann. Nem todas as suas invenções pareciam ser 
+necessárias no início, mas as pessoas compravam tudo o que ele fazia. 
+Era assim que as coisas se passavam. Toda a gente queria os aparelhos 
+feitos por Zangemann, o maior inventor do mundo.
+
+** 13 **
+
+Um dia, Zangemann pensou: “Hoje quero ver as minhas invenções de perto”. 
+Guardou o seu grande telescópio, desceu as muitas  
+escadarias da sua mansão e aventurou-se pela  
+cidade, cheio de entusiasmo com a ideia  
+de desfrutar dos seus engenhos fixes.
+[[I:ada-p13
+IMAGEM: 
+]]
+
+## 14 ##
+
+“Talvez uma pequena viagem até me possa dar algumas ideias novas. Se eu 
+for completamente honesto, as minhas últimas invenções não foram tão 
+úteis como as primeiras...” ponderou Zangemann. “Mas as minhas máquinas 
+de gelados são e continuarão a ser inigualáveis”, pensou logo a seguir, 
+e não sem orgulho, ao passar por um grupo de pessoas a comerem gelado de 
+coco, o sabor do dia.
+==== Slide 8
+Estava completamente absorto nestes seus pensamentos quando, de repente 
+- BAM! algo choca contra a sua canela.
+[[I:ada-p14
+IMAGEM: 
+]]
+
+** 15 **
+
+Zangemann gritou e olhou em redor à procura da causa. Uma criança 
+assustada estava à sua frente, com um skate original de Zangemann 
+debaixo do braço. “Desculpa, não queria fazer isso”, gaguejou a criança, 
+mas Zangemann nem estava a ouvir.
+
+Um Zangemann zangado afastou-se a coxear. De repente, ouviu música alta. 
+Nunca antes tinha ouvido algo tão horrível. Olhou em volta e viu que a 
+música vinha de um altifalante que ele próprio tinha construído. Uma 
+criança do outro lado da rua estava a segurá-lo. A criança parecia 
+gostar da música, mas esta dava a Zangemann uma terrível dor de cabeça e 
+o seu humor piorou. Não fora assim que ele imaginara o seu passeio!
+[[I:ada-p15
+IMAGEM: 
+]]
+
+## 16 ##
+==== Slide 9
+Zangemann estava furioso com as duas crianças. Como se atreviam a usar 
+as suas invenções daquela maneira? Nessa noite, não conseguiu dormir, 
+então sentou-se à frente do seu computador dourado. A partir daí, deu a 
+todos os computadorzinhos nos skates um comando de que já não poderiam 
+andar nos passeios. Ordenou aos pequenos computadores nos altifalantes 
+que só tocassem música em volume baixo, exceptuando a sua música 
+preferida, que ligou imediatamente para ficar mais bem-disposto.
+[[I:ada-p16
+IMAGEM: 
+]]
+
+** 17 **
+
+[[I:ada-p17
+IMAGEM: 
+]]
+
+## 18 ##
+==== Slide 10
+[N]o dia seguinte, houve uma grande agitação na escola da Ada. No 
+caminho para a escola, os skates dos miúdos deixaram de funcionar. As 
+rodas simplesmente ficaram paradas. E as crianças já não conseguiam 
+aumentar o volume dos seus altifalantes. O que é que se passava?
+[[I:ada-p18
+IMAGEM: 
+]]
+
+** 19 **
+
+Embora não fosse dona de nenhuma dessas coisas, a Ada perguntava-se 
+porque é que os skates e os altifalantes teriam deixado de funcionar de 
+repente. Mas não tinha tempo para pensar muito sobre isso, porque andava 
+a reformular coisas de novo. Montou uma bicicleta completa com as peças 
+de três bicicletas avariadas. Deu a bicicleta à mãe de presente, para 
+que ela não tivesse de gastar o seu dinheiro em bilhetes de autocarro 
+para ir trabalhar. Para o seu irmão, Ada construiu um autifalante para 
+que ele pudesse adormecer ao som de histórias bonitas à noite, enquanto 
+a mãe não chegava do trabalho.
+
+[[I:ada-p19
+IMAGEM: 
+]]
+Passados alguns dias, o choque inicial na escola  
+da Ada foi esquecido. Os skates ainda  
+não andavam no passeio, mas,  
+afora isso, continuavam a funcionar.  
+E assim, agora, as crianças  
+andavam em círculos à volta  
+do parque infantil e ouviam  
+música suavemente.  
+Apenas uma estranha,  
+pomposa música de  
+marcha continuava  
+a tocar num volume  
+inalterado, o que  
+as crianças acharam  
+bastante intrigante.
+
+## 20 ##
+==== Slide 11
+[A] Ada adorava as quartas-feiras. Todas as quartas-feiras, a sua mãe e 
+o Alan iam buscá-la à escola e iam todos juntos à biblioteca. A Ada era 
+sempre atraída pela secção de tecnologia. Havia livros com projectos, 
+instruções para experiências e explicações sobre o funcionamento de 
+diferentes aparelhos. Na biblioteca, Ada também podia aceder à Internet 
+com o seu telemóvel. Ela rapidamente percebeu que também havia muito 
+para descobrir na rede. Lá, muitas pessoas partilhavam as suas ideias e 
+dicas de reparação para ajudar os outros.
+
+Numa dessas tardes, Ada aprendeu duas novas palavras: hardware e 
+software. Hardware era uma palavra para algo que Ada já conhecia: os 
+dispositivos electrónicos com que ela mexia depois da escola, ou aqueles 
+dispositivos que podia segurar nas mãos e tentar arranjar ou transformar 
+noutra coisa.
+O que era completamente novo para Ada era a palavra software. 
+Rapidamente aprendeu que significava instruções que eram executadas num 
+computador para controlar outros dispositivos ou computadores. Alguns 
+livros chamavam a essas instruções, programas ou código. Com esse 
+programa de computador, podia-se, por exemplo, dizer a um altifalante 
+que música tocar e a que volume.
+
+A melhor coisa da nova descoberta de Ada foi perceber que ela podia 
+mexer no software tal como podia mexer no hardware. O hardware é 
+construído com ferramentas - martelos, berbequins e parafusos. O 
+software é construído simplesmente escrevendo os comandos para o 
+hardware, um após o outro. Havia uma linguagem própria para isso - a 
+linguagem de programação. Com o software, Ada podia tornar as suas 
+invenções ainda mais úteis. Ela queria mesmo aprender a linguagem de 
+programação!
+
+** 21 **
+
+[[I:ada-p21
+IMAGEM: 
+]]
+
+## 22 ##
+==== Slide 12
+[N]as semanas seguintes, Ada passou as tardes na biblioteca.
+Encontrou livros e sítios na World Wide Web que explicavam como as 
+linguagens de programação e o código funcionavam. Para Ada, era um pouco 
+como aprender uma língua secreta, ou como estudar vocabulário na escola. 
+Ada estava a adorar tudo. Ela esperava que o seu primeiro programa 
+fizesse algo simples: “Fazer esta lâmpada piscar!”
+
+Claro que queria experimentar logo o seu programa para ver se funcionava 
+mesmo. No ferro-velho, ligou o telemóvel a uma pequena lâmpada LED. 
+Depois, digitou as linhas de código no telemóvel.
+
+No início, nada aconteceu. Ada ficou a pensar onde poderia estar o erro. 
+Fez algumas pequenas alterações e tentou novamente e... “Sim!“ A luzinha 
+começou a piscar. Ligada, desligada, ligada, desligada. Ada olhou para o 
+LED com espanto. Ela tinha escrito o seu primeiro programa!
+
+Ada estava mesmo entusiasmada. Imaginou todas as coisas fantásticas que 
+poderia fazer. Se introduzisse o código certo, poderia fazer com que as 
+suas invenções fizessem exatamente o que o que ela queria. Não foi assim 
+tão fácil, mas após algumas semanas, Ada escreveu um programa 
+verdadeiramente útil: um programa que fazia com que os altifalantes do 
+Alan se desligassem automaticamente meia hora depois de ele ter 
+adormecido.
+
+** 23 **
+
+[[I:ada-p23
+IMAGEM: 
+]]
+Ada também tinha uma ideia para o próximo programa que iria escrever. 
+Era um projeto maior, um projeto a sério. Provavelmente precisaria das 
+férias de Verão todas para o desenvolver... E ela mal podia esperar!
+
+## 24 ##
+
+[[I:ada-p24
+IMAGEM: 
+]]
+
+** 25 **
+==== Slide 13
+[Z]angemann dormira horrivelmente todas as noites desde o seu terrível 
+passeio na cidade. Quando se deitava, as preocupações atormentavam-no. 
+“Oh não, as minhas magníficas invenções. Não pode ser que toda a gente 
+brinque com elas. A quantidade de coisas que podem correr mal! Eu pensei 
+tanto em tudo, até ao último pormenor.” Zangemann reflectiu, reflectiu e 
+remexeu-se na cama, sem dormir, durante toda a noite.
+
+Uma manhã, ao acordar com as sobrancelhas franzidas, tomou uma decisão. 
+As coisas tinham de mudar. Zangemann sentou-se ao computador e escreveu 
+um programa atrás de outro. Nestes programas, especificava exatamente o 
+que as suas invenções deveriam fazer e o que não deveriam fazer em 
+circunstância alguma. O caos tinha de acabar!
+
+Quando terminou, enviou todos os novos programas do seu computador 
+dourado para os aparelhos das pessoas. Ordenou aos seus altifalantes que 
+tocassem apenas a sua música favorita sempre que estivessem ao alcance 
+dos seus ouvidos. Programou as máquinas de gelados para que deixassem de 
+vender gelados à tarde. Afinal, ele não queria que as suas roupas caras 
+ficassem manchadas de gelado enquanto andava a passear. Sentou-se ao 
+computador durante todo o dia e dactilografou, e dactilografou e 
+dactilografou...
+
+## 26 ##
+==== Slide 14
+[A]s férias de verão já iam em mais de metade. A Ada estava em frente ao 
+seu grande projeto e coçava a cabeça. Ela tinha construído um skate com 
+peças velhas e depois ligou um motor para fazer as rodas rodarem. Com um 
+skate motorizado, a Ada podia ir mais depressa para a biblioteca ou para 
+a sucata depois da escola. Super prático! Mas não funcionava. Quando ela 
+se punha em cima dele e carregava no botão as rodas mexiam-se, mas 
+demasiado depressa. A Ada caía do skate sempre que arrancava. Por mais 
+que tentasse, não conseguia acertar.
+
+Depois de cair pela centésima vez, voltou para a biblioteca. Era lá que 
+encontrava sempre as respostas às suas perguntas. E, de facto, na 
+Internet, encontrou um programa que alguém tinha escrito para uma 
+trotinete eléctrica que também precisava de arrancar lentamente. Ada 
+descarregou-o para o seu telemóvel.
+
+De volta à sucata, adaptou algumas linhas de código para o seu programa 
+de skate. Ajustou algumas coisas e continuou a mexer.
+
+Várias tentativas falhadas mais tarde, no último dia das férias de 
+Verão, tinha finalmente chegado o momento. Ada pôs-se em cima do skate e 
+premiu o botão Go! O skate começou a mover-se, primeiro lentamente, 
+depois mais depressa. Funcionou! Ela tentou travar. Funcionou! A Ada 
+deixou escapar um grito de alegria e foi passear para o parque.
+
+** 27 **
+
+[[I:ada-p27
+IMAGEM: 
+]]
+
+## 28 ##
+==== Slide 15
+Quando a Ada foi para a escola com o seu skate no primeiro dia de 
+regresso após as férias de Verão, as outras crianças ficaram espantadas. 
+Durante o recreio, os colegas da Ada rodearam-na curiosos.
+
+“Como é que consegues andar de skate no passeio?”, perguntaram.
+[[I:ada-p28
+IMAGEM: 
+]]
+
+** 29 **
+
+Ada pensou por um momento e depois disse: “Acho que não são os vossos 
+skates, mas mas sim o software neles contido. Provavelmente está 
+programado no software que os skates não podem andar no passeio. Mas 
+isso pode ser alterado!”
+
+Nessa noite, Ada testou a sua teoria no skate do seu colega Toni. 
+Trabalhou em segredo durante quase toda a noite e, no dia seguinte, o 
+Toni podia andar de novo no passeio. Infelizmente, o seu skate já não 
+conseguia fazer os sons que os seus pais tinham comprado a Zangemann. Em 
+vez disso, de 10 em 10 minutos, fazia um barulho estranho que parecia um 
+arroto prolongado. Ada sabia que pequenos erros como esse podiam 
+aparecer nos programas a toda a hora. Mas o skate que arrotava do Toni 
+era de facto muito engraçado.
+[[I:ada-p29
+IMAGEM: 
+]]
+
+## 30 ##
+==== Slide 16
+[C]ada vez mais crianças começaram a visitar a Ada no ferro-velho depois 
+da escola, e ela ajudava-as a reescrever os programas nos seus skates. 
+Alguns dos seus colegas de turma andavam muito entusiasmados com esta 
+nova descoberta. Era inacreditável o que se podia fazer com código de 
+software! Eles queriam aprender tudo o que a Ada sabia sobre linguagens 
+de programação e, em breve, estavam a andar os seus skates novamente, 
+onde quer que quisessem.
+==== Slide 17
+Mas isso não era tudo. Com o software, podiam dar aos seus skates 
+funcionalidades novas e fixes. A Marie instalou luzes LED coloridas na 
+sua prancha que se iluminavam com cores diferentes consoante a 
+velocidade. O Konrad incorporou umas hélices antigas no seu skate para 
+ganhar mais velocidade.
+[[I:ada-p30
+IMAGEM: 
+]]
+
+** 31 **
+
+A Ada, o Toni, a Marie e o Konrad passaram muitas tardes no ferro-velho. 
+Chegaram mesmo a montar uma verdadeira oficina onde podiam afinar os 
+seus programas durante horas, ouvindo sempre a música dos altifalantes 
+que a Ada tinha construído para o Alan.
+
+“Os altifalantes do teu irmão são muito mais altos do que os nossos”, 
+comentou o Toni, que estava ocupado a colocar um velocímetro no seu 
+capacete.
+“Tenho a certeza que isso também se deve ao software”, disse a Marie.
+
+Juntos, mudaram o software dos altifalantes também. Depois colocaram o 
+volume da música o mais alto possível e dançaram juntos desvairadamente.
+[[I:ada-p31
+IMAGEM: 
+]]
+
+## 32 ##
+
+[[I:ada-p32
+IMAGEM: 
+]]
+
+** 33 **
+
+[[I:ada-p33
+IMAGEM: 
+]]
+
+## 34 ##
+
+[[I:ada-p34
+IMAGEM: 
+]]
+
+** 35 **
+==== Slide 18
+[T]odos os dias, Ada e os seus amigos faziam planos para a tarde. A 
+partir de uma máquina de gelados avariada, construíram uma nova que 
+podia fazer gelados de todas as formas e cores imagináveis. Comeram 
+gelados quadrados, em forma de coração e até em forma de pirâmide, bem 
+como de morango, de framboesa e de arco íris, todos com crocantes 
+pepitas caramelizadas muito melhores do que as variedades das máquinas 
+do Zangemann.
+
+Por vezes, até podiam ajudar os adultos. O Toni reprogramou a máquina de 
+engomar do seu pai pai para que também pudesse voltar a passar gravatas 
+- Zangemann tinha proibido as máquinas de o fazerem porque fugia das 
+gravatas como da peste. Para a motorista do autocarro, construíram um 
+sistema de rega automático com mangueiras velhas e um computador para 
+para que as suas plantas não morressem de sede nos dias de Verão. E 
+ajudaram o funcionário da escola a modificar o seu aspirador para que 
+reconhecesse automaticamente os brinquedos e não os aspirasse.
+
+Algumas coisas foram construídas apenas por diversão, como a máquina de 
+puns que colocaram na cadeira da professora de matemática. Sempre que a 
+Sra. Gernet se sentava, a máquina tocava um pequeno som de um pum. A 
+professora repreendia-os, mas a Ada tinha a certeza de que ela sorria 
+secretamente um bocadinho de cada vez.
+
+## 36 ##
+==== Slide 19
+[U]m dia, Zangemann reparou que alguns computadores já não obedeciam aos 
+seus comandos de programação. Em choque e a fumegar de raiva, telefonou 
+ao presidente. Com uma voz trémula, Zangemann gritou: “Alguém está a 
+reescrever os programas dos meus aparelhos. Isso não pode acontecer; 
+afinal de contas, são invenções minhas. É demasiado perigoso se toda a 
+gente puder fazer o que quiser com os computadores. Têm de fazer uma lei 
+contra isso!”
+
+O presidente não queria irritar Zangemann. Todos os computadores do 
+governo tinham sido programados por Zangemann. Sem os computadores, o 
+governo não seria capaz de gerir o país. De maneira que eles aprovaram 
+uma lei tal como Zangemann pedira:
+
+“Todos os computadores que não ouvem Zangemann são banidos. Qualquer 
+pessoa que reprogramar os aparelhos de Zangemann será multada em 500.000 
+moedas de ouro!”
+
+** 37 **
+
+[[I:ada-p37
+IMAGEM: 
+]]
+
+## 38 ##
+==== Slide 20
+Quando a Ada e os seus amigos ouviram isto, ficaram furiosos. “Isto é 
+injusto”, disseram. “Nós próprios reconstruímos e reprogramámos os 
+nossos skates. Estão muito melhores agora. Não vamos deixar que ninguém 
+nos tire isso!”
+
+Reuniram-se em frente a uma das suas máquinas de gelados reconstruídas e 
+discutiram a situação. Era evidente que era preciso fazer alguma coisa 
+em relação à nova lei e traçaram um plano...
+[[I:ada-p38
+IMAGEM: 
+]]
+
+** 39 **
+==== Slide 21
+[N]o dia seguinte, não foram à escola. Em vez disso, dirigiram-se com os 
+seus skates até ao edifício do parlamento, com grandes cartazes de 
+protesto debaixo do braço, e sentaram-se em frente ao edifício. Na noite 
+anterior, tinham colocado luzes LED em alguns dos cartazes, que agora 
+estavam a piscar intensamente. Ligaram os seus altifalantes uns aos 
+outros para que todos na rua pudessem ouvir o que estavam a dizer. 
+Alguns transeuntes pararam e perguntaram às crianças sobre o que se 
+estavam a manifestar. “Pela liberdade de software!”, responderam em 
+uníssono e contaram a sua história aos adultos. Impressionados, os 
+adultos concordaram com a cabeça e o presidente também olhou com 
+curiosidade para os seus cartazes enquanto se aproximava do edifício.
+
+No dia seguinte, Ada e os seus amigos sentaram-se novamente em frente ao 
+edifício do parlamento, desta vez, com apoio. Vieram alguns colegas 
+cujos skates Ada tinha reprogramado. O pai do Toni e outros pais e 
+adultos também quiseram apoiar o protesto. Acharam os aparelhos das 
+crianças muito úteis.
+[[I:ada-p39
+IMAGEM: 
+]]
+
+## 40 ##
+
+A cada dia que passava, mais e mais crianças e adultos se juntaram ao 
+protesto. A condutora do autocarro que eles tinham ajudado apareceu no 
+seu autocarro. Ela buzina alto para atrair ainda mais pessoas para o 
+protesto. O funcionário da escola trouxe alguns amigos, e o pai do Toni 
+trouxe os colegas do trabalho, todos com as gravatas perfeitamente 
+engomadas. Até a Sra. Gernet veio. A multidão cresceu e, passadas 
+algumas semanas, havia protestos não só na cidade da Ada, mas também em 
+muitas outras cidades do país.
+[[I:ada-p40-41
+IMAGEM: 
+]]
+
+	## GRANDE CARTAZ: "Faça o seu trabalho de casa, Sr. Presidente, e nós faremos o nosso!"
+
+** 41 **
+
+[[I:ada-p40
+IMAGEM: 
+]]
+[[I:ada-p41
+IMAGEM: 
+]]
+	## CARTAZ DO PROFESSOR: "Eles são jovens + eles precisam do código!"
+
+	## CARTAZ MÉDIO: "Não destruam a nossa tecnologia"
+
+## 42 ##
+
+[A] Ada protestou em frente ao edifício do parlamento todas as semanas, 
+mesmo debaixo de chuva torrencial. Num desses dias de chuva, quando o 
+Presidente passou pelo grupo de crianças molhadas a pingar, não pôde 
+deixar de admirar a sua teimosia. Perguntou a Ada: “Porque é que se 
+sentam aqui todos os dias? O que é que querem alcançar?” Ada respondeu: 
+“Queremos determinar por nós próprios o que podemos e não podemos fazer 
+com os nossos computadores”. Os seus amigos gritaram em uníssono: “Não 
+destruam a nossa tecnologia! Não destruam a nossa tecnologia!” e 
+“Queremos o código! Queremos o código!”
+
+O Presidente olhou para os rostos determinados das crianças. 
+Honestamente, ele também queria decidir por si próprio o que o governo 
+podia e não podia fazer com os seus computadores. Mas ele não percebia 
+nada de computadores nem de código, pelo que sempre deixara isso para o 
+Zangemann. Absorto nos seus pensamentos, o presidente entrou no 
+edifício.
+==== Slide 22
+[[I:ada-p42
+IMAGEM: 
+]]
+No dia seguinte, o presidente convidou a Ada e os seus amigos a entrar. 
+“Nós também queremos ser responsáveis pelo nosso software. Para que isso 
+seja verdade, o governo deve ser independente de Zangemann. Podem 
+dizer-me o que sabem sobre programas de computador?”, perguntou-lhes. 
+Com entusiasmo, explicaram-lhe como funciona o software e o que se pode 
+fazer com ele. O presidente ficou impressionado.
+
+** 43 **
+
+Com este novo conhecimento, o governo seria capaz de conceber o seu 
+próprio software, da forma que quisesse - desde raíz e sem o Zangemann. 
+Imediatamente, o presidente chamou os seus conselheiros. Num grande 
+grupo, discutiram com as crianças tudo o que poderiam mudar e melhorar 
+no software.
+
+Nessa noite, as crianças foram para casa orgulhosas e satisfeitas. 
+Finalmente aconteceu! O seu longo protesto valera a pena.
+[[I:ada-p43
+IMAGEM: 
+]]
+
+## 44 ##
+
+[N]a manhã seguinte, o telefone do presidente tocou muito cedo. Era o 
+Zangemann. Estava mais zangado do que nunca. “Sem mim, os computadores 
+do governo deixarão de funcionar”, ameaçou. Mas o presidente manteve a 
+chamada curta e desligou rapidamente. O telefone tocou muitas mais vezes 
+nesse dia, mas as chamadas de Zangemann ficaram sem resposta. O 
+presidente sentou-se numa reunião com Ada, Toni, Marie, Konrad e os 
+peritos do Governo.
+
+[[I:ada-p44
+IMAGEM: 
+]]
+Nos dias que se seguiram, conversaram de manhã à noite e conceberam os 
+seus primeiros programas para os computadores do governo.  
+Já não eram incomodados pelas chamadas  
+de Zangemann. Toni teve a boa ideia  
+de reprogramar os telefones.  
+Quando Zangemann ligava, só  
+ouvia uma gravação automática:  
+“O governo apenas pretende utilizar  
+software que possa usar, estudar,  
+partilhar e melhorar livremente.  
+Obrigado por telefonar”.
+==== Slide 23
+Assim, após muitas semanas de protestos e de discussões,  
+chegara finalmente o momento:
+aboliram a antiga lei Zangemann!  
+Em vez disso, o governo anunciou:
+
+** 45 **
+
+“Toda a gente pode programar os seus próprios computadores, desde que 
+cumpra as outras leis”.
+
+Para além disso, foi introduzida uma nova disciplina escolar: hardware e 
+software.
+[[I:ada-p45
+IMAGEM: 
+]]
+
+## 46 ##
+==== Slide 24
+Nessa noite, todos celebraram com uma grande festa. Ada, Alan, Toni, 
+Marie, Konrad e outras crianças da escola e os seus pais; o presidente; 
+a Sra. Gernet, a motorista do autocarro, o funcionário da escola - todos 
+estavam lá. Decoraram as ruas, ouviram música alta e comeram gelado, 
+tanto quanto quiseram, e de todas as formas e cores imagináveis.
+[[I:ada-p46
+IMAGEM: 
+]]
+
+** 47 **
+
+Enquanto os outros continuavam a festejar noite fora até tarde, Ada e os 
+seus amigos escapuliram-se para a sua oficina. Já tinham muitas ideias 
+para novas invenções. E queriam começar de imediato.
+[[I:ada-p47
+IMAGEM: 
+]]
+
+## 48 ##
+==== Slide 25
+[E] o Zangemann? Ninguém tem ouvido falar muito dele. Talvez ele ainda 
+esteja sentado com raiva em frente ao seu computador dourado. Se calhar 
+já não se atreve a sair à rua e talvez tenha fechado todas as janelas da 
+sua mansão com tábuas para não ter de se preocupar com o que os outros 
+estão a fazer com as suas invenções. Mas, se calhar, talvez ele também 
+olhe para o mundo através do seu telescópio e veja o que as crianças 
+estão a inventar todos os dias. Talvez então ele se recorde de como era 
+divertido para ele mexer e experimentar também. E talvez, se calhar só 
+talvez, ele coma gelado de framboesa em forma de pirâmide com pepitas 
+caramelizadas de arco-íris.
+[[I:ada-p48
+IMAGEM: 
+]]
+===== Slide 26
+** 49 **
+
+[[I:ada-p49
+IMAGEM: 
+]]
+
+## 50 ##
+
+Agradecimentos do autor
+
+Muito obrigado a Reinhard Wiesemann do Linuxhotel pelo apoio financeiro 
+e pela financeiro e pela motivação para não planear, mas fazer. Obrigado 
+à Sandra Brandstätter, que me alegrou com cada novo desenho para as 
+ilustrações.
+Obrigado à minha editora Wiebke Helmchen, que tornou divertido 
+desenvolver e aperfeiçoar a história e à No Starch Press por ter aceite 
+publicar o livro sob uma licença de cultura livre.
+
+Obrigado a Bea e Benni, Brian, Christine e Marc, Cory, Bernhard, Isabel 
+e Amelia, Katta, Kristina, Martin, Mona e Arne, Nina, Oliver, Reinhard, 
+Sabine, e Torsten pelas grandes ideias, inspiração e dicas práticas, e 
+às muitas pessoas do movimento do Software Livre, com as quais me foi 
+permitido aprender e cujo empenho me motivou.
+
+Agradeço à minha família, que me obrigou a escrever de manhã cedo, à 
+noite e durante as férias, e que apoiou sempre o meu trabalho em prol da 
+liberdade de software. Em especial, gostaria de agradecer aos meus 
+filhos, que me inspiraram com novas ideias a cada leitura. Sem eles, 
+este livro não existiria.
+
+** 51 **
+
+[[I:ada-p51
+IMAGEM: 
+]]
+
+## 52 ##
+
+Sobre o autor
+Matthias Kirschner
+
+
+[[I:ada-p52
+IMAGEM: 
+]]
+O Matthias é fascinado por computadores e software desde criança. Ele 
+teve uma ligação à Internet desde cedo, através da qual aprendeu muito.
+As crianças têm o direito de tomar o seu futuro nas suas próprias mãos. 
+Por isso, o Matthias está empenhado no objetivo de que todos os seres 
+humanos possam utilizar o software de uma forma auto-determinada. Ele 
+também quer construir um skate elétrico com Software Livre.
+
+** 53 **
+
+Sobre a ilustradora
+Sandra Brandstätter
+
+
+[[I:ada-p53
+IMAGEM: 
+]]
+A Sandra sempre gostou de trabalhar com tesouras, alicates, cola, arame, 
+tecido e papel. Atualmente, trabalha como ilustradora, autora de banda 
+desenhada e designer de personagens para filmes e séries de animação, 
+tais como como a série da televisão pública alemã Trudes Tier.
+Numa máquina de gelados, Sandra escolheria um gelado cremoso de 
+arco-íris com sabor a limão e pepino e uma carrada de pepitas 
+caramelizadas.
+
+## 54 ##
+
+Sítio Web do livro
+
+
+A Free Software Foundation Europe e.V. é uma associação sem fins 
+lucrativos que capacita as pessoas a controlar a tecnologia.
+O software afecta todas as áreas da nossa vida. É por isso que é 
+importante que esta tecnologia nos dê liberdade em vez de nos 
+restringir. O Software Livre (também chamado de Código Aberto - Open 
+Source) dá a todos o direito de utilizar, estudar, partilhar e melhorar 
+programas. Portanto, o Software Livre reforça direitos básicos como a 
+liberdade de expressão, a liberdade de imprensa e o direito à 
+privacidade.
+
+Na página web do livro, encontrarás mais informações e recursos:  
+https://ada.fsfe.org.
+
+** 55 **
+
+Licença
+
+
+O livro “Ada & Zangemann: Uma história de software, skates e gelado de 
+framboesa” por Matthias Kirschner e Sandra Brandstätter, está licenciado 
+sob “Creative Commons Attribution-ShareAlike 4.0 Internacional (CC BY-SA 
+4.0)”.
+
+https://creativecommons.org/licenses/by-sa/4.0/deed.pt
+
+## 56 ##
+
+[[I:ada-p56
+IMAGEM: 
+]]
+Inventa alguns sabores de gelado deliciosos, divertidos ou loucos e 
+desenha-os nos cones de gelado da página seguinte.
+Mais informações sobre o livro podem ser encontradas em 
+https://ada.fsfe.org.
+
+** 57 **
+
+[[I:ada-p57
+IMAGEM: 
+]]
+
+## 58 ##
+
+** 59 **
+
+## 60 ##
+
+[[I:back_cover-a
+IMAGEM: 
+]]
+
+[O] inventor Zangemann é mundialmente famoso e imensamente rico. Adultos 
+e crianças adoram as suas fabulosas invenções técnicas. Mas um dia surge 
+um problema: os skates electrónicos das crianças já não funcionam 
+corretamente. O que é que se passa? A curiosa Ada percebe o que se está 
+a passar. Juntamente com os seus amigos, faz experiências com hardware e 
+software, e as crianças elaboram um plano: Zangemann não pode continuar 
+a ser o único a controlar os aparelhos!
+
+Um livro que desperta o interesse das crianças em mexerem nas coisas e 
+em perceberem como estas funcionam e incentiva a moldar a tecnologia.
+
+[[I:back_cover-b
+IMAGEM: 
+]]
+

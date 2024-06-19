@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
-** 0 **
+## 0 ##
 
 [[IDX:
 toc:Table of Contents
@@ -1140,7 +1140,7 @@ IMAGE: A trail of candies and raspberry ice cream on the ground.
 
 ## 50 ##
 
-ACKNOWLEDGEMENTS
+Acknowledgments from the author
 
 
 Many thanks to Reinhard Wiesemann from the Linuxhotel for the financial 
@@ -1175,7 +1175,7 @@ it and lots of raspberry ice cream dripping.
 
 ## 52 ##
 
-Author
+About the author
 Matthias Kirschner
 
 
@@ -1192,7 +1192,7 @@ skateboard with Free Software.
 
 ** 53 **
 
-Illustrator
+About the illustrator
 Sandra Brandstätter
 
 
@@ -1246,8 +1246,7 @@ a decorated toothpick, to color. In a bottom corner, a pencil writing.
 Come up with some delicious, funny, or crazy ice-cream flavors and draw 
 them 
 on the ice-cream cones on the following page.
-More coloring templates and information about the book can be found at 
-https://ada.fsfe.org.
+More information about the book can be found at https://ada.fsfe.org.
 
 ** 57 **
 

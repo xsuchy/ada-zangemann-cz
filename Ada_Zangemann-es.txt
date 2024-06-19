@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
-** 0 **
+## 0 ##
 
 [[IDX:
 toc:Índice
@@ -828,7 +828,7 @@ Agradecimientos del autor
 
 Muchas gracias a Reinhard Wiesemann del LinuxHotel por el apoyo 
 financiero y la motivación para dejar de planear y ponerme manos a la 
-bora. Gracias a Sandra Brandstätter, que me fue llenando de alegría con 
+obra. Gracias a Sandra Brandstätter, que me fue llenando de alegría con 
 cada diseño para las ilustraciones. Gracias a mi editora Wiebke 
 Helmchen, quien hizo que desarrollar y afinar la historia fuera muy 
 divertido, y a No Starch Press por aceptar publicar el libro bajo una 

@@ -6,7 +6,7 @@
 ## - R1.00 2023-12-01: Initial release
 ## - R1.01 2023-12-14: Fixed wording "d'amis"
 
-** 0 **
+## 0 ##
 
 [[IDX:
 toc:Sommaire
@@ -1145,7 +1145,8 @@ la glace fondue ?
 ** 49 **
 
 [[I:ada-p49
-IMAGE: ]]
+IMAGE: 
+]]
 
 ## 50 ##
 

@@ -7,10 +7,11 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Scripts
 
 This directory contains scripts to automatically generate book variants based on
-templates and the translated text. Automation allows translators to focus on the
-text and spend less time formatting the translation for the various publication
-formats. The scripts are linked from the various book translation directories so
-that these scripts can easily be executed from the context of a translation.
+templates and the translated text. It also contains a Makefile to easily run
+these scripts. Automation allows translators to focus on the text and spend
+less time formatting the translation for the various publication formats. The
+scripts are linked from the various book translation directories so that these
+scripts can easily be executed from the context of a translation.
 
 ## Usage
 
@@ -42,6 +43,11 @@ Insert the translation in one of the [Scribus](https://www.scribus.net/)
 templates or .odp presentation templates. These Scribus files are used for the
 printed book (cover and contents) as well as pdf format.
 
+### to_odp.pl
+
+Insert the translation in the .odp presentation notes, to be used for
+reading sessions. As template you can use an .odp file from other languages.
+
 ### unwrapada.pl
 
 Remove hard line breaks so that each paragraph is on a single line. This unwraps
@@ -65,7 +71,7 @@ Add hard line breaks in lines to limited the length. Each line is wrapped on a
 whole word to stay in a length of maximum 72 characters.
 
 ```shell
-$ scripts/./unwrapada.pl Ada_Zangemann-en.txt > Ada_Zangemann-en-unwrapped.pl
+$ scripts/unwrapada.pl Ada_Zangemann-en.txt > Ada_Zangemann-en-unwrapped.pl
 ```
 
 Line breaks with a preceding space signify a continuation of the paragraph.
@@ -75,6 +81,19 @@ scripts can be combined:
 
 ```shell
 $ cat Ada_Zangemann-en.txt | scripts/./unwrapada.pl | scripts/./wrapada.pl > Ada_Zangemann-en-unwrapped.pl
+```
+
+### Makefile
+
+The typical tasks of generating output files is simplified using GNU Make. For
+each output file a job has been defined. All available output jobs can be
+called using the 'make all' command. Some examples:
+
+```shell
+$ make help
+$ make clean
+$ make nl-screen.sla
+$ make all
 ```
 
 ## Compatiblity and development
