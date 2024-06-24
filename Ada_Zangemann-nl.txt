@@ -2,6 +2,7 @@
 # SPDX-FileCopyrightText: 2024 André Ockers
 # SPDX-FileCopyrightText: 2024 Nico Rikken
 # SPDX-FileCopyrightText: 2024 Carmen Bianca Bakker
+# SPDX-FileCopyrightText: 2024 Christopher Peeters
 #
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
@@ -184,7 +185,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream
 [E]r was eens een klein meisje genaamd Ada. Haar familie was zo arm dat 
 al hun spaargeld in een koekjestrommel paste. Ze hadden niet genoeg geld 
 om in een echt huis te wonen. In plaats daarvan woonde Ada met haar 
-moeder en haar kleine broer Alan in een hut in de buurt van een 
+moeder en haar kleine broer Alan in een hut naast een 
 schroothoop aan de rand van de stad.
 [[I:ada-p04
 IMAGE: TODO
@@ -281,14 +282,13 @@ en het ijs.
 ==== Slide 6
 Omdat iedereen zijn uitvindingen kocht, werd Zangemann snel de rijkste 
 persoon in de wijde wereld. Met al zijn geld kocht hij een gigantische 
-gouden computer met een toetsenbord gemaakt van juwelen en zette het op 
+gouden computer met een toetsenbord gemaakt van juwelen en zette het 
 in de grootste kamer van zijn landhuis. Van daaruit, via het internet, 
-kon hij alle kleine computers bedienen die in zijn uitvindingen zaten 
-ingebouwd.
+kon hij alle kleine computers bedienen die in zijn uitvindingen waren ingebouwd.
 
-Hij hoefde alleen maar de juiste toets in te drukken op zijn gouden 
-computer en meteen zouden alle ijsjesmachines in de stad alleen maar
-vanille-ijs uitgeven. Als Zangemann wilde dat mensen chocolade-ijs aten, 
+Hij hoefde alleen maar op de juiste toets van zijn gouden 
+computer te drukken en meteen zouden alle ijsjesmachines in de stad alleen maar 
+vanille-ijs uitgeven. Als Zangemann wilde dat mensen chocolade-ijs zouden eten, 
 drukte hij op de knop voor chocolade-ijs. Als hij de opdracht gaf voor 
 citroenijs, maakten de machines alleen citroenijs. Zangemann hield van 
 zijn uitvindingen en was altijd opgewonden over hoe geweldig goed zijn 
@@ -303,8 +303,8 @@ IMAGE: TODO
 
 Zangemann had veel plezier met het indrukken van de fonkelende toetsen 
 en met het toekijken hoe mensen ijsjes aten. Elke dag bracht hij veel
-uren hiermee door achter zijn gouden computer. Keer op keer keek hij 
-neer op de stad door een lange telescoop om te aanschouwen hoe 
+uren hiermee door achter zijn gouden computer. Keer op keer keek hij door 
+een lange telescoop neer op de stad om te aanschouwen hoe 
 betrouwbaar zijn uitvindingen zijn commando's opvolgden.
 [[I:ada-p11
 IMAGE: TODO
@@ -316,8 +316,8 @@ Als hij niet achter zijn gouden computer zat, was Zangemann zijn kleine
 computers in nieuwe apparaten aan het inbouwen om ze daarna te verkopen. 
 Hij bouwde wasmachines die berichtjes stuurden naar je telefoon als je 
 was klaar was. Hij maakte stofzuigers die een leuk deuntje speelden in 
-plaats van luid te ronken. Hij vond lampen uit die aan en uit gingen op 
-een vingerknip en auto's die je vertelden waar de dichtstbijzijnde 
+plaats van luid te ronken. Hij vond lampen uit die op een vingerknip aan en 
+uit gingen en auto's die je vertelden waar de dichtstbijzijnde 
 supermarkt was.
 [[I:ada-p12
 IMAGE: TODO
@@ -330,9 +330,9 @@ door Zangemann, de grootste uitvinder ter wereld.
 ** 13 **
 
 Op een dag dacht Zangemann "Vandaag wil ik mijn uitvindingen van 
-dichtbij zien." Hij borg zijn grote telescoop op, liep de lange trap 
-naar beneden van zijn landhuis en waagde zich de stad in, vol 
-verwachting met het vooruitzicht van zijn coole apparaten te genieten.
+dichtbij zien." Hij borg zijn grote telescoop op, liep op de lange trap 
+van zijn landhuis naar beneden en waagde zich de stad in, vol 
+verwachting met het vooruitzicht om van zijn coole apparaten te genieten.
 [[I:ada-p13
 IMAGE: TODO
 ]]
@@ -344,18 +344,17 @@ geven. Als ik helemaal eerlijk ben, waren mijn laatste uitvindingen lang
 niet zo nuttig als de eerste....," overpeinsde Zangemann. "Maar mijn 
 ijsjesmachines zijn en zullen ongeëvenaard blijven," dacht hij direct
 daarna en met enige trots, terwijl hij een groep mensen passeerde die 
-allemaal kokosnotenijs aten, de smaak van de dag.
+allemaal de smaak van de dag aten: kokosnotenijs.
 ==== Slide 8
-Hij was diep in gedachten toen plots — BAM! — iets botste tegen zijn 
-scheenbeen.
+Hij was diep in gedachten toen plots — BAM! — iets tegen zijn scheenbeen botste.
 [[I:ada-p14
 IMAGE: TODO
 ]]
 
 ** 15 **
 
-Zangemann gilde en keek rond voor de oorzaak. Een geschrokken kind stond 
-voor hem, met een origineel Zangemann skateboard onder zijn arm. "Sorry, 
+Zangemann gilde en keek rond op zoek naar de oorzaak. Een geschrokken kind stond 
+voor hem, met een origineel Zangemann-skateboard onder zijn arm. "Sorry, 
 dat was niet mijn bedoeling," stamelde het kind, maar Zangemann 
 luisterde niet.
 
@@ -363,7 +362,7 @@ Een boze Zangemann hinkte weg. Plots hoorde hij luide muziek. Hij had
 nog nooit zoiets afschuwelijks gehoord. Hij keek rond en zag dat de 
 muziek afkomstig was van een luidspreker die hij zelf had gebouwd. Een 
 kind aan de overkant van de straat hield die vast. Het kind leek de 
-muziek leuk te vinden, maar het gaf Zangemann een vervelende hoofdpijn 
+muziek leuk te vinden, maar het bezorgde Zangemann een vervelende hoofdpijn 
 en zijn stemming verslechterde. Dit was niet hoe hij zijn wandeling had 
 voorgesteld!
 [[I:ada-p15
@@ -372,7 +371,7 @@ IMAGE: TODO
 
 ## 16 ##
 ==== Slide 9
-Zangemann was zo woedend op de twee kinderen. Hoe durfden ze zijn 
+Zangemann was woedend op de twee kinderen. Hoe durfden ze zijn 
 uitvindingen zo te gebruiken? Die nacht kon hij niet slapen, dus ging 
 hij achter zijn gouden computer zitten. Daarvandaan gaf hij alle kleine 
 computers in de skateboards de opdracht dat het niet langer was 
@@ -392,7 +391,7 @@ IMAGE: TODO
 [D]e volgende dag was er veel commotie op Ada's school. Onderweg naar 
 school stopten de skateboards van de kinderen ermee. De wielen stonden 
 simpelweg stil. En de kinderen konden niet langer hun luidsprekers 
-harder zetten. Wat gebeurde er?
+harder zetten. Wat was er gebeurd?
 [[I:ada-p18
 IMAGE: TODO
 ]]
@@ -403,7 +402,7 @@ Hoewel ze geen van die dingen bezat, vroeg Ada zich af waarom de
 skateboards en luidsprekers plotseling niet meer werkte. Maar ze had 
 niet echt de tijd om erover na te denken omdat ze al weer aan het 
 sleutelen was. Ze bouwde een complete fiets van de onderdelen van drie 
-kapotte fietsen. Ze gaf de fiets aan haar moeder als een cadeau zodat ze 
+kapotte fietsen. Ze gaf de fiets aan haar moeder cadeau zodat ze 
 haar geld niet hoefde uit te geven aan kaartjes voor de busrit naar haar 
 werk. Voor haar broer bouwde Ada een luidspreker zodat hij in slaap kon 
 vallen bij leuke verhalen in de avonden als hun moeder nog op het werk 
@@ -416,11 +415,11 @@ Na een paar dagen was men op
 Ada's school de eerste schok  
 alweer vergeten. De skateboards  
 gingen nog steeds de stoep niet op,  
-maar verder werketen ze nog wel.  
+maar verder werkten ze nog wel.  
 En dus reden de kinderen nu  
-in rondjes om de speelplaats  
+in rondjes op de speelplaats  
 en luisterden ze naar zachte muziek.  
-Alleen een vreemde deftige marsmuziek  
+Alleen vreemde deftige marsmuziek  
 bleef op een onveranderd volume spelen,  
 wat de kinderen nogal verbaasde.
 
@@ -437,7 +436,7 @@ reparatietips om anderen te helpen.
 
 Op een van deze middagen leerde Ada twee nieuwe woorden: hardware en 
 software. Hardware was een woord voor iets dat Ada al kende: de 
-elektronische apparaten waarmee ze sleutelde na schooltijd of de 
+elektronische apparaten waaraan ze na schooltijd sleutelde en de 
 apparaten die ze in haar handen kon houden en kon repareren of iets 
 anders van kon maken. Wat compleet nieuw was voor Ada, was het woord 
 software. Ze leerde snel dat het instructies betekende die draaiden op 
@@ -446,11 +445,11 @@ boeken noemden die instructies programma's of code. Met zo'n
 computerprogramma kon iemand bijvoorbeeld een luidspreker vertellen welk 
 nummer te spelen en hoe luid.
 
-Het beste aan Ada's nieuwe ontdekking was de realisatie dat ze net zo 
-kon sleutelen aan software als ze kon aan hardware. Hardware is gebouwd 
-met gereedschap — hamers, boren en schroeven. Software is gebouwd door 
+Het beste aan Ada's nieuwe ontdekking was het besef dat ze net zo 
+kon sleutelen aan software als aan hardware. Hardware is gebouwd 
+met gereedschap: hamers, boren en schroeven. Software is gebouwd door 
 simpelweg de commando's voor de hardware op te schrijven, de ene na de 
-andere. Er was een aparte taal hiervoor — de programmeertaal. Met 
+andere. Er was een aparte taal hiervoor: de programmeertaal. Met 
 software kon Ada haar uitvindingen nog veel nuttiger maken. Ze wilde 
 heel graag de programmeertaal leren!
 
@@ -480,12 +479,12 @@ Ze maakte een paar kleine aanpassingen en probeerde opnieuw en . . .
 keek vol bewondering naar de led. Ze had haar eerste programma 
 geschreven!
 
-Ada was totaal enthousiast. Ze stelde zich alle geweldige dingen voor 
+Ada was heel erg enthousiast. Ze stelde zich alle geweldige dingen voor 
 die ze kon doen. Als ze maar de juiste code invoerde kon ze haar 
 uitvindingen precies laten doen wat ze wilde. Het was niet zo eenvoudig 
 maar na een paar weken schreef Ada een echt nuttig programma: een die 
-Alan's luidsprekers automatisch uit liet schakelen een halfuur nadat hij 
-in slaap was gevallen.
+Alan's luidsprekers een half uur nadat hij in slaap was gevallen automatisch 
+uit liet schakelen.
 
 ** 23 **
 
@@ -494,7 +493,7 @@ IMAGE: TODO
 ]]
 Ada had ook een idee voor het volgende programma dat ze zou schrijven. 
 Het was een grotere zaak, een echt project. Ze zou er waarschijnlijk de 
-hele zomervakantie voor nodig hebben … En ze kon amper wachten!
+hele zomervakantie voor nodig hebben en ze kon amper wachten!
 
 ## 24 ##
 
@@ -504,15 +503,15 @@ IMAGE: TODO
 
 ** 25 **
 ==== Slide 13
-[Z]angemann had elke nacht slecht geslapen sinds zijn afschuwelijke 
-wandeling in de stad. Elke avond wanneer hij naar bed ging werd hij 
+[Z]angemann had sinds zijn afschuwelijke wandeling in de stad elke nacht 
+slecht geslapen. Elke avond wanneer hij naar bed ging werd hij 
 geplaagd door zorgen. "Oh nee, mijn geweldige uitvindingen. Het kan toch 
 niet zo zijn dat iedereen er maar wat mee rond loopt te spelen. Wat er 
 allemaal wel niet mis kan gaan! Ik heb alles tot op het kleinste detail 
 uitgedacht." Zangemann piekerde en piekerde en draaide de hele nacht 
 slapeloos in zijn bed.
 
-Toen hij op een ochtend met diep gefronste wenkbrauwen opstond, nam hij 
+Toen hij op een ochtend met diep gefronste wenkbrauwen opstond nam hij 
 een besluit. Zo kon het niet langer! Hij ging achter zijn gouden 
 computer zitten en scheef het ene programma na het andere. In deze 
 programma's legde hij haarfijn vast wat zijn uitvindingen moesten doen 
@@ -520,7 +519,7 @@ en wat in géén geval mocht gebeuren. De chaos moest stoppen!
 
 Toen hij klaar was stuurde hij alle nieuwe programma's van zijn gouden 
 computer naar de apparaten van de mensen. Hij gaf zijn luidsprekers de 
-opdracht alleen nog zijn lievelingsmuziek te spelen als hij in 
+opdracht alleen nog zijn lievelingsmuziek te spelen als hij binnen 
 gehoorsafstand was. Hij programmeerde de ijsjesmachines om in de middag
 geen ijs meer te verkopen. Hij wilde tenslotte niet dat er bij een 
 wandeling een ijsvlek op zijn dure broek zou komen. De hele dag zat hij 
@@ -562,9 +561,9 @@ IMAGE: TODO
 ==== Slide 15
 Toen Ada op de eerste schooldag na de vakantie met haar skateboard naar 
 school reed, waren de andere kinderen onder de indruk. In de grote pauze 
-was Ada omringt door nieuwsgierige klasgenoten.
+was Ada omringd door nieuwsgierige klasgenoten.
 
-“Hoe kan je jouw skateboard op de stoep rijden?” vroegen ze.
+“Hoe kan je met jouw skateboard op de stoep rijden?” vroegen ze.
 [[I:ada-p28
 IMAGE: TODO
 ]]
@@ -573,13 +572,13 @@ IMAGE: TODO
 
 Ada dacht even na en zei “Ik denk dat het niet aan jullie skateboards 
 ligt, maar aan de software erin. Waarschijnlijk is in die software 
-geprogrammeerd dat de skateboards niet het voetpad op mogen. Maar dat is 
+geprogrammeerd dat de skateboards niet op het voetpad mogen. Maar dat is 
 aan te passen!”
 
 Die avond probeerde Ada haar theorie uit op het skateboard van haar 
 klasgenoot Toni. Ze werkte stiekem tot laat in de nacht en de volgende 
 dag kon Toni weer op de stoep rijden. Helaas kon zijn skateboard nu niet 
-langer de geluiden maken die zijn ouders hadden gekocht van Zangemann. 
+langer de geluiden maken die zijn ouders van Zangemann hadden gekocht. 
 In plaats daarvan maakte het elke 10 minuten een vreemd geluid dat klonk 
 als een langgerekte boer. Ada wist dat in programma’s steeds weer zulke 
 kleine fouten konden opduiken. Toni’s boerende skateboard was eigenlijk 
@@ -599,19 +598,19 @@ al snel reden ze met hun skateboards weer overal waar ze wilden.
 ==== Slide 17
 Maar dat was niet alles! Met de software konden ze hun skateboards 
 nieuwe coole mogelijkheden geven. Marie maakte kleurrijke ledlampen aan 
-haar board die in verschillende kleuren oplichtten afhankelijk van haar 
-snelheid. En Konrad bouwde oude propellers aan zijn skateboard die voor 
-extra aandrijving zorgden.
+haar board die, afhankelijk van haar snelheid, in verschillende kleuren oplichtten. 
+En Konrad bouwde aan zijn skateboard oude propellers die voor extra 
+aandrijving zorgden.
 [[I:ada-p30
 IMAGE: TODO
 ]]
 
 ** 31 **
 
-Ada, Toni, Marie en Konrad brachten veel middagen door op de 
-schroothoop. Ze hadden zowaar een heuse werkplaats ingericht waarin ze 
+Ada, Toni, Marie en Konrad brachten veel middagen op de schroothoop door. 
+Ze hadden zowaar een heuse werkplaats ingericht waarin ze 
 urenlang hun programma’s konden verfijnen. Daarbij luisterden ze naar 
-muziek uit de luidsprekers die Ada voor Alan gebouwd had.
+muziek uit de luidsprekers die Ada voor Alan had gebouwd.
 
 “De luidsprekers van je broer zijn veel luider dan die van ons”, merkte 
 Toni op, die bezig was een snelheidsmeter aan zijn helm te bevestigen. 
@@ -648,7 +647,7 @@ IMAGE: TODO
 kapotte ijsjesmachine bouwden ze een nieuwe die ijs in elke denkbare vorm
 en kleur kon maken. Ze aten vierkant ijs, hartvormig ijs, en zelfs 
 piramidevormig ijs, als ook aardbei, framboos en regenboogijs, en 
-allemaal met discodip en chocodip – veel beter dan de keuzes uit de 
+allemaal met discodip en chocodip: veel beter dan de keuzes uit de 
 Zangemann-machines.
 
 Soms konden ze zelfs volwassenen helpen die problemen met hun computers 
@@ -673,7 +672,7 @@ naar zijn programmeerbevelen. Geschrokken en stomend van woede belde hij
 de president. Hij brulde met een bevende stem: “Iemand herschrijft de 
 programma’s in mijn apparaten. Dat kan niet, dat zijn namelijk mijn 
 uitvindingen. En het is veel te gevaarlijk als iedereen met computers 
-kan doen wat ze willen. Daar moet je een wet tegen maken!”
+kan doen wat hij of zij wil. Daar moet je een wet tegen maken!”
 
 De president wilde Zangemann niet boos maken. Alle computers van de 
 regering waren geprogrammeerd door Zangemann. Zonder die computers kon 
@@ -699,29 +698,29 @@ afpakken!”
 
 Ze verzamelden voor een van hun gebouwde ijsjesmachines en bespraken de
 situatie. Het was duidelijk dat iets gedaan moest worden aan deze nieuwe 
-wet, en ze smeden een plan …
+wet, en ze smeedden een plan …
 [[I:ada-p38
 IMAGE: TODO
 ]]
 
 ** 39 **
 ==== Slide 21
-[D]e volgende dag gingen ze niet naar school. In plaats daarvan reden ze 
-op hun skateboards naar het parlementsgebouw, met grote protestborden 
-onder hun armen, en gingen voor het gebouw zitten. Aan enkele borden 
-hadden ze de avond ervoor hadden ledlampen vastgemaakt die nu fel 
+[D]e volgende dag gingen ze niet naar school. In plaats daarvan reden ze, 
+met grote protestborden onder hun armen, op hun skateboards naar het 
+parlementsgebouw, en gingen voor het gebouw zitten. Aan enkele borden 
+hadden ze de avond ervoor ledlampen vastgemaakt die nu fel 
 knipperden. Ze hadden hun luidsprekers aangesloten zodat iedereen in de 
 straat kon horen wat ze zeiden. Enkele voorbijgangers stopten en vroegen 
 de kinderen waar ze voor demonstreerden.
 “Voor softwarevrijheid!” antwoorden ze in koor en vertelden de 
 volwassenen hun verhaal. Onder de indruk knikten de volwassenen, en ook 
 de president keek nieuwsgierig naar de spandoeken toen hij het gebouw 
-binnen liep.
+binnenliep.
 
 Ook de volgende dag gingen Ada en haar vrienden weer zitten voor het 
 parlementsgebouw. Deze keer met ondersteuning. Sommige klasgenoten, 
 waarvoor Ada hun skateboards geherprogrammeerd had, waren ook gekomen. 
-Toni’s vader en andere volwassenen wilden ook het protest steunen. Ze 
+Toni’s vader en andere volwassenen wilden het protest ook steunen. Ze 
 vonden de apparaten van de kinderen erg praktisch.
 [[I:ada-p39
 IMAGE: TODO
@@ -730,18 +729,18 @@ IMAGE: TODO
 ## 40 ##
 
 Met de dag kwamen er meer en meer kinderen en volwassenen 
-meeprotesteren. De buschauffeur die ze hadden geholpen, kwam met haar 
+mee protesteren. De buschauffeur die ze hadden geholpen kwam met haar 
 bus voorgereden. Ze toeterde luid om nog meer mensen te wijzen op de 
 demonstratie. De conciërge bracht een paar vrienden mee. En Toni’s vader 
 kwam met zijn collega’s, die allemaal automatisch gestreken stropdassen 
 droegen. Zelfs mevrouw Gernet kwam. De menigte werd steeds groter en na 
-een week waren er niet alleen protesten in Ada’s stad – nee, overal in 
+een week waren er niet alleen protesten in Ada’s stad; nee, overal in 
 het land werd gedemonstreerd.
 [[I:ada-p40-41
 IMAGE: TODO
 ]]
 
-	## Groot bord: “Doe je huiswerk meneer President en wij doen het onze!”
+    ## Groot bord: “Doe je huiswerk meneer President en wij doen het onze!”
 
 ** 41 **
 
@@ -751,16 +750,16 @@ IMAGE: TODO
 [[I:ada-p41
 IMAGE: TODO
 ]]
-	## Bord leraar: “Ze zijn jong + hebben de code nodig!”
+    ## Bord leraar: “Ze zijn jong + hebben de code nodig!”
 
-	## Middelgroot bord: “Zonder code is alles saai!”
+    ## Middelgroot bord: “Zonder code is alles saai!”
 
 ## 42 ##
 
 [A]da protesteerde elke week voor het parlementsgebouw, zelfs in de 
 stromende regen. Op zo’n regenachtige dag, toen de president voorbij de 
 groep zeiknatte kinderen kwam, kon hij niet anders dan hun volharding 
-bewonderen. Hij vroeg Ada, “Waarom zit jij hier elke dag? Wat wil je 
+bewonderen. Hij vroeg Ada: “Waarom zit jij hier elke dag? Wat wil je 
 bereiken?” Ada antwoordde, “We willen zelf kunnen bepalen wat we wel en 
 niet met onze computers doen.” Haar vrienden riepen in koor: “Zonder 
 code is alles saai! Zonder code is alles saai!” en “We willen de code! 
@@ -827,10 +826,10 @@ kondigde de regering aan:
 ** 45 **
 
 “Iedereen is toegestaan om zelf diens computer te programmeren zolang ze 
-zich daarbij aan de andere wetten houden.”
+zich daarbij aan de andere wetten houdt.”
 
-Bovendien werd een nieuw schoolvak ingevoerd: computer hardware en 
-software
+Bovendien werd een nieuw schoolvak ingevoerd: computerhardware en 
+-software
 [[I:ada-p45
 IMAGE: TODO
 ]]
@@ -839,7 +838,7 @@ IMAGE: TODO
 ==== Slide 24
 Die avond vierde iedereen samen een groot feest. Ada, Alan, Toni, Marie, 
 Konrad, de andere kinderen van school en hun ouders, de president, 
-mevrouw Gernet, de buschauffeur, de conciërge – ze waren er allemaal 
+mevrouw Gernet, de buschauffeur, de conciërge: ze waren er allemaal 
 bij. Ze versierden de straten, luisterden naar luide muziek en aten ijs 
 zoveel als ze wilden en in elke denkbare vorm en kleur.
 [[I:ada-p46
@@ -863,7 +862,7 @@ hij niet meer de straat op te gaan en heeft hij alle luiken van zijn
 landhuis dichtgedaan, zodat hij zich niet druk hoeft te maken over wat 
 anderen doen met zijn uitvindingen. Maar misschien kijkt hij ook door 
 zijn telescoop naar de wereld en ziet hij wat de kinderen elke dag nieuw 
-uitvinden. Misschien herinnert hij hoeveel plezier het hemzelf vroeger 
+uitvinden. Misschien herinnert hij zich hoeveel plezier het hemzelf vroeger 
 gaf om te sleutelen en te experimenteren. En misschien, heel misschien, 
 eet hij piramidevormig frambozenijs met discodip.
 [[I:ada-p48
@@ -989,7 +988,7 @@ IMAGE: TODO
 ]]
 
 [D]e uitvinder Zangemann is wereldberoemd en ongelofelijk rijk. Ouders 
-net als kinderen houden van zijn fabelachtige technische uitvindingen. 
+en kinderen houden van zijn fabelachtige technische uitvindingen. 
 Maar op een dag is er een probleem: de elektronische skateboards van de 
 kinderen werken niet meer goed. Wat is er aan de hand? De nieuwsgierige 
 Ada heeft door wat er aan de hand is. Samen met haar vrienden 
@@ -997,7 +996,7 @@ experimenteert ze met hardware en software en de kinderen smeden een
 plan: Zangemann zal niet langer als enige controle over de apparaten 
 hebben!
 
-Een boek dat bij kinderen de interesse aanwakkert voor sleutelen en een 
+Een boek dat bij kinderen de interesse voor sleutelen aanwakkert en een 
 autonome omgang met techniek aanmoedigt.
 
 [[I:back_cover-b
