@@ -38,7 +38,11 @@ chapter-22,back_cover:Achterkant en samenvatting
 ]]
 
 [[I:cover
-IMAGE: TODO
+IMAGE: Een verhaal over software, skateboards en frambozenijs.
+Door Matthias Kirschner en Sandra Brandstätter.
+Op een voornamelijk onverzadigde cyaan achtergrond, in een kader bestaande uit soms gekrulde witte lijnen die een verbinding vormen tussen een computermuis, een toetsenbord en een roze smartphone. Ada en Zangemann zijn naar elkaar gericht, beiden met de handen op hun heupen in een uitdagende pose. Ada lacht en Zangemann fronst.
+Ada heeft zwart haar met rode elastieken in twee grote knotten links en rechts. Ze heeft rode wangen en kleine gele knopjes in de oren. Ze draagt een horizontaal gestreepte korte broek in cyaan en wit en een geel shirt over een wit ondershirt dat eindigt in kant dat onder het shirt uit komt. Over het shirt draagt Ada een blauw vest met capuchon. Ada draagt rode schoenen met witte neuzen en zolen en korte witte sokken. Ze heeft een voet op een skateboard en de andere op de grond.
+Zangemann heeft kort grijs haar en vierkante brillenglazen. Hij draagt een paarse trui aan met kol, een lichtblauwe opgetrokken broe, bruine schoenen en witte stokken. Hij draagt een groot technisch horloge. Boven Zangemann is een combinatietang afgebeeld met rode handvatten die het kader van draden doorkruist.
 ]]
 
 ** 1 **
@@ -171,7 +175,9 @@ zij die die vrijheid van de anderen respecteren moeten steunen.
 === Slide 1
 
 [[I:ada-p03
-IMAGE: TODO
+IMAGE: Matthias Kirschner, Sandra Brandstätter - ADA & ZANGEMANN - Een verhaal over software, skateboards en frambozenijs.
+Titel in het midden, auteurs linksboven.
+Rechtsonderin Ada's familiehond met grijze vacht met enkele witte vlekken en met een rode halsband met brandende gele leds die met de staart wachelt.
 ]]
 Matthias Kirschner
 Sandra Brandstätter
@@ -188,13 +194,20 @@ om in een echt huis te wonen. In plaats daarvan woonde Ada met haar
 moeder en haar kleine broer Alan in een hut naast een 
 schroothoop aan de rand van de stad.
 [[I:ada-p04
-IMAGE: TODO
+IMAGE: Ada op de voorgrond verlaat het huis om naar school te gaan met op de achtergrond Ada's huis en de schroothoop. Ada heeft een bruine rugtas met gele schouderbanden.
+Links van Ada staat een rode auto, een Volkswagen kever, zonder wielen en niet langer werkend met nog maar één van de koplampen aanwezig die alleen nog aan de draden hangt.
+Links, voor de auto, staan twee banden en twee kisten waarvan één een houten kist met een emmer op de kop erin, en een leeg blikje, dichtgegroeid met planten met gele bloemen.
+In de achtergrond is Ada's huis, met haar moeder en haar broer Alan die gedag zwaait, en de hond die op de grond zit.
+Alan zit op de twee traptreden van het huis. Hij heeft kort donker haar en draag een wit shirt met korte mouwen en rode strepen op de randen van de mouwen en twee rode strepen aan de ondernkant van het short. Alan draagt een blauwe kortebroek en loopt op blote voeten.
+Ada's moeder heeft donkere lippenstift op en lang donker haar in een witte haarband. Ze draagt een kort blauw shirt met witte bies, witte broek en gele schoenen.
+Ada's huis is van hout met een witte voorkant. Het dak is van donkerrode dakplaten. Er zijn twee ramen en een deur aan de voorkant en een ander raam aan de linker kant. Een gele eend staat op de nok van het dak. Een grijze metalen schoorsteen steekt zijwaards uit het dak. Een antenne aan de linkerkant van het dak is ook de steun voor een waslijn waaraan met rode wasknijpers een groene top, een lichtblauwe broek en een witte onderbroek hangen. Rechts naast het huis is een veranda waarop een zonnepaneel is geplaatst. Onder de verander staan een matras, een rood olievast en een grijze koffer.
+Achter het huis staan bergen van afval waarin je een wasmachine, een auto en verschillende planken kan onderscheiden.
 ]]
 
 ** 5 **
 
 [[I:ada-p05
-IMAGE: TODO
+IMAGE: Prestigieuse tijdschriften ("STARS", "MONEY", Richest Man") met Zangemann en zijn landhuis op de voorpagina's.
 ]]
 Ver weg, aan de andere kant van de stad, woonde een beroemde uitvinder 
 genaamd Zangemann. Hij was ongelooflijk rijk. Geen papier ter wereld was 
@@ -229,7 +242,9 @@ zak pasten. De kleinsten pasten zelfs op zijn vingertop.
 ** 7 **
 
 [[I:ada-p07
-IMAGE: TODO
+IMAGE: Zangemann als kind op een stoel aan een tafeltje op school. Vanuit zijn hoofd komen zes bubbels met daarin zijn ideeën voor plekken om computers in te bouwen: een videobelsysteem, een luidspreker, een wasmachine, een skateboard met radiografische besturing op een grote computermonitor, een polscomputer en een schoudercomputer met monitor en toetsenbord.
+Zangemann heeft grijs haar, een donkerpaars shirt met blauwe horizontale strepen, een blauwe korte broek, bruine schoenen en witte sokken. Hij draagt een bril en een groot horloge om zijn linker pols.
+Op de tafel liggen een open notitieboek, een geel potlood en een gum, terwijl aan de zijkant van de tafel zijn bruine aktetas hangt.
 ]]
 
 ## 8 ##
@@ -240,7 +255,12 @@ allerlei dingen toe te voegen om ze nog leuker en bruikbaarder te maken.
 En toen verkocht hij ze.
 
 [[I:ada-p08b
-IMAGE: TODO
+IMAGE: Originele Zangemann IJsjesmachine.
+Hij is blauw in kleur en vergelijkbaar met een frisdrankautomaat maar in plaats van de beker is er een hoorntje gevuld met roomijs.
+Boven het uitgifteluik zit een monitor die de variant toont die is uitgegeven, in dit geval ananasijs.
+Aan de linker kant zit een muntinwork, de verschillende knoppen om de smaak te kiezen en het gat om wisselgeld terug te krijgen.
+Bovenop staat een rond wit reclamebord met bollen snoeproze ijs in een hoorntje.
+Aan de achterkant van de machine zit een koelmachine met de "Z" van het Zangemann logo.
 ]]
 Volwassenen en kinderen hielden van zijn uitvindingen. Alle kinderen 
 wilden een van zijn skateboards, compleet met de nieuwste geluiden, 
@@ -248,17 +268,18 @@ hebben om indruk te maken op hun vrienden op school. Kinderen hielden
 ook van zijn luidspreker-uitvinding, die direct ieder lied kon spelen 
 dat je aanvroeg. En natuurlijk hield iedereen van de ijsjes die iedere
 middag werden geserveerd door de automatische, extra-lekkere Originele 
-Zangemann Ijsjesmachines. Het leek allemaal magie, maar het geheim was
+Zangemann IJsjesmachines. Het leek allemaal magie, maar het geheim was
 eenvoudig: de kleine computers die Zangemann in zijn machines bouwde 
 maakten het allemaal mogelijk.
 [[I:ada-p08a
-IMAGE: TODO
+IMAGE: Een origineel Zangemann elektrisch skateboard laat een spoor van muzieknoten en gekleurde cirkels achter. Alleen de knieën, witte sokken en olijfgroene schoenen met witte zolen van een kind op het skateboard zijn zichtbaar.
 ]]
 
 ** 9 **
 
 [[I:ada-p09
-IMAGE: TODO
+IMAGE: Ada sleutelt met onderdelen in haar geimproveerse werkplaats.
+Ada zit op een omgekeerde frisdrankkrat en werkt aan een reparatie met een gele schroevendraaier. Op de tafel liggen ook een groene nijptang, een rode hamer, een witte stekkerdoos en een ander apparaat. Ada zit aan een tafel bestaande uit een houten plaat ondersteund door twee olievaten (een grijs en de ander rood) en een kleine houten schraag. Achter Ada staan een wasmachine, buizen en een plaat. Voor de geïmproviseerde tafel liggen banden en een oude telefoon met een kapotte kabel. Alan loopt naar Ada en houdt een gele ventilator boven zijn hoofd. Alan draagt nu witte sokken en gele schoenen.
 ]]
 Deze uitvindingen waren erg populair op Ada's school en veel van haar 
 vrienden reden rond op de coole skateboards. Ada was vaak verdrietig, 
@@ -296,7 +317,7 @@ machines werkten. Soms waren mensen teleurgesteld dat hun favoriete
 ijssmaak niet beschikbaar was, maar wat konden ze doen? Er was tenslotte 
 ijs op elke straathoek.
 [[I:ada-p10
-IMAGE: TODO
+IMAGE: Een witte stekkerdoos verbonden aan een stopcontact. De stekkerdoos heeft drie aansluitingen en een groene schakelaar. In de stekkerdoos dit een stekker met een grijze kabel.
 ]]
 
 ** 11 **
@@ -307,7 +328,8 @@ uren hiermee door achter zijn gouden computer. Keer op keer keek hij door
 een lange telescoop neer op de stad om te aanschouwen hoe 
 betrouwbaar zijn uitvindingen zijn commando's opvolgden.
 [[I:ada-p11
-IMAGE: TODO
+IMAGE: Zangemman zit achter zijn gouden computer op een goude stoel met armleuningen een erg hoge rode gecapitonneerde rugleuning met aan de bovenkant de "Z" van het Zangemann logo. Hij draagt een paarse koltrui en een lichtblauwe broek.
+De computer heeft vier monitoren met decoratieve randen van verschillende groten, elke met het logo op de achterkant. Het is geïntegreerd in een kostbaar houten bureau waarvandan een grijze kabel slingert die is verbonden aan de stekkerdoos op de vorige pagina.
 ]]
 
 ## 12 ##
@@ -320,7 +342,8 @@ plaats van luid te ronken. Hij vond lampen uit die op een vingerknip aan en
 uit gingen en auto's die je vertelden waar de dichtstbijzijnde 
 supermarkt was.
 [[I:ada-p12
-IMAGE: TODO
+IMAGE: Stadsaanzicht met huizen en winkels, met een centrale straat die naar rechts afbuigt. Op de weg rijden een auto en een fietser.
+Er zijn verschillende kinderen en ouders aan het lopen of aan het skateboarden. Sommige eten ijs, terwijl anderen ijs kopen van de Originele Zangemann machines.
 ]]
 Al snel had bijna elk apparaat een Zangemann-computer ingebouwd. Niet al 
 zijn uitvindingen leken direct noodzakelijk, maar mensen kochten alles 
@@ -334,7 +357,7 @@ dichtbij zien." Hij borg zijn grote telescoop op, liep op de lange trap
 van zijn landhuis naar beneden en waagde zich de stad in, vol 
 verwachting met het vooruitzicht om van zijn coole apparaten te genieten.
 [[I:ada-p13
-IMAGE: TODO
+IMAGE: Zangemann loopt de trap naar beneden van zijn landhuis op de heuvel. De voorkant is blauw met grote ramen, de torens zijn donkerblauw en vanuit een raam start een gele glijbaan die eindigt in een groot zwembad met twee palmbomen. De daken zijn rood en op de hoogste toren is een antenne geïnstalleerd. Aan de zijkant van de trap om de heuvel af te dalen staan groene bomen.
 ]]
 
 ## 14 ##
@@ -348,7 +371,8 @@ allemaal de smaak van de dag aten: kokosnotenijs.
 ==== Slide 8
 Hij was diep in gedachten toen plots — BAM! — iets tegen zijn scheenbeen botste.
 [[I:ada-p14
-IMAGE: TODO
+IMAGE: Zangemman na het incident met het kind. Zangemann schreeuwt van de pijn en houdt een van zijn benen omhoog met beide handen aan de scheen.
+Het kind heeft bruin haar dat naar achteren wordt geblazen door Zangemanns geschreeuw. Hij draagt een lichtblauwe trui met capuchon en een donkergroene broek. Hij houdt een rood Zangemann elektrisch skateboard vast.
 ]]
 
 ** 15 **
@@ -366,7 +390,10 @@ muziek leuk te vinden, maar het bezorgde Zangemann een vervelende hoofdpijn
 en zijn stemming verslechterde. Dit was niet hoe hij zijn wandeling had 
 voorgesteld!
 [[I:ada-p15
-IMAGE: TODO
+IMAGE: Advertentie voor Zangemann ijs op een stoepbord en op een groot reclamebord reclame voor een Zangemann elektrisch skateboard en een Zangemann wasmachine.
+De wiskundelerares Mevrouw Gernet loopt voor de grote reclameborden langs.
+Mevrouw Gernet is een oude vrouw met kort wit haar. Ze is gekleed in een licht groen t-shirt en een erwtengroene truin, donkerbruine broek en lichtgroene schoenen met hak. Ze heeft een fuchsia shoudertas die ze achter zich draagt.
+Ze duwt een klein winkelwagentje waarin een klein bruin hondje zit met een halsband en penning.
 ]]
 
 ## 16 ##
@@ -379,11 +406,15 @@ toegestaan om de stoep op te gaan. Hij droeg de kleine computers in de
 luidsprekers op om muziek alleen op een laag volume af te spelen, 
 behalve zijn favoriete muziek, die hij meteen opzette om in een betere 
 stemming te komen.
+[[I:ada-p16
+IMAGE: De stad in de avond met huizen, een kerk en twee lantaarnpalen. Afbeeldingen verschijnen uit de woningen die Zangemman's uitvindingen illustreren gekocht door de inwoners: een wasmachine, een gele stofzuiger en een rode auto, allemaal met signalen voor de verbinding met het internet.
+]]
 
 ** 17 **
 
 [[I:ada-p17
-IMAGE: TODO
+IMAGE: Vervolg op de vorige afbeelding met op de achtergrond de heuvel met Zangemanns huis van wiens antenne signalen komen om de verschillende apparaten te besturen.
+In de afbeeldingen die verschijnen staan een rood elektrisch skateboard, een lamp, een ijsjesmachine en een toilet, die allemaal commando's ontvangen van Zangemann.
 ]]
 
 ## 18 ##
@@ -393,7 +424,7 @@ school stopten de skateboards van de kinderen ermee. De wielen stonden
 simpelweg stil. En de kinderen konden niet langer hun luidsprekers 
 harder zetten. Wat was er gebeurd?
 [[I:ada-p18
-IMAGE: TODO
+IMAGE: Vijf kinderen van school die hun skateboards niet aan de praat krijgen. Twee meisjes dragen helpen, de ene blauw, de ander rood. Een klein meisje met bruin haar in twee knotten met gele elastieken is genknield. Ze probeert te begrijpen waarom het skateboard van haar vriend met de rode helm niet meer werkt. Vier kinderen hebben rugzakken op hun schouders, terwijl het kleine meisje met de rode helm die van haar tegen een bankje heeft leunen met daarop een gele appel een een lichtblauwe drinkfles met een witte bloem erop.
 ]]
 
 ** 19 **
@@ -409,7 +440,7 @@ vallen bij leuke verhalen in de avonden als hun moeder nog op het werk
 was.
 
 [[I:ada-p19
-IMAGE: TODO
+IMAGE: Close-up van Ada die nadenkt, met een rugzak en met één hand op haar kin en één hand in haar zij.
 ]]
 Na een paar dagen was men op  
 Ada's school de eerste schok  
@@ -456,7 +487,8 @@ heel graag de programmeertaal leren!
 ** 21 **
 
 [[I:ada-p21
-IMAGE: TODO
+IMAGE: Computerscherm waarvanuit de elementen van de programmeertaal symbolisch verschijnen: "while num > 0", "init", "sx=42", "for", "v**3".
+Ada typt op een wit toetstenbord met een blauwe kabel, terwijl haar andere hand door het scherm heen grijpt om het programma aan te passen ("print(msg)", "a+b+c+d=e", "if", "break", "continue", "exit()"). Naast het toetsenbord liggen een potlood en een gum.
 ]]
 
 ## 22 ##
@@ -489,7 +521,9 @@ uit liet schakelen.
 ** 23 **
 
 [[I:ada-p23
-IMAGE: TODO
+IMAGE: Ada begint het programmeren te begrijpen. Ze typt op een toetsenbord dat rust op een grijze mat en verbonden is met een smartphone met een blauwe kabel.
+De smartphone is verbonden met een rode draad aan een printplaat met een gele LED-lamp. De smartphone krijgt voeding via een transformator die is aangesloten op de stekkerdoos met een grijze draad en stekker.
+Op de tafel liggen ook drie boeken waarvan er één open is, een klembord, een tang, lijm, soldeer en een soldeerbout die niet is aangesloten.
 ]]
 Ada had ook een idee voor het volgende programma dat ze zou schrijven. 
 Het was een grotere zaak, een echt project. Ze zou er waarschijnlijk de 
@@ -498,7 +532,7 @@ hele zomervakantie voor nodig hebben en ze kon amper wachten!
 ## 24 ##
 
 [[I:ada-p24
-IMAGE: TODO
+IMAGE: Zangemann kijkt bedachtzaam met zijn armen over elkaar uit een van de grote ramen van zijn huis waarin de zonnenstralen reflecteren.
 ]]
 
 ** 25 **
@@ -554,7 +588,16 @@ park.
 ** 27 **
 
 [[I:ada-p27
-IMAGE: TODO
+IMAGE: Ada racet met haar elektrische skateboard over de stoep door de stad. Ada's skateboard is blauw met grijze en roze wielen. het elektronische deel zit boven het skateboard (in tegenstelling tot Zangemanns skateboard waar het elektrische deel er onder zit). Ada houdt in beide handen een afstandsbediening met een korte antenne om het te besturen.
+Achter Ada lopen Marie en Tonie die hun eigen skateboards onder hun arm dragen en die met verbazing kijken naar Ada die ze voorbij schiet en voor hun uit rijdt.
+Marie heeft donker lang haar met twee vlechten vastgemaakt met oranje clips, gele oorbellen, een fuchsia shirt met witte mouwen en paarse horizontale strepen, een witte rok, witte en gele sneakers, witte sokken, een witte pet met gele zijkanten en een lichtpaarse rugzak. Marie heeft een blauw kunstbeen. haar skateboard is blauw met gele wielen.
+Toni heeft rood haar, opgeschoren aan de zijkanten. Hij draagt een blauwe trui, donkergroene broek en witte schoenen. Hij heeft een rode rugzak met witte inzetten en schouderbanden. Eén hand houdt hij naast zijn mond.
+Zijn skateboard is paars met oranje wielen.
+Er lopen ook een vader en zoon in de andere richting: de vader is gekleed in een blauwgeblokt jack en blauwe broek en houdt een bruine koffer vast. Hij lacht naar Ada.
+Zijn zoon heeft een blauw shirt, blauwe korte broek, witte schoenen, een bruine rugzak en een rode en witte pet. Onder zijn arm heeft hij een geel Zangemann skateboard met lichtblruine wielen en hij grijnst naar Ada.
+In de achtergrond staat een bakkerij met grote ramen waardoor je het brood kan zien. Het heeft een groen en witgestreepte luifel om de hoek en een bord op de stoep met een lijst van de producten.
+Boven aan de gevel wordt een grote pretzel getoond.
+Op de weg is een plas water die het blauw van de lucht reflecteert.
 ]]
 
 ## 28 ##
@@ -565,7 +608,10 @@ was Ada omringd door nieuwsgierige klasgenoten.
 
 “Hoe kan je met jouw skateboard op de stoep rijden?” vroegen ze.
 [[I:ada-p28
-IMAGE: TODO
+IMAGE: Ada stopt op haar skateboard omringd door kinderen. Marie staat aan een uiteinde. Ze wijst naar Ada's skateboard en ze praat.
+Naast haar is Konrad, met kort blond haar, een donkergrijze helm, bril, een groen shift met witte kraag en manchetten, lichtblauwe broek met witte zoom en grijze schoenen met witte zolen. Hij heeft een rood skateboard met oranje wielen.
+Achter Ada staan vier andere kinderen. Aan het andere uiteinde staat Toni te lachen.
+Met één hand raakt hij zijn kin aan terwijl hij met de andere zijn gele helm aan de banden vasthoudt.
 ]]
 
 ** 29 **
@@ -584,7 +630,9 @@ als een langgerekte boer. Ada wist dat in programma’s steeds weer zulke
 kleine fouten konden opduiken. Toni’s boerende skateboard was eigenlijk 
 best grappig.
 [[I:ada-p29
-IMAGE: TODO
+IMAGE: Hinkelbaan met kalk getekend op asfalt. In een rij, in vierkante vakken, de nummers 1, 2, 3 en 4 naast elkaar, 5, 6, en 7 en 8 naast elkaar. Nummer 9 zit niet in een vierkant vak maar in een bredere halve cirkel achter de vierkanten van de nummers 7 en 8.
+Tussen het nummer 1 en nummer 2 staat een blauwe drinkfles met witte polkadots.
+Een geel Zangemann-skateboard met oranje wielen aan de zijkant van de hinkelbaan verbergt eigenlijk nummer 1.
 ]]
 
 ## 30 ##
@@ -602,7 +650,7 @@ haar board die, afhankelijk van haar snelheid, in verschillende kleuren oplichtt
 En Konrad bouwde aan zijn skateboard oude propellers die voor extra 
 aandrijving zorgden.
 [[I:ada-p30
-IMAGE: TODO
+IMAGE: Een groene batterij met een rode en een gele draad, een stekkerdoos, lijm, een klos soldeer en twee potloden.
 ]]
 
 ** 31 **
@@ -620,25 +668,34 @@ Samen veranderden ze daarop de software voor de luidsprekers. Ze
 speelden de muziek zo hard als mogelijk en dansten samen wild op de 
 muziek.
 [[I:ada-p31
-IMAGE: TODO
+IMAGE: Een schroevendraaier met oranje en grijs handvat, rode tang en drie leds: geel, groen en roze.
 ]]
 
 ## 32 ##
 
 [[I:ada-p32
-IMAGE: TODO
+IMAGE: Werkplaats op de schroothoop onder de veranda van Ada's huis.
+Ada zit op een frisdrankkrat met een been onder zich gevouwen en gebruikt ene soldeerbout.
+Konrad staat naast haar en haalt een luidspreker uit elkaar.
+Marie zit op twee autobanden met een arm op een tafel en haar skateboard ondersteboven waar draden uit komen. Ze praat met Alan, die staat met zijn armen leunend op dezelfde tafel.
+Op de tafel liggen ook een tang, twee steeksleutels, een klos soldeer, een blik blauwe verf (een beetje verf is opgedroogd op de tafel) en een karaf met twee glazen met daarin een roze drank.
+Toni test zijn skateboard met toegevoegde gele vleugels en een ventilat. Het boert.
 ]]
 
 ** 33 **
 
 [[I:ada-p33
-IMAGE: TODO
+IMAGE: Mari en Ada's moeder dansen, naar elkaar gericht. Alan, Ada en Konrad dansen in een kring.
+Rechts staat een luidspreker te spelen, ondersteund door een oud olievat.
+Naast de luidspreker staan twee dansende muizen.
+Toni springt door de banden.
+Ada's hond huilt als een wolf en vanuit zijn mond komen twee verstoorde muzieknoten.
 ]]
 
 ## 34 ##
 
 [[I:ada-p34
-IMAGE: TODO
+IMAGE: Handen die mooie ijshoorntjes vasthouden: blauw ijs met een chocoladehart erbovenop en slagroom op de chocolade, groen ijs met gekleurde sterren met een kleine komkommer op een stokje, roze ijs in de vorm van een vis, piradevormig ijs met snoepjes en chocoladesaus en een kers op de top, regenboogijs met een geel paraplutje, blauw ijs in de vorm van een geest met snoepjes erop.
 ]]
 
 ** 35 **
@@ -686,7 +743,11 @@ goudstukken betalen!”
 ** 37 **
 
 [[I:ada-p37
-IMAGE: TODO
+IMAGE: De president wordt gebeld door een boze Angemann.
+De videotelefoon bestaat uit een oude rode Zangemann telefoon met draaischijf verbonden aan een monitor. Zangemmans gezicht verschijnt op de monitor terwijl een gele vlam van Zangemanns bulderende stem uit de telefoon komt. De president houdt de hoorn op armlengte afstand.
+De president heeft wit haar en draagt een lichtblauwe blouse, een rode das en een blauwe jasje met gele knopen.
+De president zit op een groene stoel met witte verticale strepen en zijn andere hand ligt op het bureau. Op het bureau liggen behalve de videotelefoon ook papieren met iets erop geschreven met een open vulpen erbij.
+De president was een sandwich aan het eten met ham, kaas en sla, met twee olijven op een prikker er doorheen bovenop een blauw servet met witte strepen.
 ]]
 
 ## 38 ##
@@ -700,7 +761,7 @@ Ze verzamelden voor een van hun gebouwde ijsjesmachines en bespraken de
 situatie. Het was duidelijk dat iets gedaan moest worden aan deze nieuwe 
 wet, en ze smeedden een plan …
 [[I:ada-p38
-IMAGE: TODO
+IMAGE: Blikken met groene, blauwe en roze verf, een verfkwast met gele vers, een lichte groene marker en een groot stuk opgerold karton waarop blauwe verf is geknoeid.
 ]]
 
 ** 39 **
@@ -723,7 +784,7 @@ waarvoor Ada hun skateboards geherprogrammeerd had, waren ook gekomen.
 Toni’s vader en andere volwassenen wilden het protest ook steunen. Ze 
 vonden de apparaten van de kinderen erg praktisch.
 [[I:ada-p39
-IMAGE: TODO
+IMAGE: Gele en groene verf op de vloer en waskrijtjes in geel, rood, blauw, groen en bruin. De laatste drie liggen in hun grijze kartonnen doos.
 ]]
 
 ## 40 ##
@@ -737,7 +798,7 @@ droegen. Zelfs mevrouw Gernet kwam. De menigte werd steeds groter en na
 een week waren er niet alleen protesten in Ada’s stad; nee, overal in 
 het land werd gedemonstreerd.
 [[I:ada-p40-41
-IMAGE: TODO
+IMAGE: Groep protesteerders. Onder hen zijn Ada's moeder die Alan's hand vasthoudt en een roze ijsje omhoog houdt; drie collega's van Toni's vaders in nette kleren met stropdas; twee kinderen die het spandoek "Doe je huiswerk meneer President en wij doen het onze!" omhoog houden; een robot met rupsbanden, strijkijzers als voeten, een elektrische ventilator als borstkast, een monitor als hoofd en een garde als één hand en een blauw ijsje vasthoudend in zijn andere hand; twee ouders die een bord dragen met de tekst "Hacking 4 Freedom"; een dame met een elektronisch bord "There is a code B"; twee kleine vogels die meevliegen; de wiskundelerares Mevrouw Gernet die in haar karretje een bord heeft gestopt met de tekst "Ze zijn jong + hebben de code nodig!". De hond in het karretje blaft; Ada en Konrad dragen het spandoek "Don't wreck our tech!". Marie en Toni lopen onder het spandoek en Marie spreekt door een megafoon in haar hand. Ada's familiehond draagt nu een rood harnas met stralende gele leds die passen bij de halsband.
 ]]
 
     ## Groot bord: “Doe je huiswerk meneer President en wij doen het onze!”
@@ -745,10 +806,12 @@ IMAGE: TODO
 ** 41 **
 
 [[I:ada-p40
-IMAGE: TODO
+IMAGE: Detail van de vorige afbeelding:
+twee kinderen houden een spandoek omhoog "Doe je huiswerk meneer President en wij doen het onze!"
 ]]
 [[I:ada-p41
-IMAGE: TODO
+IMAGE: Detail van de vorige afbeelding:
+Ada en Konrad dragen het spandoek "Don't wreck our tech!" Marie en Toni lopen onder de banner en Marie spreekt door een megafoon in haar hand. Ada's familiehond draagt nu een rood harnas met stralende gele leds die passen bij de halsband.
 ]]
     ## Bord leraar: “Ze zijn jong + hebben de code nodig!”
 
@@ -772,7 +835,8 @@ computers en code, dus hadden ze dat altijd aan Zangemann overgelaten.
 Diep in gedachten betrad de president het gebouw.
 ==== Slide 22
 [[I:ada-p42
-IMAGE: TODO
+IMAGE: Een van Ada's vrienden light op haar buik met een voet in de lucht en typt op een laptop. Hij heeft golvend bruin haar met een scheiding in het midden, een rode hoody, blauwe broek en witte sokken maar geen schoenen.
+Naast de computer staat een groene mok en liggen twee open boeken.
 ]]
 De volgende dag nodigde de president Ada en haar vrienden uit. “We 
 willen ook zelf de controle over onze software hebben. Daarvoor moet de 
@@ -791,7 +855,11 @@ kinderen wat ze graag aan de software wilden veranderen en verbeteren.
 Die avond gingen de kinderen trots en tevreden naar huis. Eindelijk 
 gebeurde er wat! Hun lange protest was het waard.
 [[I:ada-p43
-IMAGE: TODO
+IMAGE: Ada en haar vrienden in het kantoor van de president. Ada herprogrammeert de computer van de president.
+Toni installeert een luidspreker voor de secretaresse van de president.
+Marie en Konrad zitten op de vloer en praten, en Marie heeft een laptop op schoot met een sticker van het logo van de FSFE (drie sterren: erwtengroen, hemelblauw en zeeblauw).
+Op de vlire staat een schaal moet snoep en een schaal met ijsjes.
+De telefoon van de president rinkelt, maar niemand antwoordt.
 ]]
 
 ## 44 ##
@@ -804,7 +872,7 @@ nog veel vaker die dag, maar niemand nam op. De president zat samen met
 Ada, Toni, Marie, Konrad en experts van de regering in een bespreking.
 
 [[I:ada-p44
-IMAGE: TODO
+IMAGE: Een boodschapper, die een hoed met pluim draagt, speelt ene trompet waaraan een rood vaandel hangt.
 ]]
 De dagen daarna spraken ze van ‘s ochtends tot laat in de avond en 
 ontworpen ze hun eerste programma’s voor de computers van de regering. 
@@ -831,7 +899,11 @@ zich daarbij aan de andere wetten houdt.”
 Bovendien werd een nieuw schoolvak ingevoerd: computerhardware en 
 -software
 [[I:ada-p45
-IMAGE: TODO
+IMAGE: De president met Toni, Konrad, Marie, Ada en een boodschapper die op de trompet speelt.
+Marie staat op een huishoudtrap en spreekt in een microfoon.
+Conrad houdt de trap stevig vast waarop Marie staat.
+Ads staat op een stoel en houdt een kopie van de nieuwe wet vast met een zegel erop.
+Ada's hond zit voor haar.
 ]]
 
 ## 46 ##
@@ -842,7 +914,13 @@ mevrouw Gernet, de buschauffeur, de conciërge: ze waren er allemaal
 bij. Ze versierden de straten, luisterden naar luide muziek en aten ijs 
 zoveel als ze wilden en in elke denkbare vorm en kleur.
 [[I:ada-p46
-IMAGE: TODO
+IMAGE: Feest 's avonds.
+Kinderen houden ijsjes vast en balonnen met de woorden "I love FS (I love Free Software)".
+Andere kinderen rijden op skateboards.
+Lijnen met gele en oranje vlaggetjes hangen.
+Muziek komt uit een luidsprekersysteem.
+Mevrouw Gernet houdt een roze boomvorming ijsje omhoog met een gele ster erop.
+Ada's moeder danst met een meneer.
 ]]
 
 ** 47 **
@@ -851,7 +929,10 @@ Terwijl anderen tot laat in de nacht bleven feesten, knepen Ada, Toni,
 Marie en Konrad ertussenuit naar hun werkplaats. Ze hadden al veel 
 ideeën voor nieuwe uitvindingen. En ze wilden er direct mee beginnen.
 [[I:ada-p47
-IMAGE: TODO
+IMAGE: De president, de secretaresse en andere mensen zitten om een tafel en genieten van gekke ijsjes.
+De lijn met gele en oranje vlaggetjes loopt door van de vorige afbeelding.
+Een klein meisje heeft net haar roze geestvormig ijsje uit de aangepaste ijsjesmachine gehaald.
+Ada's hond, Konrad, marie, Ada en Toni sluipen weg van het feest.
 ]]
 
 ## 48 ##
@@ -866,13 +947,13 @@ uitvinden. Misschien herinnert hij zich hoeveel plezier het hemzelf vroeger
 gaf om te sleutelen en te experimenteren. En misschien, heel misschien, 
 eet hij piramidevormig frambozenijs met discodip.
 [[I:ada-p48
-IMAGE: TODO
+IMAGE: Ada's kleine hond ruikt aan een spoor van ijs.
 ]]
 ===== Slide 26
 ** 49 **
 
 [[I:ada-p49
-IMAGE: TODO
+IMAGE: Een spoor van snoepjes en frambozenijs op de grond.
 ]]
 
 ## 50 ##
@@ -901,7 +982,7 @@ inspireerden. Zonder hen zou dit boek niet bestaan.
 ** 51 **
 
 [[I:ada-p51
-IMAGE: TODO
+IMAGE: Ada's hond kwispelt na het vinden van Zangemann, verborgen achter een gordijn terwijl hij een ijsje eet met snoepjes en een blauw paraplutje erop en waarvan veel frambozenijs drupt.
 ]]
 
 ## 52 ##
@@ -910,7 +991,7 @@ Over de auteur
 Matthias Kirschner
 
 [[I:ada-p52
-IMAGE: TODO
+IMAGE: Close-up van Matthias glimlachend, zwaaiend met een hand en met een headset op. Matthias heeft kort haar en een klein baardje.
 ]]
 Matthias was als kind al gefascineerd door computers en software. Hij 
 had al vroeg een internetaansluiting en heeft daardoor veel geleerd. 
@@ -925,7 +1006,7 @@ Illustrator
 Sandra Brandstätter
 
 [[I:ada-p53
-IMAGE: TODO
+IMAGE: Sandra glimlacht met een potlood in haar hand voor haar kin. Ze heeft oortjes in met een microfoon in de draad. Sandra heeft kort haar en een bril.
 ]]
 Sandra heeft altijd graag geknutseld met scharen, tangen, lijm, draad, 
 stof en papier. Vandaag werkt ze als een illustrator, stripauteur en 
@@ -965,7 +1046,7 @@ https://creativecommons.org/licenses/by-sa/4.0/
 ## 56 ##
 
 [[I:ada-p56
-IMAGE: TODO
+IMAGE: Een hand die visvormig ijs op een hoorntje vasthoudt met een komkommertje op een versierde steker, om in te kleuren. In de hoek onderin een schrijvend potlood.
 ]]
 Bedenk een paar lekkere, leuke of gekke ijssoorten en teken ze in de 
 ijshoorntjes op de volgende pagina. Meer kleurplaten en informatie over 
@@ -974,7 +1055,7 @@ het boek is te vinden op https://ada.fsfe.org.
 ** 57 **
 
 [[I:ada-p57
-IMAGE: TODO
+IMAGE: Drie handen die net zo veel lege ijshoorntjes vasthouden om op te tekenen en te kleuren. In de lucht boven het middelste hoorntje is een paraplutje.
 ]]
 
 ## 58 ##
@@ -984,7 +1065,7 @@ IMAGE: TODO
 ## 60 ##
 
 [[I:back_cover-a
-IMAGE: TODO
+IMAGE: Een soldeerbout en een kwast en blik gele verf, verbonden met wit elektriciteitskabel dat een kader vormt.
 ]]
 
 [D]e uitvinder Zangemann is wereldberoemd en ongelofelijk rijk. Ouders 
@@ -1000,5 +1081,5 @@ Een boek dat bij kinderen de interesse voor sleutelen aanwakkert en een
 autonome omgang met techniek aanmoedigt.
 
 [[I:back_cover-b
-IMAGE: TODO
+IMAGE: Een stekkerdoos, met ingaand en uitgaand de witte elektriciteitskabel die het kader vormt.
 ]]
