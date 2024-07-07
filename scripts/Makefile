@@ -8,10 +8,12 @@
 .DEFAULT_GOAL := help
 
 lang = $(notdir $(CURDIR))
+scripts-dir = ../../scripts
 src-text = Ada_Zangemann-$(lang).txt
 sla-output = $(lang)-print.sla $(lang)-screen.sla $(lang)-coversoft.sla $(lang)-coverhard.sla
+pdf-output = $(sla-output:.sla=.pdf)
 reading-output = $(lang)-reading.txt
-all-output = $(sla-output) $(reading-output)
+all-output = $(reading-output) $(sla-output) $(pdf-output)
 
 $(lang)-%.sla: template-%.sla $(src-text)
 	./to_scribus.pl $(src-text) template-$*.sla > $(lang)-$*.sla
@@ -19,23 +21,22 @@ $(lang)-%.sla: template-%.sla $(src-text)
 $(lang)-reading.txt: $(src-text)
 	./to_reading.pl $(src-text) > $(reading-output)
 
-.PHONY: debug
-debug:
-	@echo $(CURDIR)
-	@echo $(notdir $(CURDIR))
-	@echo $(sla-output)
+%.pdf: %.sla
+	$(scripts-dir)/./to_pdf.sh $<
 
 .PHONY: help
 help:
 	@echo "Use this Makefile to generate output files:" >&2
 	@echo "Create a single output file:" >&2
 	@echo "  make nl-screen.sla" >&2
-	@echo "Create all output files:" >&2
+	@echo "Create all defined output files:" >&2
 	@echo "  make all" >&2
 	@echo "Remove output files" >&2
 	@echo "  make clean" >&2
 	@echo "Print this help output" >&2
 	@echo "  make help" >&2
+	@echo "All defined output files to make here:" >&2
+	@echo "  $(all-output)"
 
 .PHONY: all
 all: $(all-output)
@@ -43,3 +44,9 @@ all: $(all-output)
 .PHONY: clean
 clean:
 	rm -f $(all-output)
+
+# Command to debug this Makefile
+.PHONY: debug
+debug:
+	@echo lang: $(lang)
+	@echo all-output: $(all-output)
