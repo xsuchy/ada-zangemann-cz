@@ -96,3 +96,6 @@ clean:
 debug:
 	@echo lang: $(lang)
 	@echo all-output: $(all-output)
+
+check: $(sla-output)
+	for f in $$(grep Capitals/ $(sla-output) | tr \" "\n" | grep Capitals/); do if [ ! -e $$f ] ; then echo $(lang) missing $$f; fi; done | sort -u
