@@ -19,4 +19,4 @@ fi
 
 # TODO: Hide GUI using xvfb-run or work-in-progress https://gitlab.freedesktop.org/ofourdan/xwayland-run
 
-scribus -g -py "${scripts_path}/scribus_pdf.py" -- "${1}"
+scribus --no-splash -g -py "${scripts_path}/scribus_pdf.py" -- "${1}"
