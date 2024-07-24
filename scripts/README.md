@@ -31,6 +31,12 @@ $ ./to_scribus.pl Ada_Zangemann-en.txt template-print.sla > rendered-print.sla
 
 Different scripts are available for different purposes:
 
+### new_language.sh
+
+Set up a directory structure and the necessary symbolic links for a new
+language. You can provide the script with an existing language so it will be
+used as the starting point.
+
 ### to_reading.pl
 
 Create a script for book readings. The final text includes hints for changing
