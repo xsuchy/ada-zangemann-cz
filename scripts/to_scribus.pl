@@ -1,8 +1,12 @@
 #!/usr/bin/perl
 
 # SPDX-FileCopyrightText: 2022-2023 Luca Bonissi
+# SPDX-FileCopyrightText: 2024 Nico Rikken
 #
 # SPDX-License-Identifier: CC0-1.0
+
+# Basic debugging:
+# print STDERR "Current page number: $pagenum \n";
 
 $TXT = 0;
 $ODP = 1;
@@ -12,6 +16,7 @@ $EPU = 4;
 
 $format = $TXT;
 
+# Determine output format based on directory structure
 if ( $0 =~ /scribus/ ) {
     $format = $SLA;
 }
@@ -32,6 +37,7 @@ $textfile     = shift;
 $templatefile = shift;
 $templatedir  = shift;
 
+# Print usage information if no input is provided
 if (   length($textfile) == 0
     || ( ( $format == $SLA || $format == $ODP ) && length($templatefile) == 0 )
     || ( ( $format == $ODP ) && length($templatedir) == 0 ) )
@@ -64,6 +70,7 @@ if ( !open( F, $textfile ) ) {
     exit(1);
 }
 
+# Removes inline '\n' line-feeds from the provided string
 sub RemoveLF {
     my $pagetext = shift;
     $pagetext =~ s/^\n+//gs;
@@ -73,6 +80,7 @@ sub RemoveLF {
     return ($pagetext);
 }
 
+# Removes basic HTML-like formatting from the provided string
 sub Unformat {
     my $s = shift;
     $s =~ s|<b>||gis;
@@ -82,6 +90,7 @@ sub Unformat {
     return ($s);
 }
 
+# Split the provided XML string into an array. Each '<' character triggers a new array element.
 sub SplitXML {
     my $buffer = shift;
     my ( $i, $i2, $i3, @xml );
@@ -102,6 +111,7 @@ sub SplitXML {
     return (@xml);
 }
 
+# Encodes special characters in HTML-like format for use in XML
 sub FormatXML {
     my $s = shift;
     $s =~ s/\&/\&amp;/gs;
@@ -111,15 +121,17 @@ sub FormatXML {
     return ($s);
 }
 
+# Add text formatting to text for Scribus
 sub ReplaceFormat {
     my ( $par, $fmt, $font ) = @_;
     my ( $i, $f, $c0, $c1, $c2, $lc, $ofmt, $cfmt );
     $lc = lc($par);
 
-    # Check for bold
+    # Check for formatting marks to replace
+    # $fmt expected to be "b", "i", "bi".
     $c0   = 0;
-    $ofmt = "<$fmt>";
-    $cfmt = "</$fmt>";
+    $ofmt = "<$fmt>";     # open tag
+    $cfmt = "</$fmt>";    # close tag
     while ( ( $c1 = index( $lc, $ofmt, $c0 ) ) >= 0 ) {
         if ( $c1 > $c0 ) {
             $f .= substr( $par, $c0, $c1 - $c0 );
@@ -143,12 +155,15 @@ sub ReplaceFormat {
     return ($f);
 }
 
+# Format paragraphs for Scribus
 sub FormatSLA {
     my $s     = shift;
     my $space = shift;
     my ( @par, $i, $f, $c0, $c1, $c2, $lc, $slocal, $ofmt, $cfmt );
     @par = split( "\n", $s );
     for ( $i = 0 ; $i <= $#par ; $i++ ) {
+
+    # Add Scribus formatting to text to change fonts according to style (b,i,bi)
         $slocal = $par[$i];
         $slocal = ReplaceFormat( $slocal, "b",  $bold );
         $slocal = ReplaceFormat( $slocal, "i",  $italic );
@@ -197,13 +212,18 @@ sub FormatSLA {
     return ($f);
 }
 
+# Format text with XML tags for ODP notes
 sub FormatODPNotes {
     my $s = shift;
     my ( @par, $i, $f );
     @par = split( "\n", $s );
     for ( $i = 0 ; $i <= $#par ; $i++ ) {
-        if ( length( $par[$i] ) == 0 ) { $f .= "<text:p/>\n"; }
-        else { $f .= "<text:p>" . FormatXML( $par[$i] ) . "</text:p>\n"; }
+        if ( length( $par[$i] ) == 0 ) {    # empty paragraph
+            $f .= "<text:p/>\n";
+        }
+        else {                              # enclose paragraph in tags
+            $f .= "<text:p>" . FormatXML( $par[$i] ) . "</text:p>\n";
+        }
     }
     return ($f);
 }
@@ -213,6 +233,7 @@ $span_pre  = "<text:span text:style-name=\"T2\">";
 $text_post = "</text:p>";
 $span_post = "</text:span>";
 
+# Format the last ODP page to handle the link
 sub FormatODPLast {
     my $s = shift;
     my ( @par, $i, $f, $pre, $post, $link );
@@ -259,8 +280,12 @@ while (<F>) {
             $_ = "";
         }
         else {
-            if   ( $format == $REA ) { $status = 0; }
-            else                     { $status = 1; }
+            if ( $format == $REA ) {
+                $status = 0;
+            }
+            else {
+                $status = 1;
+            }
         }
     }
     else {
@@ -282,18 +307,21 @@ while (<F>) {
             $pagechange = 0 if ( $pagechange >= 0 );
         }
 
+        # Handle input format line endings to continuation or hard line breaks.
         if (m/ $/) {
             if (   ( m/\S   $/ && $format == $ODP )
                 || ( m/\S  $/ && $format == $SLA ) )
             {
-                s/ +$//;
+                s/ +$//;    # Remove trailing spaces.
             }
             else {
-                chop;
-                s/ +$/ /;
+                chop;        # Remove one character (newline) to combine lines.
+                s/ +$/ /;    # Replace all trailing spaces with a single space.
             }
         }
         if ( $status > 0 && ( $status & 0x11 ) == 1 ) {
+
+            # Find page number separator and set variables accordingly
             if (m/^[\*#][\*#] \S+ [\*#][\*#]/) {
                 ($pagenum) = m/^[\*#][\*#] (\S+) [\*#][\*#]/;
                 $fpagenum = $pagenum;
@@ -303,6 +331,8 @@ while (<F>) {
                     $_ = "";
                 }
             }
+
+            # Handle slide transitions
             if ( $format == $REA || $format == $ODP ) {
                 if (m/^===/) {
                     if ( $pagechange >= 0 ) {
@@ -319,9 +349,13 @@ while (<F>) {
                 }
                 if ( $pagechange > 0 ) {
                     ($slide) = m/= (.*)/;
-                    if ( length($slide) > 0 ) { $slide = "($slide)"; }
+                    if ( length($slide) > 0 ) {
+                        $slide = "($slide)";
+                    }
                     if ( $format == $REA ) {
-                        if ( !$br ) { print "\n"; }
+                        if ( !$br ) {
+                            print "\n";
+                        }
                         print "<!-- Change Page $slide -->\n"
                           if ( !$templatefile );
                         print "\n";
@@ -329,10 +363,14 @@ while (<F>) {
                     if ( $slide =~ m/\d+/ ) {
                         ($slidenum) = ( $slide =~ m/(\d+)/ );
                     }
-                    else                   { $slidenum++; }
-                    if ( $slidenum >= 26 ) { $slidenum = 0; }
 
                     #print STDERR "SLIDENUM $slide $slidenum\n";
+                    else {
+                        $slidenum++;
+                    }
+                    if ( $slidenum >= 26 ) {
+                        $slidenum = 0;
+                    }
                     $_          = "";
                     $br         = 1;
                     $pagechange = 0;
@@ -341,6 +379,8 @@ while (<F>) {
             if ( m/^\t?#/ && $format != $TXT ) {
                 $_ = "";
             }
+
+            # Handle capital letters
             if (m/^\[/) {
                 ( $cap, $rest ) = m/\[(.*?)\](.*)/s;
                 $capfile = $cap;
@@ -413,7 +453,7 @@ for ( $i = 0 ; $i <= $pagenum ; $i++ ) {
     $pagetext{"$pnum$pl"} = substr( $pagetext[$i], $n0 );
 }
 
-# For "special" text boxes (page 2 "Free as in freedom..."
+# For "special" text boxes (page 2 "Free as in freedom...)"
 foreach $i ( keys %pagetext ) {
     $pagetext{$i} = RemoveLF( $pagetext{$i} );
 }
@@ -422,10 +462,14 @@ for ( $i = 1 ; $i <= $slidenum ; $i++ ) {
     $slide[$i] = RemoveLF( $slide[$i] );
 }
 
-if ( $format == $SLA ) {
+if ( $format == $SLA ) {    # Scribus template
+
+    # Start with default fonts
     $bold       = "Heebo Bold";
     $italic     = "Heebo Italic";
     $bolditalic = "Heebo Bold Italic";
+
+    # Open file
     if ( $templatefile =~ m/\.gz$/ ) {
         $err = open( S, "gunzip -c \"$templatefile\"|" );
     }
@@ -437,6 +481,8 @@ if ( $format == $SLA ) {
         exit(2);
     }
     while (<S>) {
+
+        # Set font variables according to template
         if (m/<Fonts .*Bold.*Italic/i) {
             ($bolditalic) = m/<Fonts .*Name="(.*?)"/;
         }
@@ -446,10 +492,12 @@ if ( $format == $SLA ) {
         elsif (m/<Fonts .*Italic/i) {
             ($italic) = m/<Fonts .*Name="(.*?)"/;
         }
+
+        # Set language in Scribus template
         s/ LANGUAGE="\S+?"/ LANGUAGE="$language"/g;
         if (m/PFILE="Capitals/) {
 
-            # File Capital image
+            # Determine filepath of Capital image
             ($page0)  = m/OwnPage="(\d+)"/;
             ($height) = m/HEIGHT="([\d\.]+)"/;
             ($suffix) = m/PFILE="Capitals\/(\S+?)"/;
@@ -463,6 +511,8 @@ if ( $format == $SLA ) {
             }
             $file = "Capitals/$pagecap[$page1]$suffix";
             s/PFILE="Capitals\/\S+?"/PFILE="$file"/;
+
+            # Get Capital file dimensions into $x and $y
             $dim = `file -L $file`;
             ( $x, $y ) = ( $dim =~ m/, (\d+) x (\d+),/ );
             chop($dim);
@@ -497,7 +547,7 @@ s/(M0 0 L[\d\.]+ 0 L[\d\.]+) [\d\.]+ L0 [\d+\.] L0/$1 $height L0 $height L0/g;
     }
     close(S);
 }
-elsif ( $format == $ODP ) {
+elsif ( $format == $ODP ) {    # Presentation
     if ( !( $templatefile =~ m|^/| ) ) {
         $templatefile = "$cwd/$templatefile";
     }
@@ -516,7 +566,7 @@ elsif ( $format == $ODP ) {
         exit(3);
     }
 
-    # Unzip template
+    # Unzip ODP template file into a directory for editing
     system("cd '$tmpdir'; unzip $templatefile");
 
     # Opening template content file:
