@@ -46,10 +46,10 @@ presentations_dir="../Presentations/${new_lang}"
 if [[ -n ${src_lang} ]] ; then
     # Copy from existing language
     cp "../Ada_Zangemann-${src_lang}.txt" "${text_file}"
-    cp -r "../illustrations/Capitals-${src_lang}" "${capitals_dir}"
-    cp -r "../illustrations/${src_lang}" "${illustrations_dir}"
-    cp -r "../Book/${src_lang}" "${book_dir}"
-    cp -r "../Presentations/${src_lang}" "${presentations_dir}"
+    cp -r "../illustrations/Capitals-${src_lang}/" "${capitals_dir}"
+    cp -r "../illustrations/${src_lang}/" "${illustrations_dir}"
+    cp -r "../Book/${src_lang}/" "${book_dir}"
+    cp -r "../Presentations/${src_lang}/" "${presentations_dir}"
     # Remove links which need to be replaced
     rm "${book_dir}/Ada_Zangemann-${src_lang}.txt"
     rm "${book_dir}/Capitals"
