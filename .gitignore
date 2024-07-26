@@ -8,3 +8,6 @@ Book/*/*.sla
 
 # Rendered pdf files
 Book/*/*.pdf
+
+# Text reading files
+Book/*/*-reading.txt
