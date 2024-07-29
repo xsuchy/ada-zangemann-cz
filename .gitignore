@@ -11,3 +11,6 @@ Book/*/*.pdf
 
 # Text reading files
 Book/*/*-reading.txt
+
+# Rendered png files
+Book/*/*.png

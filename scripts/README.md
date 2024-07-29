@@ -64,6 +64,17 @@ interface while doing the conversion.
 $ ./to_pdf.sh ../Book/nl/nl-screen.sla
 ```
 
+### png_from_pdf.sh
+
+Script to generate .png files from a certain page of the corresponding .pdf
+file. The aim of this script is to more easily check the rendering across
+translation when changes have been made. it is intended for use from the
+Makefile.
+
+```shell
+$ ./png_from_pdf.sh en-print-08.png  # to render page 8 of en-print.pdf
+```
+
 ### unwrapada.pl
 
 Remove hard line breaks so that each paragraph is on a single line. This unwraps

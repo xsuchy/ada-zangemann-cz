@@ -13,6 +13,12 @@ src-text = Ada_Zangemann-$(lang).txt
 sla-output = $(lang)-print.sla $(lang)-screen.sla $(lang)-coversoft.sla $(lang)-coverhard.sla
 pdf-output = $(sla-output:.sla=.pdf)
 reading-output = $(lang)-reading.txt
+
+screen-png = $(addprefix $(lang)-screen-, $(addsuffix .png, $(shell seq -w 1 60)))
+print-png = $(addprefix $(lang)-print-, $(addsuffix .png, $(shell seq -w 1 56)))
+covers-png = $(lang)-coversoft-1.png $(lang)-coverhard-1.png
+
+all-png = $(screen-png) $(print-png) $(covers-png)
 all-output = $(reading-output) $(sla-output) $(pdf-output)
 
 $(lang)-%.sla: template-%.sla $(src-text)
@@ -23,6 +29,22 @@ $(lang)-reading.txt: $(src-text)
 
 %.pdf: %.sla
 	$(scripts-dir)/./to_pdf.sh $<
+
+# Specific png targets for pdf files to maintain source and target relation.
+
+$(lang)-screen-%.png: $(lang)-screen.pdf
+	$(scripts-dir)/./png_from_pdf.sh $@
+
+$(lang)-print-%.png: $(lang)-print.pdf
+	$(scripts-dir)/./png_from_pdf.sh $@
+
+$(lang)-coversoft-%.png: $(lang)-coversoft.pdf
+	$(scripts-dir)/./png_from_pdf.sh $@
+
+$(lang)-coverhard-%.png: $(lang)-coverhard.pdf
+	$(scripts-dir)/./png_from_pdf.sh $@
+
+# Commands
 
 .PHONY: help
 help:
@@ -37,9 +59,15 @@ help:
 	@echo "  make help" >&2
 	@echo "All defined output files to make here:" >&2
 	@echo "  $(all-output)"
+	@echo "Additionally png images can be generated from the pdf files:" >&2
+	@echo "  single: make en-print-08.png
+	@echo "  all:    make all-png
 
 .PHONY: all
 all: $(all-output)
+
+.PHONY: all-png
+all-png: $(all-png)
 
 .PHONY: clean
 clean:
