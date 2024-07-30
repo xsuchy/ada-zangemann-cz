@@ -115,6 +115,24 @@ $ make nl-screen.sla
 $ make all
 ```
 
+#### Image comparison
+
+First generate a base set of images to compare against, before the change:
+
+```shell
+$ make all-png
+$ make compare-base
+```
+
+Then do the change, like adjusting the template or translation. Generate the
+.png files and generate a comparison:
+
+```shell
+$ make compare
+```
+
+The resulting images and log file can be found in the `compare-result` directory.
+
 ### scribus_pdf.py
 
 This is not a script to be run directly. It is a script that can be called from

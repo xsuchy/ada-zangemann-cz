@@ -44,7 +44,22 @@ $(lang)-coversoft-%.png: $(lang)-coversoft.pdf
 $(lang)-coverhard-%.png: $(lang)-coverhard.pdf
 	$(scripts-dir)/./png_from_pdf.sh $@
 
+# Generate all .png files and copy them to a separate directory to compare against.
+# Defined as a PHONY target to ensure concious creation.
+# A log file is generate with some useful details on the state of the repository.
+
+.PHONY: compare-base
+compare-base: $(all-png)
+	$(scripts-dir)/makefile_helpers/./compare_base.sh $(all-png)
+
+compare-result/%.png compare-result/%.metrics compare-result/%.status: %.png
+	$(scripts-dir)/makefile_helpers/./compare.sh $@
+
 # Commands
+
+.PHONY: compare
+compare: $(all-png) $(addprefix compare-result/, $(all-png))
+	$(scripts-dir)/makefile_helpers/./compare_summary.sh
 
 .PHONY: help
 help:
@@ -60,8 +75,11 @@ help:
 	@echo "All defined output files to make here:" >&2
 	@echo "  $(all-output)"
 	@echo "Additionally png images can be generated from the pdf files:" >&2
-	@echo "  single: make en-print-08.png
-	@echo "  all:    make all-png
+	@echo "  single: make en-print-08.png" >&2
+	@echo "  all:    make all-png" >&2
+	@echo "Compare pdf output using image comparison:" >&2
+	@echo "  make compare-base  # < before the change, to compare against" >&2
+	@echo "  make compare       # < after the change, to review" >&2
 
 .PHONY: all
 all: $(all-output)

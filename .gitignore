@@ -14,3 +14,7 @@ Book/*/*-reading.txt
 
 # Rendered png files
 Book/*/*.png
+
+# Compare directories
+Book/*/compare-base/
+Book/*/compare-result/
