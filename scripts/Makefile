@@ -1,4 +1,5 @@
 # SPDX-FileCopyrightText: 2024 Nico Rikken <nico.rikken@fsfe.org>
+# SPDX-FileCopyrightText: 2024 Petter Reinholdtsen <pere@hungry.com>
 #
 # SPDX-License-Identifier: CC0-1.0
 
@@ -80,6 +81,8 @@ help:
 	@echo "Compare pdf output using image comparison:" >&2
 	@echo "  make compare-base  # < before the change, to compare against" >&2
 	@echo "  make compare       # < after the change, to review" >&2
+	@echo "Check Scribus file to see if Capital files can be resolved:" >&2
+	@echo "  make check" >&2
 
 .PHONY: all
 all: $(all-output)
@@ -97,5 +100,6 @@ debug:
 	@echo lang: $(lang)
 	@echo all-output: $(all-output)
 
+.PHONY: check
 check: $(sla-output)
 	for f in $$(grep Capitals/ $(sla-output) | tr \" "\n" | grep Capitals/); do if [ ! -e $$f ] ; then echo $(lang) missing $$f; fi; done | sort -u
