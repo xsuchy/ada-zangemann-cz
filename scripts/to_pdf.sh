@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # SPDX-FileCopyrightText: 2024 Nico Rikken <nico.rikken@fsfe.org>
+# SPDX-FileCopyrightText: 2024 Petter Reinholdtsen <pere@hungry.com>
 #
 # SPDX-License-Identifier: CC0-1.0
 
@@ -19,4 +20,4 @@ fi
 
 # TODO: Hide GUI using xvfb-run or work-in-progress https://gitlab.freedesktop.org/ofourdan/xwayland-run
 
-scribus -g -py "${scripts_path}/scribus_pdf.py" -- "${1}"
+scribus --no-splash -g -py "${scripts_path}/scribus_pdf.py" -- "${1}"
