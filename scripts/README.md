@@ -81,7 +81,7 @@ Remove hard line breaks so that each paragraph is on a single line. This unwraps
 hard line breaks preceded by a space.
 
 ```shell
-$ ./unwrapada.pl Ada_Zangemann-en.txt > Ada_Zangemann-en-unwrapped.pl
+$ ./unwrapada.pl Ada_Zangemann-en.txt > Ada_Zangemann-en-unwrapped.txt
 ```
 
 ### wrapada.pl
@@ -90,7 +90,7 @@ Add hard line breaks in lines to limited the length. Each line is wrapped on a
 whole word to stay in a length of maximum 72 characters.
 
 ```shell
-$ scripts/unwrapada.pl Ada_Zangemann-en.txt > Ada_Zangemann-en-unwrapped.pl
+$ scripts/wrapada.pl Ada_Zangemann-en.txt > Ada_Zangemann-en-wrapped.txt
 ```
 
 Line breaks with a preceding space signify a continuation of the paragraph.
@@ -99,7 +99,7 @@ change the line breaks inside paragraphs, the unwrapdata.pl and wrapada.pl
 scripts can be combined:
 
 ```shell
-$ cat Ada_Zangemann-en.txt | scripts/./unwrapada.pl | scripts/./wrapada.pl > Ada_Zangemann-en-unwrapped.pl
+$ cat Ada_Zangemann-en.txt | scripts/./unwrapada.pl | scripts/./wrapada.pl > Ada_Zangemann-en-wrapped.txt
 ```
 
 ### Makefile
