@@ -22,7 +22,7 @@ if [[ -z ${1} ]] || [[ -n ${3} ]] ; then
     exit 1
 fi
 
-filename_pattern='^([a-zA-Z]+-[a-z]+)-([0-9]+)\.png$'
+filename_pattern='^([a-zA-Z_]+-[a-z]+)-([0-9]+)\.png$'
 
 if [[ ${1} =~ $filename_pattern ]] ; then
     dest_filename="${1}"
