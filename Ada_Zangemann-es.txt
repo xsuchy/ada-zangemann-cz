@@ -36,6 +36,23 @@ chapter-22,back_cover:Sinopsis
 [[I:cover
 IMAGEN: ADA & ZANGEMANN - Un cuento sobre Software, Monopatines y Helado 
 de Frambuesa
+Por Matthias Kirschner y Sandra Brandstätter.
+Sobre un fondo cian oscuro desaturado en su mayor parte, en un marco compuesto por 
+líneas blancas a veces rizadas que conectan un ratón, un teclado y un 
+smartphone rosa, Ada y Zangemann están frente a frente, ambos con las 
+las manos en la cadera en señal de desafío. Ada sonríe y 
+Zangemann frunce el ceño.
+Ada tiene el pelo negro recogido en dos grandes moños a derecha e izquierda 
+con gomas rojas, y las mejillas rojas. Lleva unos pendientes 
+amarillos. Viste pantalones cortos a rayas horizontales blancas y cian y una 
+camisa amarilla encima de una camiseta blanca que acaba en un bordado que se ve por debajo de la camiseta amarilla. La camiseta y la camiseta interior salen por encima de los pantalones cortos. 
+Por encima de la camiseta, Ada lleva una sudadera con capucha azul. Ada lleva zapatos rojos con 
+con puntera y suela blancas, y calcetines blancos cortos. Tiene un pie sobre un 
+monopatín y el otro en el suelo.
+Zangemann tiene el pelo corto y gris y gafas cuadradas. Lleva un jersey 
+jersey morado con cuello de tortuga, pantalones azul claro con una vuelta, zapatos marrones y calcetines blancos. 
+blancos. Lleva un gran reloj tecnológico. Sobre Zangemann hay un par de 
+de alicates con mango rojo que cruzan el marco de alambre. 
 ]]
 
 ** 1 **
@@ -111,7 +128,12 @@ demás.
 === Slide 1
 
 [[I:ada-p03
-IMAGEN: Matthias Kirschner, Sandra Brandstätter - ADA & ZANGEMANN -
+IMAGEN: Matthias Kirschner, Sandra Brandstätter - ADA & ZANGEMANN - Un 
+cuento de software, monopatines y helado de frambuesa.
+Título en el centro, autores arriba a la izquierda. 
+En la parte inferior derecha, el perro de la familia de Ada con pelaje gris
+y algunas manchas blancas y con un collar rojo con leds amarillos brillantes, 
+moviendo la cola. 
 ]]
 
 Matthias Kirschner
@@ -130,13 +152,17 @@ suficiente dinero para vivir en una casa bonita, así que Ada vivía
 con su madre y su hermano pequeño Alan en una cabaña cerca de un 
 desguace, a las afueras de la ciudad.
 [[I:ada-p04
-IMAGEN:
+IMAGEN: Ada en primer plano saliendo de casa para ir al colegio, al fondo la casa de Ada y la chatarrería. Ada lleva una mochila marrón con tirantes amarillos. 
+A la izquierda de Ada hay un coche rojo, un Volkswagen Escarabajo, sin ruedas y que ya no funciona, con uno de los faros delanteros sujeto sólo por los cables. A la izquierda, delante del coche, hay dos neumáticos, dos cajas -una de ellas de madera con un cubo volcado-, y una lata vacía, todo ello entre unas plantas con flores amarillas.
+Al fondo se ve la casa de Ada, con su madre y su hermano Alan despidiéndose con la mano, y el perro sentado en el suelo. Alan está sentado en los dos escalones de entrada de la casa. Tiene el pelo corto y oscuro y va vestido con una camiseta blanca de manga corta con una raya roja en los bordes de las mangas y dos rayas rojas en la parte inferior de la camiseta. Alan lleva pantalones cortos azules y está descalzo.La madre de Ada tiene los labios pintados de oscuro y el pelo largo y negro recogido en una cinta blanca. Lleva una camisa azul corta con ribetes blancos, pantalones blancos y zapatos amarillos.
+La casa de Ada es de madera, con la fachada blanca. El tejado es de chapa ondulada de color rojo oscuro. Hay dos ventanas delante, además de la puerta, y otra ventana en el lado izquierdo. Encima del tejado hay un pato amarillo y sobresale una chimenea gris. Una antena a la izquierda del tejado sostiene un tendedero en el que unas pinzas rojas sujetan una camiseta verde de tirantes, unos pantalones azul claro y unos calzoncillos blancos. A la derecha de la casa hay un porche en el que hay instalado un panel solar. Bajo el porche hay un colchón, un bidón de aceite rojo y una maleta gris.
+Detrás de la casa hay montones de desechos, entre los que se pueden ver una lavadora, un coche y varias tablas de madera. 
 ]]
 
 ** 5 **
 
 [[I:ada-p05
-IMAGEN:
+IMAGEN: Revistas de renombre ("STARS", "MONEY", "Richest Man") en cuya 	portada aparecen Zangemann y su villa. 
 ]]
 Muy lejos, en la otra punta de la ciudad, vivía un famoso inventor 
 llamado Zangemann. Era muy rico , tanto que no había una hoja de 
@@ -174,7 +200,9 @@ en la punta del dedo.
 ** 7 **
 
 [[I:ada-p07
-IMAGEN:
+IMAGEN: Zangemann de niño en una silla ante una mesa de colegio. De su cabeza salen seis burbujas en las que están sus ideas de lugares en los que insertar ordenadores: un sistema de videollamada, un altavoz, una lavadora, un monopatín con radiocontrol sobre un gran monitor de ordenador, un ordenador de muñeca y un ordenador de hombro con monitor y teclado.
+Zangemann lleva el pelo gris, una camisa morada oscura con rayas horizontales azules, pantalones cortos azules, zapatos marrones y calcetines blancos. Lleva gafas y un reloj grande en la muñeca izquierda.
+Sobre la mesa hay un cuaderno abierto, un lápiz amarillo y una goma de borrar, mientras que colgado a un lado de la mesa está su maletín marrón. 
 ]]
 
 ## 8 ##
@@ -185,7 +213,12 @@ los ordenadores en todo tipo de objetos para hacerlos aún más divertidos
 y útiles. Y luego los vendió.
 
 [[I:ada-p08b
-IMAGEN:
+IMAGEN: Máquina de helados original de Zangemann. 
+Es de color azul hielo y es similar a una máquina expendedora de bebidas, pero en lugar del vaso hay un cono que se llena de helado.
+Sobre el dispensador hay un monitor que muestra la variedad que se 	que se distribuye, en este caso helado de piña.
+A la izquierda está la ranura para introducir las monedas, los distintos botones para elegir el sabor, y el agujero para devolver el cambio.
+En la parte superior hay un cartel blanco redondo con una bola de helado rosa en un cucurucho. 
+En la parte trasera de la máquina está la maquinaria de refrigeración con la "Z" del logotipo de Zangemann. 
 ]]
 Sus inventos encantaban a niños y adultos. Todos los niños querían sus 
 monopatines con los últimos sonidos para enseñárselo a sus amigos del 
@@ -196,13 +229,14 @@ servía la “Máquina de Helados Original Zangemann”. Todo parecía mágico,
 pero el secreto era sencillo: los pequeños ordenadores que Zangemann 
 incorporó a sus máquinas.
 [[I:ada-p08a
-IMAGEN:
+IMAGEN: Un monopatín eléctrico original de Zangemann que deja una estela azul con notas musicales y círculos de colores. Sólo se muestran las rodillas, los calcetines blancos y los zapatos verde oliva con suela blanca del niño que lo monta. 
 ]]
 
 ** 9 **
 
 [[I:ada-p09
-IMAGEN:
+IMAGEN: Ada juguetea con objetos en su improvisado laboratorio. Ada está sentada en una caja de agua que está del revés, y trabaja arreglando algo con un destornillador amarillo. 
+Sobre la mesa también hay unos alicates verdes, un martillo rojo,  una regleta blanca y otro artilugio. Ada está en una mesa formada por un tablero de madera apoyado sobre dos bidones de aceite (uno gris y otro rojo) y un pequeño caballete de madera. Detrás de Ada hay una lavadora, tuberías y una tabla. Delante de la improvisada mesa hay neumáticos y un viejo teléfono con un cable defectuoso. Alan se acerca a Ada sujetando un ventilador amarillo sobre la cabeza. Alan lleva ahora calcetines blancos y zapatos amarillos. 
 ]]
 Estos inventos eran muy populares en el colegio de Ada y muchos de sus 
 amigos montaban en esos monopatines. Pero Ada, a menudo, estaba triste, 
@@ -239,7 +273,7 @@ A veces la gente se decepcionaba cuando su sabor favorito no estaba disponible,
 pero, ¿qué podían hacer? ¡No podían quejarse! Al fin y al cabo, había helados 
 en cada esquina.
 [[I:ada-p10
-IMAGEN:
+IMAGEN: Una regleta blanca conectada a una toma de corriente. La regleta  tiene 3 tomas y un interruptor verde. Una de las tomas está conectada a un enchufe con un cable gris. 
 ]]
 
 ** 11 **
@@ -249,7 +283,8 @@ gente comer helado. Pasaba muchas horas al día frente a su ordenador
 dorado. Una y otra vez miraba la ciudad a través de un gran telescopio,
 observando lo bien que sus inventos ejecutaban sus órdenes.
 [[I:ada-p11
-IMAGEN:
+IMAGEN: Zangeman sentado frente a su ordenador dorado en un sillón dorado con un altísimo respaldo rojo acolchado en cuya parte superior está la "Z" del logotipo de Zangemann. Lleva un jersey morado con cuello de tortuga y unos pantalones azul claro.
+El ordenador tiene cuatro monitores ornamentados de varios tamaños, cada uno de los cuales tiene el logotipo en la parte posterior. Está integrado en un escritorio carísimo de madera del que sale un cable gris que se conecta a la regleta de enchufes de la página anterior. 
 ]]
 
 ## 12 ##
@@ -261,7 +296,7 @@ que tocaban música alegre en vez de hacer ruido, lámparas que se encendían y
 apagaban con un chasquido de dedos y coches que indicaban dónde estaba el 
 supermercado más cercano mientras conducías.
 [[I:ada-p12
-IMAGEN:
+IMAGEN: Paisaje urbano con casas y tiendas, con una calle central que gira a la derecha. En la carretera hay un coche y un ciclista. Hay varios niños y adultos paseando o yendo en monopatín, algunos comiendo helado, mientras otros compran helado en las máquinas de la marca Zangemann.
 ]]
 
 En poco tiempo, casi todos los electrodomésticos llevaban incorporado un 
@@ -275,7 +310,7 @@ Un día Zangemann pensó: “Hoy quiero ver mis inventos de cerca”. Guardó su
 telescopio y, lleno de ilusión, bajó las numerosas escaleras de su mansión para 
 disfrutar de sus geniales aparatos.
 [[I:ada-p13
-IMAGEN:
+IMAGEN: Zangemann desciende las escaleras desde su mansión en la colina hacia la ciudad. La casa de Zangemann se alza sobre una colina. La fachada es azul con grandes ventanales; las torres son azul oscuro, y de una ventana parte un tobogán amarillo que termina en una gran piscina con dos palmeras. Los tejados son rojos, y sobre la torre más alta hay instalada una antena. A los lados de las escaleras para bajar de la colina hay árboles de hoja perenne. 
 ]]
 
 ## 14 ##
@@ -289,7 +324,8 @@ el sabor del día.
 Estaba completamente absorto en sus pensamientos cuando de repente – 
 ¡BAM! – algo se estrelló contra su espinilla.
 [[I:ada-p14
-IMAGEN:
+IMAGEN:  Zangemann tras el incidente con el niño. Zangemann grita 
+El niño tiene el pelo castaño, que el grito de Zangemann despeina hacia atrás; viste sudadera con capucha azul claro y pantalones verde oscuro. Sostiene un monopatín eléctrico rojo de Zangemann. 
 ]]
 
 ** 15 **
@@ -306,7 +342,8 @@ sostenía al otro lado de la calle. Al niño parecía gustarle la música,
 pero a Zangemann le provocó un terrible dolor de cabeza y su humor empeoró aún más. 
 ¡No era así como había imaginado su paseo!
 [[I:ada-p15
-IMAGEN:
+IMAGEN: Anuncios de helados Zangemann (tablón de anuncios), un monopatín eléctrico Zangemann y una lavadora Zangemann.
+La profesora de matemáticas, la Sra. Gernet, pasa por delante de los carteles. La Sra. Gernet es una señora mayor con el pelo corto y blanco.  Va vestida con una camiseta verde claro y un jersey verde guisante, pantalones marrón oscuro y zapatos de tacón verde claro.  Lleva un bolso fucsia colgado al hombro. Empuja un pequeño carrito de la compra en el que hay un perrito marrón con collar y chapa.
 ]]
 
 ## 16 ##
@@ -319,13 +356,13 @@ pequeños ordenadores de los altavoces que sólo pusieran música a volumen
 ambiente excepto su música favorita, que encendió inmediatamente para 
 ponerse de mejor humor.
 [[I:ada-p16
-IMAGEN:
+IMAGEN: La ciudad al atardecer, con casas, una iglesia y dos farolas. De las viviendas aparecen imágenes que muestran los inventos de Zangemann comprados por sus habitantes: una lavadora, una aspiradora amarilla y un coche rojo, todos con señales de conexión a Internet. 
 ]]
 
 ** 17 **
 
 [[I:ada-p17
-IMAGEN:
+IMAGEN: Continuación de la imagen anterior, donde al fondo se ve la colina con la casa de Zangemann de cuya antena salen las señales para controlar los diversos aparatos. En las imágenes emergentes aparecen: un monopatín eléctrico rojo, una bombilla, una máquina de helados y un retrete, que reciben órdenes de Zangemann. 
 ]]
 
 ## 18 ##
@@ -335,7 +372,7 @@ a la escuela, los monopatineshabían dejado de funcionar. Las ruedas simplemente
 se quedaron paradas. Y los niños ya no podían subir el volumen de sus 
 altavoces. ¿Qué estaba pasando?
 [[I:ada-p18
-IMAGEN:
+IMAGEN: Cinco chicos del colegio que no saben qué hacer para que los monopatines funcionen. Dos chicas llevan cascos, azul y rojo respectivamente. Una niña con el pelo pelo castaño atado en dos colas con gomas amarillas está arrodillada. Está intentando comprender por  qué el monopatín de su amiga con rojo no funciona. Cuatro niños llevan mochilas al hombro, mientras que la niña del casco rojo ha dejado la suya apoyada en un banco en el que hay una manzana amarilla y una botella azul claro con una flor blanca.
 ]]
 
 ** 19 **
@@ -351,13 +388,13 @@ en el trabajo.
 
 
 [[I:ada-p19
-IMAGEN:
+IMAGEN: Primer plano de Ada pensativa, con una mochila y con una mano en la barbilla y la otra apoyada en el costado. 
 ]]
 Al cabo de unos días, el susto inicial n la escuela de Ada se había olvidado.  
 Los monopatines seguían sin poder ir por  la acera, pero aparte de eso 
 funcionaban bien. Los niños daban vueltas  por el patio de recreo y  
 escuchaban música suave.  
-Sólo  una marcha
+Sólo una marcha
 extraña y pomposa seguía sonando a todo volumen, 
 marcha, algo bastante inquietante.
 
@@ -393,7 +430,8 @@ a programar.
 
 ** 21 **
 [[I:ada-p21
-IMAGEN:
+IMAGEN: Pantalla de ordenador de la que emergen símbolos de programación: "while num > 0", "init", "sx=42", "for", "v**3".
+Ada escribe en un teclado blanco con un cable azul, mientras su otra mano entra en la pantalla para cambiar el programa ("print(msg)", a+b+c+d=e", "if", "break", "continue", "exit()"). Junto al teclado hay un lápiz y una goma de borrar. 
 ]]
 
 ## 22 ##
@@ -421,7 +459,8 @@ hora después de que se quedase dormido.
 ** 23 **
 
 [[I:ada-p23
-IMAGEN:
+IMAGEN: Ada se familiariza con la programación. Está escribiendo en un teclado apoyado sobre una alfombrilla gris y conectado a un smartphone con un cable azul. El smartphone está conectado con un cable rojo a una tarjeta electrónica con una lámpara LED amarilla. El smartphone se alimenta mediante un transformador conectado a una regleta con un cable y un enchufe gris.
+Sobre la mesa también hay: 3 libros, de los cuales uno está abierto; un portapapeles y un lápiz; alicates; pegamento; estaño; y un soldador desconectado. 
 ]]
 Ada ya tenia una  idea para el próximo. Era algo más grande, un verdadero 
 proyecto. Probablemente le llevaría todas las vacaciones de verano...
@@ -430,7 +469,7 @@ proyecto. Probablemente le llevaría todas las vacaciones de verano...
 ## 24 ##
 
 [[I:ada-p24
-IMAGEN:
+IMAGEN: Zangemann mira pensativo con los brazos cruzados a través de uno de los grandes ventanales de su casa, a la que llegan los rayos del sol. 
 ]]
 
 ** 25 **
@@ -482,7 +521,13 @@ empezó a moverse, primero despacio y luego más rápido. ¡Funcionaba! Ada fren
 ** 27 **
 
 [[I:ada-p27
-IMAGEN:
+IMAGEN: Ada corre con su monopatín eléctrico por las aceras de la ciudad. El monopatín de Ada es azul, con ruedas grises y rosas; la parte electrónica está situada encima del monopatín (a diferencia de los monopatines de Zangemann, en los que la parte electrónica está debajo).  
+Ada sujeta con ambas manos un control remoto con una antena corta para maniobrarlo.
+Detrás de Ada están Marie y Toni, que llevan sus propios monopatines bajo el brazo y miran con asombro a Ada, que ha pasado disparada por delante de ellos.
+Marie lleva el pelo largo y oscuro con dos trenzas sujetas con pinzas naranjas,  pendientes amarillos, camisa fucsia con mangas blancas a rayas horizontales moradas, una falda blanca, zapatillas deportivas blancas y calcetines blancos, una gorra blanca con los lados amarillos y una mochila morada clara. Marie tiene una pierna artificial azul. Su monopatín es azul con ruedas amarillas.
+Toni lleva el pelo pelirrojo muy recortado por los lados. Lleva una sudadera azul, pantalones verde oscuro y zapatos blancos.Lleva una mochila roja con inserciones y tirantes blancos.Tiene una mano junto a la boca.Su monopatín es morado con ruedas naranjas.También hay un padre con su hijo caminando en dirección contraria: el padre va vestido con una chaqueta de cuadros azules y pantalones azules y lleva un maletín marrón.Sonríe a Ada.Su hijo lleva una camisa azul, pantalones cortos azules, zapatos blancos, una mochila marrón y una gorra roja y blanca. Sostiene bajo el brazo un monopatín Zangemann amarillo con ruedas marrón claro y sonríe a Ada.
+Al fondo hay una panadería con grandes ventanales por los que se ve el pan.Tiene un toldo a rayas verdes y blancas en la esquina y un cartel en la acera con la lista de productos.Encima, se exhibe un gran pretzel.
+En la carretera hay un charco que refleja el azul del cielo.
 ]]
 
 ## 28 ##
@@ -493,7 +538,14 @@ recreo, rodearon a Ada con curiosidad.
 
 “¿Cómo puedes ir en monopatín por la acera?”, le preguntaron.
 [[I:ada-p28
-IMAGEN:
+IMAGEN: Ada se detiene en su monopatín rodeada de niños. Marie está en 
+un extremo. Señala el monopatín de Ada y habla.
+Junto a ella está Konrad, con el pelo corto y rubio, un casco gris oscuro 
+gafas, camisa verde con cuello y puños blancos, pantalones azul claro 
+con puños blancos, y zapatos grises con suela blanca. Tiene un monopatín 
+rojo con ruedas naranjas.
+Detrás de Ada hay otros 4 niños. Al otro lado, Toni sonríe. 
+Se toca la barbilla con una mano y con la otra sujeta un casco amarillo por las correas. 
 ]]
 
 ** 29 **
@@ -512,7 +564,9 @@ larguísimo. Ada sabía que pequeños errores como ese podían aparecer en
 los programas todo el tiempo, pero el eructo del monopatín de Toni 
 era... ¡realmente muy divertido!.
 [[I:ada-p29
-IMAGEN:
+IMAGEN: Diagrama de rayuela dibujado con tiza sobre el asfalto. En una fila, dentro de cuadrados, los números 1, 2; 3 y 4 uno al lado del otro; 5, 6; y 7 y 8 uno al lado del otro. El número 9 no está dentro de un cuadrado, sino dentro de un semicírculo más amplio más allá de los cuadrados de los números 7 y 8.
+Entre el número 1 y el número 2 hay una botella azul con lunares blancos. 
+Un monopatín Zangemann amarillo con ruedas naranjas a un lado del 	diagrama oculta, en la práctica, el número 1.
 ]]
 
 ## 30 ##
@@ -530,7 +584,7 @@ conectó luces LED que brillaban con diferentes colores
 dependiendo de la velocidad. Konrad le integró unas viejas hélices para 
 aumentar la velocidad.
 [[I:ada-p30
-IMAGEN:
+IMAGEN: Una pila verde con cables rojo y amarillo, una regleta, pegamento, un rollo de estaño y dos lápices. 
 ]]
 
 ** 31 **
@@ -546,25 +600,31 @@ comentó Toni, que estaba ocupado colocando un velocímetro en su casco.
 
 Juntos cambiaron el <i>software</i> de los altavoces. Después, subieron 
 el volumen de la música al máximo y bailaron juntos como locos.
-IMAGEN:
+[[I:ada-p31
+IMAGE: Un destornillador con mango naranja y gris, unos alicates rojos y tres 
+LED: amarillo, verde y rosa. 
 ]]
 
 ## 32 ##
 
 [[I:ada-p32
-IMAGEN:
+IMAGEN: Laboratorio en el desguace, bajo el porche de la casa de Ada. Ada está sentada en una caja de agua con una pierna doblada debajo de ella, utilizando un soldador. Konrad está de pie junto a ella y desmonta un altavoz. Marie está sentada sobre dos neumáticos con un brazo apoyado en una mesa y su monopatín bocabajo del que salen cables. Está hablando con Alan, que está de pie con los brazos apoyados en la misma mesa.
+Sobre la mesa hay también: unos alicates, dos llaves inglesas, una bobina de soldadura, un bote de pintura azul (un poco de pintura se ha secado en la mesa), y una jarra y dos vasos que contienen una bebida rosa.
+Toni está probando su monopatín al que ha añadido unas alas amarillas y un ventilador. El monopatín emite eructos. 
 ]]
 
 ** 33 **
 
 [[I:ada-p33
-IMAGEN:
+IMAGEN: Marie y la madre de Ada están bailando, una frente a la otra. Alan, Ada y Konrad bailan en círculo.
+A la derecha suena un altavoz, apoyado en un bidón de aceite. Cerca del altavoz hay dos ratones bailando.Toni está saltando entre los neumáticos.
+El perro de Ada aúlla y de su boca salen dos notas musicales distorsionadas. 
 ]]
 
 ## 34 ##
 
 [[I:ada-p34
-IMAGEN:
+IMAGEN:  Manos sosteniendo cucuruchos de helado de ensueño: helado azul con un corazón de chocolate encima con un corazón amarillo en el centro, y nata montada encima del chocolate; helado verde con estrellas de colores con un pepino clavado en un palo; helado rosa con forma de pez; helado en forma de pirámide con caramelos, sirope de chocolate y una cereza encima; helado arco iris con un paraguas amarillo; helado azul en forma de fantasma con caramelos encima. 
 ]]
 
 ** 35 **
@@ -613,7 +673,9 @@ Cualquiera que reprograme los dispositivos de Zangemann será multado con
 ** 37 **
 
 [[I:ada-p37
-IMAGEN:
+IMAGEN: El Presidente recibe una llamada del Zangemann enojado. El videoteléfono consiste en un viejo teléfono rojo Zangemann de marcación conectado a un monitor. La cara de Zangemann aparece en el monitor, mientras una ráfaga amarilla de la atronadora voz de Zangemann sale del teléfono, y el Presidente sostiene el auricular con el brazo extendido.
+El Presidente tiene el pelo blanco y lleva una camisa azul claro, una corbata roja y una chaqueta azul con botones amarillos.El Presidente está sentado en una silla verde con líneas verticales blancas, y su otra mano está sobre el escritorio. Sobre el escritorio, además del videoteléfono, hay hojas con algo escrito y una  pluma estilográfica morada.
+El Presidente estaba comiendo un bocadillo de carne y queso con verduras con dos aceitunas en un palillo, sobre una servilleta azul con rayas blancas. 
 ]]
 
 ## 38 ##
@@ -627,7 +689,7 @@ Se reunieron frente a una de sus máquinas de helados reconstruidas y
 discutieron la situación. Estaba claro que había que hacer algo sobre la 
 nueva ley y trazaron un plan...
 [[I:ada-p38
-IMAGEN:
+IMAGEN: Latas de pintura verde, azul y rosa; un pincel con pintura amarilla,  un rotulador verde claro y una pancarta enrollada sobre la que ha caído pintura azul. 
 ]]
 
 ** 39 **
@@ -649,7 +711,7 @@ monopatines Ada había reprogramado. El padre de Toni y otros padres
 también quisieron apoyar la protesta. Los inventos de los niños les parecían 
 muy útiles. 
 [[I:ada-p39
-IMAGEN:
+IMAGEN: Pintura amarilla y verde en el suelo y lápices de cera amarillos, rojos, azul, verde y marrón; estos 3 últimos están en una caja de cartón gris. 
 ]]
 
 ## 40 ##
