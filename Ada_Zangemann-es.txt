@@ -725,7 +725,9 @@ Gernet. La multitud creció y, al cabo de unas semanas, hubo protestas no
 solo en la ciudad de Ada, sino también en muchas otras ciudades de todo 
 el país.
 [[I:ada-p40-41
-IMAGEN:
+IMAGEN: Grupo de manifestantes. Entre ellos están: La madre de Ada cogiendo de la mano a Alan y levantando un helado rosa; 3 colegas del padre de Toni vestidos con corbata; dos niños con la pancarta "¡Haga sus deberes Sr. Presidente y nosotros haremos los nuestros"; un robot cuyas patas son unas ruedas de oruga, planchas como piernas, un ventilador eléctrico como abdomen, un cabeza, un batidor de huevos en una mano y un helado azul en la otra mano; dos padres que sostienen la pancarta "Hacking 4 Freedom"; una señora que sostiene un cartel electrónico "Hay un código B"; dos pequeños pájaros, volando; la profesora de matemáticas, la Sra. Gernet, que ha insertado en su carrito un cartel que  dice "¡Son jóvenes + necesitan el código!". El perro de su carrito ladra;
+Ada y Konrad llevan la pancarta "¡No destroces nuestra tecnología!". Marie y Toni caminan bajo la pancarta y Marie habla con un megáfono en la mano. megáfono en la mano;
+El perro de la familia de Ada lleva ahora un arnés rojo con brillantes LED amarillos a juego con el collar. 
 ]]
 
 	## ¡Haz tus deberes señor presidente y nosotros haremos los nuestros!
@@ -733,10 +735,10 @@ IMAGEN:
 ** 41 **
 
 [[I:ada-p40
-IMAGEN:
+IMAGEN: Detalle de la imagen anterior: dos niños sosteniendo la pancarta "¡Haga sus deberes Sr. Presidente y nosotros  haremos los nuestros". 
 ]]
 [[I:ada-p41
-IMAGEN:
+IMAGEN: Detalle de la imagen anterior: Ada y Konrad portan la pancarta "¡No destrocéis nuestra tecnología!". Marie y Toni caminan bajo la pancarta y Marie habla con un megáfono en la mano; el perrito de la familia de Ada lleva un arnés rojo con LED amarillos brillantes a juego con el collar.
 ]]
 	## ¡Son jóvenes + necesitan el código!
 
@@ -760,7 +762,7 @@ programación, así que dependía de Zangemann. Pensativo,
 el presidente entró en el edificio.
 ==== Slide 22
 [[I:ada-p42
-IMAGEN:
+IMAGEN: Uno de los amigos de Ada, tumbado boca abajo y con un pie en el aire  está tecleando en un portátil. Tiene el pelo castaño ondulado con la raya en medio, una sudadera roja, pantalones azules y calcetines blancos, pero no lleva zapatos. Junto al ordenador hay una taza verde y dos libros abiertos. 
 ]]
 Al día siguiente, el presidente llamó a Ada y a sus amigos. 
 “Nosotros también queremos controlar nuestro <i>software</i>. Pero para ello,  
@@ -778,7 +780,9 @@ todo lo que podían cambiar y cómo mejorar el <i>software</i>.
 Esa tarde, los niños volvieron a casa orgullosos y satisfechos. ¡Por fin 
 había ocurrido algo! Su larga protesta había merecido la pena.
 [[I:ada-p43
-IMAGEN:
+IMAGEN: Ada y sus amigos en el despacho del Presidente. Ada está reprogramando el ordenador del presidente y Toni está instalando un altavoz para la secretaria del presidente. Marie, con un portátil en sus piernas, está sentada con Konrad en el suelo hablando. El portátilde Marie tiene una pegatina con el logo de la FSFE (tres estrellas: verde guisante,  azul cielo y azul mar).
+En el suelo hay un bol con caramelos y un plato con helados.
+El teléfono del Presidente está sonando, pero nadie contesta. 
 ]]
 
 ## 44 ##
@@ -791,7 +795,7 @@ presidente estaba reunido con Ada, Toni, Marie, Konrad y los expertos
  del gobierno.
 
 [[I:ada-p44
-IMAGEN:
+IMAGEN: Un heraldo, tocado con un sombrero con penacho, toca una trompeta de la que cuelga un estandarte rojo
 ]]
 Durante los días siguientes, hablaron desde la mañana hasta la noche y 
 diseñaron sus primeros programas para los ordenadores del gobierno.  
@@ -818,7 +822,8 @@ siempre y cuando se respeten las demás leyes”.
 Además, se introdujo una nueva asignatura en los colegios: sistemas y 
 programas informáticos.
 [[I:ada-p45
-IMAGEN:
+IMAGEN: El Presidente con Toni, Konrad, Marie, Ada, y un heraldo tocando  una trompeta. Marie está de pie en lo alto de una escalera hablando por un micrófono. Conrad sujeta con firmeza la escalera sobre la que está Marie. Ada está de pie sobre una silla y sostiene una copia de la nueva ley con un sello. 
+El perro de Ada está sentado frente a ella. 
 ]]
 
 ## 46 ##
@@ -829,7 +834,7 @@ conductora del autobús y el conserje. Decoraron las calles, escucharon
 música a todo volumen y comieron helado, tanto como quisieron y de todas 
 las formas y colores imaginables.
 [[I:ada-p46
-IMAGEN:
+IMAGEN: Una fiesta nocturna. Los niños sostienen helados y globos con las palabras "I love FS (I love Free Software)"; otros niños montan en monopatín; cuelgan banderas amarillas y naranjas;  Suena música en un gran equipo de altavoces; La Sra. Gernet sostiene un helado rosa en forma de árbol con una estrella amarilla; La madre de Ada baila con un caballero. 
 ]]
 
 ** 47 **
@@ -837,8 +842,8 @@ IMAGEN:
 Mientras los demás seguían de fiesta hasta altas horas de la madrugada, 
 Ada, Toni, Marie y Konrad se escabulleron a su taller. Tenían muchas 
 ideas para nuevos inventos y querían empezar enseguida.
-[[I:ada-p47
-IMAGEN:
+[[I:ada-p47 
+IMAGEN: El Presidente, la secretaria y otras personas alrededor de una mesa disfrutando de un helado descabellado; las banderas amarilla y naranja continúan de la imagen anterior; una niña que acaba de coger un helado rosa con forma de fantasma de la máquina de helados modificada; el perro de Ada, Konrad, Marie, Ada y Toni escapándose de la fiesta.
 ]]
 
 ## 48 ##
@@ -852,13 +857,13 @@ niños inventan cada día. Tal vez entonces recuerde lo divertido que era
 para él trastear y experimentar. Y tal vez, sólo tal vez, coma helado de 
 frambuesa con forma de pirámide y virutas de arco iris.
 [[I:ada-p48
-IMAGEN:
+IMAGEN: El perrito de Ada olfateando un rastro de helado. 
 ]]
 ===== Slide 26
 ** 49 **
 
 [[I:ada-p49
-IMAGEN:
+IMAGEN: Un reguero de caramelos y helado de frambuesa en el suelo. 
 ]]
 
 ## 50 ##
@@ -895,7 +900,7 @@ ellos, este libro no existiría.
 ** 51 **
 
 [[I:ada-p51
-IMAGEN:
+IMAGEN: La perra de Ada mueve el rabo después de encontrar a Zangemann escondido tras una cortina y comiéndose un cucurucho de helado con caramelos y un parasol azul y un montón de helado de frambuesa goteando. 
 ]]
 
 ## 52 ##
@@ -913,7 +918,7 @@ humanos usen el <i>software</i> de forma auto-determinada. También
 quiere construir un monopatín eléctrico con <i>Software Libre</i>.
 
 [[I:ada-p52
-IMAGEN:
+IMAGEN: Primer plano de Matthias sonriendo, saludando con una mano y llevando un auriculares. Matthias lleva el pelo corto y tiene un poco de barba. 
 ]]
 
 ** 53 **
@@ -930,7 +935,7 @@ En una máquina de helados, Sandra elegiría un cremoso helado de arcoíris
 con sabor a pepino limón y un montón de virutas.
 
 [[I:ada-p53
-IMAGEN:
+IMAGEN: Sandra sonríe con un lápiz en la mano delante de la barbilla.  Lleva auriculares con un micrófono integrado. Sandra lleva el pelo corto y gafas. 
 ]]
 
 ## 54 ##
@@ -971,7 +976,7 @@ https://creativecommons.org/licenses/by-sa/4.0/deed.es
 ## 56 ##
 
 [[I:ada-p56
-IMAGEN:
+IMAGEN: Ilustración para colorear de una mano que sostiene un cucurucho de helado en forma de pez con un pepino en  un palillo adornado. En una esquina inferior, un lápiz con un garabato. 
 ]]
 Agrega sabores deliciosos, divertidos o locos y dibújalos en los conos 
 de helado en la siguiente página.
@@ -982,7 +987,7 @@ https://ada.fsfe.org
 ** 57 **
 
 [[I:ada-p57
-IMAGEN:
+IMAGEN: Tres manos que sostienen otros tantos cucuruchos de helado vacíos, para dibujar y colorear. En el aire, sobre el cucurucho del medio, hay un paraguas. 
 ]]
 
 ## 58 ##
@@ -992,7 +997,7 @@ IMAGEN:
 ## 60 ##
 
 [[I:back_cover-a
-IMAGEN:
+IMAGEN:  Un soldador y un pincel y un bote con pintura amarilla, conectados por un cable eléctrico blanco que forma un recuadro. 
 ]]
 
 [E]l inventor Zangemann es famoso en todo el mundo y es inmensamente 
@@ -1007,5 +1012,6 @@ Un libro que estimula el interés por experimentar y fomenta dar forma a
 la tecnología.
 
 [[I:back_cover-b
-IMAGEN:
+IMAGEN:  Una regleta, con entrada y salida de cable eléctrico blanco 
+	que hace de recuadro. 
 ]]
