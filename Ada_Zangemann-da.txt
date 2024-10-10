@@ -146,7 +146,7 @@ mobiltelefon, for eksempel. Skærmen var smadret, men det kunne hun
 ordne. Der var godt nok ikke noget internet på lossepladsen, men det 
 kunne hun få adgang til andre steder.
 
-Ada havde det så sjovt med at makke på lossepladsen og fikse ødelagte 
+Ada havde det så sjovt med at rode på lossepladsen og fikse ødelagte 
 ting, at hun glemte alt om skateboardsene og isen.
 
 ## 10 ##
@@ -247,7 +247,7 @@ for dem. Hvad foregik der?
 Selv om hun ikke ejede nogen af tingene selv, undrede Ada sig over, 
 hvordan det kunne være, at skateboardsene og højtalerne pludselig holdt 
 op med at virke. Men hun havde ikke tid til at spekulere for meget over 
-det, for hun var i gang med at makke igen. Hun byggede en cykel som en 
+det, for hun var i gang med at skrue på lossepladsen igen. Hun byggede en cykel som en 
 gave til sin mor, så hun ikke skulle bruge penge på at tage bussen til 
 arbejdet. Og til sin bror byggede hun en højtaler, så han kunne lytte 
 til rare godnathistorier om aftenen, når han skulle sove og deres mor 
@@ -283,7 +283,7 @@ for eksempel fortælle en højtaler, hvilken sang den skulle spille og
 hvor højt den skulle gøre det.
 
 Det bedste ved Adas nye opdagelse var, at hun fandt ud af, at hun kunne 
-makke med software, præcis ligesom hun kunne makke med hardware. 
+arbejde med software, præcis ligesom hun kunne arbejde med hardware. 
 Hardware er bygget med værktøj som hamre, bor og skruer. Software blev 
 bygget ved, at man skrev kommandoerne til hardwaren ned en efter en. Der 
 fandtes et særligt sprog til det - programmeringssproget. Med software 
@@ -371,7 +371,7 @@ downloadede det til sin telefon.
 
 Tilbage på lossepladsen skrev hun et par linjer kode ind i sit 
 skateboardprogram.
-Hun justerede et par ting og makkede videre.
+Hun justerede et par ting og arbejdede videre.
 
 Flere fejlslagne forsøg senere, på sommerferiens sidste dag, var tiden 
 endelig kommet. Ada stod på skateboardet og trykkede på Kør!-knappen. 
@@ -620,14 +620,14 @@ sig om, hvad folk finder på med hans opfindelser. Men det kan også være,
 at han nogle gange kikker ud på verden gennem sit teleskop og ser alle 
 de seje ting, som børnene opfinder hver eneste dag. Det kan være, at han 
 så en dag vil komme i tanker om, hvor sjovt det var for ham selv at 
-makke og eksperimentere. Og måske - bare måske - spiser han en 
+rode og eksperimentere. Og måske - bare måske - spiser han en 
 pyramideformet is med regnbuedrys på.
 
 ** 49 **
 
 ## 50 ##
 
-Taksigelser
+Tak til
 
 Mange tak til Reinhard Wiesemann fra Linuxhotel for den økonomiske 
 støtte og motivationen til ikke længere kun at planlægge, men faktisk 
