@@ -5,55 +5,53 @@
 ## 0 ##
 
 [[IDX:
-toc:Table of Contents
+toc:Obsah
 text:Text
-cover:Cover
-other.titlepage:Front Cover
-chapter-01,cover:Front Cover
+cover:Přebal
+other.titlepage:Titulní strana
+chapter-01,cover:Titulní strana
 chapter-02,page_02:Imprint
 chapter-03,page_04:Ada & Zangemann
-chapter-04,page_06:Zangemann and computers
-chapter-05,page_13:One day...
-chapter-06,page_18:Skateboards no longer work
-chapter-07,page_20:Ada and software
-chapter-08,page_22:Programming
-chapter-09,page_25:A horrible night
-chapter-10,page_26:First real project
-chapter-11,page_30:Hacking for freedom
-chapter-12,page_36:Zangemann and the President
+chapter-04,page_06:Zangemann a počítače
+chapter-05,page_13:Jednoho dne...
+chapter-06,page_18:Skateboardy přestaly fungovat
+chapter-07,page_20:Ada a software
+chapter-08,page_22:Programování
+chapter-09,page_25:Hrozná noc
+chapter-10,page_26:První skutečný projekt
+chapter-11,page_30:Hackování za svobodu
+chapter-12,page_36:Zangemann a prezident
 chapter-13,page_39:Protest
-chapter-14,page_42:Children help the government
-chapter-15,page_44:New law
-chapter-16,page_48:And Zangemann?
-chapter-17,page_50:Acknowledgments
-chapter-18,page_52:About the Author - Matthias Kirschner
-chapter-19,page_53:About the Illustrator - Sandra Brandstätter
-chapter-20,page_54:Website for the book and license
-chapter-21,page_55:Drawing templates
-chapter-22,back_cover:Back cover and synopsis
+chapter-14,page_42:Děti pomáhají vládě
+chapter-15,page_44:Nový zákon
+chapter-16,page_48:A Zangemann?
+chapter-17,page_50:Poděkování
+chapter-18,page_52:O autorovi - Matthias Kirschner
+chapter-19,page_53:O ilustrátorce - Sandra Brandstätter
+chapter-20,page_54:Webová stránka knihy a licence
+chapter-21,page_55:Šablona pro kreslení
+chapter-22,back_cover:Zadní strana a synopse
 ]]
 
-[[I:cover
-IMAGE: Ada & Zangemann - Příběh softwaru, skateboardů a malinové zmrzliny
-Ice Cream.
-By Matthias Kirschner and Sandra Brandstätter.
-On a mostly desaturated dark cyan background, in a frame composed of 
-sometimes curled white lines that connect a mouse, a keyboard, and a 
-pink smartphone, Ada and Zangemann are facing each other, both with 
-their hands on their hips as a sign of challenge. Ada is smiling and 
-Zangemann is frowning.
-Ada has black hair collected in two big right- and left-bound ringlets 
-with red rubber bands, and red cheeks. She has little yellow stud 
-earrings. She wears cyan and white horizontal striped shorts and a 
-yellow shirt over a white undershirt that ends with embroidery that goes 
-beyond the shirt. The shirt and undershirt come out over the shorts. 
-Above the shirt Ada wears a blue hoodie. Ada is wearing red shoes with 
-white tips and soles, and short white socks. She has one foot on a 
-skateboard and the other on the ground.
-Zangemann has short gray hair and square glasses. He is wearing a purple 
-turtle-neck sweater, light blue pants turned up, brown shoes, and white 
-socks. He's wearing a big tech watch. Above Zangemann there are a pair 
-of pliers with red handles crossing the wire frame. 
+[[I:přebal
+Obrázek: Ada & Zangemann - Příběh softwaru, skateboardů a malinové
+zmrzliny.
+Matthias Kirschner a Sandra Brandstätter.
+Na převážně vybledlém, tmavě azurovém pozadí orámováni místy
+zakroucenými bílými linkami spojujícími myš, klávesnici a růžový
+smartphone, stojí Ada a Zangemann tváří v tvář s rukami v bok
+na znamení výzvy. Ada ze usmívá a Zangemann se mračí.
+Ada má červené tváře a černé vlasy má napravo a nalevo sepnuté
+červenou gumičkou do dvou velkých prstenců. V uších má žluté pecičkové
+náušnice. Na sobě má šortky s vodorovnými azurovými a bílými pruhy,
+žluté triko pod kterým vykukuje spodní krajka bílého nátělníku. Triko
+i nátělník přesahují přes šortky. Přes tričko má Ada přehozenou modrou
+mikinu s kapucí. Ada má na nohou červené boty s bílou špičkou a podrážkou
+a bílé nízké ponožky. Jednu nohu má na skateboardu a druhou na zemi.
+Zangemann má krátké šedé vlasy a hranaté brýle. Na sobé má fialový svetr
+s rolákem, světle modré kalhoty s ohrnutými nohavicemi, hnědé boty a bílé
+ponožky. Na ruce má hodinky s velkým ciferníkem. Nad Zangemannem jsou
+kleště s červenými rukojeťmi.
 ]]
 
 ** 1 **
