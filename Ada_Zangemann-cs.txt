@@ -637,38 +637,22 @@ Mezi číslem 1 a číslem 2 je modrá láhev s bílými puntíky.
 
 ## 30 ##
 ==== Slide 16
-[M]ore and more children started to visit Ada at the junkyard after school,
-and she helped them rewrite the programs in their skateboards.
-Some of her classmates were very excited about this new discovery. It
-was unbelievable what you could do with software code! They wanted to
-learn everything Ada knew about programming languages, and soon they
-were riding their skateboards again, wherever they wanted to.
+[S]tále více dětí nyní odpoledne chodilo za Adou na vrakoviště a ona jim pomáhala přepsat programy v jejich skateboardech. Některé byly těmito novými možnostmi nadšené. Neuvěřitelné, co všechno se dalo dělat s programovacím kódem! Chtěly se od Ady naučit všechno o programovacím jazyku. A už brzy mohly se svými skateboardy jezdit zase tudy, kudy chtěly.
 ==== Slide 17
-But that wasn’t all. With the software, they could give their
-skateboards new, cool features. Marie attached colorful LED lights to
-her board that glowed different colors depending on the speed. Konrad
-built old propellers onto his skateboard for extra speed.
+Ale to nebylo všechno! Díky softwaru mohly svým skateboardům přidat nové zábavné vlastnosti. Marie připevnila na své prkno barevné LED světýlka, která svítila různými barvami podle toho, jak rychle jela. A Konrad si přidal staré vrtule, které mu dodávaly extra rychlost.
 [[I:ada-p30
-IMAGE: A green battery with red and yellow wires, a power strip, glue, a
-roll of solder, and two pencils.
+OBRÁZEK: Zelená baterie s červenými a žlutými dráty, prodlužovačka, lepidlo, rolička pájky a dvě tužky.
 ]]
 
 ** 31 **
 
-Ada, Toni, Marie, and Konrad spent many afternoons at the junkyard. They
-even set up a real workshop where they could fine-tune their programs
-for hours, listening all the while to music from the speakers Ada had
-built for Alan.
+Ada, Toni, Marie a Konrad trávili na vrakovišti spoustu času. Dokonce si tam zařídili opravdovou dílnu, ve které celé hodiny vylepšovali své programy. K tomu poslouchali hudbu z reproduktorů, které Ada postavila pro Alana.
 
-“Your brother’s speakers are much louder than ours,” remarked Toni, who
-was busy attaching a speedometer to his helmet.
-“I’m sure that’s also because of the software,” Marie said.
+„Reproduktory tvého bratra jsou mnohem hlasitější než ty naše,“ poznamenal Toni, který byl právě zaneprázdněn připevňováním rychloměru na svou helmu. „To určitě bude taky softwarem,“ řekla Marie.
 
-Together, they changed the software for the speakers too. Then they
-turned up the music as loud as possible and danced wildly together.
+Společně změnili software i pro reproduktory. Pak hudbu zesílili, jak jen to šlo, a divoce spolu tancovali.
 [[I:ada-p31
-IMAGE: A screwdriver with orange and gray handle, red pliers, and three
-LEDs: yellow, green, pink.
+OBRÁZEK: Šroubovák s oranžovo-šedou rukojetí, červené kleště a tři LED: žlutá, zelená, růžová.
 ]]
 
 ## 32 ##
@@ -686,134 +670,75 @@ can of blue paint (a bit of paint has dried on the table), and a pitcher
 and two glasses containing a pink drink.
 Toni is testing his skateboard with added yellow wings and a fan. It
 burps.
+OBRÁZEK: Dílna na vrakovišti pod verandou Adina domu.
+Ada sedí na bedně s vodou, s jednou nohou ohnutou pod sebou, a používá páječku.
+Vedle ní stojí Konrad a rozebírá reproduktor.
+Marie sedí na dvou pneumatikách, opírá si ruku o stůl a o svůj převrácený skateboard, ze kterého trčí dráty. Mluví s Alanem, který stojí s rukama opřenýma o stejný stůl.
+Na stole jsou také kleště, dva klíče, cívka s pájkou, plechovka modré barvy (trocha barvy je zaschlá na stole), džbán a dvě sklenice s růžovým nápojem.
+Toni testuje svůj skateboard s přidanými žlutými křídly a ventilátorem. Skateboard krkne.
 ]]
 
 ** 33 **
 
 [[I:ada-p33
-IMAGE: Marie and Ada's mom are dancing, facing each other. Alan, Ada,
-and Konrad are dancing in a circle.
-On the right there is a speaker playing, resting on an oil drum.
-Near the speaker there are two dancing mice.
-Toni is jumping through the tires.
-Ada's dog is howling, and from his mouth come two distorted musical
-notes.
+OBRÁZEK: Marie a Adina máma tančí tváří v tvář. Alan, Ada a Konrad tančí v kruhu.
+Vpravo hraje reproduktor, který leží na olejovém sudu.
+Vedle reproduktoru tančí dvě myši.
+Toni skáče přes pneumatiky.
+Adin pes vyje a z jeho tlamy vycházejí dvě pokroucené hudební noty.
 ]]
 
 ## 34 ##
 
 [[I:ada-p34
-IMAGE: Hands holding wonderful ice cream cones:
-blue ice cream with a chocolate heart on top with a yellow heart on its
-center, and whipped cream on top of the chocolate;
-green ice cream with colored stars with a cucumber stuck on a stick;
-pink fish-shaped ice cream;
-pyramid-shaped ice cream with candies, and chocolate syrup, and a cherry
-on top;
-rainbow ice cream with a yellow umbrella;
-blue ghost-shaped ice cream with candies on it.
+OBRÁZEK: Ruce drží nádherné zmrzlinové kornouty:
+modrá zmrzlina s čokoládovým srdcem navrchu, ve kterém je žluté srdce uprostřed, a šlehačkou na vrcholu čokolády, zelená zmrzlina s barevnými hvězdičkami a okurkou napíchnutou na tyčce,
+růžová zmrzlina ve tvaru ryby, zmrzlina ve tvaru pyramidy s bonbóny, čokoládovým sirupem a třešní navrchu, duhová zmrzlina se žlutým deštníkem, modrá zmrzlina ve tvaru ducha s bonbóny na povrchu.
 ]]
 
 ** 35 **
 ==== Slide 18
-[E]very day, Ada and her friends made plans together for the afternoon.
-From a broken ice-cream machine, they built a new one that could make
-ice cream in every imaginable shape and color. They ate square ice
-cream, heart-shaped ice cream, and even pyramid-shaped ice cream, as
-well as strawberry, raspberry, and rainbow ice cream, all with sprinkles
-and hot fudge — much better than the varieties from the Zangemann
-machines.
+[K]aždý den si Ada a její přátelé plánovali, co budou dělat odpoledne. Z rozbitého zmrzlinového stroje postavili nový, který dokázal vyrábět zmrzlinu ve všech možných tvarech a barvách: Jedli hranatou zmrzlinu, zmrzlinu ve tvaru srdce, dokonce i zmrzlinu ve tvaru pyramidy, jahodovou, malinovou a duhovou zmrzlinu, a vše s posypem a čokoládovou polevou – vše mnohem lepší než byly příchutě z Zangemannových automatů.
 
-Sometimes they could even help adults. Toni reprogrammed his father’s
-ironing machine so that it could also iron ties again — Zangemann had
-forbidden the machines to do so because he hated ties like the plague.
-For the bus driver, they built an automatic watering system out of old
-hoses and a computer so that her plants would not die of thirst during
-summer days. And they helped the school custodian modify his vacuum so
-that it automatically recognized toys and wouldn’t suck them up.
+Někdy dokázali pomoci i dospělým, kteří měli problémy se svými počítači. Toni přeprogramoval otcův žehlící stroj, aby zase žehlil kravaty. Zangemann totiž nenáviděl kravaty jako mor a zakázal strojům, aby je žehlily. Pro řidičku autobusu postavili z počítače a hadic zavlažovací systém, aby její rostliny v létě během dne nevysychaly. A školníkovi pomohli upravit jeho vysavač tak, aby automaticky rozpoznal pohozené hračky a už je nevysál.
 
-Some things they built just for fun, like the fart machine they put in
-their math teacher’s chair. Whenever Ms. Gernet sat down, the machine
-played a little fart sound. The teacher would scold them, but Ada was
-sure that she secretly smirked a little every time.
+Něco si stavěli jenom tak pro zábavu. Třeba vyrobili prdící stroj do židle své matikářky, paní Gernetové. Kdykoli si učitelka sedla, ozval se malý prd. Paní Gernetová nadávala, ale Ada byla přesvědčená, že se pokaždé tajně trochu usmála.
 
 ## 36 ##
 ==== Slide 19
-[O]ne day, Zangemann noticed that some computers no longer obeyed
-his programming commands. Shocked and fuming with anger, he
-called the president. In a quivering voice, Zangemann yelled, “Someone
-is rewriting the programs in my devices. That can’t happen; after all,
-they are my inventions. It’s far too dangerous if everyone can do
-whatever they want with the computers. You must make a law against
-this!”
+[J]ednoho dne si Zangemann všiml, že některé počítače už neposlouchají jeho programovací příkazy. To ho strašně vyděsilo a zuřil vzteky. Okamžitě zavolal prezidentovi a s roztřeseným hlasem na něj řval: „Někdo přepisuje programy v mých zařízeních. To nejde, to jsou přece moje vynálezy. A je taky příliš nebezpečné, když si všichni s počítači mohou dělat, co chtějí. Proti tomu musí být zákon!“
 
-The president did not want to upset Zangemann. All the government’s
-computers were programmed by Zangemann. Without the computers, the
-government would not be able to run the country. So they passed the law
-as Zangemann
-requested:
+Prezident nechtěl Zangemanna rozčílit. Všechny počítače vlády byly naprogramovány Zangemannem. Bez těchto počítačů by nemohli zemi dál řídit. A tak v parlamentu přijali zákon, jak si Zangemann přál:
 
-“All computers that do not listen to Zangemann are banned. Anyone who
-reprograms Zangemann’s devices will be fined 500,000 gold pieces!”
+„Všechny počítače, které neposlouchají Zangemanna, jsou zakázány! Kdo Zangemannova zařízení přeprogramuje, musí zaplatit pokutu 500 000 zlatých!“
 
 ** 37 **
 
 [[I:ada-p37
-IMAGE: The President getting a phone call from the angry Zangemann.
-The videophone consists of an old red Zangemann dial phone connected to
-a monitor. Zangemann's face appears on the monitor, while a yellow flare
-of Zangemann's thundering voice comes out of the phone, and the
-President holds the receiver at arm's length.
-The president has white hair and wears a light blue shirt, a red tie,
-and a blue jacket with yellow buttons.
-The President is sitting on a green chair with white vertical lines, and
-his other hand is on the desk. On the desk, in addition to the
-videophone, there are sheets with something written on them and an open
-purple fountain pen.
-The President was eating a sandwich of meat and cheese with greens with
-two olives on a toothpick, over a blue napkin with white stripes.
+OBRÁZEK: Prezident přijímá telefonát od rozzuřeného Zangemanna.
+Videotelefon se skládá ze starého červeného Zangemannova telefonního přístroje s otočným číselníkem, připojeného k monitoru. Na monitoru se objevuje Zangemannův obličej, zatímco z telefonu vychází žlutá vlna Zangemannova hromového hlasu, a prezident drží sluchátko na délku paže.
+Prezident má bílé vlasy, nosí světle modrou košili, červenou kravatu a modré sako se žlutými knoflíky.
+Prezident sedí na zelené židli s bílými svislými pruhy, a jeho druhá ruka spočívá na stole. Na stole, kromě videotelefonu, jsou listy s textem a otevřené fialové plnicí pero.
+Prezident jedl sendvič s masem, sýrem, zeleninou a dvěma olivami na párátku, položený na modrém ubrousku s bílými pruhy.
 ]]
 
 ## 38 ##
 ==== Slide 20
-When Ada and her friends heard this, they were furious. “This is
-unfair,” they
-said. “We rebuilt and reprogrammed our skateboards ourselves. They are
-much
-better now. We won’t let anyone take that away from us!”
+Když se to Ada a její přátelé dozvěděli, pořádně se rozzlobili. „To je tak nespravedlivé! Naše skateboardy jsme si sami přestavěli a přeprogramovali. Teď jsou mnohem lepší. To si nenecháme od nikoho vzít!“
 
-They gathered in front of one of their rebuilt ice-cream machines and
-discussed
-the situation. It was clear that something had to be done about the new
-law, and
-they made a plan...
+Shromáždili se před jedním ze svých přestavěných zmrzlinových automatů a probírali situaci. Bylo jasné, že se musí něco udělat proti novému zákonu, a tak vymysleli plán ...
 [[I:ada-p38
-IMAGE: Cans of green, blue, and pink paint; a paintbrush with yellow
-paint; a light green marker; and a rolled banner on which some blue
-paint has fallen.
+OBRÁZEK: Plechovky zelené, modré a růžové barvy. Štětec se žlutou barvou,
+světle zelený označovač a svinutý transparent, na kterém ulpělo něco modré barvy.
 ]]
 
 ** 39 **
 ==== Slide 21
-[T]he next day, they didn’t go to school. Instead, they rode their
-skateboards to the parliament building, with large protest signs
-under their arms, and sat down in front of the building. The evening
-before, they had put LED lights on some of the signs, which were now
-flashing brightly. They had connected their speakers together so
-everyone in the street could hear what they were saying. Some passersby
-stopped and asked the children what they were demonstrating for.
-“For software freedom!” they replied in unison and told the adults their
-story.  Impressed, the adults nodded, and the president also looked
-curiously at their signs as he approached the building.
+[D]ruhý den nešli do školy. Místo toho se vydali se svými skateboardy a velkými protestními transparenty k parlamentu a usadili se před ním. Na některé transparenty připevnili večer předtím LED světýlka, která nyní jasně blikala. Své reproduktory spojili dohromady, takže v každé ulici bylo dobře slyšet, co říkají. Několik kolemjdoucích se zastavilo a ptali se dětí, za co demonstrují. „Za svobodu softwaru!“ odpověděly sborově a vyprávěly dospělým svůj příběh. Dospělí uznale kývali a i prezident se na plakáty zvědavě podíval, když toho dne vstupoval do budovy.
 
-On the following day, Ada and her friends again sat down in front of the
-parliament building, this time with support. Some classmates came whose
-skateboards Ada had reprogrammed. Toni’s father and other parents and
-adults also wanted to support the protest. They found the children’s
-devices very useful.
+Také v následujících dnech se Ada a její přátelé posadili před parlament. Tentokrát s podporou: Někteří spolužáci, kterým Ada přeprogramovala skateboardy, přišli také. I Toniho otec a další dospělí protest podpořili. Zařízení dětí jim přišla velmi užitečná.
 [[I:ada-p39
-IMAGE: Yellow and green paint on the floor and wax crayons yellow, red,
-blue, green and brown; the latter 3 are in a gray cardboard box.
+OBRÁZEK: Žlutá a zelené barva na zemi a žluté, červené, modré, zelené a hnědé voskovky. Poslední tři v šedé lepenkové krabičce.
 ]]
 
 ## 40 ##
