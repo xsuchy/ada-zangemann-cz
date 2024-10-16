@@ -63,7 +63,7 @@ ADA & ZANGEMANN
 ]]
 
 Matthias Kirschner
-  Sandra Brandstätter
+Sandra Brandstätter
 
 ADA & ZANGEMANN
 Příběh softwaru, skateboardů a malinové zmrzliny
@@ -186,38 +186,37 @@ Society should support those who respect others' freedom.
 
 [[I:ada-p03
 IMAGE: Matthias Kirschner, Sandra Brandstätter - ADA & ZANGEMANN -
-Příběh softwaru, skateboardů a malinové zmrzliny.
-Title in the middle, authors in the upper left.
-In the lower right, Ada's family's dog with gray fur and some white
-patches and with a red collar with shiny yellow LEDs, which wags its
-tail.
+Příběh o softwaru, skateboardech a malinové zmrzlině.
+Titulek uprostřed, autoři nahoře vlevo.
+Ve spodu vpravo je Adin pes s šedivou srstí, několika bílými skvrnami
+a červeným obojkem se svítícími žlutými LED, který vrtí ocasem.
 ]]
 Matthias Kirschner
-Sandra Brandstätter
+Sandra Brandstätterová
 
 ADA & ZANGEMANN
 
-Příběh softwaru, skateboardů a malinové zmrzliny
+Příběh o softwaru, skateboardech a malinové zmrzlině.
 
 ## 4 ##
 ==== Slide 2
 [B]yla jednou jedna malá holčička jménem Ada. Její rodina byla tak chudá, že všechny jejich úspory se vešly do plechovky od sušenek. Neměli peníze ani na to, aby mohli bydlet v opravdovém bytě. Místo toho bydlely Ada, její maminka a její malý bratr Alan v chatrči poblíž vrakoviště na kraji města.
 [[I:ada-p04
-OBRÁZEK: Ada v popředí odchází z domu do školy, v pozadí je její dům a
+OBRÁZEK: V popředí odchází Ada z domu do školy, v pozadí je její dům a
 vrakoviště. Ada má hnědý batoh se žlutými popruhy.
 Nalevo od Ady je červené auto, Volkswagen Brouk, bez kol a jenom s jedním
-světlem, které už visí jenom na drátech.
+světlometem, který už visí jenom na drátech.
 Nalevo před autem leží dvě pneumatiky a dvě krabice. Jedna z nich je
-dřevěná s převráceným kbelíkem, prázdnou plechovkou, mezi jakýmisi rostlinami
+dřevěná s převráceným kbelíkem, prázdnou plechovkou, mezi nějakými rostlinami
 se žlutými květy.
-V pozadí je Adin dům s maminkou a bratrem, kteří ji mávají na rozloučenou.
+V pozadí je Adina chatrč a maminka s bratrem, kteří ji mávají na rozloučenou.
 Na zemi před nimi sedí pes.
 Alan sedí na dvou schodcích do domku. Má krátké tmavé vlasy a je oblečený
 do bílého trička s krátkými rukávy olemovanými červeným lemem a dvěma červenými
 pásky na spodním okraji trička. Alan má modré kraťasy a je naboso.
 Adina máma má tmavou rtěnku a černé vlasy svázané bílou stuhou. Má krátké
 modré tričko s bílým zakončením, bílé kalhoty a žluté boty.
-Adin domek je dřevěný s bílou přední stěnou. Střecha je z tmavě červených
+Adina chatrč je dřevěná s bílou přední stěnou. Střecha je z tmavě červených
 vlnitých plechů. Vpředu jsou kromě dveří ještě dvě okna a další okno je na
 levé straně. Na střeše stojí žlutá kachna. Střechou se prodírá bílý komín.
 Na anténě na levé straně střechy je uvázaná šňůra na prádlo, na které visí
@@ -241,12 +240,12 @@ Daleko odtud, na opačném konci, žil slavný vynálezce Zangemann. Byl nesmír
 Už v dětském věku Zangemanna fascinovaly počítače. Tehdy to ještě byly obrovské stroje s mnoha kabely a hlučnými ventilátory. Ve škole malý Zangemann často snil o tom, co by všechno s počítači dělal, kdyby byly jen o něco menší – dost malé na to, aby je mohl zabudovat do nejrůznějších zařízení. Jako první by zabudoval počítač do svého skateboardu, který by tak při jízdě vydával super zvuky, třeba jako siréna hasičů nebo start rakety. A vymyslel by stroj na zmrzlinu! Počítač by dokázal namíchat
 ty nejlepší příchutě a zmrzlinu by zároveň i prodával. Jeho stroje by stály na každém rohu a on by si tak skočit pro svou oblíbenou zmrzlinu, kdykoli by měl chuť. Kromě toho by postavil robota na úklid a stroj na třídění stavebnic, aby měl ve svém pokoji vždy krásně uklizeno. Zangemann měl každý den nové nápady. Nemohl myslet na nic jiného.
 
-A skutečně: Čím více Zangemann rostl, tím více se počítače zmenšovaly. A když nakonec opustil školu, byly už tak malé, že se mu vešly do kapsy u kalhot. A ty nejmenší se vešly jen na špičku prstu.
+A skutečně. Čím více Zangemann rostl, tím více se počítače zmenšovaly. Když nakonec opustil školu, byly už tak malé, že se mu vešly do kapsy u kalhot. A ty nejmenší se vešly jen na špičku prstu.
 
 ** 7 **
 
 [[I:ada-p07
-OBRÁZEK: Zangemann jako dítě sedící na židli u školního stolu. Z jeho hlavy vychází šest bublin, ve kterých jsou jeho nápady, kam vložit počítače: systém pro videohovory, reproduktor, pračka, skateboard s rádiovým ovládáním, náramkový počítač a počítač na rameni s monitorem a klávesnicí. Zangemann má šedé vlasy, nosí brýle a má tmavě fialové tričko s modrými vodorovnými pruhy, modré šortky, hnědé boty a bílé ponožky. Na levém zápěstí má velké hodinky. Na stole je otevřený sešit, žlutá tužka a guma, zatímco na straně stolu visí jeho hnědá aktovka.
+OBRÁZEK: Zangemann jako dítě sedící na židli u školního stolu. Z jeho hlavy vychází šest bublin, ve kterých jsou jeho nápady, kam vložit počítače: systém pro videohovory, reproduktor, pračka, skateboard s rádiovým ovládáním, náramkový počítač a počítač na rameni s monitorem a klávesnicí. Zangemann má šedé vlasy, nosí brýle a má tmavě fialové tričko s modrými vodorovnými pruhy, modré šortky, hnědé boty a bílé ponožky. Na levém zápěstí má velké moderní hodinky. Na stole je otevřený sešit, žlutá tužka a guma, zatímco na straně stolu visí jeho hnědá aktovka.
 ]]
 
 ## 8 ##
@@ -255,27 +254,25 @@ OBRÁZEK: Zangemann jako dítě sedící na židli u školního stolu. Z jeho hl
 
 [[I:ada-p08b
 OBRÁZEK: Zangemannova originální zmrzlinovačka.
-Je světle modrá, podobná automatu na nápoje, ale místo kelímku je zde kornoutek, který se plní zmrzlinou. Nad dávkovačem je monitor, který zobrazuje druh zmrzliny, který se podává – v tomto případě je to ananasová zmrzlina.
+Je světle modrá, podobná automatu na nápoje, ale místo kelímku je zde kornoutek, který se plní zmrzlinou. Nad dávkovačem je monitor, který zobrazuje druh zmrzliny, který se právě podává. V tomto případě je to ananasová zmrzlina.
 Vlevo se nachází otvor pro vkládání mincí, různé tlačítka pro výběr příchutě a otvor pro vracení mincí.
 Nahoře je kulatý bílý znak s kopečkem cukrově růžové zmrzliny v kornoutku.
 Na zadní straně stroje je chladicí zařízení s písmenem „Z“ jako logem Zangemanna.
 ]]
-Dospělí i děti jeho vynálezy milovali. Děti chtěly mít Zangemannův skateboard a pokaždé ten nejnovější zvuk, aby se s ním mohly chlubit kamarádům na školním dvoře. Mnozí měli také jeho praktické reproduktory. Stačilo jim jen říct název písně, aby se hned přehrála. A komu ještě nějaké kapesné zbylo, mohl si odpoledne koupit automaticky namíchanou zmrzlinu z originální Zangemannovy zmrzlinovačky. Bylo to jako kouzla – ale všechno zařizovaly malé počítače, které Zangemann do svých přístrojů vestavěl.
+Dospělí i děti jeho vynálezy milovali. Děti chtěly mít Zangemannův skateboard a a k němu pokaždé ten nejnovější zvuk, aby se s ním mohly chlubit kamarádům na školním dvoře. Mnozí měli také jeho praktické reproduktory. Stačilo do nich jen uvést název písně a ta se hned začala přehrávat. Komu ještě nějaké kapesné zbylo, mohl si odpoledne koupit automaticky namíchanou zmrzlinu z originální Zangemannovy zmrzlinovačky. Vypadalo to jako kouzla, ale vše zařizovaly malé počítače, které Zangemann do svých přístrojů vestavěl.
 [[I:ada-p08a
-OBR: Originální Zangemannův elektrický skateboard zanechávající modrou
-stopu s notami a barevnými kruhy. Z dítěte, které jede na skateboardu, jsou vidět
-jenom koleny, bílé ponožky a olivově zelené boty s bílou podrážkou.
+OBRÁZEK: Originální Zangemannův elektrický skateboard zanechávající modrou stopu s notami a barevnými kruhy. Z dítěte, které jede na skateboardu, jsou vidět jenom koleny, bílé ponožky a olivově zelené boty s bílou podrážkou.
 ]]
 
 ** 9 **
 
 [[I:ada-p09
 OBRÁZEK: Ada kutí s předměty ve své improvizované laboratoři.
-Ada sedí na převrácené bedně s vodou a pracuje na opravě s pomocí žlutého šroubováku. Na stole jsou také zelené kleště, červené kladivo, bílá prodlužovací šňůra a další přístroj. Ada pracuje u stolu, který se skládá z dřevěné desky položené na dvou olejových sudech (jednom šedém a jednom červeném) a malém dřevěném kozlíku. Za Adou je pračka, potrubí a deska. Před improvizovaným stolem jsou pneumatiky a starý telefon s vadným drátem. Alan přichází k Adě a drží nad hlavou žlutý větrák. Alan má nyní na sobě bílé ponožky a žluté boty.
+Ada sedí na převrácené bedně s vodou a pracuje na opravě s pomocí žlutého šroubováku. Na stole jsou také zelené kleště, červené kladivo, bílá prodlužovací šňůra a další přístroj. Ada pracuje u stolu, který se skládá z dřevěné desky položené na dvou olejových sudech (jednom šedém a jednom červeném) a malém dřevěném kozlíku. Za Adou je pračka, potrubí a deska. Před improvizovaným stolem jsou pneumatiky a starý telefon s vadným drátem. Alan přichází k Adě a nad hlavou drží žlutý větrák. Alan má nyní na sobě bílé ponožky a žluté boty.
 ]]
 Také u Ady ve škole byly tyto vynálezy velmi oblíbené a mnoho jejích kamarádů jezdilo na těch parádních skateboardech sem a tam. Ada však byla často smutná, protože její maminka jí žádnou z těch skvělých věcí nemohla koupit: ani skateboard, ani reproduktory, ba ani žádnou zmrzlinu.
 ==== Slide 5
-Naštěstí bydlela Ada přímo vedle vrakoviště. Tam se nacházely rozbité přístroje a rezavé součástky, ze kterých si stavěla úžasné věci: krabici od mýdla, ve které sjížděla s bratříčkem Alanem z kopců, větrnou turbínu nebo děsivá šrotová monstra, nad kterými pak společně vítězili. Našla tam i mnoho užitečných věcí, například jeden starý mobil. Displej byl sice trochu naprasklý, ale ten by si mohla opravit. A přestože na vrakovišti nebyl internet, mohla by se k němu připojit někde jinde.
+Naštěstí bydlela přímo vedle vrakoviště. Tam se nacházely rozbité přístroje a rezavé součástky, ze kterých si stavěla úžasné věci: krabice od mýdla, ve které sjížděla s bratříčkem Alanem z kopců, větrnou turbínu nebo děsivá monstra ze šrotu, nad kterými pak společně vítězili. Našla tam i mnoho užitečných věcí, například jeden starý mobil. Displej byl sice trochu naprasklý, ale ten by si koneckonců mohla opravit. A přestože na vrakovišti nebyl internet, mohla by se k němu připojit někde jinde.
 
 Stavění a opravování rozbitých věcí na vrakovišti Adu tak pohltilo, že na skateboardy a zmrzlinu nakonec úplně zapomněla.
 
@@ -326,7 +323,7 @@ the previous page.
 When he wasn’t sitting at his golden computer, Zangemann was building
 his little computers into new devices and then selling those. He built
 washing machines that sent a message to your cell phone when your
-laundry was done.  He made vacuums that played happy music instead of
+laundry was done. He made vacuums that played happy music instead of
 droning loudly. He invented light bulbs that turned on and off at the
 snap of a finger and cars that told you where the nearest grocery store
 was.
@@ -395,9 +392,9 @@ This was not how he had imagined his walk!
 IMAGE: Advertisments for Zangemann ice cream (sandwich board), a
 Zangemann electric skateboard, and a Zangemann washing machine.
 The math teacher, Mrs. Gernet, is passing in front of the billboards.
-Mrs. Gernet is an old lady with short white hair.  She is dressed in a
+Mrs. Gernet is an old lady with short white hair. She is dressed in a
 light green t-shirt and a pea green sweater, dark brown pants, and light
-green heeled shoes.  She has a fuchsia shoulder bag, worn behind her.
+green heeled shoes. She has a fuchsia shoulder bag, worn behind her.
 She pushes a small shopping cart in which there is a small brown dog
 with a collar and tag.
 ]]
@@ -451,8 +448,8 @@ flower on it.
 Although she didn’t own any of these things, Ada wondered why the
 skateboards and the speakers suddenly stopped working. But she didn’t
 really have time to think much about it, because she was tinkering
-again.  She put together a complete bicycle from the parts of three
-broken bicycles.  She gave the bicycle to her mother as a present so
+again. She put together a complete bicycle from the parts of three
+broken bicycles. She gave the bicycle to her mother as a present so
 that she wouldn’t have to spend her money on bus tickets to work. For
 her brother, Ada built a loudspeaker so he could fall asleep to nice
 stories in the evenings when their mother was still at work.
@@ -484,7 +481,7 @@ discover on the internet. There, many people shared their ideas and
 repair tips to help others.
 
 On one of those afternoons, Ada learned two new words: hardware and
-software.  Hardware was a word for something Ada already knew: the
+software. Hardware was a word for something Ada already knew: the
 electronic devices she tinkered with after school, or those devices she
 could hold in her hands and try to fix or make into something else. What
 was completely new to Ada was the word software. She soon learned that
@@ -594,7 +591,7 @@ off the skateboard every time she started. No matter what she tried, she
 just couldn’t get it right.
 
 After falling on her bottom for the hundredth time, she went back to the
-library.  She always found answers to her questions there. And indeed,
+library. She always found answers to her questions there. And indeed,
 on the internet, she came across a program that someone had written for
 an electric scooter that also needed to start slowly. Ada downloaded it
 to her phone.
@@ -668,11 +665,11 @@ into the software that the skateboards aren’t allowed to go on the
 sidewalk. But that can be changed!”
 
 That evening, Ada tested out her theory on her classmate Toni’s
-skateboard.  She worked secretly through most of the night, and the next
+skateboard. She worked secretly through most of the night, and the next
 day, Toni could ride on the sidewalk again. Unfortunately, his
 skateboard could no longer make the sounds that his parents had bought
 from Zangemann. Instead, every 10 minutes it made a strange noise that
-sounded like a drawn-out burp.  Ada knew that little errors like that
+sounded like a drawn-out burp. Ada knew that little errors like that
 could pop up in programs all the time. But Toni’s burping skateboard was
 really quite funny.
 [[I:ada-p29
@@ -854,7 +851,7 @@ flashing brightly. They had connected their speakers together so
 everyone in the street could hear what they were saying. Some passersby
 stopped and asked the children what they were demonstrating for.
 “For software freedom!” they replied in unison and told the adults their
-story.  Impressed, the adults nodded, and the president also looked
+story. Impressed, the adults nodded, and the president also looked
 curiously at their signs as he approached the building.
 
 On the following day, Ada and her friends again sat down in front of the
@@ -870,7 +867,7 @@ blue, green and brown; the latter 3 are in a gray cardboard box.
 ## 40 ##
 
 With each passing day, more and more children and adults joined the
-protest.  The bus driver they had helped drove up in her bus. She honked
+protest. The bus driver they had helped drove up in her bus. She honked
 loudly to attract even more people to the protest. The custodian brought
 a few friends, and Toni’s father brought his colleagues from work, all
 wearing perfectly ironed ties. Even Ms. Gernet came. The crowd grew, and
