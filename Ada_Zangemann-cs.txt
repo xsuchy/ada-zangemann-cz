@@ -94,6 +94,7 @@ www.nostarch.com
 
 Záznam o této knize je dostupný v Knihovně Kongresu.
 
+
 No Starch Press a logo No Starch Press jsou registrované ochranné známky společnosti No Starch Press, Inc. Ostatní názvy produktů a společností uvedené v tomto textu mohou být ochrannými známkami příslušných vlastníků. Místo použití symbolu ochranné známky u každého výskytu chráněného názvu používáme tyto názvy pouze redakčně a ve prospěch vlastníka ochranné známky, bez úmyslu porušit ochrannou známku.
 
 Informace v této knize jsou poskytovány „tak, jak jsou“, bez záruky. Ačkoli při přípravě této práce byla přijata veškerá opatření, autor ani No Starch Press, Inc. nenesou žádnou odpovědnost vůči jakékoli osobě či subjektu za jakoukoli ztrátu nebo škodu způsobenou či údajně způsobenou přímo nebo nepřímo informacemi v ní obsaženými.
@@ -138,156 +139,85 @@ Sandra Brandstätterová
 
 ADA a ZANGEMANN
 
-Příběh softwaru, skateboardů a malinové zmrzliny
+Příběh o softwaru, skateboardech a malinové zmrzlině.
 
 ## 4 ##
 ==== Slide 2
-[B]yla jednou jedna malá holčička, která se jmenovala Ada. Její
-rodina byla tak chudá, že se všechny jejich úspory vešly do sklenice na
-sušenky. Neměli dost peněz, aby mohli žít v pořádném domě. Proto, Ada žila se
-svojí maminkou a se svým mladším bráchou, Alanem, v chatě na kraji města
-poblíž vrakoviště.
+[B]yla jednou jedna malá holčička jménem Ada. Její rodina byla tak chudá, že všechny jejich úspory se vešly do plechovky od sušenek. Neměli peníze ani na to, aby mohli bydlet v opravdovém bytě. Místo toho bydlela Ada se svou maminkou a malým bratrem Alanem v chatrči poblíž vrakoviště na kraji města.
 [[I:ada-p04
-IMAGE: Ada in foreground leaving the house to go to school, in the
-background Ada's house and the junkyard. Ada has a brown backpack with
-yellow shoulder straps.
-To the left of Ada there is a red car, a Volkswagen Beetle, without
-wheels and no longer working, with one of the headlights remaining
-attached only with its wires.
-On the left, in front of the car, there are two tires, two boxes – one
-of which is a wooden box with an overturned bucket –, and an empty can,
-all among some plants with yellow flowers.
-In the background there is Ada's house, with her mother and her brother
-Alan waving goodbye, and the dog sitting on the ground.
-Alan is sitting on the two entrance steps of the house. He has short
-dark hair and is dressed in a white short-sleeved shirt with a red
-stripe at the edges of the sleeves and two red stripes at the bottom of
-the shirt. Alan wears blue shorts and he is barefoot.
-Ada's mom has dark lipstick and long black hair in a white headband. She
-is wearing a short blue shirt with white trim, white pants, and yellow
-shoes.
-Ada's house is built of wood, with the front being white. The roof is
-dark red corrugated sheeting. There are two windows in front in addition
-to the door, and another window on the left side. A yellow duck stands
-on top of the roof, while a gray chimney protrudes. An antenna on the
-left of the roof supports a clothesline on which red clothespins hold a
-green tank top, a pair of light blue pants, and white underpants. To the
-right of the house there is a veranda on which there is installed a
-solar panel. Under the veranda there are a mattress, a red oil drum, and
-a gray case.
-Behind the house there are piles of landfill objects among which you can
-see a washing machine, a car, and various wooden boards.
+OBRÁZEK: V popředí odchází Ada z domu do školy, v pozadí je její dům a
+vrakoviště. Ada má hnědý batoh se žlutými popruhy.
+Nalevo od Ady je červené auto, Volkswagen Brouk, bez kol a jenom s jedním
+světlometem, který už visí jenom na drátech.
+Nalevo před autem leží dvě pneumatiky a dvě krabice. Jedna z nich je
+dřevěná s převráceným kbelíkem, prázdnou plechovkou, mezi nějakými rostlinami
+se žlutými květy.
+V pozadí je Adina chatrč a maminka s bratrem, kteří ji mávají na rozloučenou.
+Na zemi před nimi sedí pes.
+Alan sedí na dvou schodcích do domku. Má krátké tmavé vlasy a je oblečený
+do bílého trička s krátkými rukávy olemovanými červeným lemem a dvěma červenými
+pásky na spodním okraji trička. Alan má modré kraťasy a je naboso.
+Adina máma má tmavou rtěnku a černé vlasy svázané bílou stuhou. Má krátké
+modré tričko s bílým zakončením, bílé kalhoty a žluté boty.
+Adina chatrč je dřevěná s bílou přední stěnou. Střecha je z tmavě červených
+vlnitých plechů. Vpředu jsou kromě dveří ještě dvě okna a další okno je na
+levé straně. Na střeše stojí žlutá kachna. Střechou se prodírá bílý komín.
+Na anténě na levé straně střechy je uvázaná šňůra na prádlo, na které visí
+zelený top, světle modré kalhoty a bílé kalhotky, přichycené červenými kolíčky na prádlo.
+Napravo od domu je veranda se solárním panelem. Pod verandou je matrace, červený sud od
+oleje a šedý kufr.
+Za domem jsou hromady starých věcí, na kterých můžeme rozeznat pračku, auto,
+a mnoho dřevěných prken.
 ]]
 
 ** 5 **
 
 [[I:ada-p05
-IMAGE: Prestižní časopisy (“HVĚZDY“, “PENÍZE”, “Richest Man”) na kterých
+IMAGE: Prestižní časopisy (“Hvězdy“, “Peníze”, “Největší boháč”) na kterých
 je Zangemann a jeho vila.
 ]]
-Daleko, na druhém konci města, žil slavný vynálezce jménem Zangemann. Byl
-nesmírně bohatý.Žádný papír na světě nebyl dostatečně velký, aby na něj šlo
-napsat kolik má peněz. Tolik čísel a nul! Žil v obrovském domě s bazénem a
-tobogánem, spoustou schodů a věží, stovky oken a tolik místností, že on sám se
-v nich často ztrácel. Zangemannovo sídlo stálo vysoko na kopeci. Odkud se mohl
-dívat na celé město.
+Daleko odtud, na opačném konci města, žil slavný vynálezce Zangemann. Byl nesmírně bohatý. Žádný list papíru na světě nebyl dost velký na to, aby se na něj vešel zůstatek jeho účtu se všemi těmi číslicemi a nulami. Bydlel v obrovském domě s bazénem a tobogánem, mnoha schodišti, věžemi, stovkami oken a tolika pokoji, že i on sám se v nich pravidelně ztrácel. Zangemannovo sídlo se nacházelo vysoko na kopci. Celé město měl pod sebou jako na dlani.
 
 ## 6 ##
 ==== Slide 3
-Počítače fascinovaly Zangemanna už od dětství. Když byl mladý, počítače byly
-obrovské stroje se spoustou kabelů a hlasitých, hlučných větráků. Ve škole malý
-Zangemann často snil o všech těch věcech co by dělal s počítači, kdyby byly
-jen o trošku menší – dost malé na to, aby se daly zabudovat do jiných zábavných
-věci. Věděl, co by dělal. Nejprve by dal počítač do jeho skateboardu, aby při
-jízdě dělal hustý zvuky – třeba sirénu hasičského auta nebo zvuk startu rakety.
-Potom by použil počítač na vynalezení stroje na dělání zmrzliny! Počítač by
-míchal různé příchutě a dokonce by je potom i prodával. Tyhle stroje by dal na
-každý rožek ulice a potom by mohl mít svojí oblíbenou zmrzlinu kdykoliv by se
-mu zachtělo a tolik, kolik by chtěl. Poté by postavil uklízejícího robota a stroj
-na třídění kostek, aby byl jeho pokoj vždy uklizený a čistý. Zangemann měl
-nový skvělé nápady každý den. Nemohl myslet na nic jiného.
+Už v dětském věku Zangemanna fascinovaly počítače. Tehdy to ještě byly obrovské stroje s mnoha kabely a hlučnými ventilátory. Ve škole malý Zangemann často snil o tom, co by všechno s počítači dělal, kdyby byly jen o něco menší – dost malé na to, aby je mohl zabudovat do nejrůznějších zařízení. Jako první by zabudoval počítač do svého skateboardu, který by tak při jízdě vydával super zvuky, třeba jako siréna hasičů nebo start rakety. A vymyslel by stroj na zmrzlinu! Počítač by dokázal namíchat
+ty nejlepší příchutě a zmrzlinu by zároveň i prodával. Jeho stroje by stály na každém rohu a on by si tak mohl skočit pro svou oblíbenou zmrzlinu, kdykoli by měl chuť. Kromě toho by postavil robota na úklid a stroj na třídění stavebnic, aby měl ve svém pokoji vždy krásně uklizeno. Zangemann měl každý den nové nápady. Nemohl myslet na nic jiného.
 
-Jak roky plynuly, Zangemann rostl a počítače se zmenšovaly.
-Vlastně, když dokončil školu, byli tak malé, že se vešly do jeho kapsy. Ty
-nejmenší se mu vešli na špičku prstu.
+A skutečně. Čím více Zangemann rostl, tím více se počítače zmenšovaly. Když nakonec opustil školu, byly už tak malé, že se mu vešly do kapsy u kalhot. A ty nejmenší se vešly jen na špičku prstu.
 
 ** 7 **
 
 [[I:ada-p07
-IMAGE: Zangemann as a child on a chair at a school table. From his head
-come six bubbles in which there are his ideas of places in which to
-insert computers: a video call system, a speaker, a washing machine, a
-skateboard with radio control on a big computer monitor, a wrist
-computer, and a shoulder computer with a monitor and keyboard.
-Zangemann has gray hair, a dark purple shirt with blue horizontal
-stripes, blue shorts, brown shoes and white socks. He wears glasses and
-a big watch on his left wrist.
-On the table there are an open notebook, a yellow pencil, and an eraser,
-while hanging on the side of the table there is his brown briefcase.
+OBRÁZEK: Zangemann jako dítě sedící na židli u školního stolu. Z jeho hlavy vychází šest bublin, ve kterých jsou jeho nápady, kam vložit počítače: systém pro videohovory, reproduktor, pračka, skateboard s rádiovým ovládáním, náramkový počítač a počítač na rameni s monitorem a klávesnicí. Zangemann má šedé vlasy, nosí brýle a má tmavě fialové tričko s modrými vodorovnými pruhy, modré šortky, hnědé boty a bílé ponožky. Na levém zápěstí má velké moderní hodinky. Na stole je otevřený sešit, žlutá tužka a guma, zatímco na straně stolu visí jeho hnědá aktovka.
 ]]
 
 ## 8 ##
 ==== Slide 4
-“Finally, I can turn all my ideas into real things!” Zangemann
-exclaimed, and he got right to work. He found ways to put the small
-computers into all kinds of things to make them even more fun and
-useful. And then he sold them.
+„Konečně můžu všechny své nápady uskutečnit!“ jásal Zangemann a pustil se do práce. Zabudoval malé počítače do nejrůznějších zařízení a udělal je ještě praktičtější. A tyto přístroje pak prodával.
 
 [[I:ada-p08b
-IMAGE: Zangemann original ice cream machine.
-It is ice blue in color and is similar to a vending machine of drinks,
-but instead of the cup there is a cone that is filled with ice cream.
-Above the dispenser there is a monitor showing the variety that is
-distributed, in this case pineapple ice cream.
-On the left there are the slot for inserting coins, the various buttons
-to choose the flavor, and the hole for returning coins.
-At the top there is a round white sign with a scoop of candy-pink ice
-cream in a cone.
-On the back of the machine there is the refrigeration machinery with the
-“Z” of the Zangemann logo.
+OBRÁZEK: Zangemannova originální zmrzlinovačka.
+Je světle modrá, podobná automatu na nápoje, ale místo kelímku je zde kornoutek, který se plní zmrzlinou. Nad dávkovačem je monitor, který zobrazuje druh zmrzliny, který se právě podává. V tomto případě je to ananasová zmrzlina.
+Vlevo se nachází otvor pro vkládání mincí, různé tlačítka pro výběr příchutě a otvor pro vracení mincí.
+Nahoře je kulatý bílý znak s kopečkem cukrově růžové zmrzliny v kornoutku.
+Na zadní straně stroje je chladicí zařízení s písmenem „Z“ jako logem Zangemanna.
 ]]
-Adults and children loved his inventions. All the kids wanted to have
-one of his skateboards — complete with the latest sounds to show off to
-their friends at school. Kids also loved his speaker invention, which
-could instantly play any song you requested. And, of course, everyone
-loved the ice cream served every afternoon from the automatic,
-extra-delicious Original Zangemann Ice Cream Machine. It all seemed like
-magic, but the secret was simple: the little computers that Zangemann
-built into his machines made it all possible.
+Dospělí i děti jeho vynálezy milovali. Děti chtěly mít Zangemannův skateboard a a k němu pokaždé ten nejnovější zvuk, aby se s ním mohly chlubit kamarádům na školním dvoře. Mnozí měli také jeho praktické reproduktory. Stačilo do nich jen uvést název písně a ta se hned začala přehrávat. Komu ještě nějaké kapesné zbylo, mohl si odpoledne koupit automaticky namíchanou zmrzlinu z originální Zangemannovy zmrzlinovačky. Vypadalo to jako kouzla, ale vše zařizovaly malé počítače, které Zangemann do svých přístrojů vestavěl.
 [[I:ada-p08a
-IMAGE: An original Zangemann electric skateboard leaving a blue trail
-with musical notes and colored circles. Only the knees, white socks, and
-olive green shoes with white soles of the child riding it are shown.
+OBRÁZEK: Originální Zangemannův elektrický skateboard zanechávající modrou stopu s notami a barevnými kruhy. Z dítěte, které jede na skateboardu, jsou vidět jenom kolena, bílé ponožky a olivově zelené boty s bílou podrážkou.
 ]]
 
 ** 9 **
 
 [[I:ada-p09
-IMAGE: Ada tinkers with objects in her improvised lab.
-Ada is sitting on an overturned water case, and working on a repair with
-a yellow screwdriver. Also on the table are green pliers, a red hammer,
-a white power strip, and another gadget. Ada is at a table consisting of
-a wooden board supported by two oil drums (one gray and one red) and a
-small wooden sawhorse. Behind Ada there are a washing machine, pipes,
-and a board. In front of the improvised table there are tires and an old
-phone with faulty wire. Alan is coming toward Ada holding a yellow fan
-over his head. Alan now wears white socks and yellow shoes.
+OBRÁZEK: Ada kutí s předměty ve své improvizované laboratoři.
+Ada sedí na převrácené přepravce na lahve a pracuje na opravě s pomocí žlutého šroubováku. Na stole jsou také zelené kleště, červené kladivo, bílá prodlužovací šňůra a další přístroj. Ada pracuje u stolu, který se skládá z dřevěné desky položené na dvou olejových sudech (jednom šedém a jednom červeném) a malém dřevěném kozlíku. Za Adou je pračka, potrubí a deska. Před improvizovaným stolem jsou pneumatiky a starý telefon s vadným drátem. Alan přichází k Adě a nad hlavou drží žlutý větrák. Alan má nyní na sobě bílé ponožky a žluté boty.
 ]]
-These inventions were very popular at Ada’s school, and many of her
-friends rode around on the cool skateboards. Ada was often sad, since
-her mother couldn’t buy her any of those great things: no skateboard, no
-speakers, no ice cream.
+Také u Ady ve škole byly tyto vynálezy velmi oblíbené a mnoho jejích kamarádů jezdilo na těch parádních skateboardech sem a tam. Ada však byla často smutná, protože její maminka jí žádnou z těch skvělých věcí nemohla koupit: ani skateboard, ani reproduktory, ba ani žádnou zmrzlinu.
 ==== Slide 5
-Luckily, Ada lived right next to the junkyard. There were lots of broken
-gadgets and rusty parts, which she put together to make cool new things,
-like a soapbox she and Alan rode roaring down the hill, a windmill, and
-scary junk monsters, which she and Alan would fight together. She also
-found many useful items—an old cell phone, for example. The screen was
-cracked, but she could fix that, and while there wasn’t internet at the
-junkyard, she could get access somewhere else.
+Naštěstí bydlela přímo vedle vrakoviště. Tam se nacházely rozbité přístroje a rezavé součástky, ze kterých si stavěla úžasné věci: krabice od mýdla, ve které sjížděla s bratříčkem Alanem z kopců, větrnou turbínu nebo děsivá monstra ze šrotu, nad kterými pak společně vítězili. Našla tam i mnoho užitečných věcí, například jeden starý mobil. Displej byl sice trochu naprasklý, ale ten by si koneckonců mohla opravit. A přestože na vrakovišti nebyl internet, mohla by se k němu připojit někde jinde.
 
-Ada had so much fun tinkering in the junkyard and fixing broken things
-that she forgot all about the skateboards and the ice cream.
+Stavění a opravování rozbitých věcí na vrakovišti Adu tak pohltilo, že na skateboardy a zmrzlinu nakonec úplně zapomněla.
 
 ## 10 ##
 ==== Slide 6
