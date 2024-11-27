@@ -5,196 +5,139 @@
 ## 0 ##
 
 [[IDX:
-toc:Table of Contents
+toc:Obsah
 text:Text
-cover:Cover
-other.titlepage:Front Cover
-chapter-01,cover:Front Cover
-chapter-02,page_02:Imprint
-chapter-03,page_04:Ada & Zangemann
-chapter-04,page_06:Zangemann and computers
-chapter-05,page_13:One day...
-chapter-06,page_18:Skateboards no longer work
-chapter-07,page_20:Ada and software
-chapter-08,page_22:Programming
-chapter-09,page_25:A horrible night
-chapter-10,page_26:First real project
-chapter-11,page_30:Hacking for freedom
-chapter-12,page_36:Zangemann and the President
+cover:Obálka
+other.titlepage:Přední obálka
+chapter-01,cover:Přední obálka
+chapter-02,page_02:Tiráž
+chapter-03,page_04:Ada a Zangemann
+chapter-04,page_06:Zangemann a počítače
+chapter-05,page_13:Jednoho dne ...
+chapter-06,page_18:Skateboardy přestaly fungovat
+chapter-07,page_20:Ada a software
+chapter-08,page_22:Programování
+chapter-09,page_25:Hrozná noc
+chapter-10,page_26:První opravdový projekt
+chapter-11,page_30:Programováním za svobodu
+chapter-12,page_36:Zangemann a prezident
 chapter-13,page_39:Protest
-chapter-14,page_42:Children help the government
-chapter-15,page_44:New law
-chapter-16,page_48:And Zangemann?
-chapter-17,page_50:Acknowledgments
-chapter-18,page_52:About the Author - Matthias Kirschner
-chapter-19,page_53:About the Illustrator - Sandra Brandstätter
-chapter-20,page_54:Website for the book and license
-chapter-21,page_55:Drawing templates
-chapter-22,back_cover:Back cover and synopsis
+chapter-14,page_42:Děti pomáhají vládě
+chapter-15,page_44:Nový zákon
+chapter-16,page_48:A co Zangemann?
+chapter-17,page_50:Poděkování
+chapter-18,page_52:O autorovi - Matthias Kirschner
+chapter-19,page_53:O ilustrátorce - Sandra Brandstätterová
+chapter-20,page_54:Web o knize
+chapter-21,page_55:Omalovánky
+chapter-22,back_cover:Zadní obálka a synopse
 ]]
 
 [[I:cover
-IMAGE: Ada & Zangemann - Příběh softwaru, skateboardů a malinové zmrzliny
-Ice Cream.
-By Matthias Kirschner and Sandra Brandstätter.
-On a mostly desaturated dark cyan background, in a frame composed of
-sometimes curled white lines that connect a mouse, a keyboard, and a
-pink smartphone, Ada and Zangemann are facing each other, both with
-their hands on their hips as a sign of challenge. Ada is smiling and
-Zangemann is frowning.
-Ada has black hair collected in two big right- and left-bound ringlets
-with red rubber bands, and red cheeks. She has little yellow stud
-earrings. She wears cyan and white horizontal striped shorts and a
-yellow shirt over a white undershirt that ends with embroidery that goes
-beyond the shirt. The shirt and undershirt come out over the shorts.
-Above the shirt Ada wears a blue hoodie. Ada is wearing red shoes with
-white tips and soles, and short white socks. She has one foot on a
-skateboard and the other on the ground.
-Zangemann has short gray hair and square glasses. He is wearing a purple
-turtle-neck sweater, light blue pants turned up, brown shoes, and white
-socks. He's wearing a big tech watch. Above Zangemann there are a pair
-of pliers with red handles crossing the wire frame.
+OBRÁZEK: Ada a Zangemann - Příběh o softwaru, skateboardech a malinové zmrzlině
+od Matthiase Kirschnera a Sandry Brandstätterové.
+Na převážně vybledlém tmavě tyrkysovém pozadí, v rámečku tvořeném místy zakroucenými bílými linkami, které spojují myš, klávesnici a růžový smartphone, stojí proti sobě Ada a Zangemann oba s rukama v bok na znamení vzdoru. Ada se usmívá a Zangemann se mračí.
+Ada má červené tváře a černé vlasy má na pravé a levé straně stažené červenými gumičkami do dvou velkých drdolů. V uších má malé žluté pecičkové náušnice. Je oblečena v kraťasech s vodorovnými tyrkysovými a bílými pruhy, pod žlutým tričkem jí vykukuje krajkovaný lem bílého nátělníku. Tričko i košilka jsou vytažené přes kraťasy. Přes tričko má Ada oblečenou modrou mikinu s kapucí. Na nohou má červené boty s bílými špičkami a podrážkami a nízké bílé ponožky. Jednou nohou stojí na skateboardu a druhou na zemi.
+Zangemann má krátké šedé vlasy a hranaté brýle. Na sobě má fialový rolák, světle modré kalhoty s ohrnutými nohavicemi, hnědé boty a bílé ponožky. Na ruce nosí velké moderní hodinky. Nad Zangemannem jsou kleště s červenými rukojeťmi, které přetínají rámeček z bílé linky.
 ]]
 
 ** 1 **
 
 [[I:ada-p01
-ADA & ZANGEMANN
+ADA A ZANGEMANN
 ]]
 
 Matthias Kirschner
-Sandra Brandstätter
+Sandra Brandstätterová
 
-ADA & ZANGEMANN
-Příběh softwaru, skateboardů a malinové zmrzliny
+ADA A ZANGEMANN
+Příběh o softwaru, skateboardech a malinové zmrzlině.
 
 ## 2 ##
 
-Copyright © 2023 Matthias Kirschner and Sandra Brandstätter.
-This work is licensed under the Creative Commons Attribution-ShareAlike
+Copyright © 2023 Matthias Kirschner a Sandra Brandstätterová.
+Toto dílo je chráněné licencí Creative Commons Attribution-ShareAlike
 4.0 International License.
-To view a copy of this license, visit
-http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to
+Chcete-li si přečíst kopii licence, navštivte
+http://creativecommons.org/licenses/by-sa/4.0/ nebo napište na
 Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-<b>Ada & Zangemann: A Tale of Software, Skateboards, and Raspberry Ice
-Cream</b> is a translation of the German original, Ada und Zangemann:
-Ein Märchen über Software, Skateboards und Himbeereis, published by
-Dpunkt.verlag in cooperation with O’Reilly Media, Inc., under the
-imprint “O’REILLY,” © 2022 by Matthias Kirschner and Sandra
+<b>Ada a Zangemann: Příběh o softwaru, skateboardech a malinové zmrzlině
+</b> je překladem z německého originálu Ada und Zangemann:
+Ein Märchen über Software, Skateboards und Himbeereis, vydaného nakladatelstvím
+Dpunkt.verlag ve spolupráci s O’Reilly Media, Inc., pod značkou “O’REILLY,” © 2022 Matthias Kirschner and Sandra
 Brandstätter.
 
-First printing
+Vydání první
 
 26 25 24 23 22 1 2 3 4 5
 
 ISBN-13: 978-1-7185-0318-2 (print)
 ISBN-13: 978-1-7185-0319-9 (ebook)
 
-Publisher: William Pollock
-Author: Matthias Kirschner
-Illustrator: Sandra Brandstätter
-Managing Editor: Jill Franklin
-Production Editor: Jennifer Kepler
-Editor: Wiebke Helmchen
-Color Assistance: Olga Biryukova, Noémi Sárkány, Nathalie Scattolon,
-Kristina Haidinger, and Jasmin Schlögl
-Cover Design: Sandra Brandstätter and Susan Brown
-Compositor: Maureen Forys, Happenstance Type-O-Rama
+Vydavatel: William Pollock
+Autor: Matthias Kirschner
+Ilustrátorka: Sandra Brandstätterová
+Vedoucí redaktorka: Jill Franklinová
+Produkční redaktorka: Jennifer Keplerová
+Redaktorka: Wiebke Helmchenová
+Pomoc s barvami: Olga Biryukova, Noémi Sárkányová, Nathalie Scattolonová, Kristina Haidingerová a Jasmin Schlöglová
+Návrh obálky: Sandra Brandstätterová a Susan Brownová
+Sazba: Maureen Forysová, Happenstance Type-O-Rama
 
-For information on distribution, bulk sales, or corporate sales, please
-contact No Starch Press, Inc. directly at info@nostarch.com or:
+Pro informace o distribuci, velkoobchodním prodeji nebo firemním prodeji prosím kontaktujte přímo No Starch Press, Inc. na adrese info@nostarch.com nebo:
 
 No Starch Press, Inc.
 245 8th Street, San Francisco, CA 94103
-phone: 1.415.863.9900
+Telefon: 1.415.863.9900
 www.nostarch.com
 
-A catalog record of this book is available from the Library of Congress.
+Záznam o této knize je dostupný v Knihovně Kongresu.
 
-No Starch Press and the No Starch Press logo are registered trademarks
-of No Starch Press, Inc. Other product and company names mentioned
-herein may be the trademarks of their respective owners. Rather than use
-a trademark symbol with every occurrence of a trademarked name, we are
-using the names only in an editorial fashion and to the benefit of the
-trademark owner, with no intention of infringement of the trademark.
 
-The information in this book is distributed on an “As Is” basis, without
-warranty. While every precaution has been taken in the preparation of
-this work, neither the author nor No Starch Press, Inc. shall have any
-liability to any person or entity with respect to any loss or damage
-caused or alleged to be caused directly or indirectly by the information
-contained in it.
+No Starch Press a logo No Starch Press jsou registrované ochranné známky společnosti No Starch Press, Inc. Ostatní názvy produktů a společností uvedené v tomto textu mohou být ochrannými známkami příslušných vlastníků. Místo použití symbolu ochranné známky u každého výskytu chráněného názvu používáme tyto názvy pouze redakčně a ve prospěch vlastníka ochranné známky, bez úmyslu porušit ochrannou známku.
 
-All characters in this publication are fictitious, and any resemblance
-to real persons, living or dead, is purely coincidental.
+Informace v této knize jsou poskytovány „tak, jak jsou“, bez záruky. Ačkoli při přípravě této práce byla přijata veškerá opatření, autor ani No Starch Press, Inc. nenesou žádnou odpovědnost vůči jakékoli osobě či subjektu za jakoukoli ztrátu nebo škodu způsobenou či údajně způsobenou přímo nebo nepřímo informacemi v ní obsaženými.
+
+Všechny postavy v této publikaci jsou smyšlené a jakákoli podoba s reálnými osobami, živými či mrtvými, je čistě náhodná.
 
 **
 
-This book by Matthias Kirschner (author) and Sandra Brandstätter
-(illustrator) is licensed under <b>Creative Commons CC-BY-SA</b>, a free
-cultural license.
+Tato kniha od Matthiase Kirschnera (autor) a Sandry Brandstätterové (ilustrátorka) je chráněna licencí <b>Creative Commons CC-BY-SA</b>, což je svobodná kulturní licence.
 
-<b>You may</b> share, copy, and redistribute the material in any medium
-or format. <b>You may</b> adapt, remix, transform, and build upon the
-material for any purpose, even commercially. <b>You must</b> give
-appropriate credit, provide a link to the license, and indicate if
-changes were made.
-<b>You may</b> do so in any reasonable manner, but not in any way that
-suggests the licensor endorses you or your use. If you remix, transform,
-or build upon the material, <b>you must</b> distribute your
-contributions under the same license as the original. (This is a
-human-readable summary of - and not a substitute for - the “legal code”
-of CC-BY-SA 4.0.)
+<b>Můžete</b> sdílet, kopírovat a redistribuovat materiál v jakémkoli médiu nebo formátu. <b>Můžete</b> materiál adaptovat, remixovat, transformovat a vytvářet z něj odvozená díla pro jakýkoli účel, dokonce i komerčně. <b>Musíte</b> zajistit správné přisouzení autorství, poskytnout odkaz na licenci a uvést, zda byly provedeny změny.
+<b>Můžete</b> to udělat jakýmkoli přiměřeným způsobem, ale ne způsobem, který by naznačoval, že poskytovatel licence vás nebo vaše použití schvaluje. Pokud remixujete, transformujete nebo vytváříte z materiálu odvozená díla, <b>musíte</b> své příspěvky distribuovat pod stejnou licencí jako původní dílo. (Toto je shrnutí srozumitelné pro lidi a není náhradou za „právní kód“ CC-BY-SA 4.0.)
 
-Furthermore for remix versions (derivative works), the licensor asks you
-not to make any modifications of the author's personal acknowledgments
-and the author's and illustrator's short biographies, instead please
-completely remove those parts from your remix version.
+Poskytovatel licence navíc u remixovaných verzí (odvozených děl) žádá, abyste nijak neměnili osobní poděkování autora a krátké biografie autora a ilustrátorky. Namísto toho prosím tyto části ze své remixované verze úplně odstraňte.
 
-Publication under this free cultural license was possible due to the
-great support by dpunkt.verlag GmbH / O'Reilly Media, Inc. for the
-German book and No Starch Press for the English book. Unfortunately,
-Creative Commons licenses are still rare exceptions for commercially
-published books, and often considered revolutionary and risky by
-publishers.
+Vydání pod touto svobodnou kulturní licencí bylo možné díky velké podpoře dpunkt.verlag GmbH a O'Reilly Media, Inc. pro německou verzi knihy a No Starch Press pro anglickou verzi. Bohužel, licence Creative Commons jsou stále vzácnou výjimkou u komerčně vydávaných knih a často jsou považovány vydavateli za revoluční a riskantní.
 
-<b>A big thank you</b> to <b>dpunkt.verlag</b> and </small><small><b>No
-Starch Press</b></small><small> for understanding the values of software
-freedom, taking the time to discuss and understand the advantages of
-free cultural licenses, and the great support to publish this book under
-conditions that respect the FSFE's values.
+<b>Velké poděkování</b> patří <b>dpunkt.verlag</b> a <small><b>No Starch Press</b></small> za pochopení hodnot svobody softwaru, za čas věnovaný diskusím a pochopení výhod svobodných kulturních licencí a za velkou podporu při vydání této knihy za podmínek, které respektují hodnoty FSFE.
 
 ## 2BB ##
 
-<b>Free as in freedom not price</b>
+<b>Bez omezení, ne bezplatně.</b>
 
-Free Software is about the freedoms you receive with the software, not
-about the price. Likewise publishing a book under a free culture license
-does not mean you have the right to get a gratis copy of the book or
-ebook. It means you get the rights described above, which enable society
-to benefit further from this book, as it should from all cultural works.
+Svobodný software se týká svobod, které se softwarem získáváte, nikoli jeho ceny. Stejně tak vydání knihy pod svobodnou kulturní licencí neznamená, že máte právo získat zdarma kopii knihy nebo e-knihy. Znamená to, že získáváte práva popsaná výše, která umožňují společnosti dále z této knihy těžit, stejně jako by měla těžit ze všech kulturních děl.
 
-We encourage you to support authors, publishers, and others involved in
-the creation of culture under free licenses – including <b>financially
-supporting them through purchases or donations</b>.
+Podporujeme vás, abyste podpořili autory, vydavatele a další, kteří se podílejí na tvorbě kultury pod svobodnými licencemi – včetně <b>finanční podpory prostřednictvím nákupů nebo darů</b>.
 (https://fsfe.org/donate)
-Society should support those who respect others' freedom.
+Společnost by měla podporovat ty, kteří respektují svobodu ostatních.
 
 ** 3 **
 === Slide 1
 
 [[I:ada-p03
-IMAGE: Matthias Kirschner, Sandra Brandstätter - ADA & ZANGEMANN -
-Příběh o softwaru, skateboardech a malinové zmrzlině.
-Titulek uprostřed, autoři nahoře vlevo.
-Ve spodu vpravo je Adin pes s šedivou srstí, několika bílými skvrnami
-a červeným obojkem se svítícími žlutými LED, který vrtí ocasem.
+OBRÁZEK: Matthias Kirschner, Sandra Brandstätterová - ADA A ZANGEMANN -
+Příběh softwaru, skateboardů a malinové zmrzliny.
+Titulek uprostřed, autoři nahoře vlevo. Dole vpravo je Adin pes
+s šedivou srstí s bílými skvrnami a červeným obojkem se svítícími
+žlutými LED, který vrtí ocasem.
 ]]
 Matthias Kirschner
 Sandra Brandstätterová
 
-ADA & ZANGEMANN
+ADA a ZANGEMANN
 
 Příběh o softwaru, skateboardech a malinové zmrzlině.
 
