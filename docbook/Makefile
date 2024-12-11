@@ -2,5 +2,5 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-po/Ada_Zangemann.pot:
+po/Ada_Zangemann.pot: Ada_Zangemann-en.dbk
 	itstool -o $@ Ada_Zangemann-en.dbk
