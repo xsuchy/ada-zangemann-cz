@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" version="5.0" xml:lang="en" az:datamodelversion="0.1.0-alpha" dir="ltr">
   <!-- TODO: add excerpts to images based on translation guidelines -->
+  <its:rules>
+    <!-- NOTE: this doesn't seem to work with ITSTool yet -->
+    <its:locNoteRule locNoteType="description" selection="//mediaobject/alt">
+      <its:locNote>This is is alternative text TEST</its:locNote>
+    </its:locNoteRule>
+  </its:rules>
   <info>
     <title>Ada &amp; Zangemann</title>
     <subtitle>A Tale of Software, Skateboards, and Raspberry Ice Cream</subtitle>
