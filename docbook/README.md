@@ -48,6 +48,7 @@ Considerations for the current DocBook format.
   - Docbook doesn't have a model for a titlepage. Instead the common practice is to print a page containing the title and subtile. This can be observed from this example of [pdf generation](https://doccookbook.sourceforge.net/html/en/dbc.fo.design-titlepages.html).
 - All involved persons have been modelled as persons to reveive credit in the main info. This increases the complexity in the modelling, but is more precise in the metadata. As the information is already in the colophon, it might as well be removed.
 - Custom elements are used inside the book info element to list the named characters in the story. This allows translators to document the chosen names in case they deviate.
+- Font information is added to in book/info using custom elements (az:style/az:fontset/az:font). Especially languages using non-latin charachters might require different fonts. Adding this information into the DocBook document breaks the DocBook principle of separating formatting and content. Adding it in the same file brings conveniencefor processors by having the information available in one structure.
 
 #### Ideas for consideration
 - To add to each paragraph (`<para>` or `<literallayout>`) an `az:pagenum` attribute for easier parsing. This enables parsers to select all paragraphs with this attribute that should end up on a given page. Alternatively is to use `<az:page num="n"/>` elements to separate pages or use DocBook sections to split a chapter into separate pages. Note that sections would have to be defined within a chapter, making it more difficult to get the title, requiring navigation up the element tree.
@@ -68,6 +69,7 @@ Considerations for the current DocBook format.
 - It could be interesting if initial stylesheets could be included so that the document can be converted to some basic outputs.
 - Addresses from the publishers and from Creative Commons could be represented using an [address](https://tdg.docbook.org/tdg/5.2/address) element. This resulted in unwanted newlines in the XSLT 1.0 HTML output, which was the reason to not use it for now.
 - Deal with conditional credits or colophon, as the English version has 2 versions: for print and for online publication. It might be that there are two version of the source document: one representing the published book and one being the upstream document version for remix versions.
+- It might be necessary or convenient to add font properties for emphasis markup, because the terms used for bold and italic might depend on the font.
 
 Consider modelling the dropcaps as inline images, perhaps conditionally. Making this conditional and dealing with alt-text is a challenge.
 
@@ -172,6 +174,17 @@ A brief overview of the Docbook elements and custom attributes used in the sourc
     <author/>
     <othercredit class="illustrator"/>
     <othercredit class="translator"/> # or proofreader, reviewer
+    <az:style>
+      <az:fontset condition="scribus">
+        <az:font role="body">
+          <az:fontfamily>Heebo</az:fontfamily>
+          <az:fontstyle>regular</az:fontstyle>
+          <az:fontsize>12pt</az:fontsize>
+          <az:fonthref>https://github.com/OdedEzer/heebo</az:fonthref>
+          <az:fontlicense>OFL-1.1</az:fontlicense>
+        </az:font>
+      </az:fontset>
+    </az:style>
     <az:namedcharacters>
       <az:character role="ada">
         <az:charactername>Ada</az:charactername>
@@ -218,7 +231,6 @@ Alternatively more sections could be created for which duplicate entries of page
 
 NOTE: the resulting Table of contents in HTML gets additional spaces inserted when sections are introduced.
 
-|-----------------------|-------|-------|
 | contents              | page  | slide |
 |-----------------------|-------|-------|
 | Title pagee           | 1     | X     |

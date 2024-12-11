@@ -87,6 +87,50 @@
       <para>This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.</para>
       <para>To view a copy of this license, visit <link xlink:href="http://creativecommons.org/licenses/by-sa/4.0/">http://creativecommons.org/licenses/by-sa/4.0/</link> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</para>
     </legalnotice>
+    <az:style>
+      <az:fontset condition="scribus">
+        <az:font role="covertitle">
+          <!-- TODO: add details -->
+        </az:font>
+        <az:font role="coversubtitle">
+          <!-- TODO: add details -->
+        </az:font>
+        <az:font role="coverspine">
+          <!-- TODO: add details -->
+        </az:font>
+        <az:font role="body">
+          <az:fontfamily>Heebo</az:fontfamily>
+          <az:fontstyle>regular</az:fontstyle>
+          <az:fontsize>12pt</az:fontsize>
+          <az:fonthref>https://github.com/OdedEzer/heebo</az:fonthref>
+          <az:fontlicense>OFL-1.1</az:fontlicense>
+        </az:font>
+        <az:font role="dropcap">
+          <!-- TODO: add details -->
+        </az:font>
+        <az:font role="colophon">
+          <az:fontfamily>Heebo</az:fontfamily>
+          <az:fontstyle>regular</az:fontstyle>
+          <az:fontsize>9pt</az:fontsize>
+          <az:fonthref>https://github.com/OdedEzer/heebo</az:fonthref>
+          <az:fontlicense>OFL-1.1</az:fontlicense>
+        </az:font>
+        <az:font role="pagenumber">
+          <az:fontfamily>Heebo</az:fontfamily>
+          <az:fontstyle>regular</az:fontstyle>
+          <az:fontsize>10pt</az:fontsize>
+          <az:fonthref>https://github.com/OdedEzer/heebo</az:fonthref>
+          <az:fontlicense>OFL-1.1</az:fontlicense>
+        </az:font>
+        <az:font role="heading">
+          <az:fontfamily>Amatic SC</az:fontfamily>
+          <az:fontstyle>bold</az:fontstyle>
+          <az:fontsize>50pt</az:fontsize>
+          <az:fonthref>https://github.com/googlefonts/AmaticSC</az:fonthref>
+          <az:fontlicense>OFL-1.1</az:fontlicense>
+        </az:font>
+      </az:fontset>
+    </az:style>
     <az:namedcharacters>
       <!-- TODO: the origins need verification -->
       <az:character role="ada">
