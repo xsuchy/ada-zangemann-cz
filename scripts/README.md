@@ -1,5 +1,6 @@
 <!--
 SPDX-FileCopyrightText: 2024 Nico Rikken <nico.rikken@fsfe.org>
+SPDX-FileCopyrightText: 2024 Miroslav Suchý <msuchy@redhat.com>
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
@@ -12,6 +13,12 @@ these scripts. Automation allows translators to focus on the text and spend
 less time formatting the translation for the various publication formats. The
 scripts are linked from the various book translation directories so that these
 scripts can easily be executed from the context of a translation.
+
+## Fonts
+
+Before running any script, you should install fonts from the `fonts/` directory.
+You will need `heebo` and `delicious` fonts. Various localizations may need
+other fonts from `fonts/` directory.
 
 ## Usage
 
