@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Nico Rikken <nico.rikken@fsfe.org>
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # DocBook trial
 
 ## Considerations
