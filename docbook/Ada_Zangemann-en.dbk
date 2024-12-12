@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" version="5.0" xml:lang="en" az:datamodelversion="0.1.0-alpha" dir="ltr">
-  <!-- TODO: add excerpts to images based on translation guidelines -->
-  <its:rules>
-    <!-- NOTE: this doesn't seem to work with ITSTool yet -->
-    <its:locNoteRule locNoteType="description" selection="//mediaobject/alt">
-      <its:locNote>This is is alternative text TEST</its:locNote>
+  <!-- Rules for translation and internationalization -->
+  <its:rules version="2.0">
+    <!-- Add note for alttag -->
+    <its:locNoteRule locNoteType="description" selector="//db:alt" xmlns:db="http://docbook.org/ns/docbook">
+      <its:locNote>The alt tag contains an alternative text, describing the image for the visual impaired.</its:locNote>
+    </its:locNoteRule>
+    <!-- Ensure that certain information gets grouped together for translators -->
+    <its:withinTextRule withinText="yes" selector="//az:character/*" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/"/>
+    <its:withinTextRule withinText="yes" selector="//az:style/az:fontset/az:font/*" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/"/>
+    <its:locNoteRule locNoteType="description" selector="//az:style/az:fontset/az:font/*" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/">
+      <its:locNote>Font information for the Scribus template to generate PDFs. Only change if needed.</its:locNote>
     </its:locNoteRule>
   </its:rules>
+  <!-- Book information and other metadata-like information -->
   <info>
-    <title>Ada &amp; Zangemann</title>
+    <title its:locNote="Ampersand character &amp; is escaped for XML source format as &amp;amp;">Ada &amp; Zangemann</title>
     <subtitle>A Tale of Software, Skateboards, and Raspberry Ice Cream</subtitle>
+    <!-- Author credit -->
     <author>
       <personname>
         <firstname>Matthias</firstname>
@@ -22,8 +30,8 @@
         <surname>Brandstätter</surname>
       </personname>
     </othercredit>
-    <!-- TODO: Publisher is not a 1:1 model in DocBook -->
     <othercredit class="other" otherclass="publisher">
+      <!-- Publisher is not a 1:1 model in DocBook, so modelled as othercredit. -->
       <personname>
         <firstname>William</firstname>
         <surname>Pollock</surname>
@@ -86,13 +94,14 @@
       </personname>
       <orgname>Happenstance Type-O-Rama</orgname>
     </othercredit>
-    <publisher>
+    <publisher its:locNote="A translated version will probably have a different publisher.">
       <publishername>No Starch Press, Inc.</publishername>
     </publisher>
     <legalnotice>
       <para>This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.</para>
       <para>To view a copy of this license, visit <link xlink:href="http://creativecommons.org/licenses/by-sa/4.0/">http://creativecommons.org/licenses/by-sa/4.0/</link> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</para>
     </legalnotice>
+    <!-- Style information, mostly fonts -->
     <az:style>
       <az:fontset condition="scribus">
         <az:font role="covertitle">
@@ -137,8 +146,8 @@
         </az:font>
       </az:fontset>
     </az:style>
+    <!-- Names and name origin of the characters -->
     <az:namedcharacters>
-      <!-- TODO: the origins need verification -->
       <az:character role="ada">
         <az:charactername>Ada</az:charactername>
         <az:characternameorigin>Ada Lovelace</az:characternameorigin>
@@ -161,24 +170,27 @@
       </az:character>
       <az:character role="marie">
         <az:charactername>Marie</az:charactername>
-        <az:characternameorigin>Unknown</az:characternameorigin>
+        <az:characternameorigin>Marie Curie</az:characternameorigin>
       </az:character>
       <az:character role="gernet">
         <az:charactername>Ms. Gernet</az:charactername>
-        <az:characternameorigin>Unknown</az:characternameorigin>
+        <az:characternameorigin>Marie Gernet</az:characternameorigin>
       </az:character>
     </az:namedcharacters>
+    <!-- Cover information -->
     <cover role="front">
       <!-- TODO: check if this is the correct modeling -->
       <bridgehead role="title">Ada &amp; Zangemann</bridgehead>
       <bridgehead role="subtitle">A Tale of Software, Skateboards, and Raspberry Ice Cream</bridgehead>
       <!-- TODO: add link to correct image for the back -->
-      <mediaobject xml:id="img-ada-04">
+      <mediaobject xml:id="img-ada-a00">
         <imageobject>
-          <imagedata fileref="../illustrations/en/ada-p04.png"/>
+          <imagedata fileref="../illustrations/en/ada-a00.png"/>
         </imageobject>
-        <alt its:locNote="This is an alternative text, describing the image for the visual impaired">Ada &amp; Zangemann - A Tale of Software, Skateboards, and Raspberry Ice Cream. By Matthias Kirschner and Sandra Brandstätter. On a mostly desaturated dark cyan background, in a frame composed of sometimes curled white lines that connect a mouse, a keyboard, and a pink smartphone, Ada and Zangemann are facing each other, both with their hands on their hips as a sign of challenge. Ada is smiling and Zangemann is frowning. Ada has black hair collected in two big right- and left-bound ringlets with red rubber bands, and red cheeks. She has little yellow stud earrings. She wears cyan and white horizontal striped shorts and a yellow shirt over a white undershirt that ends with embroidery that goes beyond the shirt. The shirt and undershirt come out over the shorts. Above the shirt Ada wears a blue hoodie. Ada is wearing red shoes with white tips and soles, and short white socks. She has one foot on a skateboard and the other on the ground. Zangemann has short gray hair and square glasses. He is wearing a purple turtle-neck sweater, light blue pants turned up, brown shoes, and white socks. He's wearing a big tech watch. Above Zangemann there are a pair of pliers with red handles crossing the wire frame.</alt>
+        <alt>Ada &amp; Zangemann - A Tale of Software, Skateboards, and Raspberry Ice Cream. By Matthias Kirschner and Sandra Brandstätter. On a mostly desaturated dark cyan background, in a frame composed of sometimes curled white lines that connect a mouse, a keyboard, and a pink smartphone, Ada and Zangemann are facing each other, both with their hands on their hips as a sign of challenge. Ada is smiling and Zangemann is frowning. Ada has black hair collected in two big right- and left-bound ringlets with red rubber bands, and red cheeks. She has little yellow stud earrings. She wears cyan and white horizontal striped shorts and a yellow shirt over a white undershirt that ends with embroidery that goes beyond the shirt. The shirt and undershirt come out over the shorts. Above the shirt Ada wears a blue hoodie. Ada is wearing red shoes with white tips and soles, and short white socks. She has one foot on a skateboard and the other on the ground. Zangemann has short gray hair and square glasses. He is wearing a purple turtle-neck sweater, light blue pants turned up, brown shoes, and white socks. He's wearing a big tech watch. Above Zangemann there are a pair of pliers with red handles crossing the wire frame.</alt>
       </mediaobject>
+    </cover>
+    <cover role="back">
       <mediaobject>
         <imageobject>
           <imagedata fileref="../illustrations/en/back_cover-a.png"/>
@@ -195,16 +207,7 @@
       </mediaobject>
     </cover>
   </info>
-  <!-- <preface> -->
-  <!--   <title>Ada &amp; Zangemann</title> -->
-  <!-- </preface> -->
-  <!-- NOTE: Titlepage doesn't have to be modeled in DocBook as it can be created in the output generation -->
-  <!-- <chapter xml:id="ch1"> -->
-  <!--   <info> -->
-  <!--     <title>Ada &amp; Zangemann</title> -->
-  <!--     <subtitle>A Tale of Software, Skateboards, and Raspberry Ice Cream</subtitle> -->
-  <!--   </info> -->
-  <!-- </chapter> -->
+  <!-- Start of the book -->
   <colophon xml:id="ch2">
     <info>
       <title>Imprint</title>
@@ -903,34 +906,4 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
     <section az:pagenum="58"></section>
     <section az:pagenum="59"></section>
   </appendix>
-  <!-- <chapter xml:id="ch22"> -->
-  <!--   <info> -->
-  <!--     <title>Back cover and synopsis</title> -->
-  <!--     <!-\- TODO: Add info that this is the back cover -\-> -->
-  <!--   </info> -->
-  <!--   <section az:pagenum="60"> -->
-  <!--   <mediaobject xml:id="img-back_cover-a"> -->
-  <!--     <!-\- NOTE: that conditions for files could be used here -\-> -->
-  <!--     <imageobject condition="print"> -->
-  <!--       <imagedata fileref="figs/print/back_cover-a.png"/> -->
-  <!--     </imageobject> -->
-  <!--     <imageobject condition="web"> -->
-  <!--       <imagedata fileref="figs/web/back_cover-a.png"/> -->
-  <!--     </imageobject> -->
-  <!--     <alt>A soldering iron and a brush and can with yellow paint, connected by white electrical cord that forms a frame.</alt> -->
-  <!--   </mediaobject> -->
-  <!--   <para az:dropcap="true">The inventor Zangemann is world-famous and immensely rich. Adults and children alike love his fabulous technical inventions. But one day there is a problem: the children's electronic skateboards no longer work properly. What’s going on? The curious girl Ada sees through what is going on. Together with her friends, she experiments with hardware and software, and the children forge a plan: Zangemann can no longer be the only one in control of the devices!</para> -->
-  <!--   <para>A book that arouses interest in tinkering and encourages shaping technology.</para> -->
-  <!--   <mediaobject xml:id="img-back_cover-b"> -->
-  <!--     <!-\- NOTE: that conditions for files could be used here -\-> -->
-  <!--     <imageobject condition="print"> -->
-  <!--       <imagedata fileref="figs/print/back_cover-b.png"/> -->
-  <!--     </imageobject> -->
-  <!--     <imageobject condition="web"> -->
-  <!--       <imagedata fileref="figs/web/back_cover-b.png"/> -->
-  <!--     </imageobject> -->
-  <!--     <alt>A power strip, with input and output of white electrical cord that is the frame.</alt> -->
-  <!--   </mediaobject> -->
-  <!--   </section> -->
-  <!-- </chapter> -->
 </book>
