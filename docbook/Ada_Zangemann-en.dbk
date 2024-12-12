@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" version="5.0" xml:lang="en" az:datamodelversion="0.1.0-alpha" dir="ltr">
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" version="5.0" xmlns:itst="http://itstool.org/extensions/" xml:lang="en" az:datamodelversion="0.1.0-alpha" dir="ltr">
   <!-- Rules for translation and internationalization -->
   <its:rules version="2.0">
     <!-- Add note for alttag -->
@@ -13,6 +13,14 @@
       <its:locNote>Font information for the Scribus template to generate PDFs. Only change if needed.</its:locNote>
     </its:locNoteRule>
   </its:rules>
+  <!-- Extension for translator credits -->
+  <!-- TODO: validate if this works -->
+  <itst:credits appendTo="/book/info">
+    <othercredit class="translator">
+      <personname><itst:value-of select="name"/></personname>
+      <email><itst:value-of select="email"/></email>
+    </othercredit>
+  </itst:credits>
   <!-- Book information and other metadata-like information -->
   <info>
     <title its:locNote="Ampersand character &amp; is escaped for XML source format as &amp;amp;">Ada &amp; Zangemann</title>
