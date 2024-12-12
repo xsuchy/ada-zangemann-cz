@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" version="5.0" xmlns:itst="http://itstool.org/extensions/" xml:lang="en" az:datamodelversion="0.1.0-alpha" dir="ltr">
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:its="http://www.w3.org/2005/11/its" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" xmlns:itst="http://itstool.org/extensions/" its:version="2.0" version="5.0" xml:lang="en" az:datamodelversion="0.1.0-alpha" dir="ltr">
   <!-- Rules for translation and internationalization -->
   <its:rules version="2.0">
     <!-- Add note for alttag -->
-    <its:locNoteRule locNoteType="description" selector="//db:alt" xmlns:db="http://docbook.org/ns/docbook">
+    <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//db:alt">
       <its:locNote>The alt tag contains an alternative text, describing the image for the visual impaired.</its:locNote>
     </its:locNoteRule>
     <!-- Ensure that certain information gets grouped together for translators -->
-    <its:withinTextRule withinText="yes" selector="//az:character/*" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/"/>
-    <its:withinTextRule withinText="yes" selector="//az:style/az:fontset/az:font/*" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/"/>
-    <its:locNoteRule locNoteType="description" selector="//az:style/az:fontset/az:font/*" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/">
+    <its:withinTextRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" withinText="yes" selector="//az:character/*"/>
+    <its:withinTextRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" withinText="yes" selector="//az:style/az:fontset/az:font/*"/>
+    <its:locNoteRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" locNoteType="description" selector="//az:style/az:fontset/az:font/*">
       <its:locNote>Font information for the Scribus template to generate PDFs. Only change if needed.</its:locNote>
     </its:locNoteRule>
   </its:rules>
@@ -17,8 +17,12 @@
   <!-- TODO: validate if this works -->
   <itst:credits appendTo="/book/info">
     <othercredit class="translator">
-      <personname><itst:value-of select="name"/></personname>
-      <email><itst:value-of select="email"/></email>
+      <personname>
+        <itst:value-of select="name"/>
+      </personname>
+      <email>
+        <itst:value-of select="email"/>
+      </email>
     </othercredit>
   </itst:credits>
   <!-- Book information and other metadata-like information -->
@@ -911,7 +915,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
         <alt>Three hands that hold as many empty ice cream cones, to draw and color. In the air above the middle cone is an umbrella.</alt>
       </mediaobject>
     </section>
-    <section az:pagenum="58"></section>
-    <section az:pagenum="59"></section>
+    <section az:pagenum="58"/>
+    <section az:pagenum="59"/>
   </appendix>
 </book>
