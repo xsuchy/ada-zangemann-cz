@@ -703,8 +703,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
         </imageobject>
         <alt>Group of protesters. Among them there are: Ada's mother holding Alan's hand and raising a pink ice cream; 3 colleagues of Toni's father dressed in ties; two children holding the banner “Do your homework Mr. President and we will do ours!”; a robot with tank treads, irons as feet, an electric fan as abdomen, a monitor as head, and an eggbeater as one hand, holding a blue ice cream in his other hand; two parents holding the banner “Hacking 4 Freedom”; a lady holding an electronic sign “There is a code B”; two small birds, flying; the math teacher, Ms. Gernet, who has inserted in her cart a sign that says “They are young + need the code!“ The dog in her cart is barking; Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada's family's dog is now wearing a red harness with shiny yellow LEDs that matches the collar.</alt>
         <info>
-          <!-- NOTE: translation hints modelled as additional information-->
-          <az:excerpt>"Do your homework Mr. President and we will do ours!"</az:excerpt>
+          <az:excerpt its:locNote="Text on big banner, left on the illustration">Do your homework Mr. President and we will do ours!"</az:excerpt>
         </info>
       </mediaobject>
     </section>
@@ -722,8 +721,8 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
         <alt>Detail of the previous image: Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada's family's little dog is now wearing a red harness with shiny yellow LEDs that matches the collar.</alt>
         <info>
           <!-- NOTE: translation hints modelled as additional information-->
-          <az:excerpt>"They are young + need the code!"</az:excerpt>
-          <az:excerpt>"Don’t wreck our tech!"</az:excerpt>
+          <az:excerpt its:locNote="Text on square signe on the right of the illustration">"They are young + need the code!"</az:excerpt>
+          <az:excerpt its:locNote="Text on banner on the banner held by children on the right of the illustration">"Don’t wreck our tech!"</az:excerpt>
         </info>
       </mediaobject>
     </section>
