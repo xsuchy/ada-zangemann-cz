@@ -78,6 +78,8 @@ Considerations for the current DocBook format.
 - Deal with conditional credits or colophon, as the English version has 2 versions: for print and for online publication. It might be that there are two version of the source document: one representing the published book and one being the upstream document version for remix versions.
 - It might be necessary or convenient to add font properties for emphasis markup, because the terms used for bold and italic might depend on the font.
 - Use `xml:id` attributes on the chapters for identification or reference. Could be an identifier like `ch01` or a more descriptive text.
+- Consider simplifying the personname element by not modelling the firstname and lastname, but just inserting the verbatim name. This will simplify the experience of the translators.
+- Deal with different credits information per language. Perhaps it shouldn't be available to translators, should be exposed as an XML structure, or should be left out entirely.
 
 Consider modelling the dropcaps as inline images, perhaps conditionally. Making this conditional and dealing with alt-text is a challenge.
 

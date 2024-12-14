@@ -49,6 +49,7 @@
         <firstname>Sandra</firstname>
         <surname>Brandstätter</surname>
       </personname>
+    <!-- TODO: support localisation for credits that depend on the language -->
     </othercredit>
     <othercredit class="other" otherclass="publisher">
       <!-- Publisher is not a 1:1 model in DocBook, so modelled as othercredit. -->
