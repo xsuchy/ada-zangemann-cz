@@ -228,7 +228,7 @@
     </cover>
   </info>
   <!-- Start of the book -->
-  <colophon xml:id="ch2">
+  <colophon>
     <info>
       <title>Imprint</title>
     </info>
@@ -309,7 +309,7 @@ ADA &amp; ZANGEMANN
 A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
     </section>
   </chapter>
-  <chapter xml:id="ch3">
+  <chapter>
     <info>
       <title>Ada &amp; Zangemann</title>
     </info>
@@ -336,7 +336,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       <para>Far away, at the other end of town, lived a famous inventor named Zangemann. He was immensely rich. No sheet of paper in the world was big enough to show his bank balance with all its numbers and zeros! He lived in a huge house with a swimming pool and waterslide, lots of staircases and towers, hundreds of windows, and so many rooms that he often got lost in them himself. Zangemann’s mansion stood high on a hill. From there, he could look out over the whole city.</para>
     </section>
   </chapter>
-  <chapter xml:id="ch4">
+  <chapter>
     <info>
       <title>Zangemann and computers</title>
     </info>
@@ -414,7 +414,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       <para>Soon, almost every appliance in the world had a Zangemann computer built into it. Not all of his inventions seemed necessary at first, but people bought everything he made. That’s just the way it was. Everyone wanted the devices made by Zangemann, the greatest inventor in the world.</para>
     </section>
   </chapter>
-  <chapter xml:id="ch5">
+  <chapter>
     <info>
       <title>One day...</title>
     </info>
@@ -467,7 +467,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       </mediaobject>
     </section>
   </chapter>
-  <chapter xml:id="ch6">
+  <chapter>
     <info>
       <title>Skateboards no longer work</title>
     </info>
@@ -493,7 +493,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       <para>After a few days, the initial shock at Ada’s school was forgotten. The skateboards still didn’t go on the sidewalk, but apart from that, they still worked. And so now the children rode in circles around the playground and listened to soft music. Only a strange, pompous marching music continued to play at an unchanged volume, which the children found rather puzzling.</para>
     </section>
   </chapter>
-  <chapter xml:id="ch7">
+  <chapter>
     <info>
       <title>Ada and software</title>
     </info>
@@ -510,7 +510,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       </mediaobject>
     </section>
   </chapter>
-  <chapter xml:id="ch8">
+  <chapter>
     <info>
       <title>Programming</title>
     </info>
@@ -539,7 +539,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       </mediaobject>
     </section>
   </chapter>
-  <chapter xml:id="ch9">
+  <chapter>
     <info>
       <title>A horrible night</title>
     </info>
@@ -550,7 +550,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       <para>Once he was done, he sent all the new programs from his golden computer to people’s devices. He ordered his speakers to play only his favorite music whenever he was within earshot. He programmed the ice-cream machines to stop selling ice cream in the afternoon. After all, he didn’t want his expensive clothes to get stained by ice cream while he was out for a walk. All day long he sat at the computer and typed and typed and typed...</para>
     </section>
   </chapter>
-  <chapter xml:id="ch10">
+  <chapter>
     <info>
       <title>First real project</title>
     </info>
@@ -591,7 +591,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       </mediaobject>
     </section>
   </chapter>
-  <chapter xml:id="ch11">
+  <chapter>
     <info>
       <title>Hacking for freedom</title>
     </info>
@@ -649,7 +649,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       <para>Some things they built just for fun, like the fart machine they put in their math teacher’s chair. Whenever Ms. Gernet sat down, the machine played a little fart sound. The teacher would scold them, but Ada was sure that she secretly smirked a little every time.</para>
     </section>
   </chapter>
-  <chapter xml:id="ch12">
+  <chapter>
     <info>
       <title>Zangemann and the President</title>
     </info>
@@ -680,7 +680,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       </mediaobject>
     </section>
   </chapter>
-  <chapter xml:id="ch13">
+  <chapter>
     <info>
       <title>Protest</title>
     </info>
@@ -727,7 +727,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       </mediaobject>
     </section>
   </chapter>
-  <chapter xml:id="ch14">
+  <chapter>
     <info>
       <title>Children help the government</title>
     </info>
@@ -754,7 +754,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       </mediaobject>
     </section>
   </chapter>
-  <chapter xml:id="ch15">
+  <chapter>
     <info>
       <title>New law</title>
     </info>
@@ -800,7 +800,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       </mediaobject>
     </section>
   </chapter>
-  <chapter xml:id="ch16">
+  <chapter>
     <info>
       <title>And Zangemann?</title>
     </info>
@@ -846,7 +846,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       </mediaobject>
     </section>
   </acknowledgements>
-  <appendix xml:id="ch18">
+  <appendix>
     <info>
       <!-- TODO: deal with multi-line title. Check if this modelling works. -->
       <title>About the Author</title>
@@ -864,7 +864,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       <para>Matthias was fascinated by computers and software as a child. He had an internet connection early, through which he learned a lot. Children have a right to take their future into their own hands. Therefore, Matthias is committed to the goal that all humans can use software in a self-determined way. He also wants to build an electric skateboard with Free Software.</para>
     </section>
   </appendix>
-  <appendix xml:id="ch19">
+  <appendix>
     <info>
       <!-- TODO: deal with multi-line title. Check if this modelling works. -->
       <title>About the Illustrator</title>
@@ -882,7 +882,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       <para>Sandra has always liked crafting with scissors, pliers, glue, wire, fabric, and paper. Today she works as an illustrator, comic author, and character designer for animated films and series, such as the German public television series Trudes Tier. On an ice-cream machine, Sandra would pick a creamy rainbow ice cream with lemon cucumber flavor and a lot of sprinkles.</para>
     </section>
   </appendix>
-  <appendix xml:id="ch20">
+  <appendix>
     <info>
       <!-- TODO: this title abbreviation is incorrect compared to titles -->
       <!-- <title>Website for the book and license</title> -->
@@ -894,7 +894,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
       <para>On the web page of the book, you will find more information and resources: <link xlink:href="https://ada.fsfe.org">https://ada.fsfe.org</link>.</para>
     </section>
   </appendix>
-  <appendix xml:id="ch21">
+  <appendix>
     <info>
       <!-- TODO: what to do with this title? -->
       <!-- <title>Drawing templates</title> -->
