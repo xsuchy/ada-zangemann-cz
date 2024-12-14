@@ -9,8 +9,10 @@
     <!-- Ensure that certain information gets grouped together for translators -->
     <its:withinTextRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" withinText="yes" selector="//az:character/*"/>
     <its:withinTextRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" withinText="yes" selector="//az:style/az:fontset/az:font/*"/>
-    <!-- Same for the colophon, to expose the modelling of the colophon to the translator, in case multiple paragraphs are involved -->
-    <its:withinTextRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" withinText="yes" selector="//colophon/section/*"/>
+    <!-- Same for the colophon, to expose the modelling of the colophon to the in case multiple paragraphs are involved -->
+    <its:withinTextRule xmlns:db="http://docbook.org/ns/docbook" withinText="yes" selector="//db:colophon/db:section/*"/>
+    <!-- Allow translators to control spaces, necessary for the literallayout -->
+    <its:preserveSpaceRule xmlns:db="http://docbook.org/ns/docbook" space="preserve" selector="//db:colophon/db:section"/>
     <!-- Translator note for alt tags -->
     <its:locNoteRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" locNoteType="description" selector="//az:style/az:fontset/az:font/*">
       <its:locNote>Font information for the Scribus template to generate PDFs. Only change if needed.</its:locNote>
