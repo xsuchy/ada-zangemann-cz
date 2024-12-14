@@ -293,7 +293,7 @@ Free Software is about the freedoms you receive with the software, not about the
 We encourage you to support authors, publishers, and others involved in the creation of culture under free licenses – including <emphasis role="bold">financially supporting them through purchases or donations</emphasis>. (<link xlink:href="https://fsfe.org/donate">https://fsfe.org/donate</link>) Society should support those who respect others' freedom.</literallayout>
     </section>
   </colophon>
-    <!-- TODO: does the title page have to be modelled separately? -->
+  <!-- TODO: does the title page have to be modelled separately? -->
   <chapter>
     <section az:pagenum="3">
       <anchor az:slidenum="1"/>
