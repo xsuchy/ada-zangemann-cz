@@ -9,6 +9,9 @@
     <!-- Ensure that certain information gets grouped together for translators -->
     <its:withinTextRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" withinText="yes" selector="//az:character/*"/>
     <its:withinTextRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" withinText="yes" selector="//az:style/az:fontset/az:font/*"/>
+    <!-- Same for the colophon, to expose the modelling of the colophon to the translator, in case multiple paragraphs are involved -->
+    <its:withinTextRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" withinText="yes" selector="//colophon/section/*"/>
+    <!-- Translator note for alt tags -->
     <its:locNoteRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" locNoteType="description" selector="//az:style/az:fontset/az:font/*">
       <its:locNote>Font information for the Scribus template to generate PDFs. Only change if needed.</its:locNote>
     </its:locNoteRule>
@@ -160,31 +163,31 @@
     </az:style>
     <!-- Names and name origin of the characters -->
     <az:namedcharacters>
-      <az:character role="ada">
+      <az:character role="ada" its:locNote="Name must not be changed">
         <az:charactername>Ada</az:charactername>
         <az:characternameorigin>Ada Lovelace</az:characternameorigin>
       </az:character>
-      <az:character role="zangemann">
+      <az:character role="zangemann" its:locNote="Name must not be changed">
         <az:charactername>Zangemann</az:charactername>
         <az:characternameorigin>Suggested by a son of Matthias</az:characternameorigin>
       </az:character>
-      <az:character role="alan">
+      <az:character role="alan" its:locNote="Name must not be changed">
         <az:charactername>Alan</az:charactername>
         <az:characternameorigin>Alan Turing</az:characternameorigin>
       </az:character>
-      <az:character role="toni">
+      <az:character role="toni" its:locNote="Character names are mostly reference to existing people in computer history or science, but if you want to change them in order to make it easier for children to relate to the characters we should find names which are still common but connected to important figures in the computer history. If you have problems with that, feel free to reach out to Matthias. Please also make sure to just exchange male names with male names, female names with female names to keep the gender balance as intended, or use names which can be male and female.">
         <az:charactername>Toni</az:charactername>
         <az:characternameorigin>Toni Baker</az:characternameorigin>
       </az:character>
-      <az:character role="konrad">
+      <az:character role="konrad" its:locNote="Character names are mostly reference to existing people in computer history or science, but if you want to change them in order to make it easier for children to relate to the characters we should find names which are still common but connected to important figures in the computer history. If you have problems with that, feel free to reach out to Matthias. Please also make sure to just exchange male names with male names, female names with female names to keep the gender balance as intended, or use names which can be male and female.">
         <az:charactername>Konrad</az:charactername>
         <az:characternameorigin>Konrad Zuse</az:characternameorigin>
       </az:character>
-      <az:character role="marie">
+      <az:character role="marie" its:locNote="Character names are mostly reference to existing people in computer history or science, but if you want to change them in order to make it easier for children to relate to the characters we should find names which are still common but connected to important figures in the computer history. If you have problems with that, feel free to reach out to Matthias. Please also make sure to just exchange male names with male names, female names with female names to keep the gender balance as intended, or use names which can be male and female.">
         <az:charactername>Marie</az:charactername>
         <az:characternameorigin>Marie Curie</az:characternameorigin>
       </az:character>
-      <az:character role="gernet">
+      <az:character role="gernet" its:locNote="Character names are mostly reference to existing people in computer history or science, but if you want to change them in order to make it easier for children to relate to the characters we should find names which are still common but connected to important figures in the computer history. If you have problems with that, feel free to reach out to Matthias. Please also make sure to just exchange male names with male names, female names with female names to keep the gender balance as intended, or use names which can be male and female.">
         <az:charactername>Ms. Gernet</az:charactername>
         <az:characternameorigin>Marie Gernet</az:characternameorigin>
       </az:character>
