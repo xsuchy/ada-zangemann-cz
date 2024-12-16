@@ -56,6 +56,7 @@ Considerations for the current DocBook format.
 - Custom elements are used inside the book info element to list the named characters in the story. This allows translators to document the chosen names in case they deviate.
 - Font information is added to in book/info using custom elements (az:style/az:fontset/az:font). Especially languages using non-latin charachters might require different fonts. Adding this information into the DocBook document breaks the DocBook principle of separating formatting and content. Adding it in the same file brings conveniencefor processors by having the information available in one structure.
 - Use itstool extension [itst:credits](https://itstool.org/documentation/extensions.html#credits) to enable translators to insert translator credits into the document. This information is represented as othercredit.
+- Scribus file is filled using XSLT by matching a custom docbook-id attribute on Scribus elements to the xml:id element in the DocBook source file. Attributes can be configured in Scribus via the properties dialog on an elements. The outline window helps to select specific elements which are harder to click on. The attribute should have name docbook-id, should be of type string and have the value of the xml:id property. (Note, in the outline window the attributes can be accessed using right-click, but only if the element is not yet selected). As xml:id needs to be unique and the docbook-id attribute only an have one element, this approach can only select one element from the Docbook source file. This single element can also be the section, which can cover multiple paragraphs. Use-cases where the content cannot be expressed using a single id can be handled using additional XSLT processing to collect the information in a single element.
 
 #### Ideas for consideration
 - To add to each paragraph (`<para>` or `<literallayout>`) an `az:pagenum` attribute for easier parsing. This enables parsers to select all paragraphs with this attribute that should end up on a given page. Alternatively is to use `<az:page num="n"/>` elements to separate pages or use DocBook sections to split a chapter into separate pages. Note that sections would have to be defined within a chapter, making it more difficult to get the title, requiring navigation up the element tree.
@@ -80,6 +81,8 @@ Considerations for the current DocBook format.
 - Use `xml:id` attributes on the chapters for identification or reference. Could be an identifier like `ch01` or a more descriptive text.
 - Consider simplifying the personname element by not modelling the firstname and lastname, but just inserting the verbatim name. This will simplify the experience of the translators.
 - Deal with different credits information per language. Perhaps it shouldn't be available to translators, should be exposed as an XML structure, or should be left out entirely.
+- Add testcases for the XSLT templates. If no suitable tooling exists, a directory with input and output files could suffice.
+- Not use ANNAME attribute in Scribus, but rather use a custom attrbute, because ANNAME is supposed to be unique, but there might be cases where multiple Scribus elements refer to the same XML:ID.
 
 Consider modelling the dropcaps as inline images, perhaps conditionally. Making this conditional and dealing with alt-text is a challenge.
 
@@ -112,6 +115,8 @@ Consider having multiple imageobjects for different conditions:
   </imageobject>
 </mediaobject>
 ```
+
+- Scribus template has two separate text boxes on page 8 (8a and 8b) instead of having a text frame that wraps around the image. A single text frame is preferred to simplify handling. Same for page 54, containing both information on the website and the license.
 
 ### Recommendations for ongoing development
 
