@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This setup starts from the templates and reads docbook file as an external file -->
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:db="http://docbook.org/ns/docbook" db:version="5.0">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:db="http://docbook.org/ns/docbook" db:version="5.0" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/">
 
   <!-- Idea to correspond docbook-id attribute with xml:id and resolve any inline elements depending on input and output -->
 
@@ -50,7 +50,17 @@
         <xsl:for-each select="document($docbook-contents-file)//db:section[@xml:id=$docbook-id]/db:para">
           <ITEXT>
           <!-- NOTE: normalize-space removes replaces extended whitespace and thus removes line breaks too. A literallayout structure requires special handling -->
-          <xsl:attribute name="CH"><xsl:value-of select="normalize-space(.)"/></xsl:attribute>
+          <xsl:attribute name="CH">
+            <xsl:choose>
+              <xsl:when test="@az:dropcap='true'">
+                <!-- Strip the first character if a dropcap image is used -->
+                <xsl:value-of select="substring(normalize-space(.), 2)"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="normalize-space(.)"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:attribute>
           </ITEXT>
           <!-- Two para separators are needed to insert two newlines to end the first paragraph and create an empty line between the paragraphs. -->
           <!-- TODO: 2024-12-03 The <para/> nodes after the last ITEXT is not necessary and should be removed. This would trigger unnecessary warnings in Scribus for text outside the frame.  -->
