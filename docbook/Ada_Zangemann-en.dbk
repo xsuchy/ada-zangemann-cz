@@ -304,6 +304,9 @@ Society should support those who respect others' freedom.</literallayout>
   </colophon>
   <!-- TODO: does the title page have to be modelled separately? -->
   <chapter>
+    <info>
+      <title>Title page</title>
+    </info>
     <section xml:id="sec-p03" az:pagenum="3">
       <anchor az:slidenum="1"/>
       <mediaobject xml:id="img-ada-cover">
