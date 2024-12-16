@@ -214,17 +214,19 @@
       </mediaobject>
     </cover>
     <cover role="back">
-      <mediaobject>
+      <!-- TODO: the cover is currently a single image, but alt-text is defined for 2 images -->
+      <mediaobject xml:id="img-back_cover-a">
         <imageobject>
-          <imagedata fileref="../illustrations/en/back_cover-a.png"/>
+          <imagedata fileref="../illustrations/en/ada-z04.png"/>
         </imageobject>
         <alt>A soldering iron and a brush and can with yellow paint, connected by white electrical cord that forms a frame.</alt>
       </mediaobject>
       <para az:dropcap="true" az:dropcapcolor="#fddd66" az:dropcapbackgroundcolor="#71aaa4" az:dropcapfileref="../illustrations/Capitals/T-yellow2.png">The inventor Zangemann is world-famous and immensely rich. Adults and children alike love his fabulous technical inventions. But one day there is a problem: the children's electronic skateboards no longer work properly. What’s going on? The curious girl Ada sees through what is going on. Together with her friends, she experiments with hardware and software, and the children forge a plan: Zangemann can no longer be the only one in control of the devices!</para>
       <para>A book that arouses interest in tinkering and encourages shaping technology.</para>
+      <!-- TODO: this is a duplication of the same image -->
       <mediaobject xml:id="img-back_cover-b">
         <imageobject>
-          <imagedata fileref="../illustrations/en/back_cover-b.png"/>
+          <imagedata fileref="../illustrations/en/ada-z04.png"/>
         </imageobject>
         <alt>A power strip, with input and output of white electrical cord that is the frame.</alt>
       </mediaobject>
