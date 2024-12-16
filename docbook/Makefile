@@ -16,7 +16,7 @@ Ada_Zangemann-en-dblatex.pdf: Ada_Zangemann-en.dbk
 	dblatex -o Ada_Zangemann-en-dblatex.pdf Ada_Zangemann-en.dbk
 
 # Requires dbtoepub package in Debian
-Ada_Zangemann-en-dbtoepub.pdf: Ada_Zangemann-en.dbk
+Ada_Zangemann-en-dbtoepub.epub: Ada_Zangemann-en.dbk
 	dbtoepub -o Ada_Zangemann-en-dbtoepub.epub Ada_Zangemann-en.dbk
 
 .PHONY: xmllint-format
