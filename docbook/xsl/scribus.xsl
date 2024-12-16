@@ -45,12 +45,23 @@
         <!-- Handle all <para> and <literallayout> nodes in the section where the xml:id matches the docbook-id attribute of the text frame -->
         <!-- NOTE: idea to match all elements based on the XML-id, not just para and literallayout, to allow for more flexiblity in the template -->
         <!-- <xsl:for-each select="document($docbook-contents-file)//*[@xml:id=$anname]/*[local-name()='para' or local-name()='literallayout']"> -->
-        <xsl:for-each select="document($docbook-contents-file)//db:section[@xml:id=$docbook-id]/*[local-name()='para' or local-name()='literallayout']">
+        <!-- Previous selection which matched both para and literallayout elements: -->
+        <!-- <xsl:for-each select="document($docbook-contents-file)//db:section[@xml:id=$docbook-id]/*[local-name()='para' or local-name()='literallayout']"> -->
+        <xsl:for-each select="document($docbook-contents-file)//db:section[@xml:id=$docbook-id]/db:para">
           <ITEXT>
           <!-- NOTE: normalize-space removes replaces extended whitespace and thus removes line breaks too. A literallayout structure requires special handling -->
           <xsl:attribute name="CH"><xsl:value-of select="normalize-space(.)"/></xsl:attribute>
           </ITEXT>
+          <!-- Two para separators are needed to insert two newlines to end the first paragraph and create an empty line between the paragraphs. -->
+          <!-- TODO: 2024-12-03 The <para/> nodes after the last ITEXT is not necessary and should be removed. This would trigger unnecessary warnings in Scribus for text outside the frame.  -->
+          <para/>
+          <para/>
+        </xsl:for-each>
 
+        <xsl:for-each select="document($docbook-contents-file)//db:section[@xml:id=$docbook-id]/db:literallayout">
+          <ITEXT>
+          <xsl:attribute name="CH"><xsl:value-of select="."/></xsl:attribute>
+          </ITEXT>
           <!-- Two para separators are needed to insert two newlines to end the first paragraph and create an empty line between the paragraphs. -->
           <!-- TODO: 2024-12-03 The <para/> nodes after the last ITEXT is not necessary and should be removed. This would trigger unnecessary warnings in Scribus for text outside the frame.  -->
           <para/>
