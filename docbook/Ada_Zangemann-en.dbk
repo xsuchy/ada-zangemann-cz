@@ -37,6 +37,8 @@
   <info>
     <title its:locNote="Ampersand character &amp; is escaped for XML source format as &amp;amp;">Ada &amp; Zangemann</title>
     <subtitle>A Tale of Software, Skateboards, and Raspberry Ice Cream</subtitle>
+    <biblioid class="isbn" role="print">978-1-7185-0318-2</biblioid>
+    <biblioid class="isbn" role="ebook">978-1-7185-0319-9</biblioid>
     <!-- Author credit -->
     <author>
       <personname>
