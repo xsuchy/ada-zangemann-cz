@@ -118,6 +118,7 @@ Consider having multiple imageobjects for different conditions:
 ```
 
 - Scribus template has two separate text boxes on page 8 (8a and 8b) instead of having a text frame that wraps around the image. A single text frame is preferred to simplify handling. Same for page 54, containing both information on the website and the license.
+- Validation using an XML schema or Schematron schema can be executed using xmllint which has the `--relaxng` and `--schematron` flags. In order to validate a single schema has to be created that covers all namespaces in the document. DocBook schema's are provided for the [combination of DocBook and ITS schemas](https://docs.oasis-open.org/docbook/docbook/v5.1/os/docbook-v5.1-os.html#s.docbook). Unfortunately the provided v5.1 schema's lack the `its:rules` element that is used to define many translation rules. So in order to validate a custom schema definition will have to be created that combines the used namespaces into a single namespaces. There seem to be convenient ways to combine multiple schemas into one.
 
 ### Recommendations for ongoing development
 
