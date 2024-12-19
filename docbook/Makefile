@@ -22,3 +22,14 @@ Ada_Zangemann-en-dbtoepub.epub: Ada_Zangemann-en.dbk
 .PHONY: xmllint-format
 xmllint-format: Ada_Zangemann-en.dbk
 	mv Ada_Zangemann-en.dbk Ada_Zangemann-en.dbk.bak && xmllint --format Ada_Zangemann-en.dbk.bak > Ada_Zangemann-en.dbk
+
+docbook-5.1.rng:
+	wget -O docbook-5.1.rng https://docbook.org/xml/5.1/rng/docbook.rng
+
+docbook-5.1.sch:
+	wget -O docbook-5.1.sch https://docbook.org/xml/5.1/sch/docbook.sch
+
+.PHONY: validate
+validate: docbook-5.1.rng docbook-5.1.sch Ada_Zangemann-en.dbk
+	xmllint --noout --relaxng docbook-5.1.rng Ada_Zangemann-en.dbk
+	xmllint --noout --schematron docbook-5.1.sch Ada_Zangemann-en.dbk
