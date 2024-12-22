@@ -11,6 +11,9 @@ Ada_Zangemann-en.html: Ada_Zangemann-en.dbk
 Ada_Zangemann-en-print.sla: Ada_Zangemann-en.dbk xsl/scribus.xsl xsl/template-print.sla
 	xsltproc -o Ada_Zangemann-en-print.sla --verbose --stringparam docbook-contents-file "../Ada_Zangemann-en.dbk" xsl/scribus.xsl xsl/template-print.sla
 
+Ada_Zangemann-en-pure.dbk: Ada_Zangemann-en.dbk xsl/clean-docbook.xsl
+	xsltproc -o Ada_Zangemann-en-pure.dbk xsl/clean-docbook.xsl Ada_Zangemann-en.dbk
+
 # Requires dblatex package in Debian
 Ada_Zangemann-en-dblatex.pdf: Ada_Zangemann-en.dbk
 	dblatex -o Ada_Zangemann-en-dblatex.pdf Ada_Zangemann-en.dbk
