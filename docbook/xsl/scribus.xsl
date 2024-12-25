@@ -4,15 +4,12 @@
 
   <!-- Idea to correspond docbook-id attribute with xml:id and resolve any inline elements depending on input and output -->
 
-  <!-- Work in progress to define a newline variable -->
-  <xsl:variable name="cr"><xsl:text>
-  </xsl:text></xsl:variable>
-
-    <!-- Input paramter for the DocBook source file that should be used to insert data into Scribus -->
-    <xsl:param name="docbook-contents-file"/>
+  <!-- Input parameter for the DocBook source file that should be used to insert data into Scribus -->
+  <xsl:param name="docbook-contents-file"/>
 
     <!-- Output format for Scribus is XML -->
-    <xsl:output method="xml" indent="no"/>
+    <!-- <xsl:output method="xml" indent="no"/> -->
+    <xsl:output method="xml" indent="yes"/>
 
     <!-- Identity template to copy all contents of the Scribus template -->
     <xsl:template match="@*|node()">
@@ -51,13 +48,17 @@
           <ITEXT>
           <!-- NOTE: normalize-space removes replaces extended whitespace and thus removes line breaks too. A literallayout structure requires special handling -->
           <xsl:attribute name="CH">
+            <!-- TODO: make sure to call template to process emphasis marks, similar as in literallayout -->
             <xsl:choose>
               <xsl:when test="@az:dropcap='true'">
                 <!-- Strip the first character if a dropcap image is used -->
                 <xsl:value-of select="substring(normalize-space(.), 2)"/>
               </xsl:when>
               <xsl:otherwise>
+                <!-- <xsl:apply-templates select="."/> -->
                 <xsl:value-of select="normalize-space(.)"/>
+                <!-- TODO: find best way for additional processing on inserted content -->
+                <!-- <xsl:apply-templates select="emphasis"/> -->
               </xsl:otherwise>
             </xsl:choose>
           </xsl:attribute>
@@ -69,10 +70,12 @@
         </xsl:for-each>
 
         <xsl:for-each select="document($docbook-contents-file)//db:section[@xml:id=$docbook-id]/db:literallayout">
+          <!-- FIXME: consider replacing newlines by <para/> separators -->
           <ITEXT>
-          <xsl:attribute name="CH"><xsl:value-of select="."/></xsl:attribute>
+            <!-- Further processing using other templates -->
+            <xsl:apply-templates select="."/>
           </ITEXT>
-          <!-- Two para separators are needed to insert two newlines to end the first paragraph and create an empty line between the paragraphs. -->
+          <!-- Two <para/> separators are needed to insert two newlines to end the first paragraph and create an empty line between the paragraphs. -->
           <!-- TODO: 2024-12-03 The <para/> nodes after the last ITEXT is not necessary and should be removed. This would trigger unnecessary warnings in Scribus for text outside the frame.  -->
           <para/>
           <para/>
@@ -84,5 +87,42 @@
         <!-- TODO: additional processing: 2) copy text into ITEXT nodes, 3) deal with emphasis remarks -->
       </xsl:copy>
     </xsl:template>
+
+    <xsl:template match="db:emphasis[not(@role)]">
+      <!-- Default emphasis -->
+      <!-- FIXME: could be combined with the explicit rule -->
+      <ITEXT><!-- TODO: change element name -->
+        <xsl:attribute name="FONT">Heebo Italic</xsl:attribute>
+        <xsl:attribute name="CH"><xsl:value-of select="./text()"/></xsl:attribute>
+      </ITEXT>
+    </xsl:template>
+
+    <xsl:template match="db:emphasis[@role='italic']">
+      <ITEXT><!-- TODO: change element name -->
+        <xsl:attribute name="FONT">Heebo Italic</xsl:attribute>
+        <xsl:attribute name="CH"><xsl:value-of select="./text()"/></xsl:attribute>
+      </ITEXT>
+    </xsl:template>
+
+    <xsl:template match="db:emphasis[@role='bold']|db:emphasis[@role='strong']">
+      <ITEXT><!-- TODO: change element name -->
+        <xsl:attribute name="FONT">Heebo Bold</xsl:attribute>
+        <xsl:attribute name="CH"><xsl:value-of select="./text()"/></xsl:attribute>
+      </ITEXT>
+    </xsl:template>
+
+    <xsl:template match="//db:literallayout/text()">
+      <ITEXT>
+        <xsl:attribute name="CH"><xsl:value-of select="."/></xsl:attribute>
+      </ITEXT>
+    </xsl:template>
+
+    <xsl:template match="//db:literallayout/*[not(self::db:emphasis)]">
+      <!-- NOTE: links and other elements will result in multiple ITEXT nodes -->
+      <ITEXT>
+        <xsl:attribute name="CH"><xsl:value-of select="."/></xsl:attribute>
+      </ITEXT>
+    </xsl:template>
+
 
 </xsl:stylesheet>
