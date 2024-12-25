@@ -241,6 +241,27 @@ A brief overview of the Docbook elements and custom attributes used in the sourc
 </book>
 ```
 
+### Generic processing approach
+
+```ditaa
++-----------------------+    +--------------------------+
+| source DocBook files  |    | DocBook namespace only   |
+| (incl. ITS, ITST, AZ) |-+->| (for further processing) |
++-----------------------+ |  +--------------------------+
+            ^             |
+            |             |  +-------------------------+  +-------------+
+            v             +->| Scribus (fill template) |->| PDF exports |
++----------------------+  |  +-------------------------+  +-------------+
+| PO translation files |  |
+| (per language)       |  |  +-------------+
++----------------------+  +->| Epub (HTML) |
+                          |  +-------------+
+                          |
+                          |  +-------------------+
+                          \->| Book reading text |
+                             +-------------------+
+```
+
 ## Analysis of slides and pages
 
 Slide transitions and page transitions cross each oter (single page for multiple slides and vice-versa).
