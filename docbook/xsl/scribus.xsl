@@ -192,4 +192,25 @@
       </ITEXT>
     </xsl:template>
 
+    <!-- TODO: processing of titles -->
+    <!-- <PAGEOBJECT> -->
+    <!--   <StoryText> -->
+    <!--     <DefaultStyle FCOLOR="Details"/> -->
+    <!--     <ITEXT FONT="Amatic SC Bold" FONTSIZE="50" FCOLOR="Details" CH="About the illustrator"/> -->
+    <!--     <para/> -->
+    <!--     <ITEXT FONT="Amatic SC Bold" FONTSIZE="50" FCOLOR="Details" CH="Sandra Brandst&#xE4;tter"/> -->
+    <!--     <trail/> -->
+    <!--   </StoryText> -->
+    <!-- </PAGEOBJECT> -->
+    <!--
+        1. Match pageobject based on docbook-id element
+          a. Reference to chapter/appendix, resolve to info/title
+          b. Reference to title, resolve to subtitle if needed (clear that it involves a heading)
+        2. Check that is a type of title (perhaps separate attribute if refering to a title)
+        3. Skip if title image is provided
+        4. Deal with multiline title
+          a. Have a single multi-line title (which is atypical)
+          b. Append subtitle with a newline if available
+    -->
+
 </xsl:stylesheet>
