@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This setup starts from the templates and reads docbook file as an external file -->
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:db="http://docbook.org/ns/docbook" db:version="5.0" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/">
+<!-- exclude-result-prefixes setting to prevent namespaces to end up in output -->
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:db="http://docbook.org/ns/docbook" db:version="5.0"
+                xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/"
+                exclude-result-prefixes="db az">
 
   <!-- Idea to correspond docbook-id attribute with xml:id and resolve any inline elements depending on input and output -->
 
@@ -76,7 +81,9 @@
       <!-- TODO: Heebo italic font not available or not installed -->
       <ITEXT>
         <xsl:attribute name="FONT">Roboto Italic</xsl:attribute>
-        <xsl:attribute name="CH"><xsl:value-of select="./text()"/></xsl:attribute>
+        <xsl:attribute name="CH">
+          <xsl:value-of select="./text()"/>
+        </xsl:attribute>
       </ITEXT>
     </xsl:template>
 
@@ -84,20 +91,26 @@
       <!-- FIXME: Doesn't support nesting of emphasis or other nested elements -->
       <ITEXT>
         <xsl:attribute name="FONT">Heebo Bold</xsl:attribute>
-        <xsl:attribute name="CH"><xsl:value-of select="./text()"/></xsl:attribute>
+        <xsl:attribute name="CH">
+          <xsl:value-of select="./text()"/>
+        </xsl:attribute>
       </ITEXT>
     </xsl:template>
 
     <xsl:template match="//db:literallayout/text()">
       <ITEXT>
-        <xsl:attribute name="CH"><xsl:value-of select="."/></xsl:attribute>
+        <xsl:attribute name="CH">
+          <xsl:value-of select="."/>
+        </xsl:attribute>
       </ITEXT>
     </xsl:template>
 
     <xsl:template match="//db:literallayout/*[not(self::db:emphasis)]">
       <!-- NOTE: links and other elements will result in multiple ITEXT nodes -->
       <ITEXT>
-        <xsl:attribute name="CH"><xsl:value-of select="."/></xsl:attribute>
+        <xsl:attribute name="CH">
+          <xsl:value-of select="."/>
+        </xsl:attribute>
       </ITEXT>
     </xsl:template>
 
@@ -105,7 +118,9 @@
     <xsl:template match="//db:para/*[not(self::db:emphasis)]">
       <!-- NOTE: links and other elements will result in multiple ITEXT nodes -->
       <ITEXT>
-        <xsl:attribute name="CH"><xsl:value-of select="normalize-space(.)"/></xsl:attribute>
+        <xsl:attribute name="CH">
+          <xsl:value-of select="normalize-space(.)"/>
+        </xsl:attribute>
       </ITEXT>
     </xsl:template>
 
@@ -116,7 +131,9 @@
       <!-- TODO: Heebo italic font not available or not installed -->
       <ITEXT>
         <xsl:attribute name="FONT">Roboto Italic</xsl:attribute>
-        <xsl:attribute name="CH"><xsl:value-of select="normalize-space(./text())"/></xsl:attribute>
+        <xsl:attribute name="CH">
+          <xsl:value-of select="normalize-space(./text())"/>
+        </xsl:attribute>
       </ITEXT>
     </xsl:template>
 
@@ -125,7 +142,7 @@
       <ITEXT>
         <xsl:attribute name="FONT">Heebo Bold</xsl:attribute>
         <xsl:attribute name="CH">
-          <xsl:value-of select="./text()"/>
+          <xsl:value-of select="normalize-space(./text())"/>
         </xsl:attribute>
       </ITEXT>
     </xsl:template>
@@ -136,16 +153,22 @@
         <xsl:attribute name="CH">
           <xsl:choose>
             <xsl:when test="../@az:dropcap='true'">
+
               <!-- Strip the first character if a dropcap image is used -->
-              <!-- TODO: normalize space if possible -->
               <!-- FIXME: doesn't handle an emphasis that starts at the beginning of the line. Alternative could be to process dropcaps edge case as a final step -->
-              <xsl:value-of select="substring(., 2)"/>
+              <xsl:value-of select="substring(normalize-space(), 2)"/>
+              <xsl:if test="following-sibling::node()">
+                <xsl:text> </xsl:text>
+              </xsl:if>
             </xsl:when>
             <xsl:otherwise>
-              <!-- TODO: normalize space if possible -->
-              <xsl:value-of select="."/>
+              <xsl:value-of select="normalize-space()"/>
             </xsl:otherwise>
             </xsl:choose>
+            <!-- Append a trailing space if other content follows -->
+            <xsl:if test="following-sibling::node()">
+              <xsl:text> </xsl:text>
+            </xsl:if>
           </xsl:attribute>
       </ITEXT>
     </xsl:template>
@@ -153,9 +176,18 @@
     <!-- Handle generic text, not influenced by dropcaps -->
     <xsl:template match="//db:para/text()[position() > 1]">
       <ITEXT>
-        <!-- TODO: normalize space if possible -->
         <xsl:attribute name="CH">
-          <xsl:value-of select="."/>
+
+          <!-- Normalize space in elements inside paragraph. Insert preseding of trailing space if other nodes exist, like emphasized text or a link. -->
+          <!-- NOTE: this forces a spect around emphasized text or link, which could be good -->
+          <xsl:if test="preceding-sibling::node()">
+            <xsl:text> </xsl:text>
+          </xsl:if>
+          <xsl:value-of select="normalize-space()"/>
+          <xsl:if test="following-sibling::node()">
+            <xsl:text> </xsl:text>
+          </xsl:if>
+
         </xsl:attribute>
       </ITEXT>
     </xsl:template>
