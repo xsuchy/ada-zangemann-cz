@@ -17,9 +17,9 @@
 
     <!-- Identity template to copy all contents of the Scribus template. Only for elements without namespace (Scribus), to prevent handling DocBook elements. -->
     <xsl:template match="@*|node()[namespace-uri()='']">
-        <xsl:copy>
-            <xsl:apply-templates select="@*|node()"/>
-        </xsl:copy>
+      <xsl:copy>
+        <xsl:apply-templates select="@*|node()"/>
+      </xsl:copy>
     </xsl:template>
 
     <!-- TODO: handle images, headers and title page -->
