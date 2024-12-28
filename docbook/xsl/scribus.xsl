@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- This setup starts from the templates and reads docbook file as an external file -->
 <!-- exclude-result-prefixes setting to prevent namespaces to end up in output -->
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -7,7 +6,23 @@
                 xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/"
                 exclude-result-prefixes="db az">
 
-  <!-- Idea to correspond docbook-id attribute with xml:id and resolve any inline elements depending on input and output -->
+  <!-- Generic approach is to correspond docbook-id attribute with xml:id and
+       resolve any inline elements depending on input and output. It starts from
+       the template and reads the DocBook file as an external file.
+  -->
+
+  <!-- Debugging tips:
+
+       Insert text:
+       <xsl:text>HERE</xsl:text>
+
+       Insert value of variable:
+       <xsl:value-of select="$matching-element"/>
+
+       Output message via XSLT processor:
+       <xsl:message>Message</xsl:message>
+  -->
+
 
   <!-- Input parameter for the DocBook source file that should be used to insert data into Scribus -->
   <xsl:param name="docbook-contents-file"/>
@@ -27,52 +42,71 @@
     <!-- Template to handle StoryText objects by recreating the content -->
     <!-- Matches StoryText elements in a PAGEOBJECT with a docbook-id Attribute -->
     <xsl:template match="/SCRIBUSUTF8NEW/DOCUMENT/PAGEOBJECT[PageItemAttributes/ItemAttribute[@Name='docbook-id']]/StoryText">
+
       <!-- Get docbook-id attribute set in Scribus -->
       <xsl:variable name="docbook-id" select="../PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value" />
+
+      <!-- Get type of matching element -->
+      <xsl:variable name="matching-element" select="local-name(document($docbook-contents-file)//*[@xml:id=$docbook-id])"/>
 
       <!-- Copy StoryText element -->
       <xsl:copy>
 
-        <!-- Optional debugging output -->
-        <!-- <xsl:text>HERE</xsl:text> -->
-        <!-- <xsl:value-of select="$docbook-id"/> -->
+        <!-- TODO: insert font and size attributes from styles as defined in DocBook file -->
 
-        <!-- Copy original content by applying the built-in template -->
-        <!-- <xsl:apply-templates select="@*|node()" /> -->
+        <!-- Warning message if Scribus template contains character styles -->
+        <xsl:if test="./ITEXT[1]/@*[not(local-name() = 'CH')]">
+          <xsl:message>WARNING: In StoryText element with docbook-id='<xsl:value-of select="$docbook-id"/>': Found formatting settings on characters using the Story Editor. Processing will ignore these character settings in favor of the formatting applied to the Text Frame. These Text Properties can be accessed using F3 shortcut. Adjust the style using the Text Frame settings, not selecting text, but the text frame. Settings in the StoryEditor are ignored and overruled.</xsl:message>
+        </xsl:if>
 
-        <!-- Copy first DefaultStyle node by applying the built-in template. Copy it because it might contain settings. -->
-        <xsl:apply-templates select="./DefaultStyle[1]"/>
+        <!-- Copy Text Frame properties, which might refer to a parent style -->
+        <xsl:copy-of select="./DefaultStyle[1]"/>
 
-        <!-- Handle all <para> and <literallayout> nodes in the section where the xml:id matches the docbook-id attribute of the text frame -->
-        <!-- NOTE: idea to match all elements based on the XML-id, not just para and literallayout, to allow for more flexiblity in the template -->
-        <!-- <xsl:for-each select="document($docbook-contents-file)//*[@xml:id=$anname]/*[local-name()='para' or local-name()='literallayout']"> -->
+        <!-- Different handling depending on matched element (section, title, subtitle, bridgehead -->
+        <xsl:choose>
 
-        <!-- Previous selection which matched both para and literallayout elements: -->
-        <!-- <xsl:for-each select="document($docbook-contents-file)//db:section[@xml:id=$docbook-id]/*[local-name()='para' or local-name()='literallayout']"> -->
-        <xsl:for-each select="document($docbook-contents-file)//db:section[@xml:id=$docbook-id]/db:para">
-          <xsl:apply-templates select="."/>
+          <!-- A DocBook section: load text from <para> and <literallayout> elements -->
+          <xsl:when test="$matching-element='section'">
+            <xsl:message>MyMessage</xsl:message>
 
-          <!-- Two para separators are needed to insert two newlines to end the first paragraph and create an empty line between the paragraphs. -->
-          <!-- TODO: 2024-12-03 The <para/> nodes after the last ITEXT is not necessary and should be removed. This would trigger unnecessary warnings in Scribus for text outside the frame.  -->
-          <para/>
-          <para/>
-        </xsl:for-each>
+            <xsl:for-each select="document($docbook-contents-file)//db:section[@xml:id=$docbook-id]/*[local-name()='para' or local-name()='literallayout']">
+              <xsl:apply-templates select="."/>
 
-        <xsl:for-each select="document($docbook-contents-file)//db:section[@xml:id=$docbook-id]/db:literallayout">
-          <!-- FIXME: consider replacing newlines by <para/> separators -->
-          <!-- Further processing using other templates -->
-          <xsl:apply-templates select="."/>
+              <!-- Two para separators are needed inbetween paragraphs to insert two newlines to end the first paragraph and create an empty line between the paragraphs. -->
+              <!-- FIXME: Prefer paragraph styles in favor of hard newlined. -->
+              <xsl:if test="not(position() = last())">
+                <para/>
+                <para/>
+              </xsl:if>
+            </xsl:for-each>
 
-          <!-- Two <para/> separators are needed to insert two newlines to end the first paragraph and create an empty line between the paragraphs. -->
-          <!-- TODO: 2024-12-03 The <para/> nodes after the last ITEXT is not necessary and should be removed. This would trigger unnecessary warnings in Scribus for text outside the frame.  -->
-          <para/>
-          <para/>
-        </xsl:for-each>
+          </xsl:when>
+
+          <!-- An image modelled inside a mediaobject -->
+          <xsl:when test="$matching-element='mediaobject'">
+            <!-- TODO: add template to insert file path -->
+          </xsl:when>
+
+          <!-- Default case, for title, subtitle, bridgehead -->
+          <xsl:otherwise>
+            <ITEXT>
+              <xsl:attribute name="CH">
+                <xsl:for-each select="document($docbook-contents-file)//*[@xml:id=$docbook-id][1]">
+                  <xsl:value-of select="normalize-space(.)"/>
+                </xsl:for-each>
+              </xsl:attribute>
+            </ITEXT>
+          </xsl:otherwise>
+
+        </xsl:choose>
 
         <!-- Indicator of the end of the text -->
         <trail/>
+
       </xsl:copy>
     </xsl:template>
+
+    <!-- FIXME: idea to append or change font names instead of replacing the font entirely -->
 
     <!-- TODO: unify emphasis handling between db:para and db:literallayout elements -->
     <xsl:template match="//db:literallayout/db:emphasis">
@@ -191,26 +225,5 @@
         </xsl:attribute>
       </ITEXT>
     </xsl:template>
-
-    <!-- TODO: processing of titles -->
-    <!-- <PAGEOBJECT> -->
-    <!--   <StoryText> -->
-    <!--     <DefaultStyle FCOLOR="Details"/> -->
-    <!--     <ITEXT FONT="Amatic SC Bold" FONTSIZE="50" FCOLOR="Details" CH="About the illustrator"/> -->
-    <!--     <para/> -->
-    <!--     <ITEXT FONT="Amatic SC Bold" FONTSIZE="50" FCOLOR="Details" CH="Sandra Brandst&#xE4;tter"/> -->
-    <!--     <trail/> -->
-    <!--   </StoryText> -->
-    <!-- </PAGEOBJECT> -->
-    <!--
-        1. Match pageobject based on docbook-id element
-          a. Reference to chapter/appendix, resolve to info/title
-          b. Reference to title, resolve to subtitle if needed (clear that it involves a heading)
-        2. Check that is a type of title (perhaps separate attribute if refering to a title)
-        3. Skip if title image is provided
-        4. Deal with multiline title
-          a. Have a single multi-line title (which is atypical)
-          b. Append subtitle with a newline if available
-    -->
 
 </xsl:stylesheet>

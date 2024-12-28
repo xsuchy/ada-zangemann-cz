@@ -844,9 +844,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
   <!-- TODO: this might be modelled as acknowledgements instead of a chapter. Normally acknowledgements appear earlier in the book. -->
   <acknowledgements xml:id="ch17">
     <info>
-      <!-- NOTE: Modelled using a titleabbrev for the table of contents -->
-      <title>Acknowledgments from the author</title>
-      <titleabbrev>Acknowledgments</titleabbrev>
+      <title xml:id="title-acknowledgments">Acknowledgments</title>
     </info>
     <section xml:id="sec-p50" az:pagenum="50">
       <para its:locNote="In the acknowledgements of the English version you can change 'No Starch Press' to the name of your publisher, as we would like to thank you for publishing this book in your language under a free cultural license, and encourage you to do that for other books in future as well.">Many thanks to Reinhard Wiesemann from the Linuxhotel for the financial support and motivation to no longer plan but to make. Thanks to Sandra Brandstätter, who has brought me joy with every new design for the illustrations. Thanks to my editor Wiebke Helmchen, who made developing and sharpening the story fun, and to No Starch Press for agreeing to publish the book under a free culture license.</para>
@@ -901,9 +899,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
   </appendix>
   <appendix>
     <info>
-      <!-- TODO: this title abbreviation is incorrect compared to titles -->
-      <!-- <title>Website for the book and license</title> -->
-      <title>Website for the book</title>
+      <title xml:id="title-bookswebsite">Book's website</title>
     </info>
     <section xml:id="sec-p54a" az:pagenum="54">
       <para>The Free Software Foundation Europe e.V. is a nonprofit association that empowers people to control technology. Software affects all areas of our life. That is why it is important that this technology gives us freedom instead of restricting us. Free Software (also called Open Source) gives everyone the right to use, study, share, and improve programs. Therefore, Free Software strengthens basic rights such as freedom of expression, freedom of the press, and the right to privacy.</para>
@@ -915,7 +911,7 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
     <info>
       <!-- TODO: what to do with this title? -->
       <!-- <title>Drawing templates</title> -->
-      <title>License</title>
+      <title xml:id="title-license">License</title>
     </info>
     <section xml:id="sec-p54b" az:pagenum="54">
       <para>The book Ada &amp; Zangemann: A Tale of Software, Skateboards, and Raspberry Ice Cream by Matthias Kirschner and Sandra Brandstätter, published by No Starch Press, is licensed under “Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).”</para>
