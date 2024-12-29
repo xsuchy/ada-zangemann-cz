@@ -350,7 +350,7 @@ Raspberry Ice Cream</literallayout>
     </info>
     <section xml:id="sec-p04" az:pagenum="4">
       <anchor az:slidenum="2"/>
-      <para az:dropcap="true" az:dropcapcharacter="O" az:dropcapfileref="../illustrations/Capitals/O-cyan.png" az:dropcapcolor="#5cb2d4" az:dropcapbackgroundcolor="#ffffff">Once upon a time, there was a little girl named Ada. Her family was so poor that all their savings fit inside a cookie jar. They didn’t have enough money to live in a proper home. Instead, Ada lived with her mother and her little brother, Alan, in a cabin near a junkyard on the edge of town.</para>
+      <para xml:id="para-p04-1" az:dropcap="true" az:dropcapcharacter="O" az:dropcapfileref="../illustrations/Capitals/O-cyan.png" az:dropcapcolor="#5cb2d4" az:dropcapbackgroundcolor="#ffffff">Once upon a time, there was a little girl named Ada. Her family was so poor that all their savings fit inside a cookie jar. They didn’t have enough money to live in a proper home. Instead, Ada lived with her mother and her little brother, Alan, in a cabin near a junkyard on the edge of town.</para>
       <!-- TODO: adjust template to prevent text over image -->
       <!-- TODO: consider handling dropcaps differently, perhaps using a inlinemediaobject -->
       <mediaobject xml:id="img-ada-p04">

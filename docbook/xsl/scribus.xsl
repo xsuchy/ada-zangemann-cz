@@ -119,20 +119,43 @@
     <xsl:template match="/SCRIBUSUTF8NEW/DOCUMENT/PAGEOBJECT[@PTYPE='2' and PageItemAttributes/ItemAttribute[@Name='docbook-id']]">
 
       <!-- Get docbook-id attribute set in Scribus -->
-      <xsl:variable name="docbook-id" select="./PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value" />
+      <xsl:variable name="docbook-id" select="./PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value"/>
 
-      <!-- Find filename defined in imagedata object. Match first encountered element to handle most situations. -->
-      <!-- FIXME: XPATH expression doesn't work if xml:id matches on the imagedata object -->
-      <xsl:variable name="filename" select="document($docbook-contents-file)//*[@xml:id=$docbook-id]//*[local-name() = 'imagedata' and @fileref][1]/@fileref"/>
+      <!-- Get type of matching element -->
+      <xsl:variable name="matching-element" select="local-name(document($docbook-contents-file)//*[@xml:id=$docbook-id])"/>
 
-      <!-- FIXME: consider handling depending on matched element -->
-      <xsl:copy>
-        <!-- Set PFILE attribute based on matched filename -->
-        <xsl:attribute name="PFILE"><xsl:value-of select="$filename"/></xsl:attribute>
+      <xsl:choose>
+        <!-- Handle dropcap images for paragraph elements -->
+        <xsl:when test="$matching-element='para'">
 
-        <!-- Copy other attributes and nodes -->
-        <xsl:apply-templates select="@*[not(local-name() = 'PFILE')]|node()"/>
-      </xsl:copy>
+          <!-- Get az:dropcapfileref attribute -->
+          <xsl:variable name="filename" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapfileref"/>
+
+          <!-- FIXME: reduce duplication -->
+          <xsl:copy>
+            <!-- Set PFILE attribute based on matched filename -->
+            <xsl:attribute name="PFILE"><xsl:value-of select="$filename"/></xsl:attribute>
+            <!-- Copy other attributes and nodes -->
+            <xsl:apply-templates select="@*[not(local-name() = 'PFILE')]|node()"/>
+          </xsl:copy>
+
+        </xsl:when>
+        <xsl:otherwise>
+
+          <!-- Find filename defined in imagedata object. Match first encountered element to handle most situations. -->
+          <!-- FIXME: XPATH expression doesn't work if xml:id matches on the imagedata object -->
+          <xsl:variable name="filename" select="document($docbook-contents-file)//*[@xml:id=$docbook-id]//*[local-name() = 'imagedata' and @fileref][1]/@fileref"/>
+
+          <!-- FIXME: reduce duplication -->
+          <xsl:copy>
+            <!-- Set PFILE attribute based on matched filename -->
+            <xsl:attribute name="PFILE"><xsl:value-of select="$filename"/></xsl:attribute>
+            <!-- Copy other attributes and nodes -->
+            <xsl:apply-templates select="@*[not(local-name() = 'PFILE')]|node()"/>
+          </xsl:copy>
+
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:template>
 
     <!-- FIXME: idea to append or change font names instead of replacing the font entirely -->
