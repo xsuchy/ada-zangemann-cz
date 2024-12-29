@@ -309,16 +309,39 @@ Society should support those who respect others' freedom.</literallayout>
     </info>
     <section xml:id="sec-p03" az:pagenum="3">
       <anchor az:slidenum="1"/>
+
       <mediaobject xml:id="img-ada-cover">
         <!-- TODO: add mediaobject -->
         <alt>Matthias Kirschner, Sandra Brandstätter - ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice Cream. Title in the middle, authors in the upper left. In the lower right, Ada's family's dog with gray fur and some white patches and with a red collar with shiny yellow LEDs, which wags its tail.</alt>
       </mediaobject>
+
+      <mediaobject xml:id="img-ada-p03-author">
+        <imageobject>
+          <imagedata fileref="../illustrations/en/ada-p03-author.png"/>
+        </imageobject>
+        <alt>Matthias Kirschner, Sandra Brandstätter</alt>
+      </mediaobject>
+
+      <mediaobject xml:id="img-ada-p03-title">
+        <imageobject>
+          <imagedata fileref="../illustrations/en/ada-p03-title.png"/>
+        </imageobject>
+        <alt>ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice Cream. Title in the middle, authors in the upper left.</alt>
+      </mediaobject>
+
+      <mediaobject xml:id="img-ada-p03-dog">
+        <imageobject>
+          <imagedata fileref="../illustrations/en/ada-p03-dog.png"/>
+        </imageobject>
+        <alt>In the lower right, Ada's family's dog with gray fur and some white patches and with a red collar with shiny yellow LEDs, which wags its tail.</alt>
+      </mediaobject>
+
       <literallayout>Matthias Kirschner
-Sandra Brandstätter
-
-ADA &amp; ZANGEMANN
-
-A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
+Sandra Brandstätter</literallayout>
+<para xml:id="title-titlepage">ADA &amp; ZANGEMANN</para>
+<literallayout xml:id="subtitle-titlepage">A Tale of
+Software, Skateboards, and
+Raspberry Ice Cream</literallayout>
     </section>
   </chapter>
   <chapter>
@@ -514,11 +537,13 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
     <info>
       <title>Ada and software</title>
     </info>
-    <section xml:id="sec-p21" az:pagenum="21">
+    <section xml:id="sec-p20" az:pagenum="20">
       <anchor az:slidenum="11"/>
       <para az:dropcap="true" az:dropcapfileref="../illustrations/Capitals/A-fucsia.png" az:dropcapcharacter="A" az:dropcapcolor="#d70071" az:dropcapbackgroundcolor="#ffffff">Ada loved Wednesdays. Every Wednesday, her mother and Alan would pick her up from school, and they would all go to the library together. Ada was always drawn to the technology section. There were books with blueprints, instructions for experiments, and explanations of how different devices worked. In the library, Ada could also go online with her cell phone. She quickly realized that there was also much to discover on the internet. There, many people shared their ideas and repair tips to help others.</para>
       <para>On one of those afternoons, Ada learned two new words: hardware and software. Hardware was a word for something Ada already knew: the electronic devices she tinkered with after school, or those devices she could hold in her hands and try to fix or make into something else. What was completely new to Ada was the word software. She soon learned that it meant instructions that ran on a computer to control other devices or computers. Some books called those instructions programs or code. With such a computer program, one could, for example, tell a loudspeaker which song to play and how loud.</para>
       <para>The best thing about Ada’s new discovery was realizing that she could tinker with software just as she could with hardware. Hardware is built with tools — hammers, drills, and screws. Software is built simply by writing down the commands for the hardware, one after the other. There was a separate language for this — the programming language. With software, Ada could make her inventions even more useful. She really wanted to learn the programming language!</para>
+    </section>
+    <section xml:id="sec-p21" az:pagenum="21">
       <mediaobject xml:id="img-ada-p21">
         <imageobject>
           <imagedata fileref="../illustrations/en/ada-p21.png"/>
@@ -657,6 +682,11 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
           <imagedata fileref="../illustrations/en/ada-p34.png"/>
         </imageobject>
         <alt>Hands holding wonderful ice cream cones: blue ice cream with a chocolate heart on top with a yellow heart on its center, and whipped cream on top of the chocolate; green ice cream with colored stars with a cucumber stuck on a stick; pink fish-shaped ice cream; pyramid-shaped ice cream with candies, and chocolate syrup, and a cherry on top; rainbow ice cream with a yellow umbrella; blue ghost-shaped ice cream with candies on it.</alt>
+      </mediaobject>
+      <mediaobject xml:id="img-ada-p34-bottom">
+        <imageobject>
+          <imagedata fileref="../illustrations/en/ada-p34-bottom.png"/>
+        </imageobject>
       </mediaobject>
     </section>
     <section xml:id="sec-p35" az:pagenum="35">

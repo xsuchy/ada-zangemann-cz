@@ -40,8 +40,8 @@
     <!-- TODO: handle images, headers and title page -->
 
     <!-- Template to handle StoryText objects by recreating the content -->
-    <!-- Matches StoryText elements in a PAGEOBJECT with a docbook-id Attribute -->
-    <xsl:template match="/SCRIBUSUTF8NEW/DOCUMENT/PAGEOBJECT[PageItemAttributes/ItemAttribute[@Name='docbook-id']]/StoryText">
+    <!-- Matches StoryText elements in a PAGEOBJECT for text (PTYPE=4) with a docbook-id Attribute -->
+    <xsl:template match="/SCRIBUSUTF8NEW/DOCUMENT/PAGEOBJECT[@PTYPE='4' and PageItemAttributes/ItemAttribute[@Name='docbook-id']]/StoryText">
 
       <!-- Get docbook-id attribute set in Scribus -->
       <xsl:variable name="docbook-id" select="../PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value" />
@@ -62,7 +62,7 @@
         <!-- Copy Text Frame properties, which might refer to a parent style -->
         <xsl:copy-of select="./DefaultStyle[1]"/>
 
-        <!-- Different handling depending on matched element (section, title, subtitle, bridgehead -->
+        <!-- Different handling depending on matched element (section, title, subtitle, bridgehead) -->
         <xsl:choose>
 
           <!-- A DocBook section: load text from <para> and <literallayout> elements -->
@@ -82,8 +82,9 @@
           </xsl:when>
 
           <!-- An image modelled inside a mediaobject -->
+          <!-- FIXME: consider removing this altogether -->
           <xsl:when test="$matching-element='mediaobject'">
-            <!-- TODO: add template to insert file path -->
+            <xsl:message>WARNING: In StoryText element with docbook-id='<xsl:value-of select="$docbook-id"/>': Matches a mediaobject. Loading text from mediaobject is not supported.</xsl:message>
           </xsl:when>
 
           <!-- Default case, for title, subtitle, bridgehead -->
@@ -91,7 +92,16 @@
             <ITEXT>
               <xsl:attribute name="CH">
                 <xsl:for-each select="document($docbook-contents-file)//*[@xml:id=$docbook-id][1]">
-                  <xsl:value-of select="normalize-space(.)"/>
+                  <xsl:choose>
+                    <!-- Don't normalize space for literallayout element -->
+                    <xsl:when test="$matching-element='literallayout'">
+                      <xsl:value-of select="."/>
+                    </xsl:when>
+                    <!-- Normalize space in normal case -->
+                    <xsl:otherwise>
+                      <xsl:value-of select="normalize-space(.)"/>
+                    </xsl:otherwise>
+                  </xsl:choose>
                 </xsl:for-each>
               </xsl:attribute>
             </ITEXT>
@@ -102,6 +112,26 @@
         <!-- Indicator of the end of the text -->
         <trail/>
 
+      </xsl:copy>
+    </xsl:template>
+
+    <!-- Match PageObject of type image (PTYPE = 2) -->
+    <xsl:template match="/SCRIBUSUTF8NEW/DOCUMENT/PAGEOBJECT[@PTYPE='2' and PageItemAttributes/ItemAttribute[@Name='docbook-id']]">
+
+      <!-- Get docbook-id attribute set in Scribus -->
+      <xsl:variable name="docbook-id" select="./PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value" />
+
+      <!-- Find filename defined in imagedata object. Match first encountered element to handle most situations. -->
+      <!-- FIXME: XPATH expression doesn't work if xml:id matches on the imagedata object -->
+      <xsl:variable name="filename" select="document($docbook-contents-file)//*[@xml:id=$docbook-id]//*[local-name() = 'imagedata' and @fileref][1]/@fileref"/>
+
+      <!-- FIXME: consider handling depending on matched element -->
+      <xsl:copy>
+        <!-- Set PFILE attribute based on matched filename -->
+        <xsl:attribute name="PFILE"><xsl:value-of select="$filename"/></xsl:attribute>
+
+        <!-- Copy other attributes and nodes -->
+        <xsl:apply-templates select="@*[not(local-name() = 'PFILE')]|node()"/>
       </xsl:copy>
     </xsl:template>
 
