@@ -67,7 +67,6 @@
 
           <!-- A DocBook section: load text from <para> and <literallayout> elements -->
           <xsl:when test="$matching-element='section'">
-            <xsl:message>MyMessage</xsl:message>
 
             <xsl:for-each select="document($docbook-contents-file)//db:section[@xml:id=$docbook-id]/*[local-name()='para' or local-name()='literallayout']">
               <xsl:apply-templates select="."/>
