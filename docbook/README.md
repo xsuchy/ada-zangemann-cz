@@ -84,7 +84,7 @@ Considerations for the current DocBook format.
 - Use `xml:id` attributes on the chapters for identification or reference. Could be an identifier like `ch01` or a more descriptive text.
 - Consider simplifying the personname element by not modelling the firstname and lastname, but just inserting the verbatim name. This will simplify the experience of the translators.
 - Deal with different credits information per language. Perhaps it shouldn't be available to translators, should be exposed as an XML structure, or should be left out entirely.
-- Add testcases for the XSLT templates. If no suitable tooling exists, a directory with input and output files could suffice.
+- Add testcases for the XSLT templates. If no suitable tooling exists, a directory with input and output files could suffice. It could also be done using Pytest with fixtures to create the files. Proper XML diff output would be valuable.
 - Not use ANNAME attribute in Scribus, but rather use a custom attrbute, because ANNAME is supposed to be unique, but there might be cases where multiple Scribus elements refer to the same XML:ID.
 
 Consider modelling the dropcaps as inline images, perhaps conditionally. Making this conditional and dealing with alt-text is a challenge.

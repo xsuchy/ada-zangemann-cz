@@ -73,7 +73,7 @@
               <xsl:apply-templates select="."/>
 
               <!-- Two para separators are needed inbetween paragraphs to insert two newlines to end the first paragraph and create an empty line between the paragraphs. -->
-              <!-- FIXME: Prefer paragraph styles in favor of hard newlined. -->
+              <!-- FIXME: Prefer paragraph styles in favor of hard newlines. -->
               <xsl:if test="not(position() = last())">
                 <para/>
                 <para/>
@@ -214,6 +214,7 @@
 
           <!-- Normalize space in elements inside paragraph. Insert preseding of trailing space if other nodes exist, like emphasized text or a link. -->
           <!-- NOTE: this forces a spect around emphasized text or link, which could be good -->
+          <!-- FIXME: doesn't handle case of trailing punctuation (.,;:!) -->
           <xsl:if test="preceding-sibling::node()">
             <xsl:text> </xsl:text>
           </xsl:if>
