@@ -62,6 +62,7 @@ Considerations for the current DocBook format.
 - Scribus character styles are ignored. Font styles in Scribus can be set on a document level, on the text frame, or on characters using the StoryText editor. The character styles override other settings, but are more complicated to recreate overrides in XSLT. The current approach is to output a warning message if character styles are encountered. This message should guide the user into fixing the template if needed.
 - Generic application of robustness principle: "be conservative in what you do, be liberal in what you accept from others". Approach with Docbook-id matches and setup of templates is such that different input structures will be acceptable.
 - Dropcaps images are resolved by matching the paragraph node in DocBook source and matching `az:dropcapfileref` attribute.
+- Dropcap height and width are to be explicitly defined using `az:dropcaplocalsc`, `az:dropcapheightpt` and `az:dropcapwidthpt`, which are leaky abstractions, directly refering to the Scribus output. Width differs per capital. Some dropcap images are higher (Eacute) and need a relative height adjustment, in addition to the width adjustment. The original Perl script dealt with such edge-cases. A Scribus Python API is available to adjust the image frame to the used image: (SetScaleFrameToImage)[https://impagina.org/scribus-scripter-api/image-frame/#setscaleframetoimage]. There are multiple ways to improve on the current setup.
 
 #### Ideas for consideration
 - To add to each paragraph (`<para>` or `<literallayout>`) an `az:pagenum` attribute for easier parsing. This enables parsers to select all paragraphs with this attribute that should end up on a given page. Alternatively is to use `<az:page num="n"/>` elements to separate pages or use DocBook sections to split a chapter into separate pages. Note that sections would have to be defined within a chapter, making it more difficult to get the title, requiring navigation up the element tree.
@@ -228,13 +229,13 @@ A brief overview of the Docbook elements and custom attributes used in the sourc
       <titleabbrev/>
     </info>
     <anchor az:slidenum="1"/>
-    <section az:pagenum="1">
+    <section xml:id="sec-p01" az:pagenum="1">
       <literallayout/>
-      <para az:dropcap="true"/>
+      <para xml:id="para-p01-1" az:dropcap="true" az:dropcapcolor="#fddd66" az:dropcapbackgroundcolor="#71aaa4" az:dropcapfileref="../illustrations/Capitals/T-yellow2.png" az:dropcapheightpt="50.56" az:dropcapwidthpt="42.72" az:dropcaplocalsc="0.16">
         <emphasis role="bold"/>
         <link xlink:href="https://ada.fsfe.org">https://ada.fsfe.org</link>
       </para>
-      <mediaobject>
+      <mediaobject xml:id="img-ada-p01">
         <imageobject>
           <imageobject condition="print">
             <imagedata fileref="figs/print/ada.png"/>

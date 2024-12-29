@@ -131,12 +131,92 @@
           <!-- Get az:dropcapfileref attribute -->
           <xsl:variable name="filename" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapfileref"/>
 
-          <!-- FIXME: reduce duplication -->
+          <!-- Get resolution in percentage. Assume LOCALSCY is equal to LOCALSCX. Typically '0.16' for capitals. -->
+          <xsl:variable name="localsc-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcaplocalsc"/>
+          <xsl:variable name="localsc">
+            <xsl:choose>
+              <xsl:when test="not($localsc-docbook)">
+                <xsl:value-of select="./@LOCALSCX"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="$localsc-docbook"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+
+          <!-- Get dimensions in pt, which is number of pixels divided by 6.25 for a resolution of 0.16 -->
+          <xsl:variable name="width-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapwidthpt"/>
+          <xsl:variable name="width">
+            <xsl:choose>
+              <xsl:when test="not($width-docbook)">
+                <xsl:value-of select="./@WIDTH"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="$width-docbook"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+
+          <xsl:variable name="height-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapheightpt"/>
+          <xsl:variable name="height">
+            <xsl:choose>
+              <xsl:when test="not($height-docbook)">
+                <xsl:value-of select="./@HEIGHT"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="$height-docbook"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+
+          <!-- Construct path string to prevent text over capital -->
+          <xsl:variable name="path">
+            <!-- path="M0 0 L40.1537 0 L40.1537 50.72 L0 50.72 L0 0 Z" -->
+            <xsl:text>M0 0 L</xsl:text>
+            <xsl:value-of select="$width"/>
+            <xsl:text> 0 L</xsl:text>
+            <xsl:value-of select="$width"/>
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="$height"/>
+            <xsl:text> L0 </xsl:text>
+            <xsl:value-of select="$height"/>
+            <xsl:text> L0 0 Z</xsl:text>
+          </xsl:variable>
+
+          <!-- Construct PAGEOBJECT with adjusted properties -->
           <xsl:copy>
             <!-- Set PFILE attribute based on matched filename -->
-            <xsl:attribute name="PFILE"><xsl:value-of select="$filename"/></xsl:attribute>
-            <!-- Copy other attributes and nodes -->
-            <xsl:apply-templates select="@*[not(local-name() = 'PFILE')]|node()"/>
+            <xsl:attribute name="PFILE">
+              <xsl:value-of select="$filename"/>
+            </xsl:attribute>
+
+            <xsl:attribute name="LOCALSCX">
+              <xsl:value-of select="$localsc"/>
+            </xsl:attribute>
+
+            <xsl:attribute name="LOCALSCY">
+              <xsl:value-of select="$localsc"/>
+            </xsl:attribute>
+
+            <xsl:attribute name="WIDTH">
+              <xsl:value-of select="$width"/>
+            </xsl:attribute>
+
+            <xsl:attribute name="HEIGHT">
+              <xsl:value-of select="$height"/>
+            </xsl:attribute>
+
+            <xsl:attribute name="path">
+              <xsl:value-of select="$path"/>
+            </xsl:attribute>
+
+            <xsl:attribute name="copath">
+              <xsl:value-of select="$path"/>
+            </xsl:attribute>
+
+            <!-- Copy other attributes and nodes.. -->
+            <xsl:apply-templates select="@*[not(local-name() = 'PFILE' or local-name() = 'path' or local-name() = 'copath' or local-name() = 'LOCALSCX' or local-name() = 'LOCALSCY' or local-name() = 'WIDTH' or local-name() = 'HEIGHT')]|node()"/>
+            <!-- TODO: consider skipping explicit PRFILE profile as well -->
           </xsl:copy>
 
         </xsl:when>
@@ -149,7 +229,9 @@
           <!-- FIXME: reduce duplication -->
           <xsl:copy>
             <!-- Set PFILE attribute based on matched filename -->
-            <xsl:attribute name="PFILE"><xsl:value-of select="$filename"/></xsl:attribute>
+            <xsl:attribute name="PFILE">
+              <xsl:value-of select="$filename"/>
+            </xsl:attribute>
             <!-- Copy other attributes and nodes -->
             <xsl:apply-templates select="@*[not(local-name() = 'PFILE')]|node()"/>
           </xsl:copy>
