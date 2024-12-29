@@ -235,48 +235,56 @@
 
     <!-- Handle first text section -->
     <xsl:template match="//db:para/text()[1]">
-      <ITEXT>
-        <xsl:attribute name="CH">
-          <xsl:choose>
-            <xsl:when test="../@az:dropcap='true'">
+      <!-- Ignore element if no content is present -->
+      <xsl:if test="string-length(normalize-space()) > 0">
+        <ITEXT>
+          <xsl:attribute name="CH">
+            <xsl:choose>
+              <xsl:when test="../@az:dropcap='true'">
 
-              <!-- Strip the first character if a dropcap image is used -->
-              <!-- FIXME: doesn't handle an emphasis that starts at the beginning of the line. Alternative could be to process dropcaps edge case as a final step -->
-              <xsl:value-of select="substring(normalize-space(), 2)"/>
-              <xsl:if test="following-sibling::node()">
-                <xsl:text> </xsl:text>
-              </xsl:if>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="normalize-space()"/>
-            </xsl:otherwise>
+                <!-- Strip the first character if a dropcap image is used -->
+                <!-- FIXME: doesn't handle an emphasis that starts at the beginning of the line. Alternative could be to process dropcaps edge case as a final step -->
+                <xsl:value-of select="substring(normalize-space(), 2)"/>
+                <xsl:if test="following-sibling::node()">
+                  <xsl:text> </xsl:text>
+                </xsl:if>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="normalize-space()"/>
+              </xsl:otherwise>
             </xsl:choose>
             <!-- Append a trailing space if other content follows -->
             <xsl:if test="following-sibling::node()">
               <xsl:text> </xsl:text>
             </xsl:if>
           </xsl:attribute>
-      </ITEXT>
+        </ITEXT>
+      </xsl:if>
     </xsl:template>
 
     <!-- Handle generic text, not influenced by dropcaps -->
     <xsl:template match="//db:para/text()[position() > 1]">
-      <ITEXT>
-        <xsl:attribute name="CH">
+      <!-- Ignore element if no content is present -->
+      <xsl:if test="string-length(normalize-space()) > 0">
+        <ITEXT>
+          <xsl:attribute name="CH">
 
-          <!-- Normalize space in elements inside paragraph. Insert preseding of trailing space if other nodes exist, like emphasized text or a link. -->
-          <!-- NOTE: this forces a spect around emphasized text or link, which could be good -->
-          <!-- FIXME: doesn't handle case of trailing punctuation (.,;:!) -->
-          <xsl:if test="preceding-sibling::node()">
-            <xsl:text> </xsl:text>
-          </xsl:if>
-          <xsl:value-of select="normalize-space()"/>
-          <xsl:if test="following-sibling::node()">
-            <xsl:text> </xsl:text>
-          </xsl:if>
+            <!-- Normalize space in elements inside paragraph. Insert preseding of trailing space if other nodes exist, like emphasized text or a link. -->
+            <!-- NOTE: this forces a spect around emphasized text or link, which could be good -->
+            <xsl:if test="preceding-sibling::node()">
+              <!-- Don't insert a space if content starts with punctuation, which should typically be appended without space -->
+              <xsl:if test="not(contains('.,;:!?…%)]/\”' ,substring(normalize-space(),1,1)))">
+                <xsl:text> </xsl:text>
+              </xsl:if>
+            </xsl:if>
+            <xsl:value-of select="normalize-space()"/>
+            <xsl:if test="following-sibling::node()">
+              <xsl:text> </xsl:text>
+            </xsl:if>
 
-        </xsl:attribute>
-      </ITEXT>
+          </xsl:attribute>
+        </ITEXT>
+      </xsl:if>
     </xsl:template>
 
 </xsl:stylesheet>
