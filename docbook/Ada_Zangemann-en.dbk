@@ -864,8 +864,8 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
   <appendix>
     <info>
       <!-- TODO: deal with multi-line title. Check if this modelling works. -->
-      <title>About the Author</title>
-      <subtitle>Matthias Kirschner</subtitle>
+      <title xml:id="title-author">About the Author</title>
+      <subtitle xml:id="subtitle-author">Matthias Kirschner</subtitle>
       <titleabbrev>About the Author - Matthias Kirschner</titleabbrev>
     </info>
     <section xml:id="sec-p52" az:pagenum="52">
@@ -882,8 +882,8 @@ A Tale of Software, Skateboards, and Raspberry Ice Cream</literallayout>
   <appendix>
     <info>
       <!-- TODO: deal with multi-line title. Check if this modelling works. -->
-      <title>About the Illustrator</title>
-      <subtitle>Sandra Brandstätter</subtitle>
+      <title xml:id="title-illustrator">About the Illustrator</title>
+      <subtitle xml:id="subtitle-illustrator">Sandra Brandstätter</subtitle>
       <titleabbrev>About the Illustrator - Sandra Brandstätter</titleabbrev>
     </info>
     <section xml:id="sec-p53" az:pagenum="53">
