@@ -60,6 +60,8 @@ Considerations for the current DocBook format.
 - Biblioid element is used to describe ISBN numbers of both print and ebook.
 - Text in paragraph is normalized, convering spaces into single spaces, and removing leading and trailing space. Leading and trailing spaces are inserted if sibling nodes are present. This does force a level of strictness that prevents certain situations like a link on part of a word, or a emphasis on part of a word.
 - Scribus character styles are ignored. Font styles in Scribus can be set on a document level, on the text frame, or on characters using the StoryText editor. The character styles override other settings, but are more complicated to recreate overrides in XSLT. The current approach is to output a warning message if character styles are encountered. This message should guide the user into fixing the template if needed.
+- Generic application of robustness principle: "be conservative in what you do, be liberal in what you accept from others". Approach with Docbook-id matches and setup of templates is such that different input structures will be acceptable.
+- Dropcaps images are resolved by matching the paragraph node in DocBook source and matching `az:dropcapfileref` attribute.
 
 #### Ideas for consideration
 - To add to each paragraph (`<para>` or `<literallayout>`) an `az:pagenum` attribute for easier parsing. This enables parsers to select all paragraphs with this attribute that should end up on a given page. Alternatively is to use `<az:page num="n"/>` elements to separate pages or use DocBook sections to split a chapter into separate pages. Note that sections would have to be defined within a chapter, making it more difficult to get the title, requiring navigation up the element tree.
