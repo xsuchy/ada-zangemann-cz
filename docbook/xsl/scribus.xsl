@@ -27,346 +27,348 @@
   <!-- Input parameter for the DocBook source file that should be used to insert data into Scribus -->
   <xsl:param name="docbook-contents-file"/>
 
-    <!-- Output format for Scribus is XML -->
-    <xsl:output method="xml" indent="no"/>
+  <!-- TODO: add parameter to determine whether or not to use dropcaps -->
 
-    <!-- Identity template to copy all contents of the Scribus template. Only for elements without namespace (Scribus), to prevent handling DocBook elements. -->
-    <xsl:template match="@*|node()[namespace-uri()='']">
-      <xsl:copy>
-        <xsl:apply-templates select="@*|node()"/>
-      </xsl:copy>
-    </xsl:template>
+  <!-- Output format for Scribus is XML -->
+  <xsl:output method="xml" indent="no"/>
 
-    <!-- TODO: handle images, headers and title page -->
+  <!-- Identity template to copy all contents of the Scribus template. Only for elements without namespace (Scribus), to prevent handling DocBook elements. -->
+  <xsl:template match="@*|node()[namespace-uri()='']">
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+    </xsl:copy>
+  </xsl:template>
 
-    <!-- Template to handle StoryText objects by recreating the content -->
-    <!-- Matches StoryText elements in a PAGEOBJECT for text (PTYPE=4) with a docbook-id Attribute -->
-    <xsl:template match="/SCRIBUSUTF8NEW/DOCUMENT/PAGEOBJECT[@PTYPE='4' and PageItemAttributes/ItemAttribute[@Name='docbook-id']]/StoryText">
+  <!-- TODO: handle images, headers and title page -->
 
-      <!-- Get docbook-id attribute set in Scribus -->
-      <xsl:variable name="docbook-id" select="../PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value" />
+  <!-- Template to handle StoryText objects by recreating the content -->
+  <!-- Matches StoryText elements in a PAGEOBJECT for text (PTYPE=4) with a docbook-id Attribute -->
+  <xsl:template match="/SCRIBUSUTF8NEW/DOCUMENT/PAGEOBJECT[@PTYPE='4' and PageItemAttributes/ItemAttribute[@Name='docbook-id']]/StoryText">
 
-      <!-- Get type of matching element -->
-      <xsl:variable name="matching-element" select="local-name(document($docbook-contents-file)//*[@xml:id=$docbook-id])"/>
+    <!-- Get docbook-id attribute set in Scribus -->
+    <xsl:variable name="docbook-id" select="../PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value"/>
 
-      <!-- Copy StoryText element -->
-      <xsl:copy>
+    <!-- Get type of matching element -->
+    <xsl:variable name="matching-element" select="local-name(document($docbook-contents-file)//*[@xml:id=$docbook-id])"/>
 
-        <!-- TODO: insert font and size attributes from styles as defined in DocBook file -->
+    <!-- Copy StoryText element -->
+    <xsl:copy>
 
-        <!-- Warning message if Scribus template contains character styles -->
-        <xsl:if test="./ITEXT[1]/@*[not(local-name() = 'CH')]">
-          <xsl:message>WARNING: In StoryText element with docbook-id='<xsl:value-of select="$docbook-id"/>': Found formatting settings on characters using the Story Editor. Processing will ignore these character settings in favor of the formatting applied to the Text Frame. These Text Properties can be accessed using F3 shortcut. Adjust the style using the Text Frame settings, not selecting text, but the text frame. Settings in the StoryEditor are ignored and overruled.</xsl:message>
-        </xsl:if>
+      <!-- TODO: insert font and size attributes from styles as defined in DocBook file -->
 
-        <!-- Copy Text Frame properties, which might refer to a parent style -->
-        <xsl:copy-of select="./DefaultStyle[1]"/>
+      <!-- Warning message if Scribus template contains character styles -->
+      <xsl:if test="./ITEXT[1]/@*[not(local-name() = 'CH')]">
+        <xsl:message>WARNING: In StoryText element with docbook-id='<xsl:value-of select="$docbook-id"/>': Found formatting settings on characters using the Story Editor. Processing will ignore these character settings in favor of the formatting applied to the Text Frame. These Text Properties can be accessed using F3 shortcut. Adjust the style using the Text Frame settings, not selecting text, but the text frame. Settings in the StoryEditor are ignored and overruled.</xsl:message>
+      </xsl:if>
 
-        <!-- Different handling depending on matched element (section, title, subtitle, bridgehead) -->
-        <xsl:choose>
+      <!-- Copy Text Frame properties, which might refer to a parent style -->
+      <xsl:copy-of select="./DefaultStyle[1]"/>
 
-          <!-- A DocBook section: load text from <para> and <literallayout> elements -->
-          <xsl:when test="$matching-element='section'">
-
-            <xsl:for-each select="document($docbook-contents-file)//db:section[@xml:id=$docbook-id]/*[local-name()='para' or local-name()='literallayout']">
-              <xsl:apply-templates select="."/>
-
-              <!-- Two para separators are needed inbetween paragraphs to insert two newlines to end the first paragraph and create an empty line between the paragraphs. -->
-              <!-- FIXME: Prefer paragraph styles in favor of hard newlines. -->
-              <xsl:if test="not(position() = last())">
-                <para/>
-                <para/>
-              </xsl:if>
-            </xsl:for-each>
-
-          </xsl:when>
-
-          <!-- An image modelled inside a mediaobject -->
-          <!-- FIXME: consider removing this altogether -->
-          <xsl:when test="$matching-element='mediaobject'">
-            <xsl:message>WARNING: In StoryText element with docbook-id='<xsl:value-of select="$docbook-id"/>': Matches a mediaobject. Loading text from mediaobject is not supported.</xsl:message>
-          </xsl:when>
-
-          <!-- Default case, for title, subtitle, bridgehead -->
-          <xsl:otherwise>
-            <ITEXT>
-              <xsl:attribute name="CH">
-                <xsl:for-each select="document($docbook-contents-file)//*[@xml:id=$docbook-id][1]">
-                  <xsl:choose>
-                    <!-- Don't normalize space for literallayout element -->
-                    <xsl:when test="$matching-element='literallayout'">
-                      <xsl:value-of select="."/>
-                    </xsl:when>
-                    <!-- Normalize space in normal case -->
-                    <xsl:otherwise>
-                      <xsl:value-of select="normalize-space(.)"/>
-                    </xsl:otherwise>
-                  </xsl:choose>
-                </xsl:for-each>
-              </xsl:attribute>
-            </ITEXT>
-          </xsl:otherwise>
-
-        </xsl:choose>
-
-        <!-- Indicator of the end of the text -->
-        <trail/>
-
-      </xsl:copy>
-    </xsl:template>
-
-    <!-- Match PageObject of type image (PTYPE = 2) -->
-    <xsl:template match="/SCRIBUSUTF8NEW/DOCUMENT/PAGEOBJECT[@PTYPE='2' and PageItemAttributes/ItemAttribute[@Name='docbook-id']]">
-
-      <!-- Get docbook-id attribute set in Scribus -->
-      <xsl:variable name="docbook-id" select="./PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value"/>
-
-      <!-- Get type of matching element -->
-      <xsl:variable name="matching-element" select="local-name(document($docbook-contents-file)//*[@xml:id=$docbook-id])"/>
-
+      <!-- Different handling depending on matched element (section, title, subtitle, bridgehead) -->
       <xsl:choose>
-        <!-- Handle dropcap images for paragraph elements -->
-        <xsl:when test="$matching-element='para'">
 
-          <!-- Get az:dropcapfileref attribute -->
-          <xsl:variable name="filename" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapfileref"/>
+        <!-- A DocBook section: load text from <para> and <literallayout> elements -->
+        <xsl:when test="$matching-element='section'">
 
-          <!-- Get resolution in percentage. Assume LOCALSCY is equal to LOCALSCX. Typically '0.16' for capitals. -->
-          <xsl:variable name="localsc-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcaplocalsc"/>
-          <xsl:variable name="localsc">
-            <xsl:choose>
-              <xsl:when test="not($localsc-docbook)">
-                <xsl:value-of select="./@LOCALSCX"/>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="$localsc-docbook"/>
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:variable>
+          <xsl:for-each select="document($docbook-contents-file)//db:section[@xml:id=$docbook-id]/*[local-name()='para' or local-name()='literallayout']">
+            <xsl:apply-templates select="."/>
 
-          <!-- Get dimensions in pt, which is number of pixels divided by 6.25 for a resolution of 0.16 -->
-          <xsl:variable name="width-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapwidthpt"/>
-          <xsl:variable name="width">
-            <xsl:choose>
-              <xsl:when test="not($width-docbook)">
-                <xsl:value-of select="./@WIDTH"/>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="$width-docbook"/>
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:variable>
-
-          <xsl:variable name="height-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapheightpt"/>
-          <xsl:variable name="height">
-            <xsl:choose>
-              <xsl:when test="not($height-docbook)">
-                <xsl:value-of select="./@HEIGHT"/>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="$height-docbook"/>
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:variable>
-
-          <!-- Construct path string to prevent text over capital -->
-          <xsl:variable name="path">
-            <!-- path="M0 0 L40.1537 0 L40.1537 50.72 L0 50.72 L0 0 Z" -->
-            <xsl:text>M0 0 L</xsl:text>
-            <xsl:value-of select="$width"/>
-            <xsl:text> 0 L</xsl:text>
-            <xsl:value-of select="$width"/>
-            <xsl:text> </xsl:text>
-            <xsl:value-of select="$height"/>
-            <xsl:text> L0 </xsl:text>
-            <xsl:value-of select="$height"/>
-            <xsl:text> L0 0 Z</xsl:text>
-          </xsl:variable>
-
-          <!-- Construct PAGEOBJECT with adjusted properties -->
-          <xsl:copy>
-            <!-- Set PFILE attribute based on matched filename -->
-            <xsl:attribute name="PFILE">
-              <xsl:value-of select="$filename"/>
-            </xsl:attribute>
-
-            <xsl:attribute name="LOCALSCX">
-              <xsl:value-of select="$localsc"/>
-            </xsl:attribute>
-
-            <xsl:attribute name="LOCALSCY">
-              <xsl:value-of select="$localsc"/>
-            </xsl:attribute>
-
-            <xsl:attribute name="WIDTH">
-              <xsl:value-of select="$width"/>
-            </xsl:attribute>
-
-            <xsl:attribute name="HEIGHT">
-              <xsl:value-of select="$height"/>
-            </xsl:attribute>
-
-            <xsl:attribute name="path">
-              <xsl:value-of select="$path"/>
-            </xsl:attribute>
-
-            <xsl:attribute name="copath">
-              <xsl:value-of select="$path"/>
-            </xsl:attribute>
-
-            <!-- Copy other attributes and nodes.. -->
-            <xsl:apply-templates select="@*[not(local-name() = 'PFILE' or local-name() = 'path' or local-name() = 'copath' or local-name() = 'LOCALSCX' or local-name() = 'LOCALSCY' or local-name() = 'WIDTH' or local-name() = 'HEIGHT')]|node()"/>
-            <!-- TODO: consider skipping explicit PRFILE profile as well -->
-          </xsl:copy>
+            <!-- Two para separators are needed inbetween paragraphs to insert two newlines to end the first paragraph and create an empty line between the paragraphs. -->
+            <!-- FIXME: Prefer paragraph styles in favor of hard newlines. -->
+            <xsl:if test="not(position() = last())">
+              <para/>
+              <para/>
+            </xsl:if>
+          </xsl:for-each>
 
         </xsl:when>
+
+        <!-- An image modelled inside a mediaobject -->
+        <!-- FIXME: consider removing this altogether -->
+        <xsl:when test="$matching-element='mediaobject'">
+          <xsl:message>WARNING: In StoryText element with docbook-id='<xsl:value-of select="$docbook-id"/>': Matches a mediaobject. Loading text from mediaobject is not supported.</xsl:message>
+        </xsl:when>
+
+        <!-- Default case, for title, subtitle, bridgehead -->
         <xsl:otherwise>
-
-          <!-- Find filename defined in imagedata object. Match first encountered element to handle most situations. -->
-          <!-- FIXME: XPATH expression doesn't work if xml:id matches on the imagedata object -->
-          <xsl:variable name="filename" select="document($docbook-contents-file)//*[@xml:id=$docbook-id]//*[local-name() = 'imagedata' and @fileref][1]/@fileref"/>
-
-          <!-- FIXME: reduce duplication -->
-          <xsl:copy>
-            <!-- Set PFILE attribute based on matched filename -->
-            <xsl:attribute name="PFILE">
-              <xsl:value-of select="$filename"/>
+          <ITEXT>
+            <xsl:attribute name="CH">
+              <xsl:for-each select="document($docbook-contents-file)//*[@xml:id=$docbook-id][1]">
+                <xsl:choose>
+                  <!-- Don't normalize space for literallayout element -->
+                  <xsl:when test="$matching-element='literallayout'">
+                    <xsl:value-of select="."/>
+                  </xsl:when>
+                  <!-- Normalize space in normal case -->
+                  <xsl:otherwise>
+                    <xsl:value-of select="normalize-space(.)"/>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:for-each>
             </xsl:attribute>
-            <!-- Copy other attributes and nodes -->
-            <xsl:apply-templates select="@*[not(local-name() = 'PFILE')]|node()"/>
-          </xsl:copy>
-
+          </ITEXT>
         </xsl:otherwise>
+
       </xsl:choose>
-    </xsl:template>
 
-    <!-- FIXME: idea to append or change font names instead of replacing the font entirely -->
+      <!-- Indicator of the end of the text -->
+      <trail/>
 
-    <!-- TODO: unify emphasis handling between db:para and db:literallayout elements -->
-    <xsl:template match="//db:literallayout/db:emphasis">
-      <!-- Default emphasis -->
-      <!-- FIXME: Doesn't support nesting of emphasis or other nested elements -->
-      <!-- TODO: Heebo italic font not available or not installed -->
-      <ITEXT>
-        <xsl:attribute name="FONT">Roboto Italic</xsl:attribute>
-        <xsl:attribute name="CH">
-          <xsl:value-of select="./text()"/>
-        </xsl:attribute>
-      </ITEXT>
-    </xsl:template>
+    </xsl:copy>
+  </xsl:template>
 
-    <xsl:template match="//db:literallayout/db:emphasis[@role='bold']|db:emphasis[@role='strong']">
-      <!-- FIXME: Doesn't support nesting of emphasis or other nested elements -->
-      <ITEXT>
-        <xsl:attribute name="FONT">Heebo Bold</xsl:attribute>
-        <xsl:attribute name="CH">
-          <xsl:value-of select="./text()"/>
-        </xsl:attribute>
-      </ITEXT>
-    </xsl:template>
+  <!-- Match PageObject of type image (PTYPE = 2) -->
+  <xsl:template match="/SCRIBUSUTF8NEW/DOCUMENT/PAGEOBJECT[@PTYPE='2' and PageItemAttributes/ItemAttribute[@Name='docbook-id']]">
 
-    <xsl:template match="//db:literallayout/text()">
-      <ITEXT>
-        <xsl:attribute name="CH">
-          <xsl:value-of select="."/>
-        </xsl:attribute>
-      </ITEXT>
-    </xsl:template>
+    <!-- Get docbook-id attribute set in Scribus -->
+    <xsl:variable name="docbook-id" select="./PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value"/>
 
-    <xsl:template match="//db:literallayout/*[not(self::db:emphasis)]">
-      <!-- NOTE: links and other elements will result in multiple ITEXT nodes -->
-      <ITEXT>
-        <xsl:attribute name="CH">
-          <xsl:value-of select="."/>
-        </xsl:attribute>
-      </ITEXT>
-    </xsl:template>
+    <!-- Get type of matching element -->
+    <xsl:variable name="matching-element" select="local-name(document($docbook-contents-file)//*[@xml:id=$docbook-id])"/>
 
-    <!-- Further processing of para nodes -->
-    <xsl:template match="//db:para/*[not(self::db:emphasis)]">
-      <!-- NOTE: links and other elements will result in multiple ITEXT nodes -->
-      <ITEXT>
-        <xsl:attribute name="CH">
-          <xsl:value-of select="normalize-space(.)"/>
-        </xsl:attribute>
-      </ITEXT>
-    </xsl:template>
+    <xsl:choose>
+      <!-- Handle dropcap images for paragraph elements -->
+      <xsl:when test="$matching-element='para'">
 
-    <!-- TODO: make specific for roles -->
-    <xsl:template match="//db:para/db:emphasis">
-      <!-- Default emphasis -->
-      <!-- FIXME: Doesn't support nesting of emphasis or other nested elements -->
-      <!-- TODO: Heebo italic font not available or not installed -->
-      <ITEXT>
-        <xsl:attribute name="FONT">Roboto Italic</xsl:attribute>
-        <xsl:attribute name="CH">
-          <xsl:value-of select="normalize-space(./text())"/>
-        </xsl:attribute>
-      </ITEXT>
-    </xsl:template>
+        <!-- Get az:dropcapfileref attribute -->
+        <xsl:variable name="filename" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapfileref"/>
 
-    <xsl:template match="//db:para/db:emphasis[@role='bold']|db:emphasis[@role='strong']">
-      <!-- FIXME: Doesn't support nesting of emphasis or other nested elements -->
-      <ITEXT>
-        <xsl:attribute name="FONT">Heebo Bold</xsl:attribute>
-        <xsl:attribute name="CH">
-          <xsl:value-of select="normalize-space(./text())"/>
-        </xsl:attribute>
-      </ITEXT>
-    </xsl:template>
+        <!-- Get resolution in percentage. Assume LOCALSCY is equal to LOCALSCX. Typically '0.16' for capitals. -->
+        <xsl:variable name="localsc-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcaplocalsc"/>
+        <xsl:variable name="localsc">
+          <xsl:choose>
+            <xsl:when test="not($localsc-docbook)">
+              <xsl:value-of select="./@LOCALSCX"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="$localsc-docbook"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
 
-    <!-- Handle first text section -->
-    <xsl:template match="//db:para/text()[1]">
-      <!-- Ignore element if no content is present -->
-      <xsl:if test="string-length(normalize-space()) > 0">
-        <ITEXT>
-          <xsl:attribute name="CH">
-            <xsl:choose>
-              <xsl:when test="../@az:dropcap='true'">
+        <!-- Get dimensions in pt, which is number of pixels divided by 6.25 for a resolution of 0.16 -->
+        <xsl:variable name="width-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapwidthpt"/>
+        <xsl:variable name="width">
+          <xsl:choose>
+            <xsl:when test="not($width-docbook)">
+              <xsl:value-of select="./@WIDTH"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="$width-docbook"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
 
-                <!-- Strip the first character if a dropcap image is used -->
-                <!-- FIXME: doesn't handle an emphasis that starts at the beginning of the line. Alternative could be to process dropcaps edge case as a final step -->
-                <xsl:value-of select="substring(normalize-space(), 2)"/>
-                <xsl:if test="following-sibling::node()">
-                  <xsl:text> </xsl:text>
-                </xsl:if>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="normalize-space()"/>
-              </xsl:otherwise>
-            </xsl:choose>
-            <!-- Append a trailing space if other content follows -->
-            <xsl:if test="following-sibling::node()">
-              <xsl:text> </xsl:text>
-            </xsl:if>
+        <xsl:variable name="height-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapheightpt"/>
+        <xsl:variable name="height">
+          <xsl:choose>
+            <xsl:when test="not($height-docbook)">
+              <xsl:value-of select="./@HEIGHT"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="$height-docbook"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
+
+        <!-- Construct path string to prevent text over capital -->
+        <xsl:variable name="path">
+          <!-- path="M0 0 L40.1537 0 L40.1537 50.72 L0 50.72 L0 0 Z" -->
+          <xsl:text>M0 0 L</xsl:text>
+          <xsl:value-of select="$width"/>
+          <xsl:text> 0 L</xsl:text>
+          <xsl:value-of select="$width"/>
+          <xsl:text> </xsl:text>
+          <xsl:value-of select="$height"/>
+          <xsl:text> L0 </xsl:text>
+          <xsl:value-of select="$height"/>
+          <xsl:text> L0 0 Z</xsl:text>
+        </xsl:variable>
+
+        <!-- Construct PAGEOBJECT with adjusted properties -->
+        <xsl:copy>
+          <!-- Set PFILE attribute based on matched filename -->
+          <xsl:attribute name="PFILE">
+            <xsl:value-of select="$filename"/>
           </xsl:attribute>
-        </ITEXT>
-      </xsl:if>
-    </xsl:template>
 
-    <!-- Handle generic text, not influenced by dropcaps -->
-    <xsl:template match="//db:para/text()[position() > 1]">
-      <!-- Ignore element if no content is present -->
-      <xsl:if test="string-length(normalize-space()) > 0">
-        <ITEXT>
-          <xsl:attribute name="CH">
+          <xsl:attribute name="LOCALSCX">
+            <xsl:value-of select="$localsc"/>
+          </xsl:attribute>
 
-            <!-- Normalize space in elements inside paragraph. Insert preseding of trailing space if other nodes exist, like emphasized text or a link. -->
-            <!-- NOTE: this forces a spect around emphasized text or link, which could be good -->
-            <xsl:if test="preceding-sibling::node()">
-              <!-- Don't insert a space if content starts with punctuation, which should typically be appended without space -->
-              <xsl:if test="not(contains('.,;:!?…%)]/\”' ,substring(normalize-space(),1,1)))">
+          <xsl:attribute name="LOCALSCY">
+            <xsl:value-of select="$localsc"/>
+          </xsl:attribute>
+
+          <xsl:attribute name="WIDTH">
+            <xsl:value-of select="$width"/>
+          </xsl:attribute>
+
+          <xsl:attribute name="HEIGHT">
+            <xsl:value-of select="$height"/>
+          </xsl:attribute>
+
+          <xsl:attribute name="path">
+            <xsl:value-of select="$path"/>
+          </xsl:attribute>
+
+          <xsl:attribute name="copath">
+            <xsl:value-of select="$path"/>
+          </xsl:attribute>
+
+          <!-- Copy other attributes and nodes.. -->
+          <xsl:apply-templates select="@*[not(local-name() = 'PFILE' or local-name() = 'path' or local-name() = 'copath' or local-name() = 'LOCALSCX' or local-name() = 'LOCALSCY' or local-name() = 'WIDTH' or local-name() = 'HEIGHT')]|node()"/>
+          <!-- TODO: consider skipping explicit PRFILE profile as well -->
+        </xsl:copy>
+
+      </xsl:when>
+      <xsl:otherwise>
+
+        <!-- Find filename defined in imagedata object. Match first encountered element to handle most situations. -->
+        <!-- FIXME: XPATH expression doesn't work if xml:id matches on the imagedata object -->
+        <xsl:variable name="filename" select="document($docbook-contents-file)//*[@xml:id=$docbook-id]//*[local-name() = 'imagedata' and @fileref][1]/@fileref"/>
+
+        <!-- FIXME: reduce duplication -->
+        <xsl:copy>
+          <!-- Set PFILE attribute based on matched filename -->
+          <xsl:attribute name="PFILE">
+            <xsl:value-of select="$filename"/>
+          </xsl:attribute>
+          <!-- Copy other attributes and nodes -->
+          <xsl:apply-templates select="@*[not(local-name() = 'PFILE')]|node()"/>
+        </xsl:copy>
+
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!-- FIXME: idea to append or change font names instead of replacing the font entirely -->
+
+  <!-- TODO: unify emphasis handling between db:para and db:literallayout elements -->
+  <xsl:template match="//db:literallayout/db:emphasis">
+    <!-- Default emphasis -->
+    <!-- FIXME: Doesn't support nesting of emphasis or other nested elements -->
+    <!-- TODO: Heebo italic font not available or not installed -->
+    <ITEXT>
+      <xsl:attribute name="FONT">Roboto Italic</xsl:attribute>
+      <xsl:attribute name="CH">
+        <xsl:value-of select="./text()"/>
+      </xsl:attribute>
+    </ITEXT>
+  </xsl:template>
+
+  <xsl:template match="//db:literallayout/db:emphasis[@role='bold']|db:emphasis[@role='strong']">
+    <!-- FIXME: Doesn't support nesting of emphasis or other nested elements -->
+    <ITEXT>
+      <xsl:attribute name="FONT">Heebo Bold</xsl:attribute>
+      <xsl:attribute name="CH">
+        <xsl:value-of select="./text()"/>
+      </xsl:attribute>
+    </ITEXT>
+  </xsl:template>
+
+  <xsl:template match="//db:literallayout/text()">
+    <ITEXT>
+      <xsl:attribute name="CH">
+        <xsl:value-of select="."/>
+      </xsl:attribute>
+    </ITEXT>
+  </xsl:template>
+
+  <xsl:template match="//db:literallayout/*[not(self::db:emphasis)]">
+    <!-- NOTE: links and other elements will result in multiple ITEXT nodes -->
+    <ITEXT>
+      <xsl:attribute name="CH">
+        <xsl:value-of select="."/>
+      </xsl:attribute>
+    </ITEXT>
+  </xsl:template>
+
+  <!-- Further processing of para nodes -->
+  <xsl:template match="//db:para/*[not(self::db:emphasis)]">
+    <!-- NOTE: links and other elements will result in multiple ITEXT nodes -->
+    <ITEXT>
+      <xsl:attribute name="CH">
+        <xsl:value-of select="normalize-space(.)"/>
+      </xsl:attribute>
+    </ITEXT>
+  </xsl:template>
+
+  <!-- TODO: make specific for roles -->
+  <xsl:template match="//db:para/db:emphasis">
+    <!-- Default emphasis -->
+    <!-- FIXME: Doesn't support nesting of emphasis or other nested elements -->
+    <!-- TODO: Heebo italic font not available or not installed -->
+    <ITEXT>
+      <xsl:attribute name="FONT">Roboto Italic</xsl:attribute>
+      <xsl:attribute name="CH">
+        <xsl:value-of select="normalize-space(./text())"/>
+      </xsl:attribute>
+    </ITEXT>
+  </xsl:template>
+
+  <xsl:template match="//db:para/db:emphasis[@role='bold']|db:emphasis[@role='strong']">
+    <!-- FIXME: Doesn't support nesting of emphasis or other nested elements -->
+    <ITEXT>
+      <xsl:attribute name="FONT">Heebo Bold</xsl:attribute>
+      <xsl:attribute name="CH">
+        <xsl:value-of select="normalize-space(./text())"/>
+      </xsl:attribute>
+    </ITEXT>
+  </xsl:template>
+
+  <!-- Handle first text section -->
+  <xsl:template match="//db:para/text()[1]">
+    <!-- Ignore element if no content is present -->
+    <xsl:if test="string-length(normalize-space()) > 0">
+      <ITEXT>
+        <xsl:attribute name="CH">
+          <xsl:choose>
+            <xsl:when test="../@az:dropcap='true'">
+
+              <!-- Strip the first character if a dropcap image is used -->
+              <!-- FIXME: doesn't handle an emphasis that starts at the beginning of the line. Alternative could be to process dropcaps edge case as a final step -->
+              <xsl:value-of select="substring(normalize-space(), 2)"/>
+              <xsl:if test="following-sibling::node()">
                 <xsl:text> </xsl:text>
               </xsl:if>
-            </xsl:if>
-            <xsl:value-of select="normalize-space()"/>
-            <xsl:if test="following-sibling::node()">
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="normalize-space()"/>
+            </xsl:otherwise>
+          </xsl:choose>
+          <!-- Append a trailing space if other content follows -->
+          <xsl:if test="following-sibling::node()">
+            <xsl:text> </xsl:text>
+          </xsl:if>
+        </xsl:attribute>
+      </ITEXT>
+    </xsl:if>
+  </xsl:template>
+
+  <!-- Handle generic text, not influenced by dropcaps -->
+  <xsl:template match="//db:para/text()[position() > 1]">
+    <!-- Ignore element if no content is present -->
+    <xsl:if test="string-length(normalize-space()) > 0">
+      <ITEXT>
+        <xsl:attribute name="CH">
+
+          <!-- Normalize space in elements inside paragraph. Insert preseding of trailing space if other nodes exist, like emphasized text or a link. -->
+          <!-- NOTE: this forces a spect around emphasized text or link, which could be good -->
+          <xsl:if test="preceding-sibling::node()">
+            <!-- Don't insert a space if content starts with punctuation, which should typically be appended without space -->
+            <xsl:if test="not(contains('.,;:!?…%)]/\”' ,substring(normalize-space(),1,1)))">
               <xsl:text> </xsl:text>
             </xsl:if>
+          </xsl:if>
+          <xsl:value-of select="normalize-space()"/>
+          <xsl:if test="following-sibling::node()">
+            <xsl:text> </xsl:text>
+          </xsl:if>
 
-          </xsl:attribute>
-        </ITEXT>
-      </xsl:if>
-    </xsl:template>
+        </xsl:attribute>
+      </ITEXT>
+    </xsl:if>
+  </xsl:template>
 
 </xsl:stylesheet>
