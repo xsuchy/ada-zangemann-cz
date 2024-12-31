@@ -130,6 +130,27 @@ Consider having multiple imageobjects for different conditions:
 - What is a good way to find font variants for bold and italic for emphasis? Scribus doesn't support font variants directly. This is a longstanding issue, as can bee seen from this wiki page: https://wiki.scribus.net/canvas/Bold_/_italic_font_issues There are common font names to express variants. Fontlab documentation calls this Typographic style name (TSN): https://help.fontlab.com/transtype-4/Organining-font-families/#typographic-style-name-tsn Examples are: (ExtraLight, ExtraLight Italic, Light, Light Italic, Regular, Italic, SemiBold, SemiBold Italic, Bold, Bold Italic, Black, Black Italic, Condensed, Condensed Italic). Fonts can be made to look bold or even italic, so-called false bpold. Sribus support for false bold is not present: https://wiki.scribus.net/canvas/False_bold
 - The docbook-id reference in Scribus might be defined in a more expressive way. For example by using a certain character as a separator for elements to navigate the tree, even within a matched item, like: `matching-id|para|1` to select the first paragraph element. Or a separator could be used to express that the value of an attribute should be used for the conten, like: `sec-p01@pagenum` to get a pagenum attribute of the matched section. This would enable more flexiblity in the DocBook XML modeling, at the cost of more complicated and error-prone handling when processing.
 
+### Request for feedback
+
+Specific questions that came to mind during development and could be answered during a review:
+
+#### DocBook modelling
+
+- Is there sufficient benefit of tapping in the larger DocBook ecosystem? (Knowing that there were some issues with DocBook conversions of dbtoepub and dblatex, which might require preprocessing.)
+- Is it misuse to use section elements to separate pages or text frames?
+
+#### Translations
+
+- Does ITStool work well for extracing and handling PO files?
+- Are the resulting strings at the correct level? Providing XML syntax where needed, but not too much?
+- Is translation by paragraph workeable for translators?
+- Is it acceptable to expose information about fonts and dropcaps to translators for simplicity, or should it be kept separate?
+
+#### XSLT transformation
+
+- Is the syntax and structure of the XSLT template (`xsl/scribus.xsl`) understandeable?
+- Do the XSLT templates need to split up into smaller templates at the cost of more overhead?
+
 ### Recommendations for ongoing development
 
 - A change in modeling might be breaking for external scripts. Breaking changes should be avoided. A version indicator is a hint at format compatibility.
