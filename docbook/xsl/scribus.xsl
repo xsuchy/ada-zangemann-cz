@@ -69,7 +69,7 @@
 
         <!-- A DocBook section: load text from <para> and <literallayout> elements -->
         <!-- FIXME: look if better ways exist to improve over a text-based match -->
-        <xsl:when test="contains(';section;simplesect;sect1;sect2;sect3;sect4;sect5;', concat(';', $matching-element, ';'))">
+        <xsl:when test="contains('|section|simplesect|sect1|sect2|sect3|sect4|sect5|', concat('|', $matching-element, '|'))">
 
           <xsl:for-each select="document($docbook-contents-file)//*[@xml:id=$docbook-id]/*[local-name()='para' or local-name()='literallayout']">
             <xsl:apply-templates select="."/>
