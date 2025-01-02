@@ -388,8 +388,7 @@ Raspberry Ice Cream</literallayout>
         <alt>Prestigious magazines (“STARS“, “MONEY”, “Richest Man”) on whose cover are Zangemann and his villa.</alt>
       </mediaobject>
     </simplesect>
-    <section xml:id="sec-p08" az:pagenum="8">
-      <!-- TODO: separate simplesects can be removed once Scribus template is adjusted, and then page section can be upgraded to simplesect -->
+    <!-- TODO: separate simplesects can be removed once Scribus template is adjusted, and then page section can be upgraded to simplesect -->
     <simplesect xml:id="sec-p08a" az:pagenum="8">
       <anchor az:slidenum="4"/>
       <para>“Finally, I can turn all my ideas into real things!” Zangemann exclaimed, and he got right to work. He found ways to put the small computers into all kinds of things to make them even more fun and useful. And then he sold them.</para>
@@ -409,7 +408,6 @@ Raspberry Ice Cream</literallayout>
         <alt>An original Zangemann electric skateboard leaving a blue trail with musical notes and colored circles. Only the knees, white socks, and olive green shoes with white soles of the child riding it are shown.</alt>
       </mediaobject>
     </simplesect>
-    </section>
     <simplesect xml:id="sec-p09" az:pagenum="9">
       <mediaobject xml:id="img-ada-p09">
         <imageobject>
