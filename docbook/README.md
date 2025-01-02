@@ -80,7 +80,7 @@ Considerations for the current DocBook format.
 - Use the [markup](https://tdg.docbook.org/tdg/5.2/markup) element to mark a piece of text for markup.
 - A [phrase](https://tdg.docbook.org/tdg/5.2/phrase) can be used to mark a piece of text.
 - The default XSLT 1.0 HTML processing changes the order of the book by moving the acknowledgments to the front. This is standard for most books, but is undesireable for the childrens book. So even though the modelling is more correct, the end result requires more customisation.
-- Some alt text descriptions are quite lengthy and couuld benefit from a split. Docbook doesn't seem to offer such a feature.
+- Some alt text descriptions are quite lengthy and could benefit from a split. Docbook doesn't seem to offer such a feature.
 - It could be interesting if initial stylesheets could be included so that the document can be converted to some basic outputs.
 - Addresses from the publishers and from Creative Commons could be represented using an [address](https://tdg.docbook.org/tdg/5.2/address) element. This resulted in unwanted newlines in the XSLT 1.0 HTML output, which was the reason to not use it for now.
 - Deal with conditional credits or colophon, as the English version has 2 versions: for print and for online publication. It might be that there are two version of the source document: one representing the published book and one being the upstream document version for remix versions.
