@@ -74,7 +74,10 @@ Considerations for the current DocBook format.
 - It should be possible to specify whether the language is RTL or LTR. It might be concluded based on the language too.
 - The additional elements appear in the final rendered output. Have observed it with `<az:datamodel/>`, `<az:page/>` and `<az:slide/>` using the default XSLT 1.0 HTML templates. Currently addressed using a custom XSLT template to remove these attributes.
 - How best to model title and subtitle on the cover. A title isn't allowed. It could be ommitted as it is already present on the book info. A bridgehead seems fitting, but a para might do.
-- Use [parameters for 'profiling'](https://tdg.docbook.org/tdg/5.2/ref-elements#common.effectivity.attributes) to make certain formatting conditional, depending on output format or a generic condition.
+- Use [parameters for 'profiling'](https://tdg.docbook.org/tdg/5.2/ref-elements#common.effectivity.attributes) to make certain formatting conditional, depending on output format or a generic condition. More details in XSLT documentation: https://sagehill.net/docbookxsl/MultiProfile.html Conditions can be used both in Scribus template (as attributes) and DocBook data.
+  - In Scribus template conditions can be used to switch between titles that are written in fonts or image-based, whether to use image capitals and to show a remix edition image.
+  - In Docbook template conditions can be used whether to use capitals or to use different title colophon information depending on the condition.
+  - XSLT 1.0 profiling stylesheets as distributed in Linux distro's can be found here as well: https://github.com/docbook/xslt10-stylesheets/blob/master/xsl/profiling/profile-mode.xsl
 - Provide XSLT transformation to remove custom attributes and ensure it to be standard DocBook.
 - Provide XSLT transformation to convert to DocBook slides for presentation.
 - For formatting take inspiration from [XSL-FO](https://en.wikipedia.org/wiki/XSL_Formatting_Objects) designed for formatting pdf files.
