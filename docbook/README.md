@@ -252,7 +252,7 @@ A brief overview of the Docbook elements and custom attributes used in the sourc
       <titleabbrev/>
     </info>
     <anchor az:slidenum="1"/>
-    <section xml:id="sec-p01" az:pagenum="1">
+    <simplesect xml:id="sec-p01" az:pagenum="1">
       <literallayout/>
       <para xml:id="para-p01-1" az:dropcap="true" az:dropcapcolor="#fddd66" az:dropcapbackgroundcolor="#71aaa4" az:dropcapfileref="../illustrations/Capitals/T-yellow2.png" az:dropcapheightpt="50.56" az:dropcapwidthpt="42.72" az:dropcaplocalsc="0.16">
         <emphasis role="bold"/>
@@ -266,7 +266,7 @@ A brief overview of the Docbook elements and custom attributes used in the sourc
         </imageobject>
         <alt/>
       </mediaobject>
-    </section>
+    </simplesect>
   </chapter>
   <appendix/>
 </book>
