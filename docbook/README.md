@@ -67,6 +67,7 @@ Considerations for the current DocBook format.
 - All current translations use numbers for page numbers, removing the need for internationalization of this field.
 - Simple sections (simplesect) elements are used to group the content that needs to end up in a single text frame in Scribus. For most pages this results in a single section per page. The [simplesect](https://tdg.docbook.org/tdg/5.2/simplesect) element is chosen because it normally doesn't end up as part of the document structure. As described on [Docbook XSL documentation](https://sagehill.net/docbookxsl/TitleFontSizes.html#SimpleSects): "By default, simplesects do not appear in the table of contents because they are usually not considered part of the document's structural hierarchy." Note that simplesect elements can still contain a title and info element, which is not fitting for a page indicator.
 - Identifiers for front and back matters are drawn from the [Wikipedia page on book design](https://en.wikipedia.org/wiki/Book_design).
+- Images for drawn headings are embedded in the info element of the appendix. This is allowed in DocBook modelling and prevents them from being printed by default.
 
 #### Ideas for consideration
 

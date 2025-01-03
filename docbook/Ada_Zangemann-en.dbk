@@ -873,6 +873,11 @@ Raspberry Ice Cream</literallayout>
     <!-- NOTE: acknowledgments modelled as appendix to ensure it ends up at the end of the book -->
     <info>
       <title xml:id="title-acknowledgments">Acknowledgments</title>
+      <mediaobject xml:id="img-ada-p50-title">
+        <imageobject>
+          <imagedata fileref="../illustrations/en/ada-p50-title.png"/>
+        </imageobject>
+      </mediaobject>
     </info>
     <simplesect xml:id="sec-p50" az:pagenum="50">
       <para its:locNote="In the acknowledgments of the English version you can change 'No Starch Press' to the name of your publisher, as we would like to thank you for publishing this book in your language under a free cultural license, and encourage you to do that for other books in future as well.">Many thanks to Reinhard Wiesemann from the Linuxhotel for the financial support and motivation to no longer plan but to make. Thanks to Sandra Brandstätter, who has brought me joy with every new design for the illustrations. Thanks to my editor Wiebke Helmchen, who made developing and sharpening the story fun, and to No Starch Press for agreeing to publish the book under a free culture license.</para>
@@ -895,6 +900,11 @@ Raspberry Ice Cream</literallayout>
       <title xml:id="title-author">About the Author</title>
       <subtitle xml:id="subtitle-author">Matthias Kirschner</subtitle>
       <titleabbrev>About the Author - Matthias Kirschner</titleabbrev>
+      <mediaobject xml:id="img-ada-p52-title">
+        <imageobject>
+          <imagedata fileref="../illustrations/en/ada-p52-title.png"/>
+        </imageobject>
+      </mediaobject>
     </info>
     <simplesect xml:id="sec-p52" az:pagenum="52">
       <anchor az:slidenum="10"/>
@@ -913,6 +923,11 @@ Raspberry Ice Cream</literallayout>
       <title xml:id="title-illustrator">About the Illustrator</title>
       <subtitle xml:id="subtitle-illustrator">Sandra Brandstätter</subtitle>
       <titleabbrev>About the Illustrator - Sandra Brandstätter</titleabbrev>
+      <mediaobject xml:id="img-ada-p53-title">
+        <imageobject>
+          <imagedata fileref="../illustrations/en/ada-p53-title.png"/>
+        </imageobject>
+      </mediaobject>
     </info>
     <simplesect xml:id="sec-p53" az:pagenum="53">
       <anchor az:slidenum="11"/>
@@ -928,6 +943,11 @@ Raspberry Ice Cream</literallayout>
   <appendix>
     <info>
       <title xml:id="title-bookswebsite">Book's website</title>
+      <mediaobject xml:id="img-ada-p54-title">
+        <imageobject>
+          <imagedata fileref="../illustrations/en/ada-p54-title.png"/>
+        </imageobject>
+      </mediaobject>
     </info>
     <simplesect xml:id="sec-p54a" az:pagenum="54">
       <para>The Free Software Foundation Europe e.V. is a nonprofit association that empowers people to control technology. Software affects all areas of our life. That is why it is important that this technology gives us freedom instead of restricting us. Free Software (also called Open Source) gives everyone the right to use, study, share, and improve programs. Therefore, Free Software strengthens basic rights such as freedom of expression, freedom of the press, and the right to privacy.</para>
@@ -940,6 +960,11 @@ Raspberry Ice Cream</literallayout>
       <!-- TODO: what to do with this title? -->
       <!-- <title>Drawing templates</title> -->
       <title xml:id="title-license">License</title>
+      <mediaobject xml:id="img-ada-p55-title">
+        <imageobject>
+          <imagedata fileref="../illustrations/en/ada-p55-title.png"/>
+        </imageobject>
+      </mediaobject>
     </info>
     <simplesect xml:id="sec-p54b" az:pagenum="54">
       <para>The book Ada &amp; Zangemann: A Tale of Software, Skateboards, and Raspberry Ice Cream by Matthias Kirschner and Sandra Brandstätter, published by No Starch Press, is licensed under “Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).”</para>
