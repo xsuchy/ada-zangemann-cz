@@ -50,8 +50,9 @@ Considerations for the current DocBook format.
 - Preferably [common attributes](https://tdg.docbook.org/tdg/5.2/ref-elements#common.attributes) are used to add information to elements.
 - xlink href is used for external links, as suggested in the [DocBook documentation](https://tdg.docbook.org/tdg/5.2/link).
 - The `dir` attribute is set to signify the direction of text (and images). This can be `ltr` for left-to-right or `rtl` for right-to-left. This very much depends on the language. Other values `lro` and `rlo` exist as override values to override the direction for a short section. See also the [XHTML documentation](https://www.w3.org/TR/xhtml2/mod-bidi.html).
-- Custom models are used for elements in the book which are not the main story. This concerns the colophon, appendix and acknowledgements.
+- Custom models are used for elements in the book which are not the main story. This concerns the preface and appendix.
   - Docbook doesn't have a model for a titlepage. Instead the common practice is to print a page containing the title and subtile. This can be observed from this example of [pdf generation](https://doccookbook.sourceforge.net/html/en/dbc.fo.design-titlepages.html).
+  - Acknowledgments are not modelled using the acknowledgments element but rather as an appendix. This is intentional to prevent the acknowledgments from ending up in front of the book. The default XSLT 1.0 HTML processing changes the order of the book by moving the acknowledgments to the front. This is standard for most books, but is undesireable for the childrens book. So even though the modelling is more correct, the end result requires more customisation.
 - All involved persons have been modelled as persons to reveive credit in the main info. This increases the complexity in the modelling, but is more precise in the metadata. As the information is already in the colophon, it might as well be removed.
 - Custom elements are used inside the book info element to list the named characters in the story. This allows translators to document the chosen names in case they deviate.
 - Font information is added to in book/info using custom elements (az:style/az:fontset/az:font). Especially languages using non-latin charachters might require different fonts. Adding this information into the DocBook document breaks the DocBook principle of separating formatting and content. Adding it in the same file brings conveniencefor processors by having the information available in one structure.
@@ -83,7 +84,6 @@ Considerations for the current DocBook format.
 - For formatting take inspiration from [XSL-FO](https://en.wikipedia.org/wiki/XSL_Formatting_Objects) designed for formatting pdf files.
 - Use the [markup](https://tdg.docbook.org/tdg/5.2/markup) element to mark a piece of text for markup.
 - A [phrase](https://tdg.docbook.org/tdg/5.2/phrase) can be used to mark a piece of text.
-- The default XSLT 1.0 HTML processing changes the order of the book by moving the acknowledgments to the front. This is standard for most books, but is undesireable for the childrens book. So even though the modelling is more correct, the end result requires more customisation.
 - Some alt text descriptions are quite lengthy and could benefit from a split. Docbook doesn't seem to offer such a feature.
 - It could be interesting if initial stylesheets could be included so that the document can be converted to some basic outputs.
 - Addresses from the publishers and from Creative Commons could be represented using an [address](https://tdg.docbook.org/tdg/5.2/address) element. This resulted in unwanted newlines in the XSLT 1.0 HTML output, which was the reason to not use it for now.

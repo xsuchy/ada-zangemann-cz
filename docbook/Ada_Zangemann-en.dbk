@@ -869,8 +869,8 @@ Raspberry Ice Cream</literallayout>
       </mediaobject>
     </simplesect>
   </chapter>
-  <!-- TODO: this might be modelled as acknowledgements instead of a chapter. Normally acknowledgements appear earlier in the book. -->
-  <acknowledgements xml:id="ch17">
+  <appendix xml:id="ch17">
+    <!-- NOTE: acknowledgments modelled as appendix to ensure it ends up at the end of the book -->
     <info>
       <title xml:id="title-acknowledgments">Acknowledgments</title>
     </info>
@@ -888,7 +888,7 @@ Raspberry Ice Cream</literallayout>
         <alt>Ada's dog wags its tail after finding Zangemann hidden behind a curtain and eating an ice cream cone with candies and a blue umbrella on it and lots of raspberry ice cream dripping.</alt>
       </mediaobject>
     </simplesect>
-  </acknowledgements>
+  </appendix>
   <appendix>
     <info>
       <!-- TODO: deal with multi-line title. Check if this modelling works. -->
