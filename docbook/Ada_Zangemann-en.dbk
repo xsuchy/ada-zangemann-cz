@@ -137,8 +137,28 @@
           <!-- TODO: add details -->
         </az:font>
         <az:font role="body">
+          <!-- TODO: add font weight -->
           <az:fontfamily>Heebo</az:fontfamily>
-          <az:fontstyle>regular</az:fontstyle>
+          <az:fontstyle>normal</az:fontstyle>
+          <az:fontweight>normal</az:fontweight>
+          <az:fontsize>12pt</az:fontsize>
+          <az:fonthref>https://github.com/OdedEzer/heebo</az:fonthref>
+          <az:fontlicense>OFL-1.1</az:fontlicense>
+        </az:font>
+        <az:font role="body-emphasis-bold">
+          <!-- TODO: add font weight -->
+          <az:fontfamily>Heebo</az:fontfamily>
+          <az:fontstyle>normal</az:fontstyle>
+          <az:fontweight>bold</az:fontweight>
+          <az:fontsize>12pt</az:fontsize>
+          <az:fonthref>https://github.com/OdedEzer/heebo</az:fonthref>
+          <az:fontlicense>OFL-1.1</az:fontlicense>
+        </az:font>
+        <az:font role="body-emphasis-italic">
+          <!-- TODO: add font weight -->
+          <az:fontfamily>Heebo</az:fontfamily>
+          <az:fontstyle>italic</az:fontstyle>
+          <az:fontweight>normal</az:fontweight>
           <az:fontsize>12pt</az:fontsize>
           <az:fonthref>https://github.com/OdedEzer/heebo</az:fonthref>
           <az:fontlicense>OFL-1.1</az:fontlicense>
@@ -148,14 +168,14 @@
         </az:font>
         <az:font role="copyright-page">
           <az:fontfamily>Heebo</az:fontfamily>
-          <az:fontstyle>regular</az:fontstyle>
+          <az:fontstyle>normal</az:fontstyle>
           <az:fontsize>9pt</az:fontsize>
           <az:fonthref>https://github.com/OdedEzer/heebo</az:fonthref>
           <az:fontlicense>OFL-1.1</az:fontlicense>
         </az:font>
         <az:font role="pagenumber">
           <az:fontfamily>Heebo</az:fontfamily>
-          <az:fontstyle>regular</az:fontstyle>
+          <az:fontstyle>normal</az:fontstyle>
           <az:fontsize>10pt</az:fontsize>
           <az:fonthref>https://github.com/OdedEzer/heebo</az:fonthref>
           <az:fontlicense>OFL-1.1</az:fontlicense>
