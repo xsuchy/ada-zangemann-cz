@@ -9,10 +9,10 @@
     <!-- Ensure that certain information gets grouped together for translators -->
     <its:withinTextRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" withinText="yes" selector="//az:character/*"/>
     <its:withinTextRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" withinText="yes" selector="//az:style/az:fontset/az:font/*"/>
-    <!-- Same for the colophon, to expose the modelling of the colophon to the in case multiple paragraphs are involved -->
-    <its:withinTextRule xmlns:db="http://docbook.org/ns/docbook" withinText="yes" selector="//db:colophon/db:simplesect/*"/>
+    <!-- Same for the copyright page, to expose the modelling of the copyright page to the translator in case multiple paragraphs are involved -->
+    <its:withinTextRule xmlns:db="http://docbook.org/ns/docbook" withinText="yes" selector="//db:preface[@role='copyright']/db:simplesect/*"/>
     <!-- Allow translators to control spaces, necessary for the literallayout -->
-    <its:preserveSpaceRule xmlns:db="http://docbook.org/ns/docbook" space="preserve" selector="//db:colophon/db:simplesect"/>
+    <its:preserveSpaceRule xmlns:db="http://docbook.org/ns/docbook" space="preserve" selector="//db:preface[@role='copyright']/db:simplesect"/>
     <!-- Translator note for alt tags -->
     <its:locNoteRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" locNoteType="description" selector="//az:style/az:fontset/az:font/*">
       <its:locNote>Font information for the Scribus template to generate PDFs. Only change if needed.</its:locNote>
@@ -146,7 +146,7 @@
         <az:font role="dropcap">
           <!-- TODO: add details -->
         </az:font>
-        <az:font role="colophon">
+        <az:font role="copyright-page">
           <az:fontfamily>Heebo</az:fontfamily>
           <az:fontstyle>regular</az:fontstyle>
           <az:fontsize>9pt</az:fontsize>
@@ -233,9 +233,9 @@
     </cover>
   </info>
   <!-- Start of the book -->
-  <colophon>
+  <preface role="copyright">
     <info>
-      <title>Imprint</title>
+      <title>Copyright</title>
     </info>
     <!-- TODO: Consider splitting this literallayout into multiple, perhaps with para tags -->
     <simplesect xml:id="sec-p02" az:pagenum="2">
@@ -301,7 +301,7 @@ Publication under this free cultural license was possible due to the great suppo
 (<link xlink:href="https://fsfe.org/donate">https://fsfe.org/donate</link>)
 Society should support those who respect others' freedom.</literallayout>
     </simplesect>
-  </colophon>
+  </preface>
   <!-- TODO: does the title page have to be modelled separately? -->
   <chapter>
     <info>
