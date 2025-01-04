@@ -8,8 +8,17 @@ po/Ada_Zangemann.pot: Ada_Zangemann-en.dbk
 Ada_Zangemann-en.html: Ada_Zangemann-en-pure.dbk
 	xsltproc -o Ada_Zangemann-en.html /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl Ada_Zangemann-en-pure.dbk
 
-Ada_Zangemann-en-print.sla: Ada_Zangemann-en.dbk xsl/scribus.xsl xsl/template-print.sla
-	xsltproc -o Ada_Zangemann-en-print.sla --verbose --stringparam docbook-contents-file "../Ada_Zangemann-en.dbk" xsl/scribus.xsl xsl/template-print.sla
+Ada_Zangemann-en-print-all.sla: Ada_Zangemann-en.dbk xsl/scribus.xsl xsl/template-print.sla
+	xsltproc -o Ada_Zangemann-en-print-all.sla --verbose --stringparam docbook-contents-file "../Ada_Zangemann-en.dbk" xsl/scribus.xsl xsl/template-print.sla
+
+Ada_Zangemann-en-print-img.sla: Ada_Zangemann-en.dbk xsl/scribus.xsl xsl/template-print.sla
+	xsltproc -o Ada_Zangemann-en-print-img.sla --verbose --stringparam docbook-contents-file "../Ada_Zangemann-en.dbk" --stringparam profile.condition "headings-img" xsl/scribus.xsl xsl/template-print.sla
+
+Ada_Zangemann-en-print-text.sla: Ada_Zangemann-en.dbk xsl/scribus.xsl xsl/template-print.sla
+	xsltproc -o Ada_Zangemann-en-print-text.sla --verbose --stringparam docbook-contents-file "../Ada_Zangemann-en.dbk" --stringparam profile.condition "headings-text" xsl/scribus.xsl xsl/template-print.sla
+
+Ada_Zangemann-en-print-none.sla: Ada_Zangemann-en.dbk xsl/scribus.xsl xsl/template-print.sla
+	xsltproc -o Ada_Zangemann-en-print-none.sla --verbose --stringparam docbook-contents-file "../Ada_Zangemann-en.dbk" --stringparam profile.condition ";" xsl/scribus.xsl xsl/template-print.sla
 
 Ada_Zangemann-en-pure.dbk: Ada_Zangemann-en.dbk xsl/clean-docbook.xsl
 	xsltproc -o Ada_Zangemann-en-pure.dbk xsl/clean-docbook.xsl Ada_Zangemann-en.dbk

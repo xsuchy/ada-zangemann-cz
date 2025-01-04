@@ -183,6 +183,7 @@
         <PAGEOBJECT XPOS="782.262587176603" YPOS="814.016692913386" OwnPage="2" ItemID="530903712" PTYPE="2" WIDTH="421.302857142857" HEIGHT="251.794285714286" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.205714285714286" LOCALSCY="0.205714285714286" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p03-title.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L421.303 0 L421.303 251.794 L0 251.794 L0 0 Z" copath="M0 0 L421.303 0 L421.303 251.794 L0 251.794 L0 0 Z" gXpos="782.262587176603" gYpos="814.016692913386" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <PageItemAttributes>
                 <ItemAttribute Name="docbook-id" Type="string" Value="img-ada-p03-title" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="condition" Type="string" Value="headings-img" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="170.866771653543" YPOS="1355.74866141732" OwnPage="3" ItemID="530854032" PTYPE="4" WIDTH="459.212598425197" HEIGHT="112.8" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L459.213 0 L459.213 112.8 L0 112.8 L0 0 Z" copath="M0 0 L459.213 0 L459.213 112.8 L0 112.8 L0 0 Z" gXpos="170.866771653543" gYpos="1355.74866141732" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
@@ -480,14 +481,26 @@
                 <ItemAttribute Name="docbook-id" Type="string" Value="img-ada-p48" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="170.866771653543" YPOS="15967.08" OwnPage="49" ItemID="531617632" PTYPE="2" WIDTH="425.706940874036" HEIGHT="51.2699228791774" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.185089974293059" LOCALSCY="0.185089974293059" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p50-title.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L425.707 0 L425.707 51.2699 L0 51.2699 L0 0 Z" copath="M0 0 L425.707 0 L425.707 51.2699 L0 51.2699 L0 0 Z" gXpos="170.866771653543" gYpos="1355.74866141732" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
-        <PAGEOBJECT XPOS="171.378582677165" YPOS="16753.697007874" OwnPage="51" ItemID="531585904" PTYPE="2" WIDTH="210.763636363636" HEIGHT="206.181818181818" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.163636363636364" LOCALSCY="0.163636363636364" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p52.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L210.764 0 L210.764 206.182 L0 206.182 L0 0 Z" copath="M0 0 L210.764 0 L210.764 206.182 L0 206.182 L0 0 Z" gXpos="171.378582677165" gYpos="1507.09039370079" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="170.866771653543" YPOS="15967.08" OwnPage="49" ItemID="950240405" PTYPE="2" WIDTH="425.706940874036" HEIGHT="51.2699228791774" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.185089974293059" LOCALSCY="0.185089974293059" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p50-title.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L425.707 0 L425.707 51.2699 L0 51.2699 L0 0 Z" copath="M0 0 L425.707 0 L425.707 51.2699 L0 51.2699 L0 0 Z" gXpos="170.866771653543" gYpos="1355.74866141732" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <PageItemAttributes>
+                <ItemAttribute Name="docbook-id" Type="string" Value="img-ada-p50-title" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="condition" Type="string" Value="headings-img" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+            </PageItemAttributes>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="171.378582677165" YPOS="16753.697007874" OwnPage="51" ItemID="950269029" PTYPE="2" WIDTH="210.763636363636" HEIGHT="206.181818181818" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.163636363636364" LOCALSCY="0.163636363636364" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p52.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L210.764 0 L210.764 206.182 L0 206.182 L0 0 Z" copath="M0 0 L210.764 0 L210.764 206.182 L0 206.182 L0 0 Z" gXpos="171.378582677165" gYpos="1507.09039370079" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <PageItemAttributes>
                 <ItemAttribute Name="docbook-id" Type="string" Value="img-ada-p52" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="170.866771653543" YPOS="17234.7959055118" OwnPage="53" ItemID="531664608" PTYPE="2" WIDTH="440" HEIGHT="66.9767441860465" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.186046511627907" LOCALSCY="0.186046511627907" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p54-title.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L440 0 L440 66.9767 L0 66.9767 L0 0 Z" copath="M0 0 L440 0 L440 66.9767 L0 66.9767 L0 0 Z" gXpos="170.866771653543" gYpos="1352.91401574805" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
         <PAGEOBJECT XPOS="735.394330708662" YPOS="17176.8932283465" OwnPage="54" ItemID="531690720" PTYPE="2" WIDTH="537.756850393701" HEIGHT="490.42771653544" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.17888198757764" LOCALSCY="0.17888198757764" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p56.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L537.757 0 L537.757 490.428 L0 490.428 L0 0 Z" copath="M0 0 L537.757 0 L537.757 490.428 L0 490.428 L0 0 Z" gXpos="735.394330708662" gYpos="659.736062992137" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="170.866771653543" YPOS="17234.7959055118" OwnPage="53" ItemID="950208581" PTYPE="2" WIDTH="440" HEIGHT="66.9767441860465" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.186046511627907" LOCALSCY="0.186046511627907" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p54-title.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L440 0 L440 66.9767 L0 66.9767 L0 0 Z" copath="M0 0 L440 0 L440 66.9767 L0 66.9767 L0 0 Z" gXpos="170.866771653543" gYpos="1352.91401574805" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <PageItemAttributes>
+                <ItemAttribute Name="docbook-id" Type="string" Value="img-ada-p54-title" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="condition" Type="string" Value="headings-img" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+            </PageItemAttributes>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="735.394330708662" YPOS="17176.8932283465" OwnPage="54" ItemID="950317605" PTYPE="2" WIDTH="537.756850393701" HEIGHT="490.42771653544" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.17888198757764" LOCALSCY="0.17888198757764" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p56.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L537.757 0 L537.757 490.428 L0 490.428 L0 0 Z" copath="M0 0 L537.757 0 L537.757 490.428 L0 490.428 L0 0 Z" gXpos="735.394330708662" gYpos="659.736062992115" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <PageItemAttributes>
                 <ItemAttribute Name="docbook-id" Type="string" Value="img-ada-p55" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
@@ -577,8 +590,13 @@
                 <ItemAttribute Name="docbook-id" Type="string" Value="img-ada-p53" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="158.937637795276" YPOS="17532.6179527559" OwnPage="53" ItemID="531934224" PTYPE="2" WIDTH="263.627906976744" HEIGHT="55.2558139534884" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.186046511627907" LOCALSCY="0.186046511627907" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p55-title.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L263.628 0 L263.628 55.2558 L0 55.2558 L0 0 Z" copath="M0 0 L263.628 0 L263.628 55.2558 L0 55.2558 L0 0 Z" gXpos="158.937637795276" gYpos="1650.73606299214" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
-        <PAGEOBJECT XPOS="76.5990551181099" YPOS="17813.9445414975" OwnPage="55" ItemID="531929008" PTYPE="2" WIDTH="593.709316770186" HEIGHT="593.709316770186" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.17888198757764" LOCALSCY="0.17888198757764" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p57.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L593.709 0 L593.709 593.709 L0 593.709 L0 0 Z" copath="M0 0 L593.709 0 L593.709 593.709 L0 593.709 L0 0 Z" gXpos="76.5990551181102" gYpos="1296.7873761432" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="158.937637795276" YPOS="17532.6179527559" OwnPage="53" ItemID="950488213" PTYPE="2" WIDTH="263.627906976744" HEIGHT="55.2558139534884" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.186046511627907" LOCALSCY="0.186046511627907" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p55-title.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L263.628 0 L263.628 55.2558 L0 55.2558 L0 0 Z" copath="M0 0 L263.628 0 L263.628 55.2558 L0 55.2558 L0 0 Z" gXpos="158.937637795276" gYpos="1650.73606299214" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <PageItemAttributes>
+                <ItemAttribute Name="docbook-id" Type="string" Value="img-ada-p55-title" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="condition" Type="string" Value="headings-img" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+            </PageItemAttributes>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="76.5990551181099" YPOS="17813.9445414975" OwnPage="55" ItemID="950597013" PTYPE="2" WIDTH="593.709316770186" HEIGHT="593.709316770186" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.17888198757764" LOCALSCY="0.17888198757764" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p57.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L593.709 0 L593.709 593.709 L0 593.709 L0 0 Z" copath="M0 0 L593.709 0 L593.709 593.709 L0 593.709 L0 0 Z" gXpos="76.5990551181102" gYpos="1296.7873761432" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <PageItemAttributes>
                 <ItemAttribute Name="docbook-id" Type="string" Value="img-ada-p56" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
@@ -588,9 +606,19 @@
                 <ItemAttribute Name="docbook-id" Type="string" Value="img-ada-p34-bottom" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="171.717165354331" YPOS="16593.8387401575" OwnPage="51" ItemID="531890176" PTYPE="2" WIDTH="427.906976744186" HEIGHT="118.883720930233" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.186046511627907" LOCALSCY="0.186046511627907" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p52-title.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L427.907 0 L427.907 118.884 L0 118.884 L0 0 Z" copath="M0 0 L427.907 0 L427.907 118.884 L0 118.884 L0 0 Z" gXpos="171.717165354331" gYpos="1347.23212598426" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
-        <PAGEOBJECT XPOS="779.717165354331" YPOS="16588.1694488189" OwnPage="52" ItemID="531996096" PTYPE="2" WIDTH="483.720930232558" HEIGHT="130.232558139535" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.186046511627907" LOCALSCY="0.186046511627907" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p53-title.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L483.721 0 L483.721 130.233 L0 130.233 L0 0 Z" copath="M0 0 L483.721 0 L483.721 130.233 L0 130.233 L0 0 Z" gXpos="779.717165354331" gYpos="1341.56283464567" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
-        <PAGEOBJECT XPOS="170.866771653543" YPOS="5167.40031496063" OwnPage="15" ItemID="531914016" PTYPE="4" WIDTH="439.370078740158" HEIGHT="174.274960629924" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L439.37 0 L439.37 174.275 L0 174.275 L0 0 Z" copath="M0 0 L439.37 0 L439.37 174.275 L0 174.275 L0 0 Z" gXpos="170.866771653543" gYpos="3261.57448818898" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="171.717165354331" YPOS="16593.8387401575" OwnPage="51" ItemID="950580341" PTYPE="2" WIDTH="427.906976744186" HEIGHT="118.883720930233" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.186046511627907" LOCALSCY="0.186046511627907" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p52-title.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L427.907 0 L427.907 118.884 L0 118.884 L0 0 Z" copath="M0 0 L427.907 0 L427.907 118.884 L0 118.884 L0 0 Z" gXpos="171.717165354331" gYpos="1347.23212598426" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <PageItemAttributes>
+                <ItemAttribute Name="docbook-id" Type="string" Value="img-ada-p52-title" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="condition" Type="string" Value="headings-img" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+            </PageItemAttributes>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="779.717165354331" YPOS="16588.1694488189" OwnPage="52" ItemID="950642053" PTYPE="2" WIDTH="483.720930232558" HEIGHT="130.232558139535" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.186046511627907" LOCALSCY="0.186046511627907" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/ada-p53-title.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L483.721 0 L483.721 130.233 L0 130.233 L0 0 Z" copath="M0 0 L483.721 0 L483.721 130.233 L0 130.233 L0 0 Z" gXpos="779.717165354331" gYpos="1341.56283464567" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <PageItemAttributes>
+                <ItemAttribute Name="docbook-id" Type="string" Value="img-ada-p53-title" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="condition" Type="string" Value="headings-img" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+            </PageItemAttributes>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="170.866771653543" YPOS="5167.40031496063" OwnPage="15" ItemID="950560037" PTYPE="4" WIDTH="439.370078740158" HEIGHT="174.274960629924" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L439.37 0 L439.37 174.275 L0 174.275 L0 0 Z" copath="M0 0 L439.37 0 L439.37 174.275 L0 174.275 L0 0 Z" gXpos="170.866771653543" gYpos="3261.57448818898" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT CH="TEXT-PAGE16"/>
@@ -1134,6 +1162,7 @@
             </StoryText>
             <PageItemAttributes>
                 <ItemAttribute Name="docbook-id" Type="string" Value="title-acknowledgments" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="condition" Type="string" Value="headings-text" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="170.866771653543" YPOS="16610.8592125984" OwnPage="51" ItemID="533180160" PTYPE="4" WIDTH="439.370078740158" HEIGHT="42.5196850393701" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" copath="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" gXpos="170.866771653543" gYpos="16610.8592125984" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
@@ -1144,6 +1173,7 @@
             </StoryText>
             <PageItemAttributes>
                 <ItemAttribute Name="docbook-id" Type="string" Value="title-author" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="condition" Type="string" Value="headings-text" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="785.984881889764" YPOS="16610.8592125984" OwnPage="52" ItemID="533199248" PTYPE="4" WIDTH="433.700787401575" HEIGHT="42.5196850393701" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L433.701 0 L433.701 42.5197 L0 42.5197 L0 0 Z" copath="M0 0 L433.701 0 L433.701 42.5197 L0 42.5197 L0 0 Z" gXpos="785.984881889763" gYpos="16610.8592125984" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
@@ -1154,6 +1184,7 @@
             </StoryText>
             <PageItemAttributes>
                 <ItemAttribute Name="docbook-id" Type="string" Value="subtitle-illustrator" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="condition" Type="string" Value="headings-text" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="170.866771653543" YPOS="17240.4651968504" OwnPage="53" ItemID="533135472" PTYPE="4" WIDTH="439.370078740158" HEIGHT="42.5196850393701" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" copath="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" gXpos="170.866771653542" gYpos="17240.4651968504" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
@@ -1164,6 +1195,7 @@
             </StoryText>
             <PageItemAttributes>
                 <ItemAttribute Name="docbook-id" Type="string" Value="title-bookswebsite" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="condition" Type="string" Value="headings-text" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="170.866771653543" YPOS="17540.9376377953" OwnPage="53" ItemID="533242816" PTYPE="4" WIDTH="439.370078740158" HEIGHT="42.5196850393701" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" copath="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" gXpos="170.866771653542" gYpos="17540.9376377953" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
@@ -1174,6 +1206,7 @@
             </StoryText>
             <PageItemAttributes>
                 <ItemAttribute Name="docbook-id" Type="string" Value="title-license" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="condition" Type="string" Value="headings-text" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="800.158110236221" YPOS="967.087559055118" OwnPage="2" ItemID="533257968" PTYPE="4" WIDTH="396.850393700787" HEIGHT="113.385826771654" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L396.85 0 L396.85 113.386 L0 113.386 L0 0 Z" copath="M0 0 L396.85 0 L396.85 113.386 L0 113.386 L0 0 Z" gXpos="800.158110236221" gYpos="967.087559055118" gWidth="0" gHeight="0" ALIGN="1" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
@@ -1188,6 +1221,7 @@
             </StoryText>
             <PageItemAttributes>
                 <ItemAttribute Name="docbook-id" Type="string" Value="subtitle-titlepage" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="condition" Type="string" Value="headings-text" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="170.866771653543" YPOS="16664.717480315" OwnPage="51" ItemID="533227792" PTYPE="4" WIDTH="439.370078740158" HEIGHT="42.5196850393701" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" copath="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" gXpos="170.866771653543" gYpos="16664.717480315" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
@@ -1198,6 +1232,7 @@
             </StoryText>
             <PageItemAttributes>
                 <ItemAttribute Name="docbook-id" Type="string" Value="subtitle-author" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="condition" Type="string" Value="headings-text" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="785.984881889764" YPOS="16664.717480315" OwnPage="52" ItemID="533309840" PTYPE="4" WIDTH="433.700787401575" HEIGHT="42.5196850393701" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L433.701 0 L433.701 42.5197 L0 42.5197 L0 0 Z" copath="M0 0 L433.701 0 L433.701 42.5197 L0 42.5197 L0 0 Z" gXpos="785.984881889763" gYpos="16664.717480315" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
@@ -1208,6 +1243,7 @@
             </StoryText>
             <PageItemAttributes>
                 <ItemAttribute Name="docbook-id" Type="string" Value="title-illustrator" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="condition" Type="string" Value="headings-text" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
     </DOCUMENT>

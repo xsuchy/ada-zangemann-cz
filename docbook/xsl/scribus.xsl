@@ -23,23 +23,27 @@
        <xsl:message>Message</xsl:message>
   -->
 
-
   <!-- Input parameter for the DocBook source file that should be used to insert data into Scribus -->
   <xsl:param name="docbook-contents-file"/>
 
-  <!-- TODO: add parameter to determine whether or not to use dropcaps -->
+  <!-- Input parameter for profiling on conditions. Supports multiple conditions separated by semicolumns ';'. Lack of condition input will deactivate the checks. A single semicolumn can be provided to match no conditions. -->
+  <!-- Related documentation from DocBook XSLT stylesheets: https://sagehill.net/docbookxsl/Profiling.html -->
+  <!-- FIXME: Better match the DocBook XSLT behavior of conditions. 1) Current assumption is that a single condition is present in Scribus template. It should ideally support n:m conditions to better. XSLT 1.0 profiling templates can be used as a reference: https://github.com/docbook/xslt10-stylesheets/blob/master/xsl/profiling/profile-mode.xsl 2) Current behavior allows an empty string to match no conditoins, which is helpful for debugging, but might not be meeting expectations.-->
+  <xsl:param name="profile.condition"/>
 
   <!-- Output format for Scribus is XML -->
   <xsl:output method="xml" indent="no"/>
 
   <!-- Identity template to copy all contents of the Scribus template. Only for elements without namespace (Scribus), to prevent handling DocBook elements. -->
   <xsl:template match="@*|node()[namespace-uri()='']">
-    <xsl:copy>
-      <xsl:apply-templates select="@*|node()"/>
-    </xsl:copy>
+    <xsl:variable name="db-condition" select="./PageItemAttributes/ItemAttribute[@Name='condition']/@Value"/>
+    <!-- If a profile.condition is set and a condition is set on the Scribus object, then only copy if the condition matches. -->
+    <xsl:if test="not($profile.condition) or not($db-condition) or contains(concat(';', $profile.condition, ';'), concat(';', $db-condition, ';'))">
+      <xsl:copy>
+        <xsl:apply-templates select="@*|node()"/>
+      </xsl:copy>
+    </xsl:if>
   </xsl:template>
-
-  <!-- TODO: handle images, headers and title page -->
 
   <!-- Template to handle StoryText objects by recreating the content -->
   <!-- Matches StoryText elements in a PAGEOBJECT for text (PTYPE=4) with a docbook-id Attribute -->
@@ -121,126 +125,133 @@
   <!-- Match PageObject of type image (PTYPE = 2) -->
   <xsl:template match="/SCRIBUSUTF8NEW/DOCUMENT/PAGEOBJECT[@PTYPE='2' and PageItemAttributes/ItemAttribute[@Name='docbook-id']]">
 
-    <!-- Get docbook-id attribute set in Scribus -->
-    <xsl:variable name="docbook-id" select="./PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value"/>
+    <!-- Get condition set on PageObject -->
+    <xsl:variable name="db-condition" select="./PageItemAttributes/ItemAttribute[@Name='condition']/@Value"/>
 
-    <!-- Get type of matching element -->
-    <xsl:variable name="matching-element" select="local-name(document($docbook-contents-file)//*[@xml:id=$docbook-id])"/>
+    <!-- If a profile.condition is set and a condition is set on the Scribus object, then only handle if the condition matches. -->
+    <xsl:if test="not($profile.condition) or not($db-condition) or contains(concat(';', $profile.condition, ';'), concat(';', $db-condition, ';'))">
 
-    <xsl:choose>
-      <!-- Handle dropcap images for paragraph elements -->
-      <xsl:when test="$matching-element='para'">
+      <!-- Get docbook-id attribute set in Scribus -->
+      <xsl:variable name="docbook-id" select="./PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value"/>
 
-        <!-- Get az:dropcapfileref attribute -->
-        <xsl:variable name="filename" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapfileref"/>
+      <!-- Get type of matching element -->
+      <xsl:variable name="matching-element" select="local-name(document($docbook-contents-file)//*[@xml:id=$docbook-id])"/>
 
-        <!-- Get resolution in percentage. Assume LOCALSCY is equal to LOCALSCX. Typically '0.16' for capitals. -->
-        <xsl:variable name="localsc-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcaplocalsc"/>
-        <xsl:variable name="localsc">
-          <xsl:choose>
-            <xsl:when test="not($localsc-docbook)">
-              <xsl:value-of select="./@LOCALSCX"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="$localsc-docbook"/>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:variable>
+      <xsl:choose>
+        <!-- Handle dropcap images for paragraph elements -->
+        <xsl:when test="$matching-element='para'">
 
-        <!-- Get dimensions in pt, which is number of pixels divided by 6.25 for a resolution of 0.16 -->
-        <xsl:variable name="width-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapwidthpt"/>
-        <xsl:variable name="width">
-          <xsl:choose>
-            <xsl:when test="not($width-docbook)">
-              <xsl:value-of select="./@WIDTH"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="$width-docbook"/>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:variable>
+          <!-- Get az:dropcapfileref attribute -->
+          <xsl:variable name="filename" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapfileref"/>
 
-        <xsl:variable name="height-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapheightpt"/>
-        <xsl:variable name="height">
-          <xsl:choose>
-            <xsl:when test="not($height-docbook)">
-              <xsl:value-of select="./@HEIGHT"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="$height-docbook"/>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:variable>
+          <!-- Get resolution in percentage. Assume LOCALSCY is equal to LOCALSCX. Typically '0.16' for capitals. -->
+          <xsl:variable name="localsc-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcaplocalsc"/>
+          <xsl:variable name="localsc">
+            <xsl:choose>
+              <xsl:when test="not($localsc-docbook)">
+                <xsl:value-of select="./@LOCALSCX"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="$localsc-docbook"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
 
-        <!-- Construct path string to prevent text over capital -->
-        <xsl:variable name="path">
-          <!-- path="M0 0 L40.1537 0 L40.1537 50.72 L0 50.72 L0 0 Z" -->
-          <xsl:text>M0 0 L</xsl:text>
-          <xsl:value-of select="$width"/>
-          <xsl:text> 0 L</xsl:text>
-          <xsl:value-of select="$width"/>
-          <xsl:text> </xsl:text>
-          <xsl:value-of select="$height"/>
-          <xsl:text> L0 </xsl:text>
-          <xsl:value-of select="$height"/>
-          <xsl:text> L0 0 Z</xsl:text>
-        </xsl:variable>
+          <!-- Get dimensions in pt, which is number of pixels divided by 6.25 for a resolution of 0.16 -->
+          <xsl:variable name="width-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapwidthpt"/>
+          <xsl:variable name="width">
+            <xsl:choose>
+              <xsl:when test="not($width-docbook)">
+                <xsl:value-of select="./@WIDTH"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="$width-docbook"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
 
-        <!-- Construct PAGEOBJECT with adjusted properties -->
-        <xsl:copy>
-          <!-- Set PFILE attribute based on matched filename -->
-          <xsl:attribute name="PFILE">
-            <xsl:value-of select="$filename"/>
-          </xsl:attribute>
+          <xsl:variable name="height-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapheightpt"/>
+          <xsl:variable name="height">
+            <xsl:choose>
+              <xsl:when test="not($height-docbook)">
+                <xsl:value-of select="./@HEIGHT"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="$height-docbook"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
 
-          <xsl:attribute name="LOCALSCX">
-            <xsl:value-of select="$localsc"/>
-          </xsl:attribute>
-
-          <xsl:attribute name="LOCALSCY">
-            <xsl:value-of select="$localsc"/>
-          </xsl:attribute>
-
-          <xsl:attribute name="WIDTH">
+          <!-- Construct path string to prevent text over capital -->
+          <xsl:variable name="path">
+            <!-- path="M0 0 L40.1537 0 L40.1537 50.72 L0 50.72 L0 0 Z" -->
+            <xsl:text>M0 0 L</xsl:text>
             <xsl:value-of select="$width"/>
-          </xsl:attribute>
-
-          <xsl:attribute name="HEIGHT">
+            <xsl:text> 0 L</xsl:text>
+            <xsl:value-of select="$width"/>
+            <xsl:text> </xsl:text>
             <xsl:value-of select="$height"/>
-          </xsl:attribute>
+            <xsl:text> L0 </xsl:text>
+            <xsl:value-of select="$height"/>
+            <xsl:text> L0 0 Z</xsl:text>
+          </xsl:variable>
 
-          <xsl:attribute name="path">
-            <xsl:value-of select="$path"/>
-          </xsl:attribute>
+          <!-- Construct PAGEOBJECT with adjusted properties -->
+          <xsl:copy>
+            <!-- Set PFILE attribute based on matched filename -->
+            <xsl:attribute name="PFILE">
+              <xsl:value-of select="$filename"/>
+            </xsl:attribute>
 
-          <xsl:attribute name="copath">
-            <xsl:value-of select="$path"/>
-          </xsl:attribute>
+            <xsl:attribute name="LOCALSCX">
+              <xsl:value-of select="$localsc"/>
+            </xsl:attribute>
 
-          <!-- Copy other attributes and nodes.. -->
-          <xsl:apply-templates select="@*[not(local-name() = 'PFILE' or local-name() = 'path' or local-name() = 'copath' or local-name() = 'LOCALSCX' or local-name() = 'LOCALSCY' or local-name() = 'WIDTH' or local-name() = 'HEIGHT')]|node()"/>
-          <!-- TODO: consider skipping explicit PRFILE profile as well -->
-        </xsl:copy>
+            <xsl:attribute name="LOCALSCY">
+              <xsl:value-of select="$localsc"/>
+            </xsl:attribute>
 
-      </xsl:when>
-      <xsl:otherwise>
+            <xsl:attribute name="WIDTH">
+              <xsl:value-of select="$width"/>
+            </xsl:attribute>
 
-        <!-- Find filename defined in imagedata object. Match first encountered element to handle most situations. -->
-        <!-- FIXME: XPATH expression doesn't work if xml:id matches on the imagedata object -->
-        <xsl:variable name="filename" select="document($docbook-contents-file)//*[@xml:id=$docbook-id]//*[local-name() = 'imagedata' and @fileref][1]/@fileref"/>
+            <xsl:attribute name="HEIGHT">
+              <xsl:value-of select="$height"/>
+            </xsl:attribute>
 
-        <!-- FIXME: reduce duplication -->
-        <xsl:copy>
-          <!-- Set PFILE attribute based on matched filename -->
-          <xsl:attribute name="PFILE">
-            <xsl:value-of select="$filename"/>
-          </xsl:attribute>
-          <!-- Copy other attributes and nodes -->
-          <xsl:apply-templates select="@*[not(local-name() = 'PFILE')]|node()"/>
-        </xsl:copy>
+            <xsl:attribute name="path">
+              <xsl:value-of select="$path"/>
+            </xsl:attribute>
 
-      </xsl:otherwise>
-    </xsl:choose>
+            <xsl:attribute name="copath">
+              <xsl:value-of select="$path"/>
+            </xsl:attribute>
+
+            <!-- Copy other attributes and nodes.. -->
+            <xsl:apply-templates select="@*[not(local-name() = 'PFILE' or local-name() = 'path' or local-name() = 'copath' or local-name() = 'LOCALSCX' or local-name() = 'LOCALSCY' or local-name() = 'WIDTH' or local-name() = 'HEIGHT')]|node()"/>
+            <!-- TODO: consider skipping explicit PRFILE profile as well -->
+          </xsl:copy>
+
+        </xsl:when>
+        <xsl:otherwise>
+
+          <!-- Find filename defined in imagedata object. Match first encountered element to handle most situations. -->
+          <!-- FIXME: XPATH expression doesn't work if xml:id matches on the imagedata object -->
+          <xsl:variable name="filename" select="document($docbook-contents-file)//*[@xml:id=$docbook-id]//*[local-name() = 'imagedata' and @fileref][1]/@fileref"/>
+
+          <!-- FIXME: reduce duplication -->
+          <xsl:copy>
+            <!-- Set PFILE attribute based on matched filename -->
+            <xsl:attribute name="PFILE">
+              <xsl:value-of select="$filename"/>
+            </xsl:attribute>
+            <!-- Copy other attributes and nodes -->
+            <xsl:apply-templates select="@*[not(local-name() = 'PFILE')]|node()"/>
+          </xsl:copy>
+
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:if>
   </xsl:template>
 
   <!-- FIXME: idea to append or change font names instead of replacing the font entirely -->

@@ -70,6 +70,12 @@ Considerations for the current DocBook format.
 - Simple sections (simplesect) elements are used to group the content that needs to end up in a single text frame in Scribus. For most pages this results in a single section per page. The [simplesect](https://tdg.docbook.org/tdg/5.2/simplesect) element is chosen because it normally doesn't end up as part of the document structure. As described on [Docbook XSL documentation](https://sagehill.net/docbookxsl/TitleFontSizes.html#SimpleSects): "By default, simplesects do not appear in the table of contents because they are usually not considered part of the document's structural hierarchy." Note that simplesect elements can still contain a title and info element, which is not fitting for a page indicator.
 - Identifiers for front and back matters are drawn from the [Wikipedia page on book design](https://en.wikipedia.org/wiki/Book_design).
 - Images for drawn headings are embedded in the info element of the appendix. This is allowed in DocBook modelling and prevents them from being printed by default.
+- Use [parameters for 'profiling'](https://tdg.docbook.org/tdg/5.2/ref-elements#common.effectivity.attributes) to make certain formatting conditional, depending on output format or a generic condition. More details in XSLT documentation: https://sagehill.net/docbookxsl/MultiProfile.html and https://sagehill.net/docbookxsl/AlternateText.html Conditions can be used both in Scribus template (as attributes) and DocBook data.
+  - In Scribus template conditions can be used to switch between titles that are written in fonts or image-based, whether to use image capitals and to show a remix edition image.
+    - Condition ideas: dropcap-img, headings-img, headings-text, remix, draft. Current
+  - In Docbook template conditions can be used whether to use capitals or to use different title colophon information depending on the condition.
+  - XSLT 1.0 profiling stylesheets as distributed in Linux distro's can be found here as well: https://github.com/docbook/xslt10-stylesheets/blob/master/xsl/profiling/profile-mode.xsl
+  - Current implementation supports a single condition in Scribus, tested against multiple conditions provided as parameter to the XSLT template. Multiple conditions need to be separated using semicolumns, like 'dropcap-img;headings-img'. If no condition parameter is provided, no condition is checked, which helps in debugging. To trigger condition checking without a value a single semicolumn ';' can be provided.
 
 #### Ideas for consideration
 
@@ -79,10 +85,6 @@ Considerations for the current DocBook format.
 - It should be possible to specify whether the language is RTL or LTR. It might be concluded based on the language too.
 - The additional elements appear in the final rendered output. Have observed it with `<az:datamodel/>`, `<az:page/>` and `<az:slide/>` using the default XSLT 1.0 HTML templates. Currently addressed using a custom XSLT template to remove these attributes.
 - How best to model title and subtitle on the cover. A title isn't allowed. It could be ommitted as it is already present on the book info. A bridgehead seems fitting, but a para might do.
-- Use [parameters for 'profiling'](https://tdg.docbook.org/tdg/5.2/ref-elements#common.effectivity.attributes) to make certain formatting conditional, depending on output format or a generic condition. More details in XSLT documentation: https://sagehill.net/docbookxsl/MultiProfile.html Conditions can be used both in Scribus template (as attributes) and DocBook data.
-  - In Scribus template conditions can be used to switch between titles that are written in fonts or image-based, whether to use image capitals and to show a remix edition image.
-  - In Docbook template conditions can be used whether to use capitals or to use different title colophon information depending on the condition.
-  - XSLT 1.0 profiling stylesheets as distributed in Linux distro's can be found here as well: https://github.com/docbook/xslt10-stylesheets/blob/master/xsl/profiling/profile-mode.xsl
 - Provide XSLT transformation to remove custom attributes and ensure it to be standard DocBook.
 - Provide XSLT transformation to convert to DocBook slides for presentation.
 - For formatting take inspiration from [XSL-FO](https://en.wikipedia.org/wiki/XSL_Formatting_Objects) designed for formatting pdf files.
