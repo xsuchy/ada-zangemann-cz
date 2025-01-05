@@ -141,6 +141,11 @@ Consider having multiple imageobjects for different conditions:
 - The docbook-id reference in Scribus might be defined in a more expressive way. For example by using a certain character as a separator for elements to navigate the tree, even within a matched item, like: `matching-id|para|1` to select the first paragraph element. Or a separator could be used to express that the value of an attribute should be used for the conten, like: `sec-p01@pagenum` to get a pagenum attribute of the matched section. This would enable more flexiblity in the DocBook XML modeling, at the cost of more complicated and error-prone handling when processing.
 - Epub generation doesn't seem to include the images. Unsure what is going wrong. https://github.com/docbook/xslt10-stylesheets/blob/master/xsl/epub/bin/lib/docbook.rb#L167
 - Output warnings, for example if the template Scribus file version is newer than tested, or if the text contains 3 dots instead of an elipsis character.
+- Use profiling conditions to either use images that include titles, or have images without titles with text-based overlays done in Scribus. These would then be triggered using 'headings-img` and 'headings-text' conditions.
+- Set default image size to improve HTML rendering, or provide web-resolution images.
+- Provide cone drawing image without text for cases where the image is being used outside of the book and the overwrite isn't working.
+- Consider trimming down images where possible to make them smaller in size and better fitting for other outputs.
+- Use profiling conditions in Docbook file for full-spread images in outputs other than Scribus.
 
 ### Request for feedback
 
