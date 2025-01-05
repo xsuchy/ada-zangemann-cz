@@ -369,7 +369,7 @@
           <!-- NOTE: this forces a spect around emphasized text or link, which could be good -->
           <xsl:if test="preceding-sibling::node()">
             <!-- Don't insert a space if content starts with punctuation, which should typically be appended without space -->
-            <xsl:if test="not(contains('.,;:!?…%)]/\”' ,substring(normalize-space(),1,1)))">
+            <xsl:if test="not(contains('.,;:!?…%)]/\”«' ,substring(normalize-space(),1,1)))">
               <xsl:text> </xsl:text>
             </xsl:if>
           </xsl:if>
