@@ -1002,9 +1002,8 @@ Raspberry Ice Cream</literallayout>
         </imageobject>
         <alt>A hand that holds a fish-shaped ice cream cone with a cucumber on a decorated toothpick, to color. In a bottom corner, a pencil writing.</alt>
       </mediaobject>
-      <para>Come up with some delicious, funny, or crazy ice-cream flavors and draw them on the ice-cream cones on the following page.</para>
-      <!-- TODO: check if this should be a second paragraph or if this should be just a line break -->
-      <para>More information about the book can be found at <link xlink:href="https://ada.fsfe.org">https://ada.fsfe.org</link>.</para>
+      <literallayout>Come up with some delicious, funny, or crazy ice-cream flavors and draw them on the ice-cream cones on the following page.
+More information about the book can be found at <link xlink:href="https://ada.fsfe.org">https://ada.fsfe.org</link>.</literallayout>
     </simplesect>
     <simplesect xml:id="sec-p56" az:pagenum="56">
       <mediaobject xml:id="img-ada-p56">
