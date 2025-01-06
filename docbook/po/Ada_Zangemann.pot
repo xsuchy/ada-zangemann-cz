@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-01-05 19:33+0100\n"
+"POT-Creation-Date: 2025-01-06 08:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1846,14 +1846,12 @@ msgstr ""
 msgid "A hand that holds a fish-shaped ice cream cone with a cucumber on a decorated toothpick, to color. In a bottom corner, a pencil writing."
 msgstr ""
 
-#. (itstool) path: simplesect/para
+#. (itstool) path: simplesect/literallayout
 #: Ada_Zangemann-en.dbk:1005
-msgid "Come up with some delicious, funny, or crazy ice-cream flavors and draw them on the ice-cream cones on the following page."
-msgstr ""
-
-#. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:1007
-msgid "More information about the book can be found at <link xlink:href=\"https://ada.fsfe.org\">https://ada.fsfe.org</link>."
+#, no-wrap
+msgid ""
+"Come up with some delicious, funny, or crazy ice-cream flavors and draw them on the ice-cream cones on the following page.\n"
+"More information about the book can be found at <link xlink:href=\"https://ada.fsfe.org\">https://ada.fsfe.org</link>."
 msgstr ""
 
 #. (itstool) path: imageobject/imagedata
@@ -1861,7 +1859,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:1012
+#: Ada_Zangemann-en.dbk:1011
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p57.png' md5='312d345f18b5928d3cb2a1c4082492e9'"
 msgstr ""
@@ -1869,7 +1867,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:1014
+#: Ada_Zangemann-en.dbk:1013
 msgid "Three hands that hold as many empty ice cream cones, to draw and color. In the air above the middle cone is an umbrella."
 msgstr ""
 
