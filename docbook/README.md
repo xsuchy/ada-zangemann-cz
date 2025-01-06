@@ -310,6 +310,24 @@ A brief overview of the Docbook elements and custom attributes used in the sourc
                              +-------------------+
 ```
 
+Shorter diagram, showing order of contents from top to bottom
+```
+* Ada_Zangemann.dbk . . . . . . . . . . . . . . . DocBook source
+* Ada_Zangemann.pot . . . . . . . . . . . . . . . strings to translate
+* Ada_Zangemann-[lang].po . . . . . . . . . . . . stranslated strings, per language
+* Ada_Zangemann-[lang].mo . . . . . . . . . . . . prepared translated strings
+* Ada_Zangemann-[lang].dbk  . . . . . . . . . . . translated DocBook
+|\
+| * Ada_Zangemann-[lang]-[variant]-[profile].sla  Scribus output, for different variants (screen/book) and profiles
+| * Ada_Zangemann-[lang]-[variant]-[profile].pdf  PDF output
+|
+* Ada_Zangemann-[lang]-pure.dbk . . . . . . . . . DocBook file restricted to DocBook properties
+|\
+| * Ada_Zangemann-[lang].html . . . . . . . . . . HTML output using standard DocBook stylesheets
+|\
+| * Ada_Zangemann-[lang].epub . . . . . . . . . . Epub output using standard DocBook stylesheets
+```
+
 ## Analysis of slides and pages
 
 Slide transitions and page transitions cross each oter (single page for multiple slides and vice-versa).
