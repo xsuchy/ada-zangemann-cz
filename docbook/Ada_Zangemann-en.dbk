@@ -2,7 +2,7 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:its="http://www.w3.org/2005/11/its" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" xmlns:itst="http://itstool.org/extensions/" its:version="2.0" version="5.0" xml:lang="en" az:datamodelversion="0.1.0-alpha" dir="ltr">
   <!-- Rules for translation and internationalization -->
   <its:rules version="2.0">
-    <!-- Add note for alttag -->
+    <!-- Translator note for alt tag -->
     <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//db:alt">
       <its:locNote>The alt tag contains an alternative text, describing the image for the visual impaired.</its:locNote>
     </its:locNoteRule>
@@ -13,7 +13,7 @@
     <its:withinTextRule xmlns:db="http://docbook.org/ns/docbook" withinText="yes" selector="//db:preface[@role='copyright']/db:simplesect/*"/>
     <!-- Allow translators to control spaces, necessary for the literallayout -->
     <its:preserveSpaceRule xmlns:db="http://docbook.org/ns/docbook" space="preserve" selector="//db:preface[@role='copyright']/db:simplesect"/>
-    <!-- Translator note for alt tags -->
+    <!-- Translator note for font information -->
     <its:locNoteRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" locNoteType="description" selector="//az:style/az:fontset/az:font/*">
       <its:locNote>Font information for the Scribus template to generate PDFs. Only change if needed.</its:locNote>
     </its:locNoteRule>
