@@ -321,6 +321,11 @@ Shorter diagram, showing order of contents from top to bottom
 |\
 | * Ada_Zangemann-[lang]-[variant]-[profile].sla  Scribus output, for different variants (screen/book) and profiles
 | * Ada_Zangemann-[lang]-[variant]-[profile].pdf  PDF output
+| * Ada_Zangemann-[lang]-[variant]-[profile].png  PNGs of pdf, also for visual comparison
+|\
+| * Ada_Zangemann-[lang].odp  . . . . . . . . . . Presentation with reading text in notes
+|\
+| * Ada_Zangemann-[lang]-reading.txt  . . . . . . Book reading text
 |
 * Ada_Zangemann-[lang]-pure.dbk . . . . . . . . . DocBook file restricted to DocBook properties
 |\
