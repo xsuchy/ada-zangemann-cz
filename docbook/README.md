@@ -350,3 +350,16 @@ NOTE: the resulting Table of contents in HTML gets additional spaces inserted wh
 | (continued)           | 12    | 7     |
 | One day...            | 13    | ..    |
 
+
+## Notable differences between editions
+
+The editions that have been created until now have minor differences. Some of those differences are listed here as a summary to assist in the development process.
+
+### German published hard cover
+
+- On page 26 there are 3 paragraphs instead of 4. The English version uses 4, which is carried over into other translations. The English version of 4 paragraph is accepted as a default.
+
+### English published hard cover
+
+- On the cover the subtitle is written using a font, compared to the hand drawn letters in the German published hard cover.
+- The colophon has a grey section at the bottom pointing to the digital version of the book.
