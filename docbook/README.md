@@ -76,6 +76,7 @@ Considerations for the current DocBook format.
   - In Docbook template conditions can be used whether to use capitals or to use different title colophon information depending on the condition.
   - XSLT 1.0 profiling stylesheets as distributed in Linux distro's can be found here as well: https://github.com/docbook/xslt10-stylesheets/blob/master/xsl/profiling/profile-mode.xsl
   - Current implementation supports a single condition in Scribus, tested against multiple conditions provided as parameter to the XSLT template. Multiple conditions need to be separated using semicolumns, like 'dropcap-img;headings-img'. If no condition parameter is provided, no condition is checked, which helps in debugging. To trigger condition checking without a value a single semicolumn ';' can be provided.
+- Use its:externalResourceRefRule to enable translators to change the link to the dropcap image. The current setup doesn't enable translators to set other dropcap properties, to a different solution might be necessary.
 
 #### Ideas for consideration
 

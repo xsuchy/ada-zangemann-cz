@@ -20,6 +20,8 @@
     <!-- Split mediaobject os translators can translate alt text separate from managing filepath of the image -->
     <its:translateRule xmlns:db="http://docbook.org/ns/docbook" translate="no" selector="//db:mediaobject"/>
     <its:translateRule xmlns:db="http://docbook.org/ns/docbook" translate="yes" selector="//db:mediaobject/*"/>
+    <!-- Make link to capital image configurable -->
+    <its:externalResourceRefRule xmlns:db="http://docbook.org/ns/docbook" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" selector="//db:para" externalResourceRefPointer="@az:dropcapfileref"/>
   </its:rules>
   <!-- Extension for translator credits -->
   <!-- TODO: validate if this works -->
