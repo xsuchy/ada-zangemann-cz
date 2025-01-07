@@ -17,6 +17,10 @@
     <its:locNoteRule xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" locNoteType="description" selector="//az:style/az:fontset/az:font/*">
       <its:locNote>Font information for the Scribus template to generate PDFs. Only change if needed.</its:locNote>
     </its:locNoteRule>
+    <!-- Translator note for literallayout -->
+    <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//db:literallayout">
+      <its:locNote>In a literallayout element all space and newline characters are kept.</its:locNote>
+    </its:locNoteRule>
     <!-- Split mediaobject os translators can translate alt text separate from managing filepath of the image -->
     <its:translateRule xmlns:db="http://docbook.org/ns/docbook" translate="no" selector="//db:mediaobject"/>
     <its:translateRule xmlns:db="http://docbook.org/ns/docbook" translate="yes" selector="//db:mediaobject/*"/>
