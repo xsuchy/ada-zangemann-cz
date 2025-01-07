@@ -69,6 +69,9 @@ docbook-5.1-its.sch:
 docbook-5.1-its.rng:
 	wget -O docbook-5.1-its.rng http://docs.oasis-open.org/docbook/docbook/v5.1/os/schemas/rng/dbits.rng
 
+docbook-5.2.rng:
+	wget -O docbook-5.2.rng https://docs.oasis-open.org/docbook/docbook/v5.2/os/rng/docbookxi.rng
+
 .PHONY: validate
 validate: docbook-5.1-its.rng docbook-5.1-its.sch Ada_Zangemann-en.dbk
 	xmllint --noout --relaxng docbook-5.1-its.rng Ada_Zangemann-en.dbk
