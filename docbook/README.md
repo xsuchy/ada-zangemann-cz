@@ -365,7 +365,67 @@ The editions that have been created until now have minor differences. Some of th
 
 - On page 26 there are 3 paragraphs instead of 4. The English version uses 4, which is carried over into other translations. The English version of 4 paragraph is accepted as a default.
 
-### English published hard cover
+### English
+
+#### Published hard cover
 
 - On the cover the subtitle is written using a font, compared to the hand drawn letters in the German published hard cover.
 - The colophon has a grey section at the bottom pointing to the digital version of the book.
+- Page 31 includes a paragraph with a line break. This is not the case for the Spanish translation.
+
+#### English screen pdf
+
+- Contrary to the hard cover, the subtitle is hand-drawn.
+- The screen doesn't include yellow pages with hardware drawings upfront. Other translations do.
+
+### Spanish screen pdf
+
+- Emphasis (italic font) is used for certain terms hardware and software, including on the cover.
+- The colophon contains a grey section, about free not gratis.
+- Some protest signs are translated.
+
+### French
+
+#### French screen pdf
+
+- A different font is used for the body text.
+- The colophon is minimal and doesn't include a statement about free not being gratis.
+- There is an additional page after the title page that includes information about the schools involved in the translation.
+- A foreword is included upfront on page 7.
+- The additional pages upfront have shifted the page numbering, which is resolved by compressing author information to a single page and removing the drawings.
+- Information about author and illustrator is grouped on page 56.
+- The French text includes spaces before the column character ':', which might be problematic with current DocBook procesing of emphasis elements.
+- A white font is used on the back cover
+
+#### French ebook epub
+
+- Title page includes inline 'Ada & Zangemann' image.
+- Background colors are used to support the feel of the image.
+- The connectedness at night image is used split, not as a single image containing the entire spread. The protest image is shown three times: once as a single image of the entire spread, then twice a detail of a sign.
+- The back cover is used to provide credits to the people what created the digibook.
+
+### Arabic screen pdf
+
+- The book is right-to-left variant.
+- In left to right variant some images are flipped, but not all, especially the ones with text. The images on spreads are ordered so they still line up.
+- A different font is used.
+- Protest banners have been translated using font-based text.
+- No dropcaps are used.
+- Certain text elements are written in latin font, like the license text, website addresses and an element in the section about illustrator Sandra.
+
+### Italian screen pdf
+
+- The colophon page contains the grey section with free not gratis.
+- Protest signs are translated using hand drawn text.
+- Last page on screen pdf contains a barcode and price.
+
+### Ukrainian screen pdf
+
+- Titles have been created using fonts.
+- A different font is used.
+- Protest signs have been translated using hand drawn text.
+- Z logo on images has been changed.
+
+### Korean print pdf (work in progress)
+
+- Different fonts are used for body (Freesentation-4Regular) and titles.
