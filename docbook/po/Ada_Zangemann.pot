@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-01-07 07:21+0100\n"
+"POT-Creation-Date: 2025-01-08 08:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -311,10 +311,10 @@ msgstr ""
 
 #. (itstool) path: info/title
 #: Ada_Zangemann-en.dbk:264
-msgid "Copyright"
+msgid "Imprint"
 msgstr ""
 
-#. (itstool) path: preface/simplesect
+#. (itstool) path: colophon/simplesect
 #. (itstool) id: Ada_Zangemann-en.dbk#sec-p02
 #. (itstool) comment: ./literallayout
 #. In a literallayout element all space and newline characters are kept.
@@ -377,7 +377,7 @@ msgid ""
 ""
 msgstr ""
 
-#. (itstool) path: preface/simplesect
+#. (itstool) path: colophon/simplesect
 #. (itstool) id: Ada_Zangemann-en.dbk#sec-p02bb
 #. (itstool) comment: ./literallayout
 #. In a literallayout element all space and newline characters are kept.
