@@ -2,6 +2,7 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
+# TODO: make specific for German edition
 output/de/Ada_Zangemann.html: Ada_Zangemann-en-pure.dbk
 	xsltproc -o Ada_Zangemann-en.html /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl Ada_Zangemann-en-pure.dbk
 
@@ -42,10 +43,17 @@ po/de.po: po/Ada_Zangemann.pot
 	if [ ! -e 'po/de.po' ]; then cp po/Ada_Zangemann.pot po/de.po; fi
 	msgmerge --no-wrap --update po/de.po po/Ada_Zangemann.pot
 
+po/es.po: po/Ada_Zangemann.pot
+	if [ ! -e 'po/es.po' ]; then cp po/Ada_Zangemann.pot po/es.po; fi
+	msgmerge --no-wrap --update po/es.po po/Ada_Zangemann.pot
+
 # Generate message strings for further processing
 # FIXME: perhaps the .mo file should end up in a temporary process location instead of in the /po folder
 po/de.mo: po/de.po
 	msgfmt -o po/de.mo po/de.po
+
+po/es.mo: po/es.po
+	msgfmt -o po/es.mo po/es.po
 
 # Create translated DocBook file using itstool
 # TODO: find proper output directory and ensure it exists without calling mkdir
@@ -54,10 +62,19 @@ output/de/Ada_Zangemann.dbk: po/de.mo
 	itstool -m po/de.mo -o output/de/ Ada_Zangemann-en.dbk
 	mv output/de/Ada_Zangemann-en.dbk output/de/Ada_Zangemann.dbk
 
+output/es/Ada_Zangemann.dbk: po/es.mo
+	mkdir -p output/es/
+	itstool -m po/es.mo -o output/es/ Ada_Zangemann-en.dbk
+	mv output/es/Ada_Zangemann-en.dbk output/es/Ada_Zangemann.dbk
+
 # TODO: consider moving to an output folder, while keeping links to images
 Ada_Zangemann-de-print-all.sla: output/de/Ada_Zangemann.dbk xsl/template-print.sla
 	mkdir -p output/de/
 	xsltproc -o Ada_Zangemann-de-print-all.sla --verbose --stringparam docbook-contents-file "../output/de/Ada_Zangemann.dbk" xsl/scribus.xsl xsl/template-print.sla
+
+Ada_Zangemann-es-print-all.sla: output/es/Ada_Zangemann.dbk xsl/template-print.sla
+	mkdir -p output/es/
+	xsltproc -o Ada_Zangemann-es-print-all.sla --verbose --stringparam docbook-contents-file "../output/es/Ada_Zangemann.dbk" xsl/scribus.xsl xsl/template-print.sla
 
 .PHONY: xmllint-format
 xmllint-format: Ada_Zangemann-en.dbk

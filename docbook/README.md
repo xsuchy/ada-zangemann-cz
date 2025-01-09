@@ -383,6 +383,7 @@ The editions that have been created until now have minor differences. Some of th
 - Emphasis (italic font) is used for certain terms hardware and software, including on the cover.
 - The colophon contains a grey section, about free not gratis.
 - Some protest signs are translated.
+- Page 54 with information about the FSFE is formatted with hard newlines.
 
 ### French
 
