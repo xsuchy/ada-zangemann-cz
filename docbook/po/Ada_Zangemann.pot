@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-01-08 08:17+0100\n"
+"POT-Creation-Date: 2025-01-12 12:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1478,7 +1478,7 @@ msgstr ""
 
 #. (itstool) path: info/excerpt
 #. Text on big banner, left on the illustration
-#: Ada_Zangemann-en.dbk:779
+#: Ada_Zangemann-en.dbk:778
 msgid "Do your homework Mr. President and we will do ours!\""
 msgstr ""
 
@@ -1487,7 +1487,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:786
+#: Ada_Zangemann-en.dbk:785
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p40.png' md5='7e16cbd235c7f82b5f7ccbef44dcee2a'"
 msgstr ""
@@ -1495,7 +1495,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:788
+#: Ada_Zangemann-en.dbk:787
 msgid "Detail of the previous image: two children holding the banner “Do your homework Mr. President and we will do ours!”"
 msgstr ""
 
@@ -1504,7 +1504,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:792
+#: Ada_Zangemann-en.dbk:791
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p41.png' md5='18b878f18d2af5d95491765218909e47'"
 msgstr ""
@@ -1512,25 +1512,25 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:794
+#: Ada_Zangemann-en.dbk:793
 msgid "Detail of the previous image: Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada's family's little dog is now wearing a red harness with shiny yellow LEDs that matches the collar."
 msgstr ""
 
 #. (itstool) path: info/excerpt
 #. Text on square signe on the right of the illustration
-#: Ada_Zangemann-en.dbk:797
-msgid "\"They are young + need the code!\""
+#: Ada_Zangemann-en.dbk:795
+msgid "They are young + need the code!"
 msgstr ""
 
 #. (itstool) path: info/excerpt
 #. Text on banner on the banner held by children on the right of the
 #. illustration
-#: Ada_Zangemann-en.dbk:798
-msgid "\"Don’t wreck our tech!\""
+#: Ada_Zangemann-en.dbk:796
+msgid "Don’t wreck our tech!"
 msgstr ""
 
 #. (itstool) path: info/title
-#: Ada_Zangemann-en.dbk:805
+#: Ada_Zangemann-en.dbk:803
 msgid "Children help the government"
 msgstr ""
 
@@ -1539,19 +1539,19 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:808
+#: Ada_Zangemann-en.dbk:806
 msgctxt "_"
 msgid "external ref='../illustrations/Capitals/A-violet.png' md5='e2faefe540a5b376fd7044a080fe69ec'"
 msgstr ""
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann-en.dbk#para-p42-1
-#: Ada_Zangemann-en.dbk:808
+#: Ada_Zangemann-en.dbk:806
 msgid "Ada protested in front of the parliament building every week, even in pouring rain. On one such rainy day, when the president passed the group of dripping-wet children, he couldn’t help but admire their stubbornness. He asked Ada, “Why do you sit here every day? What do you want to achieve?” Ada replied, “We want to determine for ourselves what we can and cannot do with our computers.” Her friends shouted in unison: “Don’t wreck our tech! Don’t wreck our tech!” and “We want the code! We want the code!”"
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:809
+#: Ada_Zangemann-en.dbk:807
 msgid "The president looked at the determined faces of the children. Honestly, he, too, wanted to decide for himself what the government could and couldn’t do with its computers. But he didn’t understand anything about computers and code, so he had always left that to Zangemann. Deep in thought, the president entered the building."
 msgstr ""
 
@@ -1560,7 +1560,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:813
+#: Ada_Zangemann-en.dbk:811
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p42.png' md5='f3d539882030b110d16aafe04eb8bb5e'"
 msgstr ""
@@ -1568,22 +1568,22 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:815
+#: Ada_Zangemann-en.dbk:813
 msgid "One of Ada's friends lying on his stomach with one foot up in the air is typing on a laptop. He has wavy brown hair parted in the center, a red sweatshirt, blue pants, and white socks but no shoes. Next to the computer there are a green cup and two open books."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:817
+#: Ada_Zangemann-en.dbk:815
 msgid "The next day, the president invited Ada and her friends over. “We also want to be in charge of our software ourselves. In order for that to be true, the government must be independent from Zangemann. Can you tell me what you know about computer programs?” he asked them. Enthusiastically, they explained to him how software works and what you could do with it. The president was amazed."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:820
+#: Ada_Zangemann-en.dbk:818
 msgid "With this new knowledge, the government would be able to design its own software, the way it wanted — completely without Zangemann. Immediately, the president called his advisers. In a large group, they discussed with the children everything they could change and improve in the software."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:821
+#: Ada_Zangemann-en.dbk:819
 msgid "That evening, the children went home proud and satisfied. Something finally happened! Their long protest was worth it."
 msgstr ""
 
@@ -1592,7 +1592,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:824
+#: Ada_Zangemann-en.dbk:822
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p43.png' md5='1543c8803a4e53e51a0d07f5b53c3850'"
 msgstr ""
@@ -1600,12 +1600,12 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:826
+#: Ada_Zangemann-en.dbk:824
 msgid "Ada and her friends in the President's office. Ada is reprogramming the President's computer. Toni is setting up a speaker for the President's secretary. Marie and Konrad are sitting on the floor and talking, and Marie has a laptop on her legs with an FSFE logo sticker (three stars: pea green, sky blue, and sea blue). On the floor are a bowl with candy and a plate with ice creams. The President's phone is ringing, but nobody is answering."
 msgstr ""
 
 #. (itstool) path: info/title
-#: Ada_Zangemann-en.dbk:832
+#: Ada_Zangemann-en.dbk:830
 msgid "New law"
 msgstr ""
 
@@ -1614,14 +1614,14 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:835
+#: Ada_Zangemann-en.dbk:833
 msgctxt "_"
 msgid "external ref='../illustrations/Capitals/T-red3.png' md5='9b38908d9dc1e9eca5d7d1627fac3aea'"
 msgstr ""
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann-en.dbk#para-p44-1
-#: Ada_Zangemann-en.dbk:835
+#: Ada_Zangemann-en.dbk:833
 msgid "The next morning, the president’s phone rang very early. It was Zangemann. He was angrier than ever. “Without me, the government computers will no longer work,” he threatened. But the president kept the call short and quickly hung up. The phone rang many more times that day, but Zangemann’s calls went unanswered. The president sat in a meeting with Ada, Toni, Marie, Konrad, and the government experts."
 msgstr ""
 
@@ -1630,7 +1630,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:838
+#: Ada_Zangemann-en.dbk:836
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p44.png' md5='b7ca583142a8d4e1ea37045b36fe6edd'"
 msgstr ""
@@ -1638,27 +1638,27 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:840
+#: Ada_Zangemann-en.dbk:838
 msgid "A herald, wearing a hat with a plume, playing a trumpet on which a red banner is hung."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:842
+#: Ada_Zangemann-en.dbk:840
 msgid "In the days that followed, they talked from morning to night and designed their first programs for the government’s computers. They were no longer disturbed by Zangemann’s calls. Toni had the good idea of reprogramming the telephones. When Zangemann called, he only heard an automated recording: “The government only wants to use software that it can freely use, study, share, and improve. Thank you for calling.”"
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:844
+#: Ada_Zangemann-en.dbk:842
 msgid "Then, after many weeks of protests and discussions, the time had finally come: they abolished the old Zangemann law! Instead, the government announced:"
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:847
+#: Ada_Zangemann-en.dbk:845
 msgid "“Everyone is allowed to program their own computers as long as they adhere to the other laws.”"
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:848
+#: Ada_Zangemann-en.dbk:846
 msgid "In addition, a new school subject was introduced: computer hardware and software."
 msgstr ""
 
@@ -1667,7 +1667,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:851
+#: Ada_Zangemann-en.dbk:849
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p45.png' md5='16c9d157b0061b3587627c726b44c422'"
 msgstr ""
@@ -1675,12 +1675,12 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:853
+#: Ada_Zangemann-en.dbk:851
 msgid "The President with Toni, Konrad, Marie, Ada, and a herald playing a trumpet. Marie is standing on top of a ladder talking into a microphone. Konrad firmly holds the ladder on which Marie is standing. Ada is standing on a chair and holds a copy of the new law bearing a seal. Ada's dog is sitting in front of her."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:858
+#: Ada_Zangemann-en.dbk:856
 msgid "That evening, everyone celebrated with a big party. Ada, Alan, Toni, Marie, Konrad, and other children from school and their parents; the president; Ms. Gernet; the bus driver; the custodian — they were all there. They decorated the streets, listened to loud music, and ate ice cream, as much as they wanted, and in every imaginable shape and color."
 msgstr ""
 
@@ -1689,7 +1689,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:861
+#: Ada_Zangemann-en.dbk:859
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p46.png' md5='a70345b2a0b4fa5e9ebf16c24ea41b0d'"
 msgstr ""
@@ -1697,12 +1697,12 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:863
+#: Ada_Zangemann-en.dbk:861
 msgid "Evening party. Children are holding ice cream and balloons with the words “I love FS (I love Free Software)”; other children are riding skateboards; yellow and orange flags are hanging; music comes out from a large speaker system; Mrs. Gernet holds a pink tree-shaped ice cream with a yellow star on it; Ada's mom is dancing with a gentleman."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:867
+#: Ada_Zangemann-en.dbk:865
 msgid "While the others continued partying late into the night, Ada and her friends slipped away to their workshop. They already had a lot of ideas for new inventions. And they wanted to start right away."
 msgstr ""
 
@@ -1711,7 +1711,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:870
+#: Ada_Zangemann-en.dbk:868
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p47.png' md5='c6af870b00ca602acd8add33f40efff3'"
 msgstr ""
@@ -1719,12 +1719,12 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:872
+#: Ada_Zangemann-en.dbk:870
 msgid "The President, the secretary, and other people around a table enjoying crazy ice cream; yellow and orange flags continue from the previous image; a little girl who just took a pink ghost-shaped ice cream from the modified ice cream machine; Ada's dog, Konrad, Marie, Ada, and Toni sneaking away from the party."
 msgstr ""
 
 #. (itstool) path: info/title
-#: Ada_Zangemann-en.dbk:878
+#: Ada_Zangemann-en.dbk:876
 msgid "And Zangemann?"
 msgstr ""
 
@@ -1733,14 +1733,14 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:882
+#: Ada_Zangemann-en.dbk:880
 msgctxt "_"
 msgid "external ref='../illustrations/Capitals/A-yellow.png' md5='7989d65111171541237f6e9424b86f82'"
 msgstr ""
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann-en.dbk#para-p48-1
-#: Ada_Zangemann-en.dbk:882
+#: Ada_Zangemann-en.dbk:880
 msgid "And Zangemann? No one’s heard much from him. Maybe he’s still sitting angrily in front of his golden computer. Maybe he doesn’t dare go out into the street anymore and has boarded up all the windows of his mansion so that he doesn’t have to worry about what other people are doing with his inventions. But maybe he also sometimes looks out into the world through his telescope and sees what the children are inventing every day. Perhaps then he will remember how much fun it was for himself to tinker and experiment. And maybe, just maybe, he eats pyramid-shaped raspberry ice cream with rainbow sprinkles."
 msgstr ""
 
@@ -1749,7 +1749,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:885
+#: Ada_Zangemann-en.dbk:883
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p48.png' md5='2358ee6ece1aef82c75db23f2768de41'"
 msgstr ""
@@ -1757,7 +1757,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:887
+#: Ada_Zangemann-en.dbk:885
 msgid "Ada's little dog sniffing a trail of ice cream."
 msgstr ""
 
@@ -1766,7 +1766,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:894
+#: Ada_Zangemann-en.dbk:892
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p49.png' md5='b875333212be43910341b9736782d9c4'"
 msgstr ""
@@ -1774,13 +1774,13 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:896
+#: Ada_Zangemann-en.dbk:894
 msgid "A trail of candies and raspberry ice cream on the ground."
 msgstr ""
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann-en.dbk#title-acknowledgments
-#: Ada_Zangemann-en.dbk:903
+#: Ada_Zangemann-en.dbk:901
 msgid "Acknowledgments"
 msgstr ""
 
@@ -1789,7 +1789,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:906
+#: Ada_Zangemann-en.dbk:904
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p50-title.png' md5='fd62f9bb7e3127d02279493241e0afe0'"
 msgstr ""
@@ -1799,22 +1799,22 @@ msgstr ""
 #. Press' to the name of your publisher, as we would like to thank you for
 #. publishing this book in your language under a free cultural license,
 #. and encourage you to do that for other books in future as well.
-#: Ada_Zangemann-en.dbk:911
+#: Ada_Zangemann-en.dbk:909
 msgid "Many thanks to Reinhard Wiesemann from the Linuxhotel for the financial support and motivation to no longer plan but to make. Thanks to Sandra Brandstätter, who has brought me joy with every new design for the illustrations. Thanks to my editor Wiebke Helmchen, who made developing and sharpening the story fun, and to No Starch Press for agreeing to publish the book under a free culture license."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:912
+#: Ada_Zangemann-en.dbk:910
 msgid "Thanks to Bea and Benni, Brian, Christine and Marc, Cory, Bernhard, Isabel and Amelia, Katta, Kristina, Martin, Mona and Arne, Nina, Oliver, Reinhard, Sabine, and Torsten for great ideas, inspiration, and practical tips, and to the many people of the Free Software movement, from which I was allowed to learn and whose engagement motivated me."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:914
+#: Ada_Zangemann-en.dbk:912
 msgid "For the English edition, I would like to thank John for his valuable feedback to improve the language, as well as Catharina, Pam, Till, and Vint for assisting me in figuring out how to get the book published."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:915
+#: Ada_Zangemann-en.dbk:913
 msgid "Thanks to my family, who made me write early in the morning, late in the evening, and on holiday, and who always supports my work for software freedom. Especially, I would like to thank my children, who inspired me with new ideas at each reading. Without them, this book would not exist."
 msgstr ""
 
@@ -1823,7 +1823,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:920
+#: Ada_Zangemann-en.dbk:918
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p51.png' md5='cb37426fc9dc5831a31aa0c6230a5048'"
 msgstr ""
@@ -1831,24 +1831,24 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:922
+#: Ada_Zangemann-en.dbk:920
 msgid "Ada's dog wags its tail after finding Zangemann hidden behind a curtain and eating an ice cream cone with candies and a blue umbrella on it and lots of raspberry ice cream dripping."
 msgstr ""
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann-en.dbk#title-author
-#: Ada_Zangemann-en.dbk:929
+#: Ada_Zangemann-en.dbk:927
 msgid "About the Author"
 msgstr ""
 
 #. (itstool) path: info/subtitle
 #. (itstool) id: Ada_Zangemann-en.dbk#subtitle-author
-#: Ada_Zangemann-en.dbk:930
+#: Ada_Zangemann-en.dbk:928
 msgid "Matthias Kirschner"
 msgstr ""
 
 #. (itstool) path: info/titleabbrev
-#: Ada_Zangemann-en.dbk:931
+#: Ada_Zangemann-en.dbk:929
 msgid "About the Author - Matthias Kirschner"
 msgstr ""
 
@@ -1857,7 +1857,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:934
+#: Ada_Zangemann-en.dbk:932
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p52-title.png' md5='333ae705f2b0311f8898c2b83fc4b078'"
 msgstr ""
@@ -1867,7 +1867,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:942
+#: Ada_Zangemann-en.dbk:940
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p52.png' md5='fdf395606857e6c5049bcf910d7fff76'"
 msgstr ""
@@ -1875,29 +1875,29 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:944
+#: Ada_Zangemann-en.dbk:942
 msgid "Close-up of Matthias smiling, waving with one hand, and wearing a headset. Matthias has short hair and a little beard."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:946
+#: Ada_Zangemann-en.dbk:944
 msgid "Matthias was fascinated by computers and software as a child. He had an internet connection early, through which he learned a lot. Children have a right to take their future into their own hands. Therefore, Matthias is committed to the goal that all humans can use software in a self-determined way. He also wants to build an electric skateboard with Free Software."
 msgstr ""
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann-en.dbk#title-illustrator
-#: Ada_Zangemann-en.dbk:952
+#: Ada_Zangemann-en.dbk:950
 msgid "About the Illustrator"
 msgstr ""
 
 #. (itstool) path: info/subtitle
 #. (itstool) id: Ada_Zangemann-en.dbk#subtitle-illustrator
-#: Ada_Zangemann-en.dbk:953
+#: Ada_Zangemann-en.dbk:951
 msgid "Sandra Brandstätter"
 msgstr ""
 
 #. (itstool) path: info/titleabbrev
-#: Ada_Zangemann-en.dbk:954
+#: Ada_Zangemann-en.dbk:952
 msgid "About the Illustrator - Sandra Brandstätter"
 msgstr ""
 
@@ -1906,7 +1906,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:957
+#: Ada_Zangemann-en.dbk:955
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p53-title.png' md5='52546a0c9ce120ce44155edbae27712c'"
 msgstr ""
@@ -1916,7 +1916,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:965
+#: Ada_Zangemann-en.dbk:963
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p53.png' md5='155aca7bae471a6c88fcf55e88bfa090'"
 msgstr ""
@@ -1924,18 +1924,18 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:967
+#: Ada_Zangemann-en.dbk:965
 msgid "Sandra smiling with a pencil in her hand in front of her chin. She has earphones with an integrated microphone. Sandra has short hair and glasses."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:969
+#: Ada_Zangemann-en.dbk:967
 msgid "Sandra has always liked crafting with scissors, pliers, glue, wire, fabric, and paper. Today she works as an illustrator, comic author, and character designer for animated films and series, such as the German public television series Trudes Tier. On an ice-cream machine, Sandra would pick a creamy rainbow ice cream with lemon cucumber flavor and a lot of sprinkles."
 msgstr ""
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann-en.dbk#title-bookswebsite
-#: Ada_Zangemann-en.dbk:974
+#: Ada_Zangemann-en.dbk:972
 msgid "Book's website"
 msgstr ""
 
@@ -1944,24 +1944,24 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:977
+#: Ada_Zangemann-en.dbk:975
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p54-title.png' md5='ed7672295874f1e78217d95890f0c4f9'"
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:982
+#: Ada_Zangemann-en.dbk:980
 msgid "The Free Software Foundation Europe e.V. is a nonprofit association that empowers people to control technology. Software affects all areas of our life. That is why it is important that this technology gives us freedom instead of restricting us. Free Software (also called Open Source) gives everyone the right to use, study, share, and improve programs. Therefore, Free Software strengthens basic rights such as freedom of expression, freedom of the press, and the right to privacy."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:984
+#: Ada_Zangemann-en.dbk:982
 msgid "On the web page of the book, you will find more information and resources: <link xlink:href=\"https://ada.fsfe.org\">https://ada.fsfe.org</link>."
 msgstr ""
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann-en.dbk#title-license
-#: Ada_Zangemann-en.dbk:991
+#: Ada_Zangemann-en.dbk:989
 msgid "License"
 msgstr ""
 
@@ -1970,18 +1970,18 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:994
+#: Ada_Zangemann-en.dbk:992
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p55-title.png' md5='228b64496f3eee821a70b76d85a33bfe'"
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:999
+#: Ada_Zangemann-en.dbk:997
 msgid "The book Ada &amp; Zangemann: A Tale of Software, Skateboards, and Raspberry Ice Cream by Matthias Kirschner and Sandra Brandstätter, published by No Starch Press, is licensed under “Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).”"
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann-en.dbk:1000
+#: Ada_Zangemann-en.dbk:998
 msgid "<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</link>"
 msgstr ""
 
@@ -1990,7 +1990,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:1007
+#: Ada_Zangemann-en.dbk:1005
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p56.png' md5='47fe16290593ce490505c2ff11dae7d2'"
 msgstr ""
@@ -1998,13 +1998,13 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:1009
+#: Ada_Zangemann-en.dbk:1007
 msgid "A hand that holds a fish-shaped ice cream cone with a cucumber on a decorated toothpick, to color. In a bottom corner, a pencil writing."
 msgstr ""
 
 #. (itstool) path: simplesect/literallayout
 #. In a literallayout element all space and newline characters are kept.
-#: Ada_Zangemann-en.dbk:1011
+#: Ada_Zangemann-en.dbk:1009
 #, no-wrap
 msgid ""
 "Come up with some delicious, funny, or crazy ice-cream flavors and draw them on the ice-cream cones on the following page.\n"
@@ -2016,7 +2016,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: Ada_Zangemann-en.dbk:1017
+#: Ada_Zangemann-en.dbk:1015
 msgctxt "_"
 msgid "external ref='../illustrations/en/ada-p57.png' md5='312d345f18b5928d3cb2a1c4082492e9'"
 msgstr ""
@@ -2024,7 +2024,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann-en.dbk:1019
+#: Ada_Zangemann-en.dbk:1017
 msgid "Three hands that hold as many empty ice cream cones, to draw and color. In the air above the middle cone is an umbrella."
 msgstr ""
 
