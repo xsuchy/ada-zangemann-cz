@@ -148,6 +148,7 @@ Consider having multiple imageobjects for different conditions:
 - Consider trimming down images where possible to make them smaller in size and better fitting for other outputs.
 - Use profiling conditions in Docbook file for full-spread images in outputs other than Scribus.
 - ITSTool doesn't update external ref elements. These are merely an indicator that the sources exist, can be updated. The md5 hash can be a trigger to update the translation accordingly. Reading the [XML ITS 2.0 documentation](https://www.w3.org/TR/its/#externalresource) with this perspective is seems that internationalisation expects the file names and references to stay the same, and be updated to match. More concretely the Docbook file would have to point to generic 'capital-p04.png' instead of language-specific 'O-cyan.png'. Same for illustrations, it would point to 'illustrations/ada-p04.png' and not to 'illustrations/es/ada-p04.png' or 'illustrations/ada-p04-es.png'. The processing surrounding the Docbook would have to make sure that the translated files end up in the correct location. Alternatively the ITS rules can be changed so that the entire element including attributes can be translated. This would then allow translators to change the references, at the cost of introducing more formatting complexity to translators.
+- There seems to be some potential to simplify specification of capitals. All chapters start with a dropcap in the first paragraph, except for the the chapter 'One day...'. Most chapters have a distinct color scheme for the dropcaps, although color schemes 'cyan' and 'yellow' appear twice.
 
 ### Request for feedback
 
@@ -344,19 +345,34 @@ Alternatively more sections could be created for which duplicate entries of page
 
 NOTE: the resulting Table of contents in HTML gets additional spaces inserted when sections are introduced.
 
-| contents              | page  | slide |
-|-----------------------|-------|-------|
-| Title pagee           | 1     | X     |
-| Frontmatter           | 2     | X     |
-| Title                 | 3     | 1     |
-| Ada & Zangemann       | 4-5   | 2     |
-| Zangemann & Computers | 6-7   | 3     |
-| (continued)           | 8-9.1 | 4     |
-| (continued)           | 9.2   | 5     |
-| (continued)           | 10-11 | 6     |
-| (continued)           | 12    | 7     |
-| One day...            | 13    | ..    |
-
+| contents                                    | page  | slide |
+|---------------------------------------------|-------|-------|
+| Title page                                  | 1     | X     |
+| Imprint                                     | 2     | X     |
+| Title                                       | 3     | 1     |
+| Ada & Zangemann                             | 4-5   | 2     |
+| Zangemann & Computers                       | 6-7   | 3     |
+| (continued)                                 | 8-9.1 | 4     |
+| (continued)                                 | 9.2   | 5     |
+| (continued)                                 | 10-11 | 6     |
+| (continued)                                 | 12    | 7     |
+| One day...                                  | 13    | ..    |
+| Skateboards no longer work                  | 18    | ..    |
+| Ada and software                            | 20    | ..    |
+| Programming                                 | 22    | ..    |
+| A horrible night                            | 25    | ..    |
+| First real project                          | 26    | ..    |
+| Hacking for freedom                         | 30    | ..    |
+| Zangemann and the President                 | 36    | ..    |
+| Protest                                     | 39    | ..    |
+| Children help the government                | 42    | ..    |
+| New law                                     | 44    | ..    |
+| And Zangemann?                              | 48    | ..    |
+| Acknowledgments                             | 50    | ..    |
+| About the Author - Matthias Kirschner       | 52    | ..    |
+| About the Illustrator - Sandra Brandstätter | 53    | ..    |
+| Website for the book and license            | 54    | ..    |
+| Drawing templates                           | 55    | ..    |
 
 ## Notable differences between editions
 
