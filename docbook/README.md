@@ -152,6 +152,7 @@ Consider having multiple imageobjects for different conditions:
     - Something left to think about is how to deal with translations that share overrides, for example Spanish variants. Then it could first link the common (English) images, then link the base Spanish translations and then lastly override with the Spanish variant in question.
 - There seems to be some potential to simplify specification of capitals. All chapters start with a dropcap in the first paragraph, except for the the chapter 'One day...'. Most chapters have a distinct color scheme for the dropcaps, although color schemes 'cyan' and 'yellow' appear twice.
 - The banners on the protest page can be translated using fonts. This has been done for the Arabic version. Templates could be provided to make this easy for translators and perhaps even automate it. Inkscape could be a good solution to apply the text along a curved path and perhas even transform the text for a better fit.
+- It could be worthwhile to store the translated docbook file, to prevent the situation where the main docbook file is updated and results in missing or invalidated translations.
 
 ### Request for feedback
 
@@ -354,6 +355,26 @@ Shorter diagram, showing order of contents from top to bottom
 | * Ada_Zangemann-[lang].html . . . . . . . . . . HTML output using standard DocBook stylesheets
 |\
 | * Ada_Zangemann-[lang].epub . . . . . . . . . . Epub output using standard DocBook stylesheets
+```
+
+### Folder structure proposal
+
+Idea to use overrides to define language specific changes:
+```
+src/Ada_Zangemann.dbk
+src/illustrations/ada-p04.png
+src/illustrations/ada-p40-41.png
+src/overrides/es/illustrations/ada-p40-41.png
+src/overrides/es/fonts.xm . . . . . . . . . . . . . . language-specific font configuration
+po/Ada_Zangemann.pot
+po/de.po
+build/intermediates/es/Ada_Zangemann.dbk
+build/intermediates/es/es.mo
+build/intermediates/es/fonts.xml
+build/intermediates/es/Ada_Zangemann-screen-text.sla
+build/intermediates/es/illustrations/ada-p04.png  . . symlink to common illustration
+build/intermediates/es/illustrations/ada-p40-p41.png  symlink to ES illustration
+build/outputs/es/Ada_Zangemann-screen-text.pdf
 ```
 
 ## Analysis of slides and pages
