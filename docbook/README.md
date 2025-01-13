@@ -153,6 +153,8 @@ Consider having multiple imageobjects for different conditions:
 - There seems to be some potential to simplify specification of capitals. All chapters start with a dropcap in the first paragraph, except for the the chapter 'One day...'. Most chapters have a distinct color scheme for the dropcaps, although color schemes 'cyan' and 'yellow' appear twice.
 - The banners on the protest page can be translated using fonts. This has been done for the Arabic version. Templates could be provided to make this easy for translators and perhaps even automate it. Inkscape could be a good solution to apply the text along a curved path and perhas even transform the text for a better fit.
 - It could be worthwhile to store the translated docbook file, to prevent the situation where the main docbook file is updated and results in missing or invalidated translations.
+- There is a benefit in using character styles, because it makes it easier to apply styles in the XSLT template and it is easier to change styles across the document afterwards in Scribus.
+- How to improve defining capital images? There is a beautiful simplicity in the format by Luca of enclosing the capital, providing an optional override name, like: `[Eacute|É]rase`. Ideally the text is parsed, necessary capitals and their colors derived, then generated in the right color if already available, and then put in the right place. Alternatively we could rely on the coordinator of the translation to create the necessary capital (as is already the case) and place or link it in an override directory for the specific translation with a generic name like 'capital-ch4.png'. A more declarative solution would be nicer, but perhaps a symlink override is sufficient for now.
 
 ### Request for feedback
 
