@@ -367,7 +367,7 @@ src/Ada_Zangemann.dbk
 src/illustrations/ada-p04.png
 src/illustrations/ada-p40-41.png
 src/overrides/es/illustrations/ada-p40-41.png
-src/overrides/es/fonts.xm . . . . . . . . . . . . . . language-specific font configuration
+src/overrides/es/fonts.xml  . . . . . . . . . . . . . language-specific font configuration
 po/Ada_Zangemann.pot
 po/de.po
 build/intermediates/es/Ada_Zangemann.dbk
