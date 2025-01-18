@@ -101,8 +101,7 @@ Considerations for the current DocBook format.
 - Deal with different credits information per language. Perhaps it shouldn't be available to translators, should be exposed as an XML structure, or should be left out entirely.
 - Add testcases for the XSLT templates. If no suitable tooling exists, a directory with input and output files could suffice. It could also be done using Pytest with fixtures to create the files. Proper XML diff output would be valuable.
 - Not use ANNAME attribute in Scribus, but rather use a custom attrbute, because ANNAME is supposed to be unique, but there might be cases where multiple Scribus elements refer to the same XML:ID.
-
-Consider modelling the dropcaps as inline images, perhaps conditionally. Making this conditional and dealing with alt-text is a challenge.
+- Consider modelling the dropcaps as inline images, perhaps conditionally. Making this conditional and dealing with alt-text is a challenge.
 
 ```xml
 <para>
@@ -120,16 +119,22 @@ Consider modelling the dropcaps as inline images, perhaps conditionally. Making 
 - Use ITS rules to add basic locNotes to all attributes, especially the `<alt>` tags. A link to the general translation notes would also be helpful.
 - The ITS rules require tweaking to be as precise to select the content for translation and discard the document structure that shouldn't be modified by translators.
 - The dropcaps attributes on the para elements are not available for translation by default. That might need work to make it part of the internationalisation.
-
-Consider having multiple imageobjects for different conditions:
+- Profiling conditions should be used to select different images. Different because they contain text or are blank, and different for different resolutions. Multiple conditions can be combined to handle different variants, using [multiple profiling conditions](https://legal.standingrock.org/docbookxsl/MultiProfile.html). It might be easiest to do two-step processing to first execute the profiling and then process the profiled docbook file. A single-pass will require more work to handle all edge cases, but could be programmed to handle the sypical use-case. Code example:
 
 ```xml
 <mediaobject xml:id="img-ada-04">
-  <imageobject condition="print">
-    <imagedata fileref="figs/print/ada-04.png"/>
+  <imageobject condition="print;headings-img">
+    <imagedata fileref="illustrations/print/img-ada-cover.png"/>
   </imageobject>
-  <imageobject condition="web">
-    <imagedata fileref="figs/web/ada-04.png"/>
+  <imageobject condition="web;headings-img">
+    <imagedata fileref="illustrations/web/img-ada-cover.png"/>
+  </imageobject>
+  <!-- Text is overlayed over these blank images -->
+  <imageobject condition="print;headings-text">
+    <imagedata fileref="illustrations/print/img-ada-cover-blank.png"/>
+  </imageobject>
+  <imageobject condition="web;headings-text">
+    <imagedata fileref="illustrations/web/img-ada-cover-blank.png"/>
   </imageobject>
 </mediaobject>
 ```
@@ -155,6 +160,7 @@ Consider having multiple imageobjects for different conditions:
 - It could be worthwhile to store the translated docbook file, to prevent the situation where the main docbook file is updated and results in missing or invalidated translations.
 - There is a benefit in using character styles, because it makes it easier to apply styles in the XSLT template and it is easier to change styles across the document afterwards in Scribus.
 - How to improve defining capital images? There is a beautiful simplicity in the format by Luca of enclosing the capital, providing an optional override name, like: `[Eacute|É]rase`. Ideally the text is parsed, necessary capitals and their colors derived, then generated in the right color if already available, and then put in the right place. Alternatively we could rely on the coordinator of the translation to create the necessary capital (as is already the case) and place or link it in an override directory for the specific translation with a generic name like 'capital-ch4.png'. A more declarative solution would be nicer, but perhaps a symlink override is sufficient for now.
+- SVG files can be used to align text to images. This is relevant for the cover of the epub output and to render a translated version of the protest image for Scribus.
 
 ### Request for feedback
 

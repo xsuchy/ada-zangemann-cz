@@ -236,6 +236,7 @@
         <xsl:otherwise>
 
           <!-- Find filename defined in imagedata object. Match first encountered element to handle most situations. -->
+          <!-- TODO: check conditions on surrounding imageobject to handle single-pass profiling of images -->
           <!-- FIXME: XPATH expression doesn't work if xml:id matches on the imagedata object -->
           <xsl:variable name="filename" select="document($docbook-contents-file)//*[@xml:id=$docbook-id]//*[local-name() = 'imagedata' and @fileref][1]/@fileref"/>
 
