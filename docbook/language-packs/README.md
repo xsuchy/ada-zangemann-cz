@@ -1,0 +1,19 @@
+# Language packs
+
+This directory contains directory structures of 'language packs'. These contain language-specific files like illustrations and font configurations.
+
+The language packs are defined as file structures that can be linked using [GNU Stow](https://www.gnu.org/software/stow/).
+
+Language packs that are available or will be created:
+
+- base: basic language pack, perfect for text-based translations
+  - Does not contain images for headings
+  - Signs on protest illustration are in English
+  - Font configuration contains latin fonts
+- blank: to be used as an override to ensure illustrations without headings, for text-based translations
+
+Many translations have a language pack defined:
+
+- ca_valencia
+- de
+- es

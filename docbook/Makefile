@@ -93,3 +93,8 @@ docbook-5.2.rng:
 validate: docbook-5.1-its.rng docbook-5.1-its.sch Ada_Zangemann-en.dbk
 	xmllint --noout --relaxng docbook-5.1-its.rng Ada_Zangemann-en.dbk
 	xmllint --noout --schematron docbook-5.1-its.sch Ada_Zangemann-en.dbk
+
+# TODO: replace other rules with these work-in-progress definitions:
+build/generated/de/Ada_Zangemann.dbk: po/de.mo
+	mkdir -p build/generated/de
+	itstool -m po/de.mo -o build/generated/de/ Ada_Zangemann.dbk

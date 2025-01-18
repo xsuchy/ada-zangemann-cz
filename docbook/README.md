@@ -385,6 +385,8 @@ build/intermediates/es/illustrations/ada-p40-p41.png  symlink to ES illustration
 build/outputs/es/Ada_Zangemann-screen-text.pdf
 ```
 
+Build directory structure is inspired by [Android build system](https://why-rishav.medium.com/android-build-systems-part-2-ce6d9ab3adc#c87e).
+
 ## Analysis of slides and pages
 
 Slide transitions and page transitions cross each oter (single page for multiple slides and vice-versa).
