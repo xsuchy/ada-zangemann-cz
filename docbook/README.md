@@ -170,6 +170,7 @@ Considerations for the current DocBook format.
     - An overlay image might also be used as a pattern to create a pencil appearance on the font.
   - The SVG processing of images calls for a separate rendering setup. Processing can create png images of the SVG file and can create various cropped images for separate pages and to highlight parts of the illustration in the ebook version.
 - Consider base64 encoding images and other files for the webbook version to output a single HTML that includes all necessary data to render the page.
+- Standard ebooks project [recommends a standard folder structure](https://standardebooks.org/contribute/a-basic-standard-ebooks-source-folder) that can be inspiration for the folder structure.
 
 ### Request for feedback
 
