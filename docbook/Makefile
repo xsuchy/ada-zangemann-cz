@@ -107,9 +107,17 @@ build/generated/en/en.mo: po/en.po
 	mkdir -p build/generated/en
 	msgfmt -o build/generated/en/en.mo po/en.po
 
+build/generated/es/es.mo: po/es.po
+	mkdir -p build/generated/es
+	msgfmt -o build/generated/es/es.mo po/es.po
+
 build/generated/en/Ada_Zangemann.dbk: build/generated/en/en.mo
 	mkdir -p build/generated/en
 	itstool -m build/generated/en/en.mo -o build/generated/en/ Ada_Zangemann.dbk
+
+build/generated/es/Ada_Zangemann.dbk: build/generated/es/es.mo
+	mkdir -p build/generated/es
+	itstool -m build/generated/es/es.mo -o build/generated/es/ Ada_Zangemann.dbk
 
 # Link files from nested structure. Force to overwrite existing links.
 # TODO: create helper script to apply language packs
@@ -125,6 +133,24 @@ language-package-en-text-heading:
 	cp -rsf ${PWD}/language-packs/base-ltr/* build/intermediates/en/
 	cp -rsf ${PWD}/language-packs/en/* build/intermediates/en/
 	cp -rsf ${PWD}/language-packs/blank-ltr/* build/intermediates/en/
+
+.PHONY: language-package-es-img-heading
+language-package-es-img-heading:
+	mkdir -p build/intermediates/es
+	cp -rsf ${PWD}/language-packs/base-ltr/* build/intermediates/es/
+	cp -rsf ${PWD}/language-packs/es/* build/intermediates/es/
+
+build/intermediates/en/Ada_Zangemann-print-all.sla: language-package-en-img-heading build/generated/en/Ada_Zangemann.dbk xsl/template-print.sla
+	mkdir -p build/intermediates/en
+	xsltproc -o build/intermediates/en/Ada_Zangemann-print-all.sla --verbose --stringparam docbook-contents-file "../build/generated/en/Ada_Zangemann.dbk" xsl/scribus.xsl xsl/template-print.sla
+
+build/intermediates/es/Ada_Zangemann-print-all.sla: language-package-es-img-heading build/generated/es/Ada_Zangemann.dbk xsl/template-print.sla
+	mkdir -p build/intermediates/es
+	xsltproc -o build/intermediates/es/Ada_Zangemann-print-all.sla --verbose --stringparam docbook-contents-file "../build/generated/es/Ada_Zangemann.dbk" xsl/scribus.xsl xsl/template-print.sla
+
+Ada_Zangemann-de-print-all.sla: output/de/Ada_Zangemann.dbk xsl/template-print.sla
+	mkdir -p output/de/
+	xsltproc -o Ada_Zangemann-de-print-all.sla --verbose --stringparam docbook-contents-file "../output/de/Ada_Zangemann.dbk" xsl/scribus.xsl xsl/template-print.sla
 
 .PHONY: clean
 clean:

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-01-12 12:44+0100\n"
+"POT-Creation-Date: 2025-01-19 11:55+0100\n"
 "PO-Revision-Date: 2025-01-12 12:47+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -252,7 +252,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:237
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-a00.png' md5='5c87c044d706ac83e453d30ea4a8249f'"
+msgid "external ref='images/ada-a00.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -269,7 +269,7 @@ msgstr "ADA &amp; ZANGEMANN - Un cuento sobre Software, Monopatines y Helado de 
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:246 Ada_Zangemann-en.dbk:255
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-z04.png' md5='3ae6c05d81d6fcb1ad96f03530af1bf6'"
+msgid "external ref='images/ada-z04.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -433,7 +433,7 @@ msgstr "Matthias Kirschner, Sandra Brandstätter - ADA &amp; ZANGEMANN - Un cuen
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:346
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p03-author.png' md5='caf881ca90ca890c13352fa24e924ee8'"
+msgid "external ref='images/ada-p03-author.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -450,7 +450,7 @@ msgstr "Matthias Kirschner, Sandra Brandstätter"
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:353
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p03-title.png' md5='0465e8110c5a1d725c1f74a60d7e8de6'"
+msgid "external ref='images/ada-p03-title.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -467,7 +467,7 @@ msgstr "ADA &amp; ZANGEMANN - Un cuento de software, monopatines y helado de fra
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:360
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p03-dog.png' md5='676cee41e89eb38a4c980d997fa4d273'"
+msgid "external ref='images/ada-p03-dog.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -531,7 +531,7 @@ msgstr "Érase una vez una niña llamada Ada. Su familia era tan pobre que todos
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:385
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p04.png' md5='cbcd05ed6e28b1b1b85354cf921936de'"
+msgid "external ref='images/ada-p04.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -548,7 +548,7 @@ msgstr "Ada en primer plano saliendo de casa para ir al colegio, al fondo la cas
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:393
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p05.png' md5='9bffb3014283a012b2570ae1b0034605'"
+msgid "external ref='images/ada-p05.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -596,7 +596,7 @@ msgstr "Y efectivamente,a medida que Zangemann crecía y los ordenadores se hac�
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:412
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p07.png' md5='492d79f6378accb87b197cd244648e96'"
+msgid "external ref='images/ada-p07.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: simplesect/para
@@ -611,7 +611,7 @@ msgstr "“¡Por fin puedo convertir todas mis ideas en objetos reales!”. Zang
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:423
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p08b.png' md5='a52e0fb91dd083534abff6fe7e828d1c'"
+msgid "external ref='images/ada-p08b.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -633,7 +633,7 @@ msgstr "Sus inventos encantaban a niños y adultos. Todos los niños querían su
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:432
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p08a.png' md5='ad8994c0341fe0da119dc8cd3aaa82bb'"
+msgid "external ref='images/ada-p08a.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -650,7 +650,7 @@ msgstr "Un monopatín eléctrico original de Zangemann que deja una estela azul 
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:440
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p09.png' md5='67264383ba3e9ac1f7d179f237f0f15a'"
+msgid "external ref='images/ada-p09.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -692,7 +692,7 @@ msgstr "Sólo tenía que pulsar la tecla adecuada en su gran ordenador dorado, e
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:455
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p10.png' md5='f189f8734fbc5fb21df52280703bcbba'"
+msgid "external ref='images/ada-p10.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -714,7 +714,7 @@ msgstr "Zangemann se divertía mucho pulsando las teclas brillantes y viendo a l
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:464
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p11.png' md5='bf9927ea5df119412c289923e82df8f9'"
+msgid "external ref='images/ada-p11.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -736,7 +736,7 @@ msgstr "Cuando no estaba sentado frente a su ordenador dorado, Zangemann pasaba 
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:474
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p12.png' md5='72e9617cc26a20c157fa692b447aafc5'"
+msgid "external ref='images/ada-p12.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -768,7 +768,7 @@ msgstr "Un día Zangemann pensó: “Hoy quiero ver mis inventos de cerca”. Gu
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:489
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p13.png' md5='fdb84f5367617602987020433cb2f83d'"
+msgid "external ref='images/ada-p13.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -795,7 +795,7 @@ msgstr "Estaba completamente absorto en sus pensamientos cuando de repente – �
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:500
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p14.png' md5='4c5d4098a54e68f91c6efbca965d3b7d'"
+msgid "external ref='images/ada-p14.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -822,7 +822,7 @@ msgstr "Zangemann se alejó cojeando. De repente, sonó música a todo volumen. 
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:510
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p15.png' md5='600e95980ea692661e1d6585ae6da3b5'"
+msgid "external ref='images/ada-p15.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -844,7 +844,7 @@ msgstr "Esa noche, Zangemann estaba tan molesto que no podía dormir. ¿Cómo se
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:520
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p16.png' md5='b40e5db4ed9d87a990c0a0378a71df14'"
+msgid "external ref='images/ada-p16.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -861,7 +861,7 @@ msgstr "La ciudad al atardecer, con casas, una iglesia y dos farolas. De las viv
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:528
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p17.png' md5='a947aee384ea07a6a573bc25e5725a2d'"
+msgid "external ref='images/ada-p17.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -899,7 +899,7 @@ msgstr "Al día siguiente hubo un gran alboroto en la escuela de Ada. De camino 
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:543
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p18.png' md5='5b42a1258319caa91cd9c6999f012dfd'"
+msgid "external ref='images/ada-p18.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -921,7 +921,7 @@ msgstr "Aunque Ada no tenía ninguno de estos aparatos se preguntaba por qué, d
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:552
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p19.png' md5='7478d693129874400605abfd46fb5005'"
+msgid "external ref='images/ada-p19.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -974,7 +974,7 @@ msgstr "Lo mejor del nuevo descubrimiento de Ada fue darse que podía modificar 
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:573
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p21.png' md5='d6438cb3f3c7932f5094138002853123'"
+msgid "external ref='images/ada-p21.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1027,7 +1027,7 @@ msgstr "Ada estaba encantada. Se imaginaba todas las cosas geniales que podía h
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:593
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p23.png' md5='fd7b07d3d0a5323569342cdd64bc95ed'"
+msgid "external ref='images/ada-p23.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1049,7 +1049,7 @@ msgstr "Ada ya tenia una idea para el próximo. Era algo más grande, un verdade
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:602
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p24.png' md5='109da963e79c548798a95d34ee8c55b0'"
+msgid "external ref='images/ada-p24.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1133,7 +1133,7 @@ msgstr "Despues de unos cuantos intentos fallidos, el último día de las vacaci
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:634
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p27.png' md5='9cec468df1a30b556f077fd0996edcc4'"
+msgid "external ref='images/ada-p27.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1160,7 +1160,7 @@ msgstr "“¿Cómo puedes ir en monopatín por la acera?”, le preguntaron."
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:645
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p28.png' md5='304894bc7f7824006a311d857039afc6'"
+msgid "external ref='images/ada-p28.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1187,7 +1187,7 @@ msgstr "Esa tarde Ada puso a prueba su teoría con el monopatín de Toni. Trabaj
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:655
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p29.png' md5='1725e56ac831260f38a227ca6125a078'"
+msgid "external ref='images/ada-p29.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1230,7 +1230,7 @@ msgstr "¡Pero eso no era todo! Gracias al <emphasis>software</emphasis> podían
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:672
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p30.png' md5='1d93e46a809584df14483446a5d5dfcf'"
+msgid "external ref='images/ada-p30.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1262,7 +1262,7 @@ msgstr "Juntos cambiaron el <emphasis>software</emphasis> de los altavoces. Desp
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:683
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p31.png' md5='4152a0e42a934ae6368309f0b036f9cd'"
+msgid "external ref='images/ada-p31.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1279,7 +1279,7 @@ msgstr "Un destornillador con mango naranja y gris, unos alicates rojos y tres L
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:691
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p32.png' md5='22fbec7c1f62c753ca0eb4918a2b45e7'"
+msgid "external ref='images/ada-p32.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1296,7 +1296,7 @@ msgstr "Laboratorio en el desguace, bajo el porche de la casa de Ada. Ada está 
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:699
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p33.png' md5='172164cb3a7117f9f44357b641c8d94f'"
+msgid "external ref='images/ada-p33.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1313,7 +1313,7 @@ msgstr "Marie y la madre de Ada están bailando, una frente a la otra. Alan, Ada
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:707
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p34.png' md5='cc0f9022d8f011a4fcac054c71d59d8a'"
+msgid "external ref='images/ada-p34.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1330,7 +1330,7 @@ msgstr "Manos sosteniendo cucuruchos de helado de ensueño: helado azul con un c
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:713
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p34-bottom.png' md5='514358b381b17ea9f601985f576dcdbb'"
+msgid "external ref='images/ada-p34-bottom.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: simplesect/para
@@ -1397,7 +1397,7 @@ msgstr "“Los ordenadores que no escuchen a Zangemann están prohibidos. Cualqu
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:737
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p37.png' md5='c3ad4dfa077ff7b57a4d6642d122dcb8'"
+msgid "external ref='images/ada-p37.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1424,7 +1424,7 @@ msgstr "Se reunieron frente a una de sus máquinas de helados reconstruidas y di
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:749
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p38.png' md5='2cb31a7f030e0db542b42afc9a918934'"
+msgid "external ref='images/ada-p38.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1467,7 +1467,7 @@ msgstr "Al día siguiente Ada y sus amigos volvieron a sentarse frente al Parlam
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:765
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p39.png' md5='0a37a9af586f55fd7708978be9a2a71c'"
+msgid "external ref='images/ada-p39.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1489,7 +1489,7 @@ msgstr "Según pasaban los días, más y más niños y adultos se unían a la pr
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:774
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p40-41-en.png' md5='7677896d280a472d46949f1e1a8e74a1'"
+msgid "external ref='images/ada-p40-41-en.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1512,7 +1512,7 @@ msgstr "¡Haz tus deberes señor presidente y nosotros haremos los nuestros!"
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:785
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p40.png' md5='7e16cbd235c7f82b5f7ccbef44dcee2a'"
+msgid "external ref='images/ada-p40.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1529,7 +1529,7 @@ msgstr "Detalle de la imagen anterior: dos niños sosteniendo la pancarta \"¡Ha
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:791
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p41.png' md5='18b878f18d2af5d95491765218909e47'"
+msgid "external ref='images/ada-p41.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1588,7 +1588,7 @@ msgstr "El presidente miró las caras decididas de los niños. Sinceramente, él
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:811
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p42.png' md5='f3d539882030b110d16aafe04eb8bb5e'"
+msgid "external ref='images/ada-p42.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1620,7 +1620,7 @@ msgstr "Esa tarde, los niños volvieron a casa orgullosos y satisfechos. ¡Por f
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:822
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p43.png' md5='1543c8803a4e53e51a0d07f5b53c3850'"
+msgid "external ref='images/ada-p43.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1658,7 +1658,7 @@ msgstr "A la mañana siguiente, muy temprano, sonó el teléfono del presidente.
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:836
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p44.png' md5='b7ca583142a8d4e1ea37045b36fe6edd'"
+msgid "external ref='images/ada-p44.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1695,7 +1695,7 @@ msgstr "Además, se introdujo una nueva asignatura en los colegios: sistemas y p
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:849
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p45.png' md5='16c9d157b0061b3587627c726b44c422'"
+msgid "external ref='images/ada-p45.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1717,7 +1717,7 @@ msgstr "Esa noche todos lo celebraron con una gran fiesta: Ada, Alan, otros niñ
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:859
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p46.png' md5='a70345b2a0b4fa5e9ebf16c24ea41b0d'"
+msgid "external ref='images/ada-p46.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1739,7 +1739,7 @@ msgstr "Mientras los demás seguían de fiesta hasta altas horas de la madrugada
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:868
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p47.png' md5='c6af870b00ca602acd8add33f40efff3'"
+msgid "external ref='images/ada-p47.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1777,7 +1777,7 @@ msgstr "¿Y Zangemann? No sé sabe mucho de él. Tal vez todavía está sentado 
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:883
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p48.png' md5='2358ee6ece1aef82c75db23f2768de41'"
+msgid "external ref='images/ada-p48.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1794,7 +1794,7 @@ msgstr "El perrito de Ada olfateando un rastro de helado."
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:892
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p49.png' md5='b875333212be43910341b9736782d9c4'"
+msgid "external ref='images/ada-p49.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1817,7 +1817,7 @@ msgstr "Agradecimientos"
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:904
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p50-title.png' md5='fd62f9bb7e3127d02279493241e0afe0'"
+msgid "external ref='images/ada-p50-title.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: simplesect/para
@@ -1851,7 +1851,7 @@ msgstr "Gracias a mi familia, que me motivó a escribir temprano por la mañana,
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:918
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p51.png' md5='cb37426fc9dc5831a31aa0c6230a5048'"
+msgid "external ref='images/ada-p51.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1885,7 +1885,7 @@ msgstr "Información sobre el autor - Matthias Kirschner"
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:932
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p52-title.png' md5='333ae705f2b0311f8898c2b83fc4b078'"
+msgid "external ref='images/ada-p52-title.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: imageobject/imagedata
@@ -1895,7 +1895,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:940
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p52.png' md5='fdf395606857e6c5049bcf910d7fff76'"
+msgid "external ref='images/ada-p52.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1934,7 +1934,7 @@ msgstr "Información sobre la ilustradora - Sandra Brandstätter"
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:955
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p53-title.png' md5='52546a0c9ce120ce44155edbae27712c'"
+msgid "external ref='images/ada-p53-title.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: imageobject/imagedata
@@ -1944,7 +1944,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:963
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p53.png' md5='155aca7bae471a6c88fcf55e88bfa090'"
+msgid "external ref='images/ada-p53.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -1972,7 +1972,7 @@ msgstr "Sitio web del libro"
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:975
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p54-title.png' md5='ed7672295874f1e78217d95890f0c4f9'"
+msgid "external ref='images/ada-p54-title.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: simplesect/para
@@ -1998,7 +1998,7 @@ msgstr "Licencia"
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:992
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p55-title.png' md5='228b64496f3eee821a70b76d85a33bfe'"
+msgid "external ref='images/ada-p55-title.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: simplesect/para
@@ -2018,7 +2018,7 @@ msgstr "<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.e
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:1005
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p56.png' md5='47fe16290593ce490505c2ff11dae7d2'"
+msgid "external ref='images/ada-p56.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
@@ -2046,7 +2046,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: Ada_Zangemann-en.dbk:1015
 msgctxt "_"
-msgid "external ref='../illustrations/en/ada-p57.png' md5='312d345f18b5928d3cb2a1c4082492e9'"
+msgid "external ref='images/ada-p57.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
