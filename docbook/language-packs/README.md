@@ -6,11 +6,11 @@ The language packs are defined as file structures that can be linked using [GNU 
 
 Language packs that are available or will be created:
 
-- base: basic language pack, perfect for text-based translations
+- base-ltr: basic language pack, perfect for text-based translations, for left-to-right languages
   - Does not contain images for headings
   - Signs on protest illustration are in English
   - Font configuration contains latin fonts
-- blank: to be used as an override to ensure illustrations without headings, for text-based translations
+- blank-ltr: to be used as an override to ensure illustrations without headings, for text-based translations, for left-to-right languages
 
 Many translations have a language pack defined:
 

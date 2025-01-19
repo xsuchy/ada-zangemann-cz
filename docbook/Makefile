@@ -47,6 +47,10 @@ po/es.po: po/Ada_Zangemann.pot
 	if [ ! -e 'po/es.po' ]; then cp po/Ada_Zangemann.pot po/es.po; fi
 	msgmerge --no-wrap --update po/es.po po/Ada_Zangemann.pot
 
+po/en.po: po/Ada_Zangemann.pot
+	if [ ! -e 'po/en.po' ]; then cp po/Ada_Zangemann.pot po/en.po; fi
+	msgmerge --no-wrap --update po/en.po po/Ada_Zangemann.pot
+
 # Generate message strings for further processing
 # FIXME: perhaps the .mo file should end up in a temporary process location instead of in the /po folder
 po/de.mo: po/de.po
@@ -98,3 +102,30 @@ validate: docbook-5.1-its.rng docbook-5.1-its.sch Ada_Zangemann-en.dbk
 build/generated/de/Ada_Zangemann.dbk: po/de.mo
 	mkdir -p build/generated/de
 	itstool -m po/de.mo -o build/generated/de/ Ada_Zangemann.dbk
+
+build/generated/en/en.mo: po/en.po
+	mkdir -p build/generated/en
+	msgfmt -o build/generated/en/en.mo po/en.po
+
+build/generated/en/Ada_Zangemann.dbk: build/generated/en/en.mo
+	mkdir -p build/generated/en
+	itstool -m build/generated/en/en.mo -o build/generated/en/ Ada_Zangemann.dbk
+
+# Link files from nested structure. Force to overwrite existing links.
+# TODO: create helper script to apply language packs
+.PHONY: language-package-en-img-heading
+language-package-en-img-heading:
+	mkdir -p build/intermediates/en
+	cp -rsf ${PWD}/language-packs/base-ltr/* build/intermediates/en/
+	cp -rsf ${PWD}/language-packs/en/* build/intermediates/en/
+
+.PHONY: language-package-en-text-heading
+language-package-en-text-heading:
+	mkdir -p build/intermediates/en
+	cp -rsf ${PWD}/language-packs/base-ltr/* build/intermediates/en/
+	cp -rsf ${PWD}/language-packs/en/* build/intermediates/en/
+	cp -rsf ${PWD}/language-packs/blank-ltr/* build/intermediates/en/
+
+.PHONY: clean
+clean:
+	rm -r build/intermediates
