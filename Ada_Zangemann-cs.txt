@@ -894,27 +894,9 @@ Poděkování autora
 
 Mnohokrát děkuji Reinhardovi Wiesemannovi z Linuxhotelu za finanční poporu a motivaci neplánovat ale dělat. Děkuji Sandře Brandstätter, která mě potěšila s každým novým návrhem a ilustrací. Děkuji mému editorovi Weibke Helmchenovi, který z rozvoje a vylepšování příběhu udělal zábavu, a No Starch Press za to, že souhlasili s publikací pod svobodnou kulturní licencí.
 
-Many thanks to Reinhard Wiesemann from the Linuxhotel for the financial 
-support and motivation to no longer plan but to make. Thanks to Sandra 
-Brandstätter, who has brought me joy with every new design for the 
-illustrations. Thanks to my editor Wiebke Helmchen, who made developing 
-and sharpening the story fun, and to No Starch Press for agreeing to 
-publish the book under a free culture license.
+Me poděkování za skvělé nápady inspiraci a praktické tipy taky patří lidem Bea a Benni, Brian, Christine a Marc, Cory, Bernhard, Isabel a Amelia, Katta, Kristina, Martin, Mona a Arne, Nina, Oliver, Reinhard, Sabine, a Torsten, stejně jako lidem z hnutí pro svobodný software, od kterých jsem se mohl učit a jejichž zapojení mě motivovalo.
 
-Thanks to Bea and Benni, Brian, Christine and Marc, Cory, Bernhard, 
-Isabel and Amelia, Katta, Kristina, Martin, Mona and Arne, Nina, Oliver, 
-Reinhard, Sabine, and Torsten for great ideas, inspiration, and 
-practical tips, and to the many people of the Free Software movement, 
-from which I was allowed to learn and whose engagement motivated me.
-
-For the English edition, I would like to thank John for his valuable 
-feedback to improve the language, as well as Catharina, Pam, Till, and 
-Vint for assisting me in figuring out how to get the book published.
-
-Thanks to my family, who made me write early in the morning, late in the 
-evening, and on holiday, and who always supports my work for software 
-freedom. Especially, I would like to thank my children, who inspired me 
-with new ideas at each reading. Without them, this book would not exist.
+Děkuji mé rodině, která mě nechala psát brzo ráno, pozdě večer a i na dovolené a která mě taky vždy podpořila v mé práci pro svobodný software. Především bych chtěl poděkovat svým dětem, které mě inspirovaly k dalším nápadům při každém čtení. Bez nich by tato kniha nevznikla.
 
 ** 51 **
 
