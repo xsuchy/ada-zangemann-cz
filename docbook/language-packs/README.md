@@ -2,7 +2,7 @@
 
 This directory contains directory structures of 'language packs'. These contain language-specific files like illustrations and font configurations.
 
-The language packs are defined as file structures that can be linked using [GNU Stow](https://www.gnu.org/software/stow/).
+The language packs are defined as file structures that can be symlinked.
 
 Language packs that are available or will be created:
 
