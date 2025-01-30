@@ -40,7 +40,7 @@ Considerations for the current DocBook format.
   - XSLT 3.0 had multiple benefits, as is argued in [this blogpost from 2017](https://www.xml.com/articles/2017/02/14/why-you-should-be-using-xslt-30/). The [xsltNG](https://github.com/docbook/xslTNG) Docbook XSLT Stylesheets use XSLT 3.0. These stylesheets are a reason to adopt XSLT 3.0. [Saxon XSLT](https://en.wikipedia.org/wiki/Saxon_XSLT) is the only free software XSLT 3.0 processor, which is a reason to be reluctant in using XSLT 3.0. [Xrust](https://crates.io/crates/xrust) is a XSLT 3.0 engine being developed in Rust which might end up becoming the second free software solution.
 - UTF-8 encoding is selected to support more special characters and hot have to escape as much characters. The ampersand '&' character still must be escaped as `&amp;` because the ampersand is used in XML as an escape character itself.
 - `az:dropcap="true"` are used on `<para>` elements to indiate that the paragraph starts with a drop cap, a larger colorful capital.
-- The `<alt>` element is used in a `<mediaobject>` to provide the description for an image.
+- The `<alt>` element is used in a `<mediaobject>` to provide the description for an image. This text does not contain newlines, in accordance to the [HTML standard alt attribute](https://html.spec.whatwg.org/#alt).
 - A custom `<az:excerpt>` element is used to model the text on an image, for translation purposes. Even if the image is not updated directly, it might be done at some point in the future.
 - The data modeling version is represented using the `az:datamodelversion="0.1.0-alpha"` attribute in the main `book` element. Previously this was a custom element `<az:datamodel version="0.1.0-alpha"/>` but that did end up in the default XSLT template rendering. The XML namespaces also include version, but this does not consider how the elements are being used.
 - Elements can be made easier to link or lookup by adding an `xml:id` attribute ([documentation](https://www.w3.org/TR/xml-id/)). Benefits of using these identifiers is that they are common, can be used for linking within the document and verified by tools like Xmllint to be unique in the document.
@@ -172,6 +172,22 @@ Considerations for the current DocBook format.
   - The SVG processing of images calls for a separate rendering setup. Processing can create png images of the SVG file and can create various cropped images for separate pages and to highlight parts of the illustration in the ebook version.
 - Consider base64 encoding images and other files for the webbook version to output a single HTML that includes all necessary data to render the page.
 - Standard ebooks project [recommends a standard folder structure](https://standardebooks.org/contribute/a-basic-standard-ebooks-source-folder) that can be inspiration for the folder structure.
+- The docbook getting started repository contains a [folder structure for a docbook setup](https://github.com/docbook/getting-started/tree/master/book) which comes with a build.gradle script to generate outputs and assemble an epub ebook.
+- A Makefile.inc file can make the Makefile setup more modular. In Coreboot each supported mainboard has a Makefile.inc file in the directoy that appends specific files to certain output files. In this way Make knows all files that have to be handled for certain steps.
+- Keeping filenames the same per translation prevents having to change links in the Docbook file, but makes it more complicated to manage files as it requires replacing files (or its symbolic links) for each output. Having explicit links where all files can coexist works for the build output but also for a webserver where digibooks would be hosted.
+- The current language pack idea has its downsides. First it is hard for a translator to get inspiration for items to translate. If the images of different languages would be side-by-side, it would be easier to know how to change the image. Also, the current idea of a 'blank' language pack as an override mixes format-specific needs with language-specific needs. Blank should be the base as it can be used for all languages using fonts. Images with hand drawn text can be considered an override in itself. Each output format will likely have some of its own processing done to reduce the image resolution or convert the images to greyscale. A question remains if left-to-right and right-to-left should be separated on a higher level, or if they can exist besides eachother. Many right-to-left images can be generated from left-to-right images as it is just a mirror image, except for some images that are kept the same. All image formats can be created in multiple processing steps, controlled by Make. The relevant files can be symlinked to the intermediate build directory for each specific output format. Note that capital images might be treated the same way, but due to their repetitious nature might be treated differently. Translations have a most 11 language-specific illustrations (see research in section below), which can be reduced to 3 or even 0 by using fonts to create the images. Here are some examplary file structures, which does not feature specific folders per output format, as currently only the `-title` illustrations are output-specific:
+
+```
+fonts/fonts.xml  # default LTR fonts. Name fonts.ltr.xml could also be used.
+fonts/fonts.ukr.xml
+fonts/fonts.ar.xml
+illustrations/ada-p04.png  # asuming LTR. Name ada-p04.ltr.png could also be used. ada-p04.rtl.png can be generated.
+illustrations/ada-p40-41.png  # asuming LTR. Seperate p40 and p41 cutouts can be generated.
+illustrations/ada-p40-41.de.png  # German override
+illustrations/ada-p40-41.uk.png  # Ukrainian override
+illustrations/ada-p03-title.en.png  # Hand-drawn title page for English (default is a font-based page)
+illustrations/ada-p03-title.de.png  # Hand-drawn title page for German (default is a font-based page)
+```
 
 ### Request for feedback
 
@@ -435,6 +451,46 @@ NOTE: the resulting Table of contents in HTML gets additional spaces inserted wh
 | About the Illustrator - Sandra Brandstätter | 53    | ..    |
 | Website for the book and license            | 54    | ..    |
 | Drawing templates                           | 55    | ..    |
+
+## Analysis of commonalities in images
+
+Commands used:
+```
+find . -type f -iname '*.png' | wc -l
+find . -type l -iname '*.png' | wc -l
+```
+
+| Language | Custom illustrations | Illustration symlinks |
+|----------|----------------------|-----------------------|
+| ar       | 28                   | 60                    |
+| common   | 2                    | 54                    |
+| da       | 11                   | 62                    |
+| de       | 11                   | 61                    |
+| en       | 11                   | 62                    |
+| es       | 11                   | 62                    |
+| fr       | 11                   | 63                    |
+| ukr      | 27                   | 60                    |
+
+Interesting to see that certain translations have more illustrations in the folder than necessary. The Ukrainian translation for example has identical copies of images next to the symlinks.
+
+Images to translate:
+
+* Images (could be automated in Scribus and/or Inkscape)
+  * `ada-a00.png` horizontal cover
+  * `ada-a01.png` square cover
+  * `ada-p40-p41.png` protest full
+  * `ada-p40.png` protest left (could become post-processing of p40-p41.png)
+  * `ada-p41.png` protest right (could become post-processing of p40-p41.png)
+* Text (to be replaced by fonts)
+  * `ada-p03-author.png`
+  * `ada-p03-title.png`
+  * `ada-p50-title.png`
+  * `ada-p52-title.png`
+  * `ada-p53-title.png`
+  * `ada-p54-title.png`
+  * `ada-p55-title.png`
+
+The covers and protest sign are the hardest to replace by automation, the rest is rather easy. For the titles that are writen using fonts, there is no need to keep the images.
 
 ## Notable differences between editions
 
