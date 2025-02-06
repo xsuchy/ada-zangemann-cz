@@ -14,8 +14,8 @@ if [[ -z ${1} ]] || [[ -n ${3} ]] ; then
     echo "Optionally a source language can be provided to start from an existing translation." >&2
     echo "Provide the new language to create in language[_territory] pattern like en, pt_PT" >&2
     echo "Usage:   ./new_language.sh <new-language> <source-language>" >&2
-    echo "Example: ./new_language.sh dk" >&2
-    echo "Example: ./new_language.sh dk pt_PT" >&2
+    echo "Example: ./new_language.sh da" >&2
+    echo "Example: ./new_language.sh da pt_PT" >&2
     exit 1
 fi
 
