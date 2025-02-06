@@ -7,6 +7,7 @@ virkelige personer, levende såvel som døde, er helt tilfældig.
 
 Matthias Kirschner  Sandra Brandstätter
 
+** 1 **
 
 ADA & ZANGEMANN
 
@@ -15,6 +16,7 @@ En Fortælling om Software, Skateboards og Hindbæris
 
 Oversat til dansk af Øjvind Fritjof Arnfred
 
+## 2 ##
 
 Denne bog er oversat fra den tyske original, "Ada und Zangemann" med skæven til den italienske oversættelse, og stilles til rådighed
 under Create Commons CC-BY-SA, som er en licens for fri kultur.
@@ -47,6 +49,8 @@ værdien af softwarefrihed og for at tage sig tid til at forstå fordelene
 ved frie kulturlicenser og for at støtte os i at udgive bogen under
 betingelser, der respekterer FSFEs værdier.
 
+## 2BB ##
+
 *Fri software - frihed, ikke pris*
 
 Fri software handler om de friheder, som du modtager sammen med
@@ -73,7 +77,7 @@ En Fortælling om Software, Skateboards og Hindbæris
 
 ## 4 ##
 
-Der var en gang en lille pige som hed Ada. Hendes familie var så fattig, 
+[D]er var en gang en lille pige som hed Ada. Hendes familie var så fattig, 
 at hele deres opsparing kunne være i en kagedåse. De havde ikke penge 
 nok til et ordentligt hus. I stedet boede Ada sammen med sin mor og 
 lillebror Alan i en hytte tæt på en losseplads i udkanten af byen.
@@ -91,7 +95,7 @@ Hans palæ stod på en høj bakke. Derfra kunne han se ud over hele byen.
 
 ## 6 ##
 
-Zangemann havde været fascineret af computere, siden han var barn. Da 
+[Z]angemann havde været fascineret af computere, siden han var barn. Da 
 han var ung, var computere store maskiner med masser af kabler og 
 støjende blæsere. I skolen drømte lille Zangemann ofte om alle de ting, 
 han ville gøre med computere, hvis de bare var en lille smule mindre. Så
@@ -237,7 +241,7 @@ straks satte på for at komme i bedre humør.
 
 ## 18 ##
 
-Næste dag var der stor opstandelse på Adas skole. På vej til skole var 
+[N]æste dag var der stor opstandelse på Adas skole. På vej til skole var 
 børnenes skateboards holdt op med at virke. Hjulene stod simpelthen 
 stille. Og så var der højtalerne: børnene kunne ikke længere skrue op 
 for dem. Hvad foregik der?
@@ -262,7 +266,7 @@ over.
 
 ## 20 ##
 
-Adas yndlingsdag var onsdag. Hver onsdag kom hendes mor og Alan og 
+[A]das yndlingsdag var onsdag. Hver onsdag kom hendes mor og Alan og 
 hentede hende fra skolen, og så gik de alle tre på biblioteket sammen. 
 Ada gik altid direkte over i teknikafdelingen. Der stod der bøger med 
 arbejdstegninger, instruktioner og eksperimenter og forklaringer på, 
@@ -294,7 +298,7 @@ gerne lære det programmeringssprog!
 
 ## 22 ##
 
-De næste uger brugte Ada sine eftermiddage på biblioteket. Hun fandt 
+[D]e næste uger brugte Ada sine eftermiddage på biblioteket. Hun fandt 
 bøger og hjemmesider, der forklarede, hvordan programmeringssprog og 
 kode virkede. Ada havde det lidt, som om hun var ved at lære et 
 hemmeligt sprog eller studerede grammatik i skolen. Hun slugte det hele. 
@@ -328,7 +332,7 @@ hele sommerferien på det...  Hun kunne næsten ikke vente!
 
 ** 25 **
 
-Zangemann havde sovet elendigt hver nat siden den forfærdelige gåtur i 
+[Z]angemann havde sovet elendigt hver nat siden den forfærdelige gåtur i 
 byen. Hver aften, når han gik i seng, var han plaget af bekymringer. “Åh 
 nej, mine fantastiske opfindelser. Det går ikke, at alle bare leger 
 sådan med dem. Tænk på alt det der kunne gå galt! Jeg har gjort så meget 
@@ -352,7 +356,7 @@ skrev og skrev...
 
 ## 26 ##
 
-Sommerferien var allerede halvvejs ovre. Ada stod foran sit store 
+[S]ommerferien var allerede halvvejs ovre. Ada stod foran sit store 
 projekt og kløede sig i hovedet. Hun havde bygget et skateboard af gamle 
 dele og koblet en motor til det for at få hjulene til at køre rundt. Med 
 et motoriseret skateboard kunne Ada suse afsted til biblioteket eller 
@@ -408,7 +412,7 @@ morsomt.
 
 ## 30 ##
 
-Flere og flere børn begyndte at besøge Ada på lossepladsen efter 
+[F]lere og flere børn begyndte at besøge Ada på lossepladsen efter 
 skoletid, og hun hjalp dem med at ændre programmerne i deres 
 skateboards. Nogle af hendes klassekammerater var meget begejstrede over 
 den nye opdagelse - det var helt vildt, hvad man kunne lave med 
@@ -443,7 +447,7 @@ musikken op, så meget de kunne og dansede vildt sammen.
 
 ** 35 **
 
-Hver dag lagde Ada og hendes venner planer for, hvad de skulle lave 
+[H]ver dag lagde Ada og hendes venner planer for, hvad de skulle lave 
 sammen om eftermiddagen. De byggede en gammel ismaskine om, så den kunne 
 lave is i alle tænkelige farver og former. De spiste firkantede is, 
 hjerteformede is og endda pyramideformede is, og jordbær-, hindbær- og 
@@ -465,7 +469,7 @@ sikker på, at hun også inderst inde syntes, det var lidt sjovt.
 
 ## 36 ##
 
-En dag opdagede Zangemann, at nogle af hans computere ikke længere adlød 
+[E]n dag opdagede Zangemann, at nogle af hans computere ikke længere adlød 
 hans programmerede kommandoer. Chokeret og skummende af vrede ringede 
 han til præsidenten. Med en skælvende stemme råbte han ned i telefonen: 
 “Nogen laver om på programmerne i mine apparater! Det må ikke ske! Det 
@@ -495,7 +499,7 @@ de lavede en plan...
 
 ** 39 **
 
-Næste dag tog de ikke i skole. I stedet kørte de på deres skateboards 
+[N]æste dag tog de ikke i skole. I stedet kørte de på deres skateboards 
 ind og satte sig foran parlamentsbygningen med store protestskilte. 
 Aftenen før havde de sat LED-lys på nogen af deres skilte, som nu 
 blinkede klart.
@@ -535,7 +539,7 @@ landet.
 
 ## 42 ##
 
-Ada protesterede foran parlamentsbygningen hver uge. Selv når det 
+[A]da protesterede foran parlamentsbygningen hver uge. Selv når det 
 regnede. Det var på netop sådan en regnvejrsdag, at præsidenten kom 
 forbi gruppen af dryppende våde børn. Han kunne ikke andet end beundre 
 deres stædighed.
@@ -571,7 +575,7 @@ noget. Deres lange protest havde båret frugt.
 
 ## 44 ##
 
-Næste dag ringede præsidentens telefon meget tidligt om morgenen. Det 
+[N]æste dag ringede præsidentens telefon meget tidligt om morgenen. Det 
 var Zangemann. Han var mere vred end nogensinde før. “Uden mig vil 
 regeringens computere ikke længere virke,” sagde han. Men præsidenten 
 svarede bare kort og formelt og lagde hurtigt på. Telefonen ringede 
@@ -613,7 +617,7 @@ de ville i gang med det samme.
 
 ## 48 ##
 
-Og Zangemann? Ham har ingen hørt fra siden. Måske sidder han stadig 
+[O]g Zangemann? Ham har ingen hørt fra siden. Måske sidder han stadig 
 foran sin store guldcomputer. Måske tør han ikke længere gå udenfor og 
 har sat brædder for alle vinduerne på sit palæ, så han ikke skal bekymre 
 sig om, hvad folk finder på med hans opfindelser. Men det kan også være, 
