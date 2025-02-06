@@ -461,7 +461,7 @@ Po několika dnech se na šok z nefungujících přístrojů zapomnělo. Skatebo
 ## 20 ##
 ==== Slide 11
 
-[A]din oblíbený den byla středa. Každou středu ji totiž její maminka s Alanem vyzvedávali ze školy a společně šli do knihovny. Adu lákala sekce techniky. Byly tam knihy s nákresy, návody pokusů a vysvětlení toho, jak různé věci fungují. V knihovně se Ada taky mohla připojit online ze svého telefonu. Rychle se dozvěděla, že i tam může najít spoustu informací. Na internetu si mnoho lidí vyměňovalo své nápady, sdíleli si rady a pomáhali ostatním.
+[A]din oblíbený den byla středa. Každou středu ji totiž její maminka s Alanem vyzvedávali ze školy a společně šli do knihovny. Adu lákala sekce techniky. Byly tam knihy s nákresy, návody pokusů a vysvětlením toho, jak různé věci fungují. V knihovně se Ada taky mohla připojit online ze svého telefonu. Rychle se dozvěděla, že i tam může najít spoustu informací. Na internetu si mnoho lidí vyměňovalo své nápady, sdíleli si rady a pomáhali ostatním.
 
 Jednoho odpoledne se Ada naučila dvě nová slova: hardware a software. Hardware už Ada docela znala: elektronická zařízení, se kterými si hrála po konci školy nebo ty přístroje, které mohla držet v ruce a pokusit se je opravit nebo předělat na něco dalšího. Co pro ní bylo ale úplně nové, bylo slovo software. Brzy se dozvěděla, že to znamená instrukce, které běží na počítači a řídí další zařízení nebo počítače. Některé knihy těmto instrukcím říkaly programy, nebo kód. Takovým programem mohl někdo například říct reproduktoru, jakou skladbu hrát a jak nahlas.
 
@@ -684,7 +684,7 @@ Některé věci vyrobili pro zábavu, jako prdítko, které dali učitelce matem
 ## 36 ##
 ==== Slide 19
 
-[J]ednoho dne si Zangemann všiml, že některé počítače už jeho programové příkazy neposlouchaly. Šokován a plný hněvu volal prezidentovi. Rozechvělým hlasem Zangemann křičel: „Někdo přepisuje programy v mých zařízeních! To se nesmí, jsou to přece mé vynálezy. Je to strašně nebezpečné, že si každý může se svými počítači dělat, co chce. Musíte proti tomu zakročit zákonem!“
+[J]ednoho dne si Zangemann všiml, že některé počítače už jeho programové příkazy neposlouchají. Šokován a plný hněvu volal prezidentovi. Rozechvělým hlasem Zangemann křičel: „Někdo přepisuje programy v mých zařízeních! To se nesmí, jsou to přece mé vynálezy. Je to strašně nebezpečné, že si každý může se svými počítači dělat, co chce. Musíte proti tomu zakročit zákonem!“
 
 Prezident nechtěl naštvat Zangemanna. Všechny počítače jeho vlády byly naprogramovány Zangemannem. Bez počítačů by vláda nemohla řídit zemi. A tak schválili zákon, který si Zangemann přál:
 
@@ -987,7 +987,7 @@ IMAGE: A soldering iron and a brush and can with yellow paint, connected
 by white electrical cord that forms a frame. 
 ]]
 
-[V]ynálezce Zangemann je světoznámý a nesmírně bohatý. Dospělí i děti mají moc rádi jeho báječné technické vynálezy. Ale jednoho dne se objeví problém: elektronické skateboardy dětí už nefungují správně. Co se stalo? Zvídavá dívka Ada celou záhadu prokoukne. Společně se svými přáteli experimentuje s hardwarem a softwarem a děti vytvoří plán: Zangemann už nemůže být ten jediný, který má pod kontrolou jejich přístroje!
+[V]ynálezce Zangemann je světoznámý a nesmírně bohatý. Dospělí i děti mají moc rádi jeho báječné technické vynálezy. Ale jednoho dne se objeví problém: elektronické skateboardy dětí už nefungují správně. Co se stalo? Zvídavá dívka Ada celou záhadu prokoukne. Společně se svými přáteli experimentuje s hardwarem a softwarem a děti vytvoří plán: Zangemann už nemůže být ten jediný, kdo má kontrolou nad jejich přístroji!
 
 Tato kniha vzbuzuje zájem o kutilství a dodává sebedůvěru formovat technologie.
 
