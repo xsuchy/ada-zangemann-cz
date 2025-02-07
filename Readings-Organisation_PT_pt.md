@@ -1,5 +1,6 @@
 <!--
 SPDX-FileCopyrightText: 2021 Free Software Foundation Europe <https://fsfe.org>
+SPDX-FileCopyrightText: 2024 Vitor de Matos (translator) <https://vitordematos.net>
 
 SPDX-License-Identifier: CC-BY-SA-3.0-DE
 
