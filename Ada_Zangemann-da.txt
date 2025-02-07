@@ -703,7 +703,8 @@ Licens
 Bogen Ada & Zangemann: En fortælling om Software, Skateboards og 
 Hindbæris af Matthias Kirschner og Sandra Brandstätter, udgivet af No 
 Starch Press, er udgivet under CC-licensen: “Creative Commons 
-Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).” 
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).”
+
 https://creativecommons.org/licenses/by-sa/4.0/deed.da
 
 ## 56 ##
