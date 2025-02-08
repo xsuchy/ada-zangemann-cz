@@ -57,14 +57,6 @@ hard line breaks preceded by a space.
 $ ./unwrapada.pl Ada_Zangemann-en.txt > Ada_Zangemann-en-unwrapped.pl
 ```
 
-This script can be used together with another regex to have each sentence on a
-separate line. This can help to compare different languages sentence by
-sentence.
-
-```shell
-$ cat Ada_Zangemann-en.txt | scripts/./unwrapada.pl | sed 's/\.\s/\.\n/g' > Ada_Zangemann-en-sl.txt
-```
-
 ### wrapada.pl
 
 Add hard line breaks in lines to limited the length. Each line is wrapped on a
