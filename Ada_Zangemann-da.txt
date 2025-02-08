@@ -722,14 +722,8 @@ https://ada.fsfe.org.
 
 ## 60 ##
 
-“En begejstrende fortælling om selvstændighed, fællesskab og at trodse 
-bøllerne.... softwarefrihed er menneskers frihed!”
+[D]en lille pige Ada bor på en skrotplads og elsker at bygge ting. Hun begynder at eksperimentere med hardware og software og bygger blandt andet et selvkørende skateboard med lyd i.
 
-— Cory Doctorow, Sci-Fi forfatter
+Da den rige opfinder Zangemann en dag stiller en supercomputer op i sin villa for at bestemme over alle de dimser, han har solgt til folk i landet, tager Ada og hendes venner kampen op for at sikre softwarefrihed for alle.
 
-“Introducerer både unge og ældre læsere til kraften og farerne i 
-software, med et solidt etisk fundament af vidensdeling, som er det hele 
-menneskehedens historie bygger på.”
-
-– Vint Cerf, datalog og skaber af TCP-protokollen - en af Internettets 
-fædre.
+Ada & Zangemann er en inspirerende børnebog for de 6-106 årige om at bruge, undersøge, dele og forbedre teknologien omring os.
