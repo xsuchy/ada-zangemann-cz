@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: 2024 Nico Rikken <nico.rikken@fsfe.org>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+# Filled .sla files except for templates
+Book/*/*.sla
+!Book/*/template*.sla
+
+# Rendered pdf files
+Book/*/*.pdf
+
+# Text reading files
+Book/*/*-reading.txt
+
+# Rendered png files
+Book/*/*.png
+
+# Compare directories
+Book/*/compare-base/
+Book/*/compare-result/
