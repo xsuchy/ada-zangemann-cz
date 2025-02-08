@@ -609,7 +609,7 @@ was Ada omringd door nieuwsgierige klasgenoten.
 “Hoe kan je met jouw skateboard op de stoep rijden?” vroegen ze.
 [[I:ada-p28
 IMAGE: Ada stopt op haar skateboard omringd door kinderen. Marie staat aan een uiteinde. Ze wijst naar Ada's skateboard en ze praat.
-Naast haar is Konrad, met kort blond haar, een donkergrijze helm, bril, een groen shift met witte kraag en manchetten, lichtblauwe broek met witte zoom en grijze schoenen met witte zolen. Hij heeft een rood skateboard met oranje wielen.
+Naast haar is Bram, met kort blond haar, een donkergrijze helm, bril, een groen shift met witte kraag en manchetten, lichtblauwe broek met witte zoom en grijze schoenen met witte zolen. Hij heeft een rood skateboard met oranje wielen.
 Achter Ada staan vier andere kinderen. Aan het andere uiteinde staat Toni te lachen.
 Met één hand raakt hij zijn kin aan terwijl hij met de andere zijn gele helm aan de banden vasthoudt.
 ]]
@@ -647,7 +647,7 @@ al snel reden ze met hun skateboards weer overal waar ze wilden.
 Maar dat was niet alles! Met de software konden ze hun skateboards 
 nieuwe coole mogelijkheden geven. Marie maakte kleurrijke ledlampen aan 
 haar board die, afhankelijk van haar snelheid, in verschillende kleuren oplichtten. 
-En Konrad bouwde aan zijn skateboard oude propellers die voor extra 
+En Bram bouwde aan zijn skateboard oude propellers die voor extra 
 aandrijving zorgden.
 [[I:ada-p30
 IMAGE: Een groene batterij met een rode en een gele draad, een stekkerdoos, lijm, een klos soldeer en twee potloden.
@@ -655,7 +655,7 @@ IMAGE: Een groene batterij met een rode en een gele draad, een stekkerdoos, lijm
 
 ** 31 **
 
-Ada, Toni, Marie en Konrad brachten veel middagen op de schroothoop door. 
+Ada, Toni, Marie en Bram brachten veel middagen op de schroothoop door. 
 Ze hadden zowaar een heuse werkplaats ingericht waarin ze 
 urenlang hun programma’s konden verfijnen. Daarbij luisterden ze naar 
 muziek uit de luidsprekers die Ada voor Alan had gebouwd.
@@ -676,7 +676,7 @@ IMAGE: Een schroevendraaier met oranje en grijs handvat, rode tang en drie leds:
 [[I:ada-p32
 IMAGE: Werkplaats op de schroothoop onder de veranda van Ada's huis.
 Ada zit op een frisdrankkrat met een been onder zich gevouwen en gebruikt ene soldeerbout.
-Konrad staat naast haar en haalt een luidspreker uit elkaar.
+Bram staat naast haar en haalt een luidspreker uit elkaar.
 Marie zit op twee autobanden met een arm op een tafel en haar skateboard ondersteboven waar draden uit komen. Ze praat met Alan, die staat met zijn armen leunend op dezelfde tafel.
 Op de tafel liggen ook een tang, twee steeksleutels, een klos soldeer, een blik blauwe verf (een beetje verf is opgedroogd op de tafel) en een karaf met twee glazen met daarin een roze drank.
 Toni test zijn skateboard met toegevoegde gele vleugels en een ventilat. Het boert.
@@ -685,7 +685,7 @@ Toni test zijn skateboard met toegevoegde gele vleugels en een ventilat. Het boe
 ** 33 **
 
 [[I:ada-p33
-IMAGE: Mari en Ada's moeder dansen, naar elkaar gericht. Alan, Ada en Konrad dansen in een kring.
+IMAGE: Mari en Ada's moeder dansen, naar elkaar gericht. Alan, Ada en Bram dansen in een kring.
 Rechts staat een luidspreker te spelen, ondersteund door een oud olievat.
 Naast de luidspreker staan twee dansende muizen.
 Toni springt door de banden.
@@ -798,7 +798,7 @@ droegen. Zelfs mevrouw Gernet kwam. De menigte werd steeds groter en na
 een week waren er niet alleen protesten in Ada’s stad; nee, overal in 
 het land werd gedemonstreerd.
 [[I:ada-p40-41
-IMAGE: Groep protesteerders. Onder hen zijn Ada's moeder die Alan's hand vasthoudt en een roze ijsje omhoog houdt; drie collega's van Toni's vaders in nette kleren met stropdas; twee kinderen die het spandoek "Doe je huiswerk meneer President en wij doen het onze!" omhoog houden; een robot met rupsbanden, strijkijzers als voeten, een elektrische ventilator als borstkast, een monitor als hoofd en een garde als één hand en een blauw ijsje vasthoudend in zijn andere hand; twee ouders die een bord dragen met de tekst "Hacking 4 Freedom"; een dame met een elektronisch bord "There is a code B"; twee kleine vogels die meevliegen; de wiskundelerares Mevrouw Gernet die in haar karretje een bord heeft gestopt met de tekst "Ze zijn jong + hebben de code nodig!". De hond in het karretje blaft; Ada en Konrad dragen het spandoek "Don't wreck our tech!". Marie en Toni lopen onder het spandoek en Marie spreekt door een megafoon in haar hand. Ada's familiehond draagt nu een rood harnas met stralende gele leds die passen bij de halsband.
+IMAGE: Groep protesteerders. Onder hen zijn Ada's moeder die Alan's hand vasthoudt en een roze ijsje omhoog houdt; drie collega's van Toni's vaders in nette kleren met stropdas; twee kinderen die het spandoek "Doe je huiswerk meneer President en wij doen het onze!" omhoog houden; een robot met rupsbanden, strijkijzers als voeten, een elektrische ventilator als borstkast, een monitor als hoofd en een garde als één hand en een blauw ijsje vasthoudend in zijn andere hand; twee ouders die een bord dragen met de tekst "Hacking 4 Freedom"; een dame met een elektronisch bord "There is a code B"; twee kleine vogels die meevliegen; de wiskundelerares Mevrouw Gernet die in haar karretje een bord heeft gestopt met de tekst "Ze zijn jong + hebben de code nodig!". De hond in het karretje blaft; Ada en Bram dragen het spandoek "Don't wreck our tech!". Marie en Toni lopen onder het spandoek en Marie spreekt door een megafoon in haar hand. Ada's familiehond draagt nu een rood harnas met stralende gele leds die passen bij de halsband.
 ]]
 
     ## Groot bord: “Doe je huiswerk meneer President en wij doen het onze!”
@@ -811,7 +811,7 @@ twee kinderen houden een spandoek omhoog "Doe je huiswerk meneer President en wi
 ]]
 [[I:ada-p41
 IMAGE: Detail van de vorige afbeelding:
-Ada en Konrad dragen het spandoek "Don't wreck our tech!" Marie en Toni lopen onder de banner en Marie spreekt door een megafoon in haar hand. Ada's familiehond draagt nu een rood harnas met stralende gele leds die passen bij de halsband.
+Ada en Bram dragen het spandoek "Don't wreck our tech!" Marie en Toni lopen onder de banner en Marie spreekt door een megafoon in haar hand. Ada's familiehond draagt nu een rood harnas met stralende gele leds die passen bij de halsband.
 ]]
     ## Bord leraar: “Ze zijn jong + hebben de code nodig!”
 
@@ -857,7 +857,7 @@ gebeurde er wat! Hun lange protest was het waard.
 [[I:ada-p43
 IMAGE: Ada en haar vrienden in het kantoor van de president. Ada herprogrammeert de computer van de president.
 Toni installeert een luidspreker voor de secretaresse van de president.
-Marie en Konrad zitten op de vloer en praten, en Marie heeft een laptop op schoot met een sticker van het logo van de FSFE (drie sterren: erwtengroen, hemelblauw en zeeblauw).
+Marie en Bram zitten op de vloer en praten, en Marie heeft een laptop op schoot met een sticker van het logo van de FSFE (drie sterren: erwtengroen, hemelblauw en zeeblauw).
 Op de vlire staat een schaal moet snoep en een schaal met ijsjes.
 De telefoon van de president rinkelt, maar niemand antwoordt.
 ]]
@@ -869,7 +869,7 @@ Het was Zangemann. Hij was woedender dan ooit. “Zonder mij zullen de
 computers van de regering niet langer werken,” dreigde hij. Maar de 
 president hield het gesprek kort en hing snel op. De telefoon rinkelde 
 nog veel vaker die dag, maar niemand nam op. De president zat samen met 
-Ada, Toni, Marie, Konrad en experts van de regering in een bespreking.
+Ada, Toni, Marie, Bram en experts van de regering in een bespreking.
 
 [[I:ada-p44
 IMAGE: Een boodschapper, die een hoed met pluim draagt, speelt ene trompet waaraan een rood vaandel hangt.
@@ -899,7 +899,7 @@ zich daarbij aan de andere wetten houdt.”
 Bovendien werd een nieuw schoolvak ingevoerd: computerhardware en 
 -software
 [[I:ada-p45
-IMAGE: De president met Toni, Konrad, Marie, Ada en een boodschapper die op de trompet speelt.
+IMAGE: De president met Toni, Bram, Marie, Ada en een boodschapper die op de trompet speelt.
 Marie staat op een huishoudtrap en spreekt in een microfoon.
 Conrad houdt de trap stevig vast waarop Marie staat.
 Ads staat op een stoel en houdt een kopie van de nieuwe wet vast met een zegel erop.
@@ -909,7 +909,7 @@ Ada's hond zit voor haar.
 ## 46 ##
 ==== Slide 24
 Die avond vierde iedereen samen een groot feest. Ada, Alan, Toni, Marie, 
-Konrad, de andere kinderen van school en hun ouders, de president, 
+Bram, de andere kinderen van school en hun ouders, de president, 
 mevrouw Gernet, de buschauffeur, de conciërge: ze waren er allemaal 
 bij. Ze versierden de straten, luisterden naar luide muziek en aten ijs 
 zoveel als ze wilden en in elke denkbare vorm en kleur.
@@ -926,13 +926,13 @@ Ada's moeder danst met een meneer.
 ** 47 **
 
 Terwijl anderen tot laat in de nacht bleven feesten, knepen Ada, Toni, 
-Marie en Konrad ertussenuit naar hun werkplaats. Ze hadden al veel 
+Marie en Bram ertussenuit naar hun werkplaats. Ze hadden al veel 
 ideeën voor nieuwe uitvindingen. En ze wilden er direct mee beginnen.
 [[I:ada-p47
 IMAGE: De president, de secretaresse en andere mensen zitten om een tafel en genieten van gekke ijsjes.
 De lijn met gele en oranje vlaggetjes loopt door van de vorige afbeelding.
 Een klein meisje heeft net haar roze geestvormig ijsje uit de aangepaste ijsjesmachine gehaald.
-Ada's hond, Konrad, marie, Ada en Toni sluipen weg van het feest.
+Ada's hond, Bram, marie, Ada en Toni sluipen weg van het feest.
 ]]
 
 ## 48 ##
