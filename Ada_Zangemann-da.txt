@@ -19,7 +19,7 @@ Oversat til dansk af Øjvind Fritjof Arnfred
 
 ## 2 ##
 
-Denne bog er oversat fra den tyske original, "Ada und Zangemann" 
+Denne bog er oversat fra den tyske original, “Ada und Zangemann” 
 med skæven til den italienske oversættelse, og stilles til rådighed 
 under Create Commons CC-BY-SA, som er en licens for fri kultur. 
 Se https://creativecommons.org/licenses/by-sa/4.0/deed.da
@@ -41,7 +41,7 @@ illustratorens biografier; alternativt skal du helt udelade disse dele
 fra din tilpassede version.
 
 Det var muligt at udgive bogen under denne frie licens takket være den 
-eksemplariske støtte fra dpunkt.verlag / O'Reilly for den tyske udgave 
+eksemplariske støtte fra dpunkt.verlag / O’Reilly for den tyske udgave 
 og No Starch Press for den engelske. Creative Commons-licenser er 
 desværre stadig en sjælden undtagelse for kommercielle bogudgivelser, og 
 mange forlæggere betragter dem som revolutionerende og risikable. 
@@ -92,7 +92,7 @@ papir i hele verden der var stort nok til at man kunne skrive på det
 hvor mange penge han havde. Ikke engang hvis man skrev tallet med småt! 
 Zangemann boede i et kæmpestort hus med en svømmepøl og en 
 vandrutchebane, massevis af trapper og tårne, hundredevis af vinduer og 
-så mange værelser, at han selv tit for vild i dem.
+så mange værelser, at han selv tit for vild i dem. 
 Hans palæ stod på en høj bakke. Derfra kunne han se ud over hele byen.
 
 ## 6 ##
@@ -100,7 +100,7 @@ Hans palæ stod på en høj bakke. Derfra kunne han se ud over hele byen.
 [Z]angemann havde været fascineret af computere, siden han var barn. Da 
 han var ung, var computere store maskiner med masser af kabler og 
 støjende blæsere. I skolen drømte lille Zangemann ofte om alle de ting, 
-han ville gøre med computere, hvis de bare var en lille smule mindre. Så
+han ville gøre med computere, hvis de bare var en lille smule mindre. Så 
 små, at de kunne bygges ind i andre sjove ting. Han vidste lige, hvad 
 han ville gøre med dem. Først ville han bygge en computer ind i sit 
 skateboard, så det kunne sige seje lyde, når han kørte på det - måske 
@@ -148,7 +148,7 @@ Heldigvis boede Ada lige ved siden af lossepladsen. Der var masser af
 ødelagte apparater og rustne reservedele, som hun byggede seje ting med: 
 en sæbekassebil, som hun og lillebror Alan kørte ned af bakken i; og en 
 vindmølle og nogle uhyggelige skraldemonstre, som de sammen kunne slås mod. 
-Hun fandt også mange ting, der stadig fungerede: En gammel
+Hun fandt også mange ting, der stadig fungerede: En gammel 
 mobiltelefon, for eksempel. Skærmen var smadret, men det kunne hun 
 ordne. Der var godt nok ikke noget internet på lossepladsen, men det 
 kunne hun få adgang til andre steder.
@@ -207,12 +207,12 @@ og nyde sine seje apparater.
 
 “Måske kan en lille tur endda give mig et par nye ideer. Hvis jeg skal 
 være helt ærlig, var mine sidste opfindelser ikke helt så brugbare som 
-de første...”, tænkte Zangemann. “Men mine ismaskiner er og bliver 
+de første…”, tænkte Zangemann. “Men mine ismaskiner er og bliver 
 uforlignelige,” tænkte han lige bagefter med en vis stolthed, da han gik 
 forbi en gruppe mennesker, der alle sammen stod og spiste kokosis, som 
 var dagens smag.
 
-Han var helt opslugt af sine egne tanker, da pludselig - BUMP! -  noget 
+Han var helt opslugt af sine egne tanker, da pludselig - BUMP! - noget 
 kørte ind i hans skinneben for fuld kraft.
 
 ** 15 **
@@ -315,7 +315,7 @@ mobiltelefon til en lille LED-pære. Så skrev hun den programkode, som
 hun havde noteret ned, ind på mobiltelefonen.
 
 Først skete der ikke noget. Ada undrede sig over, hvor fejlen kunne 
-være. Hun lavede et par små forandringer og... “Jaaaaa!”. Den lille 
+være. Hun lavede et par små forandringer og… “Jaaaaa!”. Den lille 
 pære begyndte at blinke. Tændt, slukket, tændt, slukket. Ada så 
 begejstret på LED-pæren. Hun havde skrevet sit første program!
 
@@ -330,7 +330,7 @@ efter, at han var faldet i søvn.
 
 Ada havde også en idé til det næste program, hun ville skrive. Det var 
 en større sag. Et rigtigt projekt. Hun ville nok være nødt til at bruge 
-hele sommerferien på det...  Hun kunne næsten ikke vente!
+hele sommerferien på det…  Hun kunne næsten ikke vente!
 
 ## 24 ##
 
@@ -356,7 +356,7 @@ spille hans yndlingsmusik, når han var i nærheden. Han programmerede
 ismaskinerne til at holde op med at sælge is om eftermiddagen, for han 
 havde ikke lyst til at få grimme ispletter på sit dyre tøj, når han var 
 ude at gå tur. Hele dagen lang sad han ved sin computer og skrev og 
-skrev og skrev...
+skrev og skrev…
 
 ## 26 ##
 
@@ -371,15 +371,13 @@ gang hun startede det. Ligemeget hvad hun prøvede, så kunne hun bare
 ikke få det til at virke.
 
 Efter at være faldet på rumpen for 117. gang vendte hun tilbage til 
-biblioteket. Dér fandt hun altid svar på sine spørgsmål.
-Og sandt nok: 
+biblioteket. Dér fandt hun altid svar på sine spørgsmål. Og sandt nok: 
 På internettet faldt hun over et program, som nogen havde skrevet til et 
 elektrisk løbehjul, der også var nødt til at starte langsomt. Ada 
 downloadede det til sin telefon.
 
 Tilbage på lossepladsen skrev hun et par linjer kode ind i sit 
-skateboardprogram.
-Hun justerede et par ting og arbejdede videre.
+skateboardprogram. Hun justerede et par ting og arbejdede videre.
 
 Flere fejlslagne forsøg senere, på sommerferiens sidste dag, var tiden 
 endelig kommet. Ada stod på skateboardet og trykkede på Kør!-knappen. 
@@ -499,22 +497,19 @@ meget bedre nu. Vi vil ikke lade nogen tage det fra os!”
 
 De samlede sig foran en af deres ombyggede ismaskiner og diskuterede 
 situationen. Det var klart, at der måtte gøres noget med den nye lov, så 
-de lavede en plan...
+de lavede en plan…
 
 ** 39 **
 
 [N]æste dag tog de ikke i skole. I stedet kørte de på deres skateboards 
 ind og satte sig foran parlamentsbygningen med store protestskilte. 
 Aftenen før havde de sat LED-lys på nogen af deres skilte, som nu 
-blinkede klart.
-De havde også koblet deres højtalere sammen, så alle på 
+blinkede klart. De havde også koblet deres højtalere sammen, så alle på 
 gaden kunne høre, hvad de sagde. Nogle forbipasserende stoppede og 
-spurgte børnene, hvad de demonstrerede for.
-
-“For software-frihed!”, svarede børnene i kor og fortalte de voksne hele 
-historien. De voksne nikkede imponerede, og præsidenten kunne ikke lade 
-være med at kigge nysgerrigt på deres skilte, da han ankom til 
-bygningen.
+spurgte børnene, hvad de demonstrerede for. “For software-frihed!”, 
+svarede børnene i kor og fortalte de voksne hele historien. De voksne 
+nikkede imponerede, og præsidenten kunne ikke lade være med at kigge 
+nysgerrigt på deres skilte, da han ankom til bygningen.
 
 Den næste dag satte Ada og hendes venner sig igen ned foran 
 parlamentsbygningen. Denne gang med støtte. Der kom nogle 
@@ -546,8 +541,7 @@ landet.
 [A]da protesterede foran parlamentsbygningen hver uge. Selv når det 
 regnede. Det var på netop sådan en regnvejrsdag, at præsidenten kom 
 forbi gruppen af dryppende våde børn. Han kunne ikke andet end beundre 
-deres stædighed.
-Han spurgte Ada: “Hvorfor sidder I her hver dag? Hvad 
+deres stædighed. Han spurgte Ada: “Hvorfor sidder I her hver dag? Hvad 
 er det, I vil opnå?” Ada svarede: “Vi vil selv bestemme, hvad vi må og 
 ikke må med vores computere.” Hendes venner råbte i kor: “Uden kode er 
 alt ude!, Uden kode er alt ude!” og “Vi vil kende koden! Vi vil kende 
@@ -696,7 +690,7 @@ teknologi giver os frihed i stedet for at begrænse os. Fri software
 dele og forbedre programmer. Derfor støtter Fri Software grundlæggende 
 rettigheder som ytringsfrihed, pressefrihed og retten til privatliv.
 
-På bogens hjemmeside kan du finde mere inspiration og flere ressourcer: 
+På bogens hjemmeside kan du finde mere inspiration og flere ressourcer:  
 https://ada.fsfe.org.
 
 ** 55 **
@@ -725,8 +719,14 @@ https://ada.fsfe.org.
 
 ## 60 ##
 
-[D]en lille pige Ada bor på en skrotplads og elsker at bygge ting. Hun begynder at eksperimentere med hardware og software og bygger blandt andet et selvkørende skateboard med lyd i.
+[D]en lille pige Ada bor på en skrotplads og elsker at bygge ting. Hun 
+begynder at eksperimentere med hardware og software og bygger blandt 
+andet et selvkørende skateboard med lyd i.
 
-Da den rige opfinder Zangemann en dag stiller en supercomputer op i sin villa for at bestemme over alle de dimser, han har solgt til folk i landet, tager Ada og hendes venner kampen op for at sikre softwarefrihed for alle.
+Da den rige opfinder Zangemann en dag stiller en supercomputer op i 
+sin villa for at bestemme over alle de dimser, han har solgt til folk 
+i landet, tager Ada og hendes venner kampen op for at sikre 
+softwarefrihed for alle.
 
-Ada & Zangemann er en inspirerende børnebog for de 6-106 årige om at bruge, undersøge, dele og forbedre teknologien omring os.
+Ada & Zangemann er en inspirerende børnebog for de 6-106 årige om at 
+bruge, undersøge, dele og forbedre teknologien omring os.
