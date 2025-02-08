@@ -801,7 +801,7 @@ het land werd gedemonstreerd.
 IMAGE: Groep protesteerders. Onder hen zijn Ada's moeder die Alan's hand vasthoudt en een roze ijsje omhoog houdt; drie collega's van Toni's vaders in nette kleren met stropdas; twee kinderen die het spandoek "Doe je huiswerk meneer President en wij doen het onze!" omhoog houden; een robot met rupsbanden, strijkijzers als voeten, een elektrische ventilator als borstkast, een monitor als hoofd en een garde als één hand en een blauw ijsje vasthoudend in zijn andere hand; twee ouders die een bord dragen met de tekst "Hacking 4 Freedom"; een dame met een elektronisch bord "There is a code B"; twee kleine vogels die meevliegen; de wiskundelerares Mevrouw Gernet die in haar karretje een bord heeft gestopt met de tekst "Ze zijn jong + hebben de code nodig!". De hond in het karretje blaft; Ada en Bram dragen het spandoek "Don't wreck our tech!". Marie en Toni lopen onder het spandoek en Marie spreekt door een megafoon in haar hand. Ada's familiehond draagt nu een rood harnas met stralende gele leds die passen bij de halsband.
 ]]
 
-    ## Groot bord: “Doe je huiswerk meneer President en wij doen het onze!”
+	## Groot bord: “Doe je huiswerk meneer President en wij doen het onze!”
 
 ** 41 **
 
@@ -813,9 +813,9 @@ twee kinderen houden een spandoek omhoog "Doe je huiswerk meneer President en wi
 IMAGE: Detail van de vorige afbeelding:
 Ada en Bram dragen het spandoek "Don't wreck our tech!" Marie en Toni lopen onder de banner en Marie spreekt door een megafoon in haar hand. Ada's familiehond draagt nu een rood harnas met stralende gele leds die passen bij de halsband.
 ]]
-    ## Bord leraar: “Ze zijn jong + hebben de code nodig!”
+	## Bord leraar: “Ze zijn jong + hebben de code nodig!”
 
-    ## Middelgroot bord: “Zonder code is alles saai!”
+	## Middelgroot bord: “Zonder code is alles saai!”
 
 ## 42 ##
 
