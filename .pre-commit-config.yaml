@@ -28,6 +28,7 @@ repos:
     - id: proselint
       files: '.*\.md$'
 - repo: https://github.com/markdownlint/markdownlint
+  # Rule documentation: https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md
   rev: v0.13.0
   hooks:
     - id: markdownlint

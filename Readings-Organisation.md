@@ -19,7 +19,7 @@ Translations available: [Portuguese](Readings-Organisation_PT_pt.md)
 * Have some stickers and other material with you for the audience. You
   can order it free of charge [from the FSFE](https://fsfe.org/promo),
   just mention there you do an Ada & Zangemann reading and how many
-  attendants you expect. 
+  attendants you expect.
 
 ## Considerations for the location
 
@@ -48,35 +48,35 @@ Translations available: [Portuguese](Readings-Organisation_PT_pt.md)
 ### After finishing the story
 
 * Brief interaction:
-  * To break the ice, you can ask them about their favourite ice cream
-    and what they would like to invent for the future. 
+   * To break the ice, you can ask them about their favourite ice cream
+     and what they would like to invent for the future.
 * Medium interactions:
-  * There were also interesting discussions when you asked them what
-    computers they know (computers in loudspeakers, phones, laptops,
-    cars, planes, elevators, ... -- you could show the double page with
-    the different Zangemann devices), if they experienced problems with
-    computers in the past, and how they dealt with those problems.
+   * There were also interesting discussions when you asked them what
+     computers they know (computers in loudspeakers, phones, laptops,
+     cars, planes, elevators, ... -- you could show the double page with
+     the different Zangemann devices), if they experienced problems with
+     computers in the past, and how they dealt with those problems.
 * Longer interactions. Ask them how they would feel in the following
   situations:
-  * Someone else builds a house of bricks. You realise there is a 
-    brick missing in the house which makes it unstable, and you would
-    like to fix it. But the other child does not allow you to do so. How
-    do you feel about it?
-  * Someone else builds a fantastic machine to sort bricks. You would
-    also love to build such a machine, but the other child does not want
-    to tell you how it was done. 
-  * You build a mansion with bricks, it is awesome, and the other
-    children also love it. While you are out of the room, another child
-    builds a great additional tower for the mansion. It is now even
-    greater than before and the other children are also very impressed. 
-  * If someone could share something with you, while they could also
-    still posses it themselves, would it be OK for the other person not
-    to share the thing with you? 
-* Exercises: 
-  * Ask the children to write a letter to Zangemann and tell him how you
-    feel about his behaviour. We [published a list of letters for which
-    the parents and the teacher gave us an
-    approval](https://fsfe.org/activities/ada-zangemann/letters.html).
-    If your children also want to write a letter to Zangemann, please
-    send us your letter, let us know if you are OK with us publishing
-    it, and we will ensure he gets it! 
+   * Someone else builds a house of bricks. You realise there is a
+     brick missing in the house which makes it unstable, and you would
+     like to fix it. But the other child does not allow you to do so. How
+     do you feel about it?
+   * Someone else builds a fantastic machine to sort bricks. You would
+     also love to build such a machine, but the other child does not want
+     to tell you how it was done.
+   * You build a mansion with bricks, it is awesome, and the other
+     children also love it. While you are out of the room, another child
+     builds a great additional tower for the mansion. It is now even
+     greater than before and the other children are also very impressed.
+   * If someone could share something with you, while they could also
+     still posses it themselves, would it be OK for the other person not
+     to share the thing with you?
+* Exercises:
+   * Ask the children to write a letter to Zangemann and tell him how you
+     feel about his behaviour. We [published a list of letters for which
+     the parents and the teacher gave us an
+     approval](https://fsfe.org/activities/ada-zangemann/letters.html).
+     If your children also want to write a letter to Zangemann, please
+     send us your letter, let us know if you are OK with us publishing
+     it, and we will ensure he gets it!

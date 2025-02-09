@@ -75,6 +75,6 @@ directory.
 Example usage:
 
 ```shell
-$ ./new-color.sh E-brown.png
-$ ./new-color.sh Shta-red3.png
+./new-color.sh E-brown.png
+./new-color.sh Shta-red3.png
 ```

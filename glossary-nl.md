@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Nico Rikken <nico.rikken@fsfe.org>
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Glossary NL
 
 | English      | Dutch           |
@@ -11,4 +17,3 @@
 | City         | Stad            |
 | Speaker      | Luidspreker     |
 | reprogrammed | herprogrammeerd |
-
