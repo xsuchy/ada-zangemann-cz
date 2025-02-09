@@ -34,3 +34,11 @@ using automated tools.
 **Perl** files can be formatted using
 [perltidy](https://metacpan.org/dist/Perl-Tidy/view/bin/perltidy) available in
 most package repositories.
+
+## Pre-commit checks
+
+A configuration is available for the pre-commit framework. See the installation
+guide on the [pre-commit website](https://pre-commit.com/).
+
+Typically the checks are run every git commit. The automatic checks can be
+ignored uign the `--no-verify` flag on the git commit command.
