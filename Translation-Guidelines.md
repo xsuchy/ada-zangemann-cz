@@ -118,13 +118,13 @@ Some hints on how the scripting deals with the translation file:
 * A line break in the source file does not always represent a line break in the
   Scribus book output.
 
-* When a line ends with a trailing space it considere a continuation of the same
-  line. So if you to use a line break in your source file for readibility but
-  don't want it to show up in the render, then make sure the line has a trailing
-  space.
+* When a line ends with a trailing space it is considered a continuation of the
+  same line. So if you to use a line break in your source file for readability
+  but don't want it to show up in the render, then make sure the line has a
+  trailing space.
 
 * Explicit line breaks can be inserted by having a line end with two spaces. This
-  is used to controle line wrapping to prevent text over the images on page 19
+  is used to control line wrapping to prevent text over the images on page 19
   and 44.
 
 * Some pages start with a drawn capital letter. This is signified in the source

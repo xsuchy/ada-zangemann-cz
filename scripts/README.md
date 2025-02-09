@@ -154,7 +154,7 @@ This is not a script to be run directly. It is a script that can be called from
 Scribus to automatically generate a pdf file. This process is automated in the
 to_pdf.sh script.
 
-## Compatiblity and development
+## Compatibility and development
 
 There is currently no versioning of scripts and source texts. Changes in scripts
 are combined with changes in source texts and templates. Translations should be

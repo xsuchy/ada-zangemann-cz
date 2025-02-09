@@ -39,7 +39,7 @@ language are placed in the language directory.
 
 Different pages use different colors for the capitals.
 
-Some publishers and priting services are not able to handle transparency, which
+Some publishers and printing services are not able to handle transparency, which
 is why a background color is required. For most pages the background color is
 full white.
 

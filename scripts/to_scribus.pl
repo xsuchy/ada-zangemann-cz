@@ -572,7 +572,7 @@ elsif ( $format == $ODP ) {    # Presentation
     # Opening template content file:
     if ( !open( T, "$tmpdir/content.xml" ) ) {
         print STDERR
-"Could not open 'content.xml' file from template.\nPlease check that the template file is readeable\nand it is an OpenDocument Presentation zip file\n";
+"Could not open 'content.xml' file from template.\nPlease check that the template file is readable\nand it is an OpenDocument Presentation zip file\n";
         system("rm -rf $tmpdir");
         exit(4);
     }

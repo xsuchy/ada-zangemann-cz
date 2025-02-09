@@ -21,7 +21,7 @@ infrastructure. Your financial contribution will strengthen the solid foundation
 on which we are building our charitable work for freedom in the information
 society.
 
-Alteratively you can reach out to the FSFE with your contribution. We will work
+Alternatively you can reach out to the FSFE with your contribution. We will work
 with you to get the contributions merged. Whether this is a file attached to an
 email or an external git repository from which commits can be picked.
 
