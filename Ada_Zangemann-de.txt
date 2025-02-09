@@ -508,7 +508,7 @@ zahlen!«
 
 
 ## 38 ##
-
+==== Slide 20
 Als Ada und ihre Freunde davon hörten, wurden sie richtig wütend. »Das 
 ist so ungerecht. Unsere Skateboards haben wir selbst umgebaut und 
 umprogrammiert. Sie sind jetzt viel besser. Das lassen wir uns von 
@@ -610,7 +610,7 @@ Idee, die Telefone umzuprogrammieren.
 Wenn Zangemann anrief, hörte er immer nur eine automatische Ansage: »Die 
 Regierung möchte nur noch Software einsetzen, die sie frei verwenden, 
 verstehen, verbreiten und verbessern kann. Danke für Ihren Anruf.«
-
+==== Slide 23
 Nach vielen Wochen war es endlich so weit: Das Parlament schaffte das 
 alte Zangemann-Gesetz ab! Stattdessen wurde verkündet:
 
