@@ -36,4 +36,7 @@ repos:
   hooks:
     - id: codespell
       exclude: '.*\.(txt|sla)$'
-
+- repo: https://github.com/fsfe/reuse-tool/
+  rev: v5.0.2
+  hooks:
+    - id: reuse
