@@ -36,7 +36,11 @@ repos:
   hooks:
     - id: codespell
       exclude: '.*\.(txt|sla)$'
-- repo: https://github.com/fsfe/reuse-tool/
+- repo: https://github.com/fsfe/reuse-tool
   rev: v5.0.2
   hooks:
     - id: reuse
+- repo: https://github.com/perltidy/perltidy
+  rev: "20250105.04"
+  hooks:
+    - id: perltidy
