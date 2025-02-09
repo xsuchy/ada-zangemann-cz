@@ -168,7 +168,7 @@ conditions that respect the FSFE's values.
 ## 2BB ##
 
 <b>Free as in freedom not price</b>
- 
+
 Free Software is about the freedoms you receive with the software, not 
 about the price. Likewise publishing a book under a free culture license 
 does not mean you have the right to get a gratis copy of the book or 
