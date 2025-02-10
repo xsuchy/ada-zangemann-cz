@@ -22,6 +22,14 @@ repos:
       files: '^Ada_Zangemann.*\.txt$'
       entry: '"'
       language: pygrep
+    - id: scribus-version
+      name: Check that Scribus file version 1.5.5 is being used
+      # See https://repology.org/project/scribus/versions when version 1.6.3 is more common to switch
+      types: [text]
+      files: '.*\.sla$'
+      entry: '<SCRIBUSUTF8NEW\ Version=\"1\.5\.5\">'
+      args: [--negate]
+      language: pygrep
 - repo: https://github.com/amperser/proselint
   rev: 0.14.0
   hooks:
