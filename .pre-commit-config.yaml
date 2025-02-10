@@ -1,0 +1,55 @@
+# SPDX-FileCopyrightText: 2025 Nico Rikken
+#
+# SPDX-License-Identifier: CC0-1.0
+repos:
+- repo: local
+  hooks:
+    - id: ellipsis
+      name: Check that three dots are not used, which should be replaced by elipsis
+      types: [text]
+      files: '^Ada_Zangemann.*\.txt$'
+      entry: '\.\.\.'
+      language: pygrep
+    - id: simple-single-quote
+      name: Check that simple single quote is not used, which should be replaced by formatted quotes
+      types: [text]
+      files: '^Ada_Zangemann.*\.txt$'
+      entry: "'"
+      language: pygrep
+    - id: simple-double-quote
+      name: Check that simple double quote is not used, which should be replaced by formatted quotes
+      types: [text]
+      files: '^Ada_Zangemann.*\.txt$'
+      entry: '"'
+      language: pygrep
+    - id: scribus-version
+      name: Check that Scribus file version 1.5.5 is being used
+      # See https://repology.org/project/scribus/versions when version 1.6.3 is more common to switch
+      types: [text]
+      files: '.*\.sla$'
+      entry: '<SCRIBUSUTF8NEW\ Version=\"1\.5\.5\">'
+      args: [--negate]
+      language: pygrep
+- repo: https://github.com/amperser/proselint
+  rev: 0.14.0
+  hooks:
+    - id: proselint
+      files: '.*\.md$'
+- repo: https://github.com/markdownlint/markdownlint
+  # Rule documentation: https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md
+  rev: v0.13.0
+  hooks:
+    - id: markdownlint
+- repo: https://github.com/codespell-project/codespell
+  rev: v2.4.1
+  hooks:
+    - id: codespell
+      exclude: '.*\.(txt|sla)$'
+- repo: https://github.com/fsfe/reuse-tool
+  rev: v5.0.2
+  hooks:
+    - id: reuse
+- repo: https://github.com/perltidy/perltidy
+  rev: "20250105.04"
+  hooks:
+    - id: perltidy

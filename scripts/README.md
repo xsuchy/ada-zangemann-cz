@@ -30,8 +30,8 @@ be directed to a file in order to write to disk.
 Example of rendering a Scribus file
 
 ```shell
-$ cd Book/en/
-$ ./to_scribus.pl Ada_Zangemann-en.txt template-print.sla > rendered-print.sla
+cd Book/en/
+./to_scribus.pl Ada_Zangemann-en.txt template-print.sla > rendered-print.sla
 ```
 
 ## Scripts overview
@@ -68,7 +68,7 @@ is determined by replacing the file extension to .pdf. Scribus will show a user
 interface while doing the conversion.
 
 ```shell
-$ ./to_pdf.sh ../Book/nl/nl-screen.sla
+./to_pdf.sh ../Book/nl/nl-screen.sla
 ```
 
 ### png_from_pdf.sh
@@ -79,7 +79,7 @@ translation when changes have been made. it is intended for use from the
 Makefile.
 
 ```shell
-$ ./png_from_pdf.sh en-print-08.png  # to render page 8 of en-print.pdf
+./png_from_pdf.sh en-print-08.png  # to render page 8 of en-print.pdf
 ```
 
 ### unwrapada.pl
@@ -88,7 +88,7 @@ Remove hard line breaks so that each paragraph is on a single line. This unwraps
 hard line breaks preceded by a space.
 
 ```shell
-$ ./unwrapada.pl Ada_Zangemann-en.txt > Ada_Zangemann-en-unwrapped.txt
+./unwrapada.pl Ada_Zangemann-en.txt > Ada_Zangemann-en-unwrapped.txt
 ```
 
 This script can be used together with another regex to have each sentence on a
@@ -96,7 +96,7 @@ separate line. This can help to compare different languages sentence by
 sentence.
 
 ```shell
-$ cat Ada_Zangemann-en.txt | scripts/./unwrapada.pl | sed 's/\.\s/\.\n/g' > Ada_Zangemann-en-sl.txt
+cat Ada_Zangemann-en.txt | scripts/./unwrapada.pl | sed 's/\.\s/\.\n/g' > Ada_Zangemann-en-sl.txt
 ```
 
 ### wrapada.pl
@@ -105,7 +105,7 @@ Add hard line breaks in lines to limited the length. Each line is wrapped on a
 whole word to stay in a length of maximum 72 characters.
 
 ```shell
-$ scripts/wrapada.pl Ada_Zangemann-en.txt > Ada_Zangemann-en-wrapped.txt
+scripts/wrapada.pl Ada_Zangemann-en.txt > Ada_Zangemann-en-wrapped.txt
 ```
 
 Line breaks with a preceding space signify a continuation of the paragraph.
@@ -114,7 +114,7 @@ change the line breaks inside paragraphs, the unwrapdata.pl and wrapada.pl
 scripts can be combined:
 
 ```shell
-$ cat Ada_Zangemann-en.txt | scripts/./unwrapada.pl | scripts/./wrapada.pl > Ada_Zangemann-en-wrapped.txt
+cat Ada_Zangemann-en.txt | scripts/./unwrapada.pl | scripts/./wrapada.pl > Ada_Zangemann-en-wrapped.txt
 ```
 
 ### Makefile
@@ -124,10 +124,10 @@ each output file a job has been defined. All available output jobs can be
 called using the 'make all' command. Some examples:
 
 ```shell
-$ make help
-$ make clean
-$ make nl-screen.sla
-$ make all
+make help
+make clean
+make nl-screen.sla
+make all
 ```
 
 #### Image comparison
@@ -135,15 +135,15 @@ $ make all
 First generate a base set of images to compare against, before the change:
 
 ```shell
-$ make all-png
-$ make compare-base
+make all-png
+make compare-base
 ```
 
 Then do the change, like adjusting the template or translation. Generate the
 .png files and generate a comparison:
 
 ```shell
-$ make compare
+make compare
 ```
 
 The resulting images and log file can be found in the `compare-result` directory.
@@ -154,7 +154,7 @@ This is not a script to be run directly. It is a script that can be called from
 Scribus to automatically generate a pdf file. This process is automated in the
 to_pdf.sh script.
 
-## Compatiblity and development
+## Compatibility and development
 
 There is currently no versioning of scripts and source texts. Changes in scripts
 are combined with changes in source texts and templates. Translations should be

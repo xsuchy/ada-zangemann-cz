@@ -20,7 +20,7 @@ not able to output an ordered pdf that is set up for booklet printing.
 Creating a booklet pdf from the Scribus pdf output can be done using additional
 programs. One such program is [PDF Mix Tool](https://scarpetta.eu/pdfmixtool/).
 Using such software you can generate a pdf that has two pages on a single page,
-intended for the tsack to be stapled or sown throught the middle of the paper.
+intended for the tsack to be stapled or sown through the middle of the paper.
 
 When printing, make sure to select double sided printing when available and to
 configure double sided according for the right orientation (short side).

@@ -46,7 +46,7 @@ $(lang)-coverhard-%.png: $(lang)-coverhard.pdf
 	$(scripts-dir)/./png_from_pdf.sh $@
 
 # Generate all .png files and copy them to a separate directory to compare against.
-# Defined as a PHONY target to ensure concious creation.
+# Defined as a PHONY target to ensure conscious creation.
 # A log file is generate with some useful details on the state of the repository.
 
 .PHONY: compare-base

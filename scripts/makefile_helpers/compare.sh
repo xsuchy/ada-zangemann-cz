@@ -32,7 +32,7 @@ for filename in "${@}" ; do
         continue
     fi
 
-    # Run the compare command to generate a comparision image and store the
+    # Run the compare command to generate a comparison image and store the
     # metrics in a .metrics file
     compare "${base}" "compare-base/${base}" -verbose -metric AE "compare-result/${base}" &> compare-result/${base/.png/.metrics}
 
