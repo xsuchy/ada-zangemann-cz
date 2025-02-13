@@ -53,3 +53,8 @@ repos:
   rev: "20250105.04"
   hooks:
     - id: perltidy
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: "v5.0.0"
+  hooks:
+    - id: mixed-line-ending
+      args: [--fix=lf]
