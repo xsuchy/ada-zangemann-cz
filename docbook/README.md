@@ -193,6 +193,7 @@ illustrations/ada-p03-title-de.png  # Hand-drawn title page for German (default 
 - In Scribus different illustrations are needed depending on the output variant. This can be managed inside the templating using A) conditions in Docbook, or B) conditions in Scribus using multiple images, or C) placing the correct image on the expected location outside of the templating.
 - Rather than adjusting line spacing for fonts for all outputs, it might be easier to change the font file.
 - The handdrawn subtitle fonts be converted to a font for easier editing. There are some bitmap font formats, that use bitmaps instead of vectors. Another option is to trace bitmaps into vector images as modern font files use vectors. FontForge has [suggestions for how to trace bitmaps into fonts](https://fontforge.org/docs/techref/autotrace.html). The [GNU Typewriter font](https://fontlibrary.org/en/font/gnutypewriter) can be seen as an example of a pixelated font with grain that is converted to a vector format.
+- In a new Scribus file styles are created by default: "Default Character Style", "Default Paragraph Style", etc. The same goes for colors: "Black", "Cool Black", etc. It would be good to default to a naming convention of Capitalisation with spaces.
 
 ### Request for feedback
 

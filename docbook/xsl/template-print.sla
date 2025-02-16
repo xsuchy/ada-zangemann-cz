@@ -41,33 +41,33 @@
         <COLOR NAME="capital-yellow2" SPACE="RGB" R="253" G="221" B="102"/>
         <HYPHEN/>
         <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Heebo Regular" FONTSIZE="12" FONTFEATURES="-clig,-liga" FEATURES="inherit" FCOLOR="Black" FSHADE="100" HyphenWordMin="3" SCOLOR="Black" BGCOLOR="None" BGSHADE="100" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
-        <CHARSTYLE CNAME="PageNumber" FONT="Heebo Bold" FONTSIZE="10"/>
-        <CHARSTYLE CNAME="Credits" FONTSIZE="9"/>
+        <CHARSTYLE CNAME="PageNumber" CPARENT="Default Character Style" FONT="Heebo Bold" FONTSIZE="10"/>
+        <CHARSTYLE CNAME="Credits" CPARENT="Default Character Style" FONTSIZE="9"/>
         <CHARSTYLE CNAME="Heading" FONT="Amatic SC Bold" FONTSIZE="50" FONTFEATURES="-clig,-liga" FCOLOR="Details"/>
         <CHARSTYLE CNAME="Acknowledgments" CPARENT="Heading" FCOLOR="Acknowledgements"/>
-        <CHARSTYLE CNAME="titlepage-subtitle" FONT="Delicious-Handrawn Regular" FONTSIZE="30" FCOLOR="Titles"/>
-        <CHARSTYLE CNAME="capital" FONT="Yuji Syuku Regular" FONTSIZE="12" FONTFEATURES="-clig" LANGUAGE="en_US"/>
-        <CHARSTYLE CNAME="capital-brown" CPARENT="capital" FCOLOR="capital-brown"/>
-        <CHARSTYLE CNAME="capital-cyan" CPARENT="capital" FCOLOR="capital-cyan"/>
-        <CHARSTYLE CNAME="capital-fucsia" CPARENT="capital" FCOLOR="capital-fucsia"/>
-        <CHARSTYLE CNAME="capital-green" CPARENT="capital" FCOLOR="Green"/>
-        <CHARSTYLE CNAME="capital-lightcyan" CPARENT="capital" FCOLOR="capital-lightcyan"/>
-        <CHARSTYLE CNAME="capital-olive" CPARENT="capital" FCOLOR="capital-olive"/>
-        <CHARSTYLE CNAME="capital-pink" CPARENT="capital" FCOLOR="capital-pink"/>
-        <CHARSTYLE CNAME="capital-red1" CPARENT="capital" FCOLOR="capital-red1"/>
-        <CHARSTYLE CNAME="capital-red2" CPARENT="capital" FCOLOR="capital-red2"/>
-        <CHARSTYLE CNAME="capital-red3" CPARENT="capital" FCOLOR="capital-red3"/>
-        <CHARSTYLE CNAME="capital-violet" CPARENT="capital" FCOLOR="capital-violet"/>
-        <CHARSTYLE CNAME="capital-yellow" CPARENT="capital" FCOLOR="capital-yellow"/>
-        <CHARSTYLE CNAME="capital-yellow2" CPARENT="capital" FCOLOR="capital-yellow2"/>
+        <CHARSTYLE CNAME="Titlepage Subtitle" FONT="Delicious-Handrawn Regular" FONTSIZE="30" FCOLOR="Titles"/>
+        <CHARSTYLE CNAME="Capital" FONT="Yuji Syuku Regular" FONTSIZE="12" FONTFEATURES="-clig" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="Capital Brown" CPARENT="Capital" FCOLOR="capital-brown"/>
+        <CHARSTYLE CNAME="Capital Cyan" CPARENT="Capital" FCOLOR="capital-cyan"/>
+        <CHARSTYLE CNAME="Capital Fucsia" CPARENT="Capital" FCOLOR="capital-fucsia"/>
+        <CHARSTYLE CNAME="Capital Green" CPARENT="Capital" FCOLOR="Green"/>
+        <CHARSTYLE CNAME="Capital Lightcyan" CPARENT="Capital" FCOLOR="capital-lightcyan"/>
+        <CHARSTYLE CNAME="Capital Olive" CPARENT="Capital" FCOLOR="capital-olive"/>
+        <CHARSTYLE CNAME="Capital Pink" CPARENT="Capital" FCOLOR="capital-pink"/>
+        <CHARSTYLE CNAME="Capital Red 1" CPARENT="Capital" FCOLOR="capital-red1"/>
+        <CHARSTYLE CNAME="Capital Red 2" CPARENT="Capital" FCOLOR="capital-red2"/>
+        <CHARSTYLE CNAME="Capital Red 3" CPARENT="Capital" FCOLOR="capital-red3"/>
+        <CHARSTYLE CNAME="Capital Violet" CPARENT="Capital" FCOLOR="capital-violet"/>
+        <CHARSTYLE CNAME="Capital Yellow" CPARENT="Capital" FCOLOR="capital-yellow"/>
+        <CHARSTYLE CNAME="Capital Yellow 2" CPARENT="Capital" FCOLOR="capital-yellow2"/>
         <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" DIRECTION="0" LINESPMode="1" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" HyphenConsecutiveLines="2" BCOLOR="None" BSHADE="100"/>
         <STYLE NAME="ListStyle" INDENT="33.0207874015748" FIRST="-17.0107086614173" FONTSIZE="10">
             <Tabs Type="0" Pos="33.0207874015748" Fill=""/>
         </STYLE>
-        <STYLE NAME="CreditsPar" LINESPMode="0" LINESP="11" CPARENT="Credits"/>
-        <STYLE NAME="titlepage-subtitle" ALIGN="1" LINESPMode="0" LINESP="20" CPARENT="titlepage-subtitle"/>
-        <STYLE NAME="acknowledgments" CPARENT="Acknowledgments"/>
-        <STYLE NAME="details" CPARENT="Heading"/>
+        <STYLE NAME="CreditsPar" PARENT="Default Paragraph Style" LINESPMode="0" LINESP="11"/>
+        <STYLE NAME="Details" CPARENT="Heading"/>
+        <STYLE NAME="Titlepage Subtitle" ALIGN="1" LINESPMode="0" LINESP="20" CPARENT="itlepage-subtitle"/>
+        <STYLE NAME="Acknowledgments" CPARENT="Acknowledgments"/>
         <TableStyle NAME="Default Table Style" DefaultStyle="1" FillColor="None" FillShade="100">
             <TableBorderLeft>
                 <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
@@ -1187,7 +1187,7 @@
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="170.866771653543" YPOS="15975.5839370079" OwnPage="49" ItemID="2112356647" PTYPE="4" WIDTH="439.370078740158" HEIGHT="42.5196850393701" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" copath="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" gXpos="170.866771653543" gYpos="15975.5839370079" gWidth="0" gHeight="0" PSTYLE="acknowledgments" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
-                <DefaultStyle PARENT="acknowledgments"/>
+                <DefaultStyle PARENT="Acknowledgments"/>
                 <ITEXT CH="Acknowledgments"/>
                 <trail/>
             </StoryText>
@@ -1198,7 +1198,7 @@
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="170.866771653543" YPOS="16610.8592125984" OwnPage="51" ItemID="2112373095" PTYPE="4" WIDTH="439.370078740158" HEIGHT="42.5196850393701" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" copath="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" gXpos="170.866771653543" gYpos="16610.8592125984" gWidth="0" gHeight="0" PSTYLE="details" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
-                <DefaultStyle PARENT="details"/>
+                <DefaultStyle PARENT="Details"/>
                 <ITEXT CH="About the author"/>
                 <trail/>
             </StoryText>
@@ -1209,7 +1209,7 @@
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="785.984881889764" YPOS="16610.8592125984" OwnPage="52" ItemID="2112460695" PTYPE="4" WIDTH="433.700787401575" HEIGHT="42.5196850393701" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L433.701 0 L433.701 42.5197 L0 42.5197 L0 0 Z" copath="M0 0 L433.701 0 L433.701 42.5197 L0 42.5197 L0 0 Z" gXpos="785.984881889763" gYpos="16610.8592125984" gWidth="0" gHeight="0" PSTYLE="details" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
-                <DefaultStyle PARENT="details"/>
+                <DefaultStyle PARENT="Details"/>
                 <ITEXT CH="About the illustrator"/>
                 <trail/>
             </StoryText>
@@ -1220,7 +1220,7 @@
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="170.866771653543" YPOS="17240.4651968504" OwnPage="53" ItemID="2112437287" PTYPE="4" WIDTH="439.370078740158" HEIGHT="42.5196850393701" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" copath="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" gXpos="170.866771653542" gYpos="17240.4651968504" gWidth="0" gHeight="0" PSTYLE="details" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
-                <DefaultStyle PARENT="details"/>
+                <DefaultStyle PARENT="Details"/>
                 <ITEXT CH="Book's website"/>
                 <trail/>
             </StoryText>
@@ -1231,7 +1231,7 @@
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="170.866771653543" YPOS="17540.9376377953" OwnPage="53" ItemID="2112445703" PTYPE="4" WIDTH="439.370078740158" HEIGHT="42.5196850393701" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" copath="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" gXpos="170.866771653542" gYpos="17540.9376377953" gWidth="0" gHeight="0" PSTYLE="details" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
-                <DefaultStyle PARENT="details"/>
+                <DefaultStyle PARENT="Details"/>
                 <ITEXT CH="License"/>
                 <trail/>
             </StoryText>
@@ -1242,13 +1242,13 @@
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="800.158110236221" YPOS="967.087559055118" OwnPage="2" ItemID="2112536935" PTYPE="4" WIDTH="396.850393700787" HEIGHT="113.385826771654" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L396.85 0 L396.85 113.386 L0 113.386 L0 0 Z" copath="M0 0 L396.85 0 L396.85 113.386 L0 113.386 L0 0 Z" gXpos="800.158110236221" gYpos="967.087559055118" gWidth="0" gHeight="0" PSTYLE="titlepage-subtitle" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
-                <DefaultStyle PARENT="titlepage-subtitle"/>
+                <DefaultStyle PARENT="Titlepage Subtitle"/>
                 <ITEXT CH="A Tale of"/>
                 <para/>
                 <ITEXT CH="Software, Skateboards, and"/>
                 <para/>
                 <ITEXT CH="Raspberry ice Cream"/>
-                <trail PARENT="titlepage-subtitle"/>
+                <trail PARENT="Titlepage Subtitle"/>
             </StoryText>
             <PageItemAttributes>
                 <ItemAttribute Name="docbook-id" Type="string" Value="subtitle-titlepage" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
@@ -1257,7 +1257,7 @@
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="170.866771653543" YPOS="16664.717480315" OwnPage="51" ItemID="2112564039" PTYPE="4" WIDTH="439.370078740158" HEIGHT="42.5196850393701" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" copath="M0 0 L439.37 0 L439.37 42.5197 L0 42.5197 L0 0 Z" gXpos="170.866771653543" gYpos="16664.717480315" gWidth="0" gHeight="0" PSTYLE="details" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
-                <DefaultStyle PARENT="details"/>
+                <DefaultStyle PARENT="Details"/>
                 <ITEXT CH="Matthias Kirschner"/>
                 <trail/>
             </StoryText>
@@ -1268,7 +1268,7 @@
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="785.984881889764" YPOS="16664.717480315" OwnPage="52" ItemID="2112508615" PTYPE="4" WIDTH="433.700787401575" HEIGHT="42.5196850393701" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L433.701 0 L433.701 42.5197 L0 42.5197 L0 0 Z" copath="M0 0 L433.701 0 L433.701 42.5197 L0 42.5197 L0 0 Z" gXpos="785.984881889763" gYpos="16664.717480315" gWidth="0" gHeight="0" PSTYLE="details" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
-                <DefaultStyle PARENT="details"/>
+                <DefaultStyle PARENT="Details"/>
                 <ITEXT CH="Sandra Brandstätter"/>
                 <trail/>
             </StoryText>
