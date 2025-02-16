@@ -724,6 +724,7 @@ Raspberry Ice Cream</literallayout>
         </imageobject>
       </mediaobject>
     </simplesect>
+    <!-- TODO: is a chapter missing here? -->
     <simplesect xml:id="sec-p35" az:pagenum="35">
       <anchor az:slidenum="18"/>
       <para xml:id="para-p35-1" az:dropcap="true" az:dropcapfileref="../illustrations/Capitals/E-pink.png" az:dropcapcharacter="E" az:dropcapcolor="#f5b6cd" az:dropcapbackgroundcolor="#ffffff" az:dropcapheightpt="50.72" az:dropcapwidthpt="33.28" az:dropcaplocalsc="0.16">Every day, Ada and her friends made plans together for the afternoon. From a broken ice-cream machine, they built a new one that could make ice cream in every imaginable shape and color. They ate square ice cream, heart-shaped ice cream, and even pyramid-shaped ice cream, as well as strawberry, raspberry, and rainbow ice cream, all with sprinkles and hot fudge — much better than the varieties from the Zangemann machines.</para>
