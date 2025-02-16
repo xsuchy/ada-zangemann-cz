@@ -46,7 +46,7 @@
         <CHARSTYLE CNAME="Heading" FONT="Amatic SC Bold" FONTSIZE="50" FONTFEATURES="-clig,-liga" FCOLOR="Details"/>
         <CHARSTYLE CNAME="Acknowledgments" CPARENT="Heading" FCOLOR="Acknowledgements"/>
         <CHARSTYLE CNAME="titlepage-subtitle" FONT="Delicious-Handrawn Regular" FONTSIZE="30" FCOLOR="Titles"/>
-        <CHARSTYLE CNAME="capital" FONT="Yuji Syuku Regular" FONTSIZE="36" FONTFEATURES="-clig" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="capital" FONT="Yuji Syuku Regular" FONTSIZE="12" FONTFEATURES="-clig" LANGUAGE="en_US"/>
         <CHARSTYLE CNAME="capital-brown" CPARENT="capital" FCOLOR="capital-brown"/>
         <CHARSTYLE CNAME="capital-cyan" CPARENT="capital" FCOLOR="capital-cyan"/>
         <CHARSTYLE CNAME="capital-fucsia" CPARENT="capital" FCOLOR="capital-fucsia"/>
