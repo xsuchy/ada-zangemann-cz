@@ -181,6 +181,11 @@
         </az:font>
         <az:font role="dropcap">
           <!-- TODO: add details -->
+          <az:fontfamily>Yuji Syuku</az:fontfamily>
+          <az:fontstyle>normal</az:fontstyle>
+          <az:fontsize>36pt</az:fontsize>
+          <az:fonthref>https://github.com/Kinutafontfactory/Yuji</az:fonthref>
+          <az:fontlicense>OFL-1.1</az:fontlicense>
         </az:font>
         <az:font role="colophon">
           <az:fontfamily>Heebo</az:fontfamily>
