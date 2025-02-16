@@ -188,6 +188,10 @@ illustrations/ada-p40-41-uk.png  # Ukrainian override
 illustrations/ada-p03-title-en.png  # Hand-drawn title page for English (default is a font-based page)
 illustrations/ada-p03-title-de.png  # Hand-drawn title page for German (default is a font-based page)
 ```
+- Font styles for Scribus will have to be both character styles and paragraph styles. The character styles are needed for cases where character styles are changed inside a paragraph, like emphasis marks and for drop caps. Paragraph styles are needed to configure dropcaps and change font line spacing.
+- In Scribus different illustrations are needed depending on the output variant. This can be managed inside the templating using A) conditions in Docbook, or B) conditions in Scribus using multiple images, or C) placing the correct image on the expected location outside of the templating.
+- Rather than adjusting line spacing for fonts for all outputs, it might be easier to change the font file.
+- The handdrawn subtitle fonts be converted to a font for easier editing. There are some bitmap font formats, that use bitmaps instead of vectors. Another option is to trace bitmaps into vector images as modern font files use vectors. FontForge has [suggestions for how to trace bitmaps into fonts](https://fontforge.org/docs/techref/autotrace.html). The [GNU Typewriter font](https://fontlibrary.org/en/font/gnutypewriter) can be seen as an example of a pixelated font with grain that is converted to a vector format.
 
 ### Request for feedback
 
