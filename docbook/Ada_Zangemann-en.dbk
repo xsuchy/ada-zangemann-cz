@@ -142,6 +142,16 @@
         <az:font role="coverspine">
           <!-- TODO: add details -->
         </az:font>
+        <az:font role="titlepage-subtitle">
+          <az:fontfamily>Delicious-Handrawn</az:fontfamily>
+          <az:fontstyle>normal</az:fontstyle>
+          <az:fontweight>normal</az:fontweight>
+          <az:fontsize>30pt</az:fontsize>
+          <!-- TODO: explicit line spacing, requires paragraph style. Might need a change. -->
+          <az:fontlinespacing>20pt</az:fontlinespacing>
+          <az:fonthref>https://github.com/google/fonts/tree/main/ofl/delicioushandrawn</az:fonthref>
+          <az:fontlicense>OFL-1.1</az:fontlicense>
+        </az:font>
         <az:font role="body">
           <!-- TODO: add font weight -->
           <az:fontfamily>Heebo</az:fontfamily>
