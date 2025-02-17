@@ -78,6 +78,7 @@ Considerations for the current DocBook format.
   - Current implementation supports a single condition in Scribus, tested against multiple conditions provided as parameter to the XSLT template. Multiple conditions need to be separated using semicolumns, like 'dropcap-img;headings-img'. If no condition parameter is provided, no condition is checked, which helps in debugging. To trigger condition checking without a value a single semicolumn ';' can be provided.
 - Use its:externalResourceRefRule to enable translators to change the link to the dropcap image. The current setup doesn't enable translators to set other dropcap properties, to a different solution might be necessary.
 - Scribus drop cap can be set on the paragraph. If applied manually the style of the first letter is change (as observed in the XML document), but this is not necessary. It is important that the font size of the capital matches the font size of the main text, because otherwise rendering issues can occur. See notes in [Scribus issue 15124](https://bugs.scribus.net/view.php?id=15124).
+- Heebo font is the current default. Heebo font is a variant of the Roboto Font that includes characters for Hebrew. [Heebo lacks an italic font variant](https://github.com/OdedEzer/heebo/issues/3) and thus italic emphasis cannot be rendered correctly. Choosing Roboto or another font with more support for variants makes more sense.
 
 #### Ideas for consideration
 
@@ -519,12 +520,36 @@ The editions that have been created until now have minor differences. Some of th
 - Contrary to the hard cover, the subtitle is hand-drawn.
 - The screen doesn't include yellow pages with hardware drawings upfront. Other translations do.
 
+##### Fonts
+
+- **Cover subtitle:** hand drawn
+- **Colophon text:** Heebo Regular 9pt
+- **Colophon bold emphasis:** Heebo Bold 9pt
+- **Title page subtitle:** hand drawn (same as cover)
+- **Body:** Heebo Regular 12pt
+- **Page number:** Heebo Bold 10pt
+- **Back cover text (summary):** Heebo Regular 12pt
+
 ### Spanish screen pdf
 
 - Emphasis (italic font) is used for certain terms hardware and software, including on the cover.
 - The colophon contains a grey section, about free not gratis.
 - Some protest signs are translated.
 - Page 54 with information about the FSFE is formatted with hard newlines.
+
+##### Fonts
+
+Heebo font [does not have an italic variant](https://github.com/OdedEzer/heebo/issues/3), so the italic style is artificial and thus depending on the software rendering it.
+
+- **Cover subtitle:** hand drawn
+- **Colophon text:** Heebo Regular 9pt
+- **Colophon bold emphasis:** Heebo Bold 9pt
+- **Colophon italic emphasis:** Heebo Italic (artificial) 9pt
+- **Title page subtitle:** hand drawn (same as cover)
+- **Body:** Heebo Regular 12pt
+- **Body italic emphasis:** Heebo Italic (artificial) 12pt
+- **Page number:** Heebo Bold 10pt
+- **Back cover text (summary):** Heebo Regular 12pt
 
 ### French
 
@@ -538,6 +563,27 @@ The editions that have been created until now have minor differences. Some of th
 - Information about author and illustrator is grouped on page 56.
 - The French text includes spaces before the column character ':', which might be problematic with current DocBook procesing of emphasis elements.
 - A white font is used on the back cover
+
+##### Fonts
+
+- **Cover subtitle:** hand drawn
+- **Colophon text:** Luciole Regular 8.6025pt
+- **Colophon bold italic emphasis:** Luciole Bold Italic 8.6025pt
+- **Colophon italic emphasis:** Luciole Italic 8.6025pt
+- **Title page subtitle:** hand drawn (same as cover)
+- **Credits:** Luciole Regular 8.6025pt
+- **Credits bold:** Luciole Bold 8.6025pt
+- **Foreword:** Luciole Regular 10.125pt
+- **Foreword name bold:** Luciole Bold 10.125pt
+- **Foreword function italic:** Luciole Italic 8.6025pt
+- **Body:** Luciole Regular 10.125pt
+- **Page number:** Luciole Regular 8.6025pt
+- **About:** Luciole Regular 9.112499pt
+- **About italic emphasis:** Luciole Italic 9.112499pt
+- **Colophon end FSFE:** Luciole Regular 8.6025pt
+- **Colophon end FSFE emphasis:** Luciole Italic 8.6025pt
+- **Colophon end publishing info:** Luciole Regular 8.1pt
+- **Back cover text (summary):** Luciole Regular 9pt? (Inkscape import to verify didn't go so well)
 
 #### French ebook epub
 
