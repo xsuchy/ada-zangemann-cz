@@ -607,6 +607,17 @@ Heebo font [does not have an italic variant](https://github.com/OdedEzer/heebo/i
 - Protest signs are translated using hand drawn text.
 - Last page on screen pdf contains a barcode and price.
 
+##### Fonts
+
+- **Cover subtitle:** hand drawn
+- **Colophon text:** Heebo Regular 9pt
+- **Colophon bold emphasis:** Heebo Bold 9pt
+- **Title page subtitle:** hand drawn (same as cover)
+- **Body:** Heebo Regular 12pt
+- **Page number:** Heebo Bold 10pt
+- **Back cover text (summary):** Heebo Regular 12pt
+- **Back cover price:** Heebo Regular 12pt
+
 ### Ukrainian screen pdf
 
 - Titles have been created using fonts.
