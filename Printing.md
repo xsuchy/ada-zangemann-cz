@@ -35,6 +35,7 @@ experience.
 
 1. Purchase ISBN code(s) for the book
 1. Adjust layouts to printer specifications (size, margins and color)
+1. Update frontmatter for publishing
 1. Create covers for publishing
    - Relevant logo's (FSFE and others involved)
    - ISBN barcode on the back
