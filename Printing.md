@@ -24,3 +24,23 @@ intended for the tsack to be stapled or sown through the middle of the paper.
 
 When printing, make sure to select double sided printing when available and to
 configure double sided according for the right orientation (short side).
+
+## Publishing
+
+It takes additional work to take the rendered Scribus files and get them
+published. This paragraph is a generic overview to highlight the steps involved.
+
+Get in touch with FSFE if you want to publish, so we can help out from our
+experience.
+
+1. Purchase ISBN code(s) for the book
+1. Adjust layouts to printer specifications (size, margins and color)
+1. Create covers for publishing
+   - Relevant logo's (FSFE and others involved)
+   - ISBN barcode on the back
+   - Optionally include price
+1. Generate pdfs for printing
+1. Final proofread before ordering
+1. Archive files for the future (at FSFE)
+
+ISBN barcodes can be generated in Scribus and in Inkscape.
