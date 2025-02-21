@@ -203,6 +203,10 @@ illustrations/ada-p03-title-de.png  # Hand-drawn title page for German (default 
     - The Epub is also generated using Pandoc and modified to insert the cover.
   - [Paged.js](https://pagedjs.org/) framework, used by [Julie Blanc](https://julie-blanc.fr/).
   - [PrePostPrint](https://prepostprint.org/) with various tools.
+- It should be avoided to use different images for the headers with fonts or images. An edge case is the subtitle on the cover and title page. There are multiple ways of dealing with this:
+    - Use separate images for the title (Ada & Zangemann) and subtitle (A tale of …)
+    - Use some overlay frame in Scribus to mask out the image title, that is rendered using the same conditions as the text. Can be a colored rectangle or a blank variant on the same spot.
+    - Generate custom images with fonts in a preprocessing step.
 
 ### Request for feedback
 
