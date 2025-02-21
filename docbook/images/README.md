@@ -13,12 +13,14 @@ This directory contains images used in the book: illustrations, capitals and log
 Linking common images:
 
 ```
-cd illustrations; find ../../../illustrations/common/ -exec ln -s {} \;
+cd illustrations;
+find ../../../illustrations/common/ -exec bash -c 'ln -s {} $( file=$(basename {} ); echo "${file/.png/.ltr.png}")' \;
 ```
 
 Linking language-specific images:
 ```
-LANG="pt_PT"; cd illustrations; find ../../../illustrations/$LANG/ -iname "*-${LANG}.png*" -exec bash -c 'ln -s {} $( file=$(basename {} ); echo "${file/-${LANG}./.${LANG}.}")' \;
+cd illustrations;
+LANG="pt_PT"; find ../../../illustrations/$LANG/ -iname "*-${LANG}.png*" -exec bash -c 'ln -s {} $( file=$(basename {} ); echo "${file/-${LANG}./.${LANG}.}")' \;
 ```
 
 Linking opague images:
