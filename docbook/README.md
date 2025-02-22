@@ -79,6 +79,7 @@ Considerations for the current DocBook format.
 - Use its:externalResourceRefRule to enable translators to change the link to the dropcap image. The current setup doesn't enable translators to set other dropcap properties, to a different solution might be necessary.
 - Scribus drop cap can be set on the paragraph. If applied manually the style of the first letter is change (as observed in the XML document), but this is not necessary. It is important that the font size of the capital matches the font size of the main text, because otherwise rendering issues can occur. See notes in [Scribus issue 15124](https://bugs.scribus.net/view.php?id=15124).
 - Heebo font is the current default. Heebo font is a variant of the Roboto Font that includes characters for Hebrew. [Heebo lacks an italic font variant](https://github.com/OdedEzer/heebo/issues/3) and thus italic emphasis cannot be rendered correctly. Choosing Roboto or another font with more support for variants makes more sense.
+- A out-of-source build strategy is used instead of an in-source build. Sources and built output are kept separate. This helps ensure reproducibility and it encourages to keep the source files compact and organized.
 
 #### Ideas for consideration
 
@@ -207,6 +208,9 @@ illustrations/ada-p03-title-de.png  # Hand-drawn title page for German (default 
     - Use separate images for the title (Ada & Zangemann) and subtitle (A tale of …)
     - Use some overlay frame in Scribus to mask out the image title, that is rendered using the same conditions as the text. Can be a colored rectangle or a blank variant on the same spot.
     - Generate custom images with fonts in a preprocessing step.
+- The processing now uses clever shell script one-liners which are compact but hard to understand. By using more Python the understandability of the setup might be improved. This would make it more inviting to outsiders to contribute a new format or contribute other improvements.
+- Other build tools like Scons or Meson might be more accessible to newcomers with its syntax. In general the options to provide information to GNU Make are limited. This is difficult for getting images used in the Docbook file or the capital files. GNU Make is however very common and widely understood. Scons has mixed reviews.
+- The build directories are to be organized by language and then output type. For each build step a new directory might be created for clarity.
 
 ### Request for feedback
 
