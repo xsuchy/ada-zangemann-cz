@@ -1,6 +1,9 @@
-# SPDX-FileCopyrightText: 2024 Nico Rikken <nico.rikken@fsfe.org>
+# SPDX-FileCopyrightText: 2024-2025 Nico Rikken <nico.rikken@fsfe.org>
 #
 # SPDX-License-Identifier: CC0-1.0
+
+build/%/images/illustrations:
+	makefile_helpers/./imagedir.sh $(shell echo ${@} | sed -n 's/.*build\/\(.*\)\/images.*/\1/p')
 
 # TODO: make specific for German edition
 output/de/Ada_Zangemann.html: Ada_Zangemann-en-pure.dbk
