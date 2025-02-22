@@ -2,15 +2,124 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
+
+# Translation file
+po/Ada_Zangemann.pot: Ada_Zangemann.dbk
+	itstool -o $@ Ada_Zangemann.dbk
+
+
+# Update .po files when .pot strings get updated
+po/en.po: po/Ada_Zangemann.pot
+	if [ ! -e 'po/en.po' ]; then cp po/Ada_Zangemann.pot po/en.po; fi
+	msgmerge --no-wrap --update po/en.po po/Ada_Zangemann.pot
+
+po/de.po: po/Ada_Zangemann.pot
+	if [ ! -e 'po/de.po' ]; then cp po/Ada_Zangemann.pot po/de.po; fi
+	msgmerge --no-wrap --update po/de.po po/Ada_Zangemann.pot
+
+po/es.po: po/Ada_Zangemann.pot
+	if [ ! -e 'po/es.po' ]; then cp po/Ada_Zangemann.pot po/es.po; fi
+	msgmerge --no-wrap --update po/es.po po/Ada_Zangemann.pot
+
+
+# Generate message strings for further processing
+build/en/en.mo: po/en.po
+	mkdir -p build/en
+	msgfmt -o build/en/en.mo po/en.po
+
+build/de/de.mo: po/de.po
+	mkdir -p build/de
+	msgfmt -o build/de/de.mo po/de.po
+
+build/es/es.mo: po/es.po
+	mkdir -p build/es
+	msgfmt -o build/es/es.mo po/es.po
+
+
+# Link images
 build/%/images/illustrations:
 	makefile_helpers/./imagedir.sh $(shell echo ${@} | sed -n 's/.*build\/\(.*\)\/images.*/\1/p')
 
-# TODO: make specific for German edition
-output/de/Ada_Zangemann.html: Ada_Zangemann-en-pure.dbk
-	xsltproc -o Ada_Zangemann-en.html /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl Ada_Zangemann-en-pure.dbk
 
-Ada_Zangemann-en.html: Ada_Zangemann-en-pure.dbk
-	xsltproc -o Ada_Zangemann-en.html /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl Ada_Zangemann-en-pure.dbk
+# Create docbook files
+build/en/Ada_Zangemann.en.dbk: Ada_Zangemann.dbk build/en/en.mo
+	itstool -m build/en/en.mo -o build/en/ Ada_Zangemann.dbk
+	mv build/en/Ada_Zangemann.dbk build/en/Ada_Zangemann.en.dbk
+
+build/de/Ada_Zangemann.de.dbk: Ada_Zangemann.dbk build/de/de.mo
+	itstool -m build/de/de.mo -o build/de/ Ada_Zangemann.dbk
+	mv build/de/Ada_Zangemann.dbk build/de/Ada_Zangemann.de.dbk
+
+build/es/Ada_Zangemann.es.dbk: Ada_Zangemann.dbk build/es/es.mo
+	itstool -m build/es/es.mo -o build/es/ Ada_Zangemann.dbk
+	mv build/es/Ada_Zangemann.dbk build/es/Ada_Zangemann.es.dbk
+
+
+# Create 'pure' docbook files without custom elements
+build/en/Ada_Zangemann-pure.en.dbk: build/en/Ada_Zangemann.en.dbk xsl/clean-docbook.xsl
+	xsltproc -o $@ xsl/clean-docbook.xsl build/en/Ada_Zangemann.en.dbk
+
+build/de/Ada_Zangemann-pure.de.dbk: build/de/Ada_Zangemann.de.dbk xsl/clean-docbook.xsl
+	xsltproc -o $@ xsl/clean-docbook.xsl build/de/Ada_Zangemann.de.dbk
+
+build/es/Ada_Zangemann-pure.es.dbk: build/es/Ada_Zangemann.es.dbk xsl/clean-docbook.xsl
+	xsltproc -o $@ xsl/clean-docbook.xsl build/es/Ada_Zangemann.es.dbk
+
+
+# HTML output using standard docbook processing
+# TODO: use lower resolution images
+build/en/Ada_Zangemann.en.html: build/en/Ada_Zangemann-pure.en.dbk
+	xsltproc -o build/en/Ada_Zangemann.en.html /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl build/en/Ada_Zangemann-pure.en.dbk
+
+build/de/Ada_Zangemann.de.html: build/de/Ada_Zangemann-pure.de.dbk
+	xsltproc -o build/de/Ada_Zangemann.de.html /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl build/de/Ada_Zangemann-pure.de.dbk
+
+build/es/Ada_Zangemann.es.html: build/es/Ada_Zangemann-pure.es.dbk
+	xsltproc -o build/es/Ada_Zangemann.es.html /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl build/es/Ada_Zangemann-pure.es.dbk
+
+
+# Build version with all images (for debugging)
+# FIXME: this processing is broken, might be an incorrect parameter value
+build/en/print-all/Ada_Zangemann-en-print-all.sla: build/en/images/illustrations build/en/Ada_Zangemann.en.dbk
+	mkdir -p build/en/print-all
+	if [ ! -h build/en/print-all/images ]; then ln -s ../images build/en/print-all/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/en/Ada_Zangemann.en.dbk xsl/scribus.xsl xsl/template-print.sla > $@.log 2>&1
+
+build/de/print-all/Ada_Zangemann-de-print-all.sla: build/de/images/illustrations build/de/Ada_Zangemann.de.dbk
+	mkdir -p build/de/print-all
+	if [ ! -h build/de/print-all/images ]; then ln -s ../images build/de/print-all/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/de/Ada_Zangemann.de.dbk xsl/scribus.xsl xsl/template-print.sla > $@.log 2>&1
+
+build/es/print-all/Ada_Zangemann-es-print-all.sla: build/es/images/illustrations build/es/Ada_Zangemann.es.dbk
+	mkdir -p build/es/print-all
+	if [ ! -h build/es/print-all/images ]; then ln -s ../images build/es/print-all/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/es/Ada_Zangemann.es.dbk xsl/scribus.xsl xsl/template-print.sla > $@.log 2>&1
+
+
+# Link template files, for development
+build/%/template-print.sla:
+	if [ ! -h $@ ]; then ln -s ../../xsl/template-print.sla $@; fi
+
+
+# Build version with text headers
+build/en/print-headings-text/Ada_Zangemann-en-print-headings-text.sla: build/en/images/illustrations build/en/Ada_Zangemann.en.dbk
+	mkdir -p build/en/print-headings-text
+	if [ ! -h build/en/print-headings-text/images ]; then ln -s ../images build/en/print-headings-text/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/en/Ada_Zangemann.en.dbk --stringparam profile.condition "headings-text" xsl/scribus.xsl xsl/template-print.sla
+
+
+.PHONY: xmllint-format
+xmllint-format: Ada_Zangemann.dbk
+	mv Ada_Zangemann.dbk Ada_Zangemann.dbk.xsmllintbak
+	xmllint --format Ada_Zangemann.dbk.xsmllintbak > Ada_Zangemann.dbk
+
+
+.PHONY: clean
+clean:
+	rm -r build/
+
+
+# Older commands, to be replaced
 
 Ada_Zangemann-en-print-all.sla: Ada_Zangemann-en.dbk xsl/scribus.xsl xsl/template-print.sla
 	xsltproc -o Ada_Zangemann-en-print-all.sla --verbose --stringparam docbook-contents-file "../Ada_Zangemann-en.dbk" xsl/scribus.xsl xsl/template-print.sla
@@ -35,44 +144,6 @@ Ada_Zangemann-en-dblatex.pdf: Ada_Zangemann-en.dbk
 Ada_Zangemann-en-dbtoepub.epub: Ada_Zangemann-en-pure.dbk
 	dbtoepub -o Ada_Zangemann-en-dbtoepub.epub Ada_Zangemann-en-pure.dbk
 
-# Translations
-
-# Translation file
-po/Ada_Zangemann.pot: Ada_Zangemann-en.dbk
-	itstool -o $@ Ada_Zangemann-en.dbk
-
-# Update .po files when .pot strings get updated
-po/de.po: po/Ada_Zangemann.pot
-	if [ ! -e 'po/de.po' ]; then cp po/Ada_Zangemann.pot po/de.po; fi
-	msgmerge --no-wrap --update po/de.po po/Ada_Zangemann.pot
-
-po/es.po: po/Ada_Zangemann.pot
-	if [ ! -e 'po/es.po' ]; then cp po/Ada_Zangemann.pot po/es.po; fi
-	msgmerge --no-wrap --update po/es.po po/Ada_Zangemann.pot
-
-po/en.po: po/Ada_Zangemann.pot
-	if [ ! -e 'po/en.po' ]; then cp po/Ada_Zangemann.pot po/en.po; fi
-	msgmerge --no-wrap --update po/en.po po/Ada_Zangemann.pot
-
-# Generate message strings for further processing
-# FIXME: perhaps the .mo file should end up in a temporary process location instead of in the /po folder
-po/de.mo: po/de.po
-	msgfmt -o po/de.mo po/de.po
-
-po/es.mo: po/es.po
-	msgfmt -o po/es.mo po/es.po
-
-# Create translated DocBook file using itstool
-# TODO: find proper output directory and ensure it exists without calling mkdir
-output/de/Ada_Zangemann.dbk: po/de.mo
-	mkdir -p output/de/
-	itstool -m po/de.mo -o output/de/ Ada_Zangemann-en.dbk
-	mv output/de/Ada_Zangemann-en.dbk output/de/Ada_Zangemann.dbk
-
-output/es/Ada_Zangemann.dbk: po/es.mo
-	mkdir -p output/es/
-	itstool -m po/es.mo -o output/es/ Ada_Zangemann-en.dbk
-	mv output/es/Ada_Zangemann-en.dbk output/es/Ada_Zangemann.dbk
 
 # TODO: consider moving to an output folder, while keeping links to images
 Ada_Zangemann-de-print-all.sla: output/de/Ada_Zangemann.dbk xsl/template-print.sla
@@ -83,9 +154,6 @@ Ada_Zangemann-es-print-all.sla: output/es/Ada_Zangemann.dbk xsl/template-print.s
 	mkdir -p output/es/
 	xsltproc -o Ada_Zangemann-es-print-all.sla --verbose --stringparam docbook-contents-file "../output/es/Ada_Zangemann.dbk" xsl/scribus.xsl xsl/template-print.sla
 
-.PHONY: xmllint-format
-xmllint-format: Ada_Zangemann-en.dbk
-	mv Ada_Zangemann-en.dbk Ada_Zangemann-en.dbk.bak && xmllint --format Ada_Zangemann-en.dbk.bak > Ada_Zangemann-en.dbk
 
 docbook-5.1-its.sch:
 	wget -O docbook-5.1-its.sch http://docs.oasis-open.org/docbook/docbook/v5.1/os/schemas/sch/docbookxi.sch
@@ -101,47 +169,6 @@ validate: docbook-5.1-its.rng docbook-5.1-its.sch Ada_Zangemann-en.dbk
 	xmllint --noout --relaxng docbook-5.1-its.rng Ada_Zangemann-en.dbk
 	xmllint --noout --schematron docbook-5.1-its.sch Ada_Zangemann-en.dbk
 
-# TODO: replace other rules with these work-in-progress definitions:
-build/generated/de/Ada_Zangemann.dbk: po/de.mo
-	mkdir -p build/generated/de
-	itstool -m po/de.mo -o build/generated/de/ Ada_Zangemann.dbk
-
-build/generated/en/en.mo: po/en.po
-	mkdir -p build/generated/en
-	msgfmt -o build/generated/en/en.mo po/en.po
-
-build/generated/es/es.mo: po/es.po
-	mkdir -p build/generated/es
-	msgfmt -o build/generated/es/es.mo po/es.po
-
-build/generated/en/Ada_Zangemann.dbk: build/generated/en/en.mo
-	mkdir -p build/generated/en
-	itstool -m build/generated/en/en.mo -o build/generated/en/ Ada_Zangemann.dbk
-
-build/generated/es/Ada_Zangemann.dbk: build/generated/es/es.mo
-	mkdir -p build/generated/es
-	itstool -m build/generated/es/es.mo -o build/generated/es/ Ada_Zangemann.dbk
-
-# Link files from nested structure. Force to overwrite existing links.
-# TODO: create helper script to apply language packs
-.PHONY: language-package-en-img-heading
-language-package-en-img-heading:
-	mkdir -p build/intermediates/en
-	cp -rsf ${PWD}/language-packs/base-ltr/* build/intermediates/en/
-	cp -rsf ${PWD}/language-packs/en/* build/intermediates/en/
-
-.PHONY: language-package-en-text-heading
-language-package-en-text-heading:
-	mkdir -p build/intermediates/en
-	cp -rsf ${PWD}/language-packs/base-ltr/* build/intermediates/en/
-	cp -rsf ${PWD}/language-packs/en/* build/intermediates/en/
-	cp -rsf ${PWD}/language-packs/blank-ltr/* build/intermediates/en/
-
-.PHONY: language-package-es-img-heading
-language-package-es-img-heading:
-	mkdir -p build/intermediates/es
-	cp -rsf ${PWD}/language-packs/base-ltr/* build/intermediates/es/
-	cp -rsf ${PWD}/language-packs/es/* build/intermediates/es/
 
 build/intermediates/en/Ada_Zangemann-print-all.sla: language-package-en-img-heading build/generated/en/Ada_Zangemann.dbk xsl/template-print.sla
 	mkdir -p build/intermediates/en
@@ -154,7 +181,3 @@ build/intermediates/es/Ada_Zangemann-print-all.sla: language-package-es-img-head
 Ada_Zangemann-de-print-all.sla: output/de/Ada_Zangemann.dbk xsl/template-print.sla
 	mkdir -p output/de/
 	xsltproc -o Ada_Zangemann-de-print-all.sla --verbose --stringparam docbook-contents-file "../output/de/Ada_Zangemann.dbk" xsl/scribus.xsl xsl/template-print.sla
-
-.PHONY: clean
-clean:
-	rm -r build/intermediates

@@ -22,7 +22,7 @@ case ${LANG} in
     # NOTE: edgecases and LTR language can be handled here
     *)
         # First link left-to-right images as fallback: ada-p40-41.ltr.png > ada-p40-41.png
-        find "${SRC}" -iname "*.ltr.png"     -exec bash -c "ln    -s {} \$( file=\$(basename {} ); echo \"\${file/.ltr./.}\")" \;
+        find "${SRC}" -iname "*.ltr.png"     -exec bash -c "ln -f -s {} \$( file=\$(basename {} ); echo \"\${file/.ltr./.}\")" \;
         # Override language-specific images: ada-p40-41.de.png > ada-p40-41.png
         find "${SRC}" -iname "*.${LANG}.png" -exec bash -c "ln -f -s {} \$( file=\$(basename {} ); echo \"\${file/.${LANG}./.}\")" \;
         ;;
