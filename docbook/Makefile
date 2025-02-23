@@ -79,21 +79,71 @@ build/es/Ada_Zangemann.es.html: build/es/Ada_Zangemann-pure.es.dbk
 
 
 # Build version with all images (for debugging)
-# FIXME: this processing is broken, might be an incorrect parameter value
-build/en/print-all/Ada_Zangemann-en-print-all.sla: build/en/images/illustrations build/en/Ada_Zangemann.en.dbk
+build/en/print-all/Ada_Zangemann-print-all.en.sla: build/en/images/illustrations build/en/Ada_Zangemann.en.dbk
 	mkdir -p build/en/print-all
 	if [ ! -h build/en/print-all/images ]; then ln -s ../images build/en/print-all/images; fi
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/en/Ada_Zangemann.en.dbk xsl/scribus.xsl xsl/template-print.sla > $@.log 2>&1
 
-build/de/print-all/Ada_Zangemann-de-print-all.sla: build/de/images/illustrations build/de/Ada_Zangemann.de.dbk
+build/de/print-all/Ada_Zangemann-print-all.de.sla: build/de/images/illustrations build/de/Ada_Zangemann.de.dbk
 	mkdir -p build/de/print-all
 	if [ ! -h build/de/print-all/images ]; then ln -s ../images build/de/print-all/images; fi
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/de/Ada_Zangemann.de.dbk xsl/scribus.xsl xsl/template-print.sla > $@.log 2>&1
 
-build/es/print-all/Ada_Zangemann-es-print-all.sla: build/es/images/illustrations build/es/Ada_Zangemann.es.dbk
+build/es/print-all/Ada_Zangemann-print-all.es.sla: build/es/images/illustrations build/es/Ada_Zangemann.es.dbk
 	mkdir -p build/es/print-all
 	if [ ! -h build/es/print-all/images ]; then ln -s ../images build/es/print-all/images; fi
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/es/Ada_Zangemann.es.dbk xsl/scribus.xsl xsl/template-print.sla > $@.log 2>&1
+
+
+# Build version with image headers
+build/en/headings-img/Ada_Zangemann-headings-img.en.sla: build/en/images/illustrations build/en/Ada_Zangemann.en.dbk
+	mkdir -p build/en/headings-img
+	if [ ! -h build/en/headings-img/images ]; then ln -s ../images build/en/headings-img/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/en/Ada_Zangemann.en.dbk --stringparam profile.condition headings-img xsl/scribus.xsl xsl/template-print.sla > $@.log 2>&1
+
+build/de/headings-img/Ada_Zangemann-headings-img.de.sla: build/de/images/illustrations build/de/Ada_Zangemann.de.dbk
+	mkdir -p build/de/headings-img
+	if [ ! -h build/de/headings-img/images ]; then ln -s ../images build/de/headings-img/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/de/Ada_Zangemann.de.dbk --stringparam profile.condition headings-img xsl/scribus.xsl xsl/template-print.sla > $@.log 2>&1
+
+build/es/headings-img/Ada_Zangemann-headings-img.es.sla: build/es/images/illustrations build/es/Ada_Zangemann.es.dbk
+	mkdir -p build/es/headings-img
+	if [ ! -h build/es/headings-img/images ]; then ln -s ../images build/es/headings-img/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/es/Ada_Zangemann.es.dbk --stringparam profile.condition headings-img xsl/scribus.xsl xsl/template-print.sla > $@.log 2>&1
+
+
+# Build version with text headers
+build/en/headings-text/Ada_Zangemann-headings-text.en.sla: build/en/images/illustrations build/en/Ada_Zangemann.en.dbk
+	mkdir -p build/en/headings-text
+	if [ ! -h build/en/headings-text/images ]; then ln -s ../images build/en/headings-text/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/en/Ada_Zangemann.en.dbk --stringparam profile.condition headings-text xsl/scribus.xsl xsl/template-print.sla > $@.log 2>&1
+
+build/de/headings-text/Ada_Zangemann-headings-text.de.sla: build/de/images/illustrations build/de/Ada_Zangemann.de.dbk
+	mkdir -p build/de/headings-text
+	if [ ! -h build/de/headings-text/images ]; then ln -s ../images build/de/headings-text/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/de/Ada_Zangemann.de.dbk --stringparam profile.condition headings-text xsl/scribus.xsl xsl/template-print.sla > $@.log 2>&1
+
+build/es/headings-text/Ada_Zangemann-headings-text.es.sla: build/es/images/illustrations build/es/Ada_Zangemann.es.dbk
+	mkdir -p build/es/headings-text
+	if [ ! -h build/es/headings-text/images ]; then ln -s ../images build/es/headings-text/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/es/Ada_Zangemann.es.dbk --stringparam profile.condition headings-text xsl/scribus.xsl xsl/template-print.sla > $@.log 2>&1
+
+
+# Build version with no conditional content (for debugging)
+build/en/headings-none/Ada_Zangemann-headings-none.en.sla: build/en/images/illustrations build/en/Ada_Zangemann.en.dbk
+	mkdir -p build/en/headings-none
+	if [ ! -h build/en/headings-none/images ]; then ln -s ../images build/en/headings-none/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/en/Ada_Zangemann.en.dbk --stringparam profile.condition ";" xsl/scribus.xsl xsl/template-print.sla > $@.log 2>&1
+
+build/de/headings-none/Ada_Zangemann-headings-none.de.sla: build/de/images/illustrations build/de/Ada_Zangemann.de.dbk
+	mkdir -p build/de/headings-none
+	if [ ! -h build/de/headings-none/images ]; then ln -s ../images build/de/headings-none/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/de/Ada_Zangemann.de.dbk --stringparam profile.condition ";" xsl/scribus.xsl xsl/template-print.sla > $@.log 2>&1
+
+build/es/headings-none/Ada_Zangemann-headings-none.es.sla: build/es/images/illustrations build/es/Ada_Zangemann.es.dbk
+	mkdir -p build/es/headings-none
+	if [ ! -h build/es/headings-none/images ]; then ln -s ../images build/es/headings-none/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/es/Ada_Zangemann.es.dbk --stringparam profile.condition ";" xsl/scribus.xsl xsl/template-print.sla > $@.log 2>&1
 
 
 # Link template files, for development
@@ -121,20 +171,6 @@ clean:
 
 # Older commands, to be replaced
 
-Ada_Zangemann-en-print-all.sla: Ada_Zangemann-en.dbk xsl/scribus.xsl xsl/template-print.sla
-	xsltproc -o Ada_Zangemann-en-print-all.sla --verbose --stringparam docbook-contents-file "../Ada_Zangemann-en.dbk" xsl/scribus.xsl xsl/template-print.sla
-
-Ada_Zangemann-en-print-img.sla: Ada_Zangemann-en.dbk xsl/scribus.xsl xsl/template-print.sla
-	xsltproc -o Ada_Zangemann-en-print-img.sla --verbose --stringparam docbook-contents-file "../Ada_Zangemann-en.dbk" --stringparam profile.condition "headings-img" xsl/scribus.xsl xsl/template-print.sla
-
-Ada_Zangemann-en-print-text.sla: Ada_Zangemann-en.dbk xsl/scribus.xsl xsl/template-print.sla
-	xsltproc -o Ada_Zangemann-en-print-text.sla --verbose --stringparam docbook-contents-file "../Ada_Zangemann-en.dbk" --stringparam profile.condition "headings-text" xsl/scribus.xsl xsl/template-print.sla
-
-Ada_Zangemann-en-print-none.sla: Ada_Zangemann-en.dbk xsl/scribus.xsl xsl/template-print.sla
-	xsltproc -o Ada_Zangemann-en-print-none.sla --verbose --stringparam docbook-contents-file "../Ada_Zangemann-en.dbk" --stringparam profile.condition ";" xsl/scribus.xsl xsl/template-print.sla
-
-Ada_Zangemann-en-pure.dbk: Ada_Zangemann-en.dbk xsl/clean-docbook.xsl
-	xsltproc -o Ada_Zangemann-en-pure.dbk xsl/clean-docbook.xsl Ada_Zangemann-en.dbk
 
 # Requires dblatex package in Debian
 Ada_Zangemann-en-dblatex.pdf: Ada_Zangemann-en.dbk
