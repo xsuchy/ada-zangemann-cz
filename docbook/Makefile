@@ -78,6 +78,29 @@ build/es/Ada_Zangemann.es.html: build/es/Ada_Zangemann-pure.es.dbk
 	xsltproc -o build/es/Ada_Zangemann.es.html /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl build/es/Ada_Zangemann-pure.es.dbk
 
 
+# LaTeX based pdf processing
+# FIXME: not yet working
+build/en/Ada_Zangemann-dblatex.en.pdf: build/en/images/illustrations build/en/Ada_Zangemann-pure.en.dbk
+	dblatex -o build/en/Ada_Zangemann-dblatex.en.pdf build/en/Ada_Zangemann-pure.en.dbk
+
+build/de/Ada_Zangemann-dblatex.de.pdf: build/de/images/illustrations build/de/Ada_Zangemann-pure.de.dbk
+	dblatex -o build/de/Ada_Zangemann-dblatex.de.pdf build/de/Ada_Zangemann-pure.de.dbk
+
+build/es/Ada_Zangemann-dblatex.es.pdf: build/es/images/illustrations build/es/Ada_Zangemann-pure.es.dbk
+	dblatex -o build/es/Ada_Zangemann-dblatex.es.pdf build/es/Ada_Zangemann-pure.es.dbk
+
+
+# Epub processing
+build/en/Ada_Zangemann-dbtoepub.en.epub: build/en/images/illustrations build/en/Ada_Zangemann-pure.en.dbk
+	dbtoepub -o build/en/Ada_Zangemann-dbtoepub.en.epub build/en/Ada_Zangemann-pure.en.dbk
+
+build/de/Ada_Zangemann-dbtoepub.de.epub: build/de/images/illustrations build/de/Ada_Zangemann-pure.de.dbk
+	dbtoepub -o build/de/Ada_Zangemann-dbtoepub.de.epub build/de/Ada_Zangemann-pure.de.dbk
+
+build/es/Ada_Zangemann-dbtoepub.es.epub: build/es/images/illustrations build/es/Ada_Zangemann-pure.es.dbk
+	dbtoepub -o build/es/Ada_Zangemann-dbtoepub.es.epub build/es/Ada_Zangemann-pure.es.dbk
+
+
 # Build version with all images (for debugging)
 build/en/print-all/Ada_Zangemann-print-all.en.sla: build/en/images/illustrations build/en/Ada_Zangemann.en.dbk
 	mkdir -p build/en/print-all
@@ -158,39 +181,20 @@ build/en/print-headings-text/Ada_Zangemann-en-print-headings-text.sla: build/en/
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../build/en/Ada_Zangemann.en.dbk --stringparam profile.condition "headings-text" xsl/scribus.xsl templates/template-print.sla
 
 
+# Format docbook file using xmllint
 .PHONY: xmllint-format
 xmllint-format: Ada_Zangemann.dbk
 	mv Ada_Zangemann.dbk Ada_Zangemann.dbk.xsmllintbak
 	xmllint --format Ada_Zangemann.dbk.xsmllintbak > Ada_Zangemann.dbk
 
 
+# Remove build output
 .PHONY: clean
 clean:
 	rm -r build/
 
 
-# Older commands, to be replaced
-
-
-# Requires dblatex package in Debian
-Ada_Zangemann-en-dblatex.pdf: Ada_Zangemann-en.dbk
-	dblatex -o Ada_Zangemann-en-dblatex.pdf Ada_Zangemann-en.dbk
-
-# Requires dbtoepub package in Debian
-Ada_Zangemann-en-dbtoepub.epub: Ada_Zangemann-en-pure.dbk
-	dbtoepub -o Ada_Zangemann-en-dbtoepub.epub Ada_Zangemann-en-pure.dbk
-
-
-# TODO: consider moving to an output folder, while keeping links to images
-Ada_Zangemann-de-print-all.sla: output/de/Ada_Zangemann.dbk templates/template-print.sla
-	mkdir -p output/de/
-	xsltproc -o Ada_Zangemann-de-print-all.sla --verbose --stringparam docbook-contents-file "../output/de/Ada_Zangemann.dbk" xsl/scribus.xsl templates/template-print.sla
-
-Ada_Zangemann-es-print-all.sla: output/es/Ada_Zangemann.dbk templates/template-print.sla
-	mkdir -p output/es/
-	xsltproc -o Ada_Zangemann-es-print-all.sla --verbose --stringparam docbook-contents-file "../output/es/Ada_Zangemann.dbk" xsl/scribus.xsl templates/template-print.sla
-
-
+# Validation commands (work in progress)
 docbook-5.1-its.sch:
 	wget -O docbook-5.1-its.sch http://docs.oasis-open.org/docbook/docbook/v5.1/os/schemas/sch/docbookxi.sch
 
@@ -204,16 +208,3 @@ docbook-5.2.rng:
 validate: docbook-5.1-its.rng docbook-5.1-its.sch Ada_Zangemann-en.dbk
 	xmllint --noout --relaxng docbook-5.1-its.rng Ada_Zangemann-en.dbk
 	xmllint --noout --schematron docbook-5.1-its.sch Ada_Zangemann-en.dbk
-
-
-build/intermediates/en/Ada_Zangemann-print-all.sla: language-package-en-img-heading build/generated/en/Ada_Zangemann.dbk xsl/template-print.sla
-	mkdir -p build/intermediates/en
-	xsltproc -o build/intermediates/en/Ada_Zangemann-print-all.sla --verbose --stringparam docbook-contents-file "../build/generated/en/Ada_Zangemann.dbk" xsl/scribus.xsl xsl/template-print.sla
-
-build/intermediates/es/Ada_Zangemann-print-all.sla: language-package-es-img-heading build/generated/es/Ada_Zangemann.dbk xsl/template-print.sla
-	mkdir -p build/intermediates/es
-	xsltproc -o build/intermediates/es/Ada_Zangemann-print-all.sla --verbose --stringparam docbook-contents-file "../build/generated/es/Ada_Zangemann.dbk" xsl/scribus.xsl xsl/template-print.sla
-
-Ada_Zangemann-de-print-all.sla: output/de/Ada_Zangemann.dbk xsl/template-print.sla
-	mkdir -p output/de/
-	xsltproc -o Ada_Zangemann-de-print-all.sla --verbose --stringparam docbook-contents-file "../output/de/Ada_Zangemann.dbk" xsl/scribus.xsl xsl/template-print.sla
