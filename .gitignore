@@ -24,3 +24,6 @@ Book/*/compare-result/
 
 # Build output
 docbook/build
+
+# Temporary files, including from msgmerge
+*~

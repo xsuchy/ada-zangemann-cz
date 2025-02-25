@@ -9,17 +9,9 @@ po/Ada_Zangemann.pot: Ada_Zangemann.dbk
 
 
 # Update .po files when .pot strings get updated
-po/en.po: po/Ada_Zangemann.pot
-	if [ ! -e 'po/en.po' ]; then cp po/Ada_Zangemann.pot po/en.po; fi
-	msgmerge --no-wrap --update po/en.po po/Ada_Zangemann.pot
-
-po/de.po: po/Ada_Zangemann.pot
-	if [ ! -e 'po/de.po' ]; then cp po/Ada_Zangemann.pot po/de.po; fi
-	msgmerge --no-wrap --update po/de.po po/Ada_Zangemann.pot
-
-po/es.po: po/Ada_Zangemann.pot
-	if [ ! -e 'po/es.po' ]; then cp po/Ada_Zangemann.pot po/es.po; fi
-	msgmerge --no-wrap --update po/es.po po/Ada_Zangemann.pot
+po/%.po: po/Ada_Zangemann.pot
+	if [ ! -e $@ ]; then cp po/Ada_Zangemann.pot $@; fi
+	msgmerge --no-wrap --update $@ po/Ada_Zangemann.pot
 
 
 # Generate message strings for further processing
