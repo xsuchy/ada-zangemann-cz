@@ -51,7 +51,7 @@ build/%/Ada_Zangemann-pure.dbk: build/%/Ada_Zangemann.dbk xsl/clean-docbook.xsl
 # HTML output using standard docbook processing
 # TODO: use lower resolution images
 # FIXME: warning 'No localization exists for "ada_zangemann" or "ada". Using default "en".'
-build/%/Ada_Zangemann.html: build/%/Ada_Zangemann-pure.dbk
+build/%/Ada_Zangemann.html: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
 	xsltproc -o $@ /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl $<
 
 # LaTeX based pdf processing
