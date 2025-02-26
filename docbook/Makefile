@@ -19,6 +19,8 @@ build/%/Ada_Zangemann.mo: po/%.po
 
 # Link images
 # TODO: simplify variable handling to extract language code
+# Available images can be collected using wildcard and basepath expressions in Make
+# Vpath can be used to resolve location with different fallback paths
 build/%/images/illustrations:
 	makefile_helpers/./imagedir.sh $(shell echo ${@} | sed -n 's/.*build\/\(.*\)\/images.*/\1/p')
 
