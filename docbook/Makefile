@@ -2,6 +2,22 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
+# GNU Make is used to automate the creation of various output formats. Each rule
+# defines the output and prerequisites. This way files only get created if
+# needed and files only get updated if a prerequisite was updated. More
+# information is available in the GNU Make manual:
+# https://www.gnu.org/software/make/manual/
+
+# Summary of variables used:
+# $@    The file name of the target.
+# $<    The name of the first prerequisite.
+# $(@D) The directory part of $@.
+# $(@F) The file-within-directory part of $@.
+
+# Ensure default shell
+SHELL = /bin/sh
+
+# FIXME: use $(srcdir) best practice https://www.gnu.org/software/make/manual/html_node/Makefile-Basics.html
 
 # Translation file
 po/Ada_Zangemann.pot: Ada_Zangemann.dbk
