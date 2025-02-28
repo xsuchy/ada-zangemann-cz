@@ -63,6 +63,10 @@ build/%/Ada_Zangemann-dblatex.pdf: build/%/Ada_Zangemann-pure.dbk build/%/images
 build/%/Ada_Zangemann-dbtoepub.epub: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
 	dbtoepub -o $@ $<
 
+# Pandoc markdown
+build/%/Ada_Zangemann-pandoc.md: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
+	pandoc -f docbook -o $@ $<
+
 # Build version with all images (for debugging)
 build/%/print-all/Ada_Zangemann-print-all.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations
 	mkdir -p $(@D)
