@@ -212,7 +212,9 @@ illustrations/ada-p03-title-de.png  # Hand-drawn title page for German (default 
 - Other build tools like Scons or Meson might be more accessible to newcomers with its syntax. In general the options to provide information to GNU Make are limited. This is difficult for getting images used in the Docbook file or the capital files. GNU Make is however very common and widely understood. Scons has mixed reviews.
 - The build directories are to be organized by language and then output type. For each build step a new directory might be created for clarity.
 - GNU Make vpath expressions can be used to check for a given filename in multiple directories. This works like the path on a shell. This fallback mechanism can be used to resolve translations of images.
+  - Besides explicit fallbacks, a language directory could have a symlinked directory with a common name like 'fallback' to point to the directory of the fallback.
 - For Markdown support the Pandoc Markdown might be a good flavor to standarize on.
+- Fallback of languages could include editions. For example `en_US_no-starch-press` could fall back to `en_US` and then `en` and then `ltr` (left to right). For this mechanism to work well, it should be possible to specify the fallback mechanisms.
 
 ### Request for feedback
 
