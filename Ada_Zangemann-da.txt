@@ -695,14 +695,21 @@ https://ada.fsfe.org.
 
 ** 55 **
 
-Licens
+<b>Ada & Zangemann: En fortælling om Software, Skateboards og 
+Hindbæris</b> er udgivet af Forlaget Modspil.
 
-Bogen Ada & Zangemann: En fortælling om Software, Skateboards og 
-Hindbæris af Matthias Kirschner og Sandra Brandstätter, udgivet af No 
-Starch Press, er udgivet under CC-licensen: “Creative Commons 
-Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).”
+© 2025 Matthias Kirschner og Sandra Brandstätter.
+
+Dansk udgave © Forlaget Modspil og Øjvind Fritjof Arnfred
+
+Trykt hos LaserTryk, Aarhus.
+
+Denne bog er udgivet under “Creative Commons 
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)”: 
 
 https://creativecommons.org/licenses/by-sa/4.0/deed.da
+
+ISBN 978-87-XXXX-XXX-X
 
 ## 56 ##
 
