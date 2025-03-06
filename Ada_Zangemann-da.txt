@@ -719,7 +719,7 @@ https://ada.fsfe.org.
 
 ## 60 ##
 
-[D]en lille pige Ada bor på en skrotplads og elsker at bygge ting. Hun 
+[D]en lille pige Ada bor ved en skrotplads og elsker at bygge ting. Hun 
 begynder at eksperimentere med hardware og software og bygger blandt 
 andet et selvkørende skateboard med lyd i.
 
