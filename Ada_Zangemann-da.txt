@@ -21,7 +21,7 @@ Oversat til dansk af Øjvind Fritjof Arnfred
 
 
 <b>Ada & Zangemann: En fortælling om Software, Skateboards og 
-Hindbæris</b> er udgivet af Forlaget Modspil.
+Hindbæris</b> er udgivet af Forlaget Modspil (kontakt: forlag@modspil.dk).
 
 © 2025 Matthias Kirschner og Sandra Brandstätter.
 
@@ -29,7 +29,7 @@ Dansk udgave © Forlaget Modspil og Øjvind Fritjof Arnfred
 
 Trykt hos LaserTryk, Aarhus.
 
-ISBN 978-87-XXXX-XXX-X
+ISBN 978-87-975979-1-0
 
 Denne bog er oversat fra den tyske original med skæven til den 
 italienske oversættelse og udgives under “Creative Commons 
