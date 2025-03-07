@@ -19,9 +19,22 @@ Oversat til dansk af Øjvind Fritjof Arnfred
 
 ## 2 ##
 
-Denne bog er oversat fra den tyske original, “Ada und Zangemann” 
-med skæven til den italienske oversættelse og stilles til rådighed 
-under Create Commons CC-BY-SA, som er en licens for fri kultur. 
+
+<b>Ada & Zangemann: En fortælling om Software, Skateboards og 
+Hindbæris</b> er udgivet af Forlaget Modspil.
+
+© 2025 Matthias Kirschner og Sandra Brandstätter.
+
+Dansk udgave © Forlaget Modspil og Øjvind Fritjof Arnfred
+
+Trykt hos LaserTryk, Aarhus.
+
+ISBN 978-87-XXXX-XXX-X
+
+Denne bog er oversat fra den tyske original med skæven til den 
+italienske oversættelse og udgives under “Creative Commons 
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)”.
+
 Se https://creativecommons.org/licenses/by-sa/4.0/deed.da
 
 <b>Du må</b> frit dele, kopiere og videredistribuere bogen i ethvert medie 
@@ -39,33 +52,16 @@ For tilpassede versioner (afledte værker) beder licensgiveren dig om ikke
 at ændre i forfatterens og illustratorens biografier; alternativt 
 skal du helt udelade dem fra din tilpassede version.
 
-Det var muligt at udgive bogen under denne frie licens takket være den
-eksemplariske støtte fra dpunkt.verlag / O’Reilly for den tyske udgave.
-Creative Commons-licenser er desværre stadig en sjælden undtagelse for
-kommercielle bogudgivelser, og mange forlæggere anser dem for at være
-risikable
+Det var muligt at udgive bogen under denne frie licens takket være den 
+eksemplariske støtte fra dpunkt.verlag / O’Reilly for den tyske udgave. 
+Creative Commons-licenser er desværre stadig en sjælden undtagelse for 
+kommercielle bogudgivelser, og mange forlæggere tør ikke risikere at 
+bruge dem.
 
 <b>En stor tak</b> til <b>dpunkt.verlag</b> for at 
 tage sig tid til at forstå fordelene 
-ved frie kulturlicenser og for at støtte os i at udgive bogen under 
+ved licenser for fri kultur og for at støtte os i at udgive bogen under 
 betingelser, der respekterer FSFEs værdier.
-
-
-
-<b>Ada & Zangemann: En fortælling om Software, Skateboards og 
-Hindbæris</b> er udgivet af Forlaget Modspil.
-
-© 2025 Matthias Kirschner og Sandra Brandstätter.
-
-Dansk udgave © Forlaget Modspil og Øjvind Fritjof Arnfred
-
-Trykt hos LaserTryk, Aarhus.
-
-Denne bog er udgivet under “Creative Commons 
-Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)”. 
-
-ISBN 978-87-XXXX-XXX-X
-
 
 ## 2BB ##
 
