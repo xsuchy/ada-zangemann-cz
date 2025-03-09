@@ -703,7 +703,7 @@ dele og forbedre programmer. Derfor støtter Fri Software grundlæggende
 rettigheder som ytringsfrihed, pressefrihed og retten til privatliv.
 
 På bogens hjemmeside kan du finde mere inspiration og flere ressourcer:  
-https://ada.fsfe.org.
+https://ada.fsfe.org
 
 ** 55 **
 
@@ -721,8 +721,8 @@ https://creativecommons.org/licenses/by-sa/4.0/deed.da
 
 Find på lækre, sjove eller skøre is og tegn dem på isvaflerne på næste 
 side.
-Der findes mere du kan farvelægge og information om bogen på 
-https://ada.fsfe.org.
+Der findes mere du kan farvelægge og information om bogen på  
+https://ada.fsfe.org
 
 ** 57 **
 
