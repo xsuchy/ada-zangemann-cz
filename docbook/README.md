@@ -215,6 +215,7 @@ illustrations/ada-p03-title-de.png  # Hand-drawn title page for German (default 
   - Besides explicit fallbacks, a language directory could have a symlinked directory with a common name like 'fallback' to point to the directory of the fallback.
 - For Markdown support the Pandoc Markdown might be a good flavor to standarize on.
 - Fallback of languages could include editions. For example `en_US_no-starch-press` could fall back to `en_US` and then `en` and then `ltr` (left to right). For this mechanism to work well, it should be possible to specify the fallback mechanisms.
+- Besides reading direction, different languages have different conventions of spine orientation. In many countries top-to-bottom is common so that the spine can be read when the book is lying flat on a table. In Italy and French apparently it is more common to have the spine text be from bottom to top to align with typographic conventions for sidways text. This property might be included as part of the fallback hierarchy, or it could be left as a choice for the publisher of the book. Then it would need the same level of configuratability as the cover images.
 
 ### Request for feedback
 
