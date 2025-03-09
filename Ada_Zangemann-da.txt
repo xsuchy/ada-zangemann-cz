@@ -707,7 +707,7 @@ dele og forbedre programmer. Derfor støtter Fri Software grundlæggende
 rettigheder som ytringsfrihed, pressefrihed og retten til privatliv.
 
 På bogens hjemmeside kan du finde mere inspiration og flere ressourcer:  
-https://ada.fsfe.org.
+https://ada.fsfe.org
 
 ** 55 **
 
@@ -725,7 +725,7 @@ https://creativecommons.org/licenses/by-sa/4.0/deed.da
 
 Find på lækre, sjove eller skøre is og tegn dem på isvaflerne på næste 
 side.
-Der findes mere du kan farvelægge og information om bogen på 
+Der findes mere du kan farvelægge og information om bogen på  
 https://ada.fsfe.org.
 
 ** 57 **
@@ -745,5 +745,6 @@ sin villa for at bestemme over alle de dimser, han har solgt til folk
 i landet, tager Ada og hendes venner kampen op for at sikre 
 softwarefrihed for alle.
 
-Ada & Zangemann er en inspirerende børnebog for de 6-106 årige om at 
-bruge, undersøge, dele og forbedre teknologien omring os.
+Ada & Zangemann er en inspirerende børnebog for de  
+6-106 årige om at bruge, undersøge, dele og forbedre teknologien 
+omring os.
