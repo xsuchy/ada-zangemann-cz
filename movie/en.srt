@@ -1,0 +1,2683 @@
+1
+00:00:00,960 --> 00:00:10,120
+Ada and Zangemann: a tale of software, skateboards, and raspberry ice cream.
+
+2
+00:00:10,120 --> 00:00:14,680
+Once upon a time, there was a little girl named Ada.
+
+3
+00:00:14,680 --> 00:00:19,920
+Her family was so poor that all their savings fit inside a cookie jar.
+
+4
+00:00:19,920 --> 00:00:24,520
+They didn't have enough money to live in a proper home.
+
+5
+00:00:24,520 --> 00:00:31,700
+Instead, Ada lived with her mother and her little brother, Alan, in a cabin near a junkyard
+
+6
+00:00:31,700 --> 00:00:36,040
+on the edge of town.
+
+7
+00:00:36,040 --> 00:00:42,580
+Far away at the other end of town lived a famous inventor named Zangemann.
+
+8
+00:00:42,580 --> 00:00:45,740
+He was immensely rich.
+
+9
+00:00:45,740 --> 00:00:50,760
+No sheet of paper in the world was big enough to show his bank balance with all its numbers
+
+10
+00:00:50,760 --> 00:00:54,180
+and zeros.
+
+11
+00:00:54,180 --> 00:01:00,060
+He lived in a huge house with a swimming pool and waterslide, lots of staircases and
+
+12
+00:01:00,060 --> 00:01:09,960
+towers, hundreds of windows, and so many rooms that he often got lost in them himself.
+
+13
+00:01:09,960 --> 00:01:13,660
+Zangemann's mansion stood high on a hill.
+
+14
+00:01:13,660 --> 00:01:18,340
+From there, he could look out over the whole city.
+
+15
+00:01:18,340 --> 00:01:21,980
+Computers had fascinated Zangemann ever since he was a child.
+
+16
+00:01:21,980 --> 00:01:23,840
+When he was young, computers were huge machines.
+
+17
+00:01:23,840 --> 00:01:28,080
+with lots of cables and loud noisy fans.
+
+18
+00:01:28,080 --> 00:01:34,780
+At school, little Zangemann often dreamed of all the things he would do with computers
+
+19
+00:01:34,780 --> 00:01:37,780
+if they were just a little bit smaller.
+
+20
+00:01:37,780 --> 00:01:42,060
+Small enough that they could be built into other fun things.
+
+21
+00:01:42,060 --> 00:01:43,520
+He knew what he would do.
+
+22
+00:01:43,520 --> 00:01:48,220
+First, he would build a computer into his skateboard so that it would make cool noises
+
+23
+00:01:48,220 --> 00:01:49,600
+when he rode it.
+
+24
+00:01:49,600 --> 00:01:53,500
+Maybe a fire engine siren or the sound of a rocket launch.
+
+25
+00:01:53,500 --> 00:01:58,500
+Then he would use a computer to invent ice cream making machines.
+
+26
+00:01:58,500 --> 00:02:03,000
+The computer would mix the coolest flavors and even sell the ice cream.
+
+27
+00:02:03,000 --> 00:02:08,140
+There would be machines on every street corner, and he could get ice cream in his favorite
+
+28
+00:02:08,140 --> 00:02:13,200
+flavor whenever he felt like it, and just as much as he wanted.
+
+29
+00:02:13,200 --> 00:02:18,020
+After that, he’d build a cleaning robot and a block sorting machine so that his room would
+
+30
+00:02:18,020 --> 00:02:21,760
+always be neat and clean.
+
+31
+00:02:21,760 --> 00:02:23,160
+Zangemann had great new ideas.
+
+32
+00:02:23,160 --> 00:02:25,200
+like these every day.
+
+33
+00:02:25,200 --> 00:02:28,680
+He could think of nothing else.
+
+34
+00:02:28,680 --> 00:02:34,200
+As the years went by, Zangemann grew bigger and computers got smaller.
+
+35
+00:02:34,200 --> 00:02:41,620
+In fact, by the time he finished school, they were so small they fit into his pocket.
+
+36
+00:02:41,620 --> 00:02:46,280
+The smallest ones even fit on his fingertip.
+
+37
+00:02:46,280 --> 00:02:52,820
+“Finally, I can turn all my ideas into real things”,
+
+38
+00:02:52,820 --> 00:02:54,200
+Zangemann exclaimed.
+
+39
+00:02:54,200 --> 00:02:55,940
+And he got right to work.
+
+40
+00:02:55,940 --> 00:03:00,700
+He found ways to put the small computers into all kinds of things to make them even more
+
+41
+00:03:00,700 --> 00:03:02,920
+fun and useful.
+
+42
+00:03:02,920 --> 00:03:04,400
+And then he sold them.
+
+43
+00:03:04,400 --> 00:03:08,020
+Adults and children loved his inventions.
+
+44
+00:03:08,020 --> 00:03:13,060
+All the kids wanted to have one of his skateboards, complete with the latest sounds to show off
+
+45
+00:03:13,060 --> 00:03:17,220
+to their friends at school.
+
+46
+00:03:17,220 --> 00:03:21,980
+Kids also loved his speaker invention, which could instantly play any song you requested.
+
+47
+00:03:21,980 --> 00:03:30,080
+And of course, everyone loved the ice cream served every afternoon from the automatic,
+
+48
+00:03:30,080 --> 00:03:35,680
+extra delicious, original Zangemann ice cream machine.
+
+49
+00:03:35,680 --> 00:03:39,220
+It all seemed like magic, but the secret was simple.
+
+50
+00:03:39,220 --> 00:03:44,740
+The little computers that Zangemann built into his machines made it all possible.
+
+51
+00:03:44,740 --> 00:03:48,100
+These inventions were very popular at Ada's school.
+
+52
+00:03:48,100 --> 00:03:51,640
+And many of her friends rode around on the cool skateboards.
+
+53
+00:03:51,640 --> 00:03:57,780
+Ada was often sad, since her mother couldn't buy her any of those great things.
+
+54
+00:03:57,780 --> 00:03:59,380
+No skateboard.
+
+55
+00:03:59,380 --> 00:04:00,960
+No speakers.
+
+56
+00:04:00,960 --> 00:04:02,080
+No ice cream.
+
+57
+00:04:02,080 --> 00:04:05,520
+Luckily, Ada lived right next to the junkyard.
+
+58
+00:04:05,520 --> 00:04:09,700
+There were lots of broken gadgets and rusty parts, which she put together to make cool
+
+59
+00:04:09,700 --> 00:04:11,680
+new things.
+
+60
+00:04:11,680 --> 00:04:16,460
+Like a soapbox she and Alan rode roaring down the hill.
+
+61
+00:04:16,460 --> 00:04:17,800
+A windmill.
+
+62
+00:04:17,800 --> 00:04:21,300
+And scary junk monsters, which she and Alan would fight together.
+
+63
+00:04:21,300 --> 00:04:25,840
+She also found many useful items.
+
+64
+00:04:25,840 --> 00:04:28,680
+An old cell phone, for example.
+
+65
+00:04:28,680 --> 00:04:32,320
+The screen was cracked, but she could fix that.
+
+66
+00:04:32,320 --> 00:04:38,240
+And while there wasn’t internet at the junkyard, she could get access somewhere else.
+
+67
+00:04:38,240 --> 00:04:43,400
+Ada had so much fun tinkering in the junkyard, and fixing broken things, that she forgot
+
+68
+00:04:43,400 --> 00:04:47,960
+all about the skateboards and the ice cream.
+
+69
+00:04:47,960 --> 00:04:50,300
+Because everyone bought his inventions,
+
+70
+00:04:50,300 --> 00:04:51,260
+Zangemann soon became
+
+71
+00:04:51,260 --> 00:04:54,260
+the richest person in the whole world.
+
+72
+00:04:54,260 --> 00:04:59,840
+With all his money, he bought a huge golden computer with a keyboard made of jewels and
+
+73
+00:04:59,840 --> 00:05:05,460
+set it up in the largest room of his mansion.
+
+74
+00:05:05,460 --> 00:05:12,780
+From there, over the internet, he could control all the little computers built into his inventions.
+
+75
+00:05:12,780 --> 00:05:17,260
+All he had to do was press the proper key on the golden computer,
+
+76
+00:05:17,260 --> 00:05:21,220
+and immediately all the ice cream machines in town would dispense.
+
+77
+00:05:21,220 --> 00:05:23,220
+only vanilla ice cream.
+
+78
+00:05:23,220 --> 00:05:30,220
+If Zangemann wanted people to eat chocolate ice cream, he pressed the key for chocolate ice cream.
+
+79
+00:05:30,220 --> 00:05:35,220
+If he gave the order for lemon ice cream, the machines made only lemon ice cream.
+
+80
+00:05:35,220 --> 00:05:45,220
+Zangemann loved his inventions and was always thrilled at how amazingly well his machines worked.
+
+81
+00:05:45,220 --> 00:05:49,220
+Sometimes, people were disappointed when their favorite flavor wasn't available.
+
+82
+00:05:49,220 --> 00:05:50,220
+But what could they do?
+
+83
+00:05:50,220 --> 00:05:55,220
+After all, there was ice cream on every street corner.
+
+84
+00:05:55,220 --> 00:06:02,220
+Zangemann had a lot of fun pressing the sparkling keys and watching people eat ice cream.
+
+85
+00:06:02,220 --> 00:06:08,220
+He spent many hours every day in front of his golden computer doing this.
+
+86
+00:06:08,220 --> 00:06:15,220
+Again and again, he looked down on the city through a long telescope,
+
+87
+00:06:15,220 --> 00:06:19,220
+observing how reliably his inventions carried out his commands.
+
+88
+00:06:19,220 --> 00:06:31,220
+When he wasn't sitting at his golden computer, Zangemann was building his little computers into new devices and then selling those.
+
+89
+00:06:31,220 --> 00:06:36,220
+He built washing machines that sent a message to your cell phone when your laundry was done.
+
+90
+00:06:36,220 --> 00:06:41,220
+He made vacuums that played happy music instead of droning loudly.
+
+91
+00:06:41,220 --> 00:06:45,220
+He invented light bulbs that turned on and off at the snap of a finger
+
+92
+00:06:45,220 --> 00:06:48,220
+and cars that told you where the nearest grocery store was.
+
+93
+00:06:48,220 --> 00:06:55,220
+Soon, almost every appliance in the world had a Zangemann computer built into it.
+
+94
+00:06:55,220 --> 00:07:02,220
+Not all of his inventions seemed necessary at first, but people bought everything he made.
+
+95
+00:07:02,220 --> 00:07:05,220
+That's just the way it was.
+
+96
+00:07:05,220 --> 00:07:10,220
+Everyone wanted the devices made by Zangemann, the greatest inventor in the world.
+
+97
+00:07:10,220 --> 00:07:17,220
+One day, Zangemann thought, "Today, I want to see my inventions up close."
+
+98
+00:07:17,220 --> 00:07:24,220
+He put away his big telescope, then climbed down the many stairs of his mansion.
+
+99
+00:07:24,220 --> 00:07:30,220
+And ventured out into the city, full of anticipation at the thought of enjoying his cool devices.
+
+100
+00:07:30,220 --> 00:07:35,220
+“Maybe a little trip might even give me a few new ideas.
+
+101
+00:07:35,220 --> 00:07:42,220
+If I'm completely honest, my last inventions weren't quite as useful as the first ones…”, Zangemann pondered.
+
+102
+00:07:42,220 --> 00:07:46,220
+“But my ice cream machines are and will remain
+
+103
+00:07:46,220 --> 00:07:50,220
+second to none,” he thought immediately afterward.,
+
+104
+00:07:50,220 --> 00:07:57,220
+and not without pride, as he passed a group of people all eating coconut ice cream, the flavor of the day.
+
+105
+00:07:57,220 --> 00:08:03,220
+He was completely absorbed in his thoughts, when suddenly, BAM!
+
+106
+00:08:03,220 --> 00:08:06,220
+Something crashed into his shin.
+
+107
+00:08:06,220 --> 00:08:10,220
+Zangemann yelped and looked around for the cause.
+
+108
+00:08:10,220 --> 00:08:15,220
+A startled child stood in front of him, holding an original Zangemann skateboard under his arm.
+
+109
+00:08:15,220 --> 00:08:22,220
+"S-sorry, I didn't mean to do that," the child stammered.
+
+110
+00:08:22,220 --> 00:08:24,220
+But Zangemann wasn't listening.
+
+111
+00:08:24,220 --> 00:08:27,220
+An angry Zangemann limped away.
+
+112
+00:08:27,220 --> 00:08:30,220
+Suddenly, he heard loud music.
+
+113
+00:08:30,220 --> 00:08:34,220
+He had never before heard something so horrible.
+
+114
+00:08:34,220 --> 00:08:41,220
+He looked around and saw that the music was coming from a loudspeaker he himself had constructed.
+
+115
+00:08:41,220 --> 00:08:44,220
+A child across the street was holding it.
+
+116
+00:08:44,220 --> 00:08:49,220
+The child seemed to like the music.
+
+117
+00:08:49,220 --> 00:08:53,220
+But it gave Zangemann a terrible headache.
+
+118
+00:08:53,220 --> 00:08:57,220
+And his mood worsened.
+
+119
+00:08:57,220 --> 00:09:02,220
+This was not how he had imagined his walk.
+
+120
+00:09:02,220 --> 00:09:06,220
+Zangemann was so furious with the two children.
+
+121
+00:09:06,220 --> 00:09:10,220
+How dare they use his inventions this way?
+
+122
+00:09:10,220 --> 00:09:13,220
+That night, he couldn't sleep.
+
+123
+00:09:13,220 --> 00:09:17,220
+So he sat down at his golden computer.
+
+124
+00:09:17,220 --> 00:09:21,220
+From there, he gave all the little computers in the skateboards a command
+
+125
+00:09:21,220 --> 00:09:25,220
+that they were no longer allowed to go on sidewalks.
+
+126
+00:09:25,220 --> 00:09:30,220
+He ordered the small computers in the speakers to play music only at a low volume,
+
+127
+00:09:30,220 --> 00:09:32,220
+except for his favorite music,
+
+128
+00:09:32,220 --> 00:09:38,220
+which he immediately turned on to get into a better mood.
+
+129
+00:09:38,220 --> 00:09:42,220
+The next day, there was a big commotion at Ada's school.
+
+130
+00:09:42,220 --> 00:09:46,220
+On the way to school, the kids' skateboards had stopped working.
+
+131
+00:09:46,220 --> 00:09:49,220
+The wheels simply stood still.
+
+132
+00:09:49,220 --> 00:09:53,220
+And the children could no longer turn up the volume on their speakers.
+
+133
+00:09:53,220 --> 00:09:55,220
+What was going on?
+
+134
+00:09:55,220 --> 00:09:59,220
+Although she didn't own any of these things,
+
+135
+00:09:59,220 --> 00:10:05,220
+Ada wondered why the skateboards and the speakers suddenly stopped working.
+
+136
+00:10:05,220 --> 00:10:07,220
+But she didn't really have time to think much about it,
+
+137
+00:10:07,220 --> 00:10:10,220
+because she was tinkering again.
+
+138
+00:10:10,220 --> 00:10:15,220
+She put together a complete bicycle from the parts of three broken bicycles.
+
+139
+00:10:15,220 --> 00:10:18,220
+She gave the bicycle to her mother as a present
+
+140
+00:10:18,220 --> 00:10:22,220
+so that she wouldn't have to spend her money on bus tickets to work.
+
+141
+00:10:22,220 --> 00:10:25,220
+For her brother, Ada built a loudspeaker
+
+142
+00:10:25,220 --> 00:10:28,220
+so he could fall asleep to nice stories in the evenings
+
+143
+00:10:28,220 --> 00:10:32,220
+when their mother was still at work.
+
+144
+00:10:32,220 --> 00:10:36,220
+After a few days, the initial shock at Ada's school was forgotten.
+
+145
+00:10:36,220 --> 00:10:39,220
+The skateboards still didn't go on the sidewalk.
+
+146
+00:10:39,220 --> 00:10:42,220
+But apart from that, they still worked.
+
+147
+00:10:42,220 --> 00:10:46,220
+And so now the children rode in circles around the playground
+
+148
+00:10:46,220 --> 00:10:49,220
+and listened to soft music.
+
+149
+00:10:49,220 --> 00:10:56,220
+Only a strange, pompous marching music continued to play at an unchanged volume,
+
+150
+00:10:56,220 --> 00:11:00,220
+which the children found rather puzzling.
+
+151
+00:11:00,220 --> 00:11:02,220
+Ada loved Wednesdays.
+
+152
+00:11:02,220 --> 00:11:06,220
+Every Wednesday, her mother and Alan would pick her up from school,
+
+153
+00:11:06,220 --> 00:11:08,220
+and they would all go to the library together.
+
+154
+00:11:08,220 --> 00:11:12,220
+Ada was always drawn to the technology section.
+
+155
+00:11:12,220 --> 00:11:16,220
+There were books with blueprints, instructions for experiments,
+
+156
+00:11:16,220 --> 00:11:21,220
+and explanations of how different devices worked.
+
+157
+00:11:21,220 --> 00:11:26,220
+In the library, Ada could also go online with her cell phone.
+
+158
+00:11:26,220 --> 00:11:31,220
+She quickly realized that there was also much to discover on the Internet.
+
+159
+00:11:31,220 --> 00:11:37,220
+There, many people shared their ideas and prepared tips to help others.
+
+160
+00:11:37,220 --> 00:11:42,220
+On one of those afternoons, Ada learned two new words:
+
+161
+00:11:42,220 --> 00:11:47,220
+hardware and software.
+
+162
+00:11:47,220 --> 00:11:51,220
+Hardware was a word for something Ada already knew:
+
+163
+00:11:51,220 --> 00:11:55,220
+the electronic devices she tinkered with after school,
+
+164
+00:11:55,220 --> 00:11:58,220
+or those devices she could hold in her hands and try to fix
+
+165
+00:11:58,220 --> 00:12:01,220
+or make into something else.
+
+166
+00:12:01,220 --> 00:12:06,220
+What was completely new to Ada was the word software.
+
+167
+00:12:06,220 --> 00:12:09,220
+She soon learned that it meant instructions that ran on a computer
+
+168
+00:12:09,220 --> 00:12:13,220
+to control other devices or computers.
+
+169
+00:12:13,220 --> 00:12:19,220
+Some books called those instructions "programs" or "code."
+
+170
+00:12:19,220 --> 00:12:23,220
+With such a computer program, one could, for example,
+
+171
+00:12:23,220 --> 00:12:29,220
+tell a loudspeaker which song to play and how loud.
+
+172
+00:12:29,220 --> 00:12:32,220
+The best thing about Ada's new discovery was realizing
+
+173
+00:12:32,220 --> 00:12:35,220
+she could tinker with software just as she could with hardware.
+
+174
+00:12:35,220 --> 00:12:40,220
+Hardware is built with tools:
+
+175
+00:12:40,220 --> 00:12:44,220
+hammers, drills, and screws.
+
+176
+00:12:44,220 --> 00:12:48,220
+Software is built simply by writing down the commands for the hardware,
+
+177
+00:12:48,220 --> 00:12:50,220
+one after the other.
+
+178
+00:12:50,220 --> 00:12:53,220
+There was a separate language for this:
+
+179
+00:12:53,220 --> 00:12:56,220
+the programming language.
+
+180
+00:12:56,220 --> 00:13:01,220
+With software, Ada could make her inventions even more useful.
+
+181
+00:13:01,220 --> 00:13:04,220
+She really wanted to learn the programming language.
+
+182
+00:13:04,220 --> 00:13:11,220
+Over the next few weeks, Ada spent her afternoons in a library.
+
+183
+00:13:11,220 --> 00:13:17,220
+She found books and websites that explained how programming languages and code worked.
+
+184
+00:13:17,220 --> 00:13:22,220
+For Ada, it felt a bit like learning a secret language,
+
+185
+00:13:22,220 --> 00:13:25,220
+or like studying vocabulary in the school.
+
+186
+00:13:25,220 --> 00:13:28,220
+Ada ate it all up.
+
+187
+00:13:28,220 --> 00:13:32,220
+She expected her first program to do something simple:
+
+188
+00:13:32,220 --> 00:13:35,220
+make this lamp blink.
+
+189
+00:13:35,220 --> 00:13:38,220
+Of course, she wanted to try her program out right away
+
+190
+00:13:38,220 --> 00:13:41,220
+to see if it really worked.
+
+191
+00:13:41,220 --> 00:13:46,220
+At the junkyard, she connected her cell phone to a small LED lamp.
+
+192
+00:13:46,220 --> 00:13:50,220
+Then she typed the lines of code into her cell phone.
+
+193
+00:13:50,220 --> 00:13:52,220
+At first, nothing happened.
+
+194
+00:13:52,220 --> 00:13:55,220
+Ada wondered where the error could be.
+
+195
+00:13:55,220 --> 00:13:58,220
+She made a few small changes and tried again and...
+
+196
+00:13:58,220 --> 00:14:00,220
+Yes!
+
+197
+00:14:00,220 --> 00:14:03,220
+The little light began to flash.
+
+198
+00:14:03,220 --> 00:14:08,220
+On, off, on, off.
+
+199
+00:14:08,220 --> 00:14:12,220
+Ada looked at the LED in amazement.
+
+200
+00:14:12,220 --> 00:14:15,220
+She had written her first program!
+
+201
+00:14:15,220 --> 00:14:18,220
+Ada was totally thrilled.
+
+202
+00:14:18,220 --> 00:14:21,220
+She imagined all the great things she could do.
+
+203
+00:14:21,220 --> 00:14:24,220
+If she just entered the right code,
+
+204
+00:14:24,220 --> 00:14:27,220
+she could make her inventions do exactly what she wanted.
+
+205
+00:14:27,220 --> 00:14:29,220
+It was not so easy.
+
+206
+00:14:29,220 --> 00:14:34,220
+But after a few weeks, Ada wrote a truly useful program.
+
+207
+00:14:34,220 --> 00:14:38,220
+One that would make Alan's speakers automatically turn off
+
+208
+00:14:38,220 --> 00:14:41,220
+half an hour after he had fallen asleep.
+
+209
+00:14:41,220 --> 00:14:47,220
+Ada also had an idea for the next program she would write.
+
+210
+00:14:47,220 --> 00:14:49,220
+It was a bigger deal.
+
+211
+00:14:49,220 --> 00:14:51,220
+A real project.
+
+212
+00:14:51,220 --> 00:14:55,220
+She would probably need the whole summer break for it.
+
+213
+00:14:55,220 --> 00:14:58,220
+And she could hardly wait.
+
+214
+00:14:58,220 --> 00:15:06,220
+Zangaemann had slept horribly every night since his terrible walk in the city.
+
+215
+00:15:06,220 --> 00:15:10,220
+When he went to bed each night, worries plagued him.
+
+216
+00:15:10,220 --> 00:15:12,220
+“Oh, no.
+
+217
+00:15:12,220 --> 00:15:14,220
+My marvelous inventions.
+
+218
+00:15:14,220 --> 00:15:18,220
+It can't be that everyone just plays around with them.
+
+219
+00:15:18,220 --> 00:15:21,220
+All the things that could go wrong.
+
+220
+00:15:21,220 --> 00:15:25,220
+I put so much thought into everything, down to the last detail.”
+
+221
+00:15:25,220 --> 00:15:27,220
+Zangaemann pondered and pondered,
+
+222
+00:15:27,220 --> 00:15:31,220
+and tossed and turned sleeplessly in his bed all night.
+
+223
+00:15:31,220 --> 00:15:37,220
+Waking up one morning with a deeply furrowed brow,
+
+224
+00:15:37,220 --> 00:15:39,220
+he made a decision.
+
+225
+00:15:39,220 --> 00:15:42,220
+He needed to make a change.
+
+226
+00:15:42,220 --> 00:15:45,220
+Zangaemann sat down at his computer
+
+227
+00:15:45,220 --> 00:15:48,220
+and wrote one program after another.
+
+228
+00:15:48,220 --> 00:15:54,220
+In these programs, he specified exactly what his inventions were to do
+
+229
+00:15:54,220 --> 00:15:56,220
+and were not to do under any circumstances.
+
+230
+00:15:56,220 --> 00:16:00,220
+The chaos had to stop.
+
+231
+00:16:00,220 --> 00:16:02,220
+Once he was done,
+
+232
+00:16:02,220 --> 00:16:08,220
+he sent all the new programs from his golden computer to people's devices.
+
+233
+00:16:08,220 --> 00:16:12,220
+He ordered his speakers to play only his favorite music
+
+234
+00:16:12,220 --> 00:16:15,220
+whenever he was within earshot.
+
+235
+00:16:15,220 --> 00:16:20,220
+He programmed the ice cream machines to stop selling ice cream in the afternoon.
+
+236
+00:16:20,220 --> 00:16:25,220
+After all, he didn't want his expensive clothes to get stained by ice cream
+
+237
+00:16:25,220 --> 00:16:27,220
+while he was out for a walk.
+
+238
+00:16:27,220 --> 00:16:30,220
+All day long, he sat at the computer
+
+239
+00:16:30,220 --> 00:16:35,220
+and typed and typed and typed.
+
+240
+00:16:35,220 --> 00:16:38,220
+Summer break was already halfway over.
+
+241
+00:16:38,220 --> 00:16:42,220
+Ada stood in front of her big project and scratched her head.
+
+242
+00:16:42,220 --> 00:16:45,220
+She had built a skateboard from old parts
+
+243
+00:16:45,220 --> 00:16:48,220
+and then connected a motor to make the wheels turn.
+
+244
+00:16:48,220 --> 00:16:50,220
+With a motorized skateboard,
+
+245
+00:16:50,220 --> 00:16:53,220
+after school, Ada could zoom to the library
+
+246
+00:16:53,220 --> 00:16:54,220
+or the junkyard even faster.
+
+247
+00:16:54,220 --> 00:16:58,220
+Super practical.
+
+248
+00:16:58,220 --> 00:17:00,220
+But it didn't work.
+
+249
+00:17:00,220 --> 00:17:04,220
+When she stood on it and pressed the "Go" button,
+
+250
+00:17:04,220 --> 00:17:07,220
+the wheels moved, but way too fast.
+
+251
+00:17:07,220 --> 00:17:12,220
+Ada fell off the skateboard every time she started.
+
+252
+00:17:12,220 --> 00:17:14,220
+No matter what she tried,
+
+253
+00:17:14,220 --> 00:17:16,220
+she just couldn't get it right.
+
+254
+00:17:16,220 --> 00:17:21,220
+After falling on her bottom for the hundredth time,
+
+255
+00:17:21,220 --> 00:17:23,220
+she went back to the library.
+
+256
+00:17:23,220 --> 00:17:27,220
+She always found answers to her questions there.
+
+257
+00:17:27,220 --> 00:17:29,220
+And indeed, on the Internet,
+
+258
+00:17:29,220 --> 00:17:31,220
+she came across a program
+
+259
+00:17:31,220 --> 00:17:34,220
+that someone had written for an electric scooter
+
+260
+00:17:34,220 --> 00:17:36,220
+that also needed to start slowly.
+
+261
+00:17:36,220 --> 00:17:40,220
+Ada downloaded it to her phone.
+
+262
+00:17:40,220 --> 00:17:42,220
+Back at the junkyard,
+
+263
+00:17:42,220 --> 00:17:46,220
+she adapted some lines of code for her skateboard program.
+
+264
+00:17:46,220 --> 00:17:49,220
+She tweaked a few things and kept tinkering.
+
+265
+00:17:49,220 --> 00:17:52,220
+Several failed attempts later,
+
+266
+00:17:52,220 --> 00:17:54,220
+on the last day of summer break,
+
+267
+00:17:54,220 --> 00:17:57,220
+the time had finally come.
+
+268
+00:17:57,220 --> 00:17:59,220
+Ada stood on the skateboard
+
+269
+00:17:59,220 --> 00:18:01,220
+and pressed the "Go" button.
+
+270
+00:18:01,220 --> 00:18:03,220
+And the skateboard started moving.
+
+271
+00:18:03,220 --> 00:18:06,220
+Slowly at first, then faster.
+
+272
+00:18:06,220 --> 00:18:08,220
+It worked!
+
+273
+00:18:08,220 --> 00:18:10,220
+She tried to brake. It worked!
+
+274
+00:18:10,220 --> 00:18:12,220
+Ada let out a cry of joy
+
+275
+00:18:12,220 --> 00:18:14,220
+and took a trip to the park.
+
+276
+00:18:14,220 --> 00:18:19,220
+When Ada rode her skateboard to school
+
+277
+00:18:19,220 --> 00:18:21,220
+on the first day back after summer break,
+
+278
+00:18:21,220 --> 00:18:25,220
+the other children were amazed.
+
+279
+00:18:25,220 --> 00:18:26,220
+During recess,
+
+280
+00:18:26,220 --> 00:18:29,220
+Ada's curious classmates surrounded her.
+
+281
+00:18:29,220 --> 00:18:32,220
+"How can you ride your skateboard
+
+282
+00:18:32,220 --> 00:18:34,220
+on the sidewalk?" they asked.
+
+283
+00:18:34,220 --> 00:18:37,220
+Ada thought for a moment, then said,
+
+284
+00:18:37,220 --> 00:18:40,220
+"I don't think it's your skateboards,
+
+285
+00:18:40,220 --> 00:18:42,920
+but actually the software in them.
+
+286
+00:18:43,220 --> 00:18:45,220
+It's probably programmed into the software
+
+287
+00:18:45,220 --> 00:18:47,220
+that the skateboards aren't allowed
+
+288
+00:18:47,220 --> 00:18:49,220
+to go on the sidewalk.
+
+289
+00:18:49,220 --> 00:18:51,020
+But that can be changed.”
+
+290
+00:18:51,620 --> 00:18:55,920
+That evening,  Ada tested out her theory
+
+291
+00:18:55,920 --> 00:18:58,120
+on her classmate Toni's skateboard.
+
+292
+00:18:58,120 --> 00:18:59,920
+She worked secretly through most of the night,
+
+293
+00:18:59,920 --> 00:19:01,220
+and the next day,
+
+294
+00:19:01,220 --> 00:19:05,220
+Toni could ride on the side walk again.
+
+295
+00:19:05,220 --> 00:19:07,220
+Unfortunately, his skateboard
+
+296
+00:19:07,220 --> 00:19:09,520
+could no longer make the sounds
+
+297
+00:19:09,520 --> 00:19:13,820
+that his parents had bought from Zangermann.
+
+298
+00:19:13,820 --> 00:19:15,220
+Instead, every ten minutes,
+
+299
+00:19:15,220 --> 00:19:16,720
+it made a strange noise
+
+300
+00:19:16,720 --> 00:19:22,920
+that sounded like a drawn-out burp.
+
+301
+00:19:22,920 --> 00:19:24,220
+Ada knew that little errors like that
+
+302
+00:19:24,220 --> 00:19:27,220
+could pop up in programs all the time.
+
+303
+00:19:27,220 --> 00:19:29,220
+But Toni's burping skateboard
+
+304
+00:19:29,220 --> 00:19:32,220
+was really quite funny.
+
+305
+00:19:32,220 --> 00:19:34,220
+More and more children started to visit Ada
+
+306
+00:19:34,220 --> 00:19:36,220
+at the junkyard after school,
+
+307
+00:19:36,220 --> 00:19:38,220
+and she helped them rewrite the programs
+
+308
+00:19:38,220 --> 00:19:40,220
+in their skateboards.
+
+309
+00:19:40,220 --> 00:19:42,220
+Some of her classmates were very excited
+
+310
+00:19:42,220 --> 00:19:44,220
+about this new discovery.
+
+311
+00:19:44,220 --> 00:19:46,220
+It was unbelievable what you could do
+
+312
+00:19:46,220 --> 00:19:48,220
+with software code.
+
+313
+00:19:48,220 --> 00:19:50,220
+They learned everything Ada knew
+
+314
+00:19:50,220 --> 00:19:52,220
+about programming languages.
+
+315
+00:19:52,220 --> 00:19:54,220
+And soon they were riding their skateboards again,
+
+316
+00:19:54,220 --> 00:19:56,220
+wherever they wanted to.
+
+317
+00:19:56,220 --> 00:19:58,220
+But that wasn't all.
+
+318
+00:19:58,220 --> 00:19:59,220
+With the software,
+
+319
+00:19:59,220 --> 00:20:01,220
+they could give their skateboards
+
+320
+00:20:01,220 --> 00:20:03,220
+new, cool features.
+
+321
+00:20:03,220 --> 00:20:05,220
+Marie attached colorful LED lights
+
+322
+00:20:05,220 --> 00:20:07,220
+to her board that glowed different colors
+
+323
+00:20:07,220 --> 00:20:09,220
+depending on the speed.
+
+324
+00:20:09,220 --> 00:20:11,220
+Konrad built old propellers
+
+325
+00:20:11,220 --> 00:20:13,220
+onto his skateboard for extra speed.
+
+326
+00:20:13,220 --> 00:20:20,220
+Ada, Toni, Marie, and Konrad
+
+327
+00:20:20,220 --> 00:20:23,220
+spent many afternoons at the junkyard.
+
+328
+00:20:23,220 --> 00:20:26,220
+They even set up a real workshop
+
+329
+00:20:26,220 --> 00:20:29,220
+where they can fine-tune their programs for hours,
+
+330
+00:20:29,220 --> 00:20:32,220
+listening all the while to music
+
+331
+00:20:32,220 --> 00:20:35,220
+from the speakers Ada had built for Alan.
+
+332
+00:20:35,220 --> 00:20:40,220
+"Your brother's speakers are much louder than ours,"
+
+333
+00:20:40,220 --> 00:20:42,220
+remarked Toni.
+
+334
+00:20:42,220 --> 00:20:44,220
+It was busy attaching a speedometer
+
+335
+00:20:44,220 --> 00:20:46,220
+to his helmet.
+
+336
+00:20:46,220 --> 00:20:51,220
+"I'm sure that's also because of the software,"
+
+337
+00:20:51,220 --> 00:20:53,220
+Marie said.
+
+338
+00:20:53,220 --> 00:20:54,220
+Together they changed the software
+
+339
+00:20:54,220 --> 00:20:56,220
+for the speakers, too.
+
+340
+00:20:56,220 --> 00:20:57,220
+Then they'd turn up the music
+
+341
+00:20:57,220 --> 00:20:59,220
+as loud as possible
+
+342
+00:20:59,220 --> 00:21:02,220
+and dance wildly together.
+
+343
+00:21:02,220 --> 00:21:04,220
+Every day, Ada and her friends
+
+344
+00:21:04,220 --> 00:21:07,220
+made plans together for the afternoon.
+
+345
+00:21:07,220 --> 00:21:09,220
+From a broken ice cream machine,
+
+346
+00:21:09,220 --> 00:21:11,220
+they built a new one that could make ice cream
+
+347
+00:21:11,220 --> 00:21:14,220
+in every imaginable shape and color.
+
+348
+00:21:14,220 --> 00:21:16,220
+They ate square ice cream,
+
+349
+00:21:16,220 --> 00:21:18,220
+heart-shaped ice cream,
+
+350
+00:21:18,220 --> 00:21:20,220
+and even pyramid-shaped ice cream,
+
+351
+00:21:20,220 --> 00:21:22,220
+as well as strawberry, raspberry,
+
+352
+00:21:22,220 --> 00:21:24,220
+and rainbow ice cream,
+
+353
+00:21:24,220 --> 00:21:26,220
+all with sprinkles and hot fudge.
+
+354
+00:21:26,220 --> 00:21:28,220
+Much better than the varieties
+
+355
+00:21:28,220 --> 00:21:31,220
+from Zangemann's machines.
+
+356
+00:21:31,220 --> 00:21:36,220
+Sometimes, they could even help adults.
+
+357
+00:21:36,220 --> 00:21:39,220
+Toni reprogrammed his father's ironing machine
+
+358
+00:21:39,220 --> 00:21:41,820
+so that it could also iron ties again.
+
+359
+00:21:41,820 --> 00:21:45,020
+Zangemann had forbidden the machines to do so
+
+360
+00:21:45,020 --> 00:21:49,220
+because he hated ties like the plague.
+
+361
+00:21:49,220 --> 00:21:50,020
+For the bus driver,
+
+362
+00:21:50,020 --> 00:21:52,720
+they built an automatic watering system
+
+363
+00:21:52,720 --> 00:21:53,020
+out of old hoses and a computer
+
+364
+00:21:53,020 --> 00:21:54,220
+so that the plants would not die of thirst
+
+365
+00:21:54,220 --> 00:21:56,220
+during summer days.
+
+366
+00:22:01,220 --> 00:22:02,220
+And they helped the school custodian
+
+367
+00:22:03,220 --> 00:22:05,220
+so that it automatically recognized toys
+
+368
+00:22:05,220 --> 00:22:06,220
+and wouldn't suck them up.
+
+369
+00:22:06,220 --> 00:22:07,220
+Some of these machines
+
+370
+00:22:07,220 --> 00:22:09,220
+could even be used by children.
+
+371
+00:22:09,220 --> 00:22:12,220
+Some things they built just for fun.
+
+372
+00:22:12,220 --> 00:22:16,220
+Like the fart machine
+
+373
+00:22:16,220 --> 00:22:18,220
+they put in their math teacher's chair.
+
+374
+00:22:18,220 --> 00:22:22,220
+Whenever Ms. Gernot sat down,
+
+375
+00:22:22,220 --> 00:22:24,220
+the machine played a little fart sound.
+
+376
+00:22:24,220 --> 00:22:29,220
+The teacher would scold them,
+
+377
+00:22:29,220 --> 00:22:31,220
+but Ada was sure that she secretly
+
+378
+00:22:31,220 --> 00:22:33,220
+smirked a little every time.
+
+379
+00:22:33,220 --> 00:22:38,220
+One day, Zangemann noticed
+
+380
+00:22:38,220 --> 00:22:39,220
+that some computers
+
+381
+00:22:39,220 --> 00:22:42,220
+no longer obeyed his programming commands.
+
+382
+00:22:42,220 --> 00:22:45,220
+Shocked and fuming with anger,
+
+383
+00:22:45,220 --> 00:22:48,220
+he called the president.
+
+384
+00:22:48,220 --> 00:22:50,220
+In a quivering voice,
+
+385
+00:22:50,220 --> 00:22:52,220
+Zangemann yelled,
+
+386
+00:22:52,220 --> 00:22:55,220
+"Someone is rewriting the programs in my devices."
+
+387
+00:22:55,220 --> 00:22:57,220
+That can't happen.
+
+388
+00:22:57,220 --> 00:22:59,220
+After all, they are my inventions.
+
+389
+00:22:59,220 --> 00:23:01,220
+It's far too dangerous
+
+390
+00:23:01,220 --> 00:23:03,220
+if everyone can do whatever they want
+
+391
+00:23:03,220 --> 00:23:04,220
+with the computers.
+
+392
+00:23:04,220 --> 00:23:06,220
+You must make a law against this.
+
+393
+00:23:06,220 --> 00:23:08,220
+The president
+
+394
+00:23:08,220 --> 00:23:10,220
+did not want to upset Zangemann.
+
+395
+00:23:10,220 --> 00:23:13,220
+All the government's computers
+
+396
+00:23:13,220 --> 00:23:15,220
+were programmed by Zangemann.
+
+397
+00:23:15,220 --> 00:23:18,220
+Without the computers,
+
+398
+00:23:18,220 --> 00:23:19,220
+the government would not be able
+
+399
+00:23:19,220 --> 00:23:21,220
+to run the country.
+
+400
+00:23:21,220 --> 00:23:22,220
+So they passed a law
+
+401
+00:23:22,220 --> 00:23:24,220
+as Zangemann requested.
+
+402
+00:23:24,220 --> 00:23:28,220
+All computers that do not listen
+
+403
+00:23:28,220 --> 00:23:30,220
+to Zangemann are banned.
+
+404
+00:23:30,220 --> 00:23:33,220
+Anyone who reprograms Zangemann's devices
+
+405
+00:23:33,220 --> 00:23:35,220
+will be fined $500,000.
+
+406
+00:23:35,220 --> 00:23:37,220
+When Ada and her friends heard this,
+
+407
+00:23:37,220 --> 00:23:39,220
+they were furious.
+
+408
+00:23:39,220 --> 00:23:41,220
+"This is unfair," they said.
+
+409
+00:23:41,220 --> 00:23:43,220
+"We rebuilt and reprogrammed
+
+410
+00:23:43,220 --> 00:23:45,220
+our skateboards ourselves.
+
+411
+00:23:45,220 --> 00:23:47,220
+They're much better now.
+
+412
+00:23:47,220 --> 00:23:49,220
+We won't let anyone take that away from us."
+
+413
+00:23:49,220 --> 00:23:53,220
+They gathered in front of one of their
+
+414
+00:23:53,220 --> 00:23:55,220
+rebuilt ice cream machines
+
+415
+00:23:55,220 --> 00:23:57,220
+and discussed the situation.
+
+416
+00:23:57,220 --> 00:24:01,220
+It was clear that something had to be done
+
+417
+00:24:01,220 --> 00:24:03,220
+about the new machines.
+
+418
+00:24:04,220 --> 00:24:06,220
+And they made a plan.
+
+419
+00:24:06,220 --> 00:24:08,220
+The next day,
+
+420
+00:24:08,220 --> 00:24:10,220
+they didn't go to school.
+
+421
+00:24:10,220 --> 00:24:11,220
+Instead,
+
+422
+00:24:11,220 --> 00:24:12,220
+they rode their skateboards
+
+423
+00:24:12,220 --> 00:24:14,220
+to the Parliament building
+
+424
+00:24:14,220 --> 00:24:15,220
+with large protest signs
+
+425
+00:24:15,220 --> 00:24:16,220
+under their arms
+
+426
+00:24:16,220 --> 00:24:18,220
+and sat down in front of the building.
+
+427
+00:24:18,220 --> 00:24:19,220
+The evening before,
+
+428
+00:24:19,220 --> 00:24:21,220
+they had put LED lights
+
+429
+00:24:21,220 --> 00:24:22,220
+on some of the signs,
+
+430
+00:24:22,220 --> 00:24:24,220
+which were now flashing brightly.
+
+431
+00:24:24,220 --> 00:24:26,220
+They had connected their speakers together
+
+432
+00:24:26,220 --> 00:24:27,220
+so everyone in the street
+
+433
+00:24:27,220 --> 00:24:29,220
+could hear what they were saying.
+
+434
+00:24:29,220 --> 00:24:31,220
+So they could hear
+
+435
+00:24:31,220 --> 00:24:33,220
+what they were saying.
+
+436
+00:24:33,220 --> 00:24:35,220
+Some passersby stopped
+
+437
+00:24:35,220 --> 00:24:36,220
+and asked the children
+
+438
+00:24:36,220 --> 00:24:38,220
+what they were demonstrating for.
+
+439
+00:24:38,220 --> 00:24:40,220
+"For software freedom,"
+
+440
+00:24:40,220 --> 00:24:42,220
+they replied in unison
+
+441
+00:24:42,220 --> 00:24:44,220
+and told the adults their story.
+
+442
+00:24:44,220 --> 00:24:47,220
+Impressed,
+
+443
+00:24:47,220 --> 00:24:48,220
+the adults nodded,
+
+444
+00:24:48,220 --> 00:24:50,220
+and the President also looked curiously
+
+445
+00:24:50,220 --> 00:24:51,220
+at their signs
+
+446
+00:24:51,220 --> 00:24:53,220
+as he approached the building.
+
+447
+00:24:53,220 --> 00:24:56,220
+On the following day,
+
+448
+00:24:56,220 --> 00:24:58,220
+Ada and her friends again sat down
+
+449
+00:24:58,220 --> 00:25:00,220
+in front of the Parliament building,
+
+450
+00:25:00,220 --> 00:25:02,220
+this time with support.
+
+451
+00:25:02,220 --> 00:25:04,220
+Some classmates came
+
+452
+00:25:04,220 --> 00:25:05,220
+whose skateboards
+
+453
+00:25:05,220 --> 00:25:08,220
+Ada had reprogrammed.
+
+454
+00:25:08,220 --> 00:25:10,220
+Toni's father and other parents
+
+455
+00:25:10,220 --> 00:25:11,220
+and adults also wanted
+
+456
+00:25:11,220 --> 00:25:13,220
+to support the protest.
+
+457
+00:25:13,220 --> 00:25:15,220
+They found the children's devices
+
+458
+00:25:15,220 --> 00:25:17,220
+very useful.
+
+459
+00:25:17,220 --> 00:25:19,220
+With each passing day,
+
+460
+00:25:19,220 --> 00:25:21,220
+more and more children and adults
+
+461
+00:25:21,220 --> 00:25:23,220
+joined the protest.
+
+462
+00:25:23,220 --> 00:25:25,220
+The bus driver they had helped
+
+463
+00:25:25,220 --> 00:25:27,220
+drove up in her bus.
+
+464
+00:25:27,220 --> 00:25:28,220
+She honked loudly
+
+465
+00:25:28,220 --> 00:25:29,220
+to attract even more people
+
+466
+00:25:29,220 --> 00:25:31,220
+to the protest.
+
+467
+00:25:31,220 --> 00:25:33,220
+The custodian brought
+
+468
+00:25:33,220 --> 00:25:34,220
+a few friends,
+
+469
+00:25:34,220 --> 00:25:36,220
+and Toni's father brought
+
+470
+00:25:36,220 --> 00:25:37,220
+his colleagues from work,
+
+471
+00:25:37,220 --> 00:25:41,220
+all wearing perfectly iron ties.
+
+472
+00:25:41,220 --> 00:25:44,220
+Even Ms. Gernet came.
+
+473
+00:25:44,220 --> 00:25:45,220
+The crowd grew,
+
+474
+00:25:45,220 --> 00:25:47,220
+and after a few weeks,
+
+475
+00:25:47,220 --> 00:25:48,220
+there were protests
+
+476
+00:25:48,220 --> 00:25:50,220
+not just in Ada's city,
+
+477
+00:25:50,220 --> 00:25:51,220
+but also in many cities
+
+478
+00:25:51,220 --> 00:25:54,220
+throughout the country.
+
+479
+00:25:54,220 --> 00:25:56,220
+Ada protested in front
+
+480
+00:25:56,220 --> 00:25:57,220
+of the Parliament building
+
+481
+00:25:57,220 --> 00:25:58,220
+every week,
+
+482
+00:25:58,220 --> 00:26:00,220
+even in pouring rain.
+
+483
+00:26:00,220 --> 00:26:02,220
+On one such rainy day,
+
+484
+00:26:02,220 --> 00:26:03,220
+when the president passed
+
+485
+00:26:03,220 --> 00:26:05,220
+the group of dripping wet children,
+
+486
+00:26:05,220 --> 00:26:06,220
+he couldn't help
+
+487
+00:26:06,220 --> 00:26:08,220
+but admire their stubbornness.
+
+488
+00:26:08,220 --> 00:26:09,220
+He asked Ada,
+
+489
+00:26:09,220 --> 00:26:12,220
+"Why do you sit here every day?
+
+490
+00:26:12,220 --> 00:26:14,220
+What do you want to achieve?"
+
+491
+00:26:14,220 --> 00:26:16,220
+Ada replied,
+
+492
+00:26:16,220 --> 00:26:17,220
+"We want to determine
+
+493
+00:26:17,220 --> 00:26:18,220
+for ourselves
+
+494
+00:26:18,220 --> 00:26:20,220
+what we can and cannot do
+
+495
+00:26:20,220 --> 00:26:22,220
+with our computers."
+
+496
+00:26:22,220 --> 00:26:24,220
+Her friends shouted in unison,
+
+497
+00:26:24,220 --> 00:26:26,220
+"Don't wreck our tech!
+
+498
+00:26:26,220 --> 00:26:28,220
+Don't wreck our tech!"
+
+499
+00:26:28,220 --> 00:26:29,220
+And,
+
+500
+00:26:29,220 --> 00:26:30,220
+"We want the code!
+
+501
+00:26:30,220 --> 00:26:33,220
+We want the code!"
+
+502
+00:26:33,220 --> 00:26:34,220
+The president looked
+
+503
+00:26:34,220 --> 00:26:35,220
+at the determined faces
+
+504
+00:26:35,220 --> 00:26:37,220
+of the children.
+
+505
+00:26:37,220 --> 00:26:38,220
+Honestly,
+
+506
+00:26:38,220 --> 00:26:39,220
+he too wanted to decide
+
+507
+00:26:39,220 --> 00:26:40,220
+for himself
+
+508
+00:26:40,220 --> 00:26:41,220
+what the government could
+
+509
+00:26:41,220 --> 00:26:42,220
+and couldn't do
+
+510
+00:26:42,220 --> 00:26:45,220
+with its computers.
+
+511
+00:26:45,220 --> 00:26:46,220
+But he didn't understand
+
+512
+00:26:46,220 --> 00:26:49,220
+anything about computers and code,
+
+513
+00:26:49,220 --> 00:26:50,220
+so he had always left that
+
+514
+00:26:50,220 --> 00:26:52,220
+to Zangemann.
+
+515
+00:26:52,220 --> 00:26:53,220
+Deep in thought,
+
+516
+00:26:53,220 --> 00:26:56,220
+the president entered the building.
+
+517
+00:26:56,220 --> 00:26:58,220
+The next day,
+
+518
+00:26:58,220 --> 00:26:59,220
+the president invited Ada
+
+519
+00:26:59,220 --> 00:27:01,220
+and her friends over.
+
+520
+00:27:01,220 --> 00:27:02,220
+"We also want to be in charge
+
+521
+00:27:02,220 --> 00:27:05,220
+of our software ourselves."
+
+522
+00:27:05,220 --> 00:27:06,220
+In order for that to be true,
+
+523
+00:27:06,220 --> 00:27:08,220
+the government must be independent
+
+524
+00:27:08,220 --> 00:27:09,220
+from Zangemann.
+
+525
+00:27:09,220 --> 00:27:10,220
+"Can you tell me
+
+526
+00:27:10,220 --> 00:27:12,220
+what you know about computer programs?"
+
+527
+00:27:12,220 --> 00:27:14,220
+he asked them.
+
+528
+00:27:14,220 --> 00:27:15,220
+Enthusiastically,
+
+529
+00:27:15,220 --> 00:27:16,220
+they explained to him
+
+530
+00:27:16,220 --> 00:27:17,220
+how software works
+
+531
+00:27:17,220 --> 00:27:19,220
+and what you could do with it.
+
+532
+00:27:19,220 --> 00:27:22,220
+The president was amazed.
+
+533
+00:27:22,220 --> 00:27:24,220
+With this new knowledge,
+
+534
+00:27:24,220 --> 00:27:25,220
+the government would be able
+
+535
+00:27:25,220 --> 00:27:27,220
+to design its own software.
+
+536
+00:27:27,220 --> 00:27:29,220
+The way they wanted,
+
+537
+00:27:29,220 --> 00:27:31,220
+completely without Zangemann.
+
+538
+00:27:31,220 --> 00:27:32,220
+Immediately,
+
+539
+00:27:32,220 --> 00:27:35,220
+the president called his advisors.
+
+540
+00:27:35,220 --> 00:27:36,220
+In a large group,
+
+541
+00:27:36,220 --> 00:27:38,220
+they discussed with the children
+
+542
+00:27:38,220 --> 00:27:40,220
+everything they could change
+
+543
+00:27:40,220 --> 00:27:42,220
+and improve in the software.
+
+544
+00:27:42,220 --> 00:27:43,220
+That evening,
+
+545
+00:27:43,220 --> 00:27:44,220
+the children went home
+
+546
+00:27:44,220 --> 00:27:47,220
+proud and satisfied.
+
+547
+00:27:47,220 --> 00:27:50,220
+Something finally happened.
+
+548
+00:27:50,220 --> 00:27:51,220
+Their long protest
+
+549
+00:27:51,220 --> 00:27:54,220
+had been worth it.
+
+550
+00:27:54,220 --> 00:27:55,220
+The next morning,
+
+551
+00:27:55,220 --> 00:27:56,220
+the president's phone rang
+
+552
+00:27:56,220 --> 00:27:59,220
+very early.
+
+553
+00:27:59,220 --> 00:28:01,220
+It was Zangemann.
+
+554
+00:28:01,220 --> 00:28:05,220
+He was angrier than ever.
+
+555
+00:28:05,220 --> 00:28:07,220
+"Without me,
+
+556
+00:28:07,220 --> 00:28:08,220
+the government computers
+
+557
+00:28:08,220 --> 00:28:10,220
+will no longer work,"
+
+558
+00:28:10,220 --> 00:28:12,220
+he threatened.
+
+559
+00:28:12,220 --> 00:28:13,220
+But the president
+
+560
+00:28:13,220 --> 00:28:14,220
+kept the call short
+
+561
+00:28:14,220 --> 00:28:17,220
+and quickly hung up.
+
+562
+00:28:17,220 --> 00:28:18,220
+The phone rang
+
+563
+00:28:18,220 --> 00:28:20,220
+many more times that day,
+
+564
+00:28:20,220 --> 00:28:21,220
+but Zangemann's calls
+
+565
+00:28:21,220 --> 00:28:23,220
+went unanswered.
+
+566
+00:28:23,220 --> 00:28:24,220
+The president sat in a meeting
+
+567
+00:28:24,220 --> 00:28:25,220
+with Ada,
+
+568
+00:28:25,220 --> 00:28:27,220
+Toni, Marie, Konrad,
+
+569
+00:28:27,220 --> 00:28:31,220
+and the government experts.
+
+570
+00:28:31,220 --> 00:28:33,220
+In the days that followed,
+
+571
+00:28:33,220 --> 00:28:35,220
+they talked from morning to night
+
+572
+00:28:35,220 --> 00:28:36,220
+and designed their first programs
+
+573
+00:28:36,220 --> 00:28:40,220
+for the government's computers.
+
+574
+00:28:40,220 --> 00:28:42,220
+They were no longer disturbed
+
+575
+00:28:42,220 --> 00:28:44,220
+by Zangemann's calls.
+
+576
+00:28:44,220 --> 00:28:46,220
+Toni had the good idea
+
+577
+00:28:46,220 --> 00:28:49,220
+of reprogramming the telephones.
+
+578
+00:28:49,220 --> 00:28:50,220
+When Zangemann called,
+
+579
+00:28:50,220 --> 00:28:51,220
+he only heard
+
+580
+00:28:51,220 --> 00:28:54,220
+an automated recording.
+
+581
+00:28:54,220 --> 00:28:56,220
+The government only wants
+
+582
+00:28:56,220 --> 00:28:57,220
+to use software
+
+583
+00:28:57,220 --> 00:28:59,220
+that it can freely use,
+
+584
+00:28:59,220 --> 00:29:00,220
+study,
+
+585
+00:29:00,220 --> 00:29:01,220
+share,
+
+586
+00:29:01,220 --> 00:29:02,220
+and improve.
+
+587
+00:29:02,220 --> 00:29:06,220
+Thank you for calling.
+
+588
+00:29:06,220 --> 00:29:07,220
+Then, after many weeks
+
+589
+00:29:07,220 --> 00:29:09,220
+of protests and discussions,
+
+590
+00:29:09,220 --> 00:29:11,220
+the time had finally come.
+
+591
+00:29:11,220 --> 00:29:12,220
+They abolished
+
+592
+00:29:12,220 --> 00:29:13,220
+the old Zangemann law.
+
+593
+00:29:13,220 --> 00:29:14,220
+Instead,
+
+594
+00:29:14,220 --> 00:29:16,220
+the government announced,
+
+595
+00:29:16,220 --> 00:29:17,220
+"Everyone is allowed
+
+596
+00:29:17,220 --> 00:29:18,220
+to program
+
+597
+00:29:18,220 --> 00:29:20,220
+their own computers
+
+598
+00:29:20,220 --> 00:29:21,220
+as long as they adhere
+
+599
+00:29:21,220 --> 00:29:23,220
+to the other laws."
+
+600
+00:29:23,220 --> 00:29:24,220
+In addition,
+
+601
+00:29:24,220 --> 00:29:25,220
+a new school subject
+
+602
+00:29:25,220 --> 00:29:27,220
+was introduced:
+
+603
+00:29:27,220 --> 00:29:28,220
+computer hardware
+
+604
+00:29:28,220 --> 00:29:30,220
+and software.
+
+605
+00:29:30,220 --> 00:29:32,220
+That evening,
+
+606
+00:29:32,220 --> 00:29:33,220
+everyone celebrated
+
+607
+00:29:33,220 --> 00:29:35,220
+with a big party.
+
+608
+00:29:35,220 --> 00:29:36,220
+Ada, Alan,
+
+609
+00:29:36,220 --> 00:29:37,220
+Toni, Marie,
+
+610
+00:29:37,220 --> 00:29:38,220
+Konrad,
+
+611
+00:29:38,220 --> 00:29:39,220
+and other children
+
+612
+00:29:39,220 --> 00:29:40,220
+from school
+
+613
+00:29:40,220 --> 00:29:41,220
+and their parents,
+
+614
+00:29:41,220 --> 00:29:42,220
+the president,
+
+615
+00:29:42,220 --> 00:29:43,220
+Ms. Garnet,
+
+616
+00:29:43,220 --> 00:29:44,220
+the bus driver,
+
+617
+00:29:44,220 --> 00:29:45,220
+the custodian,
+
+618
+00:29:45,220 --> 00:29:47,220
+they were all there.
+
+619
+00:29:47,220 --> 00:29:48,220
+They decorated the streets,
+
+620
+00:29:48,220 --> 00:29:50,220
+listened to loud music,
+
+621
+00:29:50,220 --> 00:29:51,220
+and ate ice cream
+
+622
+00:29:51,220 --> 00:29:52,220
+as much as they wanted.
+
+623
+00:29:52,220 --> 00:29:53,220
+And in every imaginable
+
+624
+00:29:53,220 --> 00:29:55,220
+shape and color.
+
+625
+00:29:55,220 --> 00:29:56,220
+While the others
+
+626
+00:29:56,220 --> 00:29:57,220
+continued partying
+
+627
+00:29:57,220 --> 00:29:58,220
+late into the night,
+
+628
+00:29:58,220 --> 00:29:59,220
+Ada and her friends
+
+629
+00:29:59,220 --> 00:30:00,220
+slipped away
+
+630
+00:30:00,220 --> 00:30:01,220
+to their workshop.
+
+631
+00:30:01,220 --> 00:30:02,220
+They already had
+
+632
+00:30:02,220 --> 00:30:03,220
+a lot of ideas
+
+633
+00:30:03,220 --> 00:30:04,220
+for new inventions.
+
+634
+00:30:04,220 --> 00:30:05,220
+And they wanted
+
+635
+00:30:05,220 --> 00:30:06,220
+to start right away.
+
+636
+00:30:06,220 --> 00:30:07,220
+And Zangemann?
+
+637
+00:30:07,220 --> 00:30:08,220
+No one's heard
+
+638
+00:30:08,220 --> 00:30:09,220
+much from him.
+
+639
+00:30:20,220 --> 00:30:21,220
+Maybe he's still
+
+640
+00:30:21,220 --> 00:30:22,220
+sitting angrily
+
+641
+00:30:22,220 --> 00:30:23,220
+in front of his
+
+642
+00:30:23,220 --> 00:30:24,220
+golden computer.
+
+643
+00:30:24,220 --> 00:30:28,220
+Maybe he doesn't dare
+
+644
+00:30:28,220 --> 00:30:29,220
+go out into the street
+
+645
+00:30:29,220 --> 00:30:30,220
+anymore.
+
+646
+00:30:30,220 --> 00:30:31,220
+and he has boarded up
+
+647
+00:30:31,220 --> 00:30:32,220
+all the windows
+
+648
+00:30:32,220 --> 00:30:33,220
+of his mansion
+
+649
+00:30:33,220 --> 00:30:34,220
+so that he doesn't
+
+650
+00:30:34,220 --> 00:30:35,220
+have to worry about
+
+651
+00:30:35,220 --> 00:30:36,220
+what other people
+
+652
+00:30:36,220 --> 00:30:37,220
+are doing
+
+653
+00:30:37,220 --> 00:30:38,220
+with his inventions.
+
+654
+00:30:38,220 --> 00:30:39,220
+But maybe he also
+
+655
+00:30:39,220 --> 00:30:40,220
+sometimes looks out
+
+656
+00:30:40,220 --> 00:30:41,220
+into the world
+
+657
+00:30:41,220 --> 00:30:42,220
+through his telescope
+
+658
+00:30:42,220 --> 00:30:44,220
+and sees what the children
+
+659
+00:30:44,220 --> 00:30:45,220
+are inventing every day.
+
+660
+00:30:45,220 --> 00:30:48,220
+Perhaps then
+
+661
+00:30:48,220 --> 00:30:49,220
+he will remember
+
+662
+00:30:49,220 --> 00:30:50,220
+how much fun it was
+
+663
+00:30:50,220 --> 00:30:51,220
+for himself
+
+664
+00:30:51,220 --> 00:30:52,220
+to tinker
+
+665
+00:30:52,220 --> 00:30:53,220
+and experiment.
+
+666
+00:30:53,220 --> 00:30:56,220
+And maybe,
+
+667
+00:30:56,220 --> 00:30:58,220
+just maybe,
+
+668
+00:30:58,220 --> 00:30:59,220
+he eats
+
+669
+00:30:59,220 --> 00:31:00,220
+pyramid-shaped
+
+670
+00:31:00,220 --> 00:31:01,220
+raspberry ice cream
+
+671
+00:31:01,220 --> 00:31:03,220
+with rainbow sprinkles.
