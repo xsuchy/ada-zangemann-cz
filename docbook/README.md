@@ -531,15 +531,16 @@ The editions that have been created until now have minor differences. Some of th
 
 ### English
 
-#### Published hard cover
+#### Published hardcover
 
-- On the cover the subtitle is written using a font, compared to the hand drawn letters in the German published hard cover.
+- Glue-bound
+- On the cover the subtitle is written using a font, compared to the hand drawn letters in the German published hardcover.
 - The colophon has a grey section at the bottom pointing to the digital version of the book.
 - Page 31 includes a paragraph with a line break. This is not the case for the Spanish translation.
 
 #### English screen pdf
 
-- Contrary to the hard cover, the subtitle is hand-drawn.
+- Contrary to the hardcover, the subtitle is hand-drawn.
 - The screen doesn't include yellow pages with hardware drawings upfront. Other translations do.
 
 ##### Fonts
@@ -551,6 +552,13 @@ The editions that have been created until now have minor differences. Some of th
 - **Body:** Heebo Regular 12pt
 - **Page number:** Heebo Bold 10pt
 - **Back cover text (summary):** Heebo Regular 12pt
+
+### German
+
+#### Published hardbook
+
+- Sewn-bound with a bookmark ribbon
+- Inside cover is printed in yellow design with outline drawings
 
 ### Spanish screen pdf
 
