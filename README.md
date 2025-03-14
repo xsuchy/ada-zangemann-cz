@@ -67,7 +67,7 @@ book and being able to read it in their mother tongue. If you would like
 to do a community translation, please let [the FSFE's translation
 team](https://fsfe.org/contribute/translators) know about it and have a
 look at the [translation
-guidelines](https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/Translation-Guidelines.md).
+guidelines](docs/translation-guidelines.md).
 If you have any contacts with publishers, which are interested to
 publish the book in another language, or if you are interested to order
 a higher amount of books if the book would be available in a certain

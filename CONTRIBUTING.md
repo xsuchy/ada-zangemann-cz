@@ -7,7 +7,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Contributing to Ada-Zangemann repository and automation
 
 _This document is intended as help for technical contributions. See [translation
-guidelines](Translation-Guidelines.md) for documentation on contributing
+guidelines](docs/translation-guidelines.md) for documentation on contributing
 translations._
 
 ## Git access
