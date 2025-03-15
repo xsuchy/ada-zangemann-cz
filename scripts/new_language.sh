@@ -35,7 +35,7 @@ else
     exit 1
 fi
 
-text_file="../Ada_Zangemann-${new_lang}.txt"
+text_file="../texts/Ada_Zangemann-${new_lang}.txt"
 capitals_dir="../illustrations/Capitals-${new_lang}"
 illustrations_dir="../illustrations/${new_lang}"
 book_dir="../Book/${new_lang}"
@@ -45,7 +45,7 @@ presentations_dir="../Presentations/${new_lang}"
 
 if [[ -n ${src_lang} ]] ; then
     # Copy from existing language
-    cp "../Ada_Zangemann-${src_lang}.txt" "${text_file}"
+    cp "../texts/Ada_Zangemann-${src_lang}.txt" "${text_file}"
     cp -r "../illustrations/Capitals-${src_lang}/." "${capitals_dir}"
     cp -r "../illustrations/${src_lang}/." "${illustrations_dir}"
     cp -r "../Book/${src_lang}/." "${book_dir}"
@@ -73,7 +73,7 @@ else
 fi
 
 # Create links specific for the language
-ln -s "../../Ada_Zangemann-${new_lang}.txt" "${book_dir}/Ada_Zangemann-${new_lang}.txt"
+ln -s "../../texts/Ada_Zangemann-${new_lang}.txt" "${book_dir}/Ada_Zangemann-${new_lang}.txt"
 ln -s "../../illustrations/Capitals-${new_lang}" "${book_dir}/Capitals"
 ln -s "../../illustrations/${new_lang}" "${book_dir}/images"
 ln -s "../../illustrations/${new_lang}" "${presentations_dir}/images"
