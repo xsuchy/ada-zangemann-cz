@@ -21,7 +21,7 @@
     <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//db:literallayout">
       <its:locNote>In a literallayout element all space and newline characters are kept.</its:locNote>
     </its:locNoteRule>
-    <!-- Split mediaobject os translators can translate alt text separate from managing filepath of the image -->
+    <!-- Split mediaobject so translators can translate alt text separate from managing filepath of the image. Disable to treat mediaobject as one. -->
     <its:translateRule xmlns:db="http://docbook.org/ns/docbook" translate="no" selector="//db:mediaobject"/>
     <its:translateRule xmlns:db="http://docbook.org/ns/docbook" translate="yes" selector="//db:mediaobject/*"/>
     <!-- Make link to capital image configurable -->
