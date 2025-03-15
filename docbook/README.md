@@ -80,6 +80,18 @@ Considerations for the current DocBook format.
 - Scribus drop cap can be set on the paragraph. If applied manually the style of the first letter is change (as observed in the XML document), but this is not necessary. It is important that the font size of the capital matches the font size of the main text, because otherwise rendering issues can occur. See notes in [Scribus issue 15124](https://bugs.scribus.net/view.php?id=15124).
 - Heebo font is the current default. Heebo font is a variant of the Roboto Font that includes characters for Hebrew. [Heebo lacks an italic font variant](https://github.com/OdedEzer/heebo/issues/3) and thus italic emphasis cannot be rendered correctly. Choosing Roboto or another font with more support for variants makes more sense.
 - A out-of-source build strategy is used instead of an in-source build. Sources and built output are kept separate. This helps ensure reproducibility and it encourages to keep the source files compact and organized.
+- Itstool uses a externalref by default for fileref of images. But a custom translateRule can be used to allow translating a property too:
+
+```xml
+<!-- Make link to capital image configurable -->
+<!-- Option A: does not allow changing, which is default for imagedata fileref -->
+<its:externalResourceRefRule xmlns:db="http://docbook.org/ns/docbook" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" selector="//db:para" externalResourceRefPointer="@az:dropcapfileref"/>
+<!-- Option B: does allow changing -->
+<its:translateRule xmlns:db="http://docbook.org/ns/docbook" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" translate="yes" selector="//db:para/@az:dropcapfileref"/>
+<its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" translate="yes" selector="//db:para/@az:dropcapfileref" locNoteType="description">
+  <its:locNote>File for the capital image</its:locNote>
+</its:locNoteRule>
+```
 
 #### Ideas for consideration
 

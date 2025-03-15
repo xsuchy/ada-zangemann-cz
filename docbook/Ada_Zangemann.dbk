@@ -25,7 +25,13 @@
     <its:translateRule xmlns:db="http://docbook.org/ns/docbook" translate="no" selector="//db:mediaobject"/>
     <its:translateRule xmlns:db="http://docbook.org/ns/docbook" translate="yes" selector="//db:mediaobject/*"/>
     <!-- Make link to capital image configurable -->
-    <its:externalResourceRefRule xmlns:db="http://docbook.org/ns/docbook" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" selector="//db:para" externalResourceRefPointer="@az:dropcapfileref"/>
+    <!-- Option A: does not allow changing, which is default for imagedata fileref -->
+    <!-- <its:externalResourceRefRule xmlns:db="http://docbook.org/ns/docbook" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" selector="//db:para" externalResourceRefPointer="@az:dropcapfileref"/> -->
+    <!-- Option B: does allow changing -->
+    <its:translateRule xmlns:db="http://docbook.org/ns/docbook" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" translate="yes" selector="//db:para/@az:dropcapfileref"/>
+    <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" translate="yes" selector="//db:para/@az:dropcapfileref" locNoteType="description">
+      <its:locNote>File for the capital image</its:locNote>
+    </its:locNoteRule>
   </its:rules>
   <!-- Extension for translator credits -->
   <!-- TODO: validate if this works -->
