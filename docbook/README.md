@@ -92,6 +92,7 @@ Considerations for the current DocBook format.
   <its:locNote>File for the capital image</its:locNote>
 </its:locNoteRule>
 ```
+- The `az:dropcapscribuscharstyle="Capital Yellow 2"` property is used to define a dropcap style that is expected in Scribus to create a dropcap.
 
 #### Ideas for consideration
 
