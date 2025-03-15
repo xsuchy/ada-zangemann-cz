@@ -64,7 +64,8 @@ If FSFE is involved, the FSFE Finance team needs to be involved for the tax side
 The International Standard Book Number (ISBN) is a unique identifier for the book.
 The entity and process of requesting an ISBN code differs per country.
 ISBN codes can be purchased as a single code or by a set of ten.
-Getting multiple ISBN codes can be relevant in order to use a second code to publish an ebook with an ISBN code (in general you need different ISBN codes for different variants, versions, and formats)
+Getting multiple ISBN codes can be relevant in order to use a second code to publish an ebook with an ISBN code.
+In general you need different ISBN codes for different variants, versions, and formats.
 
 ## Printing company
 
@@ -135,7 +136,7 @@ This should prevent the common mistake of sending an older version to the printe
 ## Final proofread
 
 Right before sending the files to the printer is a good moment for a final check.
-The goal of this proofread is to check for technical errors like misalignment, incorrect colors, missing fonts.
+The goal of this proofread is to check for technical errors like misalignment, incorrect colors, and missing fonts.
 
 ## Printing
 
@@ -157,4 +158,5 @@ It is important to archive the files for the future.
 They might be of value for a reprint, or as a reference for another language.
 The generic files can be contributed to this repository.
 Other files can be submitted to FSFE for safekeeping.
-Some printers allow you to save the files of the order. It is advised to use this option, as you might in future be able to easily do a reprint at the same provider.
+Some printers allow you to save the files of the order.
+It is advised to use this option, as you might in future be able to easily do a reprint at the same provider.
