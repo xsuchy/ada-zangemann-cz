@@ -73,6 +73,8 @@ publish the book in another language, or if you are interested to order
 a higher amount of books if the book would be available in a certain
 language, then please [reach out to us](https://fsfe.org/about/contact).
 
+The main texts can be found in the [texts directory](texts/).
+
 # Get your printed copy
 
 The printed version as well as ebooks of the book are currently
