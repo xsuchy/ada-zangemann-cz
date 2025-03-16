@@ -244,18 +244,21 @@
     <!-- Option B: does allow changing -->
     <its:translateRule xmlns:db="http://docbook.org/ns/docbook" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" translate="yes" selector="//db:para/@az:dropcapfileref"/>
     <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" translate="yes" selector="//db:para/@az:dropcapfileref" locNoteType="description">
-      <its:locNote>File for the capital image</its:locNote>
+      <its:locNote>File for the capital image, depending on the capital letter and the required color. Can be postponed to the publishing process.</its:locNote>
     </its:locNoteRule>
     <!-- Enable changing image links by translators, as it is an externalResourceRefPointer by default for which itstool doesn't allow translations. -->
     <its:withinTextRule xmlns:db="http://docbook.org/ns/docbook" withinText="no" selector="//db:imagedata"/>
     <its:translateRule xmlns:db="http://docbook.org/ns/docbook" translate="yes" selector="//db:imagedata/@fileref"/>
+    <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//db:imagedata/@fileref">
+      <its:locNote>Link to the image. Only needs to be changed if the image is localized.</its:locNote>
+    </its:locNoteRule>
   </its:rules>
   <!-- Book information and other metadata-like information -->
   <info>
     <title its:locNote="Ampersand character &amp; is escaped for XML source format as &amp;amp;">Ada &amp; Zangemann</title>
     <subtitle>A Tale of Software, Skateboards, and Raspberry Ice Cream</subtitle>
-    <biblioid class="isbn" role="print">978-1-7185-0318-2</biblioid>
-    <biblioid class="isbn" role="ebook">978-1-7185-0319-9</biblioid>
+    <biblioid class="isbn" role="print" its:locNote="ISBN of print edition">978-1-7185-0318-2</biblioid>
+    <biblioid class="isbn" role="ebook" its:locNote="ISBN of ebook edition">978-1-7185-0319-9</biblioid>
     <!-- Author credit -->
     <author>
       <personname>
