@@ -233,6 +233,7 @@ illustrations/ada-p03-title-de.png  # Hand-drawn title page for German (default 
 - The docbook structure and its Scribus handling enables changes in layout and order. This becomes apparent when dealing with the inside cover. Adding the cover will offset the page numbers. This doesn't break the processing as content is inserted based on ids instead of page numbers.
 - Translation strings can be split into multiple categories to help translators prioritize. Translate toolkit has [pogrep](https://docs.translatehouse.org/projects/translate-toolkit/en/latest/commands/pogrep.html) to select parts of the PO file, which can be merged into larger parts or into a single file using [pomerge](https://docs.translatehouse.org/projects/translate-toolkit/en/latest/commands/pomerge.html).
 - Kvdaalen contributed a [Python script named FormatXML](https://wiki.scribus.net/canvas/Formatxml) to the Scribus wiki to refer Scribus styles in an XML document, including the option to override fonts in an emphasis. These features can be inspiration.
+- The `fc-list` command can be used to check installed fonts.
 
 ### Request for feedback
 
