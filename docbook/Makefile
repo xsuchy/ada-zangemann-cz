@@ -21,7 +21,7 @@ SHELL = /bin/sh
 
 # Translation file
 po/Ada_Zangemann.pot: Ada_Zangemann.dbk
-	itstool -o $@ Ada_Zangemann.dbk
+	itstool -n -o $@ Ada_Zangemann.dbk
 
 # Update .po files when .pot strings get updated
 po/%.po: po/Ada_Zangemann.pot
