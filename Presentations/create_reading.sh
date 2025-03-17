@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # SPDX-FileCopyrightText: 2022 Luca Bonissi
+# SPDX-FileCopyrightText: 2025 Nico Rikken
 #
 # SPDX-License-Identifier: CC0-1.0
 
@@ -11,5 +12,6 @@ if [ "$lang" = "" ]; then
   exit
 fi
 
-../scripts/to_reading.pl ../Ada_Zangemann-$lang.txt | ../scripts/wrapada.pl  > $lang/ada-zangemann-reading.$lang.txt ; ../scripts/to_reading.pl ../Ada_Zangemann-$lang.txt 1 | ../scripts/wrapada.pl  > $lang/ada-zangemann.$lang.txt
+mkdir -p $lang
+../scripts/to_reading.pl ../texts/Ada_Zangemann-$lang.txt | ../scripts/wrapada.pl  > $lang/ada-zangemann-reading.$lang.txt ; ../scripts/to_reading.pl ../texts/Ada_Zangemann-$lang.txt 1 | ../scripts/wrapada.pl  > $lang/ada-zangemann.$lang.txt
 
