@@ -10,7 +10,7 @@ SPDX-License-Identifier: CC-BY-SA-3.0-DE
 This folder contains generated presentations and texts for book readings.
 It contains the automation to create or update them.
 
-Practical guidance for organizing a book reading can be found in the [Readings Organisation documentation](../docs/Readings-Organisation.md).
+Practical guidance for organizing a book reading can be found in the [Readings Organisation documentation](../docs/readings-organisation.md).
 
 It is a known [issue that the resulting presentations do not open correctly on Windows](https://git.fsfe.org/FSFE/ada-zangemann/issues/52).
 You can use an existing pdf presentation or contact FSFE for assistance.

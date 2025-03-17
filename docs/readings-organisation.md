@@ -8,7 +8,7 @@ Version: 1
 
 # Readings Organisation
 
-Translations available: [Portuguese](Readings-Organisation_PT_pt.md)
+Translations available: [Portuguese](readings-organisation.PT_pt.md)
 
 ## Recommended Materials
 
