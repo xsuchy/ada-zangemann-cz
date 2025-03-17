@@ -219,9 +219,9 @@ illustrations/ada-p03-title-de.png  # Hand-drawn title page for German (default 
   - [Paged.js](https://pagedjs.org/) framework, used by [Julie Blanc](https://julie-blanc.fr/).
   - [PrePostPrint](https://prepostprint.org/) with various tools.
 - It should be avoided to use different images for the headers with fonts or images. An edge case is the subtitle on the cover and title page. There are multiple ways of dealing with this:
-    - Use separate images for the title (Ada & Zangemann) and subtitle (A tale of …)
-    - Use some overlay frame in Scribus to mask out the image title, that is rendered using the same conditions as the text. Can be a colored rectangle or a blank variant on the same spot.
-    - Generate custom images with fonts in a preprocessing step.
+  - Use separate images for the title (Ada & Zangemann) and subtitle (A tale of …)
+  - Use some overlay frame in Scribus to mask out the image title, that is rendered using the same conditions as the text. Can be a colored rectangle or a blank variant on the same spot.
+  - Generate custom images with fonts in a preprocessing step.
 - The processing now uses clever shell script one-liners which are compact but hard to understand. By using more Python the understandability of the setup might be improved. This would make it more inviting to outsiders to contribute a new format or contribute other improvements.
 - Other build tools like Scons or Meson might be more accessible to newcomers with its syntax. In general the options to provide information to GNU Make are limited. This is difficult for getting images used in the Docbook file or the capital files. GNU Make is however very common and widely understood. Scons has mixed reviews.
 - The build directories are to be organized by language and then output type. For each build step a new directory might be created for clarity.
