@@ -240,7 +240,7 @@ illustrations/ada-p03-title-de.png  # Hand-drawn title page for German (default 
     - The first character of the paragraph needs to be removed in case of capital images. The processing needs to be able to distinguish the paragraphs that need this.
     - The trigger of this behavior could be a general condition like `capitals-img` or `capitals-text`. It could also be an additional attribute on the textframe like `removefirstchar` as an explicit trigger. An explicit trigger offers the benefit of more fine-grained control.
   - Concrete proposals:
-    - Double-up text frames, to be removed conditionally. Add a property to the attributes like `removefirstchar` to conditionally apply this seperate processing. This method is very explicit and offers a lot of flexiblity to the user.
+    - Double-up text frames, to be removed conditionally. Add a property to the attributes like `removefirstchar` to conditionally apply this seperate processing. This method is very explicit and offers a lot of flexiblity to the user. Another benefit of this approach is that the paragraph without properties can remain available to the existing Perl scripts. The dropcap property on a paragraph sets an explicit style on the first character, breaking the text-based pattern matching.
     - Use single text frames with scribus dropcap properties. Change the behavior based on processing conditions `capitals-img` and `capitals-text` or maybe a seperate option like `capitals-to-img` to hint at a conversion. The processing can check if dropcaps are configured and can change the contents and properties of these text frames. This method would be very powerful but is also less transparent to the user.
 
 ### Request for feedback
