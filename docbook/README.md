@@ -234,6 +234,14 @@ illustrations/ada-p03-title-de.png  # Hand-drawn title page for German (default 
 - Translation strings can be split into multiple categories to help translators prioritize. Translate toolkit has [pogrep](https://docs.translatehouse.org/projects/translate-toolkit/en/latest/commands/pogrep.html) to select parts of the PO file, which can be merged into larger parts or into a single file using [pomerge](https://docs.translatehouse.org/projects/translate-toolkit/en/latest/commands/pomerge.html).
 - Kvdaalen contributed a [Python script named FormatXML](https://wiki.scribus.net/canvas/Formatxml) to the Scribus wiki to refer Scribus styles in an XML document, including the option to override fonts in an emphasis. These features can be inspiration.
 - The `fc-list` command can be used to check installed fonts.
+- Dropcaps support in Scribus templates needs some logic. This can be done in multiple ways.
+  - Options for the different components involved:
+    - Text frames should not have a dropcaps property. As the dropcaps property relies on Scribus styles, it makes sense to have it be defined in Scribus. In case of image based dropcaps this setting needs to be removed to prevent two capitals side by side. One option is to keep the same text frame and have a machanism remove this setting. Another option is to have a dedicated text frame without dropcap settings, which could be enabled using conditions. Seperate templates are another option, which will introduce an additional burden to keep them synchronized.
+    - The first character of the paragraph needs to be removed in case of capital images. The processing needs to be able to distinguish the paragraphs that need this.
+    - The trigger of this behavior could be a general condition like `capitals-img` or `capitals-text`. It could also be an additional attribute on the textframe like `removefirstchar` as an explicit trigger. An explicit trigger offers the benefit of more fine-grained control.
+  - Concrete proposals:
+    - Double-up text frames, to be removed conditionally. Add a property to the attributes like `removefirstchar` to conditionally apply this seperate processing. This method is very explicit and offers a lot of flexiblity to the user.
+    - Use single text frames with scribus dropcap properties. Change the behavior based on processing conditions `capitals-img` and `capitals-text` or maybe a seperate option like `capitals-to-img` to hint at a conversion. The processing can check if dropcaps are configured and can change the contents and properties of these text frames. This method would be very powerful but is also less transparent to the user.
 
 ### Request for feedback
 
