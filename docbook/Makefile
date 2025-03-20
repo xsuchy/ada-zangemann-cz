@@ -68,25 +68,25 @@ build/%/Ada_Zangemann-pandoc.md: build/%/Ada_Zangemann-pure.dbk build/%/images/i
 	pandoc -f docbook -o $@ $<
 
 # Build version with all images (for debugging)
-build/%/print-all/Ada_Zangemann-print-all.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations
+build/%/print-all/Ada_Zangemann-print-all.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations xsl/scribus.xsl
 	mkdir -p $(@D)
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 # Build version with image headers
-build/%/print-headings-img/Ada_Zangemann-print-headings-img.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations
+build/%/print-headings-img/Ada_Zangemann-print-headings-img.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations xsl/scribus.xsl
 	mkdir -p $(@D)
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-img;capitals-img" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 # Build version with text headers
-build/%/print-headings-text/Ada_Zangemann-print-headings-text.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations
+build/%/print-headings-text/Ada_Zangemann-print-headings-text.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations xsl/scribus.xsl
 	mkdir -p $(@D)
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-text;capitals-text" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 # Build version with no conditional content (for debugging)
-build/%/print-headings-none/Ada_Zangemann-print-headings-none.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations
+build/%/print-headings-none/Ada_Zangemann-print-headings-none.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations xsl/scribus.xsl
 	mkdir -p $(@D)
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition ";" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
