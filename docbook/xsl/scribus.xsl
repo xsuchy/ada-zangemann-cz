@@ -52,8 +52,18 @@
     <!-- Get docbook-id attribute set in Scribus -->
     <xsl:variable name="docbook-id" select="../PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value"/>
 
+    <xsl:call-template name="storytext">
+      <xsl:with-param name="matching-content" select="document($docbook-contents-file)//*[@xml:id=$docbook-id]"/>
+    </xsl:call-template>
+
+  </xsl:template>
+
+
+  <xsl:template name="storytext">
+    <xsl:param name="matching-content"/>
+
     <!-- Get type of matching element -->
-    <xsl:variable name="matching-element" select="local-name(document($docbook-contents-file)//*[@xml:id=$docbook-id])"/>
+    <xsl:variable name="matching-element" select="local-name($matching-content)"/>
 
     <!-- Copy StoryText element -->
     <xsl:copy>
@@ -62,7 +72,7 @@
 
       <!-- Warning message if Scribus template contains character styles -->
       <xsl:if test="./ITEXT[1]/@*[not(local-name() = 'CH')]">
-        <xsl:message>WARNING: In StoryText element with docbook-id='<xsl:value-of select="$docbook-id"/>': Found formatting settings on characters using the Story Editor. Processing will ignore these character settings in favor of the formatting applied to the Text Frame. These Text Properties can be accessed using F3 shortcut. Adjust the style using the Text Frame settings, not selecting text, but the text frame. Settings in the StoryEditor are ignored and overruled.</xsl:message>
+        <xsl:message>WARNING: Found formatting settings on characters using the Story Editor. Processing will ignore these character settings in favor of the formatting applied to the Text Frame. These Text Properties can be accessed using F3 shortcut. Adjust the style using the Text Frame settings, not selecting text, but the text frame. Settings in the StoryEditor are ignored and overruled.</xsl:message>
       </xsl:if>
 
       <!-- Copy Text Frame properties, which might refer to a parent style -->
@@ -75,7 +85,7 @@
         <!-- FIXME: look if better ways exist to improve over a text-based match -->
         <xsl:when test="contains('|section|simplesect|sect1|sect2|sect3|sect4|sect5|', concat('|', $matching-element, '|'))">
 
-          <xsl:for-each select="document($docbook-contents-file)//*[@xml:id=$docbook-id]/*[local-name()='para' or local-name()='literallayout']">
+          <xsl:for-each select="$matching-content/*[local-name()='para' or local-name()='literallayout']">
             <xsl:apply-templates select="."/>
 
             <!-- Two para separators are needed inbetween paragraphs to insert two newlines to end the first paragraph and create an empty line between the paragraphs. -->
@@ -91,14 +101,15 @@
         <!-- An image modelled inside a mediaobject -->
         <!-- FIXME: consider removing this altogether -->
         <xsl:when test="$matching-element='mediaobject'">
-          <xsl:message>WARNING: In StoryText element with docbook-id='<xsl:value-of select="$docbook-id"/>': Matches a mediaobject. Loading text from mediaobject is not supported.</xsl:message>
+          <xsl:message>WARNING: Matches a mediaobject. Loading text from mediaobject is not supported.</xsl:message>
         </xsl:when>
 
         <!-- Default case, for title, subtitle, bridgehead -->
         <xsl:otherwise>
           <ITEXT>
             <xsl:attribute name="CH">
-              <xsl:for-each select="document($docbook-contents-file)//*[@xml:id=$docbook-id][1]">
+              <!-- <xsl:for-each select="document($docbook-contents-file)//*[@xml:id=$docbook-id][1]"> -->
+              <xsl:for-each select="$matching-content[1]">
                 <xsl:choose>
                   <!-- Don't normalize space for literallayout element -->
                   <xsl:when test="$matching-element='literallayout'">
@@ -134,8 +145,10 @@
       <!-- Get docbook-id attribute set in Scribus -->
       <xsl:variable name="docbook-id" select="./PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value"/>
 
+      <xsl:variable name="matching-content" select="document($docbook-contents-file)//*[@xml:id=$docbook-id]"/>
+
       <!-- Get type of matching element -->
-      <xsl:variable name="matching-element" select="local-name(document($docbook-contents-file)//*[@xml:id=$docbook-id])"/>
+      <xsl:variable name="matching-element" select="local-name($matching-content)"/>
 
       <xsl:choose>
         <!-- Handle dropcap images for paragraph elements -->
@@ -238,7 +251,7 @@
           <!-- Find filename defined in imagedata object. Match first encountered element to handle most situations. -->
           <!-- TODO: check conditions on surrounding imageobject to handle single-pass profiling of images -->
           <!-- FIXME: XPATH expression doesn't work if xml:id matches on the imagedata object -->
-          <xsl:variable name="filename" select="document($docbook-contents-file)//*[@xml:id=$docbook-id]//*[local-name() = 'imagedata' and @fileref][1]/@fileref"/>
+          <xsl:variable name="filename" select="$matching-content//*[local-name() = 'imagedata' and @fileref][1]/@fileref"/>
 
           <!-- FIXME: reduce duplication -->
           <xsl:copy>
@@ -330,37 +343,10 @@
     </ITEXT>
   </xsl:template>
 
-  <!-- Handle first text part -->
-  <xsl:template match="//db:para/text()[1]">
-    <!-- Ignore element if no content is present -->
-    <xsl:if test="string-length(normalize-space()) > 0">
-      <ITEXT>
-        <xsl:attribute name="CH">
-          <xsl:choose>
-            <xsl:when test="../@az:dropcap='true'">
 
-              <!-- Strip the first character if a dropcap image is used -->
-              <!-- FIXME: doesn't handle an emphasis that starts at the beginning of the line. Alternative could be to process dropcaps edge case as a final step -->
-              <xsl:value-of select="substring(normalize-space(), 2)"/>
-              <xsl:if test="following-sibling::node()">
-                <xsl:text> </xsl:text>
-              </xsl:if>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="normalize-space()"/>
-            </xsl:otherwise>
-          </xsl:choose>
-          <!-- Append a trailing space if other content follows -->
-          <xsl:if test="following-sibling::node()">
-            <xsl:text> </xsl:text>
-          </xsl:if>
-        </xsl:attribute>
-      </ITEXT>
-    </xsl:if>
-  </xsl:template>
 
-  <!-- Handle generic text, not influenced by dropcaps -->
-  <xsl:template match="//db:para/text()[position() > 1]">
+  <!-- Handle generic text -->
+  <xsl:template match="//db:para/text()">
     <!-- Ignore element if no content is present -->
     <xsl:if test="string-length(normalize-space()) > 0">
       <ITEXT>
