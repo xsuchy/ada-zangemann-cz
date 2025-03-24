@@ -251,6 +251,34 @@ illustrations/ada-p03-title-de.png  # Hand-drawn title page for German (default 
 - The upstream Docbook XSLT templates have advanced processing features and cover a lot of situations. There is a benefit in making this Scribus processing part of that ecosystem so that those processing features can be used.
 - When using drop caps on a text style, each paragraph will have a drop cap, instead of just the first one as is expected for this book. This is a known issue, as can be seen in [Scribus bug report 0000204: Drop Cap only for the first paragraph](https://bugs.scribus.net/view.php?id=204).
 - Rather than using XML IDs, an XPATH expression would be a more dynamic way to select content from Scribus. As an XML ID needs to be unique, it can be difficult to put it at the right place when sections are dissapearing. An XPATH expression can be more selective. Unfortunately an XPATH expression from a variable [can only be used since XSLT version 2.1](https://stackoverflow.com/questions/4630023/dynamic-xpath-in-xslt). For earlier versions of XSLT a match process can be created that functions as an approaximation. The [EXSLT dyn:evaluate command](https://exslt.github.io/dyn/functions/evaluate/index.html) can be used instead as it is implemented in Xsltproc. Another issue is how to deal with namespaces. The document currently has different namespaces. Should namespaces be ommitted? Should there be a place in Scribus to define them?
+- Experimenting in Scribus to get dropcaps on just the first line. One option is to start the second paragraphs with `DROP="0"` to disable the effect. Another is to use `<breakline/>` as a newline that does not break the paragraph.
+```xml
+        <PAGEOBJECT XPOS="170.866771653543" YPOS="1991.02393700787" OwnPage="5" ItemID="2112934646" PTYPE="4" WIDTH="444.407244094488" HEIGHT="481.889763779528" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" ANNAME="TextP06" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L444.407 0 L444.407 481.89 L0 481.89 L0 0 Z" copath="M0 0 L444.407 0 L444.407 481.89 L0 481.89 L0 0 Z" gXpos="170.866771653543" gYpos="1991.02393700787" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle ParagraphEffectCharStyle="Capital" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="1" DROPLIN="4" Bullet="0" Numeration="0"/>
+                <ITEXT CPARENT="Capital" CH="c"/>
+                <ITEXT CH="hon als Kind hatten Zangemann Computer fasziniert. Da waren es noch riesengroße Maschinen mit vielen Kabeln und lauten Lüftern. In der Schule träumte der kleine Zangemann oft davon, was er mit den Computern alles machen würde, wenn sie nur etwas kleiner wären – klein genug, um sie in die verschiedensten Geräte einzubauen. Als Erstes würde er einen Computer in sein Skateboard einbauen, damit es beim Fahren coole Geräusche machen könnte – wie eine Feuerwehrsirene oder ein Raketenstart. Und er würde Eismaschinen erfinden! Der Computer könnte die tollsten Sorten mischen und das Eis automatisch verkaufen. Die Maschinen würden an jeder Straßenecke stehen, und er könnte sich sein Lieblingseis holen, wann immer er Lust hätte. Außerdem würde er einen Aufräumroboter und eine Bausteine-Sortiermaschine bauen, damit sein Zimmer immer schön aufgeräumt wäre. Zangemann hatte jeden Tag neue Ideen. Er konnte an nichts anderes "/>
+                <breakline/>
+                <breakline/>
+                <ITEXT CH="denken."/>
+                <para ParagraphEffectCharStyle="Capital" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="1" DROPLIN="4" Bullet="0" Numeration="0"/>
+                <para ParagraphEffectCharStyle="Capital" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="0" DROPLIN="4" Bullet="0" Numeration="0"/>
+                <ITEXT CH="Und tatsächlich: Je größer Zangemann wurde, desto kleiner wurden die Computer. Als er schließlich die Schule verließ, waren sie so klein, dass sie in seine Hosentasche passten. Die kleinsten fanden sogar auf seiner Fingerkuppe Platz."/>
+                <trail ParagraphEffectCharStyle="Capital" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="0" DROPLIN="4" Bullet="0" Numeration="0"/>
+            </StoryText>
+            <PageItemAttributes>
+                <ItemAttribute Name="docbook-id" Type="string" Value="sec-p06" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="condition" Type="string" Value="capitals-img" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+            </PageItemAttributes>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="156.693543307087" YPOS="2487.08692913386" OwnPage="5" ItemID="2113753718" PTYPE="4" WIDTH="25.5999999999999" HEIGHT="31.1811023622045" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L25.6 0 L25.6 31.1811 L0 31.1811 L0 0 Z" copath="M0 0 L25.6 0 L25.6 31.1811 L0 31.1811 L0 0 Z" gXpos="751.969133858269" gYpos="1851.81165354331" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle CPARENT="PageNumber"/>
+                <ITEXT CPARENT="PageNumber" CH="6"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+```
 
 ### Request for feedback
 
