@@ -31,6 +31,7 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
 
        Output message via XSLT processor:
        <xsl:message>Message</xsl:message>
+       <xsl:message>Value: <xsl:value-of select="$matching-element"/></xsl:message>
   -->
 
   <!-- Input parameter for the DocBook source file that should be used to insert data into Scribus -->
@@ -39,7 +40,15 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
   <!-- Input parameter for profiling on conditions. Supports multiple conditions separated by semicolumns ';'. Lack of condition input will deactivate the checks. A single semicolumn can be provided to match no conditions. -->
   <!-- Related documentation from DocBook XSLT stylesheets: https://sagehill.net/docbookxsl/Profiling.html -->
   <!-- FIXME: Better match the DocBook XSLT behavior of conditions. 1) Current assumption is that a single condition is present in Scribus template. It should ideally support n:m conditions to better. XSLT 1.0 profiling templates can be used as a reference: https://github.com/docbook/xslt10-stylesheets/blob/master/xsl/profiling/profile-mode.xsl 2) Current behavior allows an empty string to match no conditoins, which is helpful for debugging, but might not be meeting expectations.-->
-  <xsl:param name="profile.condition"/>
+  <!--
+      - profile.xsl       Main file, defining parameters and calling template with profile mode https://github.com/docbook/xslt10-stylesheets/blob/master/xsl/profiling/profile.xsl
+      - profile-mode.xsl  Different conditions, collected in <profile>.ok variables, which are then tested. https://github.com/docbook/xslt10-stylesheets/blob/master/xsl/profiling/profile-mode.xsl
+      - xsl2profile.xsl   Stylesheet used to create profiled versions of other stylesheets. Used in the various build.xml files for other targets.
+
+      Example of filling Slide template using Docbook https://github.com/docbook/xslt10-stylesheets/blob/master/xsl/slides/xhtml/plain.xsl
+  -->
+
+  <!-- TODO: handle language properties of docbook file and set appropriate languages in Scribus. Much like it is done for other XSLT 1.0 processing. -->
 
   <!-- Output format for Scribus is XML -->
   <xsl:output method="xml" indent="no"/>
@@ -118,7 +127,6 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
         <xsl:otherwise>
           <ITEXT>
             <xsl:attribute name="CH">
-              <!-- <xsl:for-each select="document($docbook-contents-file)//*[@xml:id=$docbook-id][1]"> -->
               <xsl:for-each select="$matching-content[1]">
                 <xsl:choose>
                   <!-- Don't normalize space for literallayout element -->
@@ -156,9 +164,20 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
       <xsl:variable name="docbook-id" select="./PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value"/>
 
       <xsl:variable name="matching-content" select="document($docbook-contents-file)//*[@xml:id=$docbook-id]"/>
+      <!-- TODO: handle conditions/profiling. Probably store content in a variable. This in comparison to first handling conditions and then selection. As XML id is unique, selecting first should not be a problem. -->
+      <!-- Order of execution: postprocess ( format ( profile ( match ))) -->
+      <!-- TODO: idea:
+      <xsl:variable name="dbk-content">
+        <xsl:call-template name="profile-and-format">
+          <xsl:with-param name="content" select="local-name(document($docbook-contents-file)//*[@xml:id=$docbook-id])"/>
+        </xsl:call-template>
+      </xsl:variable>
+      -->
 
       <!-- Get type of matching element -->
       <xsl:variable name="matching-element" select="local-name($matching-content)"/>
+
+      <!-- TODO question: is there a reason the matching element is not used more? -->
 
       <xsl:choose>
         <!-- Handle dropcap images for paragraph elements -->
@@ -278,9 +297,14 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
     </xsl:if>
   </xsl:template>
 
+
+
+  <!-- TODO: make part of text based template -->
+
   <!-- FIXME: idea to append or change font names instead of replacing the font entirely -->
 
   <!-- TODO: unify emphasis handling between db:para and db:literallayout elements -->
+  <!-- TODO: handle conditions by relying on named template and a variable -->
   <xsl:template match="//db:literallayout/db:emphasis">
     <!-- Default emphasis -->
     <!-- FIXME: Doesn't support nesting of emphasis or other nested elements -->
@@ -365,7 +389,6 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
           <!-- Normalize space in elements inside paragraph. Insert preseding of trailing space if other nodes exist, like emphasized text or a link. -->
           <!-- NOTE: this forces a spect around emphasized text or link, which could be good -->
           <xsl:if test="preceding-sibling::node()">
-            <!-- Don't insert a space if content starts with punctuation, which should typically be appended without space -->
             <xsl:if test="not(contains('.,;:!?…%)]/\”«' ,substring(normalize-space(),1,1)))">
               <xsl:text> </xsl:text>
             </xsl:if>
