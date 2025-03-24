@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+SPDX-FileCopyrightText: 2025 Nico Rikken <nico.rikken@fsfe.org>
+
+SPDX-License-Identifier: License to be determined. Currently proprietary.
+-->
+
+<!-- TODO: change db prefix to d to align with xslt stylesheet convention -->
+
 <!-- exclude-result-prefixes setting to prevent namespaces to end up in output -->
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:db="http://docbook.org/ns/docbook" db:version="5.0"
                 xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/"
+                xmlns:exsl="http://exslt.org/common"
                 exclude-result-prefixes="db az">
 
   <!-- Generic approach is to correspond docbook-id attribute with xml:id and
