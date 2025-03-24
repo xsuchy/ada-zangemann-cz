@@ -34,6 +34,10 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
        <xsl:message>Value: <xsl:value-of select="$matching-element"/></xsl:message>
   -->
 
+  <!-- Use modified docbook profiling from xslt10-stylesheets -->
+  <!-- Profiling parameters can be used to handle Scribus templates as well -->
+  <xsl:import href="xslt10-stylesheets/xsl/profiling/profile.xsl"/>
+
   <!-- Input parameter for the DocBook source file that should be used to insert data into Scribus -->
   <xsl:param name="docbook-contents-file"/>
 
@@ -52,6 +56,21 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
 
   <!-- Output format for Scribus is XML -->
   <xsl:output method="xml" indent="no"/>
+
+  <!-- Read docbook file into variable -->
+  <xsl:variable name="docbook-contents" select="document($docbook-contents-file)"/>
+
+  <!-- Profile docbook by handling conditions -->
+  <xsl:variable name="profiled-docbook-tree">
+    <xsl:apply-templates select="$docbook-contents" mode="profile"/>
+  </xsl:variable>
+
+  <!-- Profile docbook by handling conditions -->
+  <!-- Use exsl:node-set to work around issue of getting a tree instead of a node set
+       - https://exslt.github.io/exsl/functions/node-set/index.html
+       - https://stackoverflow.com/questions/37031354/xsl-invalid-type-error-setting-variable-using-value-of -->
+  <xsl:variable name="profiled-docbook" select="exsl:node-set($profiled-docbook-tree)"/>
+
 
   <!-- Identity template to copy all contents of the Scribus template. Only for elements without namespace (Scribus), to prevent handling DocBook elements. -->
   <xsl:template match="@*|node()[namespace-uri()='']">
@@ -72,7 +91,7 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
     <xsl:variable name="docbook-id" select="../PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value"/>
 
     <xsl:call-template name="storytext">
-      <xsl:with-param name="matching-content" select="document($docbook-contents-file)//*[@xml:id=$docbook-id]"/>
+      <xsl:with-param name="matching-content" select="$profiled-docbook//*[@xml:id=$docbook-id]"/>
     </xsl:call-template>
 
   </xsl:template>
@@ -163,7 +182,6 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
       <!-- Get docbook-id attribute set in Scribus -->
       <xsl:variable name="docbook-id" select="./PageItemAttributes/ItemAttribute[@Name='docbook-id']/@Value"/>
 
-      <xsl:variable name="matching-content" select="document($docbook-contents-file)//*[@xml:id=$docbook-id]"/>
       <!-- TODO: handle conditions/profiling. Probably store content in a variable. This in comparison to first handling conditions and then selection. As XML id is unique, selecting first should not be a problem. -->
       <!-- Order of execution: postprocess ( format ( profile ( match ))) -->
       <!-- TODO: idea:
@@ -173,6 +191,7 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
         </xsl:call-template>
       </xsl:variable>
       -->
+      <xsl:variable name="matching-content" select="$profiled-docbook//*[@xml:id=$docbook-id]"/>
 
       <!-- Get type of matching element -->
       <xsl:variable name="matching-element" select="local-name($matching-content)"/>
@@ -184,10 +203,11 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
         <xsl:when test="$matching-element='para'">
 
           <!-- Get az:dropcapfileref attribute -->
-          <xsl:variable name="filename" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapfileref"/>
+          <xsl:variable name="filename" select="$matching-content/@az:dropcapfileref"/>
 
           <!-- Get resolution in percentage. Assume LOCALSCY is equal to LOCALSCX. Typically '0.16' for capitals. -->
-          <xsl:variable name="localsc-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcaplocalsc"/>
+          <xsl:variable name="localsc-docbook" select="$matching-content/@az:dropcaplocalsc"/>
+
           <xsl:variable name="localsc">
             <xsl:choose>
               <xsl:when test="not($localsc-docbook)">
@@ -200,7 +220,7 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
           </xsl:variable>
 
           <!-- Get dimensions in pt, which is number of pixels divided by 6.25 for a resolution of 0.16 -->
-          <xsl:variable name="width-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapwidthpt"/>
+          <xsl:variable name="width-docbook" select="$matching-content/@az:dropcapwidthpt"/>
           <xsl:variable name="width">
             <xsl:choose>
               <xsl:when test="not($width-docbook)">
@@ -212,7 +232,7 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
             </xsl:choose>
           </xsl:variable>
 
-          <xsl:variable name="height-docbook" select="document($docbook-contents-file)//*[local-name() = 'para' and @xml:id=$docbook-id]/@az:dropcapheightpt"/>
+          <xsl:variable name="height-docbook" select="$matching-content/@az:dropcapheightpt"/>
           <xsl:variable name="height">
             <xsl:choose>
               <xsl:when test="not($height-docbook)">
