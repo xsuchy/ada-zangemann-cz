@@ -128,9 +128,10 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
 
             <!-- Two para separators are needed inbetween paragraphs to insert two newlines to end the first paragraph and create an empty line between the paragraphs. -->
             <!-- FIXME: Prefer paragraph styles in favor of hard newlines. -->
+            <!-- FIXME: Use an optional style reset instead of breakline to maintain paragraph structure. See https://bugs.scribus.net/view.php?id=204 -->
             <xsl:if test="not(position() = last())">
-              <para/>
-              <para/>
+              <breakline/>
+              <breakline/>
             </xsl:if>
           </xsl:for-each>
 
