@@ -591,8 +591,11 @@ Society should support those who respect others' freedom.</literallayout>
       </mediaobject>
 
       <mediaobject xml:id="img-ada-p03-title">
-        <imageobject>
+        <imageobject condition="headings-img">
           <imagedata fileref="images/illustrations/ada-p03-title.png"/>
+        </imageobject>
+        <imageobject condition="headings-text">
+          <imagedata fileref="images/illustrations/ada-p03-titleonly.png"/>
         </imageobject>
         <alt>ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice Cream. Title in the middle, authors in the upper left.</alt>
       </mediaobject>
