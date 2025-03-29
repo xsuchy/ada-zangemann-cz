@@ -280,6 +280,7 @@ illustrations/ada-p03-title-de.png  # Hand-drawn title page for German (default 
         </PAGEOBJECT>
 ```
 - For aligning the titles in Scribus it is important to set the 'First Line Offset' in 'Text Properties' to anything other than 'Maximum Ascent', as that option will cause the text baseline to shift depending on the characters used. The best option is 'Line Spacing' to ensure the base font line position remains consistent even if the font and text size changes.
+- Consider replacing `<az:excerpt>` in favor of a `<phrase>` element in the alt-text of the mediaobject. In this way the individual phrase can be selected if needed while avoiding unnecessary duplication.
 
 ### Request for feedback
 
