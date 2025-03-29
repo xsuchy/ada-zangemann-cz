@@ -14,7 +14,7 @@ SPDX-License-Identifier: License to be determined. Currently proprietary.
                 xmlns:db="http://docbook.org/ns/docbook" db:version="5.0"
                 xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/"
                 xmlns:exsl="http://exslt.org/common"
-                exclude-result-prefixes="db az">
+                exclude-result-prefixes="db az exsl">
 
   <!-- Generic approach is to correspond docbook-id attribute with xml:id and
        resolve any inline elements depending on input and output. It starts from
