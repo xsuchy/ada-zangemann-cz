@@ -488,6 +488,19 @@
     </cover>
   </info>
   <!-- Start of the book -->
+  <preface role="half-title-page">
+    <info>
+      <title>Half-title page</title>
+    </info>
+    <simplesect xml:id="sec-p01" az:pagenum="1">
+      <mediaobject xml:id="img-ada-p01-titleonly">
+        <imageobject>
+          <imagedata fileref="images/illustrations/ada-p01-titleonly.png"/>
+        </imageobject>
+        <alt>ADA &amp; ZANGEMANN</alt>
+      </mediaobject>
+    </simplesect>
+  </preface>
   <colophon>
     <info>
       <title>Imprint</title>
