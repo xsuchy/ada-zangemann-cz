@@ -94,6 +94,7 @@ Considerations for the current DocBook format.
 ```
 - The `az:dropcapscribuscharstyle="Capital Yellow 2"` property is used to define a dropcap style that is expected in Scribus to create a dropcap.
 - Itstool [built-in docbook5 rules](https://github.com/itstool/itstool/blob/master/its/docbook5.its) sets fileref as an external resource, making it impossible to translate. Itstool has the `-n` flag to not use built-in rules, and the `-i` flag to import a cusom set of rules. Moving the rules to a custom its file to import with `-i` should be possible, but did not work correctly as the presedence of the withinText rule for imagedata is not handled. The default rules set it to yes, while it should be no. Inside of the docbook file the generic rule of yes can be override using a specific no rule, but this does not work with the external file. If all rules are moved to an external file it should work just fine.
+- Update existing translations simply by calling `make po/*.po`.
 
 #### Ideas for consideration
 

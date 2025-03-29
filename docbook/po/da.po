@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-03-29 14:44+0100\n"
+"POT-Creation-Date: 2025-03-29 18:02+0100\n"
 "PO-Revision-Date: 2025-03-29 14:50+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1142,7 +1142,8 @@ msgstr ""
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p30-1
 #: Ada_Zangemann.dbk:912
-msgid "<phrase condition=\"capitals-text\">More</phrase><phrase condition=\"capitals-img\">ore</phrase>ore and more children started to visit Ada at the junkyard after school, and she helped them rewrite the programs in their skateboards. Some of her classmates were very excited about this new discovery. It was unbelievable what you could do with software code! They wanted to learn everything Ada knew about programming languages, and soon they were riding their skateboards again, wherever they wanted to."
+#, fuzzy
+msgid "<phrase condition=\"capitals-text\">More</phrase><phrase condition=\"capitals-img\">ore</phrase> and more children started to visit Ada at the junkyard after school, and she helped them rewrite the programs in their skateboards. Some of her classmates were very excited about this new discovery. It was unbelievable what you could do with software code! They wanted to learn everything Ada knew about programming languages, and soon they were riding their skateboards again, wherever they wanted to."
 msgstr "<phrase condition=\"capitals-text\">Flere</phrase><phrase condition=\"capitals-img\">lere</phrase> og flere børn begyndte at besøge Ada på lossepladsen efter skoletid, og hun hjalp dem med at ændre programmerne i deres skateboards. Nogle af hendes klassekammerater var meget begejstrede over den nye opdagelse - det var helt vildt, hvad man kunne lave med softwarekode! De ville lære alt, hvad Ada vidste om programmeringssprog. Snart kørte alle igen på deres skateboards, lige hvor de ville."
 
 #. (itstool) path: simplesect/para
