@@ -19,6 +19,9 @@ SHELL = /bin/sh
 
 # FIXME: use $(srcdir) best practice https://www.gnu.org/software/make/manual/html_node/Makefile-Basics.html
 
+# Use existing po translations as base to generate pattern rule targets for autocomplete
+translations = $(notdir $(basename $(wildcard po/*.po)))
+
 # Translation file
 po/Ada_Zangemann.pot: Ada_Zangemann.dbk
 	itstool -n -o $@ Ada_Zangemann.dbk
@@ -61,7 +64,8 @@ build/%/Ada_Zangemann-pure.dbk: build/%/Ada_Zangemann.dbk xsl/clean-docbook.xsl
 # HTML output using standard docbook processing
 # TODO: use lower resolution images
 # FIXME: warning 'No localization exists for "ada_zangemann" or "ada". Using default "en".'
-build/%/Ada_Zangemann.html: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
+targets-html = $(addprefix build/,$(addsuffix /Ada_Zangemann.html,$(translations)))
+$(targets-html): build/%/Ada_Zangemann.html: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
 	xsltproc -o $@ /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl $<
 
 # LaTeX based pdf processing
@@ -74,7 +78,8 @@ build/%/Ada_Zangemann-dbtoepub.epub: build/%/Ada_Zangemann-pure.dbk build/%/imag
 	dbtoepub -o $@ $<
 
 # Pandoc markdown
-build/%/Ada_Zangemann-pandoc.md: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
+targets-pandoc-md = $(addprefix build/,$(addsuffix /Ada_Zangemann-pandoc.md,$(translations)))
+$(targets-pandoc-md): build/%/Ada_Zangemann-pandoc.md: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
 	pandoc -f docbook -o $@ $<
 
 # Build version with all images (for debugging)
@@ -84,13 +89,15 @@ build/%/print-all/Ada_Zangemann-print-all.sla: build/%/Ada_Zangemann.dbk build/%
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 # Build version with image headers
-build/%/print-headings-img/Ada_Zangemann-print-headings-img.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
+targets-print-headings-img = $(addprefix build/,$(addsuffix /print-headings-img/Ada_Zangemann-print-headings-img.sla,$(translations)))
+$(targets-print-headings-img): build/%/print-headings-img/Ada_Zangemann-print-headings-img.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
 	mkdir -p $(@D)
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-img;capitals-img" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 # Build version with text headers
-build/%/print-headings-text/Ada_Zangemann-print-headings-text.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
+targets-print-headings-text = $(addprefix build/,$(addsuffix /print-headings-text/Ada_Zangemann-print-headings-text.sla,$(translations)))
+$(targets-print-headings-text): build/%/print-headings-text/Ada_Zangemann-print-headings-text.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
 	mkdir -p $(@D)
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-text;capitals-text" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
