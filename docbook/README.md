@@ -282,6 +282,14 @@ illustrations/ada-p03-title-de.png  # Hand-drawn title page for German (default 
 ```
 - For aligning the titles in Scribus it is important to set the 'First Line Offset' in 'Text Properties' to anything other than 'Maximum Ascent', as that option will cause the text baseline to shift depending on the characters used. The best option is 'Line Spacing' to ensure the base font line position remains consistent even if the font and text size changes.
 - Consider replacing `<az:excerpt>` in favor of a `<phrase>` element in the alt-text of the mediaobject. In this way the individual phrase can be selected if needed while avoiding unnecessary duplication.
+- Add profiling condition based on language. This should work but doesn't. This seems to have to do with the default Docbook stylesheet profiling in combination with the translation. The resulting docbook stylesheet has top-level language `ada-ZANGEMANN` and explicit `xml:lang="en"` attributes for all elements not translated.
+```
+$(targets-print-headings-text): build/%/print-headings-text/Ada_Zangemann-print-headings-text.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
+	mkdir -p $(@D)
+	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-text;capitals-text" --stringparam profile.lang "$(subst build/,,$(subst /print-headings-text/Ada_Zangemann-print-headings-text.sla,,$@))" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
+```
+
 
 ### Request for feedback
 
