@@ -32,8 +32,8 @@ po/%.po: po/Ada_Zangemann.pot
 	msgmerge --no-wrap --update $@ po/Ada_Zangemann.pot
 
 # Generate message strings for further processing
-build/%/Ada_Zangemann.mo: po/%.po
-	mkdir -p $(@D)
+# Stored alongside .po files to deal with assuptions by tools
+po/%.mo: po/%.po
 	msgfmt -o $@ $<
 
 # Link images
@@ -54,7 +54,7 @@ build/%/images/capitals:
 	if [ ! -h $@ ]; then ln -s ../../../images/capitals-opague $@; fi
 
 # Create docbook files
-build/%/Ada_Zangemann.dbk: build/%/Ada_Zangemann.mo Ada_Zangemann.dbk
+build/%/Ada_Zangemann.dbk: po/%.mo Ada_Zangemann.dbk
 	itstool -m $< -o $(@D) $(@F)
 
 # Create 'pure' docbook files without custom elements
