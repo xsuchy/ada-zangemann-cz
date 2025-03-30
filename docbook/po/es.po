@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-03-30 10:56+0200\n"
+"POT-Creation-Date: 2025-03-30 19:13+0200\n"
 "PO-Revision-Date: 2025-03-29 18:45+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1718,11 +1718,6 @@ msgid "Thanks to Bea and Benni, Brian, Christine and Marc, Cory, Bernhard, Isabe
 msgstr "Gracias a Bea y Benni, Christine y Marc, Cory, Bernhard, Isabel y Amelia, Katta, Kristina, Martin, Mona y Arne, Nina, Oliver, Reinhard, Sabine y Torsten por sus ideas geniales, su inspiración y sus consejos prácticos, y gracias a las muchas personas en el movimiento del <emphasis>Software Libre</emphasis>, de quienes pude aprender y cuyo compromiso me motivó."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1158
-msgid "For the English edition, I would like to thank John for his valuable feedback to improve the language, as well as Catharina, Pam, Till, and Vint for assisting me in figuring out how to get the book published."
-msgstr "Esta edición en español ha sido posible gracias a la iniciativa y energía de Ricardo Bacchini de Volkswagen Group España Distribución, el trabajo de traducción de Tanja Pengue y Luis Lorenzo, y finalmente, gracias a Ana y Lina por la corrección de pruebas."
-
-#. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1159
 msgid "Thanks to my family, who made me write early in the morning, late in the evening, and on holiday, and who always supports my work for software freedom. Especially, I would like to thank my children, who inspired me with new ideas at each reading. Without them, this book would not exist."
 msgstr "Gracias a mi familia, que me motivó a escribir temprano por la mañana, tarde por la noche y en vacaciones, y que siempre apoya mi trabajo por la libertad del <emphasis>software</emphasis>. En especial, me gustaría agradecer a mis hijos, que me inspiraron con nuevas ideas con cada lectura. Sin ellos, este libro no existiría."
@@ -1911,3 +1906,6 @@ msgstr ""
 #: Ada_Zangemann.dbk:1263
 msgid "Three hands that hold as many empty ice cream cones, to draw and color. In the air above the middle cone is an umbrella."
 msgstr "Tres manos que sostienen otros tantos cucuruchos de helado vacíos, para dibujar y colorear. En el aire, sobre el cucurucho del medio, hay un paraguas."
+
+#~ msgid "For the English edition, I would like to thank John for his valuable feedback to improve the language, as well as Catharina, Pam, Till, and Vint for assisting me in figuring out how to get the book published."
+#~ msgstr "Esta edición en español ha sido posible gracias a la iniciativa y energía de Ricardo Bacchini de Volkswagen Group España Distribución, el trabajo de traducción de Tanja Pengue y Luis Lorenzo, y finalmente, gracias a Ana y Lina por la corrección de pruebas."

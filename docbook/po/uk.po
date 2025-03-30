@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-03-30 10:56+0200\n"
+"POT-Creation-Date: 2025-03-30 19:13+0200\n"
 "PO-Revision-Date: 2025-03-29 16:18+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1687,11 +1687,6 @@ msgstr "Велика подяка Рейнгарду Віземану з Linuxho
 #: Ada_Zangemann.dbk:1156
 msgid "Thanks to Bea and Benni, Brian, Christine and Marc, Cory, Bernhard, Isabel and Amelia, Katta, Kristina, Martin, Mona and Arne, Nina, Oliver, Reinhard, Sabine, and Torsten for great ideas, inspiration, and practical tips, and to the many people of the Free Software movement, from which I was allowed to learn and whose engagement motivated me."
 msgstr "Дякую Беа та Бенні, Крістіні та Марку, Корі, Бернгарду, Ізабель та Амелії, Катті, Крістіні, Мартіну, Моне та Арні, Ніні, Оліверу, Рейнгарду, Сабіні та Торстену за круті ідеї, натхнення та практичні поради, а також багатьом іншим людям руху за вільне програмне забезпечення, у яких я мав змогу вчитися і чия відданість мотивує мене."
-
-#. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1158
-msgid "For the English edition, I would like to thank John for his valuable feedback to improve the language, as well as Catharina, Pam, Till, and Vint for assisting me in figuring out how to get the book published."
-msgstr ""
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1159
