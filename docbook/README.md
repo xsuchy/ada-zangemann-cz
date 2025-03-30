@@ -289,7 +289,7 @@ $(targets-print-headings-text): build/%/print-headings-text/Ada_Zangemann-print-
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-text;capitals-text" --stringparam profile.lang "$(subst build/,,$(subst /print-headings-text/Ada_Zangemann-print-headings-text.sla,,$@))" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 ```
-
+- The additional paragraph in the acknowledgements could be handled using a condition, if it works correctly. Hacking a `</para><para>` into the element doesn't work as itstool fails this, calling `Warning: Could not merge en translation for msgid`.
 
 ### Request for feedback
 
