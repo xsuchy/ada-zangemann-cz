@@ -54,7 +54,8 @@ build/%/images/capitals:
 	if [ ! -h $@ ]; then ln -s ../../../images/capitals-opague $@; fi
 
 # Create docbook files
-build/%/Ada_Zangemann.dbk: po/%.mo Ada_Zangemann.dbk
+targets-dbk = $(addprefix build/,$(addsuffix /Ada_Zangemann.dbk,$(translations)))
+$(targets-dbk): build/%/Ada_Zangemann.dbk: po/%.mo Ada_Zangemann.dbk
 	itstool -m $< -o $(@D) $(@F)
 
 # Create 'pure' docbook files without custom elements
