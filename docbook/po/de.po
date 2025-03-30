@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-03-29 18:02+0100\n"
+"POT-Creation-Date: 2025-03-30 10:56+0200\n"
 "PO-Revision-Date: 2025-03-24 21:38+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -552,7 +552,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann.dbk:640 Ada_Zangemann.dbk:659
+#: Ada_Zangemann.dbk:640
 msgid "Prestigious magazines (“STARS“, “MONEY”, “Richest Man”) on whose cover are Zangemann and his villa."
 msgstr ""
 
@@ -590,6 +590,13 @@ msgstr "Und tatsächlich: Je größer Zangemann wurde, desto kleiner wurden die 
 #. Link to the image. Only needs to be changed if the image is localized.
 #: Ada_Zangemann.dbk:657
 msgid "images/illustrations/ada-p07.png"
+msgstr ""
+
+#. (itstool) path: mediaobject/alt
+#. The alt tag contains an alternative text, describing the image for the
+#. visual impaired.
+#: Ada_Zangemann.dbk:659
+msgid "Zangemann as a child on a chair at a school table. From his head come six bubbles in which there are his ideas of places in which to insert computers: a video call system, a speaker, a washing machine, a skateboard with radio control on a big computer monitor, a wrist computer, and a shoulder computer with a monitor and keyboard. Zangemann has gray hair, a dark purple shirt with blue horizontal stripes, blue shorts, brown shoes and white socks. He wears glasses and a big watch on his left wrist. On the table there are an open notebook, a yellow pencil, and an eraser, while hanging on the side of the table there is his brown briefcase."
 msgstr ""
 
 #. (itstool) path: simplesect/para
