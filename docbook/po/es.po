@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2025-03-31 19:22+0200\n"
-"PO-Revision-Date: 2025-03-29 18:45+0100\n"
+"PO-Revision-Date: 2025-03-31 20:21+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -949,7 +949,7 @@ msgstr "Una de esas tardes Ada aprendió dos palabras nuevas: <emphasis>hardware
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:813
 msgid "The best thing about Ada’s new discovery was realizing that she could tinker with software just as she could with hardware. Hardware is built with tools — hammers, drills, and screws. Software is built simply by writing down the commands for the hardware, one after the other. There was a separate language for this — the programming language. With software, Ada could make her inventions even more useful. She really wanted to learn the programming language!"
-msgstr "Lo mejor del nuevo descubrimiento de Ada fue darse que podía modificar el <i>software</i> igual que el <emphasis>hardware</emphasis>. El <emphasis>hardware</emphasis> se construía con herramientas: martillos, taladros y tornillos. El <emphasis>software</emphasis> se construía simplemente escribiendo las órdenes para el <emphasis>hardware</emphasis>, una tras otra. Incluso existía un lenguaje propio para ello: el lenguaje de programación. Con el <emphasis>software</emphasis> Ada podría hacer sus inventos aún más útiles. Estaba decidida a aprender a programar."
+msgstr "Lo mejor del nuevo descubrimiento de Ada fue darse que podía modificar el <emphasis role=\"italic\">software</emphasis> igual que el <emphasis>hardware</emphasis>. El <emphasis>hardware</emphasis> se construía con herramientas: martillos, taladros y tornillos. El <emphasis>software</emphasis> se construía simplemente escribiendo las órdenes para el <emphasis>hardware</emphasis>, una tras otra. Incluso existía un lenguaje propio para ello: el lenguaje de programación. Con el <emphasis>software</emphasis> Ada podría hacer sus inventos aún más útiles. Estaba decidida a aprender a programar."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1136,7 +1136,7 @@ msgstr "Ada se detiene en su monopatín rodeada de niños. Marie está en un ext
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:896
 msgid "Ada thought for a moment, then said, “I don’t think it’s your skateboards but actually the software in them. It’s probably programmed into the software that the skateboards aren’t allowed to go on the sidewalk. But that can be changed!”"
-msgstr "Ada pensó un momento y luego dijo: “No creo que sean vuestros monopatines sino el <i>software</i> que llevan. Probablemente los monopatines están programados para que no puedan ir por la acera. Pero eso se puede cambiar”."
+msgstr "Ada pensó un momento y luego dijo: “No creo que sean vuestros monopatines sino el <emphasis role=\"italic\">software</emphasis> que llevan. Probablemente los monopatines están programados para que no puedan ir por la acera. Pero eso se puede cambiar”."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:897
@@ -1381,7 +1381,7 @@ msgstr ""
 #. (itstool) id: Ada_Zangemann.dbk#para-p39-1
 #: Ada_Zangemann.dbk:1008
 msgid "<phrase condition=\"capitals-text\">The</phrase><phrase condition=\"capitals-img\">he</phrase> next day, they didn’t go to school. Instead, they rode their skateboards to the parliament building, with large protest signs under their arms, and sat down in front of the building. The evening before, they had put LED lights on some of the signs, which were now flashing brightly. They had connected their speakers together so everyone in the street could hear what they were saying. Some passersby stopped and asked the children what they were demonstrating for. “For software freedom!” they replied in unison and told the adults their story. Impressed, the adults nodded, and the president also looked curiously at their signs as he approached the building."
-msgstr "<phrase condition=\"capitals-text\">Al</phrase><phrase condition=\"capitals-img\">l</phrase> día siguiente no fueron al colegio. Fueron con sus monopatines hasta el Parlamento, con grandes carteles de protesta bajo el brazo y se sentaron frente al edificio. La noche anterior habían colocado luces LED en algunas de las pancartas, que ahora parpadeaban intensamente. Habían conectado sus altavoces para que todo el mundo en la calle pudiera oír lo que decían. Algunos transeúntes se pararon y preguntaron a los niños por qué se manifestaban. “¡Por la libertad del <i>software</i>!”, respondieron al unísono y contaron su historia a los adultos. Impresionados, los adultos asintieron y el presidente también miró con curiosidad los carteles al entrar en el edificio."
+msgstr "<phrase condition=\"capitals-text\">Al</phrase><phrase condition=\"capitals-img\">l</phrase> día siguiente no fueron al colegio. Fueron con sus monopatines hasta el Parlamento, con grandes carteles de protesta bajo el brazo y se sentaron frente al edificio. La noche anterior habían colocado luces LED en algunas de las pancartas, que ahora parpadeaban intensamente. Habían conectado sus altavoces para que todo el mundo en la calle pudiera oír lo que decían. Algunos transeúntes se pararon y preguntaron a los niños por qué se manifestaban. “¡Por la libertad del <emphasis role=\"italic\">software</emphasis>!”, respondieron al unísono y contaron su historia a los adultos. Impresionados, los adultos asintieron y el presidente también miró con curiosidad los carteles al entrar en el edificio."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1009

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2025-03-31 19:22+0200\n"
-"PO-Revision-Date: 2025-03-24 21:38+0100\n"
+"PO-Revision-Date: 2025-03-31 20:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -1833,7 +1833,7 @@ msgstr ""
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1244
 msgid "The book Ada &amp; Zangemann: A Tale of Software, Skateboards, and Raspberry Ice Cream by Matthias Kirschner and Sandra Brandstätter, published by No Starch Press, is licensed under “Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).”"
-msgstr "Das Buch »Ada & Zangemann – Ein Märchen über Software, Skateboards und Himbeereis« von Matthias Kirschner und Sandra Brandstätter, erschienen bei der dpunkt.verlag GmbH, ist lizenziert »Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen 3.0 Deutschland (CC BY-SA 3.0 DE)«."
+msgstr "Das Buch »Ada &amp; Zangemann – Ein Märchen über Software, Skateboards und Himbeereis« von Matthias Kirschner und Sandra Brandstätter, erschienen bei der dpunkt.verlag GmbH, ist lizenziert »Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen 3.0 Deutschland (CC BY-SA 3.0 DE)«."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1245
