@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-03-31 19:22+0200\n"
+"POT-Creation-Date: 2025-03-31 21:03+0200\n"
 "PO-Revision-Date: 2025-03-31 20:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -99,8 +99,9 @@ msgstr ""
 
 #. (itstool) path: legalnotice/para
 #: Ada_Zangemann.dbk:345
-msgid "To view a copy of this license, visit <link xlink:href=\"http://creativecommons.org/licenses/by-sa/4.0/\">http://creativecommons.org/licenses/by-sa/4.0/</link> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA."
-msgstr ""
+#, fuzzy
+msgid "To view a copy of this license, visit <link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</link> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA."
+msgstr "<link xlink:href=\"https://creativecommons.org/licenses/by-sa/3.0/de/\">https://creativecommons.org/licenses/by-sa/3.0/de/</link>"
 
 #. (itstool) path: fontset/font
 #. (itstool) comment: ./fontfamily
@@ -364,7 +365,7 @@ msgid ""
 "      \n"
 "      <literallayout class=\"normal\">Copyright © 2023 Matthias Kirschner and Sandra Brandstätter.\n"
 "This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.\n"
-"To view a copy of this license, visit <link xlink:href=\"http://creativecommons.org/licenses/by-sa/4.0/\">http://creativecommons.org/licenses/by-sa/4.0/</link> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.\n"
+"To view a copy of this license, visit <link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</link> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.\n"
 "\n"
 "<emphasis role=\"bold\">Ada &amp; Zangemann: A Tale of Software, Skateboards, and Raspberry Ice Cream</emphasis> is a translation of the German original, Ada und Zangemann: Ein Märchen über Software, Skateboards und Himbeereis, published by Dpunkt.verlag in cooperation with O’Reilly Media, Inc., under the imprint “O’REILLY,” © 2022 by Matthias Kirschner and Sandra Brandstätter.\n"
 "\n"

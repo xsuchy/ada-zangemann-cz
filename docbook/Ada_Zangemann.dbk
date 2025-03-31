@@ -342,7 +342,7 @@
     </publisher>
     <legalnotice>
       <para>This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.</para>
-      <para>To view a copy of this license, visit <link xlink:href="http://creativecommons.org/licenses/by-sa/4.0/">http://creativecommons.org/licenses/by-sa/4.0/</link> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</para>
+      <para>To view a copy of this license, visit <link xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</link> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</para>
     </legalnotice>
     <!-- Style information, mostly fonts -->
     <az:style>
@@ -510,7 +510,7 @@
       <!-- TODO: Add simplesect for lower part of the page -->
       <literallayout class="normal">Copyright © 2023 Matthias Kirschner and Sandra Brandstätter.
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
-To view a copy of this license, visit <link xlink:href="http://creativecommons.org/licenses/by-sa/4.0/">http://creativecommons.org/licenses/by-sa/4.0/</link> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+To view a copy of this license, visit <link xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</link> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
 <emphasis role="bold">Ada &amp; Zangemann: A Tale of Software, Skateboards, and Raspberry Ice Cream</emphasis> is a translation of the German original, Ada und Zangemann: Ein Märchen über Software, Skateboards und Himbeereis, published by Dpunkt.verlag in cooperation with O’Reilly Media, Inc., under the imprint “O’REILLY,” © 2022 by Matthias Kirschner and Sandra Brandstätter.
 
