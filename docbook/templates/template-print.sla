@@ -1249,7 +1249,7 @@
                 <trail/>
             </StoryText>
             <PageItemAttributes>
-                <ItemAttribute Name="docbook-id" Type="string" Value="subtitle-illustrator" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="docbook-id" Type="string" Value="title-illustrator" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
                 <ItemAttribute Name="condition" Type="string" Value="headings-text" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
@@ -1308,7 +1308,7 @@
                 <trail/>
             </StoryText>
             <PageItemAttributes>
-                <ItemAttribute Name="docbook-id" Type="string" Value="title-illustrator" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                <ItemAttribute Name="docbook-id" Type="string" Value="subtitle-illustrator" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
                 <ItemAttribute Name="condition" Type="string" Value="headings-text" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
             </PageItemAttributes>
         </PAGEOBJECT>
