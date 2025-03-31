@@ -121,6 +121,18 @@ xmllint-format: Ada_Zangemann.dbk
 	mv Ada_Zangemann.dbk Ada_Zangemann.dbk.xmllintbak
 	xmllint --format Ada_Zangemann.dbk.xmllintbak > Ada_Zangemann.dbk
 
+targets-all-scribus = $(addprefix build/,$(addsuffix /all-scribus,$(translations)))
+.PHONY: build/%/all-scribus
+$(targets-all-scribus): build/%/all-scribus: build/%/print-all/Ada_Zangemann-print-all.sla build/%/print-headings-text/Ada_Zangemann-print-headings-text.sla build/%/print-headings-none/Ada_Zangemann-print-headings-none.sla
+
+targets-all = $(addprefix build/,$(addsuffix /all,$(translations)))
+.PHONY: build/%/all
+$(targets-all): build/%/all: build/%/all-scribus build/%/Ada_Zangemann-pure.dbk build/%/Ada_Zangemann-dblatex.pdf build/%/Ada_Zangemann-dbtoepub.epub build/%/Ada_Zangemann-pandoc.md
+
+.PHONY: all
+all: $(targets-all)
+
+
 # Remove build output
 .PHONY: clean
 clean:
