@@ -43,6 +43,7 @@ po/%.mo: po/%.po
 # NOTE: marked as precious to prevent cleanup of symbolic link
 .PRECIOUS: build/%/images/illustrations
 build/%/images/illustrations:
+	mkdir -p $(@D) || exit 0
 	makefile_helpers/./imagedir.sh $(shell echo ${@} | sed -n 's/.*build\/\(.*\)\/images.*/\1/p')
 
 # Link to capitals-opague
@@ -56,6 +57,7 @@ build/%/images/capitals:
 # Create docbook files
 targets-dbk = $(addprefix build/,$(addsuffix /Ada_Zangemann.dbk,$(translations)))
 $(targets-dbk): build/%/Ada_Zangemann.dbk: po/%.mo Ada_Zangemann.dbk
+	mkdir -p $(@D) || exit 0
 	itstool -m $< -o $(@D) $(@F)
 
 # Create 'pure' docbook files without custom elements
