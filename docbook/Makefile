@@ -123,6 +123,10 @@ build/%/print-headings-none/Ada_Zangemann-print-headings-none.sla: build/%/Ada_Z
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition ";" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
+# TODO: add autocompletion for these pdf conversions
+%.pdf: %.sla
+	../scripts/./to_pdf.sh $<
+
 # Link template files, for development
 build/%/template-print.sla:
 	if [ ! -h $@ ]; then ln -s ../../templates/template-print.sla $@; fi
@@ -133,9 +137,11 @@ xmllint-format: Ada_Zangemann.dbk
 	mv Ada_Zangemann.dbk Ada_Zangemann.dbk.xmllintbak
 	xmllint --format Ada_Zangemann.dbk.xmllintbak > Ada_Zangemann.dbk
 
+targets-scribus = build/%/print-all/Ada_Zangemann-print-all.sla build/%/print-headings-text/Ada_Zangemann-print-headings-text.sla build/%/print-headings-none/Ada_Zangemann-print-headings-none.sla
+
 targets-all-scribus = $(addprefix build/,$(addsuffix /all-scribus,$(translations)))
 .PHONY: build/%/all-scribus
-$(targets-all-scribus): build/%/all-scribus: build/%/print-all/Ada_Zangemann-print-all.sla build/%/print-headings-text/Ada_Zangemann-print-headings-text.sla build/%/print-headings-none/Ada_Zangemann-print-headings-none.sla
+$(targets-all-scribus): build/%/all-scribus: $(targets-scribus)
 
 targets-all = $(addprefix build/,$(addsuffix /all,$(translations)))
 .PHONY: build/%/all
