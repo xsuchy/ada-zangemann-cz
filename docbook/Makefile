@@ -71,6 +71,9 @@ targets-html = $(addprefix build/,$(addsuffix /Ada_Zangemann.html,$(translations
 $(targets-html): build/%/Ada_Zangemann.html: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
 	xsltproc -o $@ /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl $<
 
+.PHONY: build/all/Ada_Zangemann.html
+build/all/Ada_Zangemann.html: $(targets-html)
+
 # LaTeX based pdf processing
 # FIXME: not yet working
 build/%/Ada_Zangemann-dblatex.pdf: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
@@ -85,6 +88,9 @@ targets-pandoc-md = $(addprefix build/,$(addsuffix /Ada_Zangemann-pandoc.md,$(tr
 $(targets-pandoc-md): build/%/Ada_Zangemann-pandoc.md: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
 	pandoc -f docbook -o $@ $<
 
+.PHONY: build/all/Ada_Zangemann-pandoc.md
+build/all/Ada_Zangemann-pandoc.md: $(targets-pandoc-md)
+
 # Build version with all images (for debugging)
 build/%/print-all/Ada_Zangemann-print-all.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
 	mkdir -p $(@D)
@@ -98,12 +104,18 @@ $(targets-print-headings-img): build/%/print-headings-img/Ada_Zangemann-print-he
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-img;capitals-img" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
+.PHONY: build/all/print-headings-img/Ada_Zangemann-print-headings-img.sla
+build/all/print-headings-img/Ada_Zangemann-print-headings-img.sla: $(targets-print-headings-img)
+
 # Build version with text headers
 targets-print-headings-text = $(addprefix build/,$(addsuffix /print-headings-text/Ada_Zangemann-print-headings-text.sla,$(translations)))
 $(targets-print-headings-text): build/%/print-headings-text/Ada_Zangemann-print-headings-text.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
 	mkdir -p $(@D)
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-text;capitals-text" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
+
+.PHONY: build/all/print-headings-text/Ada_Zangemann-print-headings-text.sla
+build/all/print-headings-text/Ada_Zangemann-print-headings-text.sla: $(targets-print-headings-text)
 
 # Build version with no conditional content (for debugging)
 build/%/print-headings-none/Ada_Zangemann-print-headings-none.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
@@ -127,7 +139,7 @@ $(targets-all-scribus): build/%/all-scribus: build/%/print-all/Ada_Zangemann-pri
 
 targets-all = $(addprefix build/,$(addsuffix /all,$(translations)))
 .PHONY: build/%/all
-$(targets-all): build/%/all: build/%/all-scribus build/%/Ada_Zangemann-pure.dbk build/%/Ada_Zangemann-dblatex.pdf build/%/Ada_Zangemann-dbtoepub.epub build/%/Ada_Zangemann-pandoc.md
+$(targets-all): build/%/all: build/%/all-scribus build/%/Ada_Zangemann-pure.dbk build/%/Ada_Zangemann.html build/%/Ada_Zangemann-dblatex.pdf build/%/Ada_Zangemann-dbtoepub.epub build/%/Ada_Zangemann-pandoc.md
 
 .PHONY: all
 all: $(targets-all)
