@@ -19,7 +19,10 @@ msgstr ""
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "© 2024-2025 Petter Reinholdtsen, Hagen Echzell og Henrik G. Sundt."
+msgstr ""
+"Petter Reinholdtsen 2024-2024\n"
+"Hagen Echzell 2024\n"
+"Henrik G. Sundt 2024"
 
 #. (itstool) path: info/title
 #. (itstool) path: cover/bridgehead
@@ -454,7 +457,7 @@ msgstr ""
 "\n"
 "Denne boken av Matthias Kirschner (forfatter) og Sandra Brandstätter (illustratør) er gjort tilgjengelig med bruksvilkårene til <emphasis role=\"bold\">Creative Commons CC BY-SA</emphasis>, en fri kulturlisens.\n"
 "\n"
-"<emphasis role=\"bold\">Du kan</emphasis> dele, kopiere og videredistribuere materialet i ethvert medium og format. <b>Du kan</b> tilpasse, blande, omforme og bygge videre pa materialet til alle formål, også kommersielle. <b>Du må</b> angi passende kreditering, oppgi en lenke til bruksvilkårene og opplyse om det er foretatt endringer.\n"
+"<emphasis role=\"bold\">Du kan</emphasis> dele, kopiere og videredistribuere materialet i ethvert medium og format. <emphasis role=\"bold\">Du kan</emphasis> tilpasse, blande, omforme og bygge videre pa materialet til alle formål, også kommersielle. <emphasis role=\"bold\">Du må</emphasis> angi passende kreditering, oppgi en lenke til bruksvilkårene og opplyse om det er foretatt endringer.\n"
 "\n"
 "<emphasis role=\"bold\">Du kan</emphasis> gjøre det på enhver fornuftig måte, men ikke på en slik måte at det antar at rettighetshaver godkjenner deg eller din anvendelse. Hvis du blander, omarbeider eller bygger videre på materialet <emphasis role=\"bold\">så må du</emphasis> distribuere ditt bidrag med samme bruksvilkår som originalen. (Denne er en menneskelesbar oppsummering av - og ikke en erstatning for - den juridiske teksten til CC BY-SA 4.0.)\n"
 "\n"
@@ -1893,7 +1896,7 @@ msgstr "images/illustrations/ada-p55-title.png"
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1266
 msgid "The book Ada &amp; Zangemann: A Tale of Software, Skateboards, and Raspberry Ice Cream by Matthias Kirschner and Sandra Brandstätter, published by No Starch Press, is licensed under “Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).”"
-msgstr "Boken Ada og Zangemann: En historie om programvare, rullebrett og bringebæris, av Matthias Kirschner og Sandra Brandstätter, utgitt av Petter Reinholdtsen, med bruksvilkår beskrevet av «Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).»"
+msgstr "Boken Ada og Zangemann: En historie om programvare, rullebrett og bringebæris, av Matthias Kirschner og Sandra Brandstätter, utgitt av Petter Reinholdtsen, har bruksvilkår som beskrevet av «Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).»"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1267
