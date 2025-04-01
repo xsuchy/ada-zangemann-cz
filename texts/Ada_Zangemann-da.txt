@@ -19,12 +19,30 @@ Oversat til dansk af Øjvind Fritjof Arnfred
 
 ## 2 ##
 
-Denne bog er oversat fra den tyske original, “Ada und Zangemann” 
-med skæven til den italienske oversættelse, og stilles til rådighed 
-under Create Commons CC-BY-SA, som er en licens for fri kultur. 
+
+<b>Ada & Zangemann: En fortælling om Software, Skateboards og 
+Hindbæris</b> er udgivet af Forlaget Modspil (kontakt: forlag@modspil.dk).
+
+Forfatter: Matthias Kirschner
+Tegner: Sandra Brandstätter
+Produktion: Nico Rikken og Luca Bonissi
+Oversættelse: Øjvind Fritjof Arnfred
+
+
+© 2025 Matthias Kirschner og Sandra Brandstätter.
+Dansk udgave © Forlaget Modspil og Øjvind Fritjof Arnfred
+
+Trykt hos LaserTryk, Aarhus.
+
+ISBN 978-87-975979-1-0
+
+Denne bog er oversat fra den tyske original med skæven til den 
+italienske oversættelse og udgives under “Creative Commons 
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)”.
+
 Se https://creativecommons.org/licenses/by-sa/4.0/deed.da
 
-<b>Du må</b> frit dele, kopiere og videredistribuere materialet i ethvert medie 
+<b>Du må</b> frit dele, kopiere og videredistribuere bogen i ethvert medie 
 eller format. <b>Du må</b> remixe, omarbejde og bygge videre på materialet 
 til alle formål, også kommercielle.
 
@@ -35,20 +53,19 @@ godkender dig eller din anvendelse. Hvis du remixer, omarbejder eller
 bygger videre på materialet, <b>skal du</b> distribuere dine bidrag under den 
 samme licens som originalen.
 
-For tilpassede versioner (afledte værker) beder licensgiveren dig ikke 
-at ændre i forfatterens personlige taksigelser eller i forfatterens og 
-illustratorens biografier; alternativt skal du helt udelade disse dele 
-fra din tilpassede version.
+For tilpassede versioner (afledte værker) beder licensgiveren dig om ikke 
+at ændre i forfatterens og illustratorens biografier; alternativt 
+skal du helt udelade dem fra din tilpassede version.
 
 Det var muligt at udgive bogen under denne frie licens takket være den 
-eksemplariske støtte fra dpunkt.verlag / O’Reilly for den tyske udgave 
-og No Starch Press for den engelske. Creative Commons-licenser er 
-desværre stadig en sjælden undtagelse for kommercielle bogudgivelser, og 
-mange forlæggere betragter dem som revolutionerende og risikable. 
+eksemplariske støtte fra dpunkt.verlag / O’Reilly for den tyske udgave. 
+Creative Commons-licenser er desværre stadig en sjælden undtagelse for 
+kommercielle bogudgivelser, og mange forlæggere tør ikke risikere at 
+bruge dem.
 
-<b>En stor tak</b> til <b>dpunkt.verlag</b> og <b>No Starch Press</b> for at forstå 
-værdien af softwarefrihed og for at tage sig tid til at forstå fordelene 
-ved frie kulturlicenser og for at støtte os i at udgive bogen under 
+<b>En stor tak</b> til <b>dpunkt.verlag</b> for at 
+tage sig tid til at forstå fordelene 
+ved licenser for fri kultur og for at støtte os i at udgive bogen under 
 betingelser, der respekterer FSFEs værdier.
 
 ## 2BB ##
@@ -261,7 +278,7 @@ til rare godnathistorier om aftenen, når han skulle sove og deres mor
 stadig var på arbejde.
 
 Efter et par dage var opstandelsen på Adas skole glemt igen. Skateboardsene  
-kunne stadig ikke køre på fortovet, men bortset fra det virkede de stadig. Så nu  
+kunne stadig ikke køre på fortovet, men bortset fra det virkede de endnu. Så nu  
 kørte børnene rundt i cirkler på legepladsen  
 og lyttede til stille musik. Det eneste, der  
 blev afspillet ved en uændret styrke, var  
@@ -691,24 +708,25 @@ dele og forbedre programmer. Derfor støtter Fri Software grundlæggende
 rettigheder som ytringsfrihed, pressefrihed og retten til privatliv.
 
 På bogens hjemmeside kan du finde mere inspiration og flere ressourcer:  
-https://ada.fsfe.org.
+https://ada.fsfe.org
 
 ** 55 **
 
 Licens
 
-Bogen Ada & Zangemann: En fortælling om Software, Skateboards og 
-Hindbæris af Matthias Kirschner og Sandra Brandstätter, udgivet af No 
-Starch Press, er udgivet under CC-licensen: “Creative Commons 
+Bogen Ada & Zangemann: En fortælling om Software, Skateboards og
+Hindbæris af Matthias Kirschner og Sandra Brandstätter, udgivet af No
+Starch Press, er udgivet under CC-licensen: “Creative Commons
 Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).”
 
 https://creativecommons.org/licenses/by-sa/4.0/deed.da
+
 
 ## 56 ##
 
 Find på lækre, sjove eller skøre is og tegn dem på isvaflerne på næste 
 side.
-Der findes mere du kan farvelægge og information om bogen på 
+Der findes mere du kan farvelægge og information om bogen på  
 https://ada.fsfe.org.
 
 ** 57 **
@@ -719,7 +737,7 @@ https://ada.fsfe.org.
 
 ## 60 ##
 
-[D]en lille pige Ada bor på en skrotplads og elsker at bygge ting. Hun 
+[D]en lille pige Ada bor ved en skrotplads og elsker at bygge ting. Hun 
 begynder at eksperimentere med hardware og software og bygger blandt 
 andet et selvkørende skateboard med lyd i.
 
@@ -728,5 +746,6 @@ sin villa for at bestemme over alle de dimser, han har solgt til folk
 i landet, tager Ada og hendes venner kampen op for at sikre 
 softwarefrihed for alle.
 
-Ada & Zangemann er en inspirerende børnebog for de 6-106 årige om at 
-bruge, undersøge, dele og forbedre teknologien omring os.
+Ada & Zangemann er en inspirerende børnebog for de  
+6-106 årige om at bruge, undersøge, dele og forbedre teknologien 
+omring os.

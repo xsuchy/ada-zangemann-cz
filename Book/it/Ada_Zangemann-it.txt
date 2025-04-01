@@ -1,1 +1,1 @@
-../../Ada_Zangemann-it.txt
+../../texts/Ada_Zangemann-it.txt

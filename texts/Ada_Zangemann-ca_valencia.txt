@@ -2,7 +2,14 @@
 #
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
+## 0 ##
+
+
+** 1 **
+
 ADA & ZANGEMANN
+
+## 2 ##
 
 Copyright © 2022-2023 Matthias Kirschner i Sandra Brandstätter.
 Aquesta obra es troba sota la llicència «Creative Commons 
@@ -62,7 +69,8 @@ econòmicament mitjançant compres o
 [donatius](https://fsfe.org/donate)**. La societat hauria de recolzar 
 les persones que respecten els drets de les altres.
 
-####
+** 3 **
+=== Slide 1
 
 Matthias Kirschner
   Sandra Brandstätter
@@ -80,15 +88,15 @@ Himbeereis» escrit per Matthias Kirschner, i iŀlustrat per Sandra
 Brandstätter, sota la llicència «Creative Commons 
 Reconeixement-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)».
 
-####
-
+## 4 ##
+==== Slide 2
 Hi havia una volta una xiqueta que es deia Ada. La seua família era tan 
 pobra que tots els seus estalvis cabien en una caixa de galletes. No 
 tenien prou diners per a viure en una casa en condicions. En comptes d’això,
 Ada vivia amb sa mare i el seu germà menut, Alan, en una cabanya prop d'un
 abocador de ferralla vora la ciutat.
 
-**
+** 5 **
 
 Molt lluny, a l’altra banda de la ciutat, vivia un inventor famós 
 anomenat Zangemann. Era immensament ric. No hi havia full de paper al 
@@ -100,8 +108,8 @@ moltes escales i torres, centenars de finestres i tantes habitacions
 que sovint ell mateix s’hi perdia. La mansió de Zangemann es trobava al 
 cim d’un puig des d'on podia veure la ciutat sencera.
 
-####
-
+## 6 ##
+==== Slide 3
 Els ordinadors havien fascinat Zangemann des de menut. Quan era jove, 
 els ordinadors eren màquines enormes amb molts cables i ventiladors 
 escandalosos. A l’escola, el petit Zangemann solia somniar amb totes les 
@@ -124,10 +132,10 @@ la seua butxaca. Els més menuts inclús cabien en la punta del seu dit.
 
 NOTA: Repeteix menuts molt. Podem canviar per petit, minúscul, ...
 
-**
+** 7 **
 
-####
-
+## 8 ##
+==== Slide 4
 «Per fi puc convertir totes les meues idees en realitat!» exclamà 
 Zangemann, i es posà a treballar tot seguit. Va trobar formes de ficar 
 els ordinadors xicotets en objectes de tota mena per a fer‐les encara més
@@ -143,13 +151,13 @@ superdeliciosa per la Màquina de Gelats Original de Zangemann. Tot allò
 semblava màgia, però el secret era simple: els ordinadors xicotets que
 Zangemann ficava en les seues màquines ho feien possible.
 
-**
+** 9 **
 
 Aquests invents eren molt populars a l’escola d’Ada, i molts dels seus 
 amics muntaven els monopatins genials per tot arreu. Ada es posava
 trista sovint, perquè sa mare no podia comprar‐li cap d’aquelles coses 
 fantàstiques: ni monopatí, ni altaveu, ni gelat.
-
+==== Slide 5
 Per sort, Ada vivia al costat de l’abocador de ferralla. Hi havia molts 
 aparells trencats i peces rovellades que podia ajuntar per a crear noves 
 coses genials, com una carreta que ella i Alan conduïen corrent muntanya 
@@ -162,8 +170,8 @@ trobar‐hi accés en altres llocs.
 Ada es divertia tant fent experiments a l’abocador i reparant coses 
 trencades, que va oblidar completament els monopatins i el gelat.
 
-####
-
+## 10 ##
+==== Slide 6
 Com que tothom comprava els seus invents, ben aviat Zangemann esdevingué 
 la persona més rica de tot el món. Amb tot els seus diners, va comprar 
 un enorme ordinador d’or amb un teclat fet de joies i el va instaŀlar a
@@ -180,7 +188,7 @@ funcionaven les seues màquines. A voltes la gent es sentia decebuda
 perquè el seu gelat favorit no estava disponible, però què podien fer? 
 Al cap i a la fi, hi havia gelat a cada cantonada.
 
-**
+** 11 **
 
 Zangeman es divertia molt polsant les tecles brillants i veient com la 
 gent menjava gelat. Passava moltes hores cada dia fent açò davant del 
@@ -189,8 +197,8 @@ ciutat amb un llarg telescopi, vigilant si els
 seus invents complien fidelment les  
 seues ordres.
 
-####
-
+## 12 ##
+==== Slide 7
 Quan no estava davant del seu ordinador d’or, Zangemann es dedicava a 
 ficar els seus ordinadors xicotets en nous aparells, i a vendre’ls. Va
 crear rentadores que t’enviaven un missatge al mòbil quan havien acabat 
@@ -205,25 +213,25 @@ necessaris, però la gent comprava tot el que ell feia. Era així i ja
 està. Tothom volia els aparells fets per Zangemann, l'inventor més gran
 del món.
 
-**
+** 13 **
 
 Un dia Zangemann pensà: «Hui aniré a veure els meus invents de prop». 
 Deixà el seu gran telescopi, baixà totes les escales de la seua 
 mansió, i s’endinsà en la ciutat, iŀlusionat de poder 
 gaudir dels seus grans invents.
 
-####
+## 14 ##
 
 «Potser si faig una volteta tindré noves idees. Per a ser honest, els 
 meus invents més recents no són tan útils com els primers…», jutjà 
 Zangeman. «Però les meues màquines de gelat són i sempre seran les 
 primeres», pensà de seguida, no sense orgull, en passar al costat d’un 
 grup de gent que menjava gelat de coco, el sabor del dia.
-
+==== Slide 8
 Anava tot distret en els seus pensaments quan de colp —PAM!—, alguna 
 cosa topetà contra la seua canella.
 
-**
+** 15 **
 
 Zangemann cridà i en buscà la causa al seu voltant. Un xiquet espantat 
 estava a peu dret al seu davant, amb un monopatí original Zangemann sota 
@@ -238,8 +246,8 @@ xiquet li agradava la música, però a Zangemann li causava un mal de cap
 terrible, i es posà de pitjor humor. No havia imaginat que el seu 
 passeig aniria així!
 
-####
-
+## 16 ##
+==== Slide 9
 Zangemann estava molt furiós amb els dos xiquets. Com s’atrevien a fer 
 servir els seus invents d’aquella manera? A la nit no podia dormir, així 
 que va seure davant del seu ordinador d’or. Des d’allà va donar 
@@ -248,16 +256,16 @@ circular mai més per les voreres. Va ordenar als ordinadors xicotets
 dels altaveus que només tocaren música baixet, amb l'única excepció de la seua
 música favorita, que va posar tot seguit perquè li pujara l’ànim.
 
-**
+** 17 **
 
-####
-
+## 18 ##
+==== Slide 10
 Al dia següent hi havia molt de rebombori a l’escola d’Ada. De camí a 
 l’escola, els monopatins de xiquets i xiquetes havien deixat de 
 funcionar. Les rodes s’havien quedat quietes de sobte, i d'altres ja no
 podien apujar el volum dels seus altaveus. Què estava passant?
 
-**
+** 19 **
 
 Tot i que no tenia cap d’aquelles coses, Ada es preguntava per què els 
 monopatins i els altaveus havien deixat de funcionar de colp. Però no 
@@ -282,8 +290,8 @@ volum alt, cosa que
 trobaven realment 
 estranya.
 
-####
-
+## 20 ##
+==== Slide 11
 A Ada li encantaven els dimecres. Cada dimecres, sa mare i Alan solien 
 recollir‐la a l’escola, i després anaven tots junts a la biblioteca. Ada 
 sempre se sentia atreta per la secció de tecnologia. Allà hi havia
@@ -313,10 +321,10 @@ programació. Fent servir el programari, Ada podia fer els seus invents
 encara més útils. Tenia moltes ganes d’aprendre el llenguatge de 
 programació!
 
-**
+** 21 **
 
-####
-
+## 22 ##
+==== Slide 12
 Durant les setmanes següents, Ada passà les vesprades a la biblioteca. 
 Va trobar llibres i llocs web que explicaven com funcionaven els 
 llenguatges de programació i el codi. Per a Ada era un poc com aprendre 
@@ -340,16 +348,16 @@ ella volguera. No va ser tan fàcil, però al cap d’unes poques setmanes,
 Ada va escriure un programa realment útil: un que apagaria l’altaveu 
 d’Alan automàticament mitja hora després d’adormir‐se.
 
-**
+** 23 **
 
 Ada també tingué una idea sobre el programa que escriuria a continuació. 
 Seria més important, un projecte de veres. Potser necessitaria totes les 
 vacances d’estiu… i a penes podia esperar més!
 
-####
+## 24 ##
 
-**
-
+** 25 **
+==== Slide 13
 Zangemann havia dormit fatal cada nit des del seu terrible passeig
 per la ciutat. Quan es gitava cada nit, l’inundaven les preocupacions. 
 «Oh no, els meus meravellosos invents. La gent no pot només jugar amb 
@@ -371,8 +379,8 @@ segur que no volia que la seua roba tan cara acabara amb taques de gelat
 quan isquera a fer una volta. Tot el dia es passava assegut a
 l’ordinador, teclejant i teclejant i teclejant…
 
-####
-
+## 26 ##
+==== Slide 14
 Ja havien passat la meitat de les vacances d’estiu. Ada estava plantada 
 davant del seu gran projecte, rascant‐se el cap. Havia construït un 
 monopatí amb peces velles i li havia connectat un motor per a fer girar 
@@ -399,10 +407,10 @@ dia de les vacances d’estiu. Ada pujà al monopatí i polsà el botó de
 ràpid. Funcionava! Va intentar frenar. També funcionava! Ada va fer un 
 crit d’alegria i va fer un tomb fins al parc.
 
-**
+** 27 **
 
-####
-
+## 28 ##
+==== Slide 15
 Quan Ada va arribar a l’escola muntada en el seu monopatí després de les 
 vacances d’estiu, la resta de xiquets i xiquetes estaven bocabadats. 
 Durant l’esbarjo, els companys d’Ada l’envoltaren, plens de curiositat.
@@ -410,7 +418,7 @@ Durant l’esbarjo, els companys d’Ada l’envoltaren, plens de curiositat.
 «Com t’ho fas per a conduir el teu monopatí per la vorera?», li 
 preguntaven.
 
-**
+** 29 **
 
 Ada pensà un poc i va dir: «No crec que siga cosa dels vostres 
 monopatins, sinó del programari que porten. Potser està escrit al 
@@ -426,21 +434,21 @@ que sonava com un rot llarguíssim. Ada sabia que errors xicotets com
 aquell podien ocórrer tothora en els programes. Però el monopatí de 
 Toni, amb els seus rots, divertia prou al remat.
 
-####
-
+## 30 ##
+==== Slide 16
 Cada volta més xiquets i xiquetes visitaven Ada a l’abocador després de 
 classe, i ella els ajudava a reescriure els programes dels seus 
 monopatins. Alguns companys estaven molt engrescats amb aquest
 descobriment: era increïble el que podies fer amb el programari! Volien 
 aprendre tot el que Ada sabia sobre llenguatges de programació, i ben 
 aviat, van poder tornar a conduir els seus monopatins per on volien.
-
+==== Slide 17
 Però això no era tot. Amb el programari, podien donar noves funcions 
 genials als seus monopatins. Marie va instaŀlar al seu patí llums LED
 que canviaven de color amb la velocitat. Konrad va afegir al seu uns 
 propulsors vells per a córrer més.
 
-**
+** 31 **
 
 Ada, Toni, Marie i Konrad passaven moltes vesprades a l’abocador. Fins i 
 tot van muntar un autèntic taller on es trobaven per millorar els seus
@@ -454,14 +462,14 @@ Toni, mentre s’ocupava d’afegir un velocímetre al seu casc.
 Junts també van canviar el programari dels altaveus. En acabant, van 
 apujar el volum de la música al màxim i van ballar junts com a bojos.
 
-####
+## 32 ##
 
-**
+** 33 **
 
-####
+## 34 ##
 
-**
-
+** 35 **
+==== Slide 18
 Cada dia, Ada i els seus amics i amigues feien plans per a la vesprada. 
 Partint d’una màquina de gelats trencada, van muntar una altra que podia 
 fer gelat de totes les formes i colors imaginables. Menjaren gelat 
@@ -485,8 +493,8 @@ Sra. Gernet s’asseia, la màquina tocava un so xicotet de pet. La
 professora els renyia, però Ada estava segura que en el fons a ella 
 també li feia un poc de gràcia cada volta.
 
-####
-
+## 36 ##
+==== Slide 19
 Un dia, Zangemann va notar que alguns ordinadors ja no obeïen les ordres 
 que els havia programat. Escandalitzat i traient fum per les orelles, va 
 telefonar al President. La veu li tremolava mentre li cridava «Algú està 
@@ -503,10 +511,10 @@ demanat:
 Qualsevol que reprograme un aparell de Zangemann rebrà una multa de 
 500.000 peces d’or!»
 
-**
+** 37 **
 
-####
-
+## 38 ##
+==== Slide 20
 Quan Ada i els seus amics i amigues van sentir allò es van enfadar
 molt. «No és just», deien. «Hem reconstruït i reprogramat els nostres 
 monopatins amb les nostres mans. Ara són molt millors. No deixarem que 
@@ -516,8 +524,8 @@ Es van reunir davant d’una de les màquines de gelat que havien refet i
 van discutir la situació. Estava clar que calia fer alguna cosa amb la 
 nova llei, així que van dissenyar un pla…
 
-**
-
+** 39 **
+==== Slide 21
 Al dia següent no van anar a l’escola. Enlloc, van conduir els seus
 monopatins fins al Parlament on, amb grans pancartes de protesta sota el
 braç, es van asseure davant de l’edifici. El vespre anterior havien
@@ -537,7 +545,7 @@ companys i companyes a qui Ada havia reprogramat el monopatí. El pare de
 Toni, juntament amb altres adults i varis pares i mares, veniren a recolzar la protesta.
 Trobaven molt útils els aparells dels seus fills i filles.
 
-####
+## 40 ##
 
 Més i més xiquets i adults s’afegien a la protesta segons passaven els 
 dies. La conductora que havien ajudat arribà amb el seu bus. Tocava el 
@@ -547,16 +555,16 @@ portaven unes corbates perfectament planxades. Fins i tot vingué la Sra.
 Gernet. La multitud cresqué i, al cap de poques setmanes, no només hi
 havia protestes a la ciutat d’Ada, sinó en moltes altres del país.
 
-## PANCARTA GRAN: «Sr. President, feu els vostres deures i nosaltres 
+	## PANCARTA GRAN: «Sr. President, feu els vostres deures i nosaltres 
 podrem fer els nostres!»
 
-**
+** 41 **
 
-## PANCARTA DE LA PROFESSORA: «Són joves + necessiten el codi!»
+	## PANCARTA DE LA PROFESSORA: «Són joves + necessiten el codi!»
 
-## PANCARTA MITJANA: «Torneu‐nos els nostres ordinadors!»
+	## PANCARTA MITJANA: «Torneu‐nos els nostres ordinadors!»
 
-####
+## 42 ##
 
 Ada protestava davant de l’edifici del Parlament cada setmana, amb sol o 
 amb pluja. Un d’aquells dies de pluja, quan el President passà per 
@@ -572,7 +580,7 @@ sincer, ell també volia decidir per ell mateix què podia fer el Govern
 amb els seus ordinadors i què no. Però com que no sabia res d’ordinadors 
 ni de codi, sempre ho havia deixat en mans de Zangemann. El President va 
 entrar en l’edifici donant‐li voltes a l’assumpte.
-
+==== Slide 22
 Al dia següent, el President va convidar Ada i els seus amics i amigues. 
 «Nosaltres també volem tenir el control sobre el nostre programari. Si 
 volem aconseguir‐ho, cal que el Govern siga independent de Zangemann. 
@@ -580,7 +588,7 @@ Podríeu dir‐nos el que sabeu sobre els programes d’ordinador?» els va
 preguntar. Entusiasmats, van explicar‐li com funcionava el programari i
 què es podia fer amb ell. El President estava bocabadat.
 
-**
+** 43 **
 
 Amb aquest nou coneixement, el Govern podria dissenyar el seu propi 
 programari com volguera —sense necessitar Zangemann per a res. El
@@ -592,7 +600,7 @@ Aquella nit, xiquets i xiquetes van tornar a casa orgullosos i satisfets.
 Per fi havien aconseguit alguna cosa! La seua llarga protesta havia 
 valgut la pena.
 
-####
+## 44 ##
 
 Al matí següent, el telèfon del President sonà molt d’hora. Era 
 Zangemann, més enfadat que mai. «Sense mi, els ordinadors del Govern 
@@ -612,13 +620,13 @@ només vol utilitzar programari que
 puga usar, estudiar, compartir
 i millorar lliurement. 
 Gràcies per telefonar».
-
+==== Slide 23
 Aleshores, després de moltes setmanes 
 de protestes i discussions, el gran moment 
 arribà per fi: es va abolir l’antiga llei de 
 Zangemann! Al seu lloc, el Govern va anunciar:
 
-**
+** 45 **
 
 «Tothom pot programar els seus ordinadors, sempre que s’ajuste a la 
 resta de les lleis.»
@@ -626,23 +634,23 @@ resta de les lleis.»
 A més a més, es va introduir una nova assignatura a l’escola: 
 informàtica i programació.
 
-####
-
+## 46 ##
+==== Slide 24
 Aquella nit tothom va celebrar una gran festa: Ada, Alan, Toni, Marie, 
 Konrad i la resta de famílies de l’escola, el President, la Sra. Gernet, 
 la conductora del bus, el guarda… no faltava ningú. Van engalanar els 
 carrers, van posar la música ben forta i van menjar tant de gelat com
 volgueren, i de tots els sabors i formes imaginables.
 
-**
+** 47 **
 
 Mentre la resta continuava amb la festa fins a altes hores de la nit, 
 Ada i els seus amics i amigues van escapolir‐se cap al seu taller. Ja 
 tenien un fum d’idees per a nous invents. Volien començar en aquell
 mateix moment.
 
-####
-
+## 48 ##
+==== Slide 25
 I Zangemann? No s’ha tornat a saber massa d’ell. Potser continua assegut 
 malhumorat davant del seu ordinador d’or. Potser ja no s’atreveix a 
 eixir al carrer, i ha tapiat totes les finestres de la seua mansió per a 
@@ -651,12 +659,13 @@ també observa el món de tant en tant amb el seu telescopi i veu el que
 xiquets i xiquetes inventen cada dia. I potser recorda quant es divertia 
 ell mateix fent proves i experiments. I potser - qui sap? - menja gelat
 piramidal de mora roja amb trossets d’arc de Sant Martí.
+===== Slide 26
+** 49 **
 
-**
-
-####
+## 50 ##
 
 Agraïments de l’autor
+
 
 Moltes gràcies a Reinhard Wiesemann de Linuxhotel pel recolzament 
 financer i la motivació per a deixar de pensar i començar a fer. Gràcies 
@@ -683,12 +692,13 @@ meu treball per la llibertat del programari. Voldria sobretot donar les
 gràcies als meus fills, que m’han inspirat amb idees noves a cada 
 relectura. Sense ells no existiria aquest llibre.
 
-**
+** 51 **
 
-####
+## 52 ##
 
 Sobre l’autor
 Matthias Kirschner
+
 
 Matthias es trobà fascinat pels ordinadors i el programari ja de menut. 
 Va disposar aviat d’una connexió a internet, amb la qual va aprendre 
@@ -697,10 +707,11 @@ del seu futur i, per açò, Matthias està compromés amb l’objectiu que
 tothom puga utilitzar el programari amb total autonomia. També vol 
 construir un monopatí amb programari lliure.
 
-**
+** 53 **
 
 Sobre la iŀlustradora
 Sandra Brandstätter
+
 
 Sandra sempre ha gaudit creant amb tisores, pinces, pegament, filferro, 
 tela i paper. En l’actualitat treballa com a iŀlustradora, autora de 
@@ -709,9 +720,10 @@ d’animació com Trudes Tier, la sèrie de la televisió pública alemanya.
 En una màquina de gelat, Sandra triaria un gelat cremós d’arc de Sant 
 Martí amb sabor a cogombre llima i molts trossets dolços per damunt.
 
-####
+## 54 ##
 
 Lloc web del llibre
+
 
 Free Software Foundation Europe e.V. és una associació sense ànim de 
 lucre que ajuda la gent a prendre el control de la tecnologia. El 
@@ -725,9 +737,10 @@ d’expressió, la llibertat de premsa i el dret a la privadesa.
 Podeu trobar més informació i recursos a la pàgina web del llibre: 
 https://ada.fsfe.org
 
-**
+** 55 **
 
 Llicència
+
 
 El llibre «Ada & Zangemann: un conte sobre programari, monopatins i 
 gelat de mora roja» de Matthias Kirschner i Sandra Brandstätter, 
@@ -736,18 +749,21 @@ Commons Reconeixement-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)».
 
 https://creativecommons.org/licenses/by-sa/4.0/deed.ca
 
-####
-
-**
+## 56 ##
 
 Inventeu sabors deliciosos, divertits o destrellatats per a gelats, i 
 dibuixeu‐los sobre els cucurutxos de la pàgina següent. Trobareu noves 
 plantilles per a pintar i més informació sobre el llibre a: 
 https://ada.fsfe.org
 
-####
+** 57 **
 
-**
+## 58 ##
+
+** 59 **
+
+## 60 ##
+
 
 L’inventor Zangemann és famós a tot el món i és, també, immensament ric! Grans
 i menuts adoren els seus fabulosos invents tecnològics. Però un dia 

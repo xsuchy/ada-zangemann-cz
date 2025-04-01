@@ -19,7 +19,7 @@ community translations.
   history. If you have problems with that, feel free to reach out to
   Matthias. Please also make sure to just exchange male names with male
   names, female names with female names to keep the gender balance
-  as intended, or use names which can be male and female. 
+  as intended, or use names which can be male and female.
 
 * As the book is often used to read it out to children, we highly
   recommend to test reading it aloud, best also to a few children, to
@@ -35,45 +35,44 @@ community translations.
   language we can ask Sandra if she has time to do that for your
   language -- if you cover the costs but the Ukrainian and the Arabic
   translations found similar free fonts):
-  * The title and subtitle "Ada & Zangemann - Ein Märchen über Software,
-    Skateboards und Himbeereis"
-  * The initials on some of the pages (we can provide them for the Latin
-    alphabet)
-  * On page 40-41 there is the demonstration, for the English version we 
-    we changed the text for "Ohne Code ist alles doof" ("Don't wreck our 
-    tech") and "Sie sind jung + brauchen den Code!" ("They are young + 
-    they need the Code!") and pencilled this again. We
-    recommend that your designer exchanges those with the slogans being
-    used in your translation -- else you can also use the English
-    version.
-  * The headlines "Danksagung des Autors" + "Über den Author Matthias
-    Kirschner" + "Über die Illustratorin Sandra Brandstätter" +
-    "Webseite zum Buch" + "Lizenz" are handwritten but based on the
-    font "Amatic SC". For the Ukrainian
-    version they found a similar font for that. 
+   * The title and subtitle "Ada & Zangemann - Ein Märchen über Software,
+     Skateboards und Himbeereis"
+   * The initials on some of the pages (we can provide them for the Latin
+     alphabet)
+   * On page 40-41 there is the demonstration, for the English version we
+     we changed the text for "Ohne Code ist alles doof" ("Don't wreck our
+     tech") and "Sie sind jung + brauchen den Code!" ("They are young +
+     they need the Code!") and pencilled this again. We
+     recommend that your designer exchanges those with the slogans being
+     used in your translation -- else you can also use the English
+     version.
+   * The headlines "Danksagung des Autors" + "Über den Author Matthias
+     Kirschner" + "Über die Illustratorin Sandra Brandstätter" + "Webseite zum
+     Buch" + "Lizenz" are handwritten but based on the font "Amatic SC". For the
+     Ukrainian version they found a similar font for that.
 
 * For the illustrations you can change the following:
-  * Page 40+41 - the left banner (two children), right button banner
-    (Ada), and top right (grandma) can be translated, the others are
-    more difficult and we recommend to keep them to also show that it is
-    not just a protest in the local language.
-  * Page 32 - "Burp" can stay, or can be changed to local language
+   * Page 40+41 - the left banner (two children), right button banner
+     (Ada), and top right (grandma) can be translated, the others are
+     more difficult and we recommend to keep them to also show that it is
+     not just a protest in the local language.
+   * Page 32 - "Burp" can stay, or can be changed to local language
 
 * We would advise to keep the following English text in the
   illustrations:
-  * Page 5 - richest man, can stay in EN (it is in an international magazine)
-  * Page 21 - programming, can stay in EN
-  * Page 43 - Ring ring, can stay    
+   * Page 5 - richest man, can stay in EN (it is in an international magazine)
+   * Page 21 - programming, can stay in EN
+   * Page 43 - Ring ring, can stay
 
 * All fonts being used should be under a free cultural font license.
-  E.g. the Open Font License so it is in line with CC-BY-SA of the book. 
+  E.g. the Open Font License so it is in line with CC-BY-SA of the book.
 
 * Right to Left (mirror illustrations)
-  * Keep all illustrations mirrored (already available in git repo),
-    but make sure that writing still works out (e.g. the "Z" Zangemann
-    logo), except the following ones:
-    * Page 5 - magazines
-    * Page 21 - programming
+   * Keep all illustrations mirrored (already available in git repo),
+     but make sure that writing still works out (e.g. the "Z" Zangemann
+     logo), except the following ones:
+      * Page 5 - magazines
+      * Page 21 - programming
 
 * "Z": In the war against Ukraine the Russian army is using a "Z" sign
   on military vehicles. The "Z" is quite different to the "Z"-logo of
@@ -86,17 +85,17 @@ community translations.
 
 * It is highly appreciated if the FSFE get two copies. We can use
   pictures with the book, or also all the different language versions of
-  the book for advertisement of the book. 
+  the book for advertisement of the book.
 
 * You can reach out to Matthias Kirschner about promotion of the books
   in those countries, suggestions who could be good to get a quote for
-  marketing, etc. 
+  marketing, etc.
 
 * In the acknowledgements of the English version you can change "No
   Starch Press" to the name of your publisher, as we would like to thank
   you for publishing this book in your language under a free cultural
   license, and encourage you to do that for other books in future as
-  well. 
+  well.
 
 # Technical details
 
@@ -118,13 +117,13 @@ Some hints on how the scripting deals with the translation file:
 * A line break in the source file does not always represent a line break in the
   Scribus book output.
 
-* When a line ends with a trailing space it considere a continuation of the same
-  line. So if you to use a line break in your source file for readibility but
-  don't want it to show up in the render, then make sure the line has a trailing
-  space.
+* When a line ends with a trailing space it is considered a continuation of the
+  same line. So if you to use a line break in your source file for readability
+  but don't want it to show up in the render, then make sure the line has a
+  trailing space.
 
 * Explicit line breaks can be inserted by having a line end with two spaces. This
-  is used to controle line wrapping to prevent text over the images on page 19
+  is used to control line wrapping to prevent text over the images on page 19
   and 44.
 
 * Some pages start with a drawn capital letter. This is signified in the source

@@ -4,11 +4,11 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-while(<>) {
-  chop;
-  if(!m/ $/) { $_.="\n"; $last="";}
-  else {
-    $last="\n";
-  }
-  print;
+while (<>) {
+    chop;
+    if ( !m/ $/ ) { $_ .= "\n"; $last = ""; }
+    else {
+        $last = "\n";
+    }
+    print;
 }
