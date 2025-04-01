@@ -80,6 +80,7 @@ build/%/Ada_Zangemann-dblatex.pdf: build/%/Ada_Zangemann-pure.dbk build/%/images
 	dblatex -o $@ $<
 
 # Epub processing
+# TODO: handle conditions
 build/%/Ada_Zangemann-dbtoepub.epub: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
 	dbtoepub -o $@ $<
 

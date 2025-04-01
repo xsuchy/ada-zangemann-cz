@@ -473,9 +473,10 @@ SPDX-License-Identifier: CC-BY-SA-4.0
         <imageobject condition="cover-print">
           <imagedata fileref="images/illustrations/ada-a01.png"/>
         </imageobject>
-        <imageobject condition="cover-web">
-          <imagedata fileref="images/illustrations/ada-a00.png"/>
-        </imageobject>
+        <!-- TODO: first make dbtoepub handle profiling (conditions) before using this conditional cover -->
+        <!-- <imageobject condition="cover-web"> -->
+        <!--   <imagedata fileref="images/illustrations/ada-a00.png"/> -->
+        <!-- </imageobject> -->
         <alt>Ada &amp; Zangemann - A Tale of Software, Skateboards, and Raspberry Ice Cream. By Matthias Kirschner and Sandra Brandstätter. On a mostly desaturated dark cyan background, in a frame composed of sometimes curled white lines that connect a mouse, a keyboard, and a pink smartphone, Ada and Zangemann are facing each other, both with their hands on their hips as a sign of challenge. Ada is smiling and Zangemann is frowning. Ada has black hair collected in two big right- and left-bound ringlets with red rubber bands, and red cheeks. She has little yellow stud earrings. She wears cyan and white horizontal striped shorts and a yellow shirt over a white undershirt that ends with embroidery that goes beyond the shirt. The shirt and undershirt come out over the shorts. Above the shirt Ada wears a blue hoodie. Ada is wearing red shoes with white tips and soles, and short white socks. She has one foot on a skateboard and the other on the ground. Zangemann has short gray hair and square glasses. He is wearing a purple turtle-neck sweater, light blue pants turned up, brown shoes, and white socks. He's wearing a big tech watch. Above Zangemann there are a pair of pliers with red handles crossing the wire frame.</alt>
       </mediaobject>
     </cover>
