@@ -1,6 +1,6 @@
-# SPDX-FileCopyrightText: 2022 Matthias Kirschner
+# SPDX-FileCopyrightText: 2021 Matthias Kirschner
 #
-# SPDX-License-Identifier: CC-BY-SA-4.0
+# SPDX-License-Identifier: CC-BY-SA-3.0-DE
 
 msgid ""
 msgstr ""
