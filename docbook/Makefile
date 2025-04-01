@@ -82,6 +82,7 @@ build/%/Ada_Zangemann-dblatex.pdf: build/%/Ada_Zangemann-pure.dbk build/%/images
 # Epub processing
 build/%/Ada_Zangemann-dbtoepub.epub: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
 	dbtoepub -o $@ $<
+	epubcheck $@
 
 # Pandoc markdown
 targets-pandoc-md = $(addprefix build/,$(addsuffix /Ada_Zangemann-pandoc.md,$(translations)))
