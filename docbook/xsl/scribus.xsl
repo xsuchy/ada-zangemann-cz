@@ -3,7 +3,7 @@
 <!--
 SPDX-FileCopyrightText: 2025 Nico Rikken <nico.rikken@fsfe.org>
 
-SPDX-License-Identifier: License to be determined. Currently proprietary.
+SPDX-License-Identifier: GPL-3.0-or-later
 -->
 
 <!-- TODO: change db prefix to d to align with xslt stylesheet convention -->

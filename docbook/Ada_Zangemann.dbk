@@ -7,14 +7,14 @@
 
     <!-- SPDX-SnippetBegin -->
     <!-- SPDX-SnippetCopyrightText: Copyright (c) 2010-2018 Shaun McCance <shaunm@gnome.org> -->
-    <!-- SPDX-License-Identifier: gpl-3.0-or-later -->
+    <!-- SPDX-License-Identifier: GPL-3.0-or-later -->
     <!-- SPDX-SnippetComment: from https://github.com/itstool/itstool/blob/master/its/its.its -->
     <its:translateRule translate="no" selector="//its:param | //its:locNote"/>
     <!-- SPDX-SnippetEnd -->
 
     <!-- SPDX-SnippetBegin -->
     <!-- SPDX-SnippetCopyrightText: Copyright (c) 2010-2018 Shaun McCance <shaunm@gnome.org> -->
-    <!-- SPDX-License-Identifier: gpl-3.0-or-later -->
+    <!-- SPDX-License-Identifier: GPL-3.0-or-later -->
     <!-- SPDX-SnippetComment: from https://github.com/itstool/itstool/blob/master/its/docbook5.its -->
     <itst:match xmlns:db="http://docbook.org/ns/docbook" selector="/db:*"/>
 
