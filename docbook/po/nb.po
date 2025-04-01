@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-03-31 21:03+0200\n"
-"PO-Revision-Date: 2025-03-31 19:55+0200\n"
+"POT-Creation-Date: 2025-03-31 22:02+0200\n"
+"PO-Revision-Date: 2025-03-31 23:18+0200\n"
 "Last-Translator: Petter Reinholdtsen <pere@hungry.com>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/rms-personal-data-safe/ada-zangemann/nb_NO/>\n"
 "Language: nb\n"
@@ -40,13 +40,13 @@ msgstr "En historie om programvare, rullebrett og bringebæris"
 #. ISBN of print edition
 #: Ada_Zangemann.dbk:260
 msgid "978-1-7185-0318-2"
-msgstr ""
+msgstr "978-82-93828-XX-X"
 
 #. (itstool) path: info/biblioid
 #. ISBN of ebook edition
 #: Ada_Zangemann.dbk:261
 msgid "978-1-7185-0319-9"
-msgstr ""
+msgstr "978-82-93828-XX-X"
 
 #. (itstool) path: info/author
 #: Ada_Zangemann.dbk:263
@@ -106,7 +106,6 @@ msgstr "Dette verket har bruksvilkår som beskrevet i Creative Commons Attributi
 
 #. (itstool) path: legalnotice/para
 #: Ada_Zangemann.dbk:345
-#, fuzzy
 msgid "To view a copy of this license, visit <link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</link> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA."
 msgstr "For å se bruksvilkårsteksten, besøk <link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</link> eller send et brev til Creative Commons, PO Box 1866, Mountain View, CA 94042, USA."
 
@@ -338,7 +337,7 @@ msgstr "En strømpadde med tilkoblinger og tilførsler av hvite elektriske ledni
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:493
 msgid "Half-title page"
-msgstr ""
+msgstr "Halvtittelside"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -359,7 +358,7 @@ msgstr "ADA OG ZANGEMANN"
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:506
 msgid "Imprint"
-msgstr ""
+msgstr "Utgivelsesinformasjon"
 
 #. (itstool) path: colophon/simplesect
 #. (itstool) id: Ada_Zangemann.dbk#sec-p02
@@ -421,7 +420,45 @@ msgid ""
 "Publication under this free cultural license was possible due to the great support by dpunkt.verlag GmbH / O'Reilly Media, Inc. for the German book and No Starch Press for the English book. Unfortunately, Creative Commons licenses are still rare exceptions for commercially published books, and often considered revolutionary and risky by publishers.\n"
 "\n"
 "<emphasis role=\"bold\">A big thank you</emphasis> to <emphasis role=\"bold\">dpunkt.verlag</emphasis> and <emphasis role=\"bold\">No Starch Press</emphasis> for understanding the values of software freedom, taking the time to discuss and understand the advantages of free cultural licenses, and the great support to publish this book under conditions that respect the FSFE's values.</literallayout>\n"
+""
 msgstr ""
+"\n"
+"      \n"
+"      <literallayout class=\"normal\">© 2023 Matthias Kirschner og Sandra Brandstätter. © 2024-2025 Petter Reinholdtsen, Hagen Echzell og Henrik G. Sundt.\n"
+"Dette verket har bruksvilkår som beskrevet i Creative Commons Attribution-ShareAlike 4.0 International License. "
+"For å se bruksvilkårsteksten, besøk <link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</link> eller send et brev til Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.\n"
+"\n"
+"<emphasis role=\"bold\">Ada og Zangemann: En historie om programvare, rullebrett og bringebæris</emphasis> er en oversettelse fra den tyske originalen, Ada und Zangemann: Ein Märchen über Software, Skateboards und Himbeereis, © 2022 Matthias Kirschner og Sandra Brandstätter.\n"
+"\n"
+"ISBN-13: 978-82-93828-XX-X (print)\n"
+"ISBN-13: 978-82-93828-XX-X (ebook)\n"
+"\n"
+"Utgiver og redaktør: Petter Reinholdtsen\n"
+"Forfatter: Matthias Kirschner\n"
+"Illustratør: Sandra Brandstätter\n"
+"\n"
+"For informasjon om distribusjon, bulksalg eller salg til bedrifter, ta kontakt med utgiver via <link xlink:href=\"https://codeberg.org/pere/text-ada-zangemann\">https://codeberg.org/pere/text-ada-zangemann</link> eller besøk <link xlink:href=\"https://www.lulu.com/shop\">https://www.lulu.com/shop</link>\n"
+"\n"
+"Alle produkter og selskapsnavn nevnt her kan være varemerker tilhørende av sine respektive eiere. I stedet for å bruke varemerkesymbolet på hver forekomst av et varemerket navn, så bruker vi navnene kun på en redaksjonell måte og til fordel for varemerkeeieren, uten noe ønske om a misbruke varemerket.\n"
+"\n"
+"Innholdet i denne boken distribueres «som den er», uten noen garanti. Selv om alle mulige forhåndsregler er tatt i utarbeidelsen av dette verket skal hverken forfatteren eller utgiveren ha noe plikt til å kompensere noen person eller aktør for noe tap eller skade forårsaket eller påstått å være forårsaket direkte eller indirekte av innholdet i dette verket.\n"
+"\n"
+"Alle figurer i denne utgivelsen er fiktive, og enhver likhet med virkelige personer, levende såvel som døde, er helt tilfeldig.\n"
+"\n"
+"**\n"
+"\n"
+"Denne boken av Matthias Kirschner (forfatter) og Sandra Brandstätter (illustratør) er gjort tilgjengelig med bruksvilkårene til <emphasis role=\"bold\">Creative Commons CC BY-SA</emphasis>, en fri kulturlisens.\n"
+"\n"
+"<emphasis role=\"bold\">Du kan</emphasis> dele, kopiere og videredistribuere materialet i ethvert medium og format. <b>Du kan</b> tilpasse, blande, omforme og bygge videre pa materialet til alle formål, også kommersielle. <b>Du må</b> angi passende kreditering, oppgi en lenke til bruksvilkårene og opplyse om det er foretatt endringer.\n"
+"\n"
+"<emphasis role=\"bold\">Du kan</emphasis> gjøre det på enhver fornuftig måte, men ikke på en slik måte at det antar at rettighetshaver godkjenner deg eller din anvendelse. Hvis du blander, omarbeider eller bygger videre på materialet <emphasis role=\"bold\">så må du</emphasis> distribuere ditt bidrag med samme bruksvilkår som originalen. (Denne er en menneskelesbar oppsummering av - og ikke en erstatning for - den juridiske teksten til CC BY-SA 4.0.)\n"
+"\n"
+"For tilpassede utgaver (avledede verk) ber lisensutdeleren deg å ikke endre i forfatterens personlige takk eller forfatteren og illustratørens biografier, og at du i stedet fjerner disse delene helt fra din tilpassede utgave.\n"
+"\n"
+"Det var mulig å gi ut boken under denne fri kultur-lisensen takket være den nydelige støtten fra dpunkt.verlag / O'Reilly for den tyske utgaven og [sponsor?] for den norske bokmålsutgaven. Creative Commons-lisenser er dessverre fortsatt et sjeldent unntak for kommersielle bokutgivelser og mange utgivere anser dem som revolusjonære og risikable.\n"
+"\n"
+"<emphasis role=\"bold\">En stor takk</emphasis> til <emphasis role=\"bold\">dpunkt.verlag</emphasis> og <emphasis role=\"bold\">No Starch Press</emphasis> for å forstå verdiene av programvarefrihet og for å ta seg tid til å diskutere og forstå fordelene med fri kultur-lisenser, og for den enorme støtten ved å gi ut denne boken under vilkår som respekterer FSFEs verdier.</literallayout>\n"
+""
 
 #. (itstool) path: colophon/simplesect
 #. (itstool) id: Ada_Zangemann.dbk#sec-p02bb
@@ -440,6 +477,14 @@ msgid ""
 "Society should support those who respect others' freedom.</literallayout>\n"
 "    "
 msgstr ""
+"\n"
+"<para><emphasis role=\"bold\">Fri som i frihet, ikke gratis</emphasis></para>\n"
+"\n"
+"<para>Fri programvare handler om frihetene du mottar sammen med programvaren, ikke om prisen. Tilsvarende, når vi gir ut en bok med en fri lisens betyr det ikke at du har rett til å få et gratis eksemplar av boken eller e-boken. Det betyr at du får de rettighetene som er oppgitt over slik at de - som all kultur bør - være til nytte for flest mulig.</para>\n"
+"\n"
+"<literallayout>Vi oppfordrer deg til å støtte forfattere, utgivere og andre involvert i å skape kultur med frie lisenser – inkludert å <emphasis role=\"bold\">finansielt støtte dem gjennom kjøp eller donasjoner</emphasis>. (<link xlink:href=\"https://fsfe.org/donate\">https://fsfe.org/donate</link>)\n"
+"Samfunnet bør støtte de som respekterer andres frihet.</literallayout>\n"
+"    "
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:576
@@ -1146,7 +1191,7 @@ msgstr "Paradis tegnet med kritt på asfalten. I en rekke, i ruter, står tallen
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:908
 msgid "Hacking for freedom"
-msgstr ""
+msgstr "Fri til å fikle"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1676,9 +1721,8 @@ msgstr "En sti av godteri og bringebæris på bakken."
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-acknowledgments
 #: Ada_Zangemann.dbk:1148
-#, fuzzy
 msgid "Acknowledgments"
-msgstr "Hilsner fra forfatteren"
+msgstr "Hilsener"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1890,402 +1934,3 @@ msgstr "images/illustrations/ada-p57.png"
 #: Ada_Zangemann.dbk:1264
 msgid "Three hands that hold as many empty ice cream cones, to draw and color. In the air above the middle cone is an umbrella."
 msgstr "Tre hender som holder mange tomme iskremkjekser, for tegning og fargelegging. I luften over midtkjeksen er det en paraply."
-
-#~ msgid "# SPDX-FileCopyrightText: 2022 Matthias Kirschner # # SPDX-License-Identifier: CC-BY-SA-4.0"
-#~ msgstr ""
-#~ "# SPDX-FileCopyrightText: 2022 Matthias Kirschner\n"
-#~ "# SPDX-FileCopyrightText: 2024 Petter Reinholdtsen\n"
-#~ "# SPDX-FileCopyrightText: 2024 Hagen Echzell\n"
-#~ "# SPDX-FileCopyrightText: 2024 Henrik G. Sund\n"
-#~ "# SPDX-License-Identifier: CC-BY-SA-4.0"
-
-#~ msgid "## 0 ##"
-#~ msgstr "## 0 ##"
-
-#~ msgid "[[IDX: toc:Table of Contents text:Text cover:Cover other.titlepage:Front Cover chapter-01,cover:Front Cover chapter-02,page_02:Imprint chapter-03,page_04:Ada & Zangemann chapter-04,page_06:Zangemann and computers chapter-05,page_13:One day...  chapter-06,page_18:Skateboards no longer work chapter-07,page_20:Ada and software chapter-08,page_22:Programming chapter-09,page_25:A horrible night chapter-10,page_26:First real project chapter-11,page_30:Hacking for freedom chapter-12,page_36:Zangemann and the President chapter-13,page_39:Protest chapter-14,page_42:Children help the government chapter-15,page_44:New law chapter-16,page_48:And Zangemann? chapter-17,page_50:Acknowledgments chapter-18,page_52:About the Author - Matthias Kirschner chapter-19,page_53:About the Illustrator - Sandra Brandstätter chapter-20,page_54:Website for the book and license chapter-21,page_55:Drawing templates chapter-22,back_cover:Back cover and synopsis ]]"
-#~ msgstr "[[IDX: toc:Table of Contents text:Text cover:Cover other.titlepage:Front Cover chapter-01,cover:Front Cover chapter-02,page_02:Imprint chapter-03,page_04:Ada & Zangemann chapter-04,page_06:Zangemann and computers chapter-05,page_13:One day...  chapter-06,page_18:Skateboards no longer work chapter-07,page_20:Ada and software chapter-08,page_22:Programming chapter-09,page_25:A horrible night chapter-10,page_26:First real project chapter-11,page_30:Hacking for freedom chapter-12,page_36:Zangemann and the President chapter-13,page_39:Protest chapter-14,page_42:Children help the government chapter-15,page_44:New law chapter-16,page_48:And Zangemann? chapter-17,page_50:Acknowledgments chapter-18,page_52:About the Author - Matthias Kirschner chapter-19,page_53:About the Illustrator - Sandra Brandstätter chapter-20,page_54:Website for the book and license chapter-21,page_55:Drawing templates chapter-22,back_cover:Back cover and synopsis ]]"
-
-#, no-wrap
-#~ msgid "** 1 **\n"
-#~ msgstr "** 1 **\n"
-
-#~ msgid "[[I:ada-p01 ADA & ZANGEMANN ]]"
-#~ msgstr "[[I:ada-p01 ADA og ZANGEMANN ]]"
-
-#, no-wrap
-#~ msgid ""
-#~ "Matthias Kirschner\n"
-#~ "  Sandra Brandstätter\n"
-#~ msgstr ""
-#~ "Matthias Kirschner\n"
-#~ "  Sandra Brandstätter\n"
-
-#~ msgid "## 2 ##"
-#~ msgstr "## 2 ##"
-
-#~ msgid "<b>Ada & Zangemann: A Tale of Software, Skateboards, and Raspberry Ice Cream</b> is a translation of the German original, Ada und Zangemann: Ein Märchen über Software, Skateboards und Himbeereis, published by Dpunkt.verlag in cooperation with O’Reilly Media, Inc., under the imprint “O’REILLY,” © 2022 by Matthias Kirschner and Sandra Brandstätter."
-#~ msgstr "<b>Ada og Zangemann: En historie om programvare, rullebrett og bringebæris</b> er en oversettelse fra den tyske originalen, Ada und Zangemann: Ein Märchen über Software, Skateboards und Himbeereis, © 2022 Matthias Kirschner og Sandra Brandstätter."
-
-#~ msgid "First printing"
-#~ msgstr "# dropped"
-
-#~ msgid "26 25 24 23 22 1 2 3 4 5"
-#~ msgstr "# dropped"
-
-#~ msgid "ISBN-13: 978-1-7185-0318-2 (print)  ISBN-13: 978-1-7185-0319-9 (ebook)"
-#~ msgstr ""
-#~ "ISBN-13: 978-82-93828-XX-X (print)\n"
-#~ " \n"
-#~ "ISBN-13: 978-82-93828-XX-X (ebok)"
-
-#~ msgid "Publisher: William Pollock Author: Matthias Kirschner Illustrator: Sandra Brandstätter Managing Editor: Jill Franklin Production Editor: Jennifer Kepler Editor: Wiebke Helmchen Color Assistance: Olga Biryukova, Noémi Sárkány, Nathalie Scattolon, Kristina Haidinger, and Jasmin Schlögl Cover Design: Sandra Brandstätter and Susan Brown Compositor: Maureen Forys, Happenstance Type-O-Rama"
-#~ msgstr ""
-#~ "Utgiver og redaktør: Petter Reinholdtsen \n"
-#~ "Forfatter: Matthias Kirschner \n"
-#~ "Illustratør: Sandra Brandstätter"
-
-#~ msgid "For information on distribution, bulk sales, or corporate sales, please contact No Starch Press, Inc. directly at info@nostarch.com or:"
-#~ msgstr "For informasjon om distribusjon, bulksalg eller salg til bedrifter, ta kontakt med utgiver via https://codeberg.org/pere/text-ada-zangemann eller besøk https://www.lulu.com/shop ."
-
-#~ msgid "No Starch Press, Inc.  245 8th Street, San Francisco, CA 94103 phone: 1.415.863.9900 www.nostarch.com"
-#~ msgstr "# dropped"
-
-#~ msgid "A catalog record of this book is available from the Library of Congress."
-#~ msgstr "# dropped"
-
-#~ msgid "No Starch Press and the No Starch Press logo are registered trademarks of No Starch Press, Inc. Other product and company names mentioned herein may be the trademarks of their respective owners. Rather than use a trademark symbol with every occurrence of a trademarked name, we are using the names only in an editorial fashion and to the benefit of the trademark owner, with no intention of infringement of the trademark."
-#~ msgstr "Alle produkter og selskapsnavn nevnt her kan være varemerker tilhørende av sine respektive eiere. I stedet for å bruke varemerkesymbolet på hver forekomst av et varemerket navn, så bruker vi navnene kun på en redaksjonell måte og til fordel for varemerkeeieren, uten noe ønske om a misbruke varemerket."
-
-#~ msgid "The information in this book is distributed on an “As Is” basis, without warranty. While every precaution has been taken in the preparation of this work, neither the author nor No Starch Press, Inc. shall have any liability to any person or entity with respect to any loss or damage caused or alleged to be caused directly or indirectly by the information contained in it."
-#~ msgstr "Innholdet i denne boken distribueres «som den er», uten noen garanti. Selv om alle mulige forhåndsregler er tatt i utarbeidelsen av dette verket skal hverken forfatteren eller utgiveren ha noe plikt til å kompensere noen person eller aktør for noe tap eller skade forårsaket eller påstått å være forårsaket direkte eller indirekte av innholdet i dette verket."
-
-#~ msgid "All characters in this publication are fictitious, and any resemblance to real persons, living or dead, is purely coincidental."
-#~ msgstr "Alle figurer i denne utgivelsen er fiktive, og enhver likhet med virkelige personer, levende såvel som døde, er helt tilfeldig."
-
-#, no-wrap
-#~ msgid "**\n"
-#~ msgstr "# dropped\n"
-
-#~ msgid "This book by Matthias Kirschner (author) and Sandra Brandstätter (illustrator) is licensed under <b>Creative Commons CC-BY-SA</b>, a free cultural license."
-#~ msgstr "Denne boken av Matthias Kirschner (forfatter) og Sandra Brandstätter (illustratør) er gjort tilgjengelig med bruksvilkårene til <b>Creative Commons CC BY-SA</b>, en fri kulturlisens."
-
-#~ msgid "<b>You may</b> share, copy, and redistribute the material in any medium or format. <b>You may</b> adapt, remix, transform, and build upon the material for any purpose, even commercially. <b>You must</b> give appropriate credit, provide a link to the license, and indicate if changes were made.  <b>You may</b> do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. If you remix, transform, or build upon the material, <b>you must</b> distribute your contributions under the same license as the original. (This is a human-readable summary of - and not a substitute for - the “legal code” of CC-BY-SA 4.0.)"
-#~ msgstr "<b>Du kan</b> dele, kopiere og videredistribuere materialet i ethvert medium og format. <b>Du kan</b> tilpasse, blande, omforme og bygge videre pa materialet til alle formål, også kommersielle. <b>Du må</b> angi passende kreditering, oppgi en lenke til bruksvilkårene og opplyse om det er foretatt endringer. <b>Du kan</b> gjøre det på enhver fornuftig måte, men ikke på en slik måte at det antar at rettighetshaver godkjenner deg eller din anvendelse. Hvis du blander, omarbeider eller bygger videre på materialet <b>så må du</b> distribuere ditt bidrag med samme bruksvilkår som originalen. (Denne er en menneskelesbar oppsummering av - og ikke en erstatning for - den juridiske teksten til CC BY-SA 4.0.)"
-
-#~ msgid "Furthermore for remix versions (derivative works), the licensor asks you not to make any modifications of the author's personal acknowledgments and the author's and illustrator's short biographies, instead please completely remove those parts from your remix version."
-#~ msgstr "For tilpassede utgaver (avledede verk) ber lisensutdeleren deg å ikke endre i forfatterens personlige takk eller forfatteren og illustratørens biografier, og at du i stedet fjerner disse delene helt fra din tilpassede utgave."
-
-#~ msgid "Publication under this free cultural license was possible due to the great support by dpunkt.verlag GmbH / O'Reilly Media, Inc. for the German book and No Starch Press for the English book. Unfortunately, Creative Commons licenses are still rare exceptions for commercially published books, and often considered revolutionary and risky by publishers."
-#~ msgstr "Det var mulig å gi ut boken under denne fri kultur-lisensen takket være den nydelige støtten fra dpunkt.verlag / O'Reilly for den tyske utgaven og [sponsor?] for den norske bokmålsutgaven. Creative Commons-lisenser er dessverre fortsatt et sjeldent unntak for kommersielle bokutgivelser og mange utgivere anser dem som revolusjonære og risikable."
-
-#~ msgid "<b>A big thank you</b> to <b>dpunkt.verlag</b> and </small><small><b>No Starch Press</b></small><small> for understanding the values of software freedom, taking the time to discuss and understand the advantages of free cultural licenses, and the great support to publish this book under conditions that respect the FSFE's values."
-#~ msgstr "<b>En stor takk</b> til <b>dpunkt.verlag</b> og <b>No Starch Press</b> for å forstå verdiene av programvarefrihet og for å ta seg tid til å diskutere og forstå fordelene med fri kultur-lisenser, og for den enorme støtten ved å gi ut denne boken under vilkår som respekterer FSFEs verdier."
-
-#~ msgid "## 2BB ##"
-#~ msgstr "## 2BB ##"
-
-#~ msgid "<b>Free as in freedom not price</b>"
-#~ msgstr "<b>Fri som i frihet, ikke pris</b>"
-
-#~ msgid "Free Software is about the freedoms you receive with the software, not about the price. Likewise publishing a book under a free culture license does not mean you have the right to get a gratis copy of the book or ebook. It means you get the rights described above, which enable society to benefit further from this book, as it should from all cultural works."
-#~ msgstr "Fri programvare handler om frihetene du mottar sammen med programvaren, ikke om prisen. Tilsvarende, når vi gir ut en bok med en fri lisens betyr det ikke at du har rett til å få et gratis eksemplar av boken eller e-boken. Det betyr at du får de rettighetene som er oppgitt over slik at de - som all kultur bør - være til nytte for flest mulig."
-
-#~ msgid "We encourage you to support authors, publishers, and others involved in the creation of culture under free licenses – including <b>financially supporting them through purchases or donations</b>.  (https://fsfe.org/donate)  Society should support those who respect others' freedom."
-#~ msgstr "Vi oppfordrer deg til å støtte forfattere, utgivere og andre involvert i å skape kultur med frie lisenser – <b>inkludert å finansielt støtte dem gjennom kjøp eller donasjoner</b>. Samfunnet bør støtte de som respekterer andres frihet."
-
-#, no-wrap
-#~ msgid "** 3 **\n"
-#~ msgstr "** 3 **\n"
-
-#~ msgid "=== Slide 1"
-#~ msgstr "=== Slide 1"
-
-#~ msgid "## 4 ##"
-#~ msgstr "## 4 ##"
-
-#~ msgid "==== Slide 2"
-#~ msgstr "==== Slide 2"
-
-#, no-wrap
-#~ msgid "** 5 **\n"
-#~ msgstr "** 5 **\n"
-
-#~ msgid "## 6 ##"
-#~ msgstr "## 6 ##"
-
-#~ msgid "==== Slide 3"
-#~ msgstr "==== Slide 3"
-
-#, no-wrap
-#~ msgid "** 7 **\n"
-#~ msgstr "** 7 **\n"
-
-#~ msgid "## 8 ##"
-#~ msgstr "## 8 ##"
-
-#~ msgid "==== Slide 4"
-#~ msgstr "==== Slide 4"
-
-#, no-wrap
-#~ msgid "** 9 **\n"
-#~ msgstr "** 9 **\n"
-
-#~ msgid "==== Slide 5"
-#~ msgstr "==== Slide 5"
-
-#~ msgid "## 10 ##"
-#~ msgstr "## 10 ##"
-
-#~ msgid "==== Slide 6"
-#~ msgstr "==== Slide 6"
-
-#, no-wrap
-#~ msgid "** 11 **\n"
-#~ msgstr "** 11 **\n"
-
-#~ msgid "## 12 ##"
-#~ msgstr "## 12 ##"
-
-#~ msgid "==== Slide 7"
-#~ msgstr "==== Slide 7"
-
-#, no-wrap
-#~ msgid "** 13 **\n"
-#~ msgstr "** 13 **\n"
-
-#~ msgid "## 14 ##"
-#~ msgstr "## 14 ##"
-
-#~ msgid "==== Slide 8"
-#~ msgstr "==== Slide 8"
-
-#, no-wrap
-#~ msgid "** 15 **\n"
-#~ msgstr "** 15 **\n"
-
-#~ msgid "## 16 ##"
-#~ msgstr "## 16 ##"
-
-#~ msgid "==== Slide 9"
-#~ msgstr "==== Slide 9"
-
-#, no-wrap
-#~ msgid "** 17 **\n"
-#~ msgstr "** 17 **\n"
-
-#~ msgid "## 18 ##"
-#~ msgstr "## 18 ##"
-
-#~ msgid "==== Slide 10"
-#~ msgstr "==== Slide 10"
-
-#, no-wrap
-#~ msgid "** 19 **\n"
-#~ msgstr "** 19 **\n"
-
-#~ msgid "## 20 ##"
-#~ msgstr "## 20 ##"
-
-#~ msgid "==== Slide 11"
-#~ msgstr "==== Slide 11"
-
-#, no-wrap
-#~ msgid "** 21 **\n"
-#~ msgstr "** 21 **\n"
-
-#~ msgid "## 22 ##"
-#~ msgstr "## 22 ##"
-
-#~ msgid "==== Slide 12"
-#~ msgstr "==== Slide 12"
-
-#, no-wrap
-#~ msgid "** 23 **\n"
-#~ msgstr "** 23 **\n"
-
-#~ msgid "## 24 ##"
-#~ msgstr "## 24 ##"
-
-#, no-wrap
-#~ msgid "** 25 **\n"
-#~ msgstr "** 25 **\n"
-
-#~ msgid "==== Slide 13"
-#~ msgstr "==== Slide 13"
-
-#~ msgid "## 26 ##"
-#~ msgstr "## 26 ##"
-
-#~ msgid "==== Slide 14"
-#~ msgstr "==== Slide 14"
-
-#, no-wrap
-#~ msgid "** 27 **\n"
-#~ msgstr "** 27 **\n"
-
-#~ msgid "## 28 ##"
-#~ msgstr "## 28 ##"
-
-#~ msgid "==== Slide 15"
-#~ msgstr "==== Slide 15"
-
-#, no-wrap
-#~ msgid "** 29 **\n"
-#~ msgstr "** 29 **\n"
-
-#~ msgid "## 30 ##"
-#~ msgstr "## 30 ##"
-
-#~ msgid "==== Slide 16"
-#~ msgstr "==== Slide 16"
-
-#~ msgid "==== Slide 17"
-#~ msgstr "==== Slide 17"
-
-#, no-wrap
-#~ msgid "** 31 **\n"
-#~ msgstr "** 31 **\n"
-
-#~ msgid "## 32 ##"
-#~ msgstr "## 32 ##"
-
-#, no-wrap
-#~ msgid "** 33 **\n"
-#~ msgstr "** 33 **\n"
-
-#~ msgid "## 34 ##"
-#~ msgstr "## 34 ##"
-
-#, no-wrap
-#~ msgid "** 35 **\n"
-#~ msgstr "** 35 **\n"
-
-#~ msgid "==== Slide 18"
-#~ msgstr "==== Slide 18"
-
-#~ msgid "## 36 ##"
-#~ msgstr "## 36 ##"
-
-#~ msgid "==== Slide 19"
-#~ msgstr "==== Slide 19"
-
-#, no-wrap
-#~ msgid "** 37 **\n"
-#~ msgstr "** 37 **\n"
-
-#~ msgid "## 38 ##"
-#~ msgstr "## 38 ##"
-
-#~ msgid "==== Slide 20"
-#~ msgstr "==== Slide 20"
-
-#, no-wrap
-#~ msgid "** 39 **\n"
-#~ msgstr "** 39 **\n"
-
-#~ msgid "==== Slide 21"
-#~ msgstr "==== Slide 21"
-
-#~ msgid "## 40 ##"
-#~ msgstr "## 40 ##"
-
-#, no-wrap
-#~ msgid "** 41 **\n"
-#~ msgstr "** 41 **\n"
-
-#~ msgid "## 42 ##"
-#~ msgstr "## 42 ##"
-
-#~ msgid "==== Slide 22"
-#~ msgstr "==== Slide 22"
-
-#, no-wrap
-#~ msgid "** 43 **\n"
-#~ msgstr "** 43 **\n"
-
-#~ msgid "## 44 ##"
-#~ msgstr "## 44 ##"
-
-#~ msgid "==== Slide 23"
-#~ msgstr "==== Slide 23"
-
-#, no-wrap
-#~ msgid "** 45 **\n"
-#~ msgstr "** 45 **\n"
-
-#~ msgid "## 46 ##"
-#~ msgstr "## 46 ##"
-
-#~ msgid "==== Slide 24"
-#~ msgstr "==== Slide 24"
-
-#, no-wrap
-#~ msgid "** 47 **\n"
-#~ msgstr "** 47 **\n"
-
-#~ msgid "## 48 ##"
-#~ msgstr "## 48 ##"
-
-#~ msgid "==== Slide 25"
-#~ msgstr "==== Slide 25"
-
-#~ msgid "===== Slide 26"
-#~ msgstr "===== Slide 26"
-
-#, no-wrap
-#~ msgid "** 49 **\n"
-#~ msgstr "** 49 **\n"
-
-#~ msgid "## 50 ##"
-#~ msgstr "## 50 ##"
-
-#~ msgid "For the English edition, I would like to thank John for his valuable feedback to improve the language, as well as Catharina, Pam, Till, and Vint for assisting me in figuring out how to get the book published."
-#~ msgstr "For den engelske utgaven vil jeg takke John for hans verdifulle tilbakemelding for å forbedre språket, og også Catharina, Pam, Till og Vint for hjelpen med å finne ut hvordan få boken gitt ut."
-
-#, no-wrap
-#~ msgid "** 51 **\n"
-#~ msgstr "** 51 **\n"
-
-#~ msgid "## 52 ##"
-#~ msgstr "## 52 ##"
-
-#, no-wrap
-#~ msgid "** 53 **\n"
-#~ msgstr "** 53 **\n"
-
-#~ msgid "## 54 ##"
-#~ msgstr "## 54 ##"
-
-#~ msgid "Website for the book"
-#~ msgstr "Nettside for boken"
-
-#, no-wrap
-#~ msgid "** 55 **\n"
-#~ msgstr "** 55 **\n"
-
-#~ msgid "https://creativecommons.org/licenses/by-sa/4.0/"
-#~ msgstr "https://creativecommons.org/licenses/by-sa/4.0/"
-
-#~ msgid "## 56 ##"
-#~ msgstr "## 56 ##"
-
-#, no-wrap
-#~ msgid "** 57 **\n"
-#~ msgstr "** 57 **\n"
-
-#~ msgid "## 58 ##"
-#~ msgstr "## 58 ##"
-
-#, no-wrap
-#~ msgid "** 59 **\n"
-#~ msgstr "** 59 **\n"
-
-#~ msgid "## 60 ##"
-#~ msgstr "## 60 ##"
-
-#, no-wrap
-#~ msgid "** 0 **\n"
-#~ msgstr "** 0 **\n"
-
-#~ msgid "ACKNOWLEDGEMENTS"
-#~ msgstr "Hilsener"
