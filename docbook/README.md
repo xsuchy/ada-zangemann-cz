@@ -293,6 +293,22 @@ $(targets-print-headings-text): build/%/print-headings-text/Ada_Zangemann-print-
   - This seems to have to do with the default Docbook stylesheet profiling in combination with the translation. The resulting docbook stylesheet has top-level language `ada-ZANGEMANN` and explicit `xml:lang="en"` attributes for all elements not translated. Update: ada-ZANGEMANN language resulted from wrong .mo filename. Still the rest of the content does not appear, which might have to do with the top-level language in the document for which the profiling would need to be adjusted.
   - The additional paragraph in the acknowledgements could be handled using a condition, if it works correctly. Hacking a `</para><para>` into the element doesn't work as itstool fails this, calling `Warning: Could not merge en translation for msgid`.
   - For languages to work properly, the profiling should not check the first element of the docbook file, the XML descriptor, because that also includes an language tag. An alternative approach might be to make a condition based on the language. This could be added in Makefile to be automatic.
+- Support grouped elements in Scribus by not mathcing hard on the level. Groups seem to be marked with `PTYPE="2"`:
+```xml
+        <PAGEOBJECT XPOS="328.098897637795" YPOS="292.807559055118" OwnPage="0" ItemID="820592405" PTYPE="12" WIDTH="309.6" HEIGHT="251.300787401575" FRTYPE="0" CLIPEDIT="0" groupWidth="309.6" groupHeight="251.300787401575" groupClips="1" path="M0 0 L309.6 0 L309.6 251.301 L0 251.301 L0 0 Z" copath="M0 0 L309.6 0 L309.6 251.301 L0 251.301 L0 0 Z" gXpos="248.20157480315" gYpos="297.498897637795" gWidth="1412.45977991882" gHeight="789.227329192547" LAYER="0">
+            <PAGEOBJECT XPOS="328.098897637795" YPOS="295.708346456693" OwnPage="0" ItemID="820686597" PTYPE="4" WIDTH="309.6" HEIGHT="248.4" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L309.6 0 L309.6 248.4 L0 248.4 L0 0 Z" copath="M0 0 L309.6 0 L309.6 248.4 L0 248.4 L0 0 Z" gXpos="0" gYpos="2.90078740157497" gWidth="309.6" gHeight="251.300787401575" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT CH="TEXT-PAGE60"/>
+                    <trail/>
+                </StoryText>
+                <PageItemAttributes>
+                    <ItemAttribute Name="docbook-id" Type="string" Value="sec-back-cover" Parameter="" Relationship="none" RelationshipTo="" AutoAddTo="none"/>
+                </PageItemAttributes>
+            </PAGEOBJECT>
+            <PAGEOBJECT XPOS="328.498897637795" YPOS="292.807559055118" OwnPage="0" ItemID="820703045" PTYPE="2" WIDTH="33.224" HEIGHT="50.6346456692911" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" TEXTFLOWMODE="1" LOCALSCX="0.16" LOCALSCY="0.16" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="../../templates/Capitals/-yellow2.png" PRFILE="sRGB display profile (ICC v2.2)" IRENDER="0" EMBEDDED="0" path="M0 0 L33.224 0 L33.224 50.6346 L0 50.6346 L0 0 Z" copath="M0 0 L33.224 0 L33.224 50.6346 L0 50.6346 L0 0 Z" gXpos="0.399999999999977" gYpos="0" gWidth="309.6" gHeight="251.300787401575" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        </PAGEOBJECT>
+```
 
 ### Request for feedback
 

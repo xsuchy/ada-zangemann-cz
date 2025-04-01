@@ -117,6 +117,13 @@ $(targets-print-headings-text): build/%/print-headings-text/Ada_Zangemann-print-
 .PHONY: build/all/print-headings-text/Ada_Zangemann-print-headings-text.sla
 build/all/print-headings-text/Ada_Zangemann-print-headings-text.sla: $(targets-print-headings-text)
 
+# Build version with text headers
+targets-coverhard-text = $(addprefix build/,$(addsuffix /coverhard-text/Ada_Zangemann-coverhard-text.sla,$(translations)))
+$(targets-coverhard-text): build/%/coverhard-text/Ada_Zangemann-coverhard-text.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
+	mkdir -p $(@D)
+	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-text;capitals-text;cover-print" xsl/scribus.xsl templates/template-coverhard.sla > $@.log 2>&1
+
 # Build version with no conditional content (for debugging)
 build/%/print-headings-none/Ada_Zangemann-print-headings-none.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
 	mkdir -p $(@D)
@@ -128,8 +135,14 @@ build/%/print-headings-none/Ada_Zangemann-print-headings-none.sla: build/%/Ada_Z
 	../scripts/./to_pdf.sh $<
 
 # Link template files, for development
+# TODO: check, does this work correctly?
 build/%/template-print.sla:
+	mkdir -p $(@D) || exit 0
 	if [ ! -h $@ ]; then ln -s ../../templates/template-print.sla $@; fi
+
+build/%/template-coverhard.sla:
+	mkdir -p $(@D) || exit 0
+	if [ ! -h $@ ]; then ln -s ../../templates/template-coverhard.sla $@; fi
 
 # Format docbook file using xmllint
 .PHONY: xmllint-format

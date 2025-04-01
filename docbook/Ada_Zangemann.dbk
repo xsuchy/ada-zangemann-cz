@@ -462,7 +462,10 @@
       <bridgehead role="subtitle">A Tale of Software, Skateboards, and Raspberry Ice Cream</bridgehead>
       <!-- TODO: add link to correct image for the back -->
       <mediaobject xml:id="img-ada-a00">
-        <imageobject>
+        <imageobject condition="cover-print">
+          <imagedata fileref="images/illustrations/ada-a01.png"/>
+        </imageobject>
+        <imageobject condition="cover-web">
           <imagedata fileref="images/illustrations/ada-a00.png"/>
         </imageobject>
         <alt>Ada &amp; Zangemann - A Tale of Software, Skateboards, and Raspberry Ice Cream. By Matthias Kirschner and Sandra Brandstätter. On a mostly desaturated dark cyan background, in a frame composed of sometimes curled white lines that connect a mouse, a keyboard, and a pink smartphone, Ada and Zangemann are facing each other, both with their hands on their hips as a sign of challenge. Ada is smiling and Zangemann is frowning. Ada has black hair collected in two big right- and left-bound ringlets with red rubber bands, and red cheeks. She has little yellow stud earrings. She wears cyan and white horizontal striped shorts and a yellow shirt over a white undershirt that ends with embroidery that goes beyond the shirt. The shirt and undershirt come out over the shorts. Above the shirt Ada wears a blue hoodie. Ada is wearing red shoes with white tips and soles, and short white socks. She has one foot on a skateboard and the other on the ground. Zangemann has short gray hair and square glasses. He is wearing a purple turtle-neck sweater, light blue pants turned up, brown shoes, and white socks. He's wearing a big tech watch. Above Zangemann there are a pair of pliers with red handles crossing the wire frame.</alt>
@@ -476,14 +479,24 @@
         </imageobject>
         <alt>A soldering iron and a brush and can with yellow paint, connected by white electrical cord that forms a frame.</alt>
       </mediaobject>
-      <para xml:id="para-back-1" az:dropcap="true" az:dropcapcolor="#fddd66" az:dropcapbackgroundcolor="#71aaa4" az:dropcapfileref="images/capitals/T-yellow2.png" az:dropcapheightpt="50.56" az:dropcapwidthpt="42.72" az:dropcaplocalsc="0.16" az:dropcapscribuscharstyle="Capital Yellow 2"><phrase condition="capitals-text">The</phrase><phrase condition="capitals-img">he</phrase> inventor Zangemann is world-famous and immensely rich. Adults and children alike love his fabulous technical inventions. But one day there is a problem: the children's electronic skateboards no longer work properly. What’s going on? The curious girl Ada sees through what is going on. Together with her friends, she experiments with hardware and software, and the children forge a plan: Zangemann can no longer be the only one in control of the devices!</para>
-      <para>A book that arouses interest in tinkering and encourages shaping technology.</para>
+      <simplesect xml:id="sec-back-cover">
+        <para xml:id="para-back-1" az:dropcap="true" az:dropcapcolor="#fddd66" az:dropcapbackgroundcolor="#71aaa4" az:dropcapfileref="images/capitals/T-yellow2.png" az:dropcapheightpt="50.56" az:dropcapwidthpt="42.72" az:dropcaplocalsc="0.16" az:dropcapscribuscharstyle="Capital Yellow 2"><phrase condition="capitals-text">The</phrase><phrase condition="capitals-img">he</phrase> inventor Zangemann is world-famous and immensely rich. Adults and children alike love his fabulous technical inventions. But one day there is a problem: the children's electronic skateboards no longer work properly. What’s going on? The curious girl Ada sees through what is going on. Together with her friends, she experiments with hardware and software, and the children forge a plan: Zangemann can no longer be the only one in control of the devices!</para>
+        <para>A book that arouses interest in tinkering and encourages shaping technology.</para>
+      </simplesect>
       <!-- TODO: this is a duplication of the same image -->
       <mediaobject xml:id="img-back_cover-b">
         <imageobject>
           <imagedata fileref="images/illustrations/ada-z04.png"/>
         </imageobject>
         <alt>A power strip, with input and output of white electrical cord that is the frame.</alt>
+      </mediaobject>
+    </cover>
+    <cover role="spine">
+      <!-- TODO: consider adding bridgehead texts and alt text-->
+      <mediaobject xml:id="img-ada-a01-spine">
+        <imageobject>
+          <imagedata fileref="images/illustrations/ada-a01-spine.png"/>
+        </imageobject>
       </mediaobject>
     </cover>
   </info>
