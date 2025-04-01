@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+SPDX-FileCopyrightText: 2022 Matthias Kirschner
+SPDX-FileCopyrightText: 2024-2025 Nico Rikken
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:its="http://www.w3.org/2005/11/its" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" xmlns:itst="http://itstool.org/extensions/" its:version="2.0" version="5.0" xml:lang="en" az:datamodelversion="0.1.0-alpha" dir="ltr">
   <!-- Rules for translation and internationalization -->
   <its:rules version="2.0">
