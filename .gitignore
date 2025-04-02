@@ -18,3 +18,12 @@ Book/*/*.png
 # Compare directories
 Book/*/compare-base/
 Book/*/compare-result/
+
+# Translation files
+*.mo
+
+# Build output
+docbook/build
+
+# Temporary files, including from msgmerge
+*~
