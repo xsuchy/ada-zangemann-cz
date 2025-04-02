@@ -20,9 +20,9 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Petter Reinholdtsen 2024-2024\n"
-"Hagen Echzell 2024\n"
-"Henrik G. Sundt 2024"
+"Petter Reinholdtsen, 2024, 2025\n"
+"Hagen Echzell, 2024\n"
+"Henrik G. Sundt, 2024"
 
 #. (itstool) path: info/title
 #. (itstool) path: cover/bridgehead
@@ -285,9 +285,8 @@ msgstr "<az:charactername>Ms. Gernet</az:charactername> <az:characternameorigin>
 #. (itstool) comment: imageobject/imagedata@fileref
 #. Link to the image. Only needs to be changed if the image is localized.
 #: Ada_Zangemann.dbk:474
-#, fuzzy
 msgid "images/illustrations/ada-a01.png"
-msgstr "images/illustrations/ada-a00.png"
+msgstr "images/illustrations/ada-a01.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -340,9 +339,8 @@ msgstr "En strømpadde med tilkoblinger og tilførsler av hvite elektriske ledni
 #. (itstool) comment: imageobject/imagedata@fileref
 #. Link to the image. Only needs to be changed if the image is localized.
 #: Ada_Zangemann.dbk:507
-#, fuzzy
 msgid "images/illustrations/ada-a01-spine.png"
-msgstr "images/illustrations/ada-a00.png"
+msgstr "images/illustrations/ada-a01-spine.png"
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:515
