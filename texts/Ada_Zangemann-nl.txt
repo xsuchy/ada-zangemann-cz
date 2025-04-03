@@ -17,7 +17,7 @@ chapter-01,cover:Voorkant
 chapter-02,page_02:Colofon
 chapter-03,page_04:Ada & Zangemann
 chapter-04,page_06:Zangemann en computers
-chapter-05,page_13:Een dag...
+chapter-05,page_13:Op een dag...
 chapter-06,page_18:Skateboards werken niet langer
 chapter-07,page_20:Ada en software
 chapter-08,page_22:Programmeren
@@ -124,8 +124,8 @@ Dit boek van Matthias Kirschner (auteur) en Sandra Brandstätter
 (illustratrice) valt onder Creative Commons CC-BY-SA, een vrije 
 culturele licentie.
 
-Je kunt het materiaal in welk medium of formaat dan ook delen, kopiëren 
-en verspreiden. Je kunt het materiaal voor welk doel dan ook, zelfs 
+Je mag het materiaal in welk medium of formaat dan ook delen, kopiëren 
+en verspreiden. Je mag het materiaal voor welk doel dan ook, zelfs 
 commercieel, aanpassen, remixen, veranderen en op voortbouwen. Je moet de 
 juiste naam vermelden, een link naar de licentie leveren en duidelijk 
 maken of er veranderingen zijn gemaakt. Je mag dit doet op een redelijke 
@@ -148,7 +148,7 @@ Commons-licenties nog steeds zeldzame uitzonderingen voor commercieel
 gepubliceerde boeken en worden ze vaak als revolutionair en riskant 
 gezien door uitgevers.
 
-Met heel veel dank aan dpunkt.verlag en No Starch Press voor het 
+Heel veel dank aan dpunkt.verlag en No Starch Press voor het 
 begrijpen van de waarden van softwarevrijheid, het nemen van de tijd om 
 de voordelen van vrije culturele licenties te begrijpen en erover te 
 discussiëren en de fantastische steun voor het publiceren van dit boek 
@@ -199,7 +199,7 @@ Links, voor de auto, staan twee banden en twee kisten waarvan één een houten k
 Op de achtergrond is Ada's huis, met haar moeder en haar broer Alan die gedag zwaait en de hond die op de grond zit.
 Alan zit op de twee traptreden van het huis. Hij heeft kort donker haar en draag een wit shirt met korte mouwen en rode strepen op de randen van de mouwen en twee rode strepen aan de onderkant van het short. Alan draagt een blauwe korte broek en loopt op blote voeten.
 Ada's moeder heeft donkere lippenstift op en lang donker haar in een witte haarband. Ze draagt een kort blauw shirt met witte bies, witte broek en gele schoenen.
-Ada's huis is van hout met een witte voorkant. Het dak is van donkerrode dakplaten. Er zijn twee ramen en een deur aan de voorkant en een ander raam aan de linker kant. Een gele eend staat op de nok van het dak. Een grijze metalen schoorsteen steekt zijwaards uit het dak. Een antenne aan de linkerkant van het dak is ook de steun voor een waslijn waaraan met rode wasknijpers een groene top, een lichtblauwe broek en een witte onderbroek hangen. Rechts naast het huis is een veranda waarop een zonnepaneel is geplaatst. Onder de veranda ligt een matras en er staan een rood olievat en een grijze koffer. Achter het huis liggen bergen afval waarin je een wasmachine, een auto en verschillende planken kan onderscheiden.
+Ada's huis is van hout met een witte voorkant. Het dak is van donkerrode dakplaten. Er zijn twee ramen en een deur aan de voorkant en een ander raam aan de linker kant. Een gele eend staat op de nok van het dak. Een grijze metalen schoorsteen steekt zijwaarts uit het dak. Een antenne aan de linkerkant van het dak is ook de steun voor een waslijn waaraan met rode wasknijpers een groene top, een lichtblauwe broek en een witte onderbroek hangen. Rechts naast het huis is een veranda waarop een zonnepaneel is geplaatst. Onder de veranda ligt een matras en er staan een rood olievat en een grijze koffer. Achter het huis liggen bergen afval waarin je een wasmachine, een auto en verschillende planken kan onderscheiden.
 ]]
 
 ** 5 **
@@ -388,7 +388,7 @@ voorgesteld!
 [[I:ada-p15
 IMAGE: Advertentie voor Zangemann ijs op een stoepbord en op een groot reclamebord reclame voor een Zangemann elektrisch skateboard en een Zangemann wasmachine.
 De wiskundelerares Mevrouw Gernet loopt voor de grote reclameborden langs.
-Mevrouw Gernet is een oude vrouw met kort wit haar. Ze is gekleed in een licht groen t-shirt en een erwtengroene trui, donkerbruine broek en lichtgroene schoenen met hak. Ze heeft een fuchsia shoudertas die ze achter zich draagt.
+Mevrouw Gernet is een oude vrouw met kort wit haar. Ze is gekleed in een licht groen t-shirt en een erwtengroene trui, donkerbruine broek en lichtgroene schoenen met hak. Ze heeft een fuchsia schoudertas die ze achter zich draagt.
 Ze duwt een klein winkelwagentje waarin een klein bruin hondje zit met een halsband en penning.
 ]]
 
@@ -893,7 +893,7 @@ kondigde de regering aan:
 zich daarbij aan de andere wetten houdt.”
 
 Bovendien werd een nieuw schoolvak ingevoerd: computerhardware en 
--software
+-software.
 [[I:ada-p45
 IMAGE: De president met Toni, Bram, Marie, Ada en een boodschapper die op de trompet speelt.
 Marie staat op een huishoudtrap en spreekt in een microfoon.
