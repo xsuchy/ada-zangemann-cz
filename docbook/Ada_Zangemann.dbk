@@ -470,8 +470,11 @@ SPDX-License-Identifier: CC-BY-SA-4.0
       <bridgehead role="subtitle">A Tale of Software, Skateboards, and Raspberry Ice Cream</bridgehead>
       <!-- TODO: add link to correct image for the back -->
       <mediaobject xml:id="img-ada-a00">
-        <imageobject condition="cover-print">
+        <imageobject condition="cover-print-img">
           <imagedata fileref="images/illustrations/ada-a01.png"/>
+        </imageobject>
+        <imageobject condition="cover-print-text">
+          <imagedata fileref="images/illustrations/ada-a01-nosubtitle.png"/>
         </imageobject>
         <!-- TODO: first make dbtoepub handle profiling (conditions) before using this conditional cover -->
         <!-- <imageobject condition="cover-web"> -->
