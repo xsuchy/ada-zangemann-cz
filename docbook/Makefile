@@ -32,7 +32,7 @@ po/%.po: po/Ada_Zangemann.pot
 	msgmerge --no-wrap --update $@ po/Ada_Zangemann.pot
 
 # Generate message strings for further processing
-# Stored alongside .po files to deal with assuptions by tools
+# Stored alongside .po files to deal with assumptions by tools
 po/%.mo: po/%.po
 	msgfmt -o $@ $<
 
@@ -51,7 +51,7 @@ build/%/images/illustrations:
 	makefile_helpers/./imagedir.sh $(shell echo ${@} | sed -n 's/.*build\/\(.*\)\/images.*/\1/p')
 
 # Link to capitals-opague
-# TODO: add separate target for transparant capitals
+# TODO: add separate target for transparent capitals
 # NOTE: marked as precious to prevent cleanup of symbolic link
 .PRECIOUS: build/%/images/capitals
 build/%/images/capitals:
@@ -68,11 +68,18 @@ $(targets-dbk): build/%/Ada_Zangemann.dbk: po/%.mo Ada_Zangemann.dbk
 build/%/Ada_Zangemann-pure.dbk: build/%/Ada_Zangemann.dbk xsl/clean-docbook.xsl
 	xsltproc -o $@ xsl/clean-docbook.xsl $<
 
+# Profile docbook for text processing
+# Relies on XSLT 1.0 stylesheets https://github.com/docbook/xslt10-stylesheets/ included in Debian docbook-xsl package
+# FIXME: returns exit code 6 'Error in one of the documents' without a clear issue or error in output.
+build/%/Ada_Zangemann-pure-profiled-text.dbk: build/%/Ada_Zangemann-pure.dbk
+	xsltproc -o $@ --verbose /usr/share/xml/docbook/stylesheet/docbook-xsl/profiling/profile.xsl --stringparam profile.condition "headings-text;capitals-text" $< > $@.log 2>&1 || exit 0
+
 # HTML output using standard docbook processing
 # TODO: use lower resolution images
 # FIXME: warning 'No localization exists for "ada_zangemann" or "ada". Using default "en".'
+# Relies on XSLT 1.0 stylesheets https://github.com/docbook/xslt10-stylesheets/ included in Debian docbook-xsl package
 targets-html = $(addprefix build/,$(addsuffix /Ada_Zangemann.html,$(translations)))
-$(targets-html): build/%/Ada_Zangemann.html: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
+$(targets-html): build/%/Ada_Zangemann.html: build/%/Ada_Zangemann-pure-profiled-text.dbk build/%/images/illustrations
 	xsltproc -o $@ /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl $<
 
 .PHONY: build/all/Ada_Zangemann.html
@@ -80,12 +87,11 @@ build/all/Ada_Zangemann.html: $(targets-html)
 
 # LaTeX based pdf processing
 # FIXME: not yet working
-build/%/Ada_Zangemann-dblatex.pdf: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
+build/%/Ada_Zangemann-dblatex.pdf: build/%/Ada_Zangemann-pure-profiled-text.dbk build/%/images/illustrations
 	dblatex -o $@ $<
 
 # Epub processing
-# TODO: handle conditions
-build/%/Ada_Zangemann-dbtoepub.epub: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
+build/%/Ada_Zangemann-dbtoepub.epub: build/%/Ada_Zangemann-pure-profiled-text.dbk
 	dbtoepub -o $@ $<
 	epubcheck $@
 
