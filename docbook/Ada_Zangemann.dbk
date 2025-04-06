@@ -747,7 +747,7 @@ Raspberry Ice Cream</literallayout>
   </chapter>
   <chapter>
     <info>
-      <title>One day...</title>
+      <title its:locNote="Intended as 'on a day', not 'a single day'. This is supposed to be equal to the beginning of the first sentence of this chapter.">One day...</title>
     </info>
     <simplesect xml:id="sec-p13" az:pagenum="13">
       <para>One day Zangemann thought, “Today I want to see my inventions up close.” He put away his big telescope, then climbed down the many stairs of his mansion and ventured out into the city, full of anticipation at the thought of enjoying his cool devices.</para>
