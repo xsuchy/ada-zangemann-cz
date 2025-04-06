@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2025-04-01 08:49+0200\n"
-"PO-Revision-Date: 2025-04-06 19:17+0800\n"
+"PO-Revision-Date: 2025-04-20 16:12+0700\n"
 "Last-Translator: Aayush Gupta <aayushgupta219@gmail.com>\n"
 "Language-Team: \n"
 "Language: hi\n"
@@ -17,7 +17,9 @@ msgstr ""
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "संगीता सेठी, 2022"
+msgstr ""
+"संगीता सेठी, 2022\n"
+"आयुश गुप्ता <contact@aayush.io>, 2025"
 
 #. (itstool) path: info/title
 #. (itstool) path: cover/bridgehead
@@ -30,7 +32,7 @@ msgstr "एडा और ज़ैंगमैन"
 #. (itstool) path: cover/bridgehead
 #: Ada_Zangemann.dbk:267 Ada_Zangemann.dbk:470
 msgid "A Tale of Software, Skateboards, and Raspberry Ice Cream"
-msgstr "सॉफ़्टवेयर, स्केटबोर्ड और रास्पबेरी आइसक्रीम की कहानी"
+msgstr "एक कहानी सॉफ़्टवेयर, स्केटबोर्ड और रास्पबेरी आइसक्रीम की"
 
 #. (itstool) path: info/biblioid
 #. ISBN of print edition
@@ -47,32 +49,32 @@ msgstr ""
 #. (itstool) path: info/author
 #: Ada_Zangemann.dbk:271
 msgid "<personname> <firstname>Matthias</firstname> <surname>Kirschner</surname> </personname>"
-msgstr ""
+msgstr "<personname> <firstname>मैथियास</firstname> <surname>किर्शचनर</surname> </personname>"
 
 #. (itstool) path: info/othercredit
 #: Ada_Zangemann.dbk:277
 msgid "<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surname> </personname>"
-msgstr ""
+msgstr "<personname> <firstname>सैंड्रा</firstname> <surname>ब्रांडस्टैटर</surname> </personname>"
 
 #. (itstool) path: info/othercredit
 #: Ada_Zangemann.dbk:284
 msgid "<personname> <firstname>William</firstname> <surname>Pollock</surname> </personname>"
-msgstr ""
+msgstr "<personname> <firstname>विलियम</firstname> <surname>पॉलॉक</surname> </personname>"
 
 #. (itstool) path: info/othercredit
 #: Ada_Zangemann.dbk:291
 msgid "<personname> <firstname>Jill</firstname> <surname>Franklin</surname> </personname>"
-msgstr ""
+msgstr "<personname> <firstname>जिल</firstname> <surname>फ़्रैंकलीन</surname> </personname>"
 
 #. (itstool) path: info/othercredit
 #: Ada_Zangemann.dbk:297
 msgid "<personname> <firstname>Jennifer</firstname> <surname>Kepler</surname> </personname>"
-msgstr ""
+msgstr "<personname> <firstname>जेनिफर</firstname> <surname>केप्लर</surname> </personname>"
 
 #. (itstool) path: info/editor
 #: Ada_Zangemann.dbk:303
 msgid "<personname> <firstname>Wiebke</firstname> <surname>Helmchen</surname> </personname>"
-msgstr ""
+msgstr "<personname> <firstname>विब्के</firstname> <surname>हेल्मचेन</surname> </personname>"
 
 #. (itstool) path: info/othercredit
 #: Ada_Zangemann.dbk:309
@@ -82,18 +84,18 @@ msgstr ""
 #. (itstool) path: info/othercredit
 #: Ada_Zangemann.dbk:331
 msgid "<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surname> </personname> <personname> <firstname>Susan</firstname> <surname>Brown</surname> </personname>"
-msgstr ""
+msgstr "<personname> <firstname>सैंड्रा</firstname> <surname>ब्रांडस्टैटर</surname> </personname>"
 
 #. (itstool) path: info/othercredit
 #: Ada_Zangemann.dbk:341
 msgid "<personname> <firstname>Maureen</firstname> <surname>Forys</surname> </personname> <orgname>Happenstance Type-O-Rama</orgname>"
-msgstr ""
+msgstr "<personname> <firstname>मौरीन</firstname> <surname>फ़ॉरिज़</surname> </personname> <orgname>हैपेंस्टैंस टाइप-ओ-रामा</orgname>"
 
 #. (itstool) path: publisher/publishername
 #. A translated version will probably have a different publisher.
 #: Ada_Zangemann.dbk:349
 msgid "No Starch Press, Inc."
-msgstr ""
+msgstr "नो स्टार्च प्रेस, इंक।"
 
 #. (itstool) path: legalnotice/para
 #: Ada_Zangemann.dbk:352
@@ -210,19 +212,19 @@ msgstr ""
 #. Name must not be changed
 #: Ada_Zangemann.dbk:437
 msgid "<az:charactername>Ada</az:charactername> <az:characternameorigin>Ada Lovelace</az:characternameorigin>"
-msgstr ""
+msgstr "<az:charactername>एडा</az:charactername> <az:characternameorigin>एडा लवलेस</az:characternameorigin>"
 
 #. (itstool) path: namedcharacters/character
 #. Name must not be changed
 #: Ada_Zangemann.dbk:441
 msgid "<az:charactername>Zangemann</az:charactername> <az:characternameorigin>Suggested by a son of Matthias</az:characternameorigin>"
-msgstr ""
+msgstr "<az:charactername>ज़ैंगमैन</az:charactername> <az:characternameorigin>मैथियास के एक बेटे द्वारा प्रस्तावित</az:characternameorigin>"
 
 #. (itstool) path: namedcharacters/character
 #. Name must not be changed
 #: Ada_Zangemann.dbk:445
 msgid "<az:charactername>Alan</az:charactername> <az:characternameorigin>Alan Turing</az:characternameorigin>"
-msgstr ""
+msgstr "<az:charactername>एलेन</az:charactername> <az:characternameorigin>एलेन ट्यूरिंग</az:characternameorigin>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -235,7 +237,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:449
 msgid "<az:charactername>Toni</az:charactername> <az:characternameorigin>Toni Baker</az:characternameorigin>"
-msgstr ""
+msgstr "<az:charactername>टोनी</az:charactername> <az:characternameorigin>टोनी बेकर</az:characternameorigin>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -248,7 +250,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:453
 msgid "<az:charactername>Konrad</az:charactername> <az:characternameorigin>Konrad Zuse</az:characternameorigin>"
-msgstr ""
+msgstr "<az:charactername>कोनराड</az:charactername> <az:characternameorigin>कोनराड ज़ूस</az:characternameorigin>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -261,7 +263,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:457
 msgid "<az:charactername>Marie</az:charactername> <az:characternameorigin>Marie Curie</az:characternameorigin>"
-msgstr ""
+msgstr "<az:charactername>मैरी</az:charactername> <az:characternameorigin>मैरी क्यूरी</az:characternameorigin>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -274,7 +276,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:461
 msgid "<az:charactername>Ms. Gernet</az:charactername> <az:characternameorigin>Marie Gernet</az:characternameorigin>"
-msgstr ""
+msgstr "<az:charactername>सुश्री गर्नेट</az:charactername> <az:characternameorigin>मैरी गर्नेट</az:characternameorigin>"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -302,7 +304,7 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:489
 msgid "A soldering iron and a brush and can with yellow paint, connected by white electrical cord that forms a frame."
-msgstr ""
+msgstr "एक सोल्डरिंग लौह, ब्रश और पीला पेंट का डब्बा, जो एक सफेद बिजली के तार से जुड़े हुए है, एक फ्रेम में परिवर्तित होते है।"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -321,7 +323,7 @@ msgstr ""
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:493
 msgid "A book that arouses interest in tinkering and encourages shaping technology."
-msgstr ""
+msgstr "एक पुस्तक जो प्रौद्योगिकी में सुधार के प्रति रुचि जगाती है और उसे आकार देने के लिए प्रोत्साहित करती है।"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -340,7 +342,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:515
 msgid "Half-title page"
-msgstr ""
+msgstr "अर्ध-शीर्षक पृष्ठ"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -356,12 +358,12 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:522 Ada_Zangemann.dbk:634
 msgid "ADA &amp; ZANGEMANN"
-msgstr ""
+msgstr "एडा और ज़ैंगमैन"
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:528
 msgid "Imprint"
-msgstr ""
+msgstr "छाप"
 
 #. (itstool) path: colophon/simplesect
 #. (itstool) id: Ada_Zangemann.dbk#sec-p02
@@ -446,14 +448,14 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:598
 msgid "Title page"
-msgstr ""
+msgstr "शीर्षक पृष्ठ"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
 #: Ada_Zangemann.dbk:605
 msgid "Matthias Kirschner, Sandra Brandstätter - ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice Cream. Title in the middle, authors in the upper left. In the lower right, Ada's family's dog with gray fur and some white patches and with a red collar with shiny yellow LEDs, which wags its tail."
-msgstr ""
+msgstr "मैथियास किर्शचनर, सैंड्रा ब्रांडस्टैटर - एडा और ज़ैंगमैन - एक कहानी सॉफ़्टवेयर, स्केटबोर्ड और रास्पबेरी आइसक्रीम की। शीर्षक मध्य में, लेखक ऊपर बाईं ओर। निचले दाएं भाग में, एडा के परिवार का कुत्ता है जिसके भूरे बाल और कुछ सफेद धब्बे हैं, तथा लाल कॉलर में चमकदार पीले एल.ई.डी. लगी है, जो अपनी दुम हिला रहा है।"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -467,7 +469,7 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:612
 msgid "Matthias Kirschner, Sandra Brandstätter"
-msgstr ""
+msgstr "मैथियास किर्शचनर, सैंड्रा ब्रांडस्टैटर"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -488,7 +490,7 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:622
 msgid "ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice Cream. Title in the middle, authors in the upper left."
-msgstr ""
+msgstr "एडा और ज़ैंगमैन - एक कहानी सॉफ़्टवेयर, स्केटबोर्ड और रास्पबेरी आइसक्रीम की। शीर्षक मध्य में, लेखक ऊपर बाईं ओर।"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -502,7 +504,7 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:629
 msgid "In the lower right, Ada's family's dog with gray fur and some white patches and with a red collar with shiny yellow LEDs, which wags its tail."
-msgstr ""
+msgstr "निचले दाएं भाग में, एडा के परिवार का कुत्ता है जिसके भूरे बाल और कुछ सफेद धब्बे हैं, तथा लाल कॉलर में चमकदार पीले एल.ई.डी. लगी है, जो अपनी दुम हिला रहा है।"
 
 #. (itstool) path: simplesect/literallayout
 #. In a literallayout element all space and newline characters are kept.
@@ -512,6 +514,8 @@ msgid ""
 "Matthias Kirschner\n"
 "Sandra Brandstätter"
 msgstr ""
+"मैथियास किर्शचनर\n"
+"सैंड्रा ब्रांडस्टैटर"
 
 #. (itstool) path: simplesect/literallayout
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-titlepage
@@ -523,6 +527,9 @@ msgid ""
 "Software, Skateboards, and\n"
 "Raspberry Ice Cream"
 msgstr ""
+"एक कहानी\n"
+"सॉफ़्टवेयर, स्केटबोर्ड और\n"
+"रास्पबेरी आइसक्रीम की"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -999,7 +1006,7 @@ msgstr ""
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:864
 msgid "Ada also had an idea for the next program she would write. It was a bigger deal, a real project. She would probably need the whole summer break for it... And she could hardly wait!"
-msgstr "एडा को एक विचार भी था अपने अगले प्रोग्राम के लिए जिसे वह लिखना चाहती थी। यह एक बहुत बड़ी बात थी और एक सचमुच का प्रोजेक्ट। शायद इसके लिए उसे पूरी गर्मी की छुट्टियों की जरूरत पड़े...अब और इंतज़ार कर पाना उसके लिए मुश्किल था!"
+msgstr "एडा को एक विचार भी था अपने अगले प्रोग्राम के लिए जिसे वह लिखना चाहती थी। यह एक बहुत बड़ी बात थी और एक सचमुच का प्रोजेक्ट। शायद इसके लिए उसे पूरी गर्मी की छुट्टियों की जरूरत पड़े...अब और इंतज़ार कर पाना उसके लिए मुश्किल था!"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1037,12 +1044,12 @@ msgstr "[]ज़ैंगमैन शहर में अपनी लम्ब
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:882
 msgid "Waking up one morning with a deeply furrowed brow, he made a decision. He needed to make a change. Zangemann sat down at his computer and wrote one program after another. In these programs, he specified exactly what his inventions were to do and were not to do under any circumstances. The chaos had to stop!"
-msgstr "एक सुबह गहरी झुंझलाहट के साथ उठा और उसने एक निर्णय लिया। उसे एक परिवर्तन लाने की आवश्यकता है। ज़ैंगमैन अपने कंप्यूटर पर बैठ गया और एक के बाद एक प्रोग्राम लिखने लगा। उसने इन प्रोग्राम्स में विशिष्ट रूप से लिखा की उसके आविष्कार किसी परिस्थिति में क्या करेंगे और क्या नहीं। सारी गड़बड़ें जो हो रही थी उन्हें रुकना ही था।"
+msgstr "एक सुबह गहरी झुंझलाहट के साथ उठा और उसने एक निर्णय लिया। उसे एक परिवर्तन लाने की आवश्यकता है। ज़ैंगमैन अपने कंप्यूटर पर बैठ गया और एक के बाद एक प्रोग्राम लिखने लगा। उसने इन प्रोग्राम्स में विशिष्ट रूप से लिखा की उसके आविष्कार किसी परिस्थिति में क्या करेंगे और क्या नहीं। सारी गड़बड़ें जो हो रही थी उन्हें रुकना ही था!"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:883
 msgid "Once he was done, he sent all the new programs from his golden computer to people’s devices. He ordered his speakers to play only his favorite music whenever he was within earshot. He programmed the ice-cream machines to stop selling ice cream in the afternoon. After all, he didn’t want his expensive clothes to get stained by ice cream while he was out for a walk. All day long he sat at the computer and typed and typed and typed..."
-msgstr "एक बार जब उसका काम पूरा हो गया, तो उसने अपने सुनहरे कंप्यूटर से सभी लोगों के उपकरणों के लिए नए प्रोग्राम भेजे। उसने अपने स्पीकरों को केवल अपना पसंदीदा संगीत बजाने का आदेश दिया और तब ही जब उसके कान तक सुन पाएं। उसने आइसक्रीम को दोपहर में बेचना बंद करने के लिए आइसक्रीम मशीन के लिए प्रोग्राम बनाया। आख़िरकार, वह अपना महँगे कपड़ों पर आइसक्रीम के दाग नहीं लगने देना चाहता था जब वो टहलने के लिए बहार गया हो। उसने दिन भर कंप्यूटर पर बैठे हुए टाइप किया और टाइप किया बस टाइप किया।"
+msgstr "एक बार जब उसका काम पूरा हो गया, तो उसने अपने सुनहरे कंप्यूटर से सभी लोगों के उपकरणों के लिए नए प्रोग्राम भेजे। उसने अपने स्पीकरों को केवल अपना पसंदीदा संगीत बजाने का आदेश दिया और तब ही जब उसके कान तक सुन पाएं। उसने आइसक्रीम को दोपहर में बेचना बंद करने के लिए आइसक्रीम मशीन के लिए प्रोग्राम बनाया। आख़िरकार, वह अपना महँगे कपड़ों पर आइसक्रीम के दाग नहीं लगने देना चाहता था जब वो टहलने के लिए बहार गया हो। उसने दिन भर कंप्यूटर पर बैठे हुए टाइप किया और टाइप किया बस टाइप किया।"
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:888
@@ -1076,7 +1083,7 @@ msgstr "जंकयार्ड पर वापस आकर, उसने अ
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:896
 msgid "Several failed attempts later, on the last day of summer break, the time had finally come. Ada stood on the skateboard and pressed the Go! button, and the skateboard started moving, slowly at first, then faster. It worked! She tried to brake. It worked! Ada let out a cry of joy and took a trip to the park."
-msgstr "कई असफल प्रयासों के बाद, समर ब्रेक के आखिरी दिन, अंत में समय आ ही गया था। एडा ने स्केटबोर्ड पर खड़ी होकर Go! बटन दबाया, और स्केटबोर्ड चलने लगा, पहले धीरे फिर तेज़। काम कर गया! उसने ब्रेक लगाने की कोशिश की। काम कर गया! एडा ख़ुशी से चिल्लाई और पार्क की सैर पर निकल गई।"
+msgstr "कई असफल प्रयासों के बाद, समर ब्रेक के आखिरी दिन, अंत में समय आ ही गया था। एडा ने स्केटबोर्ड पर खड़ी होकर Go! बटन दबाया, और स्केटबोर्ड चलने लगा, पहले धीरे फिर तेज़। काम कर गया! उसने ब्रेक लगाने की कोशिश की। काम कर गया! एडा ख़ुशी से चिल्लाई और पार्क की सैर पर निकल गई।"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1191,7 +1198,7 @@ msgstr "“आपके भाई के स्पीकर हमारे स�
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:947
 msgid "Together, they changed the software for the speakers too. Then they turned up the music as loud as possible and danced wildly together."
-msgstr "साथ मिलकर, उन्होंने स्पीकरों के लिए सॉफ़्टवेयर भी बदल दिया। फिर वे संगीत को जितना तेज़ बढ़ा सकते थे, बढ़ाया और साथ में उत्साह से नृत्य किया।"
+msgstr "साथ मिलकर, उन्होंने स्पीकरों के लिए सॉफ़्टवेयर भी बदल दिया। फिर वे संगीत को जितना तेज़ बढ़ा सकते थे, बढ़ाया और साथ में उत्साह से नृत्य किया।"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1268,7 +1275,7 @@ msgstr ""
 #. (itstool) id: Ada_Zangemann.dbk#para-p35-1
 #: Ada_Zangemann.dbk:987
 msgid "<phrase condition=\"capitals-text\">Every</phrase><phrase condition=\"capitals-img\">very</phrase> day, Ada and her friends made plans together for the afternoon. From a broken ice-cream machine, they built a new one that could make ice cream in every imaginable shape and color. They ate square ice cream, heart-shaped ice cream, and even pyramid-shaped ice cream, as well as strawberry, raspberry, and rainbow ice cream, all with sprinkles and hot fudge — much better than the varieties from the Zangemann machines."
-msgstr "[]हर दिन, एडा और उसके दोस्त दोपहर के लिए एक साथ योजना बनाते थे। एक टूटी हुई आइसक्रीम मशीन से उन्होंने एक नई मशीन बनाई जिससे हर कल्पनीय आकार और रंग में आइसक्रीम बनाई जा सकती थी। उन्होंने चौकोर आइसक्रीम खाई, दिल के आकार की आइसक्रीम, और यहां तक कि पिरामिड के आकार की आइसक्रीम के अलावा स्ट्रॉबेरी, रास्पबेरी, और इंद्रधनुष आइसक्रीम के रूप में, सभी स्प्रिंकल्स और हॉट फ़ज के साथ जो  ज़ैंगमैन की मशीनों से काफी बेहतर होती थी।"
+msgstr "[]हर दिन, एडा और उसके दोस्त दोपहर के लिए एक साथ योजना बनाते थे। एक टूटी हुई आइसक्रीम मशीन से उन्होंने एक नई मशीन बनाई जिससे हर कल्पनीय आकार और रंग में आइसक्रीम बनाई जा सकती थी। उन्होंने चौकोर आइसक्रीम खाई, दिल के आकार की आइसक्रीम, और यहां तक कि पिरामिड के आकार की आइसक्रीम के अलावा स्ट्रॉबेरी, रास्पबेरी, और इंद्रधनुष आइसक्रीम के रूप में, सभी स्प्रिंकल्स और हॉट फ़ज के साथ जो  ज़ैंगमैन की मशीनों से काफी बेहतर होती थी।"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:988
@@ -1278,7 +1285,7 @@ msgstr "कभी-कभी वे वयस्कों की मदद भी
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:989
 msgid "Some things they built just for fun, like the fart machine they put in their math teacher’s chair. Whenever Ms. Gernet sat down, the machine played a little fart sound. The teacher would scold them, but Ada was sure that she secretly smirked a little every time."
-msgstr "कुछ चीजें वे सिर्फ मज़े के लिए बनाते थे, जैसे की पाद मशीन जो उन्होंने अपने गणित टीचर की कुर्सी में लगाई थी। जब भी मिस गर्नेट बैठती थी, मशीन पादने की आवाज़ पैदा करती थी। टीचर उन्हें डांटतीं, लेकिन एडा को यकीन था कि वह चोरी-छिपे हर बार थोड़ा मुस्कराती थी।"
+msgstr "कुछ चीजें वे सिर्फ मज़े के लिए बनाते थे, जैसे की पाद मशीन जो उन्होंने अपने गणित टीचर की कुर्सी में लगाई थी। जब भी मिस गर्नेट बैठती थी, मशीन पादने की आवाज़ पैदा करती थी। टीचर उन्हें डांटतीं, लेकिन एडा को यकीन था कि वह चोरी-छिपे हर बार थोड़ा मुस्कराती थी।"
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:994
@@ -1408,7 +1415,7 @@ msgstr ""
 #. Text on big banner, left on the illustration
 #: Ada_Zangemann.dbk:1047
 msgid "Do your homework Mr. President and we will do ours!"
-msgstr "आप अपना होमवर्क करें श्रीमान राष्ट्रपति और हम अपना काम करेंगे!"
+msgstr "आप अपना होमवर्क करें श्रीमान राष्ट्रपति और हम अपना करेंगे!"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1454,7 +1461,7 @@ msgstr "हमारी तकनीक को नष्ट न करें!"
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:1072
 msgid "Children help the government"
-msgstr ""
+msgstr "बच्चे सरकार की सहायता करते है"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1521,7 +1528,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:1099
 msgid "New law"
-msgstr ""
+msgstr "नया क़ानून"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1607,7 +1614,7 @@ msgstr ""
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1134
 msgid "While the others continued partying late into the night, Ada and her friends slipped away to their workshop. They already had a lot of ideas for new inventions. And they wanted to start right away."
-msgstr "जबकि अन्य लोग देर रात तक पार्टी करते रहे, एडा और उसके दोस्त अपनी कार्यशाला में चले गए। उनके पास पहले से ही नए अविष्कारों के लिए बहुत सारे विचार थे। और वे तुरंत शुरू करना चाहते थे।"
+msgstr "जबकि अन्य लोग देर रात तक पार्टी करते रहे, एडा और उसके दोस्त अपनी कार्यशाला में चले गए। उनके पास पहले से ही नए अविष्कारों के लिए बहुत सारे विचार थे। और वे तुरंत उन पर काम शुरू करना चाहते थे।"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1621,12 +1628,12 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:1139
 msgid "The President, the secretary, and other people around a table enjoying crazy ice cream; yellow and orange flags continue from the previous image; a little girl who just took a pink ghost-shaped ice cream from the modified ice cream machine; Ada's dog, Konrad, Marie, Ada, and Toni sneaking away from the party."
-msgstr ""
+msgstr "राष्ट्रपति, सचिव और अन्य लोग टेबल के चारों ओर आइसक्रीम का आनंद ले रहे हैं; पीले और नारंगी झंडे पिछले चित्र से जारी हैं; एक छोटी लड़की जिसने अभी-अभी संशोधित आइसक्रीम मशीन से गुलाबी भूत के आकार की आइसक्रीम ली है; एडा का कुत्ता, कोनराड, मैरी, एडा और टोनी पार्टी से चुपके से निकल रहे हैं।"
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:1145
 msgid "And Zangemann?"
-msgstr ""
+msgstr "और ज़ैंगमैन?"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1640,7 +1647,7 @@ msgstr ""
 #. (itstool) id: Ada_Zangemann.dbk#para-p48-1
 #: Ada_Zangemann.dbk:1149
 msgid "<phrase condition=\"capitals-text\">And</phrase><phrase condition=\"capitals-img\">nd</phrase> Zangemann? No one’s heard much from him. Maybe he’s still sitting angrily in front of his golden computer. Maybe he doesn’t dare go out into the street anymore and has boarded up all the windows of his mansion so that he doesn’t have to worry about what other people are doing with his inventions. But maybe he also sometimes looks out into the world through his telescope and sees what the children are inventing every day. Perhaps then he will remember how much fun it was for himself to tinker and experiment. And maybe, just maybe, he eats pyramid-shaped raspberry ice cream with rainbow sprinkles."
-msgstr "[]और जैंगेमैन? उससे किसी ने ज्यादा कुछ नहीं सुना। शायद वह अभी भी अपने सोने के कंप्यूटर के सामने गुस्से में बैठा है। शायद वह अब बाहर जाने की हिम्मत नहीं करता और अपने हवेली के सभी खिड़कियों को बंद कर देता है ताकि उसको फिक्र न हो कि दूसरे लोग उसके आविष्कारों का क्या कर रहे हैं। लेकिन शायद वह कभी-कभी अपने दूरबीन से दुनिया को देखता है और देखता है कि बच्चे हर दिन क्या-क्या आविष्कार कर रहे हैं। शायद फिर उसे याद आएगा कि उसे जुगाड़ और प्रयोग करने में कितना मजा आता था। और शायद, बस शायद, वह पिरामिड के आकार की रास्पबेरी आइसक्रीम रेनबो स्प्रिंकल्स के साथ खाता है।"
+msgstr "[]और ज़ैंगमैन? उससे किसी ने ज्यादा कुछ नहीं सुना। शायद वह अभी भी अपने सोने के कंप्यूटर के सामने गुस्से में बैठा है। शायद वह अब बाहर जाने की हिम्मत नहीं करता और अपने हवेली के सभी खिड़कियों को बंद कर देता है ताकि उसको फिक्र न हो कि दूसरे लोग उसके आविष्कारों का क्या कर रहे हैं। लेकिन शायद वह कभी-कभी अपने दूरबीन से दुनिया को देखता है और देखता है कि बच्चे हर दिन क्या-क्या आविष्कार कर रहे हैं। शायद फिर उसे याद आएगा कि उसे जुगाड़ और प्रयोग करने में कितना मजा आता था। और शायद, बस शायद, वह पिरामिड के आकार की रास्पबेरी आइसक्रीम रेनबो स्प्रिंकल्स के साथ खाता है।"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1654,7 +1661,7 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:1154
 msgid "Ada's little dog sniffing a trail of ice cream."
-msgstr ""
+msgstr "एडा का छोटा कुत्ता आइसक्रीम के निशान को सूँघते हुए।"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1668,13 +1675,13 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:1163
 msgid "A trail of candies and raspberry ice cream on the ground."
-msgstr ""
+msgstr "ज़मीन पर कैंडीज़ और रास्पबेरी आइसक्रीम के निशान।"
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-acknowledgments
 #: Ada_Zangemann.dbk:1170
 msgid "Acknowledgments"
-msgstr "धन्यवाद"
+msgstr "आभार"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1700,7 +1707,7 @@ msgstr "बिया और बेनी, ब्रायन, क्रिस्
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1182
 msgid "Thanks to my family, who made me write early in the morning, late in the evening, and on holiday, and who always supports my work for software freedom. Especially, I would like to thank my children, who inspired me with new ideas at each reading. Without them, this book would not exist."
-msgstr "मेरे परिवार को धन्यवाद, जिन्होंने मुझे जल्द सुबह, देर रात में और छुट्टी में लिखने को कहा, और जिन्होंने सदैव सॉफ़्टवेयर स्वतंत्रता के लिए मेरे काम का समर्थन किया। विशेष रूप से, मैं अपने बच्चों को धन्यवाद देना चाहूंगा, जिन्होंने हर बार किताब पढ़कर मुझे नए विचारों से प्रेरित किया। उनके बिना, यह पुस्तक नहीं हो सकती थी।"
+msgstr "मेरे परिवार को धन्यवाद, जिन्होंने मुझे जल्द सुबह, देर रात में और छुट्टी में लिखने को कहा, और जिन्होंने सदैव सॉफ़्टवेयर स्वतंत्रता के लिए मेरे काम का समर्थन किया। विशेष रूप से, मैं अपने बच्चों को धन्यवाद देना चाहूंगा, जिन्होंने हर बार किताब पढ़कर मुझे नए विचारों से प्रेरित किया। उनके बिना, यह पुस्तक नहीं हो सकती थी।"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1714,13 +1721,13 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:1189
 msgid "Ada's dog wags its tail after finding Zangemann hidden behind a curtain and eating an ice cream cone with candies and a blue umbrella on it and lots of raspberry ice cream dripping."
-msgstr ""
+msgstr "एडा का कुत्ता अपनी दुम हिलाता है जब वह देखता है कि जैंगेमैन एक पर्दे के पीछे छिपा हुआ है और एक आइसक्रीम कोन खा रहा है जिस पर कैंडीज और एक नीला छाता लगा हुआ है और उस पर से ढेर सारी रास्पबेरी आइसक्रीम टपक रही है।"
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-author
 #: Ada_Zangemann.dbk:1196
 msgid "About the Author"
-msgstr "लेखक"
+msgstr "लेखक के बारे में"
 
 #. (itstool) path: info/subtitle
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-author
@@ -1731,7 +1738,7 @@ msgstr "मैथियास किर्शचनर"
 #. (itstool) path: info/titleabbrev
 #: Ada_Zangemann.dbk:1198
 msgid "About the Author - Matthias Kirschner"
-msgstr ""
+msgstr "लेखक के बारे में - मैथियास किर्शचनर"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1752,18 +1759,18 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:1211
 msgid "Close-up of Matthias smiling, waving with one hand, and wearing a headset. Matthias has short hair and a little beard."
-msgstr ""
+msgstr "मैथियास का क्लोज-अप, जिसमें वह मुस्कुरा रहे हैं, एक हाथ से हाथ हिला रहे हैं और हैडसैट पहने हुए हैं। मैथियास के बाल छोटे हैं और थोड़ी दाढ़ी है।"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1213
 msgid "Matthias was fascinated by computers and software as a child. He had an internet connection early, through which he learned a lot. Children have a right to take their future into their own hands. Therefore, Matthias is committed to the goal that all humans can use software in a self-determined way. He also wants to build an electric skateboard with Free Software."
-msgstr "मैथियास बचपन से ही कंप्यूटर और सॉफ़्टवेयर से प्रभावित हुए थे। उन्हें जल्दी ही इंटरनेट कनेक्शन मिल गया था, जिसके माध्यम से उन्होंने बहुत कुछ सीखा। बच्चों को अपने भविष्य को अपने हाथों में लेने का अधिकार है। इसलिए, मैथियास का लक्ष्य है कि सभी मानव सॉफ़्टवेयर का स्वयं निर्धारित तरीके से उपयोग कर सकें। वह एक फ्री सॉफ़्टवेयर से चलने वाला इलेक्ट्रिक स्केटबोर्ड भी बनाना चाहता है।"
+msgstr "मैथियास बचपन से ही कंप्यूटर और सॉफ़्टवेयर से प्रभावित हुए थे। उन्हें जल्दी ही इंटरनेट कनेक्शन मिल गया था, जिसके माध्यम से उन्होंने बहुत कुछ सीखा। बच्चों को अपने भविष्य को अपने हाथों में लेने का अधिकार है। इसलिए, मैथियास का लक्ष्य है कि सभी मानव सॉफ़्टवेयर का स्वयं निर्धारित तरीके से उपयोग कर सकें। वह एक फ्री सॉफ़्टवेयर से चलने वाला इलेक्ट्रिक स्केटबोर्ड भी बनाना चाहते है।"
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-illustrator
 #: Ada_Zangemann.dbk:1219
 msgid "About the Illustrator"
-msgstr "इलस्ट्रेटर"
+msgstr "चित्रकार के बारे में"
 
 #. (itstool) path: info/subtitle
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-illustrator
@@ -1774,7 +1781,7 @@ msgstr "सैंड्रा ब्रांडस्टैटर"
 #. (itstool) path: info/titleabbrev
 #: Ada_Zangemann.dbk:1221
 msgid "About the Illustrator - Sandra Brandstätter"
-msgstr ""
+msgstr "चित्रकार के बारे में - सैंड्रा ब्रांडस्टैटर"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1795,18 +1802,18 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:1234
 msgid "Sandra smiling with a pencil in her hand in front of her chin. She has earphones with an integrated microphone. Sandra has short hair and glasses."
-msgstr ""
+msgstr "सैंड्रा अपने सामने हाथ में पेंसिल लिए मुस्कुरा रही हैं। उनके कान में एकीकृत माइक्रोफोन के साथ इयरफ़ोन हैं। सैंड्रा के बाल छोटे हैं और उन्होंने चश्मा पहना हुआ है।"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1236
 msgid "Sandra has always liked crafting with scissors, pliers, glue, wire, fabric, and paper. Today she works as an illustrator, comic author, and character designer for animated films and series, such as the German public television series Trudes Tier. On an ice-cream machine, Sandra would pick a creamy rainbow ice cream with lemon cucumber flavor and a lot of sprinkles."
-msgstr "सैंड्रा ने हमेशा कटोरा, प्लाइयर्स, ग्लू, तार, फ़ैब्रिक और कागज़ के साथ क्राफ्ट्स बनाने का शौक रखा है। आजकल वह एनीमेटेड फ़िल्मों और सीरीज़ के लिए इलस्ट्रेटर, कॉमिक लेखक और कैरेक्टर डिज़ाइनर के रूप में काम करती है, जैसे जर्मन पब्लिक टेलीविज़न सीरीज़ Trudes Tier।एक आइसक्रीम मशीन पर, सैंड्रा एक मलाईदार रेनबो आइसक्रीम जिसमें नींबू खीरा का स्वाद हो और ढेर सारे स्प्रिंकल्स हो, चुनेंगे।"
+msgstr "सैंड्रा को हमेशा से ही कैंची, प्लाइयर्स, गोंद, तार, कपड़े और कागज़ के साथ कारीगिरी करने का शौक रहा है। आजकल वह चित्रित फ़िल्मों और धारावाहिको के लिए चित्रकार, चित्रकथा लेखक और किरदार चित्रकार के रूप में काम करती है, जैसे जर्मन पब्लिक टेलीविज़न सीरीज़ “Trudes Tier”। एक आइसक्रीम मशीन पर, सैंड्रा एक मलाईदार रेनबो आइसक्रीम जिसमें नींबू खीरा का स्वाद हो और ढेर सारे स्प्रिंकल्स हो, चुनेंगे।"
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-bookswebsite
 #: Ada_Zangemann.dbk:1241
 msgid "Book's website"
-msgstr "पुस्तक के लिए वेबसाइट"
+msgstr "पुस्तक की वेबसाइट"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1829,7 +1836,7 @@ msgstr "पुस्तक के वेब पेज पर, आपको अ�
 #. (itstool) id: Ada_Zangemann.dbk#title-license
 #: Ada_Zangemann.dbk:1258
 msgid "License"
-msgstr ""
+msgstr "लाइसेंस"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1841,12 +1848,12 @@ msgstr ""
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1266
 msgid "The book Ada &amp; Zangemann: A Tale of Software, Skateboards, and Raspberry Ice Cream by Matthias Kirschner and Sandra Brandstätter, published by No Starch Press, is licensed under “Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).”"
-msgstr ""
+msgstr "मैथियास किर्शचनर और सैंड्रा ब्रांडस्टैटर द्वारा लिखित पुस्तक एडा और ज़ैंगमैन: एक कहानी सॉफ़्टवेयर, स्केटबोर्ड और रास्पबेरी आइसक्रीम की, जिसे नो स्टार्च प्रेस द्वारा प्रकाशित किया गया है, को “Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)” के अंतर्गत लाइसेंस प्राप्त है।"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1267
 msgid "<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</link>"
-msgstr ""
+msgstr "<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</link>"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1860,7 +1867,7 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:1276
 msgid "A hand that holds a fish-shaped ice cream cone with a cucumber on a decorated toothpick, to color. In a bottom corner, a pencil writing."
-msgstr ""
+msgstr "एक हाथ में मछली के आकार का आइसक्रीम कोन है, जिस पर रंगने के लिए एक सजाए गए टूथपिक पर खीरा रखा हुआ है। नीचे के कोने में एक पेंसिल से लिखा हुआ है।"
 
 #. (itstool) path: simplesect/literallayout
 #. In a literallayout element all space and newline characters are kept.
@@ -1870,6 +1877,8 @@ msgid ""
 "Come up with some delicious, funny, or crazy ice-cream flavors and draw them on the ice-cream cones on the following page.\n"
 "More information about the book can be found at <link xlink:href=\"https://ada.fsfe.org\">https://ada.fsfe.org</link>."
 msgstr ""
+"कुछ स्वादिष्ट, मज़ेदार या अनोखे आइसक्रीम स्वाद सोचें और उन्हें अगले पृष्ठ पर आइसक्रीम कोन पर बनाएं।\n"
+"पुस्तक के बारे में अधिक जानकारी <link xlink:href=\"https://ada.fsfe.org\">https://ada.fsfe.org</link> पर पाई जा सकती है।"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1883,4 +1892,4 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:1286
 msgid "Three hands that hold as many empty ice cream cones, to draw and color. In the air above the middle cone is an umbrella."
-msgstr ""
+msgstr "तीन हाथ जो अनेक खाली आइसक्रीम कोन पकड़े हुए हैं, उन्हें चित्र बनाने और रंगने के लिए। बीच वाले कोन के ऊपर हवा में एक छाता है।"
