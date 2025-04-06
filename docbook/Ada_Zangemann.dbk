@@ -459,7 +459,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
         <az:characternameorigin>Marie Curie</az:characternameorigin>
       </az:character>
       <az:character role="gernet" its:locNote="Character names are mostly reference to existing people in computer history or science, but if you want to change them in order to make it easier for children to relate to the characters we should find names which are still common but connected to important figures in the computer history. If you have problems with that, feel free to reach out to Matthias. Please also make sure to just exchange male names with male names, female names with female names to keep the gender balance as intended, or use names which can be male and female.">
-        <az:charactername>Mrs. Gernet</az:charactername>
+        <az:charactername>Ms. Gernet</az:charactername>
         <az:characternameorigin>Marie Gernet</az:characternameorigin>
       </az:character>
     </az:namedcharacters>
@@ -779,7 +779,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p15.png"/>
         </imageobject>
-        <alt>Advertisements for Zangemann ice cream (sandwich board), a Zangemann electric skateboard, and a Zangemann washing machine. The math teacher, Mrs. Gernet, is passing in front of the billboards. Mrs. Gernet is an old lady with short white hair. She is dressed in a light green t-shirt and a pea green sweater, dark brown pants, and light green heeled shoes. She has a fuchsia shoulder bag, worn behind her. She pushes a small shopping cart in which there is a small brown dog with a collar and tag.</alt>
+        <alt>Advertisements for Zangemann ice cream (sandwich board), a Zangemann electric skateboard, and a Zangemann washing machine. The math teacher, Ms. Gernet, is passing in front of the billboards. Ms. Gernet is an old lady with short white hair. She is dressed in a light green t-shirt and a pea green sweater, dark brown pants, and light green heeled shoes. She has a fuchsia shoulder bag, worn behind her. She pushes a small shopping cart in which there is a small brown dog with a collar and tag.</alt>
       </mediaobject>
     </simplesect>
     <simplesect xml:id="sec-p16" az:pagenum="16">
@@ -989,7 +989,7 @@ Raspberry Ice Cream</literallayout>
       <anchor az:slidenum="18"/>
       <para xml:id="para-p35-1" az:dropcap="true" az:dropcapfileref="images/capitals/E-pink.png" az:dropcapcharacter="E" az:dropcapcolor="#f5b6cd" az:dropcapbackgroundcolor="#ffffff" az:dropcapheightpt="50.72" az:dropcapwidthpt="33.28" az:dropcaplocalsc="0.16" az:dropcapscribuscharstyle="Capital Pink"><phrase condition="capitals-text">Every</phrase><phrase condition="capitals-img">very</phrase> day, Ada and her friends made plans together for the afternoon. From a broken ice-cream machine, they built a new one that could make ice cream in every imaginable shape and color. They ate square ice cream, heart-shaped ice cream, and even pyramid-shaped ice cream, as well as strawberry, raspberry, and rainbow ice cream, all with sprinkles and hot fudge — much better than the varieties from the Zangemann machines.</para>
       <para>Sometimes they could even help adults. Toni reprogrammed his father’s ironing machine so that it could also iron ties again — Zangemann had forbidden the machines to do so because he hated ties like the plague. For the bus driver, they built an automatic watering system out of old hoses and a computer so that her plants would not die of thirst during summer days. And they helped the school custodian modify his vacuum so that it automatically recognized toys and wouldn’t suck them up.</para>
-      <para>Some things they built just for fun, like the fart machine they put in their math teacher’s chair. Whenever Mrs. Gernet sat down, the machine played a little fart sound. The teacher would scold them, but Ada was sure that she secretly smirked a little every time.</para>
+      <para>Some things they built just for fun, like the fart machine they put in their math teacher’s chair. Whenever Ms. Gernet sat down, the machine played a little fart sound. The teacher would scold them, but Ada was sure that she secretly smirked a little every time.</para>
     </simplesect>
   </chapter>
   <chapter>
@@ -1040,12 +1040,12 @@ Raspberry Ice Cream</literallayout>
       </mediaobject>
     </simplesect>
     <simplesect xml:id="sec-p40" az:pagenum="40">
-      <para>With each passing day, more and more children and adults joined the protest. The bus driver they had helped drove up in her bus. She honked loudly to attract even more people to the protest. The custodian brought a few friends, and Toni’s father brought his colleagues from work, all wearing perfectly ironed ties. Even Mrs. Gernet came. The crowd grew, and after a few weeks, there were protests not just in Ada’s city but also in many cities throughout the country.</para>
+      <para>With each passing day, more and more children and adults joined the protest. The bus driver they had helped drove up in her bus. She honked loudly to attract even more people to the protest. The custodian brought a few friends, and Toni’s father brought his colleagues from work, all wearing perfectly ironed ties. Even Ms. Gernet came. The crowd grew, and after a few weeks, there were protests not just in Ada’s city but also in many cities throughout the country.</para>
       <mediaobject xml:id="img-ada-p40-41">
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p40-41.png"/>
         </imageobject>
-        <alt>Group of protesters. Among them there are: Ada's mother holding Alan's hand and raising a pink ice cream; 3 colleagues of Toni's father dressed in ties; two children holding the banner “Do your homework Mr. President and we will do ours!”; a robot with tank treads, irons as feet, an electric fan as abdomen, a monitor as head, and an eggbeater as one hand, holding a blue ice cream in his other hand; two parents holding the banner “Hacking 4 Freedom”; a lady holding an electronic sign “There is a code B”; two small birds, flying; the math teacher, Mrs. Gernet, who has inserted in her cart a sign that says “They are young + need the code!“ The dog in her cart is barking; Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada's family's dog is now wearing a red harness with shiny yellow LEDs that matches the collar.</alt>
+        <alt>Group of protesters. Among them there are: Ada's mother holding Alan's hand and raising a pink ice cream; 3 colleagues of Toni's father dressed in ties; two children holding the banner “Do your homework Mr. President and we will do ours!”; a robot with tank treads, irons as feet, an electric fan as abdomen, a monitor as head, and an eggbeater as one hand, holding a blue ice cream in his other hand; two parents holding the banner “Hacking 4 Freedom”; a lady holding an electronic sign “There is a code B”; two small birds, flying; the math teacher, Ms. Gernet, who has inserted in her cart a sign that says “They are young + need the code!“ The dog in her cart is barking; Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada's family's dog is now wearing a red harness with shiny yellow LEDs that matches the collar.</alt>
         <info>
           <az:excerpt its:locNote="Text on big banner, left on the illustration">Do your homework Mr. President and we will do ours!</az:excerpt>
         </info>
@@ -1125,12 +1125,12 @@ Raspberry Ice Cream</literallayout>
     </simplesect>
     <simplesect xml:id="sec-p46" az:pagenum="46">
       <anchor az:slidenum="24"/>
-      <para>That evening, everyone celebrated with a big party. Ada, Alan, Toni, Marie, Konrad, and other children from school and their parents; the president; Mrs. Gernet; the bus driver; the custodian — they were all there. They decorated the streets, listened to loud music, and ate ice cream, as much as they wanted, and in every imaginable shape and color.</para>
+      <para>That evening, everyone celebrated with a big party. Ada, Alan, Toni, Marie, Konrad, and other children from school and their parents; the president; Ms. Gernet; the bus driver; the custodian — they were all there. They decorated the streets, listened to loud music, and ate ice cream, as much as they wanted, and in every imaginable shape and color.</para>
       <mediaobject xml:id="img-ada-p46">
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p46.png"/>
         </imageobject>
-        <alt>Evening party. Children are holding ice cream and balloons with the words “I love FS (I love Free Software)”; other children are riding skateboards; yellow and orange flags are hanging; music comes out from a large speaker system; Mrs. Gernet holds a pink tree-shaped ice cream with a yellow star on it; Ada's mom is dancing with a gentleman.</alt>
+        <alt>Evening party. Children are holding ice cream and balloons with the words “I love FS (I love Free Software)”; other children are riding skateboards; yellow and orange flags are hanging; music comes out from a large speaker system; Ms. Gernet holds a pink tree-shaped ice cream with a yellow star on it; Ada's mom is dancing with a gentleman.</alt>
       </mediaobject>
     </simplesect>
     <simplesect xml:id="sec-p47" az:pagenum="47">
