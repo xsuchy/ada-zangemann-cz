@@ -595,7 +595,6 @@ Publication under this free cultural license was possible due to the great suppo
 Society should support those who respect others' freedom.</literallayout>
     </simplesect>
   </colophon>
-  <!-- TODO: does the title page have to be modelled separately? -->
   <preface role="title-page">
     <info>
       <title>Title page</title>
@@ -604,7 +603,7 @@ Society should support those who respect others' freedom.</literallayout>
       <anchor az:slidenum="1"/>
 
       <mediaobject xml:id="img-ada-cover">
-        <!-- TODO: add mediaobject -->
+        <!-- TODO: add combined imagedata or remove -->
         <alt>Matthias Kirschner, Sandra Brandstätter - ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice Cream. Title in the middle, authors in the upper left. In the lower right, Ada's family's dog with gray fur and some white patches and with a red collar with shiny yellow LEDs, which wags its tail.</alt>
       </mediaobject>
 
@@ -1012,7 +1011,6 @@ Raspberry Ice Cream</literallayout>
     </simplesect>
     <simplesect xml:id="sec-p38" az:pagenum="38">
       <anchor az:slidenum="20"/>
-      <!-- TODO: update template to prevent text over image -->
       <para>When Ada and her friends heard this, they were furious. “This is unfair,” they said. “We rebuilt and reprogrammed our skateboards ourselves. They are much better now. We won’t let anyone take that away from us!”</para>
       <para>They gathered in front of one of their rebuilt ice-cream machines and discussed the situation. It was clear that something had to be done about the new law, and they made a plan...</para>
       <mediaobject xml:id="img-ada-p38">
@@ -1029,7 +1027,7 @@ Raspberry Ice Cream</literallayout>
     </info>
     <simplesect xml:id="sec-p39" az:pagenum="39">
       <anchor az:slidenum="21"/>
-      <!-- TODO: the follow paragraph sometmines occurs as two separate paragraphs -->
+      <!-- TODO: the follow paragraph sometimes occurs as two separate paragraphs -->
       <para xml:id="para-p39-1" az:dropcap="true" az:dropcapfileref="images/capitals/T-cyan.png" az:dropcapcharacter="T" az:dropcapcolor="#5cb2d4" az:dropcapbackgroundcolor="#ffffff" az:dropcapheightpt="50.56" az:dropcapwidthpt="38.4" az:dropcaplocalsc="0.16" az:dropcapscribuscharstyle="Capital Cyan"><phrase condition="capitals-text">The</phrase><phrase condition="capitals-img">he</phrase> next day, they didn’t go to school. Instead, they rode their skateboards to the parliament building, with large protest signs under their arms, and sat down in front of the building. The evening before, they had put LED lights on some of the signs, which were now flashing brightly. They had connected their speakers together so everyone in the street could hear what they were saying. Some passersby stopped and asked the children what they were demonstrating for. “For software freedom!” they replied in unison and told the adults their story. Impressed, the adults nodded, and the president also looked curiously at their signs as he approached the building.</para>
       <para>On the following day, Ada and her friends again sat down in front of the parliament building, this time with support. Some classmates came whose skateboards Ada had reprogrammed. Toni’s father and other parents and adults also wanted to support the protest. They found the children’s devices very useful.</para>
       <mediaobject xml:id="img-ada-p39">
