@@ -181,6 +181,9 @@ $(targets-all): build/%/all: build/%/all-scribus build/%/Ada_Zangemann-pure.dbk 
 .PHONY: all
 all: $(targets-all)
 
+targets-all-po = $(addprefix po/,$(addsuffix .po,$(translations)))
+.PHONY: update
+update: po/Ada_Zangemann.po $(targets-all-po)
 
 # Remove build output
 .PHONY: clean
