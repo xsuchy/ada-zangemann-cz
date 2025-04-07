@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-04-06 08:28+0200\n"
+"POT-Creation-Date: 2025-04-07 18:33+0200\n"
 "PO-Revision-Date: 2025-03-31 20:21+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -274,7 +274,7 @@ msgstr ""
 #. male names, female names with female names to keep the gender balance
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:461
-msgid "<az:charactername>Mrs. Gernet</az:charactername> <az:characternameorigin>Marie Gernet</az:characternameorigin>"
+msgid "<az:charactername>Ms. Gernet</az:charactername> <az:characternameorigin>Marie Gernet</az:characternameorigin>"
 msgstr ""
 
 #. (itstool) path: imageobject/imagedata@fileref
@@ -850,7 +850,7 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:782
 #, fuzzy
-msgid "Advertisements for Zangemann ice cream (sandwich board), a Zangemann electric skateboard, and a Zangemann washing machine. The math teacher, Mrs. Gernet, is passing in front of the billboards. Mrs. Gernet is an old lady with short white hair. She is dressed in a light green t-shirt and a pea green sweater, dark brown pants, and light green heeled shoes. She has a fuchsia shoulder bag, worn behind her. She pushes a small shopping cart in which there is a small brown dog with a collar and tag."
+msgid "Advertisements for Zangemann ice cream (sandwich board), a Zangemann electric skateboard, and a Zangemann washing machine. The math teacher, Ms. Gernet, is passing in front of the billboards. Ms. Gernet is an old lady with short white hair. She is dressed in a light green t-shirt and a pea green sweater, dark brown pants, and light green heeled shoes. She has a fuchsia shoulder bag, worn behind her. She pushes a small shopping cart in which there is a small brown dog with a collar and tag."
 msgstr "Anuncios de helados Zangemann (tablón de anuncios), un monopatín eléctrico Zangemann y una lavadora Zangemann. La profesora de matemáticas, la Sra. Gernet, pasa por delante de los carteles. La Sra. Gernet es una señora mayor con el pelo corto y blanco.  Va vestida con una camiseta verde claro y un jersey verde guisante, pantalones marrón oscuro y zapatos de tacón verde claro.  Lleva un bolso fucsia colgado al hombro. Empuja un pequeño carrito de la compra en el que hay un perrito marrón con collar y chapa."
 
 #. (itstool) path: simplesect/para
@@ -1316,7 +1316,7 @@ msgstr "A veces incluso podían ayudar a los adultos que tenían problemas con s
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:992
 #, fuzzy
-msgid "Some things they built just for fun, like the fart machine they put in their math teacher’s chair. Whenever Mrs. Gernet sat down, the machine played a little fart sound. The teacher would scold them, but Ada was sure that she secretly smirked a little every time."
+msgid "Some things they built just for fun, like the fart machine they put in their math teacher’s chair. Whenever Ms. Gernet sat down, the machine played a little fart sound. The teacher would scold them, but Ada was sure that she secretly smirked a little every time."
 msgstr "Algunas cosas las construyeron sólo por diversión, como la máquina de pedos que colocaban en la silla de su profesora de matemáticas. Cada vez que la señora Gernet se sentaba, sonaba un pedo. La profesora les reñía, aunque Ada estaba segura de que, en secreto, cada vez sonreía un poco más."
 
 #. (itstool) path: info/title
@@ -1427,7 +1427,7 @@ msgstr "Pintura amarilla y verde en el suelo y lápices de cera amarillos, rojos
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1043
 #, fuzzy
-msgid "With each passing day, more and more children and adults joined the protest. The bus driver they had helped drove up in her bus. She honked loudly to attract even more people to the protest. The custodian brought a few friends, and Toni’s father brought his colleagues from work, all wearing perfectly ironed ties. Even Mrs. Gernet came. The crowd grew, and after a few weeks, there were protests not just in Ada’s city but also in many cities throughout the country."
+msgid "With each passing day, more and more children and adults joined the protest. The bus driver they had helped drove up in her bus. She honked loudly to attract even more people to the protest. The custodian brought a few friends, and Toni’s father brought his colleagues from work, all wearing perfectly ironed ties. Even Ms. Gernet came. The crowd grew, and after a few weeks, there were protests not just in Ada’s city but also in many cities throughout the country."
 msgstr "Según pasaban los días, más y más niños y adultos se unían a la protesta. La conductora de autobús a la que habían ayudado llegó en su autobús. Tocó la bocina para atraer a más gente a la protesta. El conserje trajo algunos amigos y el padre de Toni llegó con sus compañeros de trabajo, todos con corbatas perfectamente planchadas. Incluso vino la señora Gernet. La multitud creció y, al cabo de unas semanas, hubo protestas no solo en la ciudad de Ada, sino también en muchas otras ciudades de todo el país."
 
 #. (itstool) path: imageobject/imagedata@fileref
@@ -1442,7 +1442,7 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:1048
 #, fuzzy
-msgid "Group of protesters. Among them there are: Ada's mother holding Alan's hand and raising a pink ice cream; 3 colleagues of Toni's father dressed in ties; two children holding the banner “Do your homework Mr. President and we will do ours!”; a robot with tank treads, irons as feet, an electric fan as abdomen, a monitor as head, and an eggbeater as one hand, holding a blue ice cream in his other hand; two parents holding the banner “Hacking 4 Freedom”; a lady holding an electronic sign “There is a code B”; two small birds, flying; the math teacher, Mrs. Gernet, who has inserted in her cart a sign that says “They are young + need the code!“ The dog in her cart is barking; Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada's family's dog is now wearing a red harness with shiny yellow LEDs that matches the collar."
+msgid "Group of protesters. Among them there are: Ada's mother holding Alan's hand and raising a pink ice cream; 3 colleagues of Toni's father dressed in ties; two children holding the banner “Do your homework Mr. President and we will do ours!”; a robot with tank treads, irons as feet, an electric fan as abdomen, a monitor as head, and an eggbeater as one hand, holding a blue ice cream in his other hand; two parents holding the banner “Hacking 4 Freedom”; a lady holding an electronic sign “There is a code B”; two small birds, flying; the math teacher, Ms. Gernet, who has inserted in her cart a sign that says “They are young + need the code!“ The dog in her cart is barking; Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada's family's dog is now wearing a red harness with shiny yellow LEDs that matches the collar."
 msgstr "Grupo de manifestantes. Entre ellos están: La madre de Ada cogiendo de la mano a Alan y levantando un helado rosa; 3 colegas del padre de Toni vestidos con corbata; dos niños con la pancarta \"¡Haga sus deberes Sr. Presidente y nosotros haremos los nuestros\"; un robot cuyas patas son unas ruedas de oruga, planchas como piernas, un ventilador eléctrico como abdomen, un cabeza, un batidor de huevos en una mano y un helado azul en la otra mano; dos padres que sostienen la pancarta \"Hacking 4 Freedom\"; una señora que sostiene un cartel electrónico \"Hay un código B\"; dos pequeños pájaros, volando; la profesora de matemáticas, la Sra. Gernet, que ha insertado en su carrito un cartel que dice \"¡Son jóvenes + necesitan el código!\". El perro de su carrito ladra; Ada y Konrad llevan la pancarta \"¡No destroces nuestra tecnología!\". Marie y Toni caminan bajo la pancarta y Marie habla con un megáfono en la mano. megáfono en la mano; El perro de la familia de Ada lleva ahora un arnés rojo con brillantes LED amarillos a juego con el collar."
 
 #. (itstool) path: info/excerpt
@@ -1633,7 +1633,7 @@ msgstr "El Presidente con Toni, Konrad, Marie, Ada, y un heraldo tocando una tro
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1128
 #, fuzzy
-msgid "That evening, everyone celebrated with a big party. Ada, Alan, Toni, Marie, Konrad, and other children from school and their parents; the president; Mrs. Gernet; the bus driver; the custodian — they were all there. They decorated the streets, listened to loud music, and ate ice cream, as much as they wanted, and in every imaginable shape and color."
+msgid "That evening, everyone celebrated with a big party. Ada, Alan, Toni, Marie, Konrad, and other children from school and their parents; the president; Ms. Gernet; the bus driver; the custodian — they were all there. They decorated the streets, listened to loud music, and ate ice cream, as much as they wanted, and in every imaginable shape and color."
 msgstr "Esa noche todos lo celebraron con una gran fiesta: Ada, Alan, otros niños de la escuela y sus padres, el presidente, la señora Gernet, la conductora del autobús y el conserje. Decoraron las calles, escucharon música a todo volumen y comieron helado, tanto como quisieron y de todas las formas y colores imaginables."
 
 #. (itstool) path: imageobject/imagedata@fileref
@@ -1647,7 +1647,8 @@ msgstr ""
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
 #: Ada_Zangemann.dbk:1133
-msgid "Evening party. Children are holding ice cream and balloons with the words “I love FS (I love Free Software)”; other children are riding skateboards; yellow and orange flags are hanging; music comes out from a large speaker system; Mrs. Gernet holds a pink tree-shaped ice cream with a yellow star on it; Ada's mom is dancing with a gentleman."
+#, fuzzy
+msgid "Evening party. Children are holding ice cream and balloons with the words “I love FS (I love Free Software)”; other children are riding skateboards; yellow and orange flags are hanging; music comes out from a large speaker system; Ms. Gernet holds a pink tree-shaped ice cream with a yellow star on it; Ada's mom is dancing with a gentleman."
 msgstr "Una fiesta nocturna. Los niños sostienen helados y globos con las palabras \"I love FS (I love Free Software)\"; otros niños montan en monopatín; cuelgan banderas amarillas y naranjas; Suena música en un gran equipo de altavoces; La Sra. Gernet sostiene un helado rosa en forma de árbol con una estrella amarilla; La madre de Ada baila con un caballero."
 
 #. (itstool) path: simplesect/para
@@ -1744,173 +1745,173 @@ msgid "Thanks to Bea and Benni, Brian, Christine and Marc, Cory, Bernhard, Isabe
 msgstr "Gracias a Bea y Benni, Christine y Marc, Cory, Bernhard, Isabel y Amelia, Katta, Kristina, Martin, Mona y Arne, Nina, Oliver, Reinhard, Sabine y Torsten por sus ideas geniales, su inspiración y sus consejos prácticos, y gracias a las muchas personas en el movimiento del <emphasis>Software Libre</emphasis>, de quienes pude aprender y cuyo compromiso me motivó."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1185
+#: Ada_Zangemann.dbk:1186
 msgid "Thanks to my family, who made me write early in the morning, late in the evening, and on holiday, and who always supports my work for software freedom. Especially, I would like to thank my children, who inspired me with new ideas at each reading. Without them, this book would not exist."
 msgstr "Gracias a mi familia, que me motivó a escribir temprano por la mañana, tarde por la noche y en vacaciones, y que siempre apoya mi trabajo por la libertad del <emphasis>software</emphasis>. En especial, me gustaría agradecer a mis hijos, que me inspiraron con nuevas ideas con cada lectura. Sin ellos, este libro no existiría."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
 #. Link to the image. Only needs to be changed if the image is localized.
-#: Ada_Zangemann.dbk:1190
+#: Ada_Zangemann.dbk:1191
 msgid "images/illustrations/ada-p51.png"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann.dbk:1192
+#: Ada_Zangemann.dbk:1193
 msgid "Ada's dog wags its tail after finding Zangemann hidden behind a curtain and eating an ice cream cone with candies and a blue umbrella on it and lots of raspberry ice cream dripping."
 msgstr "La perra de Ada mueve el rabo después de encontrar a Zangemann escondido tras una cortina y comiéndose un cucurucho de helado con caramelos y un parasol azul y un montón de helado de frambuesa goteando."
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-author
-#: Ada_Zangemann.dbk:1199
+#: Ada_Zangemann.dbk:1200
 msgid "About the Author"
 msgstr "Información sobre el autor"
 
 #. (itstool) path: info/subtitle
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-author
-#: Ada_Zangemann.dbk:1200
+#: Ada_Zangemann.dbk:1201
 msgid "Matthias Kirschner"
 msgstr "Matthias Kirschner"
 
 #. (itstool) path: info/titleabbrev
-#: Ada_Zangemann.dbk:1201
+#: Ada_Zangemann.dbk:1202
 msgid "About the Author - Matthias Kirschner"
 msgstr "Información sobre el autor - Matthias Kirschner"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
 #. Link to the image. Only needs to be changed if the image is localized.
-#: Ada_Zangemann.dbk:1204
+#: Ada_Zangemann.dbk:1205
 msgid "images/illustrations/ada-p52-title.png"
 msgstr ""
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
 #. Link to the image. Only needs to be changed if the image is localized.
-#: Ada_Zangemann.dbk:1212
+#: Ada_Zangemann.dbk:1213
 msgid "images/illustrations/ada-p52.png"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann.dbk:1214
+#: Ada_Zangemann.dbk:1215
 msgid "Close-up of Matthias smiling, waving with one hand, and wearing a headset. Matthias has short hair and a little beard."
 msgstr "Primer plano de Matthias sonriendo, saludando con una mano y llevando un auriculares. Matthias lleva el pelo corto y tiene un poco de barba."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1216
+#: Ada_Zangemann.dbk:1217
 msgid "Matthias was fascinated by computers and software as a child. He had an internet connection early, through which he learned a lot. Children have a right to take their future into their own hands. Therefore, Matthias is committed to the goal that all humans can use software in a self-determined way. He also wants to build an electric skateboard with Free Software."
 msgstr "A Matthias siempre le han fascinado los ordenadores y el <emphasis>software</emphasis>. Desde muy pronto tuvo conexión a Internet con la que aprendió mucho. Los niños tienen derecho a tomar las riendas de su futuro. Por lo tanto, Matthias está comprometido con el objetivo de que todos los seres humanos usen el <emphasis>software</emphasis> de forma auto-determinada. También quiere construir un monopatín eléctrico con <emphasis>Software Libre</emphasis>."
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-illustrator
-#: Ada_Zangemann.dbk:1222
+#: Ada_Zangemann.dbk:1223
 msgid "About the Illustrator"
 msgstr "Información sobre la ilustradora"
 
 #. (itstool) path: info/subtitle
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-illustrator
-#: Ada_Zangemann.dbk:1223
+#: Ada_Zangemann.dbk:1224
 msgid "Sandra Brandstätter"
 msgstr "Sandra Brandstätter"
 
 #. (itstool) path: info/titleabbrev
-#: Ada_Zangemann.dbk:1224
+#: Ada_Zangemann.dbk:1225
 msgid "About the Illustrator - Sandra Brandstätter"
 msgstr "Información sobre la ilustradora - Sandra Brandstätter"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
 #. Link to the image. Only needs to be changed if the image is localized.
-#: Ada_Zangemann.dbk:1227
+#: Ada_Zangemann.dbk:1228
 msgid "images/illustrations/ada-p53-title.png"
 msgstr ""
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
 #. Link to the image. Only needs to be changed if the image is localized.
-#: Ada_Zangemann.dbk:1235
+#: Ada_Zangemann.dbk:1236
 msgid "images/illustrations/ada-p53.png"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann.dbk:1237
+#: Ada_Zangemann.dbk:1238
 msgid "Sandra smiling with a pencil in her hand in front of her chin. She has earphones with an integrated microphone. Sandra has short hair and glasses."
 msgstr "Sandra sonríe con un lápiz en la mano delante de la barbilla.  Lleva auriculares con un micrófono integrado. Sandra lleva el pelo corto y gafas."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1239
+#: Ada_Zangemann.dbk:1240
 msgid "Sandra has always liked crafting with scissors, pliers, glue, wire, fabric, and paper. Today she works as an illustrator, comic author, and character designer for animated films and series, such as the German public television series Trudes Tier. On an ice-cream machine, Sandra would pick a creamy rainbow ice cream with lemon cucumber flavor and a lot of sprinkles."
 msgstr "A Sandra siempre le han gustado las manualidades con tijeras, alicates, pegamento, alambre, tela y papel. Hoy trabaja como ilustradora, autora de cómics y diseñadora de personajes para películas y series de animación, como la serie de la televisión pública alemana “Trudes Tier”. En una máquina de helados, Sandra elegiría un cremoso helado de arcoíris con sabor a pepino limón y un montón de virutas."
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-bookswebsite
-#: Ada_Zangemann.dbk:1244
+#: Ada_Zangemann.dbk:1245
 msgid "Book's website"
 msgstr "Sitio web del libro"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
 #. Link to the image. Only needs to be changed if the image is localized.
-#: Ada_Zangemann.dbk:1247
+#: Ada_Zangemann.dbk:1248
 msgid "images/illustrations/ada-p54-title.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1252
+#: Ada_Zangemann.dbk:1253
 msgid "The Free Software Foundation Europe e.V. is a nonprofit association that empowers people to control technology. Software affects all areas of our life. That is why it is important that this technology gives us freedom instead of restricting us. Free Software (also called Open Source) gives everyone the right to use, study, share, and improve programs. Therefore, Free Software strengthens basic rights such as freedom of expression, freedom of the press, and the right to privacy."
 msgstr "La <emphasis>Free Software Foundation Europe e.V.</emphasis> es una organización sin ánimo de lucro que brinda a las personas los medios para controlar la tecnología. El <emphasis>software</emphasis> está presente en todos los ámbitos de nuestras vidas. Por eso es importante que esta tecnología nos dé libertad en lugar de restringirnos. El <emphasis>Software Libre</emphasis> (también llamado <emphasis>Open Source</emphasis>) le da a todo el mundo el derecho a usar, estudiar, compartir y mejorar los programas. El <emphasis>Software Libre</emphasis> ayuda a respaldar otros derechos fundamentales como la libertad de expresión, la libertad de prensa y la privacidad."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1254
+#: Ada_Zangemann.dbk:1255
 msgid "On the web page of the book, you will find more information and resources: <link xlink:href=\"https://ada.fsfe.org\">https://ada.fsfe.org</link>."
 msgstr "En la página web del libro encontrarás más información y otros materiales: <link xlink:href=\"https://ada.fsfe.org\">https://ada.fsfe.org</link>."
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-license
-#: Ada_Zangemann.dbk:1261
+#: Ada_Zangemann.dbk:1262
 msgid "License"
 msgstr "Licencia"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
 #. Link to the image. Only needs to be changed if the image is localized.
-#: Ada_Zangemann.dbk:1264
+#: Ada_Zangemann.dbk:1265
 msgid "images/illustrations/ada-p55-title.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1269
+#: Ada_Zangemann.dbk:1270
 msgid "The book Ada &amp; Zangemann: A Tale of Software, Skateboards, and Raspberry Ice Cream by Matthias Kirschner and Sandra Brandstätter, published by No Starch Press, is licensed under “Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).”"
 msgstr "El libro “Ada &amp; Zangemann - Un cuento sobre <emphasis>Software</emphasis>, Monopatines y Helado de Frambuesa” de Matthias Kirschner y Sandra Brandstätter, publicado por la <emphasis>Free Software Foundation Europe</emphasis>, está bajo licencia “<emphasis>Creative Commons Attribution-Share Alike 4.0 International (CC BY-SA 4.0)</emphasis>”."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1270
+#: Ada_Zangemann.dbk:1271
 msgid "<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</link>"
 msgstr "<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.es\">https://creativecommons.org/licenses/by-sa/4.0/deed.es</link>"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
 #. Link to the image. Only needs to be changed if the image is localized.
-#: Ada_Zangemann.dbk:1277
+#: Ada_Zangemann.dbk:1278
 msgid "images/illustrations/ada-p56.png"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann.dbk:1279
+#: Ada_Zangemann.dbk:1280
 msgid "A hand that holds a fish-shaped ice cream cone with a cucumber on a decorated toothpick, to color. In a bottom corner, a pencil writing."
 msgstr "Ilustración para colorear de una mano que sostiene un cucurucho de helado en forma de pez con un pepino en  un palillo adornado. En una esquina inferior, un lápiz con un garabato."
 
 #. (itstool) path: simplesect/literallayout
 #. In a literallayout element all space and newline characters are kept.
-#: Ada_Zangemann.dbk:1281
+#: Ada_Zangemann.dbk:1282
 #, no-wrap
 msgid ""
 "Come up with some delicious, funny, or crazy ice-cream flavors and draw them on the ice-cream cones on the following page.\n"
@@ -1922,14 +1923,14 @@ msgstr ""
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
 #. Link to the image. Only needs to be changed if the image is localized.
-#: Ada_Zangemann.dbk:1287
+#: Ada_Zangemann.dbk:1288
 msgid "images/illustrations/ada-p57.png"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
-#: Ada_Zangemann.dbk:1289
+#: Ada_Zangemann.dbk:1290
 msgid "Three hands that hold as many empty ice cream cones, to draw and color. In the air above the middle cone is an umbrella."
 msgstr "Tres manos que sostienen otros tantos cucuruchos de helado vacíos, para dibujar y colorear. En el aire, sobre el cucurucho del medio, hay un paraguas."
 

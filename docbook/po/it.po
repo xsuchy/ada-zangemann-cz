@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-04-06 09:24+0200\n"
+"POT-Creation-Date: 2025-04-07 18:33+0200\n"
 "PO-Revision-Date: 2025-04-06 09:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -270,7 +270,7 @@ msgstr ""
 #. male names, female names with female names to keep the gender balance
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:461
-msgid "<az:charactername>Mrs. Gernet</az:charactername> <az:characternameorigin>Marie Gernet</az:characternameorigin>"
+msgid "<az:charactername>Ms. Gernet</az:charactername> <az:characternameorigin>Marie Gernet</az:characternameorigin>"
 msgstr ""
 
 #. (itstool) path: imageobject/imagedata@fileref
@@ -850,7 +850,8 @@ msgstr ""
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
 #: Ada_Zangemann.dbk:782
-msgid "Advertisements for Zangemann ice cream (sandwich board), a Zangemann electric skateboard, and a Zangemann washing machine. The math teacher, Mrs. Gernet, is passing in front of the billboards. Mrs. Gernet is an old lady with short white hair. She is dressed in a light green t-shirt and a pea green sweater, dark brown pants, and light green heeled shoes. She has a fuchsia shoulder bag, worn behind her. She pushes a small shopping cart in which there is a small brown dog with a collar and tag."
+#, fuzzy
+msgid "Advertisements for Zangemann ice cream (sandwich board), a Zangemann electric skateboard, and a Zangemann washing machine. The math teacher, Ms. Gernet, is passing in front of the billboards. Ms. Gernet is an old lady with short white hair. She is dressed in a light green t-shirt and a pea green sweater, dark brown pants, and light green heeled shoes. She has a fuchsia shoulder bag, worn behind her. She pushes a small shopping cart in which there is a small brown dog with a collar and tag."
 msgstr "Dei cartelloni pubblicitari nei quali sono presenti un gelato Zangemann, uno skateboard elettrico Zangemann ed una lavatrice Zangemann. Davanti ai cartelloni pubblicitari sta passando la maestra di matematica, la signora Gernet, un'anziana signora con capelli bianchi corti, è vestita con una maglietta verde chiaro e un maglione verde pisello, dei pantaloni marrone scuoro, delle scarpe con tacchi verde chiaro e una borsetta a tracolla fucsia, che rimane sulla sua schiena. Spinge un piccolo carrello della spesa nel quale c'è un piccolo cane tutto marrone con un collare e medaglietta."
 
 #. (itstool) path: simplesect/para
@@ -1315,7 +1316,8 @@ msgstr "A volte aiutarono anche alcuni adulti che avevano problemi con i loro co
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:992
-msgid "Some things they built just for fun, like the fart machine they put in their math teacher’s chair. Whenever Mrs. Gernet sat down, the machine played a little fart sound. The teacher would scold them, but Ada was sure that she secretly smirked a little every time."
+#, fuzzy
+msgid "Some things they built just for fun, like the fart machine they put in their math teacher’s chair. Whenever Ms. Gernet sat down, the machine played a little fart sound. The teacher would scold them, but Ada was sure that she secretly smirked a little every time."
 msgstr "Alcune cose le costruirono per puro divertimento, ad esempio la macchina per riprodurre il rumore delle scoregge posta sotto la sedia della loro maestra di matematica, la signora Gernet. Ogni volta che la maestra si sedeva, si sentiva una piccola pernacchia. La signora Gernet li rimproverava, ma Ada era sicura che, sotto sotto, anche alla maestra ogni volta veniva da sorridere."
 
 #. (itstool) path: info/title
@@ -1425,7 +1427,8 @@ msgstr "Vernice gialla e verde sul pavimento e pastelli a cera gialli, rossi, az
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1043
-msgid "With each passing day, more and more children and adults joined the protest. The bus driver they had helped drove up in her bus. She honked loudly to attract even more people to the protest. The custodian brought a few friends, and Toni’s father brought his colleagues from work, all wearing perfectly ironed ties. Even Mrs. Gernet came. The crowd grew, and after a few weeks, there were protests not just in Ada’s city but also in many cities throughout the country."
+#, fuzzy
+msgid "With each passing day, more and more children and adults joined the protest. The bus driver they had helped drove up in her bus. She honked loudly to attract even more people to the protest. The custodian brought a few friends, and Toni’s father brought his colleagues from work, all wearing perfectly ironed ties. Even Ms. Gernet came. The crowd grew, and after a few weeks, there were protests not just in Ada’s city but also in many cities throughout the country."
 msgstr "Con ogni giorno che passava, sempre più bambini e adulti si univano alla protesta. L’autista del bus che era stata aiutata con le sue piante venne davanti al parlamento con il suo autobus. Suonò forte il clacson per attirare l’attenzione del maggior numero possibile di persone sulla protesta. Il bidello portò alcuni amici, e il papà di Toni venne con i suoi colleghi, tutti indossando cravatte stirate automaticamente. Venne anche la maestra di matematica. Il numero di manifestanti diventò sempre più grande e, dopo alcune settimane, la protesta non era limitata solo alla città di Ada: no, adesso si protestava ovunque nel Paese."
 
 #. (itstool) path: imageobject/imagedata@fileref
@@ -1439,7 +1442,8 @@ msgstr ""
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
 #: Ada_Zangemann.dbk:1048
-msgid "Group of protesters. Among them there are: Ada's mother holding Alan's hand and raising a pink ice cream; 3 colleagues of Toni's father dressed in ties; two children holding the banner “Do your homework Mr. President and we will do ours!”; a robot with tank treads, irons as feet, an electric fan as abdomen, a monitor as head, and an eggbeater as one hand, holding a blue ice cream in his other hand; two parents holding the banner “Hacking 4 Freedom”; a lady holding an electronic sign “There is a code B”; two small birds, flying; the math teacher, Mrs. Gernet, who has inserted in her cart a sign that says “They are young + need the code!“ The dog in her cart is barking; Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada's family's dog is now wearing a red harness with shiny yellow LEDs that matches the collar."
+#, fuzzy
+msgid "Group of protesters. Among them there are: Ada's mother holding Alan's hand and raising a pink ice cream; 3 colleagues of Toni's father dressed in ties; two children holding the banner “Do your homework Mr. President and we will do ours!”; a robot with tank treads, irons as feet, an electric fan as abdomen, a monitor as head, and an eggbeater as one hand, holding a blue ice cream in his other hand; two parents holding the banner “Hacking 4 Freedom”; a lady holding an electronic sign “There is a code B”; two small birds, flying; the math teacher, Ms. Gernet, who has inserted in her cart a sign that says “They are young + need the code!“ The dog in her cart is barking; Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada's family's dog is now wearing a red harness with shiny yellow LEDs that matches the collar."
 msgstr "Gruppo di persone che protestano, tra cui: la mamma di Ada che tiene per mano Alan e che ha in mano un gelato rosa; 3 colleghi del papà di Toni vestiti con la cravatta; due bambini che tengono lo striscione “Fai i tuoi compiti signor Presidente che noi facciamo i nostri!”; un robot con cingoli e ferri da stiro come piedi, un ventilatore elettrico come addome, un monitor come testa e con una frusta al posto di una mano e che tiene con l'altra mano un gelato azzurro; due genitori che tengono lo striscione “Hacking 4 Freedom”; una signora che tiene in mano un cartello luminoso con scritto “There is a code B”; due uccellini; la maestra di matematica, la signora Gernet, che ha inserito nel suo carrellino un cartello con scritto “Sono giovani + hanno bisogno del codice!”; nel carrellino c'è anche il suo cagnolino che abbaia; Ada Conrad tengono lo striscione “Vogliamo il codice libero!“ mentre Marie e Toni stanno camminando vicino allo striscione, e Marie ha in mano un megafono con il quale si fa sentire; il cagnolino della famiglia di Ada che indossa una imbracatura rossa con delle strisce a LED gialli scintillanti."
 
 #. (itstool) path: info/excerpt
@@ -1626,7 +1630,8 @@ msgstr "Il presidente con Toni, Conrad, Marie, Ada e una valletta che suona la t
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1128
-msgid "That evening, everyone celebrated with a big party. Ada, Alan, Toni, Marie, Konrad, and other children from school and their parents; the president; Mrs. Gernet; the bus driver; the custodian — they were all there. They decorated the streets, listened to loud music, and ate ice cream, as much as they wanted, and in every imaginable shape and color."
+#, fuzzy
+msgid "That evening, everyone celebrated with a big party. Ada, Alan, Toni, Marie, Konrad, and other children from school and their parents; the president; Ms. Gernet; the bus driver; the custodian — they were all there. They decorated the streets, listened to loud music, and ate ice cream, as much as they wanted, and in every imaginable shape and color."
 msgstr "La sera stessa, tutti fecero una grande festa insieme. Ada, Alan, Toni, Marie, Conrad, gli altri bambini della scuola e i loro genitori, il Presidente, la maestra Gernet, l’autista dell’autobus, il bidello: erano tutti lì. Decorarono le strade, ascoltarono musica ad alto volume e per festeggiare mangiarono quanto gelato volevano, in tutte le forme e colori concepibili."
 
 #. (itstool) path: imageobject/imagedata@fileref
@@ -1640,7 +1645,8 @@ msgstr ""
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
 #: Ada_Zangemann.dbk:1133
-msgid "Evening party. Children are holding ice cream and balloons with the words “I love FS (I love Free Software)”; other children are riding skateboards; yellow and orange flags are hanging; music comes out from a large speaker system; Mrs. Gernet holds a pink tree-shaped ice cream with a yellow star on it; Ada's mom is dancing with a gentleman."
+#, fuzzy
+msgid "Evening party. Children are holding ice cream and balloons with the words “I love FS (I love Free Software)”; other children are riding skateboards; yellow and orange flags are hanging; music comes out from a large speaker system; Ms. Gernet holds a pink tree-shaped ice cream with a yellow star on it; Ada's mom is dancing with a gentleman."
 msgstr "Festa tutti insieme. Bambini che hanno in mano gelati e palloncini con la scritta “I love FS (Io amo il Software Libero)”; altri bambini che viaggiano con gli skateboard; bandierine gialle e arancioni appese per far festa; delle grosse casse da cui esce musica; la signora Gernet tiene in mano un gelato rosa a forma di albero con sopra una stella gialla; la mamma di Ada che sta ballando con un signore."
 
 #. (itstool) path: simplesect/para
