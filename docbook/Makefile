@@ -183,7 +183,7 @@ all: $(targets-all)
 
 targets-all-po = $(addprefix po/,$(addsuffix .po,$(translations)))
 .PHONY: update
-update: po/Ada_Zangemann.po $(targets-all-po)
+update: po/Ada_Zangemann.pot $(targets-all-po)
 
 # Remove build output
 .PHONY: clean
