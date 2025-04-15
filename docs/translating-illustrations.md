@@ -21,6 +21,7 @@ Use Krita, with `p40-p41-rgb.kra` file.
 ### They are young + need the code
 
 - Tool: Pencil-3 Large 4B (Krita 4 Default Resources Bundle)
+- Opacity: 100%
 - Size: 10,00 px
 - Color:
    - Text: `#804f7e`
@@ -29,6 +30,7 @@ Use Krita, with `p40-p41-rgb.kra` file.
 ### Do your homework Mr. President
 
 - Tool: Chalk Soft (Krita 4 Default Resources Bundle)
+- Opacity: 100%
 - Sizes:
    - 40,00 px "DO YOUR HOMEWORK"
    - 30,00 px "Mr. President" "and we will do ours"
@@ -39,11 +41,12 @@ Use Krita, with `p40-p41-rgb.kra` file.
 
 ### Don't wreck our tech!
 
+_A different tool might be better._
+
 - Tool: Chalk Soft (Krita 4 Default Resources Bundle)
-   - **Might need a better match**
-   - Alternative might be: Pencil-5 Tilted (Krita 4 Default Resources Bundle),
-     with automatic rotation disabled in the tool options
+- Opacity: 100%
+- Size: 20,00 px
 - Colors:
-   - Green text: `#53ae7d` (approximately)
-   - Red text: `#53ae7d` (approximately)
+   - Red text: `#d74d58` (approximately)
+   - Green text: `#58aa72` (approximately)
    - Background: `#f8ecd8`
