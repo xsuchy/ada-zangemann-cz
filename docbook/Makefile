@@ -42,10 +42,10 @@ status:
 
 # Derived images
 # Uses gravity and ratio to be resistant to changes in resolution
-images/illustrations/ada-p40-test.%.png: images/illustrations/ada-p40-p41.%.png
+images/illustrations/ada-p40.%.png: images/illustrations/ada-p40-41.%.png
 	convert $< -crop "3430:3527+0+0" $@
 
-images/illustrations/ada-p41-test.%.png: images/illustrations/ada-p40-p41.%.png
+images/illustrations/ada-p41.%.png: images/illustrations/ada-p40-41.%.png
 	convert $< -gravity East -crop "3430:3527+0+0" $@
 
 # Link images
