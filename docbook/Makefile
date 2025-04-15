@@ -40,6 +40,14 @@ po/%.mo: po/%.po
 status:
 	for p in po/*.po; do printf "$$p "; msgfmt -o /dev/null --stat $$p; done
 
+# Derived images
+# Uses gravity and ratio to be resistant to changes in resolution
+images/illustrations/ada-p40-test.%.png: images/illustrations/ada-p40-p41.%.png
+	convert $< -crop "3430:3527+0+0" $@
+
+images/illustrations/ada-p41-test.%.png: images/illustrations/ada-p40-p41.%.png
+	convert $< -gravity East -crop "3430:3527+0+0" $@
+
 # Link images
 # TODO: simplify variable handling to extract language code
 # Available images can be collected using wildcard and basepath expressions in Make
