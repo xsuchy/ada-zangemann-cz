@@ -37,19 +37,12 @@ Use Krita, with `p40-p41-rgb.kra` file.
    - Red text: `#dc738d` (approximately)
    - Background: `#f1debf`
 
-### Hacking 4 Freedom
-
-- Tool: Pencil-5 Tilted (Krita 4 Default Resources Bundle)
-   - Automatic rotation disabled in the tool options
-   - **Better match needed**
-- Colors:
-   - Text: `#ca404a`
-   - Background: `#fadbe8`
-
 ### Don't wreck our tech!
 
 - Tool: Chalk Soft (Krita 4 Default Resources Bundle)
    - **Might need a better match**
+   - Alternative might be: Pencil-5 Tilted (Krita 4 Default Resources Bundle),
+     with automatic rotation disabled in the tool options
 - Colors:
    - Green text: `#53ae7d` (approximately)
    - Red text: `#53ae7d` (approximately)
