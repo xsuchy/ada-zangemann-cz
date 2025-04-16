@@ -36,9 +36,9 @@ po/%.po: po/Ada_Zangemann.pot
 po/%.mo: po/%.po
 	msgfmt -o $@ $<
 
+.PHONY: status
 status:
 	for p in po/*.po; do printf "$$p "; msgfmt -o /dev/null --stat $$p; done
-
 
 # Link images
 # TODO: simplify variable handling to extract language code
