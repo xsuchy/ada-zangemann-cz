@@ -42,9 +42,13 @@ status:
 
 # Derived images
 # Uses gravity and ratio to be resistant to changes in resolution
+# NOTE: marked as PRECIOUS to prevent automatic cleanup
+# TODO: move generated files to output/build directory instead of placing here
+.PRECIOUS: images/illustrations/ada-p40.%.png
 images/illustrations/ada-p40.%.png: images/illustrations/ada-p40-41.%.png
 	convert $< -crop "3430:3527+0+0" $@
 
+.PRECIOUS: images/illustrations/ada-p41.%.png
 images/illustrations/ada-p41.%.png: images/illustrations/ada-p40-41.%.png
 	convert $< -gravity East -crop "3430:3527+0+0" $@
 
@@ -54,7 +58,7 @@ images/illustrations/ada-p41.%.png: images/illustrations/ada-p40-41.%.png
 # Vpath can be used to resolve location with different fallback paths
 # NOTE: marked as precious to prevent cleanup of symbolic link
 .PRECIOUS: build/%/images/illustrations
-build/%/images/illustrations:
+build/%/images/illustrations: images/illustrations/ada-p40.%.png images/illustrations/ada-p41.%.png
 	mkdir -p $(@D) || exit 0
 	makefile_helpers/./imagedir.sh $(shell echo ${@} | sed -n 's/.*build\/\(.*\)\/images.*/\1/p')
 
