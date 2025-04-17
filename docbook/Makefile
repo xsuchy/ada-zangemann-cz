@@ -200,7 +200,9 @@ update: po/Ada_Zangemann.pot $(targets-all-po)
 # Remove build output
 .PHONY: clean
 clean:
-	rm -r build/
+	rm -r build/ || exit 0
+	rm images/illustrations/ada-p40.*.png || exit 0
+	rm images/illustrations/ada-p41.*.png || exit 0
 
 # Validation commands (work in progress)
 # TODO; not yet working
