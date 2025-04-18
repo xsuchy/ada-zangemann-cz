@@ -7,7 +7,7 @@ Autor: Matthias Kirschner\
 Illustrationen: Sandra Brandstätter
 
 Lektorat: Wiebke Helmchen und Ariane Hesse\
-Korrektorat: Sibylle Feldmann, www.richtiger-text.de\
+Korrektorat: Sibylle Feldmann, _www.richtiger-text.de_\
 Satz: Veronika Schnabel\
 Umschlaggestaltung: Sandra Brandstätter und Veronika Schnabel\
 Farbassistenz: Olga Biryukova, Noémi Sárkány, Nathalie Scattolon, Kristina Haidinger, Jasmin Schlögl\
@@ -16,7 +16,7 @@ Druck und Bindung: Grafisches Centrum Cuno GmbH & Co. KG, 39240 Calbe (Saale)
 
 Bibliografische Information der Deutschen Nationalbibliothek\
 Die Deutsche Nationalbibliothek verzeichnet diese Publikation in der Deutschen Nationalbibliografie;\
-detaillierte bibliografische Daten sind im Internet über http://dnb.d-nb.de abrufbar.
+detaillierte bibliografische Daten sind im Internet über _http://dnb.d-nb.de_ abrufbar.
 
 ISBN:\
 Print 978-3-96009-190-5\
