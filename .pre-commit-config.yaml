@@ -44,7 +44,7 @@ repos:
   rev: v2.4.1
   hooks:
     - id: codespell
-      exclude: '.*\.(txt|sla|po|pot)$'
+      exclude: '(.*\.(txt|sla|po|pot)|texts/.*)$'
 - repo: https://github.com/fsfe/reuse-tool
   rev: v5.0.2
   hooks:
