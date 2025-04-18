@@ -40,13 +40,25 @@ po/%.mo: po/%.po
 status:
 	for p in po/*.po; do printf "$$p "; msgfmt -o /dev/null --stat $$p; done
 
+# Derived images
+# Uses gravity and ratio to be resistant to changes in resolution
+# NOTE: marked as PRECIOUS to prevent automatic cleanup
+# TODO: move generated files to output/build directory instead of placing here
+.PRECIOUS: images/illustrations/ada-p40.%.png
+images/illustrations/ada-p40.%.png: images/illustrations/ada-p40-41.%.png
+	convert $< -crop "3430:3527+0+0" $@
+
+.PRECIOUS: images/illustrations/ada-p41.%.png
+images/illustrations/ada-p41.%.png: images/illustrations/ada-p40-41.%.png
+	convert $< -gravity East -crop "3430:3527+0+0" $@
+
 # Link images
 # TODO: simplify variable handling to extract language code
 # Available images can be collected using wildcard and basepath expressions in Make
 # Vpath can be used to resolve location with different fallback paths
 # NOTE: marked as precious to prevent cleanup of symbolic link
 .PRECIOUS: build/%/images/illustrations
-build/%/images/illustrations:
+build/%/images/illustrations: images/illustrations/ada-p40.%.png images/illustrations/ada-p41.%.png
 	mkdir -p $(@D) || exit 0
 	makefile_helpers/./imagedir.sh $(shell echo ${@} | sed -n 's/.*build\/\(.*\)\/images.*/\1/p')
 
@@ -188,7 +200,9 @@ update: po/Ada_Zangemann.pot $(targets-all-po)
 # Remove build output
 .PHONY: clean
 clean:
-	rm -r build/
+	rm -r build/ || exit 0
+	rm images/illustrations/ada-p40.*.png || exit 0
+	rm images/illustrations/ada-p41.*.png || exit 0
 
 # Validation commands (work in progress)
 # TODO; not yet working
