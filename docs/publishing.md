@@ -125,6 +125,13 @@ An ISBN barcode can be created in Scribus, GIMP or an online tool, but Inkscape 
 Besides the ISBN you can also include a separate barcode for the price, in case the book has a fixed price.
 The vector image from Inkscape can be imported into the Scribus file.
 
+It is important to keep to the recommended specification of the barcode, as distributors can reject a book if the barcode is not meeting the specification.
+GS1 is the organization that maintaining the barcode standard for retail, and has strict specifications of the barcodes.
+Professional scanners get certified according to this standard.
+The size and surrounding whitespace ensures correct scanning.
+Some size variants are allowed. for different heights.
+The OCR-B font is recommended in the standard but other fonts are allowed as long as they are sufficiently legible.
+
 Even though there is automation in place to export the pdfs, it is advised to do this manually for the print.
 In this way you will see any warnings that Scribus might raise before exporting.
 Also you can select the color profile and set the bleed for exporting.
