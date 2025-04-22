@@ -122,15 +122,16 @@ The cover template might need to be changed, because the dimensions will differ 
 You can update the template file according to the specifications and fill the contents using the automation.
 
 An ISBN barcode can be created in Scribus, GIMP or an online tool, but Inkscape offers the most control over the final output.
-Besides the ISBN you can also include a separate barcode for the price, in case the book has a fixed price.
+Besides the ISBN you can also include a separate barcode section for the price, in case the book has a fixed price.
 The vector image from Inkscape can be imported into the Scribus file.
 
-It is important to keep to the recommended specification of the barcode, as distributors can reject a book if the barcode is not meeting the specification.
-GS1 is the organization that maintaining the barcode standard for retail, and has strict specifications of the barcodes.
-Professional scanners get certified according to this standard.
-The size and surrounding whitespace ensures correct scanning.
-Some size variants are allowed. for different heights.
-The OCR-B font is recommended in the standard but other fonts are allowed as long as they are sufficiently legible.
+It is important to keep to the recommended specification of the barcode.
+Some distributors state they will reject a book if the barcode is not according to the specification.
+The ISBN EAN-13 barcode specification is governed by GS1.
+Professional scanners get certified according to this standard and therefore it is quite strict.
+The size and surrounding whitespace are important to ensure correct scanning.
+Some size variants are allowed according to the standard.
+The OCR-B font is recommended in the standard, although other fonts are allowed as long as they are sufficiently legible.
 
 Even though there is automation in place to export the pdfs, it is advised to do this manually for the print.
 In this way you will see any warnings that Scribus might raise before exporting.
