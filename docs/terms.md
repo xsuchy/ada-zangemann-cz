@@ -7,7 +7,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Terms
 
 Definitions of terms used in the automation. Listed here to achieve consistency
-in the wording in code, documentation and conversation.
+in wording and to help you communicate clearly with professionals.
 
 - **Format:** specific form of presentation in which the story is told,
   regardless of language. Current formats: print with different covers, screen
@@ -50,5 +50,18 @@ in the wording in code, documentation and conversation.
 - **Short print run:** printing multiple but still low volumes (tens or
   hundreds) of books using digital printing techniques. This holds a middle
   ground between print on demand and offset printing.
-- **[ISBN](https://en.wikipedia.org/wiki/ISBN):** a numeric book identifier.
-  Each edition requires a unique ISBN. Same identifier as used in the barcode.
+- **[ISBN](https://en.wikipedia.org/wiki/ISBN):** a numeric book identifier. The
+  barcode contains the ISBN. Each edition with a textual revision or a different
+  format (hardcover, softcover, ebook) requires a unique ISBN.
+- **[Title page](https://en.wikipedia.org/wiki/Title_page):** page at the
+  beginning of the book that displays the title, subtitle and author, much like
+  the cover but inside the book.
+- **[Recto and verso](https://en.wikipedia.org/wiki/Recto_and_verso):** define
+  the front (recto) and back (verso) of the pages in a book. For a left-to-right
+  language the recto is on the right and the verso is on the left. For
+  right-to-left languages this is reversed.
+- **[Page spread](https://en.wikipedia.org/wiki/Book_design#Page_spread):** two
+  pages next to each other (a recto and verso) like how the book would lay open.
+  Books are often designed in spreads to consider the point of the viewer where
+  to pages can be seen at the same time. Some illustrations cover both pages of
+  the spread.
