@@ -7,7 +7,7 @@ SPDX-License-Identifier: CC-BY-SA-3.0-DE
 Version: 1
 -->
 
-# organização das leituras
+# Organização das leituras
 
 ## Materiais recomendados
 

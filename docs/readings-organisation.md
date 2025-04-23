@@ -6,11 +6,11 @@ SPDX-License-Identifier: CC-BY-SA-3.0-DE
 Version: 1
 -->
 
-# Readings Organisation
+# Readings organisation
 
 Translations available: [Portuguese](readings-organisation.PT_pt.md)
 
-## Recommended Materials
+## Recommended materials
 
 * Projector or digital screen: to present the illustrations, which is
   highly recommended, rather than just reading it without the illustrations.
