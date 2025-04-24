@@ -85,7 +85,7 @@ build/%/Ada_Zangemann-pure.dbk: build/%/Ada_Zangemann.dbk xsl/clean-docbook.xsl
 # Relies on XSLT 1.0 stylesheets https://github.com/docbook/xslt10-stylesheets/ included in Debian docbook-xsl package
 # FIXME: returns exit code 6 'Error in one of the documents' without a clear issue or error in output.
 build/%/Ada_Zangemann-pure-profiled-text.dbk: build/%/Ada_Zangemann-pure.dbk
-	xsltproc -o $@ --verbose /usr/share/xml/docbook/stylesheet/docbook-xsl/profiling/profile.xsl --stringparam profile.condition "headings-text;capitals-text" $< > $@.log 2>&1 || exit 0
+	xsltproc -o $@ --verbose /usr/share/xml/docbook/stylesheet/docbook-xsl/profiling/profile.xsl --stringparam profile.condition "headings-text;capitals-text;colophon-simple" $< > $@.log 2>&1 || exit 0
 
 # HTML output using standard docbook processing
 # TODO: use lower resolution images
@@ -110,7 +110,7 @@ build/%/Ada_Zangemann-dbtoepub.epub: build/%/Ada_Zangemann-pure-profiled-text.db
 
 # Pandoc markdown
 targets-pandoc-md = $(addprefix build/,$(addsuffix /Ada_Zangemann-pandoc.md,$(translations)))
-$(targets-pandoc-md): build/%/Ada_Zangemann-pandoc.md: build/%/Ada_Zangemann-pure.dbk build/%/images/illustrations
+$(targets-pandoc-md): build/%/Ada_Zangemann-pandoc.md: build/%/Ada_Zangemann-pure-profiled-text.dbk build/%/images/illustrations
 	pandoc -f docbook -o $@ $<
 
 .PHONY: build/all/Ada_Zangemann-pandoc.md
@@ -120,14 +120,14 @@ build/all/Ada_Zangemann-pandoc.md: $(targets-pandoc-md)
 build/%/print-all/Ada_Zangemann-print-all.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
 	mkdir -p $(@D)
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
-	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file --stringparam profile.condition "colophon-simple" ../$< xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 # Build version with image headers
 targets-print-headings-img = $(addprefix build/,$(addsuffix /print-headings-img/Ada_Zangemann-print-headings-img.sla,$(translations)))
 $(targets-print-headings-img): build/%/print-headings-img/Ada_Zangemann-print-headings-img.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
 	mkdir -p $(@D)
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
-	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-img;capitals-img" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-img;capitals-img;colophon-simple" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 .PHONY: build/all/print-headings-img/Ada_Zangemann-print-headings-img.sla
 build/all/print-headings-img/Ada_Zangemann-print-headings-img.sla: $(targets-print-headings-img)
@@ -137,7 +137,7 @@ targets-print-headings-text = $(addprefix build/,$(addsuffix /print-headings-tex
 $(targets-print-headings-text): build/%/print-headings-text/Ada_Zangemann-print-headings-text.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
 	mkdir -p $(@D)
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
-	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-text;capitals-text" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-text;capitals-text;colophon-simple" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 .PHONY: build/all/print-headings-text/Ada_Zangemann-print-headings-text.sla
 build/all/print-headings-text/Ada_Zangemann-print-headings-text.sla: $(targets-print-headings-text)
@@ -147,19 +147,19 @@ targets-coverhard-text = $(addprefix build/,$(addsuffix /coverhard-text/Ada_Zang
 $(targets-coverhard-text): build/%/coverhard-text/Ada_Zangemann-coverhard-text.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
 	mkdir -p $(@D)
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
-	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "capitals-text;cover-print-text" xsl/scribus.xsl templates/template-coverhard.sla > $@.log 2>&1
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "capitals-text;cover-print-text;colophon-simple" xsl/scribus.xsl templates/template-coverhard.sla > $@.log 2>&1
 
 targets-coverhard-img = $(addprefix build/,$(addsuffix /coverhard-img/Ada_Zangemann-coverhard-img.sla,$(translations)))
 $(targets-coverhard-img): build/%/coverhard-img/Ada_Zangemann-coverhard-img.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
 	mkdir -p $(@D)
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
-	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "capitals-img;cover-print-img" xsl/scribus.xsl templates/template-coverhard.sla > $@.log 2>&1
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "capitals-img;cover-print-img;colophon-simple" xsl/scribus.xsl templates/template-coverhard.sla > $@.log 2>&1
 
 # Build version with no conditional content (for debugging)
 build/%/print-headings-none/Ada_Zangemann-print-headings-none.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
 	mkdir -p $(@D)
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
-	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition ";" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition ";colophon-simple" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 # TODO: add autocompletion for these pdf conversions
 %.pdf: %.sla
