@@ -14,7 +14,7 @@ community translations.
 * Names: Ada, Zangemann, Alan must not to be changed. The other names
   are also mostly references to existing people in computer history or
   science, but if you want to change them in order to make it easier for
-  children to relate to the characters we should find names which are
+  children to relate to the characters you should find names which are
   still common but connected to important figures in the computer
   history. If you have problems with that, feel free to reach out to
   Matthias. Please also make sure to just exchange male names with male
