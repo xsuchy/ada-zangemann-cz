@@ -101,6 +101,11 @@ available:
   for which the FSFE will receive 42% of the list price for printed books and
   72% for eBook.
 
+* In Danish by Forlaget Modspil. The official publishing date is June
+  16, 2025, at which point you'll be able to order them at your local
+  bookstore or library. Currently available at [Coding Pirate's web
+  shop](https://merchcity.com/product/coding-pirates-ada-zangemann-en-fortaelling-om-software-skateboards-og-hindbaeris-bog/). 
+
 # Profits of sales
 
 Matthias Kirschner wrote the text on a voluntary basis for the FSFE. All
