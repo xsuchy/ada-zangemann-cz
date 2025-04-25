@@ -251,7 +251,8 @@ SPDX-License-Identifier: CC-BY-SA-4.0
     </its:locNoteRule>
     <!-- Enable changing image links by translators, as it is an externalResourceRefPointer by default for which itstool doesn't allow translations. -->
     <its:withinTextRule xmlns:db="http://docbook.org/ns/docbook" withinText="no" selector="//db:imagedata"/>
-    <its:translateRule xmlns:db="http://docbook.org/ns/docbook" translate="yes" selector="//db:imagedata/@fileref"/>
+    <!-- TODO: restore translation to 'yes' of fileref when language-specific filenames are supported in the automation -->
+    <its:translateRule xmlns:db="http://docbook.org/ns/docbook" translate="no" selector="//db:imagedata/@fileref"/>
     <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//db:imagedata/@fileref">
       <its:locNote>Link to the image. Only needs to be changed if the image is localized.</its:locNote>
     </its:locNoteRule>
