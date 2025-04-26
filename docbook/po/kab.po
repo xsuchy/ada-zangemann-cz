@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2025-04-26 08:13+0200\n"
-"PO-Revision-Date: 2025-04-26 18:31+0000\n"
-"Last-Translator: Moonshadow <moonshadow@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-04-26 21:20+0000\n"
+"Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/fsfe/"
 "ada-zangemann/kab/>\n"
 "Language: kab\n"
@@ -102,7 +102,7 @@ msgstr "<az:charactername>Toni</az:charactername>"
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:293
 msgid "<az:charactername>Konrad</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Konrad</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -115,7 +115,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:296
 msgid "<az:charactername>Marie</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Marie</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
