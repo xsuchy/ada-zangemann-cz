@@ -2,21 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2025-04-26 08:13+0200\n"
-"PO-Revision-Date: 2025-04-25 06:09+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/fsfe/ada-"
-"zangemann/it/>\n"
+"PO-Revision-Date: 2025-04-26 21:20+0000\n"
+"Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/fsfe/"
+"ada-zangemann/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.1-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Albano Battistella <albanobattistella@gmail.com> 2025"
 
 #. (itstool) path: info/title
 #. (itstool) path: cover/bridgehead
@@ -35,13 +35,13 @@ msgstr "Una fiaba che parla di software, skateboard e gelato al lampone"
 #. ISBN of print edition
 #: Ada_Zangemann.dbk:264
 msgid "978-1-7185-0318-2"
-msgstr ""
+msgstr "978-1-7185-0318-2"
 
 #. (itstool) path: info/biblioid
 #. ISBN of ebook edition
 #: Ada_Zangemann.dbk:265
 msgid "978-1-7185-0319-9"
-msgstr ""
+msgstr "978-1-7185-0319-9"
 
 #. (itstool) path: info/author
 #: Ada_Zangemann.dbk:267
@@ -49,6 +49,8 @@ msgid ""
 "<personname> <firstname>Matthias</firstname> <surname>Kirschner</surname> </"
 "personname>"
 msgstr ""
+"<personname> <firstname>Matthias</firstname> <surname>Kirschner</surname> "
+"</personname>"
 
 #. (itstool) path: info/othercredit
 #: Ada_Zangemann.dbk:273
@@ -56,24 +58,26 @@ msgid ""
 "<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surname> </"
 "personname>"
 msgstr ""
+"<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surname> "
+"</personname>"
 
 #. (itstool) path: namedcharacters/character
 #. Name must not be changed
 #: Ada_Zangemann.dbk:281
 msgid "<az:charactername>Ada</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Ada</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Name must not be changed
 #: Ada_Zangemann.dbk:284
 msgid "<az:charactername>Zangemann</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Zangemann</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Name must not be changed
 #: Ada_Zangemann.dbk:287
 msgid "<az:charactername>Alan</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Alan</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -86,7 +90,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:290
 msgid "<az:charactername>Toni</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Toni</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -99,7 +103,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:293
 msgid "<az:charactername>Konrad</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Konrad</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -112,7 +116,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:296
 msgid "<az:charactername>Marie</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Marie</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -125,7 +129,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:299
 msgid "<az:charactername>Ms. Gernet</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Ms. Gernet</az:charactername>"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -186,7 +190,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:332
 msgid "images/capitals/T-yellow2.png"
-msgstr ""
+msgstr "images/capitals/T-yellow2.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-back-1
@@ -232,7 +236,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:355
 msgid "Half-title page"
-msgstr ""
+msgstr "Frontespizio"
 
 #. (itstool) path: mediaobject/alt
 #. (itstool) path: simplesect/para
@@ -241,7 +245,7 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:362 Ada_Zangemann.dbk:437
 msgid "ADA &amp; ZANGEMANN"
-msgstr ""
+msgstr "ADA &amp; ZANGEMANN"
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:368
@@ -253,7 +257,7 @@ msgstr "Imprint"
 #. (itstool) comment: ./literallayout
 #. In a literallayout element all space and newline characters are kept.
 #: Ada_Zangemann.dbk:371
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "\n"
 "      \n"
@@ -277,32 +281,65 @@ msgid ""
 msgstr ""
 "\n"
 "      \n"
-"      <literallayout class=\"normal\">Copyright © 2022, 2023 Matthias Kirschner (testo), Free Software Foundation Europe e.V. (illustrazioni) e Luca Bonissi (traduzione italiana); autore: Matthias Kirschner, illustratrice: Sandra Brandstätter.\n"
+"      <literallayout class=\"normal\">Copyright © 2023 Matthias Kirschner e "
+"Sandra Brandstätter.\n"
+"Quest'opera è distribuita con licenza Creative Commons Attribuzione-"
+"Condividi allo stesso modo 4.0 Internazionale.\n"
+"Per visualizzare una copia di questa licenza, visita <link xlink:href="
+"\"https://creativecommons.org/licenses/by-sa/4.0/\">https://"
+"creativecommons.org/licenses/by-sa/4.0/</link> o invia una lettera a "
+"Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.\n"
 "\n"
-"<emphasis role=\"bold\">ADA &amp; ZANGEMANN</emphasis> – Una fiaba che parla di software, skateboard e gelato al lampone\n"
+"<emphasis role=\"bold\">Ada &amp; Zangemann: A Tale of Software, "
+"Skateboards, and Raspberry Ice Cream è una traduzione dell'originale "
+"tedesco, Ada und Zangemann: Ein Märchen über Software, Skateboards, and "
+"Himbeereis, pubblicato da Dpunkt.verlag in collaborazione con O’Reilly "
+"Media, Inc., con il marchio \"O’REILLY\", © 2022 di Matthias Kirschner e "
+"Sandra Brandstätter.\n"
 "\n"
-"ISBN  979-12-224-6182-3 (libro con copertina morbida e carta patinata)\n"
-"ISBN  978-1-4466-8698-0 (libro con copertina rigida e carta usomano)\n"
-"ISBN  979-12-224-6592-0 (eBook in formato ePub, Mobi e PDF)\n"
+"Questo libro di Matthias Kirschner (autore) e Sandra Brandstätter "
+"(illustratrice) è concesso in licenza con <emphasis role=\"bold\">Creative "
+"Commons CC-BY-SA</emphasis>, una licenza culturale libera.\n"
 "\n"
-"Revisione 1.03 20240308\n"
+"<emphasis role=\"bold\">È possibile</emphasis> condividere, copiare e "
+"ridistribuire il materiale in qualsiasi mezzo o formato. <emphasis role="
+"\"bold\">È possibile</emphasis> adattare, remixare, trasformare e basarsi "
+"sul materiale per qualsiasi scopo, anche commerciale. <emphasis role=\"bold\""
+">È necessario</emphasis> attribuire la paternità appropriata, fornire un "
+"link alla licenza e indicare se sono state apportate modifiche.\n"
 "\n"
-"Questo libro è un’opera derivata (traduzione in italiano) del libro originale in tedesco “Ada und Zangemann: Ein Märchen über Software, Skateboards und Himbeereise” e viene pubblicato con la licenza <emphasis role=\"bold\">Creative Commons CC-BY-SA 4.0 International</emphasis>, una licenza culturale libera.\n"
+"<emphasis role=\"bold\">È possibile</emphasis> farlo in qualsiasi modo "
+"ragionevole, ma non in modo tale da suggerire che il licenziante approvi te "
+"o il tuo utilizzo. Se remixi, trasformi o basi il materiale, <emphasis role="
+"\"bold\">devi</emphasis> distribuire i tuoi contributi con la stessa licenza "
+"dell'originale. (Questo è un riassunto in formato comprensibile e non "
+"sostituisce il \"codice legale\" di CC-BY-SA 4.0.)\n"
 "\n"
-"<emphasis role=\"bold\">Puoi</emphasis> condividere, riprodurre, distribuire, comunicare al pubblico, esporre in pubblico, rappresentare, eseguire e recitare questo materiale con qualsiasi mezzo e formato. <emphasis role=\"bold\">Puoi</emphasis> modificare, remixare, trasformare il materiale e basarti su di esso per le tue opere per qualsiasi fine, anche commerciale. <b>Devi</b> riconoscere una menzione di paternità adeguata, fornire un link alla licenza e indicare se sono state effettuate delle modifiche. Puoi fare ciò in qualsiasi maniera ragionevole possibile, ma non con modalità tali da suggerire che il licenziante avalli te o il tuo utilizzo del materiale. Se remixi, trasformi il materiale o ti basi su di esso, <emphasis role=\"bold\">devi</emphasis> distribuire i tuoi contributi con la stessa licenza del materiale originario.\n"
+"Inoltre, per le versioni remix (opere derivate), il licenziante chiede di "
+"non apportare alcuna modifica ai ringraziamenti personali dell'autore e alle "
+"brevi biografie dell'autore e dell'illustratore, ma di rimuovere "
+"completamente tali parti dalla versione remix.\n"
 "\n"
-"Per versioni remixate (lavori derivati), gli autori chiedono di non effettuare modifiche ai ringraziamenti personali dell’autore e alle brevi biografie dell’autore e dell’illustratrice, o piuttosto eliminare completamente queste parti dalla versione remixata.\n"
+"La pubblicazione con questa licenza culturale libera è stata possibile "
+"grazie al grande supporto di dpunkt.verlag GmbH / O'Reilly Media, Inc. per "
+"il libro tedesco e di No Starch Press per quello inglese. Purtroppo, le "
+"licenze Creative Commons sono ancora rare eccezioni per i libri pubblicati "
+"commercialmente e spesso considerate rivoluzionarie e rischiose dagli "
+"editori.\n"
 "\n"
-"La pubblicazione con una licenza culturale libera è stata possibile grazie al grande sostegno di dpunkt.verlag GmbH / O’Reilly per il libro in tedesco e di No Starch Press per l’edizione in inglese. Purtroppo le licenze Creative Commons sono ancora rare eccezioni nel mondo delle pubblicazioni commerciali, e spesso sono considerate rivoluzionarie e rischiose dagli editori.\n"
-"\n"
-"<emphasis role=\"bold\">Un immenso grazie</emphasis> a <emphasis role=\"bold\">dpunkt.verlag</emphasis> e a <emphasis role=\"bold\">No Starch Press</emphasis> per aver compreso i valori della libertà del software, aver dedicato del tempo per discutere e capire i vantaggi delle licenze culturali libere, e per il grande sostegno nel pubblicare questo libro con condizioni che rispettano i valori della FSFE.</literallayout>\n"
+"<emphasis role=\"bold\">Un grande ringraziamento</emphasis> a <emphasis role="
+"\"bold\">dpunkt.verlag</emphasis> e <emphasis role=\"bold\">No Starch Press</"
+"emphasis> per aver compreso i valori della libertà del software, per essersi "
+"presi il tempo di discutere e comprendere i vantaggi delle licenze culturali "
+"libere e per il grande supporto nel pubblicare questo libro in condizioni "
+"che rispettano i valori della FSFE.</literallayout>\n"
 
 #. (itstool) path: colophon/simplesect
 #. (itstool) id: Ada_Zangemann.dbk#sec-p02bb
 #. (itstool) comment: ./literallayout
 #. In a literallayout element all space and newline characters are kept.
 #: Ada_Zangemann.dbk:391
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "\n"
 "<literallayout><emphasis role=\"bold\">Free as in freedom not price</emphasis>\n"
@@ -313,18 +350,28 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"<para><emphasis role=\"bold\">Libero come libertà, non gratis</emphasis></para>\n"
+"<literallayout><emphasis role=\"bold\">Libero come libertà, non come "
+"prezzo</emphasis>\n"
+"Il Software Libero riguarda le libertà che si ottengono con il software, non "
+"il prezzo. Allo stesso modo, pubblicare un libro con una licenza per la "
+"cultura libera non significa avere il diritto di ottenere una copia gratuita "
+"del libro o dell'ebook. Significa ottenere i diritti sopra descritti, che "
+"consentono alla società di trarre ulteriori benefici da questo libro, come "
+"dovrebbe accadere con tutte le opere culturali.\n"
 "\n"
-"<para>Il Software Libero riguarda le libertà che ricevi con il software, non il prezzo. Allo stesso modo, pubblicare un libro con una licenza culturale libera non significa avere il diritto di ottenere una copia gratis del libro e dell’ebook. Significa invece avere i diritti sopra descritti, che permette alla società di beneficiare ulteriormente da esso, come dovrebbe essere per tutta la cultura.</para>\n"
+"Vi invitiamo a sostenere autori, editori e altri soggetti coinvolti nella "
+"creazione di cultura con licenze libere, anche <emphasis role=\"bold\""
+">sostenendoli finanziariamente attraverso acquisti o donazioni</emphasis>. ("
+"<link xlink:href=\"https://fsfe.org/donate\">https://fsfe.org/donate</link>)"
 "\n"
-"<literallayout>Ti incoraggiamo a sostenere autori, editori e altri coinvolti nella creazione della cultura con licenze libere, anche con <emphasis role=\"bold\">un sostegno finanziario attraverso l’acquisto</emphasis> (tutti i proventi della vendita di questa edizione in italiano saranno direttamente devoluti alla FSFE) o <emphasis role=\"bold\">una donazione</emphasis> (<link xlink:href=\"https://fsfe.org/donate\">https://fsfe.org/donate</link>).\n"
-"SLa società dovrebbe sostenere chi rispetta la libertà degli altri.</literallayout>\n"
+"La società dovrebbe sostenere coloro che rispettano la libertà "
+"altrui.</literallayout>\n"
 "    "
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:401
 msgid "Title page"
-msgstr ""
+msgstr "Titolo della pagina"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -348,7 +395,7 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:415
 msgid "Matthias Kirschner, Sandra Brandstätter"
-msgstr ""
+msgstr "Matthias Kirschner, Sandra Brandstätter"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -358,6 +405,8 @@ msgid ""
 "ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice "
 "Cream. Title in the middle, authors in the upper left."
 msgstr ""
+"ADA &amp; ZANGEMANN - Una storia di software, skateboard e gelato al "
+"lampone. Titolo al centro, autori in alto a sinistra."
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -367,6 +416,9 @@ msgid ""
 "In the lower right, Ada's family's dog with gray fur and some white patches "
 "and with a red collar with shiny yellow LEDs, which wags its tail."
 msgstr ""
+"In basso a destra, il cane della famiglia di Ada, con il pelo grigio e "
+"alcune macchie bianche, e con un collare rosso con LED gialli brillanti, che "
+"scodinzola."
 
 #. (itstool) path: simplesect/literallayout
 #. In a literallayout element all space and newline characters are kept.
@@ -376,6 +428,8 @@ msgid ""
 "Matthias Kirschner\n"
 "Sandra Brandstätter"
 msgstr ""
+"Matthias Kirschner\n"
+"Sandra Brandstätter"
 
 #. (itstool) path: simplesect/literallayout
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-titlepage
@@ -397,7 +451,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:449
 msgid "images/capitals/O-cyan.png"
-msgstr ""
+msgstr "images/capitals/O-cyan.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p04-1
@@ -517,7 +571,7 @@ msgstr "Zangemann e computer"
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:476
 msgid "images/capitals/C-red1.png"
-msgstr ""
+msgstr "images/capitals/C-red1.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p06-1
@@ -988,7 +1042,6 @@ msgstr ""
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
 #: Ada_Zangemann.dbk:582
-#, fuzzy
 msgid ""
 "Advertisements for Zangemann ice cream (sandwich board), a Zangemann "
 "electric skateboard, and a Zangemann washing machine. The math teacher, Ms. "
@@ -998,14 +1051,14 @@ msgid ""
 "fuchsia shoulder bag, worn behind her. She pushes a small shopping cart in "
 "which there is a small brown dog with a collar and tag."
 msgstr ""
-"Dei cartelloni pubblicitari nei quali sono presenti un gelato Zangemann, uno "
-"skateboard elettrico Zangemann ed una lavatrice Zangemann. Davanti ai "
-"cartelloni pubblicitari sta passando la maestra di matematica, la signora "
-"Gernet, un'anziana signora con capelli bianchi corti, è vestita con una "
-"maglietta verde chiaro e un maglione verde pisello, dei pantaloni marrone "
-"scuoro, delle scarpe con tacchi verde chiaro e una borsetta a tracolla "
-"fucsia, che rimane sulla sua schiena. Spinge un piccolo carrello della spesa "
-"nel quale c'è un piccolo cane tutto marrone con un collare e medaglietta."
+"Pubblicità del gelato Zangemann (tagliere per panini), di uno skateboard "
+"elettrico Zangemann e di una lavatrice Zangemann. L'insegnante di "
+"matematica, la signora Gernet, sta passando davanti ai cartelloni. La "
+"signora Gernet è un'anziana signora con i capelli corti e bianchi. Indossa "
+"una maglietta verde chiaro e un maglione verde pisello, pantaloni marrone "
+"scuro e scarpe col tacco verde chiaro. Ha una borsa a tracolla fucsia, "
+"portata dietro di sé. Spinge un piccolo carrello della spesa in cui si trova "
+"un cagnolino marrone con collare e medaglietta."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:587
@@ -1069,7 +1122,7 @@ msgstr "Gli skateboard non funzionano più"
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:610
 msgid "images/capitals/T-olive.png"
-msgstr ""
+msgstr "images/capitals/T-olive.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p18-1
@@ -1168,7 +1221,7 @@ msgstr "Ada e il software"
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:636
 msgid "images/capitals/A-fucsia.png"
-msgstr ""
+msgstr "images/capitals/A-fucsia.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p20-1
@@ -1267,7 +1320,7 @@ msgstr "Programmazione"
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:655
 msgid "images/capitals/O-lightcyan.png"
-msgstr ""
+msgstr "images/capitals/O-lightcyan.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p22-1
@@ -1388,7 +1441,7 @@ msgstr "Una notte orribile"
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:684
 msgid "images/capitals/Z-brown.png"
-msgstr ""
+msgstr "images/capitals/Z-brown.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p25-1
@@ -1456,7 +1509,7 @@ msgstr "Primo vero progetto"
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:695
 msgid "images/capitals/S-red2.png"
-msgstr ""
+msgstr "images/capitals/S-red2.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p26-1
@@ -1681,7 +1734,7 @@ msgstr "Hackerare per la libertà"
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:737
 msgid "images/capitals/M-yellow.png"
-msgstr ""
+msgstr "images/capitals/M-yellow.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p30-1
@@ -1844,7 +1897,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:790
 msgid "images/capitals/E-pink.png"
-msgstr ""
+msgstr "images/capitals/E-pink.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p35-1
@@ -1891,19 +1944,17 @@ msgstr ""
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:792
-#, fuzzy
 msgid ""
 "Some things they built just for fun, like the fart machine they put in their "
 "math teacher’s chair. Whenever Ms. Gernet sat down, the machine played a "
 "little fart sound. The teacher would scold them, but Ada was sure that she "
 "secretly smirked a little every time."
 msgstr ""
-"Alcune cose le costruirono per puro divertimento, ad esempio la macchina per "
-"riprodurre il rumore delle scoregge posta sotto la sedia della loro maestra "
-"di matematica, la signora Gernet. Ogni volta che la maestra si sedeva, si "
-"sentiva una piccola pernacchia. La signora Gernet li rimproverava, ma Ada "
-"era sicura che, sotto sotto, anche alla maestra ogni volta veniva da "
-"sorridere."
+"Alcune cose le costruivano solo per divertimento, come la macchina per "
+"scoregge che mettevano sulla sedia della loro insegnante di matematica. Ogni "
+"volta che la professoressa Gernet si sedeva, la macchina emetteva un piccolo "
+"suono di scoreggia. L'insegnante le rimproverava, ma Ada era sicura che ogni "
+"volta sorridesse segretamente."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:797
@@ -1916,7 +1967,7 @@ msgstr "Zangemann e il Presidente"
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:801
 msgid "images/capitals/O-green.png"
-msgstr ""
+msgstr "images/capitals/O-green.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p36-1
@@ -2038,7 +2089,7 @@ msgstr "Protesta"
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:832
 msgid "images/capitals/T-cyan.png"
-msgstr ""
+msgstr "images/capitals/T-cyan.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p39-1
@@ -2097,7 +2148,6 @@ msgstr ""
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:842
-#, fuzzy
 msgid ""
 "With each passing day, more and more children and adults joined the protest. "
 "The bus driver they had helped drove up in her bus. She honked loudly to "
@@ -2107,21 +2157,18 @@ msgid ""
 "weeks, there were protests not just in Ada’s city but also in many cities "
 "throughout the country."
 msgstr ""
-"Con ogni giorno che passava, sempre più bambini e adulti si univano alla "
-"protesta. L’autista del bus che era stata aiutata con le sue piante venne "
-"davanti al parlamento con il suo autobus. Suonò forte il clacson per "
-"attirare l’attenzione del maggior numero possibile di persone sulla "
-"protesta. Il bidello portò alcuni amici, e il papà di Toni venne con i suoi "
-"colleghi, tutti indossando cravatte stirate automaticamente. Venne anche la "
-"maestra di matematica. Il numero di manifestanti diventò sempre più grande "
-"e, dopo alcune settimane, la protesta non era limitata solo alla città di "
-"Ada: no, adesso si protestava ovunque nel Paese."
+"Con il passare dei giorni, sempre più bambini e adulti si univano alla "
+"protesta. L'autista dell'autobus che avevano aiutato arrivò con il suo "
+"autobus. Suonò forte clacson per attirare ancora più persone alla protesta. "
+"Il custode portò alcuni amici e il padre di Toni portò i suoi colleghi di "
+"lavoro, tutti con cravatte stirate alla perfezione. Anche la signora Gernet "
+"si unì. La folla crebbe e, dopo poche settimane, ci furono proteste non solo "
+"nella città di Ada, ma anche in molte città del Paese."
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
 #: Ada_Zangemann.dbk:847
-#, fuzzy
 msgid ""
 "Group of protesters. Among them there are: Ada's mother holding Alan's hand "
 "and raising a pink ice cream; 3 colleagues of Toni's father dressed in ties; "
@@ -2137,22 +2184,23 @@ msgid ""
 "held in her hand; Ada's family's dog is now wearing a red harness with shiny "
 "yellow LEDs that matches the collar."
 msgstr ""
-"Gruppo di persone che protestano, tra cui: la mamma di Ada che tiene per "
-"mano Alan e che ha in mano un gelato rosa; 3 colleghi del papà di Toni "
-"vestiti con la cravatta; due bambini che tengono lo striscione “Fai i tuoi "
-"compiti signor Presidente che noi facciamo i nostri!”; un robot con cingoli "
-"e ferri da stiro come piedi, un ventilatore elettrico come addome, un "
-"monitor come testa e con una frusta al posto di una mano e che tiene con "
-"l'altra mano un gelato azzurro; due genitori che tengono lo striscione "
-"“Hacking 4 Freedom”; una signora che tiene in mano un cartello luminoso con "
-"scritto “There is a code B”; due uccellini; la maestra di matematica, la "
-"signora Gernet, che ha inserito nel suo carrellino un cartello con scritto "
-"“Sono giovani + hanno bisogno del codice!”; nel carrellino c'è anche il suo "
-"cagnolino che abbaia; Ada Conrad tengono lo striscione “Vogliamo il codice "
-"libero!“ mentre Marie e Toni stanno camminando vicino allo striscione, e "
-"Marie ha in mano un megafono con il quale si fa sentire; il cagnolino della "
-"famiglia di Ada che indossa una imbracatura rossa con delle strisce a LED "
-"gialli scintillanti."
+"Un gruppo di manifestanti. Tra loro ci sono: la madre di Ada che tiene la "
+"mano di Alan e solleva un gelato rosa; 3 colleghi del padre di Toni in "
+"cravatta; due bambini che tengono lo striscione "
+"\"Fai i tuoi compiti, signor Presidente, e noi faremo i nostri!\"; un robot "
+"con cingoli da carro armato, ferri da stiro al posto dei piedi, un "
+"ventilatore elettrico al posto dell'addome, un monitor al posto della testa "
+"e uno sbattiuova al posto di una mano, che tiene un gelato blu nell'altra; "
+"due genitori che tengono lo striscione \"Hacking 4 Freedom\"; una signora "
+"che tiene un cartello elettronico \"C'è un codice B\"; due uccellini che "
+"volano; l'insegnante di matematica, la signora Gernet, che ha inserito nel "
+"suo carrello un cartello con la scritta "
+"\"Sono giovani + hanno bisogno del codice!\". Il cane nel suo carrello "
+"abbaia; Ada e Konrad portano lo striscione "
+"\"Non distruggete la nostra tecnologia!\". Marie e Toni camminano sotto lo "
+"striscione, e Marie parla attraverso un megafono che tiene in mano; Il cane "
+"della famiglia di Ada ora indossa una pettorina rossa con LED gialli "
+"brillanti che si abbinano al collare."
 
 #. (itstool) path: info/excerpt
 #. Text on big banner, left on the illustration
@@ -2212,7 +2260,7 @@ msgstr "I bambini aiutano il governo"
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:877
 msgid "images/capitals/A-violet.png"
-msgstr ""
+msgstr "images/capitals/A-violet.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p42-1
@@ -2339,7 +2387,7 @@ msgstr "Nuova legge"
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:904
 msgid "images/capitals/T-red3.png"
-msgstr ""
+msgstr "images/capitals/T-red3.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p44-1
@@ -2439,7 +2487,6 @@ msgstr ""
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:927
-#, fuzzy
 msgid ""
 "That evening, everyone celebrated with a big party. Ada, Alan, Toni, Marie, "
 "Konrad, and other children from school and their parents; the president; Ms. "
@@ -2447,18 +2494,16 @@ msgid ""
 "the streets, listened to loud music, and ate ice cream, as much as they "
 "wanted, and in every imaginable shape and color."
 msgstr ""
-"La sera stessa, tutti fecero una grande festa insieme. Ada, Alan, Toni, "
-"Marie, Conrad, gli altri bambini della scuola e i loro genitori, il "
-"Presidente, la maestra Gernet, l’autista dell’autobus, il bidello: erano "
-"tutti lì. Decorarono le strade, ascoltarono musica ad alto volume e per "
-"festeggiare mangiarono quanto gelato volevano, in tutte le forme e colori "
-"concepibili."
+"Quella sera, tutti festeggiarono con una grande festa. Ada, Alan, Toni, "
+"Marie, Konrad e altri bambini della scuola con i loro genitori; la "
+"presidentessa; la signora Gernet; l'autista dell'autobus; il custode: erano "
+"tutti lì. Decorarono le strade, ascoltarono musica a tutto volume e "
+"mangiarono gelati a volontà, in ogni forma e colore immaginabili."
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
 #: Ada_Zangemann.dbk:932
-#, fuzzy
 msgid ""
 "Evening party. Children are holding ice cream and balloons with the words “I "
 "love FS (I love Free Software)”; other children are riding skateboards; "
@@ -2466,12 +2511,12 @@ msgid ""
 "system; Ms. Gernet holds a pink tree-shaped ice cream with a yellow star on "
 "it; Ada's mom is dancing with a gentleman."
 msgstr ""
-"Festa tutti insieme. Bambini che hanno in mano gelati e palloncini con la "
-"scritta “I love FS (Io amo il Software Libero)”; altri bambini che viaggiano "
-"con gli skateboard; bandierine gialle e arancioni appese per far festa; "
-"delle grosse casse da cui esce musica; la signora Gernet tiene in mano un "
-"gelato rosa a forma di albero con sopra una stella gialla; la mamma di Ada "
-"che sta ballando con un signore."
+"Festa serale. I bambini tengono in mano un gelato e palloncini con la "
+"scritta \"I love FS (I love Free Software)\"; altri bambini vanno sullo "
+"skateboard; ci sono bandiere gialle e arancioni appese; la musica esce da un "
+"grande sistema di altoparlanti; la signora Gernet tiene in mano un gelato "
+"rosa a forma di albero con una stella gialla; la mamma di Ada balla con un "
+"signore."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:936
@@ -2514,7 +2559,7 @@ msgstr "E Zangemann?"
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:951
 msgid "images/capitals/A-yellow.png"
-msgstr ""
+msgstr "images/capitals/A-yellow.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p48-1
