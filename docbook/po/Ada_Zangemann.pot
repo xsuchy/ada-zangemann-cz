@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-25 07:27+0200\n"
+"POT-Creation-Date: 2025-04-26 08:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgstr ""
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
 #. history or science, but if you want to change them in order to make it
-#. easier for children to relate to the characters we should find names
+#. easier for children to relate to the characters you should find names
 #. which are still common but connected to important figures in the
 #. computer history. If you have problems with that, feel free to reach
 #. out to Matthias. Please also make sure to just exchange male names with
@@ -86,7 +86,7 @@ msgstr ""
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
 #. history or science, but if you want to change them in order to make it
-#. easier for children to relate to the characters we should find names
+#. easier for children to relate to the characters you should find names
 #. which are still common but connected to important figures in the
 #. computer history. If you have problems with that, feel free to reach
 #. out to Matthias. Please also make sure to just exchange male names with
@@ -99,7 +99,7 @@ msgstr ""
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
 #. history or science, but if you want to change them in order to make it
-#. easier for children to relate to the characters we should find names
+#. easier for children to relate to the characters you should find names
 #. which are still common but connected to important figures in the
 #. computer history. If you have problems with that, feel free to reach
 #. out to Matthias. Please also make sure to just exchange male names with
@@ -112,7 +112,7 @@ msgstr ""
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
 #. history or science, but if you want to change them in order to make it
-#. easier for children to relate to the characters we should find names
+#. easier for children to relate to the characters you should find names
 #. which are still common but connected to important figures in the
 #. computer history. If you have problems with that, feel free to reach
 #. out to Matthias. Please also make sure to just exchange male names with

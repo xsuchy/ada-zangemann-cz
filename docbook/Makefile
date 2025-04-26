@@ -29,7 +29,7 @@ po/Ada_Zangemann.pot: Ada_Zangemann.dbk
 # Update .po files when .pot strings get updated
 po/%.po: po/Ada_Zangemann.pot
 	if [ ! -e $@ ]; then cp po/Ada_Zangemann.pot $@; fi
-	msgmerge --no-wrap --update $@ po/Ada_Zangemann.pot
+	msgmerge --update $@ po/Ada_Zangemann.pot
 
 # Generate message strings for further processing
 # Stored alongside .po files to deal with assumptions by tools
