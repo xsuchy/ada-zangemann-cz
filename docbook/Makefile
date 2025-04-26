@@ -132,6 +132,15 @@ $(targets-print-headings-img): build/%/print-headings-img/Ada_Zangemann-print-he
 .PHONY: build/all/print-headings-img/Ada_Zangemann-print-headings-img.sla
 build/all/print-headings-img/Ada_Zangemann-print-headings-img.sla: $(targets-print-headings-img)
 
+targets-print-headings-img-colophon-print = $(addprefix build/,$(addsuffix /print-headings-img-colophon-print/Ada_Zangemann-print-headings-img-colophon-print.sla,$(translations)))
+$(targets-print-headings-img-colophon-print): build/%/print-headings-img-colophon-print/Ada_Zangemann-print-headings-img-colophon-print.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
+	mkdir -p $(@D)
+	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-img;capitals-img;colophon-print" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
+
+.PHONY: build/all/print-headings-img/Ada_Zangemann-print-headings-img.sla
+build/all/print-headings-img/Ada_Zangemann-print-headings-img.sla: $(targets-print-headings-img)
+
 # Build version with text headers
 targets-print-headings-text = $(addprefix build/,$(addsuffix /print-headings-text/Ada_Zangemann-print-headings-text.sla,$(translations)))
 $(targets-print-headings-text): build/%/print-headings-text/Ada_Zangemann-print-headings-text.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
@@ -142,18 +151,21 @@ $(targets-print-headings-text): build/%/print-headings-text/Ada_Zangemann-print-
 .PHONY: build/all/print-headings-text/Ada_Zangemann-print-headings-text.sla
 build/all/print-headings-text/Ada_Zangemann-print-headings-text.sla: $(targets-print-headings-text)
 
+targets-print-headings-text-colophon-print = $(addprefix build/,$(addsuffix /print-headings-text-colophon-print/Ada_Zangemann-print-headings-text-colophon-print.sla,$(translations)))
+$(targets-print-headings-text-colophon-print): build/%/print-headings-text-colophon-print/Ada_Zangemann-print-headings-text-colophon-print.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
+	mkdir -p $(@D)
+	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-text;capitals-text;colophon-print" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
+
+.PHONY: build/all/print-headings-text-colophon-print/Ada_Zangemann-print-headings-text-colophon-print.sla
+build/all/print-headings-text-colophon-print/Ada_Zangemann-print-headings-text-colophon-print.sla: $(targets-print-headings-text-colophon-print)
+
 # Build version with text subtitle
 targets-coverhard-text = $(addprefix build/,$(addsuffix /coverhard-text/Ada_Zangemann-coverhard-text.sla,$(translations)))
 $(targets-coverhard-text): build/%/coverhard-text/Ada_Zangemann-coverhard-text.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
 	mkdir -p $(@D)
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "capitals-text;cover-print-text;colophon-simple" xsl/scribus.xsl templates/template-coverhard.sla > $@.log 2>&1
-
-targets-coverhard-img = $(addprefix build/,$(addsuffix /coverhard-img/Ada_Zangemann-coverhard-img.sla,$(translations)))
-$(targets-coverhard-img): build/%/coverhard-img/Ada_Zangemann-coverhard-img.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
-	mkdir -p $(@D)
-	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
-	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "capitals-img;cover-print-img;colophon-simple" xsl/scribus.xsl templates/template-coverhard.sla > $@.log 2>&1
 
 # Build version with no conditional content (for debugging)
 build/%/print-headings-none/Ada_Zangemann-print-headings-none.sla: build/%/Ada_Zangemann.dbk build/%/images/illustrations build/%/images/capitals xsl/scribus.xsl
