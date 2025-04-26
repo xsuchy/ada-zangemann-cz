@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2025-04-26 08:13+0200\n"
 "PO-Revision-Date: 2025-04-26 21:20+0000\n"
-"Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
+"Last-Translator: Moonshadow <moonshadow@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/fsfe/"
 "ada-zangemann/kab/>\n"
 "Language: kab\n"
@@ -707,6 +707,9 @@ msgstr ""
 #: Ada_Zangemann.dbk:698
 msgid "Back at the junkyard, she adapted some lines of code for her skateboard program. She tweaked a few things and kept tinkering."
 msgstr ""
+"Tuɣal ɣerwanda ttḍegiren akk ayen ixesṛent, tessenɣel-d kra n yizirigen n "
+"tengalt i wahil-is n skateboard. Tefren snat, tlata n tɣawsiwin syen tkemmel "
+"asfurkes-is."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:699
