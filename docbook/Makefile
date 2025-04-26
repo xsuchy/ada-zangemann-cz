@@ -165,6 +165,10 @@ build/%/print-headings-none/Ada_Zangemann-print-headings-none.sla: build/%/Ada_Z
 %.pdf: %.sla
 	../scripts/./to_pdf.sh $<
 
+# Create a pdf with lower quality images for reduced file size
+%.lowres.pdf: %.pdf
+	gs -sDEVICE=pdfwrite -dPDFSETTINGS=/screen -o $@ $<
+
 # Link template files, for development
 # TODO: check, does this work correctly?
 build/%/template-print.sla:
