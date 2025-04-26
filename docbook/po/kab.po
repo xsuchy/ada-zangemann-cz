@@ -2,18 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2025-04-26 08:13+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-04-26 18:31+0000\n"
+"Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Kabyle <https://hosted.weblate.org/projects/fsfe/"
+"ada-zangemann/kab/>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Ɛetman At Lmehdi <Butterflyoffire@protonmail.com>, 2025"
 
 #. (itstool) path: info/title
 #. (itstool) path: cover/bridgehead
@@ -22,7 +25,7 @@ msgstr ""
 #: Ada_Zangemann.dbk:306
 #: Ada_Zangemann.dbk:445
 msgid "Ada &amp; Zangemann"
-msgstr ""
+msgstr "Ada akked Zangemann"
 
 #. (itstool) path: info/subtitle
 #. (itstool) path: cover/bridgehead
@@ -35,41 +38,45 @@ msgstr ""
 #. ISBN of print edition
 #: Ada_Zangemann.dbk:264
 msgid "978-1-7185-0318-2"
-msgstr ""
+msgstr "978-1-7185-0318-2"
 
 #. (itstool) path: info/biblioid
 #. ISBN of ebook edition
 #: Ada_Zangemann.dbk:265
 msgid "978-1-7185-0319-9"
-msgstr ""
+msgstr "978-1-7185-0319-9"
 
 #. (itstool) path: info/author
 #: Ada_Zangemann.dbk:267
 msgid "<personname> <firstname>Matthias</firstname> <surname>Kirschner</surname> </personname>"
 msgstr ""
+"<personname> <firstname>Matthias</firstname> <surname>Kirschner</surname> "
+"</personname>"
 
 #. (itstool) path: info/othercredit
 #: Ada_Zangemann.dbk:273
 msgid "<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surname> </personname>"
 msgstr ""
+"<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surname> "
+"</personname>"
 
 #. (itstool) path: namedcharacters/character
 #. Name must not be changed
 #: Ada_Zangemann.dbk:281
 msgid "<az:charactername>Ada</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Ada</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Name must not be changed
 #: Ada_Zangemann.dbk:284
 msgid "<az:charactername>Zangemann</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Zangemann</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Name must not be changed
 #: Ada_Zangemann.dbk:287
 msgid "<az:charactername>Alan</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Alan</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -176,7 +183,7 @@ msgstr ""
 #: Ada_Zangemann.dbk:362
 #: Ada_Zangemann.dbk:437
 msgid "ADA &amp; ZANGEMANN"
-msgstr ""
+msgstr "ADA akked ZANGEMANN"
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:368
@@ -231,7 +238,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:401
 msgid "Title page"
-msgstr ""
+msgstr "Azwel n usebtar"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -245,7 +252,7 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:415
 msgid "Matthias Kirschner, Sandra Brandstätter"
-msgstr ""
+msgstr "Matthias Kirschner, Sandra Brandstätter"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -269,6 +276,8 @@ msgid ""
 "Matthias Kirschner\n"
 "Sandra Brandstätter"
 msgstr ""
+"Matthias Kirschner\n"
+"Sandra Brandstätter"
 
 #. (itstool) path: simplesect/literallayout
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-titlepage
@@ -317,7 +326,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:472
 msgid "Zangemann and computers"
-msgstr ""
+msgstr "Zangemann d yiselkimen"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -442,7 +451,7 @@ msgstr ""
 #. equal to the beginning of the first sentence of this chapter.
 #: Ada_Zangemann.dbk:553
 msgid "One day..."
-msgstr ""
+msgstr "Yiwen n wass…"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:556
@@ -555,7 +564,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:632
 msgid "Ada and software"
-msgstr ""
+msgstr "Ada d useɣẓan"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -591,7 +600,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:651
 msgid "Programming"
-msgstr ""
+msgstr "Asihel"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -644,7 +653,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:680
 msgid "A horrible night"
-msgstr ""
+msgstr "Iḍ yessexlaεen"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -673,7 +682,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:691
 msgid "First real project"
-msgstr ""
+msgstr "Asenfaṛ amezwaru n tidet"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -846,7 +855,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:797
 msgid "Zangemann and the President"
-msgstr ""
+msgstr "Zangemann akked uselway"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -899,7 +908,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:827
 msgid "Protest"
-msgstr ""
+msgstr "Tarkawt"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -963,7 +972,7 @@ msgstr ""
 #. Text on square signe on the right of the illustration
 #: Ada_Zangemann.dbk:866
 msgid "They are young + need the code!"
-msgstr ""
+msgstr "Meẓẓiyit yerna ḥwaǧen angal!"
 
 #. (itstool) path: info/excerpt
 #. Text on banner on the banner held by children on the right of the
@@ -976,7 +985,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:874
 msgid "Children help the government"
-msgstr ""
+msgstr "Igerdan ttεawanen anabaḍ"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1029,7 +1038,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:901
 msgid "New law"
-msgstr ""
+msgstr "Asaḍuf amaynut"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1106,7 +1115,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:947
 msgid "And Zangemann?"
-msgstr ""
+msgstr "I Zangemann?"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1140,7 +1149,7 @@ msgstr ""
 #. (itstool) id: Ada_Zangemann.dbk#title-acknowledgments
 #: Ada_Zangemann.dbk:972
 msgid "Acknowledgments"
-msgstr ""
+msgstr "Asnemmer n umeskar"
 
 #. (itstool) path: simplesect/para
 #. In the acknowledgments of the English version you can change 'No Starch
@@ -1172,18 +1181,18 @@ msgstr ""
 #. (itstool) id: Ada_Zangemann.dbk#title-author
 #: Ada_Zangemann.dbk:999
 msgid "About the Author"
-msgstr ""
+msgstr "Ɣef umeskar"
 
 #. (itstool) path: info/subtitle
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-author
 #: Ada_Zangemann.dbk:1000
 msgid "Matthias Kirschner"
-msgstr ""
+msgstr "Matthias Kirschner"
 
 #. (itstool) path: info/titleabbrev
 #: Ada_Zangemann.dbk:1001
 msgid "About the Author - Matthias Kirschner"
-msgstr ""
+msgstr "Ɣef umeskar - Matthias Kirschner"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1207,7 +1216,7 @@ msgstr ""
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-illustrator
 #: Ada_Zangemann.dbk:1023
 msgid "Sandra Brandstätter"
-msgstr ""
+msgstr "Sandra Brandstätter"
 
 #. (itstool) path: info/titleabbrev
 #: Ada_Zangemann.dbk:1024
@@ -1230,7 +1239,7 @@ msgstr ""
 #. (itstool) id: Ada_Zangemann.dbk#title-bookswebsite
 #: Ada_Zangemann.dbk:1044
 msgid "Book's website"
-msgstr ""
+msgstr "Asebter Web n udlis"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1052
@@ -1246,7 +1255,7 @@ msgstr ""
 #. (itstool) id: Ada_Zangemann.dbk#title-license
 #: Ada_Zangemann.dbk:1061
 msgid "License"
-msgstr ""
+msgstr "Turagt"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1069
@@ -1257,6 +1266,8 @@ msgstr ""
 #: Ada_Zangemann.dbk:1070
 msgid "<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</link>"
 msgstr ""
+"<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://"
+"creativecommons.org/licenses/by-sa/4.0/</link>"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
