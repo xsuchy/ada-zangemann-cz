@@ -33,7 +33,7 @@ Use Krita, with `p40-p41-rgb.kra` file.
 - Opacity: 100%
 - Sizes:
    - 40,00 px "DO YOUR HOMEWORK"
-   - 30,00 px "Mr. President" "and we will do ours"
+   - 25,00 px "Mr. President" "and we will do ours"
 - Colors:
    - Green text: `#66b586` (approximately)
    - Red text: `#dc738d` (approximately)
