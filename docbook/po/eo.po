@@ -1,19 +1,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-04-26 08:13+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-04-28 16:39+0000\n"
+"Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
+"Language-Team: Esperanto <https://hosted.weblate.org/projects/fsfe/"
+"ada-zangemann/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Marco Ciampa <ciampix@posteo.net>, 2025"
 
 #. (itstool) path: info/title
 #. (itstool) path: cover/bridgehead
@@ -22,54 +26,58 @@ msgstr ""
 #: Ada_Zangemann.dbk:306
 #: Ada_Zangemann.dbk:445
 msgid "Ada &amp; Zangemann"
-msgstr ""
+msgstr "Ada &amp; Zangemann"
 
 #. (itstool) path: info/subtitle
 #. (itstool) path: cover/bridgehead
 #: Ada_Zangemann.dbk:263
 #: Ada_Zangemann.dbk:307
 msgid "A Tale of Software, Skateboards, and Raspberry Ice Cream"
-msgstr ""
+msgstr "Rakonto pri programaro, rultabuloj, kaj framba glaciaĵo"
 
 #. (itstool) path: info/biblioid
 #. ISBN of print edition
 #: Ada_Zangemann.dbk:264
 msgid "978-1-7185-0318-2"
-msgstr ""
+msgstr "978-1-7185-0318-2"
 
 #. (itstool) path: info/biblioid
 #. ISBN of ebook edition
 #: Ada_Zangemann.dbk:265
 msgid "978-1-7185-0319-9"
-msgstr ""
+msgstr "978-1-7185-0319-9"
 
 #. (itstool) path: info/author
 #: Ada_Zangemann.dbk:267
 msgid "<personname> <firstname>Matthias</firstname> <surname>Kirschner</surname> </personname>"
 msgstr ""
+"<personname> <firstname>Matthias</firstname> <surname>Kirschner</surname> "
+"</personname>"
 
 #. (itstool) path: info/othercredit
 #: Ada_Zangemann.dbk:273
 msgid "<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surname> </personname>"
 msgstr ""
+"<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surname> "
+"</personname>"
 
 #. (itstool) path: namedcharacters/character
 #. Name must not be changed
 #: Ada_Zangemann.dbk:281
 msgid "<az:charactername>Ada</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Ada</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Name must not be changed
 #: Ada_Zangemann.dbk:284
 msgid "<az:charactername>Zangemann</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Zangemann</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Name must not be changed
 #: Ada_Zangemann.dbk:287
 msgid "<az:charactername>Alan</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Alan</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -82,7 +90,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:290
 msgid "<az:charactername>Toni</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Toni</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -95,7 +103,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:293
 msgid "<az:charactername>Konrad</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Konrad</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -108,7 +116,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:296
 msgid "<az:charactername>Marie</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Marie</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -121,7 +129,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:299
 msgid "<az:charactername>Ms. Gernet</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Ms. Gernet</az:charactername>"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -129,6 +137,25 @@ msgstr ""
 #: Ada_Zangemann.dbk:320
 msgid "Ada &amp; Zangemann - A Tale of Software, Skateboards, and Raspberry Ice Cream. By Matthias Kirschner and Sandra Brandstätter. On a mostly desaturated dark cyan background, in a frame composed of sometimes curled white lines that connect a mouse, a keyboard, and a pink smartphone, Ada and Zangemann are facing each other, both with their hands on their hips as a sign of challenge. Ada is smiling and Zangemann is frowning. Ada has black hair collected in two big right- and left-bound ringlets with red rubber bands, and red cheeks. She has little yellow stud earrings. She wears cyan and white horizontal striped shorts and a yellow shirt over a white undershirt that ends with embroidery that goes beyond the shirt. The shirt and undershirt come out over the shorts. Above the shirt Ada wears a blue hoodie. Ada is wearing red shoes with white tips and soles, and short white socks. She has one foot on a skateboard and the other on the ground. Zangemann has short gray hair and square glasses. He is wearing a purple turtle-neck sweater, light blue pants turned up, brown shoes, and white socks. He's wearing a big tech watch. Above Zangemann there are a pair of pliers with red handles crossing the wire frame."
 msgstr ""
+"Ada kaj Zangemann - Rakonto pri programaro, rultabuloj kaj framba glaciaĵo. "
+"De Matthias Kirschner kaj Sandra Brandstätter. Sur plejparte nesaturita "
+"malhela cejana fono, en kadro konsistanta el kelkfoje krispaj blankaj "
+"linioj, kiuj konektas muson, klavaron kaj rozkoloran inteligentan telefonon, "
+"Ada kaj Zangemann staras unu al la alia, ambaŭ kun la manoj sur la koksoj "
+"kiel signo de defio. Ada ridetas kaj Zangemann sulkas. Ada havas nigran "
+"hararon kolektitan en du grandajn dekstra- kaj maldekstra-laŭtune buklojn "
+"kun ruĝaj kaŭĉukaj bendoj, kaj ruĝajn vangojn. Ŝi havas malgrandajn flavajn "
+"orelringojn. Ŝi portas cejanajn kaj blankajn horizontale striitajn ŝortojn "
+"kaj flavan ĉemizon super blanka subĉemizo, kiu finiĝas per brodaĵo, kiu "
+"etendiĝas preter la ĉemizo. La ĉemizo kaj subĉemizo elstaras super la "
+"ŝortoj. Super la ĉemizo, Ada portas bluan ŝvitĉemizon kun kapuĉo. Ada portas "
+"ruĝajn ŝuojn kun blankaj pintoj kaj plandoj, kaj mallongajn blankajn "
+"ŝtrumpetojn. Ŝi havas unu piedon sur rultabulo kaj la alian sur la tero. "
+"Zangemann havas mallongajn grizajn harojn kaj kvadratajn okulvitrojn. Li "
+"portas purpuran sveteron kun rulkolumo, helbluajn pantalonojn "
+"suprenfaldigitajn, brunajn ŝuojn kaj blankajn ŝtrumpetojn. Li portas grandan "
+"teknologian horloĝon. Super Zangemann estas pinĉilo kun ruĝaj teniloj, kiuj "
+"transiras la dratan kadron."
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -136,6 +163,8 @@ msgstr ""
 #: Ada_Zangemann.dbk:329
 msgid "A soldering iron and a brush and can with yellow paint, connected by white electrical cord that forms a frame."
 msgstr ""
+"Elektra lutilo kaj broso kaj ladskatolo kun flava farbo, konektitaj per "
+"blanka elektra ŝnuro kiu formas kadron."
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -143,18 +172,27 @@ msgstr ""
 #. required color. Can be postponed to the publishing process.
 #: Ada_Zangemann.dbk:332
 msgid "images/capitals/T-yellow2.png"
-msgstr ""
+msgstr "images/capitals/T-yellow2.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-back-1
 #: Ada_Zangemann.dbk:332
 msgid "<phrase condition=\"capitals-text\">The</phrase><phrase condition=\"capitals-img\">he</phrase> inventor Zangemann is world-famous and immensely rich. Adults and children alike love his fabulous technical inventions. But one day there is a problem: the children's electronic skateboards no longer work properly. What’s going on? The curious girl Ada sees through what is going on. Together with her friends, she experiments with hardware and software, and the children forge a plan: Zangemann can no longer be the only one in control of the devices!"
 msgstr ""
+"<phrase condition=\"capitals-text\">La</phrase><phrase condition=\"capitals-"
+"img\">a</phrase> inventisto Zangemann estas mondfama kaj ege riĉa. "
+"Plenkreskuloj kaj infanoj egale amas liajn mirindajn teknikajn inventaĵojn. "
+"Sed unu tagon aperas problemo: la elektronikaj rultabuloj de la infanoj jam "
+"ne funkcias ĝuste. Kio okazas? La scivolema knabino Ada travidas tion, kio "
+"okazas. Kune kun siaj amikoj, ŝi eksperimentas kun aparataro kaj programaro, "
+"kaj la infanoj elpensas planon: Zangemann jam ne plu povas esti la sola, kiu "
+"regas la aparatojn!"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:333
 msgid "A book that arouses interest in tinkering and encourages shaping technology."
 msgstr ""
+"Libro, kiu vekas intereson pri eksperimentado kaj instigas krei teknologion."
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -162,11 +200,13 @@ msgstr ""
 #: Ada_Zangemann.dbk:340
 msgid "A power strip, with input and output of white electrical cord that is the frame."
 msgstr ""
+"Elektrostrio, kun enigo kaj eligo de blanka elektra ŝnuro, kiu estas la "
+"kadro."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:355
 msgid "Half-title page"
-msgstr ""
+msgstr "Frontispico"
 
 #. (itstool) path: mediaobject/alt
 #. (itstool) path: simplesect/para
@@ -175,13 +215,14 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:362
 #: Ada_Zangemann.dbk:437
+#, fuzzy
 msgid "ADA &amp; ZANGEMANN"
-msgstr ""
+msgstr "ADA &amp; ZANGEMANN"
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:368
 msgid "Imprint"
-msgstr ""
+msgstr "Premsigno"
 
 #. (itstool) path: colophon/simplesect
 #. (itstool) id: Ada_Zangemann.dbk#sec-p02
