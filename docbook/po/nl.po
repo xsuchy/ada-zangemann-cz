@@ -4,9 +4,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-04-26 08:13+0200\n"
-"PO-Revision-Date: 2025-04-25 06:09+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-04-27 21:52+0000\n"
+"Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/fsfe/ada-zangemann/"
 "nl/>\n"
 "Language: nl\n"
@@ -14,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.1-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -29,8 +30,9 @@ msgstr ""
 #. (itstool) path: cover/bridgehead
 #. Ampersand character & is escaped for XML source format as &amp;
 #: Ada_Zangemann.dbk:262 Ada_Zangemann.dbk:306 Ada_Zangemann.dbk:445
+#, fuzzy
 msgid "Ada &amp; Zangemann"
-msgstr ""
+msgstr "Ada &amp; Zangemann"
 
 #. (itstool) path: info/subtitle
 #. (itstool) path: cover/bridgehead
@@ -52,35 +54,44 @@ msgstr ""
 
 #. (itstool) path: info/author
 #: Ada_Zangemann.dbk:267
+#, fuzzy
 msgid ""
 "<personname> <firstname>Matthias</firstname> <surname>Kirschner</surname> </"
 "personname>"
 msgstr ""
+"<personname> <firstname>Matthias</firstname> <surname>Kirschner</surname> "
+"</personname>"
 
 #. (itstool) path: info/othercredit
 #: Ada_Zangemann.dbk:273
+#, fuzzy
 msgid ""
 "<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surname> </"
 "personname>"
 msgstr ""
+"<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surname> "
+"</personname>"
 
 #. (itstool) path: namedcharacters/character
 #. Name must not be changed
 #: Ada_Zangemann.dbk:281
+#, fuzzy
 msgid "<az:charactername>Ada</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Ada</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Name must not be changed
 #: Ada_Zangemann.dbk:284
+#, fuzzy
 msgid "<az:charactername>Zangemann</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Zangemann</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Name must not be changed
 #: Ada_Zangemann.dbk:287
+#, fuzzy
 msgid "<az:charactername>Alan</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Alan</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -92,8 +103,9 @@ msgstr ""
 #. male names, female names with female names to keep the gender balance
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:290
+#, fuzzy
 msgid "<az:charactername>Toni</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Toni</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -106,7 +118,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:293
 msgid "<az:charactername>Konrad</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Bram</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -118,8 +130,9 @@ msgstr ""
 #. male names, female names with female names to keep the gender balance
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:296
+#, fuzzy
 msgid "<az:charactername>Marie</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Marie</az:charactername>"
 
 #. (itstool) path: namedcharacters/character
 #. Character names are mostly reference to existing people in computer
@@ -132,7 +145,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #: Ada_Zangemann.dbk:299
 msgid "<az:charactername>Ms. Gernet</az:charactername>"
-msgstr ""
+msgstr "<az:charactername>Mevrouw Gernet</az:charactername>"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -238,7 +251,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:355
 msgid "Half-title page"
-msgstr ""
+msgstr "Franse titelpagina"
 
 #. (itstool) path: mediaobject/alt
 #. (itstool) path: simplesect/para
@@ -246,8 +259,9 @@ msgstr ""
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired.
 #: Ada_Zangemann.dbk:362 Ada_Zangemann.dbk:437
+#, fuzzy
 msgid "ADA &amp; ZANGEMANN"
-msgstr ""
+msgstr "ADA &amp; ZANGEMANN"
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:368
@@ -362,7 +376,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:401
 msgid "Title page"
-msgstr ""
+msgstr "Titelpagina"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -386,7 +400,7 @@ msgstr ""
 #. visual impaired.
 #: Ada_Zangemann.dbk:415
 msgid "Matthias Kirschner, Sandra Brandstätter"
-msgstr ""
+msgstr "Matthias Kirschner, Sandra Brandstätter"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -396,6 +410,8 @@ msgid ""
 "ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice "
 "Cream. Title in the middle, authors in the upper left."
 msgstr ""
+"ADA &amp; ZANGEMANN - Een verhaal over software, skateboards en "
+"frambozenijs. Titel in het midden, auteurs linksboven."
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -405,6 +421,9 @@ msgid ""
 "In the lower right, Ada's family's dog with gray fur and some white patches "
 "and with a red collar with shiny yellow LEDs, which wags its tail."
 msgstr ""
+"Rechtsonderin Ada's familiehond, met een grijze vacht met enkele witte "
+"vlekken en met een rode halsband met brandende gele leds, die kwispelt met "
+"de staart."
 
 #. (itstool) path: simplesect/literallayout
 #. In a literallayout element all space and newline characters are kept.
@@ -414,6 +433,8 @@ msgid ""
 "Matthias Kirschner\n"
 "Sandra Brandstätter"
 msgstr ""
+"Matthias Kirschner\n"
+"Sandra Brandstätter"
 
 #. (itstool) path: simplesect/literallayout
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-titlepage
@@ -2610,8 +2631,9 @@ msgstr "Over de auteur"
 #. (itstool) path: info/subtitle
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-author
 #: Ada_Zangemann.dbk:1000
+#, fuzzy
 msgid "Matthias Kirschner"
-msgstr ""
+msgstr "Matthias Kirschner"
 
 #. (itstool) path: info/titleabbrev
 #: Ada_Zangemann.dbk:1001
@@ -2653,8 +2675,9 @@ msgstr "Over de illustrator"
 #. (itstool) path: info/subtitle
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-illustrator
 #: Ada_Zangemann.dbk:1023
+#, fuzzy
 msgid "Sandra Brandstätter"
-msgstr ""
+msgstr "Sandra Brandstätter"
 
 #. (itstool) path: info/titleabbrev
 #: Ada_Zangemann.dbk:1024
@@ -2743,10 +2766,13 @@ msgstr ""
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1070
+#, fuzzy
 msgid ""
 "<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://"
 "creativecommons.org/licenses/by-sa/4.0/</link>"
 msgstr ""
+"<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://"
+"creativecommons.org/licenses/by-sa/4.0/</link>"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
