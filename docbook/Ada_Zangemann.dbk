@@ -348,7 +348,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
   <!-- Start of the book -->
   <preface role="half-title-page">
     <info>
-      <title>Half-title page</title>
+      <title its:locNote="Page before the colophon and the title page, with just the title. Also know as 'bastard title'.">Half-title page</title>
     </info>
     <simplesect xml:id="sec-p01" az:pagenum="1">
       <mediaobject xml:id="img-ada-p01-titleonly">
@@ -445,7 +445,7 @@ Society should support those who respect others' freedom.</literallayout>
   </colophon>
   <preface role="title-page">
     <info>
-      <title>Title page</title>
+      <title its:locNote="Page next to the colophon with title, subtitle, authors and illustration of Ada's dog.">Title page</title>
     </info>
     <simplesect xml:id="sec-p03" az:pagenum="3">
       <anchor az:slidenum="1"/>
