@@ -64,7 +64,7 @@
         <CHARSTYLE CNAME="Body Emphasis Bold" CPARENT="Default Character Style" FONT="Roboto Bold" FONTFEATURES="-clig"/>
         <CHARSTYLE CNAME="Credits Emphasis Italic" CPARENT="Credits" FONT="Roboto Italic" FONTFEATURES="-clig"/>
         <CHARSTYLE CNAME="Credits Emphasis Bold" CPARENT="Credits" FONT="Roboto Bold" FONTFEATURES="-clig"/>
-        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" DIRECTION="0" LINESPMode="1" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" HyphenConsecutiveLines="2" BCOLOR="None" BSHADE="100"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" DIRECTION="0" LINESPMode="0" LINESP="17.5" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" HyphenConsecutiveLines="2" BCOLOR="None" BSHADE="100"/>
         <STYLE NAME="ListStyle" INDENT="33.0207874015748" FIRST="-17.0107086614173" FONTSIZE="10">
             <Tabs Type="0" Pos="33.0207874015748" Fill=""/>
         </STYLE>
