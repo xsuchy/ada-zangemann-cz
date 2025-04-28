@@ -226,7 +226,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
     <!-- Translator note for alt tag -->
     <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//db:alt">
-      <its:locNote>The alt tag contains an alternative text, describing the image for the visual impaired.</its:locNote>
+      <its:locNote>The alt tag contains an alternative text, describing the image for the visual impaired. priority:80</its:locNote>
     </its:locNoteRule>
     <!-- Allow translators to control spaces, necessary for the literallayout -->
     <its:preserveSpaceRule xmlns:db="http://docbook.org/ns/docbook" space="preserve" selector="//db:colophon/db:simplesect"/>
@@ -243,7 +243,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
     <!-- Option B: does allow changing -->
     <its:translateRule xmlns:db="http://docbook.org/ns/docbook" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" translate="yes" selector="//db:para/@az:dropcapfileref"/>
     <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" translate="yes" selector="//db:para/@az:dropcapfileref" locNoteType="description">
-      <its:locNote>File for the capital image, depending on the capital letter and the required color. Can be postponed to the publishing process.</its:locNote>
+      <its:locNote>File for the capital image, depending on the capital letter and the required color. Can be postponed to the publishing process. priority:70</its:locNote>
     </its:locNoteRule>
     <!-- Enable changing image links by translators, as it is an externalResourceRefPointer by default for which itstool doesn't allow translations. -->
     <its:withinTextRule xmlns:db="http://docbook.org/ns/docbook" withinText="no" selector="//db:imagedata"/>
