@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-04-28 20:08+0200\n"
-"PO-Revision-Date: 2025-04-28 19:19+0000\n"
+"PO-Revision-Date: 2025-04-28 19:44+0000\n"
 "Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/fsfe/ada-zangemann/"
 "nl/>\n"
@@ -32,7 +32,6 @@ msgstr ""
 #.
 #. ignore-same
 #: Ada_Zangemann.dbk:263 Ada_Zangemann.dbk:307 Ada_Zangemann.dbk:497
-#, fuzzy
 msgid "Ada &amp; Zangemann"
 msgstr "Ada &amp; Zangemann"
 
@@ -57,24 +56,22 @@ msgstr ""
 #. (itstool) path: info/author
 #. ignore-same
 #: Ada_Zangemann.dbk:268
-#, fuzzy
 msgid ""
 "<personname> <firstname>Matthias</firstname> <surname>Kirschner</surname> </"
 "personname>"
 msgstr ""
-"<personname> <firstname>Matthias</firstname> <surname>Kirschner</surname> </"
-"personname>"
+"<personname> <firstname>Matthias</firstname> <surname>Kirschner</surname> "
+"</personname>"
 
 #. (itstool) path: info/othercredit
 #. ignore-same
 #: Ada_Zangemann.dbk:274
-#, fuzzy
 msgid ""
 "<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surname> </"
 "personname>"
 msgstr ""
-"<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surname> </"
-"personname>"
+"<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surname> "
+"</personname>"
 
 #. (itstool) path: character/charactername
 #. Name must not be changed.
@@ -276,7 +273,6 @@ msgstr "Franse titelpagina"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:363 Ada_Zangemann.dbk:489
-#, fuzzy
 msgid "ADA &amp; ZANGEMANN"
 msgstr "ADA &amp; ZANGEMANN"
 
@@ -1266,7 +1262,6 @@ msgstr ""
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:634
-#, fuzzy
 msgid ""
 "Advertisements for Zangemann ice cream (sandwich board), a Zangemann "
 "electric skateboard, and a Zangemann washing machine. The math teacher, Ms. "
@@ -2144,7 +2139,6 @@ msgstr ""
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:844
-#, fuzzy
 msgid ""
 "Some things they built just for fun, like the fart machine they put in their "
 "math teacher’s chair. Whenever Ms. Gernet sat down, the machine played a "
@@ -2343,7 +2337,6 @@ msgstr ""
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:894
-#, fuzzy
 msgid ""
 "With each passing day, more and more children and adults joined the protest. "
 "The bus driver they had helped drove up in her bus. She honked loudly to "
@@ -2365,7 +2358,6 @@ msgstr ""
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:899
-#, fuzzy
 msgid ""
 "Group of protesters. Among them there are: Ada's mother holding Alan's hand "
 "and raising a pink ice cream; 3 colleagues of Toni's father dressed in ties; "
@@ -2383,18 +2375,19 @@ msgid ""
 msgstr ""
 "Groep protesteerders. Onder hen zijn Ada's moeder die Alan's hand vasthoudt "
 "en een roze ijsje omhoog houdt; drie collega's van Toni's vaders in nette "
-"kleren met stropdas; twee kinderen die het spandoek \"Doe je huiswerk meneer "
-"President en wij doen het onze!\" omhoog houden; een robot met rupsbanden, "
-"strijkijzers als voeten, een elektrische ventilator als borstkas, een "
-"monitor als hoofd en een garde als één hand en een blauw ijsje vasthoudend "
-"in zijn andere hand; twee ouders die een bord dragen met de tekst \"Hacking "
-"4 Freedom\"; een dame met een elektronisch bord \"There is a code B\"; twee "
-"kleine vogels die meevliegen; de wiskundelerares Mevrouw Gernet die in haar "
-"karretje een bord heeft gestopt met de tekst \"Ze zijn jong + hebben de code "
-"nodig!\". De hond in het karretje blaft; Ada en Bram dragen het spandoek "
-"\"Don't wreck our tech!\". Marie en Toni lopen onder het spandoek en Marie "
-"spreekt door een megafoon in haar hand. Ada's familiehond draagt nu een rood "
-"harnas met stralende gele leds die passen bij de halsband."
+"kleren met stropdas; twee kinderen die het spandoek "
+"\"Doe je huiswerk meneer President en wij doen het onze!\" omhoog houden; "
+"een robot met rupsbanden, strijkijzers als voeten, een elektrische "
+"ventilator als borstkas, een monitor als hoofd en een garde als één hand en "
+"een blauw ijsje vasthoudend in zijn andere hand; twee ouders die een bord "
+"dragen met de tekst \"Hacking 4 Freedom\"; een dame met een elektronisch "
+"bord \"There is a code B\"; twee kleine vogels die meevliegen; de "
+"wiskundelerares Mevrouw Gernet die in haar karretje een bord heeft gestopt "
+"met de tekst \"Ze zijn jong + hebben de code nodig!\". De hond in het "
+"karretje blaft; Ada en Bram dragen het spandoek "
+"\"Zonder code is alles saai!\". Marie en Toni lopen onder het spandoek en "
+"Marie spreekt door een megafoon in haar hand. Ada's familiehond draagt nu "
+"een rood harnas met stralende gele leds die passen bij de halsband."
 
 #. (itstool) path: info/excerpt
 #. Text on big banner, left on the illustration
@@ -2676,7 +2669,6 @@ msgstr ""
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:979
-#, fuzzy
 msgid ""
 "That evening, everyone celebrated with a big party. Ada, Alan, Toni, Marie, "
 "Konrad, and other children from school and their parents; the president; Ms. "
@@ -2694,7 +2686,6 @@ msgstr ""
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:984
-#, fuzzy
 msgid ""
 "Evening party. Children are holding ice cream and balloons with the words “I "
 "love FS (I love Free Software)”; other children are riding skateboards; "
@@ -2702,8 +2693,8 @@ msgid ""
 "system; Ms. Gernet holds a pink tree-shaped ice cream with a yellow star on "
 "it; Ada's mom is dancing with a gentleman."
 msgstr ""
-"Feest 's avonds. Kinderen houden ijsjes vast en ballonnen met de woorden \"I "
-"love FS (Ik hou van Vrije Software)\". Andere kinderen rijden op "
+"Feest 's avonds. Kinderen houden ijsjes vast en ballonnen met de woorden "
+"\"I love FS (Ik hou van Vrije Software)\". Andere kinderen rijden op "
 "skateboards. Lijnen met gele en oranje vlaggetjes hangen. Muziek komt uit "
 "een luidsprekersysteem. Mevrouw Gernet houdt een roze boomvorming ijsje "
 "omhoog met een gele ster erop. Ada's moeder danst met een meneer."
@@ -2867,7 +2858,6 @@ msgstr "Over de auteur"
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-author
 #. ignore-same
 #: Ada_Zangemann.dbk:1052
-#, fuzzy
 msgid "Matthias Kirschner"
 msgstr "Matthias Kirschner"
 
@@ -2912,7 +2902,6 @@ msgstr "Over de illustrator"
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-illustrator
 #. ignore-same
 #: Ada_Zangemann.dbk:1075
-#, fuzzy
 msgid "Sandra Brandstätter"
 msgstr "Sandra Brandstätter"
 
@@ -3003,7 +2992,6 @@ msgstr ""
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1122
-#, fuzzy
 msgid ""
 "<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://"
 "creativecommons.org/licenses/by-sa/4.0/</link>"
