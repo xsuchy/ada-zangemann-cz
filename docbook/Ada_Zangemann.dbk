@@ -226,7 +226,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
     <!-- Translator note for alt tag -->
     <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//db:alt">
-      <its:locNote>The alt tag contains an alternative text, describing the image for the visual impaired.</its:locNote>
+      <its:locNote>The alt tag contains an alternative text, describing the image for the visual impaired. priority:80</its:locNote>
     </its:locNoteRule>
     <!-- Allow translators to control spaces, necessary for the literallayout -->
     <its:preserveSpaceRule xmlns:db="http://docbook.org/ns/docbook" space="preserve" selector="//db:colophon/db:simplesect"/>
@@ -243,7 +243,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
     <!-- Option B: does allow changing -->
     <its:translateRule xmlns:db="http://docbook.org/ns/docbook" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" translate="yes" selector="//db:para/@az:dropcapfileref"/>
     <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" translate="yes" selector="//db:para/@az:dropcapfileref" locNoteType="description">
-      <its:locNote>File for the capital image, depending on the capital letter and the required color. Can be postponed to the publishing process.</its:locNote>
+      <its:locNote>File for the capital image, depending on the capital letter and the required color. Can be postponed to the publishing process. priority:70</its:locNote>
     </its:locNoteRule>
     <!-- Enable changing image links by translators, as it is an externalResourceRefPointer by default for which itstool doesn't allow translations. -->
     <its:withinTextRule xmlns:db="http://docbook.org/ns/docbook" withinText="no" selector="//db:imagedata"/>
@@ -252,6 +252,11 @@ SPDX-License-Identifier: CC-BY-SA-4.0
     <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//db:imagedata/@fileref">
       <its:locNote>Link to the image. Only needs to be changed if the image is localized.</its:locNote>
     </its:locNoteRule>
+    <!-- Weblate flags to control behavior https://docs.weblate.org/en/latest/admin/checks.html#customizing-behavior-using-flags -->
+    <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//az:character">
+      <its:locNote>ignore-same</its:locNote>
+    </its:locNoteRule>
+
   </its:rules>
   <!-- Book information and other metadata-like information -->
   <info>
@@ -260,13 +265,13 @@ SPDX-License-Identifier: CC-BY-SA-4.0
     <biblioid class="isbn" role="print" its:locNote="ISBN of print edition">978-1-7185-0318-2</biblioid>
     <biblioid class="isbn" role="ebook" its:locNote="ISBN of ebook edition">978-1-7185-0319-9</biblioid>
     <!-- Author credit -->
-    <author>
+    <author its:locNote="ignore-same">
       <personname>
         <firstname>Matthias</firstname>
         <surname>Kirschner</surname>
       </personname>
     </author>
-    <othercredit class="illustrator">
+    <othercredit its:locNote="ignore-same">
       <personname>
         <firstname>Sandra</firstname>
         <surname>Brandstätter</surname>
@@ -275,12 +280,12 @@ SPDX-License-Identifier: CC-BY-SA-4.0
     <!-- Names of the characters -->
     <az:namedcharacters>
       <az:character role="ada">
-        <az:charactername its:locNote="Name must not be changed">Ada</az:charactername>
+        <az:charactername its:locNote="Name must not be changed.">Ada</az:charactername>
       </az:character>
       <az:character role="zangemann">
-        <az:charactername its:locNote="Name must not be changed">Zangemann</az:charactername>
+        <az:charactername its:locNote="Name must not be changed.">Zangemann</az:charactername>
       </az:character>
-      <az:character role="alan" its:locNote="Name must not be changed">
+      <az:character role="alan" its:locNote="Name must not be changed.">
         <az:charactername>Alan</az:charactername>
       </az:character>
       <az:character role="toni">
@@ -299,7 +304,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
     <!-- Cover information -->
     <cover role="front">
       <!-- TODO: check if this is the correct modeling -->
-      <bridgehead role="title">Ada &amp; Zangemann</bridgehead>
+      <bridgehead role="title" its:locNote="ignore-same">Ada &amp; Zangemann</bridgehead>
       <bridgehead role="subtitle">A Tale of Software, Skateboards, and Raspberry Ice Cream</bridgehead>
       <!-- TODO: add link to correct image for the back -->
       <mediaobject xml:id="img-ada-a00">
@@ -355,7 +360,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p01-titleonly.png"/>
         </imageobject>
-        <alt>ADA &amp; ZANGEMANN</alt>
+        <alt its:locNote="ignore-same">ADA &amp; ZANGEMANN</alt>
       </mediaobject>
     </simplesect>
   </preface>
@@ -459,7 +464,7 @@ Society should support those who respect others' freedom.</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p03-author.png"/>
         </imageobject>
-        <alt>Matthias Kirschner, Sandra Brandstätter</alt>
+        <alt its:locNote="ignore-same">Matthias Kirschner, Sandra Brandstätter</alt>
       </mediaobject>
 
       <mediaobject xml:id="img-ada-p03-title">
@@ -481,7 +486,7 @@ Society should support those who respect others' freedom.</literallayout>
 
       <literallayout>Matthias Kirschner
 Sandra Brandstätter</literallayout>
-<para xml:id="title-titlepage">ADA &amp; ZANGEMANN</para>
+<para xml:id="title-titlepage" its:locNote="ignore-same">ADA &amp; ZANGEMANN</para>
 <literallayout xml:id="subtitle-titlepage">A Tale of
 Software, Skateboards, and
 Raspberry Ice Cream</literallayout>
@@ -489,7 +494,7 @@ Raspberry Ice Cream</literallayout>
   </preface>
   <chapter>
     <info>
-      <title>Ada &amp; Zangemann</title>
+      <title its:locNote="ignore-same">Ada &amp; Zangemann</title>
     </info>
     <simplesect xml:id="sec-p04" az:pagenum="4">
       <anchor az:slidenum="2"/>
@@ -1044,7 +1049,7 @@ Raspberry Ice Cream</literallayout>
     <info>
       <!-- TODO: deal with multi-line title. Check if this modelling works. -->
       <title xml:id="title-author">About the Author</title>
-      <subtitle xml:id="subtitle-author">Matthias Kirschner</subtitle>
+      <subtitle xml:id="subtitle-author" its:locNote="ignore-same">Matthias Kirschner</subtitle>
       <titleabbrev>About the Author - Matthias Kirschner</titleabbrev>
       <mediaobject xml:id="img-ada-p52-title">
         <imageobject>
@@ -1067,7 +1072,7 @@ Raspberry Ice Cream</literallayout>
     <info>
       <!-- TODO: deal with multi-line title. Check if this modelling works. -->
       <title xml:id="title-illustrator">About the Illustrator</title>
-      <subtitle xml:id="subtitle-illustrator">Sandra Brandstätter</subtitle>
+      <subtitle xml:id="subtitle-illustrator" its:locNote="ignore-same">Sandra Brandstätter</subtitle>
       <titleabbrev>About the Illustrator - Sandra Brandstätter</titleabbrev>
       <mediaobject xml:id="img-ada-p53-title">
         <imageobject>
