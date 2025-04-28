@@ -253,7 +253,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
       <its:locNote>Link to the image. Only needs to be changed if the image is localized.</its:locNote>
     </its:locNoteRule>
     <!-- Weblate flags to control behavior https://docs.weblate.org/en/latest/admin/checks.html#customizing-behavior-using-flags -->
-    <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//az:character">
+    <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//az:charactername">
       <its:locNote>ignore-same</its:locNote>
     </its:locNoteRule>
 
@@ -285,8 +285,8 @@ SPDX-License-Identifier: CC-BY-SA-4.0
       <az:character role="zangemann">
         <az:charactername its:locNote="Name must not be changed.">Zangemann</az:charactername>
       </az:character>
-      <az:character role="alan" its:locNote="Name must not be changed.">
-        <az:charactername>Alan</az:charactername>
+      <az:character role="alan">
+        <az:charactername its:locNote="Name must not be changed.">Alan</az:charactername>
       </az:character>
       <az:character role="toni">
         <az:charactername its:locNote="Character names are mostly reference to existing people in computer history or science, but if you want to change them in order to make it easier for children to relate to the characters you should find names which are still common but connected to important figures in the computer history. If you have problems with that, feel free to reach out to Matthias. Please also make sure to just exchange male names with male names, female names with female names to keep the gender balance as intended, or use names which can be male and female.">Toni</az:charactername>
