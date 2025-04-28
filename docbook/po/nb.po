@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-04-28 19:58+0200\n"
+"POT-Creation-Date: 2025-04-28 20:08+0200\n"
 "PO-Revision-Date: 2025-04-28 19:49+0200\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/fsfe/"
@@ -74,12 +74,16 @@ msgstr ""
 
 #. (itstool) path: character/charactername
 #. Name must not be changed.
+#.
+#. ignore-same
 #: Ada_Zangemann.dbk:283
 msgid "Ada"
 msgstr ""
 
 #. (itstool) path: character/charactername
 #. Name must not be changed.
+#.
+#. ignore-same
 #: Ada_Zangemann.dbk:286
 msgid "Zangemann"
 msgstr ""
@@ -101,6 +105,8 @@ msgstr ""
 #. out to Matthias. Please also make sure to just exchange male names with
 #. male names, female names with female names to keep the gender balance
 #. as intended, or use names which can be male and female.
+#.
+#. ignore-same
 #: Ada_Zangemann.dbk:292
 msgid "Toni"
 msgstr ""
@@ -114,6 +120,8 @@ msgstr ""
 #. out to Matthias. Please also make sure to just exchange male names with
 #. male names, female names with female names to keep the gender balance
 #. as intended, or use names which can be male and female.
+#.
+#. ignore-same
 #: Ada_Zangemann.dbk:295
 msgid "Konrad"
 msgstr ""
@@ -127,6 +135,8 @@ msgstr ""
 #. out to Matthias. Please also make sure to just exchange male names with
 #. male names, female names with female names to keep the gender balance
 #. as intended, or use names which can be male and female.
+#.
+#. ignore-same
 #: Ada_Zangemann.dbk:298
 msgid "Marie"
 msgstr ""
@@ -140,6 +150,8 @@ msgstr ""
 #. out to Matthias. Please also make sure to just exchange male names with
 #. male names, female names with female names to keep the gender balance
 #. as intended, or use names which can be male and female.
+#.
+#. ignore-same
 #: Ada_Zangemann.dbk:301
 msgid "Ms. Gernet"
 msgstr ""
