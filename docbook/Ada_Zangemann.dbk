@@ -366,7 +366,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
   </preface>
   <colophon>
     <info>
-      <title>Imprint</title>
+      <title its:locNote="Also known as 'imprint'">Colophon</title>
     </info>
     <!-- TODO: Consider splitting this literallayout into multiple, perhaps with para tags -->
     <simplesect xml:id="sec-p02" az:pagenum="2">
