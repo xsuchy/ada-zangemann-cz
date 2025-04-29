@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-04-28 20:08+0200\n"
+"POT-Creation-Date: 2025-04-29 19:46+0200\n"
 "PO-Revision-Date: 2025-04-28 19:50+0200\n"
 "Last-Translator: William Weber Berrutti <wwberrutti@protonmail.ch>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/fsfe/"
@@ -234,8 +234,9 @@ msgid "ADA &amp; ZANGEMANN"
 msgstr ""
 
 #. (itstool) path: info/title
+#. Also known as 'imprint'
 #: Ada_Zangemann.dbk:369
-msgid "Imprint"
+msgid "Colophon"
 msgstr ""
 
 #. (itstool) path: simplesect/literallayout

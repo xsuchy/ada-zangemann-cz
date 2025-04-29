@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-04-28 20:08+0200\n"
+"POT-Creation-Date: 2025-04-29 19:46+0200\n"
 "PO-Revision-Date: 2025-04-28 19:48+0200\n"
 "Last-Translator: Aayush Gupta <aayushgupta219@gmail.com>\n"
 "Language-Team: \n"
@@ -245,8 +245,9 @@ msgid "ADA &amp; ZANGEMANN"
 msgstr "एडा और ज़ैंगमैन"
 
 #. (itstool) path: info/title
+#. Also known as 'imprint'
 #: Ada_Zangemann.dbk:369
-msgid "Imprint"
+msgid "Colophon"
 msgstr "छाप"
 
 #. (itstool) path: simplesect/literallayout

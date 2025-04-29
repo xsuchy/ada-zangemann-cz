@@ -270,8 +270,9 @@ msgid "ADA &amp; ZANGEMANN"
 msgstr "ADA &amp; ZANGEMANN"
 
 #. (itstool) path: info/title
+#. Also known as 'imprint'
 #: Ada_Zangemann.dbk:369
-msgid "Imprint"
+msgid "Colophon"
 msgstr "Imprint"
 
 #. (itstool) path: simplesect/literallayout

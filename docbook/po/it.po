@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
-"POT-Creation-Date: 2025-04-28 20:08+0200\n"
+"POT-Creation-Date: 2025-04-29 19:46+0200\n"
 "PO-Revision-Date: 2025-04-29 14:49+0000\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/fsfe/"
@@ -271,8 +271,9 @@ msgid "ADA &amp; ZANGEMANN"
 msgstr "ADA &amp; ZANGEMANN"
 
 #. (itstool) path: info/title
+#. Also known as 'imprint'
 #: Ada_Zangemann.dbk:369
-msgid "Imprint"
+msgid "Colophon"
 msgstr "Imprint"
 
 #. (itstool) path: simplesect/literallayout
