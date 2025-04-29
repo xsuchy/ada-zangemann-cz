@@ -21,6 +21,9 @@ community translations.
   names, female names with female names to keep the gender balance
   as intended, or use names which can be male and female.
 
+* Don't localize President to your local form of government. President is
+  intended as a brief and generic term for a head of state. 
+
 * As the book is often used to read it out to children, we highly
   recommend to test reading it aloud, best also to a few children, to
   see if the translation works out.
