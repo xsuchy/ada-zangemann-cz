@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-04-28 20:08+0200\n"
-"PO-Revision-Date: 2025-04-28 19:19+0000\n"
-"Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
+"PO-Revision-Date: 2025-04-29 14:49+0000\n"
+"Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/fsfe/"
 "ada-zangemann/it/>\n"
 "Language: it\n"
@@ -72,7 +72,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:283
 msgid "Ada"
-msgstr ""
+msgstr "Ada"
 
 #. (itstool) path: character/charactername
 #. Name must not be changed.
@@ -80,7 +80,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:286
 msgid "Zangemann"
-msgstr ""
+msgstr "Zangemann"
 
 #. (itstool) path: character/charactername
 #. Name must not be changed.
@@ -88,7 +88,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:289
 msgid "Alan"
-msgstr ""
+msgstr "Alan"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -103,7 +103,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:292
 msgid "Toni"
-msgstr ""
+msgstr "Toni"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -148,7 +148,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:301
 msgid "Ms. Gernet"
-msgstr ""
+msgstr "Signora Gernet"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -487,7 +487,7 @@ msgstr ""
 #. illustration of Ada's dog.
 #: Ada_Zangemann.dbk:453
 msgid "Title page"
-msgstr "Titolo della pagina"
+msgstr "Pagina del titolo"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
