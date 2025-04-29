@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-04-28 20:08+0200\n"
-"PO-Revision-Date: 2025-04-28 19:48+0200\n"
+"PO-Revision-Date: 2025-04-29 14:49+0000\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
-"Language-Team: Esperanto <https://hosted.weblate.org/projects/fsfe/ada-"
-"zangemann/eo/>\n"
+"Language-Team: Esperanto <https://hosted.weblate.org/projects/fsfe/"
+"ada-zangemann/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -72,7 +72,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:283
 msgid "Ada"
-msgstr ""
+msgstr "Ada"
 
 #. (itstool) path: character/charactername
 #. Name must not be changed.
@@ -80,7 +80,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:286
 msgid "Zangemann"
-msgstr ""
+msgstr "Zangemann"
 
 #. (itstool) path: character/charactername
 #. Name must not be changed.
@@ -88,7 +88,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:289
 msgid "Alan"
-msgstr ""
+msgstr "Alan"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -103,7 +103,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:292
 msgid "Toni"
-msgstr ""
+msgstr "Toni"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -148,7 +148,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:301
 msgid "Ms. Gernet"
-msgstr ""
+msgstr "S-ino Gernet"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -267,7 +267,6 @@ msgstr "Frontispico"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:363 Ada_Zangemann.dbk:489
-#, fuzzy
 msgid "ADA &amp; ZANGEMANN"
 msgstr "ADA &amp; ZANGEMANN"
 
@@ -375,13 +374,26 @@ msgid ""
 "We encourage you to support authors, publishers, and others involved in the creation of culture under free licenses – including <emphasis role=\"bold\">financially supporting them through purchases or donations</emphasis>. (<link xlink:href=\"https://fsfe.org/donate\">https://fsfe.org/donate</link>)\n"
 "Society should support those who respect others' freedom."
 msgstr ""
+"<emphasis role=\"bold\">Libera kiel libereco, ne prezo</emphasis>\n"
+"Libera programaro temas pri la liberecoj, kiujn vi ricevas kun la "
+"programaro, ne pri la prezo. Simile, publikigi libron sub liberkultura "
+"licenco ne signifas, ke vi rajtas ricevi senpagan ekzempleron de la libro aŭ "
+"e-libro. Ĝi signifas, ke vi ricevas la rajtojn priskribitajn supre, kiuj "
+"ebligas al la socio profiti plu de ĉi tiu libro, kiel ĝi devus de ĉiuj "
+"kulturaj verkoj.\n"
+"\n"
+"Ni instigas vin subteni aŭtorojn, eldonistojn kaj aliajn, kiuj partoprenas "
+"en la kreado de kulturo sub liberaj licencoj - inkluzive de <emphasis role="
+"\"bold\">finance subteni ilin per aĉetoj aŭ donacoj</emphasis>. (<link "
+"xlink:href=\"https://fsfe.org/donate\">https://fsfe.org/donate</link>)\n"
+"La socio devus subteni tiujn, kiuj respektas la liberecon de aliaj."
 
 #. (itstool) path: info/title
 #. Page next to the colophon with title, subtitle, authors and
 #. illustration of Ada's dog.
 #: Ada_Zangemann.dbk:453
 msgid "Title page"
-msgstr ""
+msgstr "Paĝo de la titolo"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -394,6 +406,11 @@ msgid ""
 "some white patches and with a red collar with shiny yellow LEDs, which wags "
 "its tail."
 msgstr ""
+"Matthias Kirschner, Sandra Brandstätter - ADA & ZANGEMANN - Rakonto pri "
+"programaro, rultabuloj kaj framba glaciaĵo. Titolo meze, aŭtoroj supre "
+"maldekstre. Malsupra dekstre, la hundo de la familio de Ada kun griza felo "
+"kaj kelkaj blankaj makuloj kaj kun ruĝa kolrimeno kun brile flavaj LED-oj, "
+"kiu skuas sian voston."
 
 #. (itstool) path: mediaobject/alt
 #. ignore-same
@@ -402,7 +419,7 @@ msgstr ""
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:467
 msgid "Matthias Kirschner, Sandra Brandstätter"
-msgstr ""
+msgstr "Matthias Kirschner, Sandra Brandstätter"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -412,6 +429,8 @@ msgid ""
 "ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice "
 "Cream. Title in the middle, authors in the upper left."
 msgstr ""
+"ADA & ZANGEMANN - Rakonto pri programaro, rultabuloj kaj framba glaciaĵo. "
+"Titolo en la mezo, aŭtoroj supre maldekstre."
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -421,6 +440,9 @@ msgid ""
 "In the lower right, Ada's family's dog with gray fur and some white patches "
 "and with a red collar with shiny yellow LEDs, which wags its tail."
 msgstr ""
+"Malsupra dekstre, la hundo de la familio de Ada kun griza felo kaj kelkaj "
+"blankaj makuloj kaj kun ruĝa kolrimeno kun brile flavaj LED-oj, kiu skuas "
+"sian voston."
 
 #. (itstool) path: simplesect/literallayout
 #. In a literallayout element all space and newline characters are kept.
@@ -430,6 +452,8 @@ msgid ""
 "Matthias Kirschner\n"
 "Sandra Brandstätter"
 msgstr ""
+"Matthias Kirschner\n"
+"Sandra Brandstätter"
 
 #. (itstool) path: simplesect/literallayout
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-titlepage
@@ -441,6 +465,9 @@ msgid ""
 "Software, Skateboards, and\n"
 "Raspberry Ice Cream"
 msgstr ""
+"Rakonto pri\n"
+"programaro, rultabuloj, kaj\n"
+"framba glaciaĵo"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -448,7 +475,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:501
 msgid "images/capitals/O-cyan.png"
-msgstr ""
+msgstr "images/capitals/O-cyan.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p04-1
@@ -461,6 +488,11 @@ msgid ""
 "lived with her mother and her little brother, Alan, in a cabin near a "
 "junkyard on the edge of town."
 msgstr ""
+"<phrase condition=\"capitals-text\">Iam</phrase><phrase condition=\"capitals-"
+"img\">am</phrase> estis knabineto nomata Ada. Ŝia familio estis tiel "
+"malriĉa, ke ĉiuj iliaj ŝparaĵoj enestis en kuketujo. Ili ne havis sufiĉe da "
+"mono por vivi en deca hejmo. Anstataŭe, Ada loĝis kun sia patrino kaj sia "
+"frateto, Alan, en kabano proksime de rubodeponejo ĉe la rando de la urbo."
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -492,6 +524,30 @@ msgid ""
 "house there are piles of landfill objects among which you can see a washing "
 "machine, a car, and various wooden boards."
 msgstr ""
+"Ada en la malfono forlasas la domon por iri al la lernejo, en la fono la "
+"domo de Ada kaj la rubodeponejo. Ada havas brunan dorsosakon kun flavaj "
+"ŝultrorimenoj. Maldekstre de Ada estas ruĝa aŭto, Skarabo de Volkswagen, sen "
+"radoj kaj ne plu funkcianta, kun unu el la antaŭaj lampoj restanta nur per "
+"siaj dratoj. Maldekstre, antaŭ la aŭto, estas du pneŭoj, du skatoloj - unu "
+"el kiuj estas ligna skatolo kun renversita sitelo -, kaj malplena "
+"ladskatolo, ĉio inter kelkaj plantoj kun flavaj floroj. En la fono estas la "
+"domo de Ada, kun ŝia patrino kaj ŝia frato Alan adiaŭantaj, kaj la hundo "
+"sidanta sur la tero. Alan sidas sur la du enirejaj ŝtupoj de la domo. Li "
+"havas mallongajn malhelajn harojn kaj estas vestita per blanka mallongmanika "
+"ĉemizo kun ruĝa strio ĉe la randoj de la manikoj kaj du ruĝaj strioj ĉe la "
+"fundo de la ĉemizo. Alan portas bluajn ŝortojn kaj li estas nudpieda. La "
+"patrino de Ada havas malhelan lipoŝminkon kaj longajn nigrajn harojn en "
+"blanka harbendo. Ŝi portas mallongan bluan ĉemizon kun blanka bordero, "
+"blankajn pantalonojn kaj flavajn ŝuojn. La domo de Ada estas konstruita el "
+"ligno, kun blanka fronto. La tegmento estas malhelruĝa el ondumita plataĵo. "
+"Estas du fenestroj antaŭe krom la pordo, kaj alia fenestro maldekstre. Flava "
+"anaso staras sur la tegmento, dum griza kamentubo elstaras. Anteno "
+"maldekstre de la tegmento subtenas ŝnuron por lavtukoj, sur kiu ruĝaj "
+"pinĉiloj tenas verdan senmanikan ĉemizon, paron da helbluaj pantalonoj kaj "
+"blankajn subvestojn. Dekstre de la domo estas verando, sur kiu estas "
+"instalita sunpanelo. Sub la verando estas matraco, ruĝa oleujo kaj griza "
+"ujo. Malantaŭ la domo estas amasoj da rubodeponejoj, inter kiuj videblas "
+"lavmaŝino, aŭto kaj diversaj lignaj tabuloj."
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -501,6 +557,8 @@ msgid ""
 "Prestigious magazines (“STARS“, “MONEY”, “Richest Man”) on whose cover are "
 "Zangemann and his villa."
 msgstr ""
+"Prestiĝaj revuoj (“STELOJ”, “MONO”, “Plej Riĉa Viro”) sur kies kovrilo estas "
+"Zangemann kaj lia vilao."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:519
@@ -513,11 +571,18 @@ msgid ""
 "Zangemann’s mansion stood high on a hill. From there, he could look out over "
 "the whole city."
 msgstr ""
+"Malproksime, ĉe la alia ekstremaĵo de la urbo, loĝis fama inventisto nomita "
+"Zangemann. Li estis ege riĉa. Neniu paperfolio en la mondo estis sufiĉe "
+"granda por montri lian bankkonton kun ĉiuj ĝiaj nombroj kaj nuloj! Li loĝis "
+"en grandega domo kun naĝejo kaj akvoglitejo, multaj ŝtuparoj kaj turoj, "
+"centoj da fenestroj, kaj tiom da ĉambroj, ke li mem ofte perdiĝis en ili. La "
+"domego de Zangemann staris alte sur monteto. De tie, li povis rigardi la "
+"tutan urbon."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:524
 msgid "Zangemann and computers"
-msgstr ""
+msgstr "Zangemann kaj komputiloj"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -525,7 +590,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:528
 msgid "images/capitals/C-red1.png"
-msgstr ""
+msgstr "images/capitals/C-red1.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p06-1
