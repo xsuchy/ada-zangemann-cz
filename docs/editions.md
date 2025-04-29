@@ -44,7 +44,7 @@ Some of those differences are listed here as a summary to assist in the developm
 
 ## German
 
-### Published hardbook
+### Published hardcover
 
 - Sewn-bound with a bookmark ribbon
 - Inside cover is printed in yellow design with outline drawings
