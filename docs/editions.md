@@ -22,12 +22,17 @@ Some of those differences are listed here as a summary to assist in the developm
 - The colophon has a grey section at the bottom pointing to the digital version of the book.
 - Page 31 includes a paragraph with a line break. This is not the case for the Spanish translation.
 
+#### English hardcover fonts
+
+- **Cover subtitle:** Caroni regular
+- **Back cover endorsements:** Caroni regular, different sizes
+
 ### English screen pdf
 
 - Contrary to the hardcover, the subtitle is hand-drawn.
 - The screen doesn't include yellow pages with hardware drawings upfront. Other translations do.
 
-#### English fonts
+#### English screen fonts
 
 - **Cover subtitle:** hand drawn
 - **Colophon text:** Heebo Regular 9pt
