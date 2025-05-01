@@ -22,9 +22,12 @@ in wording and to help you communicate clearly with professionals.
   system](https://en.wikipedia.org/wiki/Writing_system)):** set of symbols to
   represent a language. Some languages can be written in multiple scripts and a
   script can represent multiple languages.
-- **[Colophon](https://en.wikipedia.org/wiki/Colophon_(publishing)):** a brief
+- **[Colophon](https://en.wikipedia.org/wiki/Colophon_(publishing)) (or
+  [copyright page](https://en.wikipedia.org/wiki/Edition_notice)):** a brief
   statement containing information about the publication of a book, including
-  the imprint.
+  the imprint. Traditionally a summary of details at the back of the book was
+  called 'colophon', but nowadays it is more commonly used for the copyright
+  page after the title page.
 - **Imprint (or [impressum](https://en.wikipedia.org/wiki/Impressum)):** legally
   required statement of ownership (copyright) and authorship of the book. The
   colophon carries the imprint information.
@@ -56,6 +59,11 @@ in wording and to help you communicate clearly with professionals.
 - **[Title page](https://en.wikipedia.org/wiki/Title_page):** page at the
   beginning of the book that displays the title, subtitle and author, much like
   the cover but inside the book.
+- **[Printer's key (or number
+  line)](https://en.wikipedia.org/wiki/Printer%27s_key):** line of numbers
+  printed on the colophon that indicate the print edition and year of the print.
+  In the English edition the sequence was '26 25 24 23 22 1 2 3 4 5' to
+  indicate first edition printed in 2022.
 - **[Recto and verso](https://en.wikipedia.org/wiki/Recto_and_verso):** define
   the front (recto) and back (verso) of the pages in a book. For a left-to-right
   language the recto is on the right and the verso is on the left. For
