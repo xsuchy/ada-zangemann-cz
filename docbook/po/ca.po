@@ -2523,13 +2523,3 @@ msgid ""
 "Three hands that hold as many empty ice cream cones, to draw and color. In "
 "the air above the middle cone is an umbrella."
 msgstr ""
-
-#, fuzzy
-#~ msgid ""
-#~ "To view a copy of this license, visit <link xlink:href=\"https://"
-#~ "creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/"
-#~ "licenses/by-sa/4.0/</link> or send a letter to Creative Commons, PO Box "
-#~ "1866, Mountain View, CA 94042, USA."
-#~ msgstr ""
-#~ "<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/deed."
-#~ "ca\">https://creativecommons.org/licenses/by-sa/4.0/deed.ca</link>"

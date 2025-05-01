@@ -2975,29 +2975,3 @@ msgid ""
 msgstr ""
 "Drie handen die net zo veel lege ijshoorntjes vasthouden om op te tekenen en "
 "te kleuren. In de lucht boven het middelste hoorntje is een parapluutje."
-
-#, fuzzy
-#~ msgid "<az:charactername>Ada</az:charactername>"
-#~ msgstr "<az:charactername>Ada</az:charactername>"
-
-#, fuzzy
-#~ msgid "<az:charactername>Zangemann</az:charactername>"
-#~ msgstr "<az:charactername>Zangemann</az:charactername>"
-
-#, fuzzy
-#~ msgid "<az:charactername>Alan</az:charactername>"
-#~ msgstr "<az:charactername>Alan</az:charactername>"
-
-#, fuzzy
-#~ msgid "<az:charactername>Toni</az:charactername>"
-#~ msgstr "<az:charactername>Toni</az:charactername>"
-
-#~ msgid "<az:charactername>Konrad</az:charactername>"
-#~ msgstr "<az:charactername>Bram</az:charactername>"
-
-#, fuzzy
-#~ msgid "<az:charactername>Marie</az:charactername>"
-#~ msgstr "<az:charactername>Marie</az:charactername>"
-
-#~ msgid "<az:charactername>Ms. Gernet</az:charactername>"
-#~ msgstr "<az:charactername>Mevrouw Gernet</az:charactername>"

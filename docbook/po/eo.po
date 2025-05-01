@@ -2174,24 +2174,3 @@ msgid ""
 "Three hands that hold as many empty ice cream cones, to draw and color. In "
 "the air above the middle cone is an umbrella."
 msgstr ""
-
-#~ msgid "<az:charactername>Ada</az:charactername>"
-#~ msgstr "<az:charactername>Ada</az:charactername>"
-
-#~ msgid "<az:charactername>Zangemann</az:charactername>"
-#~ msgstr "<az:charactername>Zangemann</az:charactername>"
-
-#~ msgid "<az:charactername>Alan</az:charactername>"
-#~ msgstr "<az:charactername>Alan</az:charactername>"
-
-#~ msgid "<az:charactername>Toni</az:charactername>"
-#~ msgstr "<az:charactername>Toni</az:charactername>"
-
-#~ msgid "<az:charactername>Konrad</az:charactername>"
-#~ msgstr "<az:charactername>Konrad</az:charactername>"
-
-#~ msgid "<az:charactername>Marie</az:charactername>"
-#~ msgstr "<az:charactername>Marie</az:charactername>"
-
-#~ msgid "<az:charactername>Ms. Gernet</az:charactername>"
-#~ msgstr "<az:charactername>Ms. Gernet</az:charactername>"

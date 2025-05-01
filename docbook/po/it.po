@@ -2976,24 +2976,3 @@ msgid ""
 msgstr ""
 "Tre mani che tengono altrettanti coni gelato vuoti, da disegnare e colorare. "
 "Sospeso in aria sopra il cono centrale c'è un ombrellino."
-
-#~ msgid "<az:charactername>Ada</az:charactername>"
-#~ msgstr "<az:charactername>Ada</az:charactername>"
-
-#~ msgid "<az:charactername>Zangemann</az:charactername>"
-#~ msgstr "<az:charactername>Zangemann</az:charactername>"
-
-#~ msgid "<az:charactername>Alan</az:charactername>"
-#~ msgstr "<az:charactername>Alan</az:charactername>"
-
-#~ msgid "<az:charactername>Toni</az:charactername>"
-#~ msgstr "<az:charactername>Toni</az:charactername>"
-
-#~ msgid "<az:charactername>Konrad</az:charactername>"
-#~ msgstr "<az:charactername>Konrad</az:charactername>"
-
-#~ msgid "<az:charactername>Marie</az:charactername>"
-#~ msgstr "<az:charactername>Marie</az:charactername>"
-
-#~ msgid "<az:charactername>Ms. Gernet</az:charactername>"
-#~ msgstr "<az:charactername>Ms. Gernet</az:charactername>"
