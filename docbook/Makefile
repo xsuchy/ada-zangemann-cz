@@ -31,10 +31,11 @@ po/%.po: po/Ada_Zangemann.pot
 	if [ ! -e $@ ]; then cp po/Ada_Zangemann.pot $@; fi
 	msgmerge --update $@ po/Ada_Zangemann.pot
 
-# Generate message strings for further processing
-# Stored alongside .po files to deal with assumptions by tools
+# Generate message strings for further processing.
+# Stored alongside .po files to deal with assumptions by tools.
+# Use fuzzy entries that might need some more editing.
 po/%.mo: po/%.po
-	msgfmt -o $@ $<
+	msgfmt --use-fuzzy -o $@ $<
 
 .PHONY: status
 status:
