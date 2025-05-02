@@ -691,7 +691,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p21.png"/>
         </imageobject>
-        <alt>Computer screen from which the elements of the programming language symbolically emerge: “while num &gt; 0“, “init“, “sx=42“, “for“, “v**3“. Ada is typing on a white keyboard with a blue cable, while her other hand enters the screen to change the program (“print(msg)”, “a+b+c+d=e”, “if”, “break”, “continue”, “exit()“). Next to the keyboard there are a pencil and an eraser.</alt>
+        <alt>Computer screen from which the elements of the programming language symbolically emerge: “while num &gt; 0“, “init“, “sx=42“, “for“, “v**3“. Ada is typing on a white keyboard with a blue cable, while her other hand enters the screen to change the program (“print(msg)”, “a+b+c+d=e”, “if”, “break”, “continue”, “exit()”). Next to the keyboard there are a pencil and an eraser.</alt>
       </mediaobject>
     </simplesect>
   </chapter>
