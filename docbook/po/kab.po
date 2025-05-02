@@ -1,17 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-04-29 19:46+0200\n"
-"PO-Revision-Date: 2025-04-28 19:49+0200\n"
-"Last-Translator: Moonshadow <moonshadow@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Kabyle <https://hosted.weblate.org/projects/fsfe/ada-"
-"zangemann/kab/>\n"
+"PO-Revision-Date: 2025-05-03 18:05+0000\n"
+"Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Kabyle <https://hosted.weblate.org/projects/fsfe/"
+"ada-zangemann/kab/>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -31,7 +32,7 @@ msgstr "Ada akked Zangemann"
 #. (itstool) path: cover/bridgehead
 #: Ada_Zangemann.dbk:264 Ada_Zangemann.dbk:308
 msgid "A Tale of Software, Skateboards, and Raspberry Ice Cream"
-msgstr ""
+msgstr "Tamacahut ɣef yiseɣẓanen, iskitbruten d tmagrisin s tezwal"
 
 #. (itstool) path: info/biblioid
 #. ISBN of print edition
@@ -71,7 +72,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:283
 msgid "Ada"
-msgstr ""
+msgstr "Ada"
 
 #. (itstool) path: character/charactername
 #. Name must not be changed.
@@ -79,7 +80,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:286
 msgid "Zangemann"
-msgstr ""
+msgstr "Zangemann"
 
 #. (itstool) path: character/charactername
 #. Name must not be changed.
@@ -87,7 +88,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:289
 msgid "Alan"
-msgstr ""
+msgstr "Alan"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -102,7 +103,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:292
 msgid "Toni"
-msgstr ""
+msgstr "Toni"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -117,7 +118,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:295
 msgid "Konrad"
-msgstr ""
+msgstr "Konrad"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -132,7 +133,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:298
 msgid "Marie"
-msgstr ""
+msgstr "Marie"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
