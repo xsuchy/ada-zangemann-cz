@@ -186,6 +186,10 @@ build/%/print-headings-none/Ada_Zangemann-print-headings-none.sla: build/%/Ada_Z
 %.mediumres.pdf: %.pdf
 	gs -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -o $@ $<
 
+# Create a textfile from the pdf, intended for verification like spellcheck
+%.pdf.txt: %.pdf
+	pdftotext $< $@
+
 # Link template files, for development
 # TODO: check, does this work correctly?
 build/%/template-print.sla:
