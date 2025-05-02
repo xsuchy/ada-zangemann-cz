@@ -226,6 +226,11 @@ clean:
 	rm images/illustrations/ada-p40.*.png || exit 0
 	rm images/illustrations/ada-p41.*.png || exit 0
 
+# Print obsolete translations no longer matching source strings
+.PHONY: check-obsolete
+check-obsolete:
+	grep -e '^#~' po/*.po
+
 # Validation commands (work in progress)
 # TODO; not yet working
 docbook-5.1-its.sch:
