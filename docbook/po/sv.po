@@ -1,19 +1,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-04-29 19:46+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-05-04 21:01+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/fsfe/"
+"ada-zangemann/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Kristoffer Grundström <swedishsailfishosuser@tutanota.com>, 2006-2025"
 
 #. (itstool) path: info/title
 #. (itstool) path: cover/bridgehead
@@ -24,7 +28,7 @@ msgstr ""
 #: Ada_Zangemann.dbk:307
 #: Ada_Zangemann.dbk:497
 msgid "Ada &amp; Zangemann"
-msgstr ""
+msgstr "Ada &amp; Zangemann"
 
 #. (itstool) path: info/subtitle
 #. (itstool) path: cover/bridgehead
@@ -37,25 +41,29 @@ msgstr ""
 #. ISBN of print edition
 #: Ada_Zangemann.dbk:265
 msgid "978-1-7185-0318-2"
-msgstr ""
+msgstr "978-1-7185-0318-2"
 
 #. (itstool) path: info/biblioid
 #. ISBN of ebook edition
 #: Ada_Zangemann.dbk:266
 msgid "978-1-7185-0319-9"
-msgstr ""
+msgstr "978-1-7185-0319-9"
 
 #. (itstool) path: info/author
 #. ignore-same
 #: Ada_Zangemann.dbk:268
 msgid "<personname> <firstname>Matthias</firstname> <surname>Kirschner</surname> </personname>"
 msgstr ""
+"<personname><firstname>Matthias</firstname><surname>Kirschner</surname></personname>"
+""
 
 #. (itstool) path: info/othercredit
 #. ignore-same
 #: Ada_Zangemann.dbk:274
 msgid "<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surname> </personname>"
 msgstr ""
+"<personname><firstname>Sandra</firstname><surname>Brandstätter</surname></personname>"
+""
 
 #. (itstool) path: character/charactername
 #. Name must not be changed.
@@ -63,7 +71,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:283
 msgid "Ada"
-msgstr ""
+msgstr "Ada"
 
 #. (itstool) path: character/charactername
 #. Name must not be changed.
@@ -71,7 +79,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:286
 msgid "Zangemann"
-msgstr ""
+msgstr "Zangemann"
 
 #. (itstool) path: character/charactername
 #. Name must not be changed.
@@ -79,7 +87,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:289
 msgid "Alan"
-msgstr ""
+msgstr "Alan"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -94,7 +102,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:292
 msgid "Toni"
-msgstr ""
+msgstr "Toni"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -109,7 +117,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:295
 msgid "Konrad"
-msgstr ""
+msgstr "Konrad"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -124,7 +132,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:298
 msgid "Marie"
-msgstr ""
+msgstr "Marie"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -139,7 +147,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:301
 msgid "Ms. Gernet"
-msgstr ""
+msgstr "Ms. Gernet"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -161,7 +169,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:333
 msgid "images/capitals/T-yellow2.png"
-msgstr ""
+msgstr "images/capitals/T-yellow2.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-back-1
@@ -173,6 +181,8 @@ msgstr ""
 #: Ada_Zangemann.dbk:334
 msgid "A book that arouses interest in tinkering and encourages shaping technology."
 msgstr ""
+"En bok som väcker intresse för att mixtra och som uppmuntrar till att "
+"utforma teknologin."
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -198,7 +208,7 @@ msgstr ""
 #: Ada_Zangemann.dbk:363
 #: Ada_Zangemann.dbk:489
 msgid "ADA &amp; ZANGEMANN"
-msgstr ""
+msgstr "ADA &amp; ZANGEMANN"
 
 #. (itstool) path: info/title
 #. Also known as 'imprint'
@@ -327,7 +337,7 @@ msgstr ""
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:467
 msgid "Matthias Kirschner, Sandra Brandstätter"
-msgstr ""
+msgstr "Matthias Kirschner, Sandra Brandstätter"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -351,6 +361,8 @@ msgid ""
 "Matthias Kirschner\n"
 "Sandra Brandstätter"
 msgstr ""
+"Matthias Kirschner\n"
+"Sandra Brandstätter"
 
 #. (itstool) path: simplesect/literallayout
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-titlepage
@@ -369,7 +381,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:501
 msgid "images/capitals/O-cyan.png"
-msgstr ""
+msgstr "images/capitals/O-cyan.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p04-1
@@ -399,7 +411,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:524
 msgid "Zangemann and computers"
-msgstr ""
+msgstr "Zangemann och datorer"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -407,7 +419,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:528
 msgid "images/capitals/C-red1.png"
-msgstr ""
+msgstr "images/capitals/C-red1.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p06-1
@@ -524,7 +536,7 @@ msgstr ""
 #. equal to the beginning of the first sentence of this chapter.
 #: Ada_Zangemann.dbk:605
 msgid "One day..."
-msgstr ""
+msgstr "En dag..."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:608
@@ -594,7 +606,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:658
 msgid "Skateboards no longer work"
-msgstr ""
+msgstr "Skateboard-brädor fungerar inte längre"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -602,7 +614,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:662
 msgid "images/capitals/T-olive.png"
-msgstr ""
+msgstr "images/capitals/T-olive.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p18-1
@@ -637,7 +649,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:684
 msgid "Ada and software"
-msgstr ""
+msgstr "Ada och mjukvara"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -645,7 +657,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:688
 msgid "images/capitals/A-fucsia.png"
-msgstr ""
+msgstr "images/capitals/A-fucsia.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p20-1
@@ -673,7 +685,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:703
 msgid "Programming"
-msgstr ""
+msgstr "Programmering"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -681,7 +693,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:707
 msgid "images/capitals/O-lightcyan.png"
-msgstr ""
+msgstr "images/capitals/O-lightcyan.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p22-1
@@ -726,7 +738,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:732
 msgid "A horrible night"
-msgstr ""
+msgstr "En hemsk natt"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -734,7 +746,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:736
 msgid "images/capitals/Z-brown.png"
-msgstr ""
+msgstr "images/capitals/Z-brown.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p25-1
@@ -755,7 +767,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:743
 msgid "First real project"
-msgstr ""
+msgstr "Första riktiga projektet"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -763,7 +775,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:747
 msgid "images/capitals/S-red2.png"
-msgstr ""
+msgstr "images/capitals/S-red2.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p26-1
@@ -801,7 +813,7 @@ msgstr ""
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:764
 msgid "“How can you ride your skateboard on the sidewalk?” they asked."
-msgstr ""
+msgstr "\"Hur gör du för att köra din skateboard-bräda på gatan?\" frågade dem."
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -830,7 +842,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:785
 msgid "Hacking for freedom"
-msgstr ""
+msgstr "Hackande för frihet"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -838,7 +850,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:789
 msgid "images/capitals/M-yellow.png"
-msgstr ""
+msgstr "images/capitals/M-yellow.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p30-1
@@ -907,7 +919,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:842
 msgid "images/capitals/E-pink.png"
-msgstr ""
+msgstr "images/capitals/E-pink.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p35-1
@@ -928,7 +940,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:849
 msgid "Zangemann and the President"
-msgstr ""
+msgstr "Zangemann och Presidenten"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -936,7 +948,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:853
 msgid "images/capitals/O-green.png"
-msgstr ""
+msgstr "images/capitals/O-green.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p36-1
@@ -981,7 +993,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:879
 msgid "Protest"
-msgstr ""
+msgstr "Protest"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -989,7 +1001,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:884
 msgid "images/capitals/T-cyan.png"
-msgstr ""
+msgstr "images/capitals/T-cyan.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p39-1
@@ -1025,7 +1037,7 @@ msgstr ""
 #. Text on big banner, left on the illustration
 #: Ada_Zangemann.dbk:901
 msgid "Do your homework Mr. President and we will do ours!"
-msgstr ""
+msgstr "Gör din läxa Herr President så gör vi vår!"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1033,6 +1045,8 @@ msgstr ""
 #: Ada_Zangemann.dbk:910
 msgid "Detail of the previous image: two children holding the banner “Do your homework Mr. President and we will do ours!”"
 msgstr ""
+"Detaljer för den förra bilden: två barn som håller i banderollen "
+"\"Gör din läxa Herr President så gör vi vår!\""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1053,12 +1067,12 @@ msgstr ""
 #. can be used, which translates to 'without code everything is dull!'.
 #: Ada_Zangemann.dbk:919
 msgid "Don’t wreck our tech!"
-msgstr ""
+msgstr "Förstör inte vår teknik!"
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:926
 msgid "Children help the government"
-msgstr ""
+msgstr "Barnen hjälper regeringen"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1066,7 +1080,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:929
 msgid "images/capitals/A-violet.png"
-msgstr ""
+msgstr "images/capitals/A-violet.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p42-1
@@ -1111,7 +1125,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:953
 msgid "New law"
-msgstr ""
+msgstr "Ny lag"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1119,7 +1133,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:956
 msgid "images/capitals/T-red3.png"
-msgstr ""
+msgstr "images/capitals/T-red3.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p44-1
@@ -1148,6 +1162,8 @@ msgstr ""
 #: Ada_Zangemann.dbk:968
 msgid "“Everyone is allowed to program their own computers as long as they adhere to the other laws.”"
 msgstr ""
+"\"Alla tillåts att programmera sina egna datorer så länge de håller sig till "
+"de andra lagarna.\""
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:969
@@ -1188,7 +1204,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:999
 msgid "And Zangemann?"
-msgstr ""
+msgstr "Och Zangemann?"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1196,7 +1212,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:1003
 msgid "images/capitals/A-yellow.png"
-msgstr ""
+msgstr "images/capitals/A-yellow.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p48-1
@@ -1216,13 +1232,13 @@ msgstr ""
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:1017
 msgid "A trail of candies and raspberry ice cream on the ground."
-msgstr ""
+msgstr "Ett godis-spår och hallon-glass på marken."
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-acknowledgments
 #: Ada_Zangemann.dbk:1024
 msgid "Acknowledgments"
-msgstr ""
+msgstr "Erkännanden"
 
 #. (itstool) path: simplesect/para
 #. In the acknowledgments of the English version you can change 'No Starch
@@ -1261,12 +1277,12 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:1052
 msgid "Matthias Kirschner"
-msgstr ""
+msgstr "Matthias Kirschner"
 
 #. (itstool) path: info/titleabbrev
 #: Ada_Zangemann.dbk:1053
 msgid "About the Author - Matthias Kirschner"
-msgstr ""
+msgstr "Om författaren - Matthias Kirschner"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1284,19 +1300,19 @@ msgstr ""
 #. (itstool) id: Ada_Zangemann.dbk#title-illustrator
 #: Ada_Zangemann.dbk:1074
 msgid "About the Illustrator"
-msgstr ""
+msgstr "Om illustratören"
 
 #. (itstool) path: info/subtitle
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-illustrator
 #. ignore-same
 #: Ada_Zangemann.dbk:1075
 msgid "Sandra Brandstätter"
-msgstr ""
+msgstr "Sandra Brandstätter"
 
 #. (itstool) path: info/titleabbrev
 #: Ada_Zangemann.dbk:1076
 msgid "About the Illustrator - Sandra Brandstätter"
-msgstr ""
+msgstr "Om illustratören - Sandra Brandstätter"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1325,12 +1341,14 @@ msgstr ""
 #: Ada_Zangemann.dbk:1106
 msgid "On the web page of the book, you will find more information and resources: <link xlink:href=\"https://ada.fsfe.org\">https://ada.fsfe.org</link>."
 msgstr ""
+"På bokens hemsida så kommer du att hitta mer information och resurser: <link "
+"xlink:href=\"https://ada.fsfe.org\">https://ada.fsfe.org</link>."
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-license
 #: Ada_Zangemann.dbk:1113
 msgid "License"
-msgstr ""
+msgstr "Licens"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1121
@@ -1341,6 +1359,8 @@ msgstr ""
 #: Ada_Zangemann.dbk:1122
 msgid "<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</link>"
 msgstr ""
+"<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://"
+"creativecommons.org/licenses/by-sa/4.0/</link>"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
