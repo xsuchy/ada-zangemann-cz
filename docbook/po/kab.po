@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-04-29 19:46+0200\n"
-"PO-Revision-Date: 2025-05-03 18:05+0000\n"
+"PO-Revision-Date: 2025-05-04 21:01+0000\n"
 "Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/fsfe/"
 "ada-zangemann/kab/>\n"
@@ -210,6 +210,9 @@ msgstr ""
 msgid ""
 "A book that arouses interest in tinkering and encourages shaping technology."
 msgstr ""
+"Adlis i warrac d tullas timeẓyanin i yezmer asen-d-yawi lferḥ n unulfuy. "
+"Adlis ɣef tsenselkimt tilellit, tadukli d wamur n teḥdayin i tektiwin i "
+"yettakken afud i tmussni. D tamacahut yeddren, tettwassugen akken iwata."
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -431,6 +434,12 @@ msgid ""
 "lived with her mother and her little brother, Alan, in a cabin near a "
 "junkyard on the edge of town."
 msgstr ""
+"<phrase condition=\"capitals-text\">Yiwet</phrase><phrase condition"
+"=\"capitals-img\">y</phrase> n tikkelt, tella yiwet n teqcict tamecṭuḥt isem-"
+"is Ada. Tawacult-is tella d tigellilt mliḥ armi tewweḍ tḥawact-nsen tkeččem "
+"deg tbewwaṭ n tgaṭutin. Ur llin ara sɛan idrimen ara ten-id-iqamen akken ad "
+"zedɣen deg uxxam am nutni am medden. Akka, Ada, yemma-s d gma-s amecṭuḥ Alan "
+"llan zedɣen deg yiwet n tbaṛṛakt ɣer yiri n yiwet n tzebbalt deg temdint."
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -474,6 +483,7 @@ msgstr ""
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:519
+#, fuzzy
 msgid ""
 "Far away, at the other end of town, lived a famous inventor named Zangemann. "
 "He was immensely rich. No sheet of paper in the world was big enough to show "
@@ -483,6 +493,14 @@ msgid ""
 "Zangemann’s mansion stood high on a hill. From there, he could look out over "
 "the whole city."
 msgstr ""
+"Seg tama nniḍen n temdint, yella yettidir yiwen umesnulfu mucaεen, win mi "
+"qqaren s yisem-s Zangemann. Yella d amerkanti mačči d kra. Ulac tawriqt "
+"meqqren di ddunnit ara yedkfun i tira n wuṭṭunen akk d yilemawen n uṣrudi-s "
+"yesɛa di lbanka. Yella yezdeɣ deg yiwen n wexxam d ameqqran degs **tanerdabt "
+"d waman** akked **taḥnaccegt**, aṭas n **yisunan, tiberninin**, timaḍ n "
+"ṭṭiqan d waṭas n texxamin, armi yettaɛṛaq-as, tikwal, webrid. Yettwabna "
+"wexxam n Zangemann deg tqacuct n wedrar. Seg-inna, yella yezmer ad iwali akk "
+"tamdint-nni."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:524
