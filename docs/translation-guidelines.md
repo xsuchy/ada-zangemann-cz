@@ -145,3 +145,8 @@ Some hints on how the scripting deals with the translation file:
 
 The scripts are subject to change in order to improve usability and deal with
 situations encountered for new translations.
+
+* Use punctuation style apostrophy (’) instead of straight typewriter style
+  apostrophy characters ('). This is important for more correct typography in
+  print. More background [on Wikipedia Apostrophe
+  article](https://en.wikipedia.org/wiki/Apostrophe#Unicode).
