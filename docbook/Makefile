@@ -76,7 +76,7 @@ build/%/images/capitals:
 targets-dbk = $(addprefix build/,$(addsuffix /Ada_Zangemann.dbk,$(translations)))
 $(targets-dbk): build/%/Ada_Zangemann.dbk: po/%.mo Ada_Zangemann.dbk
 	mkdir -p $(@D) || exit 0
-	itstool -m $< -o $(@D) $(@F)
+	itstool --strict --merge $< --out $(@D) $(@F)
 
 # Create 'pure' docbook files without custom elements
 build/%/Ada_Zangemann-pure.dbk: build/%/Ada_Zangemann.dbk xsl/clean-docbook.xsl
