@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
-"POT-Creation-Date: 2025-04-29 19:46+0200\n"
+"POT-Creation-Date: 2025-05-05 07:33+0200\n"
 "PO-Revision-Date: 2025-04-29 14:49+0000\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/fsfe/"
-"ada-zangemann/it/>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/fsfe/ada-"
+"zangemann/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -277,7 +277,9 @@ msgid "Colophon"
 msgstr "Imprint"
 
 #. (itstool) path: simplesect/literallayout
-#. Simple colophon for non-print use.
+#. Simple colophon for non-print use. Please reuse the license text
+#. translation from the official Creative Commons website
+#. https://creativecommons.org/licenses/by-sa/4.0/
 #.
 #. In a literallayout element all space and newline characters are kept.
 #: Ada_Zangemann.dbk:373
@@ -302,59 +304,27 @@ msgid ""
 "<emphasis role=\"bold\">A big thank you</emphasis> to <emphasis role=\"bold\">dpunkt.verlag</emphasis> and <emphasis role=\"bold\">No Starch Press</emphasis> for understanding the values of software freedom, taking the time to discuss and understand the advantages of free cultural licenses, and the great support to publish this book under conditions that respect the FSFE's values."
 msgstr ""
 "Copyright © 2023 Matthias Kirschner e Sandra Brandstätter.\n"
-"Quest'opera è distribuita con licenza Creative Commons Attribuzione-"
-"Condividi allo stesso modo 4.0 Internazionale.\n"
-"Per visualizzare una copia di questa licenza, visita <link xlink:href="
-"\"https://creativecommons.org/licenses/by-sa/4.0/\">https://"
-"creativecommons.org/licenses/by-sa/4.0/</link> o invia una lettera a "
-"Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.\n"
+"Quest'opera è distribuita con licenza Creative Commons Attribuzione-Condividi allo stesso modo 4.0 Internazionale.\n"
+"Per visualizzare una copia di questa licenza, visita <link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</link> o invia una lettera a Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.\n"
 "\n"
-"<emphasis role=\"bold\">Ada &amp; Zangemann: A Tale of Software, "
-"Skateboards, and Raspberry Ice Cream</emphasis> è una traduzione "
-"dell'originale tedesco, Ada und Zangemann: Ein Märchen über Software, "
-"Skateboards, and Himbeereis, pubblicato da Dpunkt.verlag in collaborazione "
-"con O’Reilly Media, Inc., con il marchio \"O’REILLY\", © 2022 di Matthias "
-"Kirschner e Sandra Brandstätter.\n"
+"<emphasis role=\"bold\">Ada &amp; Zangemann: A Tale of Software, Skateboards, and Raspberry Ice Cream</emphasis> è una traduzione dell'originale tedesco, Ada und Zangemann: Ein Märchen über Software, Skateboards, and Himbeereis, pubblicato da Dpunkt.verlag in collaborazione con O’Reilly Media, Inc., con il marchio \"O’REILLY\", © 2022 di Matthias Kirschner e Sandra Brandstätter.\n"
 "\n"
-"Questo libro di Matthias Kirschner (autore) e Sandra Brandstätter "
-"(illustratrice) è concesso in licenza con <emphasis role=\"bold\">Creative "
-"Commons CC-BY-SA</emphasis>, una licenza culturale libera.\n"
+"Questo libro di Matthias Kirschner (autore) e Sandra Brandstätter (illustratrice) è concesso in licenza con <emphasis role=\"bold\">Creative Commons CC-BY-SA</emphasis>, una licenza culturale libera.\n"
 "\n"
-"<emphasis role=\"bold\">È possibile</emphasis> condividere, copiare e "
-"ridistribuire il materiale in qualsiasi mezzo o formato. <emphasis role="
-"\"bold\">È possibile</emphasis> adattare, remixare, trasformare e basarsi "
-"sul materiale per qualsiasi scopo, anche commerciale. <emphasis role=\"bold\""
-">È necessario</emphasis> attribuire la paternità appropriata, fornire un "
-"link alla licenza e indicare se sono state apportate modifiche.\n"
+"<emphasis role=\"bold\">È possibile</emphasis> condividere, copiare e ridistribuire il materiale in qualsiasi mezzo o formato. <emphasis role=\"bold\">È possibile</emphasis> adattare, remixare, trasformare e basarsi sul materiale per qualsiasi scopo, anche commerciale. <emphasis role=\"bold\">È necessario</emphasis> attribuire la paternità appropriata, fornire un link alla licenza e indicare se sono state apportate modifiche.\n"
 "\n"
-"<emphasis role=\"bold\">È possibile</emphasis> farlo in qualsiasi modo "
-"ragionevole, ma non in modo tale da suggerire che il licenziante approvi te "
-"o il tuo utilizzo. Se remixi, trasformi o basi il materiale, <emphasis role="
-"\"bold\">devi</emphasis> distribuire i tuoi contributi con la stessa licenza "
-"dell'originale. (Questo è un riassunto in formato comprensibile e non "
-"sostituisce il \"codice legale\" di CC-BY-SA 4.0.)\n"
+"<emphasis role=\"bold\">È possibile</emphasis> farlo in qualsiasi modo ragionevole, ma non in modo tale da suggerire che il licenziante approvi te o il tuo utilizzo. Se remixi, trasformi o basi il materiale, <emphasis role=\"bold\">devi</emphasis> distribuire i tuoi contributi con la stessa licenza dell'originale. (Questo è un riassunto in formato comprensibile e non sostituisce il \"codice legale\" di CC-BY-SA 4.0.)\n"
 "\n"
-"Inoltre, per le versioni remix (opere derivate), il licenziante chiede di "
-"non apportare alcuna modifica ai ringraziamenti personali dell'autore e alle "
-"brevi biografie dell'autore e dell'illustratore, ma di rimuovere "
-"completamente tali parti dalla versione remix.\n"
+"Inoltre, per le versioni remix (opere derivate), il licenziante chiede di non apportare alcuna modifica ai ringraziamenti personali dell'autore e alle brevi biografie dell'autore e dell'illustratore, ma di rimuovere completamente tali parti dalla versione remix.\n"
 "\n"
-"La pubblicazione con questa licenza culturale libera è stata possibile "
-"grazie al grande supporto di dpunkt.verlag GmbH / O'Reilly Media, Inc. per "
-"il libro tedesco e di No Starch Press per quello inglese. Purtroppo, le "
-"licenze Creative Commons sono ancora rare eccezioni per i libri pubblicati "
-"commercialmente e spesso considerate rivoluzionarie e rischiose dagli "
-"editori.\n"
+"La pubblicazione con questa licenza culturale libera è stata possibile grazie al grande supporto di dpunkt.verlag GmbH / O'Reilly Media, Inc. per il libro tedesco e di No Starch Press per quello inglese. Purtroppo, le licenze Creative Commons sono ancora rare eccezioni per i libri pubblicati commercialmente e spesso considerate rivoluzionarie e rischiose dagli editori.\n"
 "\n"
-"<emphasis role=\"bold\">Un grande ringraziamento</emphasis> a <emphasis role="
-"\"bold\">dpunkt.verlag</emphasis> e <emphasis role=\"bold\">No Starch Press</"
-"emphasis> per aver compreso i valori della libertà del software, per essersi "
-"presi il tempo di discutere e comprendere i vantaggi delle licenze culturali "
-"libere e per il grande supporto nel pubblicare questo libro in condizioni "
-"che rispettano i valori della FSFE."
+"<emphasis role=\"bold\">Un grande ringraziamento</emphasis> a <emphasis role=\"bold\">dpunkt.verlag</emphasis> e <emphasis role=\"bold\">No Starch Press</emphasis> per aver compreso i valori della libertà del software, per essersi presi il tempo di discutere e comprendere i vantaggi delle licenze culturali libere e per il grande supporto nel pubblicare questo libro in condizioni che rispettano i valori della FSFE."
 
 #. (itstool) path: simplesect/literallayout
-#. Print colophon covering the entire page.
+#. Print colophon covering the entire page. Please reuse the license text
+#. translation from the official Creative Commons website
+#. https://creativecommons.org/licenses/by-sa/4.0/
 #.
 #. In a literallayout element all space and newline characters are kept.
 #: Ada_Zangemann.dbk:390
@@ -413,56 +383,22 @@ msgid ""
 "<emphasis role=\"bold\">A big thank you</emphasis> to <emphasis role=\"bold\">dpunkt.verlag</emphasis> and <emphasis role=\"bold\">No Starch Press</emphasis> for understanding the values of software freedom, taking the time to discuss and understand the advantages of free cultural licenses, and the great support to publish this book under conditions that respect the FSFE's values."
 msgstr ""
 "Copyright © 2023 Matthias Kirschner e Sandra Brandstätter.\n"
-"Quest'opera è distribuita con licenza Creative Commons Attribuzione-"
-"Condividi allo stesso modo 4.0 Internazionale.\n"
-"Per visualizzare una copia di questa licenza, visita <link xlink:href="
-"\"https://creativecommons.org/licenses/by-sa/4.0/\">https://"
-"creativecommons.org/licenses/by-sa/4.0/</link> o invia una lettera a "
-"Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.\n"
+"Quest'opera è distribuita con licenza Creative Commons Attribuzione-Condividi allo stesso modo 4.0 Internazionale.\n"
+"Per visualizzare una copia di questa licenza, visita <link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</link> o invia una lettera a Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.\n"
 "\n"
-"<emphasis role=\"bold\">Ada &amp; Zangemann: A Tale of Software, "
-"Skateboards, and Raspberry Ice Cream</emphasis> è una traduzione "
-"dell'originale tedesco, Ada und Zangemann: Ein Märchen über Software, "
-"Skateboards, and Himbeereis, pubblicato da Dpunkt.verlag in collaborazione "
-"con O’Reilly Media, Inc., con il marchio \"O’REILLY\", © 2022 di Matthias "
-"Kirschner e Sandra Brandstätter.\n"
+"<emphasis role=\"bold\">Ada &amp; Zangemann: A Tale of Software, Skateboards, and Raspberry Ice Cream</emphasis> è una traduzione dell'originale tedesco, Ada und Zangemann: Ein Märchen über Software, Skateboards, and Himbeereis, pubblicato da Dpunkt.verlag in collaborazione con O’Reilly Media, Inc., con il marchio \"O’REILLY\", © 2022 di Matthias Kirschner e Sandra Brandstätter.\n"
 "\n"
-"Questo libro di Matthias Kirschner (autore) e Sandra Brandstätter "
-"(illustratrice) è concesso in licenza con <emphasis role=\"bold\">Creative "
-"Commons CC-BY-SA</emphasis>, una licenza culturale libera.\n"
+"Questo libro di Matthias Kirschner (autore) e Sandra Brandstätter (illustratrice) è concesso in licenza con <emphasis role=\"bold\">Creative Commons CC-BY-SA</emphasis>, una licenza culturale libera.\n"
 "\n"
-"<emphasis role=\"bold\">È possibile</emphasis> condividere, copiare e "
-"ridistribuire il materiale in qualsiasi mezzo o formato. <emphasis role="
-"\"bold\">È possibile</emphasis> adattare, remixare, trasformare e basarsi "
-"sul materiale per qualsiasi scopo, anche commerciale. <emphasis role=\"bold\""
-">È necessario</emphasis> attribuire la paternità appropriata, fornire un "
-"link alla licenza e indicare se sono state apportate modifiche.\n"
+"<emphasis role=\"bold\">È possibile</emphasis> condividere, copiare e ridistribuire il materiale in qualsiasi mezzo o formato. <emphasis role=\"bold\">È possibile</emphasis> adattare, remixare, trasformare e basarsi sul materiale per qualsiasi scopo, anche commerciale. <emphasis role=\"bold\">È necessario</emphasis> attribuire la paternità appropriata, fornire un link alla licenza e indicare se sono state apportate modifiche.\n"
 "\n"
-"<emphasis role=\"bold\">È possibile</emphasis> farlo in qualsiasi modo "
-"ragionevole, ma non in modo tale da suggerire che il licenziante approvi te "
-"o il tuo utilizzo. Se remixi, trasformi o basi il materiale, <emphasis role="
-"\"bold\">devi</emphasis> distribuire i tuoi contributi con la stessa licenza "
-"dell'originale. (Questo è un riassunto in formato comprensibile e non "
-"sostituisce il \"codice legale\" di CC-BY-SA 4.0.)\n"
+"<emphasis role=\"bold\">È possibile</emphasis> farlo in qualsiasi modo ragionevole, ma non in modo tale da suggerire che il licenziante approvi te o il tuo utilizzo. Se remixi, trasformi o basi il materiale, <emphasis role=\"bold\">devi</emphasis> distribuire i tuoi contributi con la stessa licenza dell'originale. (Questo è un riassunto in formato comprensibile e non sostituisce il \"codice legale\" di CC-BY-SA 4.0.)\n"
 "\n"
-"Inoltre, per le versioni remix (opere derivate), il licenziante chiede di "
-"non apportare alcuna modifica ai ringraziamenti personali dell'autore e alle "
-"brevi biografie dell'autore e dell'illustratore, ma di rimuovere "
-"completamente tali parti dalla versione remix.\n"
+"Inoltre, per le versioni remix (opere derivate), il licenziante chiede di non apportare alcuna modifica ai ringraziamenti personali dell'autore e alle brevi biografie dell'autore e dell'illustratore, ma di rimuovere completamente tali parti dalla versione remix.\n"
 "\n"
-"La pubblicazione con questa licenza culturale libera è stata possibile "
-"grazie al grande supporto di dpunkt.verlag GmbH / O'Reilly Media, Inc. per "
-"il libro tedesco e di No Starch Press per quello inglese. Purtroppo, le "
-"licenze Creative Commons sono ancora rare eccezioni per i libri pubblicati "
-"commercialmente e spesso considerate rivoluzionarie e rischiose dagli "
-"editori.\n"
+"La pubblicazione con questa licenza culturale libera è stata possibile grazie al grande supporto di dpunkt.verlag GmbH / O'Reilly Media, Inc. per il libro tedesco e di No Starch Press per quello inglese. Purtroppo, le licenze Creative Commons sono ancora rare eccezioni per i libri pubblicati commercialmente e spesso considerate rivoluzionarie e rischiose dagli editori.\n"
 "\n"
-"<emphasis role=\"bold\">Un grande ringraziamento</emphasis> a <emphasis role="
-"\"bold\">dpunkt.verlag</emphasis> e <emphasis role=\"bold\">No Starch Press</"
-"emphasis> per aver compreso i valori della libertà del software, per essersi "
-"presi il tempo di discutere e comprendere i vantaggi delle licenze culturali "
-"libere e per il grande supporto nel pubblicare questo libro in condizioni "
-"che rispettano i valori della FSFE."
+"<emphasis role=\"bold\">Un grande ringraziamento</emphasis> a <emphasis role=\"bold\">dpunkt.verlag</emphasis> e <emphasis role=\"bold\">No Starch Press</emphasis> per aver compreso i valori della libertà del software, per essersi presi il tempo di discutere e comprendere i vantaggi delle licenze culturali libere e per il grande supporto nel pubblicare questo libro in condizioni che rispettano i valori della FSFE."
 
 #. (itstool) path: simplesect/literallayout
 #. Grey section in the bottom of the simple colophon.
@@ -770,7 +706,7 @@ msgstr ""
 "del banco c'è la sua cartella di colore marrone."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:542
+#: Ada_Zangemann.dbk:541
 msgid ""
 "“Finally, I can turn all my ideas into real things!” Zangemann exclaimed, "
 "and he got right to work. He found ways to put the small computers into all "
@@ -784,7 +720,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:547
+#: Ada_Zangemann.dbk:546
 msgid ""
 "Zangemann original ice cream machine. It is ice blue in color and is similar "
 "to a vending machine of drinks, but instead of the cup there is a cone that "
@@ -807,7 +743,7 @@ msgstr ""
 "c'è il motore refrigerante con la “Z” del logo di Zangemann."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:551
+#: Ada_Zangemann.dbk:548
 msgid ""
 "Adults and children loved his inventions. All the kids wanted to have one of "
 "his skateboards — complete with the latest sounds to show off to their "
@@ -831,7 +767,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:556
+#: Ada_Zangemann.dbk:553
 msgid ""
 "An original Zangemann electric skateboard leaving a blue trail with musical "
 "notes and colored circles. Only the knees, white socks, and olive green "
@@ -845,7 +781,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:564
+#: Ada_Zangemann.dbk:561
 msgid ""
 "Ada tinkers with objects in her improvised lab. Ada is sitting on an "
 "overturned water case, and working on a repair with a yellow screwdriver. "
@@ -869,7 +805,7 @@ msgstr ""
 "calzini bianchi e scarpe gialle."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:566
+#: Ada_Zangemann.dbk:563
 msgid ""
 "These inventions were very popular at Ada’s school, and many of her friends "
 "rode around on the cool skateboards. Ada was often sad, since her mother "
@@ -882,7 +818,7 @@ msgstr ""
 "niente skateboard, niente altoparlanti, niente gelato."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:568
+#: Ada_Zangemann.dbk:565
 msgid ""
 "Luckily, Ada lived right next to the junkyard. There were lots of broken "
 "gadgets and rusty parts, which she put together to make cool new things, "
@@ -903,7 +839,7 @@ msgstr ""
 "Internet, avrebbe poi potuto connettersi da qualche altra parte."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:569
+#: Ada_Zangemann.dbk:566
 msgid ""
 "Ada had so much fun tinkering in the junkyard and fixing broken things that "
 "she forgot all about the skateboards and the ice cream."
@@ -912,7 +848,7 @@ msgstr ""
 "completamente degli skateboard e del gelato."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:573
+#: Ada_Zangemann.dbk:570
 msgid ""
 "Because everyone bought his inventions, Zangemann soon became the richest "
 "person in the whole world. With all his money, he bought a huge golden "
@@ -927,7 +863,7 @@ msgstr ""
 "controllare tutti i piccoli computer inseriti nelle sue invenzioni."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:574
+#: Ada_Zangemann.dbk:571
 msgid ""
 "All he had to do was press the proper key on the golden computer, and "
 "immediately all the ice-cream machines in town would dispense only vanilla "
@@ -953,7 +889,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:579
+#: Ada_Zangemann.dbk:576
 msgid ""
 "A white power strip attached to a wall socket. The power strip has 3 sockets "
 "and a green switch. One of the sockets is attached to a plug with a gray "
@@ -964,7 +900,7 @@ msgstr ""
 "è attaccata una spina con cavo grigio."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:583
+#: Ada_Zangemann.dbk:580
 msgid ""
 "Zangemann had a lot of fun pressing the sparkling keys and watching people "
 "eat ice cream. He spent many hours every day in front of his golden computer "
@@ -980,7 +916,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:588
+#: Ada_Zangemann.dbk:585
 msgid ""
 "Zangeman sitting in front of his golden computer on a golden armchair with a "
 "very tall red padded backrest at whose top is the “Z” of the Zangemann logo. "
@@ -997,7 +933,7 @@ msgstr ""
 "collegato alla ciabatta della pagina precedente."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:593
+#: Ada_Zangemann.dbk:590
 msgid ""
 "When he wasn’t sitting at his golden computer, Zangemann was building his "
 "little computers into new devices and then selling those. He built washing "
@@ -1017,7 +953,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:598
+#: Ada_Zangemann.dbk:595
 msgid ""
 "City landscape with houses and shops, with a central street turning right. "
 "On the road there are a car and a cyclist. There are various children and "
@@ -1031,7 +967,7 @@ msgstr ""
 "Zangemann."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:600
+#: Ada_Zangemann.dbk:597
 msgid ""
 "Soon, almost every appliance in the world had a Zangemann computer built "
 "into it. Not all of his inventions seemed necessary at first, but people "
@@ -1047,12 +983,12 @@ msgstr ""
 #. (itstool) path: info/title
 #. Intended as 'on a day', not 'a single day'. This is supposed to be
 #. equal to the beginning of the first sentence of this chapter.
-#: Ada_Zangemann.dbk:605
+#: Ada_Zangemann.dbk:602
 msgid "One day..."
 msgstr "Un giorno..."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:608
+#: Ada_Zangemann.dbk:605
 msgid ""
 "One day Zangemann thought, “Today I want to see my inventions up close.” He "
 "put away his big telescope, then climbed down the many stairs of his mansion "
@@ -1067,7 +1003,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:613
+#: Ada_Zangemann.dbk:610
 msgid ""
 "Zangemann descends the stairs from his mansion on the hill towards the city. "
 "Zangemann's house stands on a hill. The front is blue with large windows; "
@@ -1084,7 +1020,7 @@ msgstr ""
 "scendere dalla collina ci sono alberi sempreverdi."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:617
+#: Ada_Zangemann.dbk:614
 msgid ""
 "“Maybe a little trip might even give me a few new ideas. If I’m completely "
 "honest, my last inventions weren’t quite as useful as the first ones... ,” "
@@ -1100,7 +1036,7 @@ msgstr ""
 "giorno."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:619
+#: Ada_Zangemann.dbk:616
 msgid ""
 "He was completely absorbed in his thoughts when suddenly — BAM! — something "
 "crashed into his shin."
@@ -1111,7 +1047,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:624
+#: Ada_Zangemann.dbk:621
 msgid ""
 "Zangemann after the incident with the child. Zangemann screams from pain "
 "while holding up one of his legs with both hands at the shin. The child has "
@@ -1127,7 +1063,7 @@ msgstr ""
 "colore rosso."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:628
+#: Ada_Zangemann.dbk:625
 msgid ""
 "Zangemann yelped and looked around for the cause. A startled child stood in "
 "front of him, holding an original Zangemann skateboard under his arm. "
@@ -1140,7 +1076,7 @@ msgstr ""
 "balbettò, ma Zangemann non lo ascoltò nemmeno."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:629
+#: Ada_Zangemann.dbk:626
 msgid ""
 "An angry Zangemann limped away. Suddenly, he heard loud music. He had never "
 "before heard something so horrible. He looked around and saw that the music "
@@ -1160,7 +1096,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:634
+#: Ada_Zangemann.dbk:631
 msgid ""
 "Advertisements for Zangemann ice cream (sandwich board), a Zangemann "
 "electric skateboard, and a Zangemann washing machine. The math teacher, Ms. "
@@ -1180,7 +1116,7 @@ msgstr ""
 "un cagnolino marrone con collare e medaglietta."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:639
+#: Ada_Zangemann.dbk:636
 msgid ""
 "Zangemann was so furious with the two children. How dare they use his "
 "inventions this way? That night, he couldn’t sleep, so he sat down at his "
@@ -1201,7 +1137,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:644
+#: Ada_Zangemann.dbk:641
 msgid ""
 "The city in the evening, with houses, a church, and two streetlights. Images/"
 "Illustrations emerge from the dwellings illustrating Zangemann's inventions "
@@ -1216,7 +1152,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:652
+#: Ada_Zangemann.dbk:649
 msgid ""
 "Continuation of the previous picture, where in the background there is the "
 "hill with Zangemann's house from whose antenna come the signals to control "
@@ -1231,7 +1167,7 @@ msgstr ""
 "water, tutti che stanno ricevendo comandi da Zangemann."
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:658
+#: Ada_Zangemann.dbk:655
 msgid "Skateboards no longer work"
 msgstr "Gli skateboard non funzionano più"
 
@@ -1239,13 +1175,13 @@ msgstr "Gli skateboard non funzionano più"
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:662
+#: Ada_Zangemann.dbk:659
 msgid "images/capitals/T-olive.png"
 msgstr "images/capitals/T-olive.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p18-1
-#: Ada_Zangemann.dbk:662
+#: Ada_Zangemann.dbk:659
 msgid ""
 "<phrase condition=\"capitals-text\">The</phrase><phrase condition=\"capitals-"
 "img\">he</phrase> next day, there was a big commotion at Ada’s school. On "
@@ -1262,7 +1198,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:667
+#: Ada_Zangemann.dbk:664
 msgid ""
 "Five kids from the school who can't make skateboards work. Two girls wear "
 "helmets, respectively blue and red. A little girl with brown hair tied in "
@@ -1282,7 +1218,7 @@ msgstr ""
 "borraccia azzurra con disegnato un fiore bianco."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:671
+#: Ada_Zangemann.dbk:668
 msgid ""
 "Although she didn’t own any of these things, Ada wondered why the "
 "skateboards and the speakers suddenly stopped working. But she didn’t really "
@@ -1305,7 +1241,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:676
+#: Ada_Zangemann.dbk:673
 msgid ""
 "Close-up of Ada thoughtful, with a backpack and with one hand on her chin "
 "and the other resting on her side."
@@ -1314,7 +1250,7 @@ msgstr ""
 "sul mento e l'altra appoggiata sul fianco."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:679
+#: Ada_Zangemann.dbk:676
 msgid ""
 "After a few days, the initial shock at Ada’s school was forgotten. The "
 "skateboards still didn’t go on the sidewalk, but apart from that, they still "
@@ -1330,7 +1266,7 @@ msgstr ""
 "che mistero!"
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:684
+#: Ada_Zangemann.dbk:681
 msgid "Ada and software"
 msgstr "Ada e il software"
 
@@ -1338,13 +1274,13 @@ msgstr "Ada e il software"
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:688
+#: Ada_Zangemann.dbk:685
 msgid "images/capitals/A-fucsia.png"
 msgstr "images/capitals/A-fucsia.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p20-1
-#: Ada_Zangemann.dbk:688
+#: Ada_Zangemann.dbk:685
 msgid ""
 "<phrase condition=\"capitals-text\">Ada</phrase><phrase condition=\"capitals-"
 "img\">da</phrase> loved Wednesdays. Every Wednesday, her mother and Alan "
@@ -1368,7 +1304,7 @@ msgstr ""
 "vari oggetti per aiutarsi a vicenda."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:689
+#: Ada_Zangemann.dbk:686
 msgid ""
 "On one of those afternoons, Ada learned two new words: hardware and "
 "software. Hardware was a word for something Ada already knew: the electronic "
@@ -1392,7 +1328,7 @@ msgstr ""
 "che volume."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:690
+#: Ada_Zangemann.dbk:687
 msgid ""
 "The best thing about Ada’s new discovery was realizing that she could tinker "
 "with software just as she could with hardware. Hardware is built with tools "
@@ -1413,13 +1349,14 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:697
+#: Ada_Zangemann.dbk:694
+#, fuzzy
 msgid ""
 "Computer screen from which the elements of the programming language "
 "symbolically emerge: “while num &gt; 0“, “init“, “sx=42“, “for“, “v**3“. Ada "
 "is typing on a white keyboard with a blue cable, while her other hand enters "
 "the screen to change the program (“print(msg)”, “a+b+c+d=e”, “if”, “break”, "
-"“continue”, “exit()“). Next to the keyboard there are a pencil and an eraser."
+"“continue”, “exit()”). Next to the keyboard there are a pencil and an eraser."
 msgstr ""
 "Schermo di un computer dal quale emergono simbolicamente i vari elementi del "
 "linguaggio di programmazione: “while num &gt; 0“, “init“, “sx=42“, “for”, "
@@ -1429,7 +1366,7 @@ msgstr ""
 "“exit()“. Di fianco alla tastiera ci sono una matita ed una gomma."
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:703
+#: Ada_Zangemann.dbk:700
 msgid "Programming"
 msgstr "Programmazione"
 
@@ -1437,13 +1374,13 @@ msgstr "Programmazione"
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:707
+#: Ada_Zangemann.dbk:704
 msgid "images/capitals/O-lightcyan.png"
 msgstr "images/capitals/O-lightcyan.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p22-1
-#: Ada_Zangemann.dbk:707
+#: Ada_Zangemann.dbk:704
 msgid ""
 "<phrase condition=\"capitals-text\">Over</phrase><phrase "
 "condition=\"capitals-img\">ver</phrase> the next few weeks, Ada spent her "
@@ -1463,7 +1400,7 @@ msgstr ""
 "lampadina!»."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:708
+#: Ada_Zangemann.dbk:705
 msgid ""
 "Of course, she wanted to try her program out right away to see if it really "
 "worked. At the junkyard, she connected her cell phone to a small LED lamp. "
@@ -1474,7 +1411,7 @@ msgstr ""
 "cellulare le linee del programma che aveva preparato."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:709
+#: Ada_Zangemann.dbk:706
 msgid ""
 "At first, nothing happened. Ada wondered where the error could be. She made "
 "a few small changes and tried again and .... “Yeesss!” The little light "
@@ -1488,7 +1425,7 @@ msgstr ""
 "primo programma!"
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:710
+#: Ada_Zangemann.dbk:707
 msgid ""
 "Ada was totally thrilled. She imagined all the great things she could do. If "
 "she just entered the right code, she could make her inventions do exactly "
@@ -1506,7 +1443,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:717
+#: Ada_Zangemann.dbk:714
 msgid ""
 "Ada comes to grips with programming. She is typing on a keyboard resting on "
 "a gray mat and connected to a smartphone with a blue cable. The smartphone "
@@ -1526,7 +1463,7 @@ msgstr ""
 "relativo saldatore."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:719
+#: Ada_Zangemann.dbk:716
 msgid ""
 "Ada also had an idea for the next program she would write. It was a bigger "
 "deal, a real project. She would probably need the whole summer break for "
@@ -1540,7 +1477,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:726
+#: Ada_Zangemann.dbk:723
 msgid ""
 "Zangemann looks thoughtfully with his arms crossed out one of the great "
 "windows of his house, into which the sun's rays are shining."
@@ -1550,7 +1487,7 @@ msgstr ""
 "cerchiolini colorati."
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:732
+#: Ada_Zangemann.dbk:729
 msgid "A horrible night"
 msgstr "Una notte orribile"
 
@@ -1558,13 +1495,13 @@ msgstr "Una notte orribile"
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:736
+#: Ada_Zangemann.dbk:733
 msgid "images/capitals/Z-brown.png"
 msgstr "images/capitals/Z-brown.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p25-1
-#: Ada_Zangemann.dbk:736
+#: Ada_Zangemann.dbk:733
 msgid ""
 "<phrase condition=\"capitals-text\">Zangemann</phrase><phrase "
 "condition=\"capitals-img\">angemann</phrase> had slept horribly every night "
@@ -1584,7 +1521,7 @@ msgstr ""
 "rigirava tutta la notte nel suo letto senza riuscire a dormire."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:737
+#: Ada_Zangemann.dbk:734
 msgid ""
 "Waking up one morning with a deeply furrowed brow, he made a decision. He "
 "needed to make a change. Zangemann sat down at his computer and wrote one "
@@ -1599,7 +1536,7 @@ msgstr ""
 "che invece non potevano fare in determinate condizioni. Fine del caos!"
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:738
+#: Ada_Zangemann.dbk:735
 msgid ""
 "Once he was done, he sent all the new programs from his golden computer to "
 "people’s devices. He ordered his speakers to play only his favorite music "
@@ -1618,7 +1555,7 @@ msgstr ""
 "digitare…"
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:743
+#: Ada_Zangemann.dbk:740
 msgid "First real project"
 msgstr "Primo vero progetto"
 
@@ -1626,13 +1563,13 @@ msgstr "Primo vero progetto"
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:747
+#: Ada_Zangemann.dbk:744
 msgid "images/capitals/S-red2.png"
 msgstr "images/capitals/S-red2.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p26-1
-#: Ada_Zangemann.dbk:747
+#: Ada_Zangemann.dbk:744
 msgid ""
 "<phrase condition=\"capitals-text\">Summer</phrase><phrase "
 "condition=\"capitals-img\">ummer</phrase> break was already halfway over. "
@@ -1657,7 +1594,7 @@ msgstr ""
 "avrebbe voluto."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:748
+#: Ada_Zangemann.dbk:745
 msgid ""
 "After falling on her bottom for the hundredth time, she went back to the "
 "library. She always found answers to her questions there. And indeed, on the "
@@ -1671,7 +1608,7 @@ msgstr ""
 "Ada scaricò il programma sul suo cellulare."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:750
+#: Ada_Zangemann.dbk:747
 msgid ""
 "Back at the junkyard, she adapted some lines of code for her skateboard "
 "program. She tweaked a few things and kept tinkering."
@@ -1681,7 +1618,7 @@ msgstr ""
 "smanettarci sopra."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:751
+#: Ada_Zangemann.dbk:748
 msgid ""
 "Several failed attempts later, on the last day of summer break, the time had "
 "finally come. Ada stood on the skateboard and pressed the Go! button, and "
@@ -1698,7 +1635,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:758
+#: Ada_Zangemann.dbk:755
 msgid ""
 "Ada racing with her electric skateboard for city sidewalks. Ada's skateboard "
 "is blue, with gray and pink wheels; the electronic part is placed above the "
@@ -1752,7 +1689,7 @@ msgstr ""
 "c'è una pozzanghera che riflette l'azzurro del cielo."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:763
+#: Ada_Zangemann.dbk:760
 msgid ""
 "When Ada rode her skateboard to school on the first day back after summer "
 "break, the other children were amazed. During recess, Ada’s curious "
@@ -1763,7 +1700,7 @@ msgstr ""
 "era circondata dai compagni di classe incuriositi."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:764
+#: Ada_Zangemann.dbk:761
 msgid "“How can you ride your skateboard on the sidewalk?” they asked."
 msgstr ""
 "«Perché tu puoi andare con il tuo skateboard sul marciapiede?» le chiesero."
@@ -1771,7 +1708,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:769
+#: Ada_Zangemann.dbk:766
 msgid ""
 "Ada stops on her skateboard surrounded by children. Marie is on one end. She "
 "is pointing to Ada's skateboard and she's talking. Next to her is Konrad, "
@@ -1791,7 +1728,7 @@ msgstr ""
 "l'altra tiene un caschetto giallo per i lacci."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:773
+#: Ada_Zangemann.dbk:770
 msgid ""
 "Ada thought for a moment, then said, “I don’t think it’s your skateboards "
 "but actually the software in them. It’s probably programmed into the "
@@ -1804,7 +1741,7 @@ msgstr ""
 "cambiarlo!»."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:774
+#: Ada_Zangemann.dbk:771
 msgid ""
 "That evening, Ada tested out her theory on her classmate Toni’s skateboard. "
 "She worked secretly through most of the night, and the next day, Toni could "
@@ -1826,7 +1763,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:779
+#: Ada_Zangemann.dbk:776
 msgid ""
 "Hopscotch diagram drawn with chalk on asphalt. In a row, within squares, the "
 "numbers 1, 2; 3 and 4 next to each other; 5, 6; and 7 and 8 next to each "
@@ -1843,7 +1780,7 @@ msgstr ""
 "del disegno c'è uno skateboard Zangemann giallo con ruote arancioni."
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:785
+#: Ada_Zangemann.dbk:782
 msgid "Hacking for freedom"
 msgstr "Hackerare per la libertà"
 
@@ -1851,13 +1788,13 @@ msgstr "Hackerare per la libertà"
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:789
+#: Ada_Zangemann.dbk:786
 msgid "images/capitals/M-yellow.png"
 msgstr "images/capitals/M-yellow.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p30-1
-#: Ada_Zangemann.dbk:789
+#: Ada_Zangemann.dbk:786
 msgid ""
 "<phrase condition=\"capitals-text\">More</phrase><phrase "
 "condition=\"capitals-img\">ore</phrase> and more children started to visit "
@@ -1877,7 +1814,7 @@ msgstr ""
 "dove volevano."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:791
+#: Ada_Zangemann.dbk:788
 msgid ""
 "But that wasn’t all. With the software, they could give their skateboards "
 "new, cool features. Marie attached colorful LED lights to her board that "
@@ -1893,7 +1830,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:796
+#: Ada_Zangemann.dbk:793
 msgid ""
 "A green battery with red and yellow wires, a power strip, glue, a roll of "
 "solder, and two pencils."
@@ -1902,7 +1839,7 @@ msgstr ""
 "colla, un rotolo di stagno e due matite."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:800
+#: Ada_Zangemann.dbk:797
 msgid ""
 "Ada, Toni, Marie, and Konrad spent many afternoons at the junkyard. They "
 "even set up a real workshop where they could fine-tune their programs for "
@@ -1915,7 +1852,7 @@ msgstr ""
 "costruito per Alan."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:801
+#: Ada_Zangemann.dbk:798
 msgid ""
 "“Your brother’s speakers are much louder than ours,” remarked Toni, who was "
 "busy attaching a speedometer to his helmet. “I’m sure that’s also because of "
@@ -1927,7 +1864,7 @@ msgstr ""
 "software» rispose Marie."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:802
+#: Ada_Zangemann.dbk:799
 msgid ""
 "Together, they changed the software for the speakers too. Then they turned "
 "up the music as loud as possible and danced wildly together."
@@ -1938,7 +1875,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:807
+#: Ada_Zangemann.dbk:804
 msgid ""
 "A screwdriver with orange and gray handle, red pliers, and three LEDs: "
 "yellow, green, pink."
@@ -1949,7 +1886,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:815
+#: Ada_Zangemann.dbk:812
 msgid ""
 "Laboratory at the junkyard, under the veranda of Ada's house. Ada is sitting "
 "on a water case with a leg bent under her, using a soldering iron. Konrad is "
@@ -1976,7 +1913,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:823
+#: Ada_Zangemann.dbk:820
 msgid ""
 "Marie and Ada's mom are dancing, facing each other. Alan, Ada, and Konrad "
 "are dancing in a circle. On the right there is a speaker playing, resting on "
@@ -1993,7 +1930,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:831
+#: Ada_Zangemann.dbk:828
 msgid ""
 "Hands holding wonderful ice cream cones: blue ice cream with a chocolate "
 "heart on top with a yellow heart on its center, and whipped cream on top of "
@@ -2014,13 +1951,13 @@ msgstr ""
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:842
+#: Ada_Zangemann.dbk:839
 msgid "images/capitals/E-pink.png"
 msgstr "images/capitals/E-pink.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p35-1
-#: Ada_Zangemann.dbk:842
+#: Ada_Zangemann.dbk:839
 msgid ""
 "<phrase condition=\"capitals-text\">Every</phrase><phrase "
 "condition=\"capitals-img\">very</phrase> day, Ada and her friends made plans "
@@ -2041,7 +1978,7 @@ msgstr ""
 "molto meglio dei gusti prodotti dalle macchine di Zangemann."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:843
+#: Ada_Zangemann.dbk:840
 msgid ""
 "Sometimes they could even help adults. Toni reprogrammed his father’s "
 "ironing machine so that it could also iron ties again — Zangemann had "
@@ -2062,7 +1999,7 @@ msgstr ""
 "risucchiasse più."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:844
+#: Ada_Zangemann.dbk:841
 msgid ""
 "Some things they built just for fun, like the fart machine they put in their "
 "math teacher’s chair. Whenever Ms. Gernet sat down, the machine played a "
@@ -2076,7 +2013,7 @@ msgstr ""
 "volta sorridesse segretamente."
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:849
+#: Ada_Zangemann.dbk:846
 msgid "Zangemann and the President"
 msgstr "Zangemann e il Presidente"
 
@@ -2084,13 +2021,13 @@ msgstr "Zangemann e il Presidente"
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:853
+#: Ada_Zangemann.dbk:850
 msgid "images/capitals/O-green.png"
 msgstr "images/capitals/O-green.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p36-1
-#: Ada_Zangemann.dbk:853
+#: Ada_Zangemann.dbk:850
 msgid ""
 "<phrase condition=\"capitals-text\">One</phrase><phrase condition=\"capitals-"
 "img\">ne</phrase> day, Zangemann noticed that some computers no longer "
@@ -2110,7 +2047,7 @@ msgstr ""
 "computer. Bisogna fare una legge che proibisca tutto ciò!»."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:854
+#: Ada_Zangemann.dbk:851
 msgid ""
 "The president did not want to upset Zangemann. All the government’s "
 "computers were programmed by Zangemann. Without the computers, the "
@@ -2123,7 +2060,7 @@ msgstr ""
 "come richiesto da Zangemann:"
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:855
+#: Ada_Zangemann.dbk:852
 msgid ""
 "“All computers that do not listen to Zangemann are banned. Anyone who "
 "reprograms Zangemann’s devices will be fined 500,000 gold pieces!”"
@@ -2135,7 +2072,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:862
+#: Ada_Zangemann.dbk:859
 msgid ""
 "The President getting a phone call from the angry Zangemann. The videophone "
 "consists of an old red Zangemann dial phone connected to a monitor. "
@@ -2163,7 +2100,7 @@ msgstr ""
 "bianche."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:867
+#: Ada_Zangemann.dbk:864
 msgid ""
 "When Ada and her friends heard this, they were furious. “This is unfair,” "
 "they said. “We rebuilt and reprogrammed our skateboards ourselves. They are "
@@ -2175,7 +2112,7 @@ msgstr ""
 "portarceli via!»."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:868
+#: Ada_Zangemann.dbk:865
 msgid ""
 "They gathered in front of one of their rebuilt ice-cream machines and "
 "discussed the situation. It was clear that something had to be done about "
@@ -2188,7 +2125,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:873
+#: Ada_Zangemann.dbk:870
 msgid ""
 "Cans of green, blue, and pink paint; a paintbrush with yellow paint; a light "
 "green marker; and a rolled banner on which some blue paint has fallen."
@@ -2198,7 +2135,7 @@ msgstr ""
 "di vernice azzurra."
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:879
+#: Ada_Zangemann.dbk:876
 msgid "Protest"
 msgstr "Protesta"
 
@@ -2206,13 +2143,13 @@ msgstr "Protesta"
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:884
+#: Ada_Zangemann.dbk:881
 msgid "images/capitals/T-cyan.png"
 msgstr "images/capitals/T-cyan.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p39-1
-#: Ada_Zangemann.dbk:884
+#: Ada_Zangemann.dbk:881
 msgid ""
 "<phrase condition=\"capitals-text\">The</phrase><phrase condition=\"capitals-"
 "img\">he</phrase> next day, they didn’t go to school. Instead, they rode "
@@ -2239,7 +2176,7 @@ msgstr ""
 "sbirciò con curiosità i loro striscioni prima di entrare nell’edificio."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:885
+#: Ada_Zangemann.dbk:882
 msgid ""
 "On the following day, Ada and her friends again sat down in front of the "
 "parliament building, this time with support. Some classmates came whose "
@@ -2256,7 +2193,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:890
+#: Ada_Zangemann.dbk:887
 msgid ""
 "Yellow and green paint on the floor and wax crayons yellow, red, blue, green "
 "and brown; the latter 3 are in a gray cardboard box."
@@ -2266,7 +2203,7 @@ msgstr ""
 "cartone."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:894
+#: Ada_Zangemann.dbk:891
 msgid ""
 "With each passing day, more and more children and adults joined the protest. "
 "The bus driver they had helped drove up in her bus. She honked loudly to "
@@ -2287,7 +2224,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:899
+#: Ada_Zangemann.dbk:896
 msgid ""
 "Group of protesters. Among them there are: Ada's mother holding Alan's hand "
 "and raising a pink ice cream; 3 colleagues of Toni's father dressed in ties; "
@@ -2322,14 +2259,14 @@ msgstr ""
 
 #. (itstool) path: info/excerpt
 #. Text on big banner, left on the illustration
-#: Ada_Zangemann.dbk:901
+#: Ada_Zangemann.dbk:898
 msgid "Do your homework Mr. President and we will do ours!"
 msgstr "Fai i tuoi compiti signor Presidente che noi facciamo i nostri!"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:910
+#: Ada_Zangemann.dbk:907
 msgid ""
 "Detail of the previous image: two children holding the banner “Do your "
 "homework Mr. President and we will do ours!”"
@@ -2340,7 +2277,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:916
+#: Ada_Zangemann.dbk:913
 msgid ""
 "Detail of the previous image: Ada and Konrad are carrying the banner “Don’t "
 "wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is "
@@ -2355,7 +2292,7 @@ msgstr ""
 
 #. (itstool) path: info/excerpt
 #. Text on square signe on the right of the illustration
-#: Ada_Zangemann.dbk:918
+#: Ada_Zangemann.dbk:915
 msgid "They are young + need the code!"
 msgstr "Sono giovani + hanno bisogno del codice!"
 
@@ -2363,12 +2300,12 @@ msgstr "Sono giovani + hanno bisogno del codice!"
 #. Text on banner on the banner held by children on the right of the
 #. illustration. Alternatively the German text 'Ohne Code ist alles doof!'
 #. can be used, which translates to 'without code everything is dull!'.
-#: Ada_Zangemann.dbk:919
+#: Ada_Zangemann.dbk:916
 msgid "Don’t wreck our tech!"
 msgstr "Senza codice è tutto sciocco!"
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:926
+#: Ada_Zangemann.dbk:923
 msgid "Children help the government"
 msgstr "I bambini aiutano il governo"
 
@@ -2376,13 +2313,13 @@ msgstr "I bambini aiutano il governo"
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:929
+#: Ada_Zangemann.dbk:926
 msgid "images/capitals/A-violet.png"
 msgstr "images/capitals/A-violet.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p42-1
-#: Ada_Zangemann.dbk:929
+#: Ada_Zangemann.dbk:926
 msgid ""
 "<phrase condition=\"capitals-text\">Ada</phrase><phrase condition=\"capitals-"
 "img\">da</phrase> protested in front of the parliament building every week, "
@@ -2405,7 +2342,7 @@ msgstr ""
 "libero!»."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:930
+#: Ada_Zangemann.dbk:927
 msgid ""
 "The president looked at the determined faces of the children. Honestly, he, "
 "too, wanted to decide for himself what the government could and couldn’t do "
@@ -2422,7 +2359,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:936
+#: Ada_Zangemann.dbk:933
 msgid ""
 "One of Ada's friends lying on his stomach with one foot up in the air is "
 "typing on a laptop. He has wavy brown hair parted in the center, a red "
@@ -2435,7 +2372,7 @@ msgstr ""
 "computer c'è una tazza verde e due libri aperti."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:938
+#: Ada_Zangemann.dbk:935
 msgid ""
 "The next day, the president invited Ada and her friends over. “We also want "
 "to be in charge of our software ourselves. In order for that to be true, the "
@@ -2452,7 +2389,7 @@ msgstr ""
 "con il software. Il Presidente era letteralmente meravigliato."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:941
+#: Ada_Zangemann.dbk:938
 msgid ""
 "With this new knowledge, the government would be able to design its own "
 "software, the way it wanted — completely without Zangemann. Immediately, the "
@@ -2466,7 +2403,7 @@ msgstr ""
 "software."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:942
+#: Ada_Zangemann.dbk:939
 msgid ""
 "That evening, the children went home proud and satisfied. Something finally "
 "happened! Their long protest was worth it."
@@ -2477,7 +2414,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:947
+#: Ada_Zangemann.dbk:944
 msgid ""
 "Ada and her friends in the President's office. Ada is reprogramming the "
 "President's computer. Toni is setting up a speaker for the President's "
@@ -2495,7 +2432,7 @@ msgstr ""
 "gelati. Il telefono sta squillando ma nessuno risponde."
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:953
+#: Ada_Zangemann.dbk:950
 msgid "New law"
 msgstr "Nuova legge"
 
@@ -2503,13 +2440,13 @@ msgstr "Nuova legge"
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:956
+#: Ada_Zangemann.dbk:953
 msgid "images/capitals/T-red3.png"
 msgstr "images/capitals/T-red3.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p44-1
-#: Ada_Zangemann.dbk:956
+#: Ada_Zangemann.dbk:953
 msgid ""
 "<phrase condition=\"capitals-text\">The</phrase><phrase condition=\"capitals-"
 "img\">he</phrase> next morning, the president’s phone rang very early. It "
@@ -2531,7 +2468,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:961
+#: Ada_Zangemann.dbk:958
 msgid ""
 "A herald, wearing a hat with a plume, playing a trumpet on which a red "
 "banner is hung."
@@ -2540,7 +2477,7 @@ msgstr ""
 "tromba sulla quale è appeso uno stendardo rosso."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:963
+#: Ada_Zangemann.dbk:960
 msgid ""
 "In the days that followed, they talked from morning to night and designed "
 "their first programs for the government’s computers. They were no longer "
@@ -2558,7 +2495,7 @@ msgstr ""
 "chiamato»."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:965
+#: Ada_Zangemann.dbk:962
 msgid ""
 "Then, after many weeks of protests and discussions, the time had finally "
 "come: they abolished the old Zangemann law! Instead, the government "
@@ -2569,7 +2506,7 @@ msgstr ""
 "invece proclamato:"
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:968
+#: Ada_Zangemann.dbk:965
 msgid ""
 "“Everyone is allowed to program their own computers as long as they adhere "
 "to the other laws.”"
@@ -2578,7 +2515,7 @@ msgstr ""
 "rispettando le altre leggi»."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:969
+#: Ada_Zangemann.dbk:966
 msgid ""
 "In addition, a new school subject was introduced: computer hardware and "
 "software."
@@ -2589,7 +2526,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:974
+#: Ada_Zangemann.dbk:971
 msgid ""
 "The President with Toni, Konrad, Marie, Ada, and a herald playing a trumpet. "
 "Marie is standing on top of a ladder talking into a microphone. Konrad "
@@ -2604,7 +2541,7 @@ msgstr ""
 "seduto di fronte a lei."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:979
+#: Ada_Zangemann.dbk:976
 msgid ""
 "That evening, everyone celebrated with a big party. Ada, Alan, Toni, Marie, "
 "Konrad, and other children from school and their parents; the president; Ms. "
@@ -2621,7 +2558,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:984
+#: Ada_Zangemann.dbk:981
 msgid ""
 "Evening party. Children are holding ice cream and balloons with the words “I "
 "love FS (I love Free Software)”; other children are riding skateboards; "
@@ -2637,7 +2574,7 @@ msgstr ""
 "signore."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:988
+#: Ada_Zangemann.dbk:985
 msgid ""
 "While the others continued partying late into the night, Ada and her friends "
 "slipped away to their workshop. They already had a lot of ideas for new "
@@ -2651,7 +2588,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:993
+#: Ada_Zangemann.dbk:990
 msgid ""
 "The President, the secretary, and other people around a table enjoying crazy "
 "ice cream; yellow and orange flags continue from the previous image; a "
@@ -2667,7 +2604,7 @@ msgstr ""
 "della festa."
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:999
+#: Ada_Zangemann.dbk:996
 msgid "And Zangemann?"
 msgstr "E Zangemann?"
 
@@ -2675,13 +2612,13 @@ msgstr "E Zangemann?"
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:1003
+#: Ada_Zangemann.dbk:1000
 msgid "images/capitals/A-yellow.png"
 msgstr "images/capitals/A-yellow.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p48-1
-#: Ada_Zangemann.dbk:1003
+#: Ada_Zangemann.dbk:1000
 msgid ""
 "<phrase condition=\"capitals-text\">And</phrase><phrase condition=\"capitals-"
 "img\">nd</phrase> Zangemann? No one’s heard much from him. Maybe he’s still "
@@ -2709,20 +2646,20 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:1008
+#: Ada_Zangemann.dbk:1005
 msgid "Ada's little dog sniffing a trail of ice cream."
 msgstr "Il cagnolino di Ada che sta fiutando una traccia di gelato."
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:1017
+#: Ada_Zangemann.dbk:1014
 msgid "A trail of candies and raspberry ice cream on the ground."
 msgstr "Tracce di gelato al lampone per terra."
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-acknowledgments
-#: Ada_Zangemann.dbk:1024
+#: Ada_Zangemann.dbk:1021
 msgid "Acknowledgments"
 msgstr "Ringraziamenti"
 
@@ -2731,7 +2668,7 @@ msgstr "Ringraziamenti"
 #. Press' to the name of your publisher, as we would like to thank you for
 #. publishing this book in your language under a free cultural license,
 #. and encourage you to do that for other books in future as well.
-#: Ada_Zangemann.dbk:1032
+#: Ada_Zangemann.dbk:1029
 msgid ""
 "Many thanks to Reinhard Wiesemann from the Linuxhotel for the financial "
 "support and motivation to no longer plan but to make. Thanks to Sandra "
@@ -2749,7 +2686,7 @@ msgstr ""
 "da parte dell’editore."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1033
+#: Ada_Zangemann.dbk:1030
 msgid ""
 "Thanks to Bea and Benni, Brian, Christine and Marc, Cory, Bernhard, Isabel "
 "and Amelia, Katta, Kristina, Martin, Mona and Arne, Nina, Oliver, Reinhard, "
@@ -2764,7 +2701,7 @@ msgstr ""
 "di imparare e il cui impegno mi ha motivato."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1037
+#: Ada_Zangemann.dbk:1034
 msgid ""
 "Thanks to my family, who made me write early in the morning, late in the "
 "evening, and on holiday, and who always supports my work for software "
@@ -2780,7 +2717,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:1044
+#: Ada_Zangemann.dbk:1041
 msgid ""
 "Ada's dog wags its tail after finding Zangemann hidden behind a curtain and "
 "eating an ice cream cone with candies and a blue umbrella on it and lots of "
@@ -2792,26 +2729,26 @@ msgstr ""
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-author
-#: Ada_Zangemann.dbk:1051
+#: Ada_Zangemann.dbk:1048
 msgid "About the Author"
 msgstr "Informazioni sull'autore"
 
 #. (itstool) path: info/subtitle
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-author
 #. ignore-same
-#: Ada_Zangemann.dbk:1052
+#: Ada_Zangemann.dbk:1049
 msgid "Matthias Kirschner"
 msgstr "Matthias Kirschner"
 
 #. (itstool) path: info/titleabbrev
-#: Ada_Zangemann.dbk:1053
+#: Ada_Zangemann.dbk:1050
 msgid "About the Author - Matthias Kirschner"
 msgstr "Informazioni sull'autore - Matthias Kirschner"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:1066
+#: Ada_Zangemann.dbk:1063
 msgid ""
 "Close-up of Matthias smiling, waving with one hand, and wearing a headset. "
 "Matthias has short hair and a little beard."
@@ -2820,7 +2757,7 @@ msgstr ""
 "microfono. Matthias ha i capelli corti ed un pochino di barba."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1068
+#: Ada_Zangemann.dbk:1065
 msgid ""
 "Matthias was fascinated by computers and software as a child. He had an "
 "internet connection early, through which he learned a lot. Children have a "
@@ -2837,26 +2774,26 @@ msgstr ""
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-illustrator
-#: Ada_Zangemann.dbk:1074
+#: Ada_Zangemann.dbk:1071
 msgid "About the Illustrator"
 msgstr "Informazioni sull'illustratrice"
 
 #. (itstool) path: info/subtitle
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-illustrator
 #. ignore-same
-#: Ada_Zangemann.dbk:1075
+#: Ada_Zangemann.dbk:1072
 msgid "Sandra Brandstätter"
 msgstr "Sandra Brandstätter"
 
 #. (itstool) path: info/titleabbrev
-#: Ada_Zangemann.dbk:1076
+#: Ada_Zangemann.dbk:1073
 msgid "About the Illustrator - Sandra Brandstätter"
 msgstr "Informazioni sull'illustratrice - Sandra Brandstätter"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:1089
+#: Ada_Zangemann.dbk:1086
 msgid ""
 "Sandra smiling with a pencil in her hand in front of her chin. She has "
 "earphones with an integrated microphone. Sandra has short hair and glasses."
@@ -2866,7 +2803,7 @@ msgstr ""
 "caschetto e occhiali."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1091
+#: Ada_Zangemann.dbk:1088
 msgid ""
 "Sandra has always liked crafting with scissors, pliers, glue, wire, fabric, "
 "and paper. Today she works as an illustrator, comic author, and character "
@@ -2883,12 +2820,12 @@ msgstr ""
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-bookswebsite
-#: Ada_Zangemann.dbk:1096
+#: Ada_Zangemann.dbk:1093
 msgid "Book's website"
 msgstr "Sito web"
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1104
+#: Ada_Zangemann.dbk:1101
 msgid ""
 "The Free Software Foundation Europe e.V. is a nonprofit association that "
 "empowers people to control technology. Software affects all areas of our "
@@ -2908,7 +2845,7 @@ msgstr ""
 "di parola, la libertà di stampa e la privacy."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1106
+#: Ada_Zangemann.dbk:1103
 msgid ""
 "On the web page of the book, you will find more information and resources: "
 "<link xlink:href=\"https://ada.fsfe.org\">https://ada.fsfe.org</link>."
@@ -2918,12 +2855,12 @@ msgstr ""
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-license
-#: Ada_Zangemann.dbk:1113
+#: Ada_Zangemann.dbk:1110
 msgid "License"
 msgstr "Licenza"
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1121
+#: Ada_Zangemann.dbk:1118
 msgid ""
 "The book Ada &amp; Zangemann: A Tale of Software, Skateboards, and Raspberry "
 "Ice Cream by Matthias Kirschner and Sandra Brandstätter, published by No "
@@ -2936,7 +2873,7 @@ msgstr ""
 "BY-SA 4.0)”."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1122
+#: Ada_Zangemann.dbk:1119
 msgid ""
 "<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://"
 "creativecommons.org/licenses/by-sa/4.0/</link>"
@@ -2947,7 +2884,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:1131
+#: Ada_Zangemann.dbk:1128
 msgid ""
 "A hand that holds a fish-shaped ice cream cone with a cucumber on a "
 "decorated toothpick, to color. In a bottom corner, a pencil writing."
@@ -2957,7 +2894,7 @@ msgstr ""
 
 #. (itstool) path: simplesect/literallayout
 #. In a literallayout element all space and newline characters are kept.
-#: Ada_Zangemann.dbk:1133
+#: Ada_Zangemann.dbk:1130
 #, no-wrap
 msgid ""
 "Come up with some delicious, funny, or crazy ice-cream flavors and draw them on the ice-cream cones on the following page.\n"
@@ -2969,7 +2906,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:1141
+#: Ada_Zangemann.dbk:1138
 msgid ""
 "Three hands that hold as many empty ice cream cones, to draw and color. In "
 "the air above the middle cone is an umbrella."
