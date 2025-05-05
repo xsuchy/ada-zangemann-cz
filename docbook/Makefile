@@ -64,6 +64,12 @@ build/%/images/illustrations:
 	mkdir -p $(@D) || exit 0
 	makefile_helpers/./imagedir.sh $(shell echo ${@} | sed -n 's/.*build\/\(.*\)\/images.*/\1/p')
 
+# Multi-language illustrations
+.PRECIOUS: build/images/illustrations
+build/images/illustrations:
+	mkdir -p build/images || exit 0
+	if [ ! -h $@ ]; then ln -s ../../images/illustrations build/images/illustrations; fi
+
 # Link to capitals-opague
 # TODO: add separate target for transparent capitals
 # NOTE: marked as precious to prevent cleanup of symbolic link
@@ -72,20 +78,39 @@ build/%/images/capitals:
 	mkdir -p $(@D)
 	if [ ! -h $@ ]; then ln -s ../../../images/capitals-opague $@; fi
 
+# Multi-language capitals
+.PRECIOUS: build/images/capitals
+build/images/capitals:
+	mkdir -p build/images || exit 0
+	if [ ! -h $@ ]; then ln -s ../../images/capitals-opague build/images/capitals; fi
+
 # Create docbook files
 targets-dbk = $(addprefix build/,$(addsuffix /Ada_Zangemann.dbk,$(translations)))
 $(targets-dbk): build/%/Ada_Zangemann.dbk: po/%.mo Ada_Zangemann.dbk
 	mkdir -p $(@D) || exit 0
 	itstool --strict --merge $< --out $(@D) $(@F)
 
+# Multi-language
+build/Ada_Zangemann.%.dbk: po/%.mo Ada_Zangemann.dbk
+	mkdir -p $(@D) || exit 0
+	itstool --strict --merge $< --out $@ Ada_Zangemann.dbk
+
 # Create 'pure' docbook files without custom elements
 build/%/Ada_Zangemann-pure.dbk: build/%/Ada_Zangemann.dbk xsl/clean-docbook.xsl
+	xsltproc -o $@ xsl/clean-docbook.xsl $<
+
+# Multi-language
+build/Ada_Zangemann-pure.%.dbk: build/Ada_Zangemann.%.dbk xsl/clean-docbook.xsl
 	xsltproc -o $@ xsl/clean-docbook.xsl $<
 
 # Profile docbook for text processing
 # Relies on XSLT 1.0 stylesheets https://github.com/docbook/xslt10-stylesheets/ included in Debian docbook-xsl package
 # FIXME: returns exit code 6 'Error in one of the documents' without a clear issue or error in output.
 build/%/Ada_Zangemann-pure-profiled-text.dbk: build/%/Ada_Zangemann-pure.dbk
+	xsltproc -o $@ --verbose /usr/share/xml/docbook/stylesheet/docbook-xsl/profiling/profile.xsl --stringparam profile.condition "headings-text;capitals-text;colophon-simple" $< > $@.log 2>&1 || exit 0
+
+# Multi-language
+build/Ada_Zangemann-pure-profiled-text.%.dbk: build/Ada_Zangemann-pure.%.dbk
 	xsltproc -o $@ --verbose /usr/share/xml/docbook/stylesheet/docbook-xsl/profiling/profile.xsl --stringparam profile.condition "headings-text;capitals-text;colophon-simple" $< > $@.log 2>&1 || exit 0
 
 # HTML output using standard docbook processing
@@ -98,6 +123,10 @@ $(targets-html): build/%/Ada_Zangemann.html: build/%/Ada_Zangemann-pure-profiled
 
 .PHONY: build/all/Ada_Zangemann.html
 build/all/Ada_Zangemann.html: $(targets-html)
+
+# Multi-language
+build/Ada_Zangemann.%.html: build/Ada_Zangemann-pure-profiled-text.%.dbk build/images/illustrations
+	xsltproc -o $@ /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl $<
 
 # LaTeX based pdf processing
 # FIXME: not yet working
@@ -139,6 +168,10 @@ $(targets-print-headings-img-colophon-print): build/%/print-headings-img-colopho
 	if [ ! -h $(@D)/images ]; then ln -s ../images $(@D)/images; fi
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-img;capitals-img;colophon-print" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
+# Multi-language
+build/Ada_Zangemann-print-headings-img-colophon-print.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations build/images/capitals xsl/scribus.xsl
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-img;capitals-img;colophon-print" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
+
 .PHONY: build/all/print-headings-img/Ada_Zangemann-print-headings-img.sla
 build/all/print-headings-img/Ada_Zangemann-print-headings-img.sla: $(targets-print-headings-img)
 
@@ -160,6 +193,10 @@ $(targets-print-headings-text-colophon-print): build/%/print-headings-text-colop
 
 .PHONY: build/all/print-headings-text-colophon-print/Ada_Zangemann-print-headings-text-colophon-print.sla
 build/all/print-headings-text-colophon-print/Ada_Zangemann-print-headings-text-colophon-print.sla: $(targets-print-headings-text-colophon-print)
+
+# Multi-language
+build/Ada_Zangemann-print-headings-text-colophon-print.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations build/images/capitals xsl/scribus.xsl
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-text;capitals-text;colophon-print" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 # Build version with text subtitle
 targets-coverhard-text = $(addprefix build/,$(addsuffix /coverhard-text/Ada_Zangemann-coverhard-text.sla,$(translations)))
