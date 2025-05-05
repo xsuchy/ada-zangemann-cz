@@ -45,7 +45,7 @@
         <CHARSTYLE CNAME="Subtitle Cover" FONT="Delicious-Handrawn Regular" FONTSIZE="30" FCOLOR="Cover Yellow" LANGUAGE="es"/>
         <CHARSTYLE CNAME="Capital" FONT="Yuji Syuku Regular" FONTSIZE="12" FONTFEATURES="-clig" LANGUAGE="en_US"/>
         <CHARSTYLE CNAME="Capital Cover Yellow" CPARENT="Capital" FCOLOR="Cover Yellow"/>
-        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" DIRECTION="0" LINESPMode="1" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" HyphenConsecutiveLines="2" BCOLOR="None" BSHADE="100"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" DIRECTION="0" LINESPMode="0" LINESP="17.5" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" HyphenConsecutiveLines="2" BCOLOR="None" BSHADE="100"/>
         <STYLE NAME="Subtitle Cover" ALIGN="1" LINESPMode="0" LINESP="20" CPARENT="Subtitle Cover"/>
         <TableStyle NAME="Default Table Style" DefaultStyle="1" FillColor="None" FillShade="100">
             <TableBorderLeft>
