@@ -6,15 +6,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-05-06 19:03+0200\n"
-"PO-Revision-Date: 2025-05-06 20:21+0200\n"
+"PO-Revision-Date: 2025-05-07 20:03+0000\n"
 "Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/fsfe/ada-zangemann/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/fsfe/ada-zangemann/"
+"nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -1045,13 +1046,17 @@ msgstr "images/illustrations/ada-p18.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:663
-#, fuzzy
 msgid ""
 "Five kids from the school who can’t make skateboards work. Two girls wear helmets, respectively blue and red. A little girl with brown hair tied in two tails with yellow rubber bands is kneeling. She is trying to understand why the skateboard of her friend with the red helmet does not work. Four children have backpacks on their shoulders, while the little girl with the red helmet left hers leaning on a bench on which there are a "
 "yellow apple and a light blue bottle with a white flower on it."
 msgstr ""
-"Vijf kinderen van school die hun skateboards niet aan de praat krijgen. Twee meisjes dragen helmen, de ene blauw, de ander rood. Een klein meisje met bruin haar in twee knotten met gele elastieken is geknield. Ze probeert te begrijpen waarom het skateboard van haar vriend met de rode helm niet meer werkt. Vier kinderen hebben rugzakken op hun schouders, terwijl het kleine meisje met de rode helm die van haar tegen een bankje heeft "
-"leunen met daarop een gele appel een een lichtblauwe drinkfles met een witte bloem erop."
+"Vijf kinderen van school die hun skateboards niet aan de praat krijgen. Twee "
+"meisjes dragen helmen, de ene blauw, de ander rood. Een klein meisje met "
+"bruin haar in twee knotten met gele elastieken is geknield. Ze probeert te "
+"begrijpen waarom het skateboard van haar vriend met de rode helm niet meer "
+"werkt. Vier kinderen hebben rugzakken op hun schouders, terwijl het kleine "
+"meisje met de rode helm die van haar tegen een bankje heeft leunen met "
+"daarop een gele appel en een lichtblauwe drinkfles met een witte bloem erop."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:667
