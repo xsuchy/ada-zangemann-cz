@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
-"POT-Creation-Date: 2025-05-05 07:33+0200\n"
+"POT-Creation-Date: 2025-05-06 19:03+0200\n"
 "PO-Revision-Date: 2025-05-06 16:49+0000\n"
 "Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
-"Language-Team: Esperanto <https://hosted.weblate.org/projects/fsfe/"
-"ada-zangemann/eo/>\n"
+"Language-Team: Esperanto <https://hosted.weblate.org/projects/fsfe/ada-"
+"zangemann/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,31 +24,31 @@ msgstr "Marco Ciampa <ciampix@posteo.net>, 2025"
 #. Ampersand character & is escaped for XML source format as &amp;
 #.
 #. ignore-same
-#: Ada_Zangemann.dbk:263 Ada_Zangemann.dbk:307 Ada_Zangemann.dbk:497
+#: Ada_Zangemann.dbk:262 Ada_Zangemann.dbk:306 Ada_Zangemann.dbk:496
 msgid "Ada &amp; Zangemann"
 msgstr "Ada &amp; Zangemann"
 
 #. (itstool) path: info/subtitle
 #. (itstool) path: cover/bridgehead
-#: Ada_Zangemann.dbk:264 Ada_Zangemann.dbk:308
+#: Ada_Zangemann.dbk:263 Ada_Zangemann.dbk:307
 msgid "A Tale of Software, Skateboards, and Raspberry Ice Cream"
 msgstr "Rakonto pri programaro, rultabuloj, kaj framba glaciaĵo"
 
 #. (itstool) path: info/biblioid
 #. ISBN of print edition
-#: Ada_Zangemann.dbk:265
+#: Ada_Zangemann.dbk:264
 msgid "978-1-7185-0318-2"
 msgstr "978-1-7185-0318-2"
 
 #. (itstool) path: info/biblioid
 #. ISBN of ebook edition
-#: Ada_Zangemann.dbk:266
+#: Ada_Zangemann.dbk:265
 msgid "978-1-7185-0319-9"
 msgstr "978-1-7185-0319-9"
 
 #. (itstool) path: info/author
 #. ignore-same
-#: Ada_Zangemann.dbk:268
+#: Ada_Zangemann.dbk:267
 msgid ""
 "<personname> <firstname>Matthias</firstname> <surname>Kirschner</surname> </"
 "personname>"
@@ -58,7 +58,7 @@ msgstr ""
 
 #. (itstool) path: info/othercredit
 #. ignore-same
-#: Ada_Zangemann.dbk:274
+#: Ada_Zangemann.dbk:273
 msgid ""
 "<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surname> </"
 "personname>"
@@ -70,7 +70,7 @@ msgstr ""
 #. Name must not be changed.
 #.
 #. ignore-same
-#: Ada_Zangemann.dbk:283
+#: Ada_Zangemann.dbk:282
 msgid "Ada"
 msgstr "Ada"
 
@@ -78,7 +78,7 @@ msgstr "Ada"
 #. Name must not be changed.
 #.
 #. ignore-same
-#: Ada_Zangemann.dbk:286
+#: Ada_Zangemann.dbk:285
 msgid "Zangemann"
 msgstr "Zangemann"
 
@@ -86,7 +86,7 @@ msgstr "Zangemann"
 #. Name must not be changed.
 #.
 #. ignore-same
-#: Ada_Zangemann.dbk:289
+#: Ada_Zangemann.dbk:288
 msgid "Alan"
 msgstr "Alan"
 
@@ -101,7 +101,7 @@ msgstr "Alan"
 #. as intended, or use names which can be male and female.
 #.
 #. ignore-same
-#: Ada_Zangemann.dbk:292
+#: Ada_Zangemann.dbk:291
 msgid "Toni"
 msgstr "Toni"
 
@@ -116,7 +116,7 @@ msgstr "Toni"
 #. as intended, or use names which can be male and female.
 #.
 #. ignore-same
-#: Ada_Zangemann.dbk:295
+#: Ada_Zangemann.dbk:294
 msgid "Konrad"
 msgstr ""
 
@@ -131,7 +131,7 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #.
 #. ignore-same
-#: Ada_Zangemann.dbk:298
+#: Ada_Zangemann.dbk:297
 msgid "Marie"
 msgstr ""
 
@@ -146,14 +146,38 @@ msgstr ""
 #. as intended, or use names which can be male and female.
 #.
 #. ignore-same
-#: Ada_Zangemann.dbk:301
+#: Ada_Zangemann.dbk:300
 msgid "Ms. Gernet"
 msgstr "S-ino Gernet"
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:311
+#, fuzzy
+msgid "images/illustrations/ada-a01.en.png"
+msgstr "images/capitals/O-cyan.png"
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:314
+msgid "images/illustrations/ada-a01-nosubtitle.ltr.png"
+msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:321
+#: Ada_Zangemann.dbk:320
+#, fuzzy
 msgid ""
 "Ada &amp; Zangemann - A Tale of Software, Skateboards, and Raspberry Ice "
 "Cream. By Matthias Kirschner and Sandra Brandstätter. On a mostly "
@@ -170,7 +194,7 @@ msgid ""
 "socks. She has one foot on a skateboard and the other on the ground. "
 "Zangemann has short gray hair and square glasses. He is wearing a purple "
 "turtle-neck sweater, light blue pants turned up, brown shoes, and white "
-"socks. He's wearing a big tech watch. Above Zangemann there are a pair of "
+"socks. He’s wearing a big tech watch. Above Zangemann there are a pair of "
 "pliers with red handles crossing the wire frame."
 msgstr ""
 "Ada kaj Zangemann - Rakonto pri programaro, rultabuloj kaj framba glaciaĵo. "
@@ -193,10 +217,21 @@ msgstr ""
 "teknologian horloĝon. Super Zangemann estas pinĉilo kun ruĝaj teniloj, kiuj "
 "transiras la dratan kadron."
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:327 Ada_Zangemann.dbk:338
+msgid "images/illustrations/ada-z04.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:330
+#: Ada_Zangemann.dbk:329
 msgid ""
 "A soldering iron and a brush and can with yellow paint, connected by white "
 "electrical cord that forms a frame."
@@ -208,18 +243,19 @@ msgstr ""
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:333
+#: Ada_Zangemann.dbk:332
 msgid "images/capitals/T-yellow2.png"
 msgstr "images/capitals/T-yellow2.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-back-1
-#: Ada_Zangemann.dbk:333
+#: Ada_Zangemann.dbk:332
+#, fuzzy
 msgid ""
 "<phrase condition=\"capitals-text\">The</phrase><phrase condition=\"capitals-"
 "img\">he</phrase> inventor Zangemann is world-famous and immensely rich. "
 "Adults and children alike love his fabulous technical inventions. But one "
-"day there is a problem: the children's electronic skateboards no longer work "
+"day there is a problem: the children’s electronic skateboards no longer work "
 "properly. What’s going on? The curious girl Ada sees through what is going "
 "on. Together with her friends, she experiments with hardware and software, "
 "and the children forge a plan: Zangemann can no longer be the only one in "
@@ -235,7 +271,7 @@ msgstr ""
 "regas la aparatojn!"
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:334
+#: Ada_Zangemann.dbk:333
 msgid ""
 "A book that arouses interest in tinkering and encourages shaping technology."
 msgstr ""
@@ -244,7 +280,7 @@ msgstr ""
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:341
+#: Ada_Zangemann.dbk:340
 msgid ""
 "A power strip, with input and output of white electrical cord that is the "
 "frame."
@@ -252,12 +288,34 @@ msgstr ""
 "Elektrostrio, kun enigo kaj eligo de blanka elektra ŝnuro, kiu estas la "
 "kadro."
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:347
+msgid "images/illustrations/ada-a01-spine.ltr.btt.png"
+msgstr ""
+
 #. (itstool) path: info/title
 #. Page before the colophon and the title page, with just the title. Also
 #. know as 'bastard title'.
-#: Ada_Zangemann.dbk:356
+#: Ada_Zangemann.dbk:355
 msgid "Half-title page"
 msgstr "Frontispico"
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:360
+msgid "images/illustrations/ada-p01-titleonly.ltr.png"
+msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. (itstool) path: simplesect/para
@@ -266,13 +324,13 @@ msgstr "Frontispico"
 #.
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:363 Ada_Zangemann.dbk:489
+#: Ada_Zangemann.dbk:362 Ada_Zangemann.dbk:488
 msgid "ADA &amp; ZANGEMANN"
 msgstr "ADA &amp; ZANGEMANN"
 
 #. (itstool) path: info/title
 #. Also known as 'imprint'
-#: Ada_Zangemann.dbk:369
+#: Ada_Zangemann.dbk:368
 msgid "Colophon"
 msgstr "Premsigno"
 
@@ -282,7 +340,7 @@ msgstr "Premsigno"
 #. https://creativecommons.org/licenses/by-sa/4.0/
 #.
 #. In a literallayout element all space and newline characters are kept.
-#: Ada_Zangemann.dbk:373
+#: Ada_Zangemann.dbk:372
 #, no-wrap
 msgid ""
 "Copyright © 2023 Matthias Kirschner and Sandra Brandstätter.\n"
@@ -297,11 +355,11 @@ msgid ""
 "\n"
 "<emphasis role=\"bold\">You may</emphasis> do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. If you remix, transform, or build upon the material, <emphasis role=\"bold\">you must</emphasis> distribute your contributions under the same license as the original. (This is a human-readable summary of - and not a substitute for - the “legal code” of CC-BY-SA 4.0.)\n"
 "\n"
-"Furthermore for remix versions (derivative works), the licensor asks you not to make any modifications of the author's personal acknowledgments and the author's and illustrator's short biographies, instead please completely remove those parts from your remix version.\n"
+"Furthermore for remix versions (derivative works), the licensor asks you not to make any modifications of the author’s personal acknowledgments and the author’s and illustrator’s short biographies, instead please completely remove those parts from your remix version.\n"
 "\n"
-"Publication under this free cultural license was possible due to the great support by dpunkt.verlag GmbH / O'Reilly Media, Inc. for the German book and No Starch Press for the English book. Unfortunately, Creative Commons licenses are still rare exceptions for commercially published books, and often considered revolutionary and risky by publishers.\n"
+"Publication under this free cultural license was possible due to the great support by dpunkt.verlag GmbH / O’Reilly Media, Inc. for the German book and No Starch Press for the English book. Unfortunately, Creative Commons licenses are still rare exceptions for commercially published books, and often considered revolutionary and risky by publishers.\n"
 "\n"
-"<emphasis role=\"bold\">A big thank you</emphasis> to <emphasis role=\"bold\">dpunkt.verlag</emphasis> and <emphasis role=\"bold\">No Starch Press</emphasis> for understanding the values of software freedom, taking the time to discuss and understand the advantages of free cultural licenses, and the great support to publish this book under conditions that respect the FSFE's values."
+"<emphasis role=\"bold\">A big thank you</emphasis> to <emphasis role=\"bold\">dpunkt.verlag</emphasis> and <emphasis role=\"bold\">No Starch Press</emphasis> for understanding the values of software freedom, taking the time to discuss and understand the advantages of free cultural licenses, and the great support to publish this book under conditions that respect the FSFE’s values."
 msgstr ""
 
 #. (itstool) path: simplesect/literallayout
@@ -310,7 +368,7 @@ msgstr ""
 #. https://creativecommons.org/licenses/by-sa/4.0/
 #.
 #. In a literallayout element all space and newline characters are kept.
-#: Ada_Zangemann.dbk:390
+#: Ada_Zangemann.dbk:389
 #, no-wrap
 msgid ""
 "Copyright © 2023 Matthias Kirschner and Sandra Brandstätter.\n"
@@ -359,25 +417,25 @@ msgid ""
 "\n"
 "<emphasis role=\"bold\">You may</emphasis> do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. If you remix, transform, or build upon the material, <emphasis role=\"bold\">you must</emphasis> distribute your contributions under the same license as the original. (This is a human-readable summary of - and not a substitute for - the “legal code” of CC-BY-SA 4.0.)\n"
 "\n"
-"Furthermore for remix versions (derivative works), the licensor asks you not to make any modifications of the author's personal acknowledgments and the author's and illustrator's short biographies, instead please completely remove those parts from your remix version.\n"
+"Furthermore for remix versions (derivative works), the licensor asks you not to make any modifications of the author’s personal acknowledgments and the author’s and illustrator’s short biographies, instead please completely remove those parts from your remix version.\n"
 "\n"
-"Publication under this free cultural license was possible due to the great support by dpunkt.verlag GmbH / O'Reilly Media, Inc. for the German book and No Starch Press for the English book. Unfortunately, Creative Commons licenses are still rare exceptions for commercially published books, and often considered revolutionary and risky by publishers.\n"
+"Publication under this free cultural license was possible due to the great support by dpunkt.verlag GmbH / O’Reilly Media, Inc. for the German book and No Starch Press for the English book. Unfortunately, Creative Commons licenses are still rare exceptions for commercially published books, and often considered revolutionary and risky by publishers.\n"
 "\n"
-"<emphasis role=\"bold\">A big thank you</emphasis> to <emphasis role=\"bold\">dpunkt.verlag</emphasis> and <emphasis role=\"bold\">No Starch Press</emphasis> for understanding the values of software freedom, taking the time to discuss and understand the advantages of free cultural licenses, and the great support to publish this book under conditions that respect the FSFE's values."
+"<emphasis role=\"bold\">A big thank you</emphasis> to <emphasis role=\"bold\">dpunkt.verlag</emphasis> and <emphasis role=\"bold\">No Starch Press</emphasis> for understanding the values of software freedom, taking the time to discuss and understand the advantages of free cultural licenses, and the great support to publish this book under conditions that respect the FSFE’s values."
 msgstr ""
 
 #. (itstool) path: simplesect/literallayout
 #. Grey section in the bottom of the simple colophon.
 #.
 #. In a literallayout element all space and newline characters are kept.
-#: Ada_Zangemann.dbk:444
-#, no-wrap
+#: Ada_Zangemann.dbk:443
+#, fuzzy, no-wrap
 msgid ""
 "<emphasis role=\"bold\">Free as in freedom not price</emphasis>\n"
 "Free Software is about the freedoms you receive with the software, not about the price. Likewise publishing a book under a free culture license does not mean you have the right to get a gratis copy of the book or ebook. It means you get the rights described above, which enable society to benefit further from this book, as it should from all cultural works.\n"
 "\n"
 "We encourage you to support authors, publishers, and others involved in the creation of culture under free licenses – including <emphasis role=\"bold\">financially supporting them through purchases or donations</emphasis>. (<link xlink:href=\"https://fsfe.org/donate\">https://fsfe.org/donate</link>)\n"
-"Society should support those who respect others' freedom."
+"Society should support those who respect others’ freedom."
 msgstr ""
 "<emphasis role=\"bold\">Libera kiel libereco, ne prezo</emphasis>\n"
 "Libera programaro temas pri la liberecoj, kiujn vi ricevas kun la programaro, ne pri la prezo. Simile, publikigi libron sub liberkultura licenco ne signifas, ke vi rajtas ricevi senpagan ekzempleron de la libro aŭ e-libro. Ĝi signifas, ke vi ricevas la rajtojn priskribitajn supre, kiuj ebligas al la socio profiti plu de ĉi tiu libro, kiel ĝi devus de ĉiuj kulturaj verkoj.\n"
@@ -387,19 +445,20 @@ msgstr ""
 
 #. (itstool) path: info/title
 #. Page next to the colophon with title, subtitle, authors and
-#. illustration of Ada's dog.
-#: Ada_Zangemann.dbk:453
+#. illustration of Ada’s dog.
+#: Ada_Zangemann.dbk:452
 msgid "Title page"
 msgstr "Paĝo de la titolo"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:460
+#: Ada_Zangemann.dbk:459
+#, fuzzy
 msgid ""
 "Matthias Kirschner, Sandra Brandstätter - ADA &amp; ZANGEMANN - A Tale of "
 "Software, Skateboards and Raspberry Ice Cream. Title in the middle, authors "
-"in the upper left. In the lower right, Ada's family's dog with gray fur and "
+"in the upper left. In the lower right, Ada’s family’s dog with gray fur and "
 "some white patches and with a red collar with shiny yellow LEDs, which wags "
 "its tail."
 msgstr ""
@@ -409,19 +468,52 @@ msgstr ""
 "kaj kelkaj blankaj makuloj kaj kun ruĝa kolrimeno kun brile flavaj LED-oj, "
 "kiu skuas sian voston."
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:464
+msgid "images/illustrations/ada-p03-author.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. ignore-same
 #.
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:467
+#: Ada_Zangemann.dbk:466
 msgid "Matthias Kirschner, Sandra Brandstätter"
 msgstr "Matthias Kirschner, Sandra Brandstätter"
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:471
+msgid "images/illustrations/ada-p03-title.en.png"
+msgstr ""
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:474
+msgid "images/illustrations/ada-p03-titleonly.ltr.png"
+msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:477
+#: Ada_Zangemann.dbk:476
 msgid ""
 "ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice "
 "Cream. Title in the middle, authors in the upper left."
@@ -429,12 +521,24 @@ msgstr ""
 "ADA & ZANGEMANN - Rakonto pri programaro, rultabuloj kaj framba glaciaĵo. "
 "Titolo en la mezo, aŭtoroj supre maldekstre."
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:481
+msgid "images/illustrations/ada-p03-dog.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:484
+#: Ada_Zangemann.dbk:483
+#, fuzzy
 msgid ""
-"In the lower right, Ada's family's dog with gray fur and some white patches "
+"In the lower right, Ada’s family’s dog with gray fur and some white patches "
 "and with a red collar with shiny yellow LEDs, which wags its tail."
 msgstr ""
 "Malsupra dekstre, la hundo de la familio de Ada kun griza felo kaj kelkaj "
@@ -443,7 +547,7 @@ msgstr ""
 
 #. (itstool) path: simplesect/literallayout
 #. In a literallayout element all space and newline characters are kept.
-#: Ada_Zangemann.dbk:487
+#: Ada_Zangemann.dbk:486
 #, no-wrap
 msgid ""
 "Matthias Kirschner\n"
@@ -455,7 +559,7 @@ msgstr ""
 #. (itstool) path: simplesect/literallayout
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-titlepage
 #. In a literallayout element all space and newline characters are kept.
-#: Ada_Zangemann.dbk:490
+#: Ada_Zangemann.dbk:489
 #, no-wrap
 msgid ""
 "A Tale of\n"
@@ -470,13 +574,13 @@ msgstr ""
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:501
+#: Ada_Zangemann.dbk:500
 msgid "images/capitals/O-cyan.png"
 msgstr "images/capitals/O-cyan.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p04-1
-#: Ada_Zangemann.dbk:501
+#: Ada_Zangemann.dbk:500
 msgid ""
 "<phrase condition=\"capitals-text\">Once</phrase><phrase "
 "condition=\"capitals-img\">nce</phrase> upon a time, there was a little girl "
@@ -491,26 +595,38 @@ msgstr ""
 "mono por vivi en deca hejmo. Anstataŭe, Ada loĝis kun sia patrino kaj sia "
 "frateto, Alan, en kabano proksime de rubodeponejo ĉe la rando de la urbo."
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:506
+msgid "images/illustrations/ada-p04.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:509
+#: Ada_Zangemann.dbk:508
+#, fuzzy
 msgid ""
-"Ada in foreground leaving the house to go to school, in the background Ada's "
+"Ada in foreground leaving the house to go to school, in the background Ada’s "
 "house and the junkyard. Ada has a brown backpack with yellow shoulder "
 "straps. To the left of Ada there is a red car, a Volkswagen Beetle, without "
 "wheels and no longer working, with one of the headlights remaining attached "
 "only with its wires. On the left, in front of the car, there are two tires, "
 "two boxes – one of which is a wooden box with an overturned bucket –, and an "
 "empty can, all among some plants with yellow flowers. In the background "
-"there is Ada's house, with her mother and her brother Alan waving goodbye, "
+"there is Ada’s house, with her mother and her brother Alan waving goodbye, "
 "and the dog sitting on the ground. Alan is sitting on the two entrance steps "
 "of the house. He has short dark hair and is dressed in a white short-sleeved "
 "shirt with a red stripe at the edges of the sleeves and two red stripes at "
-"the bottom of the shirt. Alan wears blue shorts and he is barefoot. Ada's "
+"the bottom of the shirt. Alan wears blue shorts and he is barefoot. Ada’s "
 "mom has dark lipstick and long black hair in a white headband. She is "
 "wearing a short blue shirt with white trim, white pants, and yellow shoes. "
-"Ada's house is built of wood, with the front being white. The roof is dark "
+"Ada’s house is built of wood, with the front being white. The roof is dark "
 "red corrugated sheeting. There are two windows in front in addition to the "
 "door, and another window on the left side. A yellow duck stands on top of "
 "the roof, while a gray chimney protrudes. An antenna on the left of the roof "
@@ -546,10 +662,21 @@ msgstr ""
 "ujo. Malantaŭ la domo estas amasoj da rubodeponejoj, inter kiuj videblas "
 "lavmaŝino, aŭto kaj diversaj lignaj tabuloj."
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:514
+msgid "images/illustrations/ada-p05.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:517
+#: Ada_Zangemann.dbk:516
 msgid ""
 "Prestigious magazines (“STARS“, “MONEY”, “Richest Man”) on whose cover are "
 "Zangemann and his villa."
@@ -558,7 +685,7 @@ msgstr ""
 "Zangemann kaj lia vilao."
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:519
+#: Ada_Zangemann.dbk:518
 msgid ""
 "Far away, at the other end of town, lived a famous inventor named Zangemann. "
 "He was immensely rich. No sheet of paper in the world was big enough to show "
@@ -577,7 +704,7 @@ msgstr ""
 "tutan urbon."
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:524
+#: Ada_Zangemann.dbk:523
 msgid "Zangemann and computers"
 msgstr "Zangemann kaj komputiloj"
 
@@ -585,13 +712,13 @@ msgstr "Zangemann kaj komputiloj"
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:528
+#: Ada_Zangemann.dbk:527
 msgid "images/capitals/C-red1.png"
 msgstr "images/capitals/C-red1.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p06-1
-#: Ada_Zangemann.dbk:528
+#: Ada_Zangemann.dbk:527
 msgid ""
 "<phrase condition=\"capitals-text\">Computers</phrase><phrase "
 "condition=\"capitals-img\">omputers</phrase> had fascinated Zangemann ever "
@@ -612,17 +739,28 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:529
+#: Ada_Zangemann.dbk:528
 msgid ""
 "As the years went by, Zangemann grew bigger and computers got smaller. In "
 "fact, by the time he finished school, they were so small they fit in his "
 "pocket. The smallest ones even fit on his fingertip."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:533
+msgid "images/illustrations/ada-p07.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:536
+#: Ada_Zangemann.dbk:535
 msgid ""
 "Zangemann as a child on a chair at a school table. From his head come six "
 "bubbles in which there are his ideas of places in which to insert computers: "
@@ -636,17 +774,28 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:541
+#: Ada_Zangemann.dbk:540
 msgid ""
 "“Finally, I can turn all my ideas into real things!” Zangemann exclaimed, "
 "and he got right to work. He found ways to put the small computers into all "
 "kinds of things to make them even more fun and useful. And then he sold them."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:543
+msgid "images/illustrations/ada-p08b.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:546
+#: Ada_Zangemann.dbk:545
 msgid ""
 "Zangemann original ice cream machine. It is ice blue in color and is similar "
 "to a vending machine of drinks, but instead of the cup there is a cone that "
@@ -660,7 +809,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:548
+#: Ada_Zangemann.dbk:547
 msgid ""
 "Adults and children loved his inventions. All the kids wanted to have one of "
 "his skateboards — complete with the latest sounds to show off to their "
@@ -672,20 +821,42 @@ msgid ""
 "machines made it all possible."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:550
+msgid "images/illustrations/ada-p08a.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:553
+#: Ada_Zangemann.dbk:552
 msgid ""
 "An original Zangemann electric skateboard leaving a blue trail with musical "
 "notes and colored circles. Only the knees, white socks, and olive green "
 "shoes with white soles of the child riding it are shown."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:558
+msgid "images/illustrations/ada-p09.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:561
+#: Ada_Zangemann.dbk:560
 msgid ""
 "Ada tinkers with objects in her improvised lab. Ada is sitting on an "
 "overturned water case, and working on a repair with a yellow screwdriver. "
@@ -699,7 +870,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:563
+#: Ada_Zangemann.dbk:562
 msgid ""
 "These inventions were very popular at Ada’s school, and many of her friends "
 "rode around on the cool skateboards. Ada was often sad, since her mother "
@@ -708,7 +879,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:565
+#: Ada_Zangemann.dbk:564
 msgid ""
 "Luckily, Ada lived right next to the junkyard. There were lots of broken "
 "gadgets and rusty parts, which she put together to make cool new things, "
@@ -720,14 +891,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:566
+#: Ada_Zangemann.dbk:565
 msgid ""
 "Ada had so much fun tinkering in the junkyard and fixing broken things that "
 "she forgot all about the skateboards and the ice cream."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:570
+#: Ada_Zangemann.dbk:569
 msgid ""
 "Because everyone bought his inventions, Zangemann soon became the richest "
 "person in the whole world. With all his money, he bought a huge golden "
@@ -737,7 +908,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:571
+#: Ada_Zangemann.dbk:570
 msgid ""
 "All he had to do was press the proper key on the golden computer, and "
 "immediately all the ice-cream machines in town would dispense only vanilla "
@@ -749,10 +920,21 @@ msgid ""
 "what could they do? After all, there was ice cream on every street corner."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:573
+msgid "images/illustrations/ada-p10.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:576
+#: Ada_Zangemann.dbk:575
 msgid ""
 "A white power strip attached to a wall socket. The power strip has 3 sockets "
 "and a green switch. One of the sockets is attached to a plug with a gray "
@@ -760,7 +942,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:580
+#: Ada_Zangemann.dbk:579
 msgid ""
 "Zangemann had a lot of fun pressing the sparkling keys and watching people "
 "eat ice cream. He spent many hours every day in front of his golden computer "
@@ -768,10 +950,21 @@ msgid ""
 "telescope, observing how reliably his inventions carried out his commands."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:582
+msgid "images/illustrations/ada-p11.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:585
+#: Ada_Zangemann.dbk:584
 msgid ""
 "Zangeman sitting in front of his golden computer on a golden armchair with a "
 "very tall red padded backrest at whose top is the “Z” of the Zangemann logo. "
@@ -782,7 +975,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:590
+#: Ada_Zangemann.dbk:589
 msgid ""
 "When he wasn’t sitting at his golden computer, Zangemann was building his "
 "little computers into new devices and then selling those. He built washing "
@@ -792,10 +985,21 @@ msgid ""
 "that told you where the nearest grocery store was."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:592
+msgid "images/illustrations/ada-p12.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:595
+#: Ada_Zangemann.dbk:594
 msgid ""
 "City landscape with houses and shops, with a central street turning right. "
 "On the road there are a car and a cyclist. There are various children and "
@@ -804,7 +1008,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:597
+#: Ada_Zangemann.dbk:596
 msgid ""
 "Soon, almost every appliance in the world had a Zangemann computer built "
 "into it. Not all of his inventions seemed necessary at first, but people "
@@ -815,12 +1019,12 @@ msgstr ""
 #. (itstool) path: info/title
 #. Intended as 'on a day', not 'a single day'. This is supposed to be
 #. equal to the beginning of the first sentence of this chapter.
-#: Ada_Zangemann.dbk:602
+#: Ada_Zangemann.dbk:601
 msgid "One day..."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:605
+#: Ada_Zangemann.dbk:604
 msgid ""
 "One day Zangemann thought, “Today I want to see my inventions up close.” He "
 "put away his big telescope, then climbed down the many stairs of his mansion "
@@ -828,13 +1032,24 @@ msgid ""
 "enjoying his cool devices."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:607
+msgid "images/illustrations/ada-p13.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:610
+#: Ada_Zangemann.dbk:609
 msgid ""
 "Zangemann descends the stairs from his mansion on the hill towards the city. "
-"Zangemann's house stands on a hill. The front is blue with large windows; "
+"Zangemann’s house stands on a hill. The front is blue with large windows; "
 "the towers are dark blue, and from a window starts a yellow slide that ends "
 "in a large swimming pool with two palm trees. The roofs are red, and above "
 "the highest tower an antenna is installed. On the sides of the stairs to get "
@@ -842,7 +1057,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:614
+#: Ada_Zangemann.dbk:613
 msgid ""
 "“Maybe a little trip might even give me a few new ideas. If I’m completely "
 "honest, my last inventions weren’t quite as useful as the first ones... ,” "
@@ -852,26 +1067,37 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:616
+#: Ada_Zangemann.dbk:615
 msgid ""
 "He was completely absorbed in his thoughts when suddenly — BAM! — something "
 "crashed into his shin."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:618
+msgid "images/illustrations/ada-p14.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:621
+#: Ada_Zangemann.dbk:620
 msgid ""
 "Zangemann after the incident with the child. Zangemann screams from pain "
 "while holding up one of his legs with both hands at the shin. The child has "
-"brown hair that is blown back by Zangemann's scream; he is wearing a light "
+"brown hair that is blown back by Zangemann’s scream; he is wearing a light "
 "blue hooded sweatshirt and dark green pants. He holds a red Zangemann "
 "electric skateboard."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:625
+#: Ada_Zangemann.dbk:624
 msgid ""
 "Zangemann yelped and looked around for the cause. A startled child stood in "
 "front of him, holding an original Zangemann skateboard under his arm. "
@@ -880,7 +1106,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:626
+#: Ada_Zangemann.dbk:625
 msgid ""
 "An angry Zangemann limped away. Suddenly, he heard loud music. He had never "
 "before heard something so horrible. He looked around and saw that the music "
@@ -890,10 +1116,21 @@ msgid ""
 "had imagined his walk!"
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:628
+msgid "images/illustrations/ada-p15.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:631
+#: Ada_Zangemann.dbk:630
 msgid ""
 "Advertisements for Zangemann ice cream (sandwich board), a Zangemann "
 "electric skateboard, and a Zangemann washing machine. The math teacher, Ms. "
@@ -905,7 +1142,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:636
+#: Ada_Zangemann.dbk:635
 msgid ""
 "Zangemann was so furious with the two children. How dare they use his "
 "inventions this way? That night, he couldn’t sleep, so he sat down at his "
@@ -916,31 +1153,53 @@ msgid ""
 "into a better mood."
 msgstr ""
 
-#. (itstool) path: mediaobject/alt
-#. The alt tag contains an alternative text, describing the image for the
-#. visual impaired. priority:80
-#: Ada_Zangemann.dbk:641
-msgid ""
-"The city in the evening, with houses, a church, and two streetlights. Images/"
-"Illustrations emerge from the dwellings illustrating Zangemann's inventions "
-"bought by the inhabitants: a washing machine, a yellow vacuum cleaner, and a "
-"red car, all with Internet connection signals."
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:638
+msgid "images/illustrations/ada-p16.ltr.png"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:649
+#: Ada_Zangemann.dbk:640
+msgid ""
+"The city in the evening, with houses, a church, and two streetlights. Images/"
+"Illustrations emerge from the dwellings illustrating Zangemann’s inventions "
+"bought by the inhabitants: a washing machine, a yellow vacuum cleaner, and a "
+"red car, all with Internet connection signals."
+msgstr ""
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:646
+msgid "images/illustrations/ada-p17.ltr.png"
+msgstr ""
+
+#. (itstool) path: mediaobject/alt
+#. The alt tag contains an alternative text, describing the image for the
+#. visual impaired. priority:80
+#: Ada_Zangemann.dbk:648
 msgid ""
 "Continuation of the previous picture, where in the background there is the "
-"hill with Zangemann's house from whose antenna come the signals to control "
+"hill with Zangemann’s house from whose antenna come the signals to control "
 "the various devices. In emerging images/illustrations there are: a red "
 "electric skateboard, a light bulb, an ice cream machine, and a toilet, all "
 "of which are receiving commands from Zangemann."
 msgstr ""
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:655
+#: Ada_Zangemann.dbk:654
 msgid "Skateboards no longer work"
 msgstr ""
 
@@ -948,13 +1207,13 @@ msgstr ""
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:659
+#: Ada_Zangemann.dbk:658
 msgid "images/capitals/T-olive.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p18-1
-#: Ada_Zangemann.dbk:659
+#: Ada_Zangemann.dbk:658
 msgid ""
 "<phrase condition=\"capitals-text\">The</phrase><phrase condition=\"capitals-"
 "img\">he</phrase> next day, there was a big commotion at Ada’s school. On "
@@ -963,12 +1222,23 @@ msgid ""
 "their speakers. What was going on?"
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:661
+msgid "images/illustrations/ada-p18.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:664
+#: Ada_Zangemann.dbk:663
 msgid ""
-"Five kids from the school who can't make skateboards work. Two girls wear "
+"Five kids from the school who can’t make skateboards work. Two girls wear "
 "helmets, respectively blue and red. A little girl with brown hair tied in "
 "two tails with yellow rubber bands is kneeling. She is trying to understand "
 "why the skateboard of her friend with the red helmet does not work. Four "
@@ -978,7 +1248,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:668
+#: Ada_Zangemann.dbk:667
 msgid ""
 "Although she didn’t own any of these things, Ada wondered why the "
 "skateboards and the speakers suddenly stopped working. But she didn’t really "
@@ -990,17 +1260,28 @@ msgid ""
 "their mother was still at work."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:670
+msgid "images/illustrations/ada-p19.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:673
+#: Ada_Zangemann.dbk:672
 msgid ""
 "Close-up of Ada thoughtful, with a backpack and with one hand on her chin "
 "and the other resting on her side."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:676
+#: Ada_Zangemann.dbk:675
 msgid ""
 "After a few days, the initial shock at Ada’s school was forgotten. The "
 "skateboards still didn’t go on the sidewalk, but apart from that, they still "
@@ -1010,7 +1291,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:681
+#: Ada_Zangemann.dbk:680
 msgid "Ada and software"
 msgstr ""
 
@@ -1018,13 +1299,13 @@ msgstr ""
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:685
+#: Ada_Zangemann.dbk:684
 msgid "images/capitals/A-fucsia.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p20-1
-#: Ada_Zangemann.dbk:685
+#: Ada_Zangemann.dbk:684
 msgid ""
 "<phrase condition=\"capitals-text\">Ada</phrase><phrase condition=\"capitals-"
 "img\">da</phrase> loved Wednesdays. Every Wednesday, her mother and Alan "
@@ -1038,7 +1319,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:686
+#: Ada_Zangemann.dbk:685
 msgid ""
 "On one of those afternoons, Ada learned two new words: hardware and "
 "software. Hardware was a word for something Ada already knew: the electronic "
@@ -1052,7 +1333,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:687
+#: Ada_Zangemann.dbk:686
 msgid ""
 "The best thing about Ada’s new discovery was realizing that she could tinker "
 "with software just as she could with hardware. Hardware is built with tools "
@@ -1063,10 +1344,21 @@ msgid ""
 "language!"
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:691
+msgid "images/illustrations/ada-p21.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:694
+#: Ada_Zangemann.dbk:693
 msgid ""
 "Computer screen from which the elements of the programming language "
 "symbolically emerge: “while num &gt; 0“, “init“, “sx=42“, “for“, “v**3“. Ada "
@@ -1076,7 +1368,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:700
+#: Ada_Zangemann.dbk:699
 msgid "Programming"
 msgstr ""
 
@@ -1084,13 +1376,13 @@ msgstr ""
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:704
+#: Ada_Zangemann.dbk:703
 msgid "images/capitals/O-lightcyan.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p22-1
-#: Ada_Zangemann.dbk:704
+#: Ada_Zangemann.dbk:703
 msgid ""
 "<phrase condition=\"capitals-text\">Over</phrase><phrase "
 "condition=\"capitals-img\">ver</phrase> the next few weeks, Ada spent her "
@@ -1102,7 +1394,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:705
+#: Ada_Zangemann.dbk:704
 msgid ""
 "Of course, she wanted to try her program out right away to see if it really "
 "worked. At the junkyard, she connected her cell phone to a small LED lamp. "
@@ -1110,7 +1402,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:706
+#: Ada_Zangemann.dbk:705
 msgid ""
 "At first, nothing happened. Ada wondered where the error could be. She made "
 "a few small changes and tried again and .... “Yeesss!” The little light "
@@ -1119,7 +1411,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:707
+#: Ada_Zangemann.dbk:706
 msgid ""
 "Ada was totally thrilled. She imagined all the great things she could do. If "
 "she just entered the right code, she could make her inventions do exactly "
@@ -1128,10 +1420,21 @@ msgid ""
 "off half an hour after he had fallen asleep."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:711
+msgid "images/illustrations/ada-p23.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:714
+#: Ada_Zangemann.dbk:713
 msgid ""
 "Ada comes to grips with programming. She is typing on a keyboard resting on "
 "a gray mat and connected to a smartphone with a blue cable. The smartphone "
@@ -1143,24 +1446,35 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:716
+#: Ada_Zangemann.dbk:715
 msgid ""
 "Ada also had an idea for the next program she would write. It was a bigger "
 "deal, a real project. She would probably need the whole summer break for "
 "it... And she could hardly wait!"
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:720
+msgid "images/illustrations/ada-p24.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:723
+#: Ada_Zangemann.dbk:722
 msgid ""
 "Zangemann looks thoughtfully with his arms crossed out one of the great "
-"windows of his house, into which the sun's rays are shining."
+"windows of his house, into which the sun’s rays are shining."
 msgstr ""
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:729
+#: Ada_Zangemann.dbk:728
 msgid "A horrible night"
 msgstr ""
 
@@ -1168,13 +1482,13 @@ msgstr ""
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:733
+#: Ada_Zangemann.dbk:732
 msgid "images/capitals/Z-brown.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p25-1
-#: Ada_Zangemann.dbk:733
+#: Ada_Zangemann.dbk:732
 msgid ""
 "<phrase condition=\"capitals-text\">Zangemann</phrase><phrase "
 "condition=\"capitals-img\">angemann</phrase> had slept horribly every night "
@@ -1186,7 +1500,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:734
+#: Ada_Zangemann.dbk:733
 msgid ""
 "Waking up one morning with a deeply furrowed brow, he made a decision. He "
 "needed to make a change. Zangemann sat down at his computer and wrote one "
@@ -1196,7 +1510,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:735
+#: Ada_Zangemann.dbk:734
 msgid ""
 "Once he was done, he sent all the new programs from his golden computer to "
 "people’s devices. He ordered his speakers to play only his favorite music "
@@ -1207,7 +1521,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:740
+#: Ada_Zangemann.dbk:739
 msgid "First real project"
 msgstr ""
 
@@ -1215,13 +1529,13 @@ msgstr ""
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:744
+#: Ada_Zangemann.dbk:743
 msgid "images/capitals/S-red2.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p26-1
-#: Ada_Zangemann.dbk:744
+#: Ada_Zangemann.dbk:743
 msgid ""
 "<phrase condition=\"capitals-text\">Summer</phrase><phrase "
 "condition=\"capitals-img\">ummer</phrase> break was already halfway over. "
@@ -1235,7 +1549,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:745
+#: Ada_Zangemann.dbk:744
 msgid ""
 "After falling on her bottom for the hundredth time, she went back to the "
 "library. She always found answers to her questions there. And indeed, on the "
@@ -1244,14 +1558,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:747
+#: Ada_Zangemann.dbk:746
 msgid ""
 "Back at the junkyard, she adapted some lines of code for her skateboard "
 "program. She tweaked a few things and kept tinkering."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:748
+#: Ada_Zangemann.dbk:747
 msgid ""
 "Several failed attempts later, on the last day of summer break, the time had "
 "finally come. Ada stood on the skateboard and pressed the Go! button, and "
@@ -1260,14 +1574,25 @@ msgid ""
 "park."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:752
+msgid "images/illustrations/ada-p27.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:755
+#: Ada_Zangemann.dbk:754
 msgid ""
-"Ada racing with her electric skateboard for city sidewalks. Ada's skateboard "
+"Ada racing with her electric skateboard for city sidewalks. Ada’s skateboard "
 "is blue, with gray and pink wheels; the electronic part is placed above the "
-"skateboard (as opposed to Zangemann's skateboards where the electronic part "
+"skateboard (as opposed to Zangemann’s skateboards where the electronic part "
 "is below). Ada is holding in both hands a remote control with a short "
 "antenna to maneuver it. Behind Ada are Marie and Toni who carry their own "
 "skateboards under their arms and look with amazement at Ada, who has shot "
@@ -1279,7 +1604,7 @@ msgid ""
 "yellow wheels. Toni has red hair closely trimmed on the sides. He is wearing "
 "a blue sweatshirt, dark green pants, and white shoes. He has a red backpack "
 "with white inserts and shoulder straps. One hand is next to his mouth. His "
-"skateboard is purple with orange wheels. There's also a father with his son "
+"skateboard is purple with orange wheels. There’s also a father with his son "
 "walking in the opposite direction: the father is dressed in a blue checked "
 "jacket and blue pants and holds a brown briefcase. He is smiling at Ada. His "
 "son has a blue shirt, blue shorts, white shoes, a brown backpack, and a red "
@@ -1292,7 +1617,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:760
+#: Ada_Zangemann.dbk:759
 msgid ""
 "When Ada rode her skateboard to school on the first day back after summer "
 "break, the other children were amazed. During recess, Ada’s curious "
@@ -1300,17 +1625,28 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:761
+#: Ada_Zangemann.dbk:760
 msgid "“How can you ride your skateboard on the sidewalk?” they asked."
+msgstr ""
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:763
+msgid "images/illustrations/ada-p28.ltr.png"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:766
+#: Ada_Zangemann.dbk:765
 msgid ""
 "Ada stops on her skateboard surrounded by children. Marie is on one end. She "
-"is pointing to Ada's skateboard and she's talking. Next to her is Konrad, "
+"is pointing to Ada’s skateboard and she’s talking. Next to her is Konrad, "
 "with short blond hair, a dark gray helmet, glasses, a green shirt with white "
 "collar and cuffs, light blue pants with white cuffs, and gray shoes with "
 "white soles. He has a red skateboard with orange wheels. Behind Ada there "
@@ -1319,7 +1655,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:770
+#: Ada_Zangemann.dbk:769
 msgid ""
 "Ada thought for a moment, then said, “I don’t think it’s your skateboards "
 "but actually the software in them. It’s probably programmed into the "
@@ -1328,7 +1664,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:771
+#: Ada_Zangemann.dbk:770
 msgid ""
 "That evening, Ada tested out her theory on her classmate Toni’s skateboard. "
 "She worked secretly through most of the night, and the next day, Toni could "
@@ -1339,10 +1675,21 @@ msgid ""
 "Toni’s burping skateboard was really quite funny."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:773
+msgid "images/illustrations/ada-p29.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:776
+#: Ada_Zangemann.dbk:775
 msgid ""
 "Hopscotch diagram drawn with chalk on asphalt. In a row, within squares, the "
 "numbers 1, 2; 3 and 4 next to each other; 5, 6; and 7 and 8 next to each "
@@ -1353,7 +1700,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:782
+#: Ada_Zangemann.dbk:781
 msgid "Hacking for freedom"
 msgstr ""
 
@@ -1361,13 +1708,13 @@ msgstr ""
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:786
+#: Ada_Zangemann.dbk:785
 msgid "images/capitals/M-yellow.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p30-1
-#: Ada_Zangemann.dbk:786
+#: Ada_Zangemann.dbk:785
 msgid ""
 "<phrase condition=\"capitals-text\">More</phrase><phrase "
 "condition=\"capitals-img\">ore</phrase> and more children started to visit "
@@ -1379,7 +1726,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:788
+#: Ada_Zangemann.dbk:787
 msgid ""
 "But that wasn’t all. With the software, they could give their skateboards "
 "new, cool features. Marie attached colorful LED lights to her board that "
@@ -1387,17 +1734,28 @@ msgid ""
 "onto his skateboard for extra speed."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:790
+msgid "images/illustrations/ada-p30.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:793
+#: Ada_Zangemann.dbk:792
 msgid ""
 "A green battery with red and yellow wires, a power strip, glue, a roll of "
 "solder, and two pencils."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:797
+#: Ada_Zangemann.dbk:796
 msgid ""
 "Ada, Toni, Marie, and Konrad spent many afternoons at the junkyard. They "
 "even set up a real workshop where they could fine-tune their programs for "
@@ -1406,7 +1764,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:798
+#: Ada_Zangemann.dbk:797
 msgid ""
 "“Your brother’s speakers are much louder than ours,” remarked Toni, who was "
 "busy attaching a speedometer to his helmet. “I’m sure that’s also because of "
@@ -1414,27 +1772,49 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:799
+#: Ada_Zangemann.dbk:798
 msgid ""
 "Together, they changed the software for the speakers too. Then they turned "
 "up the music as loud as possible and danced wildly together."
 msgstr ""
 
-#. (itstool) path: mediaobject/alt
-#. The alt tag contains an alternative text, describing the image for the
-#. visual impaired. priority:80
-#: Ada_Zangemann.dbk:804
-msgid ""
-"A screwdriver with orange and gray handle, red pliers, and three LEDs: "
-"yellow, green, pink."
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:801
+msgid "images/illustrations/ada-p31.ltr.png"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:812
+#: Ada_Zangemann.dbk:803
 msgid ""
-"Laboratory at the junkyard, under the veranda of Ada's house. Ada is sitting "
+"A screwdriver with orange and gray handle, red pliers, and three LEDs: "
+"yellow, green, pink."
+msgstr ""
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:809
+msgid "images/illustrations/ada-p32.ltr.png"
+msgstr ""
+
+#. (itstool) path: mediaobject/alt
+#. The alt tag contains an alternative text, describing the image for the
+#. visual impaired. priority:80
+#: Ada_Zangemann.dbk:811
+msgid ""
+"Laboratory at the junkyard, under the veranda of Ada’s house. Ada is sitting "
 "on a water case with a leg bent under her, using a soldering iron. Konrad is "
 "standing next to her and dismounting a speaker. Marie is sitting on two "
 "tires with an arm resting on a table and her upside-down skateboard from "
@@ -1445,22 +1825,44 @@ msgid ""
 "is testing his skateboard with added yellow wings and a fan. It burps."
 msgstr ""
 
-#. (itstool) path: mediaobject/alt
-#. The alt tag contains an alternative text, describing the image for the
-#. visual impaired. priority:80
-#: Ada_Zangemann.dbk:820
-msgid ""
-"Marie and Ada's mom are dancing, facing each other. Alan, Ada, and Konrad "
-"are dancing in a circle. On the right there is a speaker playing, resting on "
-"an oil drum. Near the speaker there are two dancing mice. Toni is jumping "
-"through the tires. Ada's dog is howling, and from his mouth come two "
-"distorted musical notes."
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:817
+msgid "images/illustrations/ada-p33.ltr.png"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:828
+#: Ada_Zangemann.dbk:819
+msgid ""
+"Marie and Ada’s mom are dancing, facing each other. Alan, Ada, and Konrad "
+"are dancing in a circle. On the right there is a speaker playing, resting on "
+"an oil drum. Near the speaker there are two dancing mice. Toni is jumping "
+"through the tires. Ada’s dog is howling, and from his mouth come two "
+"distorted musical notes."
+msgstr ""
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:825
+msgid "images/illustrations/ada-p34.ltr.png"
+msgstr ""
+
+#. (itstool) path: mediaobject/alt
+#. The alt tag contains an alternative text, describing the image for the
+#. visual impaired. priority:80
+#: Ada_Zangemann.dbk:827
 msgid ""
 "Hands holding wonderful ice cream cones: blue ice cream with a chocolate "
 "heart on top with a yellow heart on its center, and whipped cream on top of "
@@ -1470,17 +1872,28 @@ msgid ""
 "umbrella; blue ghost-shaped ice cream with candies on it."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:831
+msgid "images/illustrations/ada-p34-bottom.ltr.png"
+msgstr ""
+
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:839
+#: Ada_Zangemann.dbk:838
 msgid "images/capitals/E-pink.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p35-1
-#: Ada_Zangemann.dbk:839
+#: Ada_Zangemann.dbk:838
 msgid ""
 "<phrase condition=\"capitals-text\">Every</phrase><phrase "
 "condition=\"capitals-img\">very</phrase> day, Ada and her friends made plans "
@@ -1493,7 +1906,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:840
+#: Ada_Zangemann.dbk:839
 msgid ""
 "Sometimes they could even help adults. Toni reprogrammed his father’s "
 "ironing machine so that it could also iron ties again — Zangemann had "
@@ -1505,7 +1918,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:841
+#: Ada_Zangemann.dbk:840
 msgid ""
 "Some things they built just for fun, like the fart machine they put in their "
 "math teacher’s chair. Whenever Ms. Gernet sat down, the machine played a "
@@ -1514,7 +1927,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:846
+#: Ada_Zangemann.dbk:845
 msgid "Zangemann and the President"
 msgstr ""
 
@@ -1522,13 +1935,13 @@ msgstr ""
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:850
+#: Ada_Zangemann.dbk:849
 msgid "images/capitals/O-green.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p36-1
-#: Ada_Zangemann.dbk:850
+#: Ada_Zangemann.dbk:849
 msgid ""
 "<phrase condition=\"capitals-text\">One</phrase><phrase condition=\"capitals-"
 "img\">ne</phrase> day, Zangemann noticed that some computers no longer "
@@ -1540,7 +1953,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:851
+#: Ada_Zangemann.dbk:850
 msgid ""
 "The president did not want to upset Zangemann. All the government’s "
 "computers were programmed by Zangemann. Without the computers, the "
@@ -1549,22 +1962,33 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:852
+#: Ada_Zangemann.dbk:851
 msgid ""
 "“All computers that do not listen to Zangemann are banned. Anyone who "
 "reprograms Zangemann’s devices will be fined 500,000 gold pieces!”"
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:856
+msgid "images/illustrations/ada-p37.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:859
+#: Ada_Zangemann.dbk:858
 msgid ""
 "The President getting a phone call from the angry Zangemann. The videophone "
 "consists of an old red Zangemann dial phone connected to a monitor. "
-"Zangemann's face appears on the monitor, while a yellow flare of Zangemann's "
+"Zangemann’s face appears on the monitor, while a yellow flare of Zangemann’s "
 "thundering voice comes out of the phone, and the President holds the "
-"receiver at arm's length. The president has white hair and wears a light "
+"receiver at arm’s length. The president has white hair and wears a light "
 "blue shirt, a red tie, and a blue jacket with yellow buttons. The President "
 "is sitting on a green chair with white vertical lines, and his other hand is "
 "on the desk. On the desk, in addition to the videophone, there are sheets "
@@ -1574,7 +1998,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:864
+#: Ada_Zangemann.dbk:863
 msgid ""
 "When Ada and her friends heard this, they were furious. “This is unfair,” "
 "they said. “We rebuilt and reprogrammed our skateboards ourselves. They are "
@@ -1582,24 +2006,35 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:865
+#: Ada_Zangemann.dbk:864
 msgid ""
 "They gathered in front of one of their rebuilt ice-cream machines and "
 "discussed the situation. It was clear that something had to be done about "
 "the new law, and they made a plan..."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:867
+msgid "images/illustrations/ada-p38.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:870
+#: Ada_Zangemann.dbk:869
 msgid ""
 "Cans of green, blue, and pink paint; a paintbrush with yellow paint; a light "
 "green marker; and a rolled banner on which some blue paint has fallen."
 msgstr ""
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:876
+#: Ada_Zangemann.dbk:875
 msgid "Protest"
 msgstr ""
 
@@ -1607,13 +2042,13 @@ msgstr ""
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:881
+#: Ada_Zangemann.dbk:880
 msgid "images/capitals/T-cyan.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p39-1
-#: Ada_Zangemann.dbk:881
+#: Ada_Zangemann.dbk:880
 msgid ""
 "<phrase condition=\"capitals-text\">The</phrase><phrase condition=\"capitals-"
 "img\">he</phrase> next day, they didn’t go to school. Instead, they rode "
@@ -1629,7 +2064,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:882
+#: Ada_Zangemann.dbk:881
 msgid ""
 "On the following day, Ada and her friends again sat down in front of the "
 "parliament building, this time with support. Some classmates came whose "
@@ -1638,17 +2073,28 @@ msgid ""
 "useful."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:884
+msgid "images/illustrations/ada-p39.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:887
+#: Ada_Zangemann.dbk:886
 msgid ""
 "Yellow and green paint on the floor and wax crayons yellow, red, blue, green "
 "and brown; the latter 3 are in a gray cardboard box."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:891
+#: Ada_Zangemann.dbk:890
 msgid ""
 "With each passing day, more and more children and adults joined the protest. "
 "The bus driver they had helped drove up in her bus. She honked loudly to "
@@ -1659,13 +2105,24 @@ msgid ""
 "throughout the country."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:893
+msgid "images/illustrations/ada-p40-41.en.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:896
+#: Ada_Zangemann.dbk:895
 msgid ""
-"Group of protesters. Among them there are: Ada's mother holding Alan's hand "
-"and raising a pink ice cream; 3 colleagues of Toni's father dressed in ties; "
+"Group of protesters. Among them there are: Ada’s mother holding Alan’s hand "
+"and raising a pink ice cream; 3 colleagues of Toni’s father dressed in ties; "
 "two children holding the banner “Do your homework Mr. President and we will "
 "do ours!”; a robot with tank treads, irons as feet, an electric fan as "
 "abdomen, a monitor as head, and an eggbeater as one hand, holding a blue ice "
@@ -1675,39 +2132,61 @@ msgid ""
 "that says “They are young + need the code!“ The dog in her cart is barking; "
 "Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and "
 "Toni are walking beneath the banner, and Marie is talking through a bullhorn "
-"held in her hand; Ada's family's dog is now wearing a red harness with shiny "
+"held in her hand; Ada’s family’s dog is now wearing a red harness with shiny "
 "yellow LEDs that matches the collar."
 msgstr ""
 
 #. (itstool) path: info/excerpt
 #. Text on big banner, left on the illustration
-#: Ada_Zangemann.dbk:898
+#: Ada_Zangemann.dbk:897
 msgid "Do your homework Mr. President and we will do ours!"
+msgstr ""
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:904
+msgid "images/illustrations/ada-p40.en.png"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:907
+#: Ada_Zangemann.dbk:906
 msgid ""
 "Detail of the previous image: two children holding the banner “Do your "
 "homework Mr. President and we will do ours!”"
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:910
+msgid "images/illustrations/ada-p41.en.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:913
+#: Ada_Zangemann.dbk:912
 msgid ""
 "Detail of the previous image: Ada and Konrad are carrying the banner “Don’t "
 "wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is "
-"talking through a bullhorn held in her hand; Ada's family's little dog is "
+"talking through a bullhorn held in her hand; Ada’s family’s little dog is "
 "now wearing a red harness with shiny yellow LEDs that matches the collar."
 msgstr ""
 
 #. (itstool) path: info/excerpt
 #. Text on square signe on the right of the illustration
-#: Ada_Zangemann.dbk:915
+#: Ada_Zangemann.dbk:914
 msgid "They are young + need the code!"
 msgstr ""
 
@@ -1715,12 +2194,12 @@ msgstr ""
 #. Text on banner on the banner held by children on the right of the
 #. illustration. Alternatively the German text 'Ohne Code ist alles doof!'
 #. can be used, which translates to 'without code everything is dull!'.
-#: Ada_Zangemann.dbk:916
+#: Ada_Zangemann.dbk:915
 msgid "Don’t wreck our tech!"
 msgstr ""
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:923
+#: Ada_Zangemann.dbk:922
 msgid "Children help the government"
 msgstr ""
 
@@ -1728,13 +2207,13 @@ msgstr ""
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:926
+#: Ada_Zangemann.dbk:925
 msgid "images/capitals/A-violet.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p42-1
-#: Ada_Zangemann.dbk:926
+#: Ada_Zangemann.dbk:925
 msgid ""
 "<phrase condition=\"capitals-text\">Ada</phrase><phrase condition=\"capitals-"
 "img\">da</phrase> protested in front of the parliament building every week, "
@@ -1748,7 +2227,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:927
+#: Ada_Zangemann.dbk:926
 msgid ""
 "The president looked at the determined faces of the children. Honestly, he, "
 "too, wanted to decide for himself what the government could and couldn’t do "
@@ -1757,19 +2236,30 @@ msgid ""
 "president entered the building."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:930
+msgid "images/illustrations/ada-p42.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:933
+#: Ada_Zangemann.dbk:932
 msgid ""
-"One of Ada's friends lying on his stomach with one foot up in the air is "
+"One of Ada’s friends lying on his stomach with one foot up in the air is "
 "typing on a laptop. He has wavy brown hair parted in the center, a red "
 "sweatshirt, blue pants, and white socks but no shoes. Next to the computer "
 "there are a green cup and two open books."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:935
+#: Ada_Zangemann.dbk:934
 msgid ""
 "The next day, the president invited Ada and her friends over. “We also want "
 "to be in charge of our software ourselves. In order for that to be true, the "
@@ -1780,7 +2270,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:938
+#: Ada_Zangemann.dbk:937
 msgid ""
 "With this new knowledge, the government would be able to design its own "
 "software, the way it wanted — completely without Zangemann. Immediately, the "
@@ -1789,27 +2279,38 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:939
+#: Ada_Zangemann.dbk:938
 msgid ""
 "That evening, the children went home proud and satisfied. Something finally "
 "happened! Their long protest was worth it."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:941
+msgid "images/illustrations/ada-p43.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:944
+#: Ada_Zangemann.dbk:943
 msgid ""
-"Ada and her friends in the President's office. Ada is reprogramming the "
-"President's computer. Toni is setting up a speaker for the President's "
+"Ada and her friends in the President’s office. Ada is reprogramming the "
+"President’s computer. Toni is setting up a speaker for the President’s "
 "secretary. Marie and Konrad are sitting on the floor and talking, and Marie "
 "has a laptop on her legs with an FSFE logo sticker (three stars: pea green, "
 "sky blue, and sea blue). On the floor are a bowl with candy and a plate with "
-"ice creams. The President's phone is ringing, but nobody is answering."
+"ice creams. The President’s phone is ringing, but nobody is answering."
 msgstr ""
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:950
+#: Ada_Zangemann.dbk:949
 msgid "New law"
 msgstr ""
 
@@ -1817,13 +2318,13 @@ msgstr ""
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:953
+#: Ada_Zangemann.dbk:952
 msgid "images/capitals/T-red3.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p44-1
-#: Ada_Zangemann.dbk:953
+#: Ada_Zangemann.dbk:952
 msgid ""
 "<phrase condition=\"capitals-text\">The</phrase><phrase condition=\"capitals-"
 "img\">he</phrase> next morning, the president’s phone rang very early. It "
@@ -1834,17 +2335,28 @@ msgid ""
 "Toni, Marie, Konrad, and the government experts."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:955
+msgid "images/illustrations/ada-p44.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:958
+#: Ada_Zangemann.dbk:957
 msgid ""
 "A herald, wearing a hat with a plume, playing a trumpet on which a red "
 "banner is hung."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:960
+#: Ada_Zangemann.dbk:959
 msgid ""
 "In the days that followed, they talked from morning to night and designed "
 "their first programs for the government’s computers. They were no longer "
@@ -1855,7 +2367,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:962
+#: Ada_Zangemann.dbk:961
 msgid ""
 "Then, after many weeks of protests and discussions, the time had finally "
 "come: they abolished the old Zangemann law! Instead, the government "
@@ -1863,33 +2375,44 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:965
+#: Ada_Zangemann.dbk:964
 msgid ""
 "“Everyone is allowed to program their own computers as long as they adhere "
 "to the other laws.”"
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:966
+#: Ada_Zangemann.dbk:965
 msgid ""
 "In addition, a new school subject was introduced: computer hardware and "
 "software."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:968
+msgid "images/illustrations/ada-p45.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:971
+#: Ada_Zangemann.dbk:970
 msgid ""
 "The President with Toni, Konrad, Marie, Ada, and a herald playing a trumpet. "
 "Marie is standing on top of a ladder talking into a microphone. Konrad "
 "firmly holds the ladder on which Marie is standing. Ada is standing on a "
-"chair and holds a copy of the new law bearing a seal. Ada's dog is sitting "
+"chair and holds a copy of the new law bearing a seal. Ada’s dog is sitting "
 "in front of her."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:976
+#: Ada_Zangemann.dbk:975
 msgid ""
 "That evening, everyone celebrated with a big party. Ada, Alan, Toni, Marie, "
 "Konrad, and other children from school and their parents; the president; Ms. "
@@ -1898,40 +2421,62 @@ msgid ""
 "wanted, and in every imaginable shape and color."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:978
+msgid "images/illustrations/ada-p46.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:981
+#: Ada_Zangemann.dbk:980
 msgid ""
 "Evening party. Children are holding ice cream and balloons with the words “I "
 "love FS (I love Free Software)”; other children are riding skateboards; "
 "yellow and orange flags are hanging; music comes out from a large speaker "
 "system; Ms. Gernet holds a pink tree-shaped ice cream with a yellow star on "
-"it; Ada's mom is dancing with a gentleman."
+"it; Ada’s mom is dancing with a gentleman."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:985
+#: Ada_Zangemann.dbk:984
 msgid ""
 "While the others continued partying late into the night, Ada and her friends "
 "slipped away to their workshop. They already had a lot of ideas for new "
 "inventions. And they wanted to start right away."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:987
+msgid "images/illustrations/ada-p47.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:990
+#: Ada_Zangemann.dbk:989
 msgid ""
 "The President, the secretary, and other people around a table enjoying crazy "
 "ice cream; yellow and orange flags continue from the previous image; a "
 "little girl who just took a pink ghost-shaped ice cream from the modified "
-"ice cream machine; Ada's dog, Konrad, Marie, Ada, and Toni sneaking away "
+"ice cream machine; Ada’s dog, Konrad, Marie, Ada, and Toni sneaking away "
 "from the party."
 msgstr ""
 
 #. (itstool) path: info/title
-#: Ada_Zangemann.dbk:996
+#: Ada_Zangemann.dbk:995
 msgid "And Zangemann?"
 msgstr ""
 
@@ -1939,13 +2484,13 @@ msgstr ""
 #. (itstool) comment: simplesect/para@dropcapfileref
 #. File for the capital image, depending on the capital letter and the
 #. required color. Can be postponed to the publishing process. priority:70
-#: Ada_Zangemann.dbk:1000
+#: Ada_Zangemann.dbk:999
 msgid "images/capitals/A-yellow.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p48-1
-#: Ada_Zangemann.dbk:1000
+#: Ada_Zangemann.dbk:999
 msgid ""
 "<phrase condition=\"capitals-text\">And</phrase><phrase condition=\"capitals-"
 "img\">nd</phrase> Zangemann? No one’s heard much from him. Maybe he’s still "
@@ -1959,24 +2504,57 @@ msgid ""
 "cream with rainbow sprinkles."
 msgstr ""
 
-#. (itstool) path: mediaobject/alt
-#. The alt tag contains an alternative text, describing the image for the
-#. visual impaired. priority:80
-#: Ada_Zangemann.dbk:1005
-msgid "Ada's little dog sniffing a trail of ice cream."
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:1002
+msgid "images/illustrations/ada-p48.ltr.png"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:1014
+#: Ada_Zangemann.dbk:1004
+msgid "Ada’s little dog sniffing a trail of ice cream."
+msgstr ""
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:1011
+msgid "images/illustrations/ada-p49.ltr.png"
+msgstr ""
+
+#. (itstool) path: mediaobject/alt
+#. The alt tag contains an alternative text, describing the image for the
+#. visual impaired. priority:80
+#: Ada_Zangemann.dbk:1013
 msgid "A trail of candies and raspberry ice cream on the ground."
 msgstr ""
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-acknowledgments
-#: Ada_Zangemann.dbk:1021
+#: Ada_Zangemann.dbk:1020
 msgid "Acknowledgments"
+msgstr ""
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:1023
+msgid "images/illustrations/ada-p50-title.en.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
@@ -1984,7 +2562,7 @@ msgstr ""
 #. Press' to the name of your publisher, as we would like to thank you for
 #. publishing this book in your language under a free cultural license,
 #. and encourage you to do that for other books in future as well.
-#: Ada_Zangemann.dbk:1029
+#: Ada_Zangemann.dbk:1028
 msgid ""
 "Many thanks to Reinhard Wiesemann from the Linuxhotel for the financial "
 "support and motivation to no longer plan but to make. Thanks to Sandra "
@@ -1995,7 +2573,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1030
+#: Ada_Zangemann.dbk:1029
 msgid ""
 "Thanks to Bea and Benni, Brian, Christine and Marc, Cory, Bernhard, Isabel "
 "and Amelia, Katta, Kristina, Martin, Mona and Arne, Nina, Oliver, Reinhard, "
@@ -2005,7 +2583,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1034
+#: Ada_Zangemann.dbk:1033
 msgid ""
 "Thanks to my family, who made me write early in the morning, late in the "
 "evening, and on holiday, and who always supports my work for software "
@@ -2013,45 +2591,78 @@ msgid ""
 "new ideas at each reading. Without them, this book would not exist."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:1038
+msgid "images/illustrations/ada-p51.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:1041
+#: Ada_Zangemann.dbk:1040
 msgid ""
-"Ada's dog wags its tail after finding Zangemann hidden behind a curtain and "
+"Ada’s dog wags its tail after finding Zangemann hidden behind a curtain and "
 "eating an ice cream cone with candies and a blue umbrella on it and lots of "
 "raspberry ice cream dripping."
 msgstr ""
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-author
-#: Ada_Zangemann.dbk:1048
+#: Ada_Zangemann.dbk:1047
 msgid "About the Author"
 msgstr ""
 
 #. (itstool) path: info/subtitle
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-author
 #. ignore-same
-#: Ada_Zangemann.dbk:1049
+#: Ada_Zangemann.dbk:1048
 msgid "Matthias Kirschner"
 msgstr ""
 
 #. (itstool) path: info/titleabbrev
-#: Ada_Zangemann.dbk:1050
+#: Ada_Zangemann.dbk:1049
 msgid "About the Author - Matthias Kirschner"
+msgstr ""
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:1052
+msgid "images/illustrations/ada-p52-title.en.png"
+msgstr ""
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:1060
+msgid "images/illustrations/ada-p52.ltr.png"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:1063
+#: Ada_Zangemann.dbk:1062
 msgid ""
 "Close-up of Matthias smiling, waving with one hand, and wearing a headset. "
 "Matthias has short hair and a little beard."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1065
+#: Ada_Zangemann.dbk:1064
 msgid ""
 "Matthias was fascinated by computers and software as a child. He had an "
 "internet connection early, through which he learned a lot. Children have a "
@@ -2062,33 +2673,55 @@ msgstr ""
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-illustrator
-#: Ada_Zangemann.dbk:1071
+#: Ada_Zangemann.dbk:1070
 msgid "About the Illustrator"
 msgstr ""
 
 #. (itstool) path: info/subtitle
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-illustrator
 #. ignore-same
-#: Ada_Zangemann.dbk:1072
+#: Ada_Zangemann.dbk:1071
 msgid "Sandra Brandstätter"
 msgstr ""
 
 #. (itstool) path: info/titleabbrev
-#: Ada_Zangemann.dbk:1073
+#: Ada_Zangemann.dbk:1072
 msgid "About the Illustrator - Sandra Brandstätter"
+msgstr ""
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:1075
+msgid "images/illustrations/ada-p53-title.en.png"
+msgstr ""
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:1083
+msgid "images/illustrations/ada-p53.ltr.png"
 msgstr ""
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:1086
+#: Ada_Zangemann.dbk:1085
 msgid ""
 "Sandra smiling with a pencil in her hand in front of her chin. She has "
 "earphones with an integrated microphone. Sandra has short hair and glasses."
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1088
+#: Ada_Zangemann.dbk:1087
 msgid ""
 "Sandra has always liked crafting with scissors, pliers, glue, wire, fabric, "
 "and paper. Today she works as an illustrator, comic author, and character "
@@ -2099,12 +2732,23 @@ msgstr ""
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-bookswebsite
-#: Ada_Zangemann.dbk:1093
-msgid "Book's website"
+#: Ada_Zangemann.dbk:1092
+msgid "Book’s website"
+msgstr ""
+
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:1095
+msgid "images/illustrations/ada-p54-title.en.png"
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1101
+#: Ada_Zangemann.dbk:1100
 msgid ""
 "The Free Software Foundation Europe e.V. is a nonprofit association that "
 "empowers people to control technology. Software affects all areas of our "
@@ -2116,7 +2760,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1103
+#: Ada_Zangemann.dbk:1102
 msgid ""
 "On the web page of the book, you will find more information and resources: "
 "<link xlink:href=\"https://ada.fsfe.org\">https://ada.fsfe.org</link>."
@@ -2124,12 +2768,23 @@ msgstr ""
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-license
-#: Ada_Zangemann.dbk:1110
+#: Ada_Zangemann.dbk:1109
 msgid "License"
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:1112
+msgid "images/illustrations/ada-p55-title.en.png"
+msgstr ""
+
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1118
+#: Ada_Zangemann.dbk:1117
 msgid ""
 "The book Ada &amp; Zangemann: A Tale of Software, Skateboards, and Raspberry "
 "Ice Cream by Matthias Kirschner and Sandra Brandstätter, published by No "
@@ -2138,16 +2793,27 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplesect/para
-#: Ada_Zangemann.dbk:1119
+#: Ada_Zangemann.dbk:1118
 msgid ""
 "<link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://"
 "creativecommons.org/licenses/by-sa/4.0/</link>"
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:1125
+msgid "images/illustrations/ada-p56.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:1128
+#: Ada_Zangemann.dbk:1127
 msgid ""
 "A hand that holds a fish-shaped ice cream cone with a cucumber on a "
 "decorated toothpick, to color. In a bottom corner, a pencil writing."
@@ -2155,17 +2821,28 @@ msgstr ""
 
 #. (itstool) path: simplesect/literallayout
 #. In a literallayout element all space and newline characters are kept.
-#: Ada_Zangemann.dbk:1130
+#: Ada_Zangemann.dbk:1129
 #, no-wrap
 msgid ""
 "Come up with some delicious, funny, or crazy ice-cream flavors and draw them on the ice-cream cones on the following page.\n"
 "More information about the book can be found at <link xlink:href=\"https://ada.fsfe.org\">https://ada.fsfe.org</link>."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata@fileref
+#. (itstool) comment: imageobject/imagedata@fileref
+#. Link to the image. Only needs to be changed if the image is localized.
+#. Typical extensions are 'ltr' for left-to-right, 'rtl' for
+#. right-to-left' or a specific language. Many files are defined in
+#. https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations
+#. but some variants are generated in the automation.
+#: Ada_Zangemann.dbk:1135
+msgid "images/illustrations/ada-p57.ltr.png"
+msgstr ""
+
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
-#: Ada_Zangemann.dbk:1138
+#: Ada_Zangemann.dbk:1137
 msgid ""
 "Three hands that hold as many empty ice cream cones, to draw and color. In "
 "the air above the middle cone is an umbrella."
