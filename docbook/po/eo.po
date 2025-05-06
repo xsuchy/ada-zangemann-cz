@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-05-06 19:03+0200\n"
-"PO-Revision-Date: 2025-05-06 19:35+0200\n"
+"PO-Revision-Date: 2025-05-06 18:29+0000\n"
 "Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
-"Language-Team: Esperanto <https://hosted.weblate.org/projects/fsfe/ada-zangemann/eo/>\n"
+"Language-Team: Esperanto <https://hosted.weblate.org/projects/fsfe/"
+"ada-zangemann/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -445,7 +446,9 @@ msgstr "images/illustrations/ada-p03-titleonly.ltr.png"
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:476
 msgid "ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice Cream. Title in the middle, authors in the upper left."
-msgstr "ADA & ZANGEMANN - Rakonto pri programaro, rultabuloj kaj framba glaciaĵo. Titolo en la mezo, aŭtoroj supre maldekstre."
+msgstr ""
+"ADA &amp; ZANGEMANN - Rakonto pri programaro, rultabuloj kaj framba "
+"glaciaĵo. Titolo en la mezo, aŭtoroj supre maldekstre."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
