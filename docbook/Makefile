@@ -54,6 +54,21 @@ images/illustrations/ada-p40.%.png: images/illustrations/ada-p40-41.%.png
 images/illustrations/ada-p41.%.png: images/illustrations/ada-p40-41.%.png
 	convert $< -gravity East -crop "3430:3527+0+0" $@
 
+# Multi-language versions
+# TODO: add list of targets based on p40-41 images
+build/images/illustrations/ada-p40.%.png: build/images/illustrations/ada-p40-41.%.png
+	convert $< -crop "3430:3527+0+0" $@
+
+build/images/illustrations/ada-p41.%.png: build/images/illustrations/ada-p40-41.%.png
+	convert $< -gravity East -crop "3430:3527+0+0" $@
+
+# Create spine variants (bottom-to-top and top-to-bottom)
+build/images/illustrations/%.btt.png: build/images/illustrations/%.ttb.png
+	convert $< -rotate 180 $@
+
+build/images/illustrations/%.ttb.png: build/images/illustrations/%.btt.png
+	convert $< -rotate 180 $@
+
 # Link images
 # TODO: simplify variable handling to extract language code
 # Available images can be collected using wildcard and basepath expressions in Make
@@ -65,10 +80,11 @@ build/%/images/illustrations:
 	makefile_helpers/./imagedir.sh $(shell echo ${@} | sed -n 's/.*build\/\(.*\)\/images.*/\1/p')
 
 # Multi-language illustrations
+# NOTE: marked as precious to prevent cleanup of symbolic link
 .PRECIOUS: build/images/illustrations
 build/images/illustrations:
-	mkdir -p build/images || exit 0
-	if [ ! -h $@ ]; then ln -s ../../images/illustrations build/images/illustrations; fi
+	mkdir -p build/images/illustrations || exit 0
+	cd build/images/illustrations; ln -f -s ../../../images/illustrations/*.png ./
 
 # Link to capitals-opague
 # TODO: add separate target for transparent capitals
@@ -195,8 +211,12 @@ $(targets-print-headings-text-colophon-print): build/%/print-headings-text-colop
 build/all/print-headings-text-colophon-print/Ada_Zangemann-print-headings-text-colophon-print.sla: $(targets-print-headings-text-colophon-print)
 
 # Multi-language
-build/Ada_Zangemann-print-headings-text-colophon-print.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations build/images/capitals xsl/scribus.xsl
+multi-targets-print-headings-text-colophon-print = $(addprefix build/Ada_Zangemann-print-headings-text-colophon-print.,$(addsuffix .sla,$(translations)))
+$(multi-targets-print-headings-text-colophon-print): build/Ada_Zangemann-print-headings-text-colophon-print.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations build/images/capitals xsl/scribus.xsl
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-text;capitals-text;colophon-print" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
+
+.PHONY: build/Ada_Zangemann-print-headings-text-colophon-print.all.sla
+build/Ada_Zangemann-print-headings-text-colophon-print.all.sla: $(multi-targets-print-headings-text-colophon-print)
 
 # Build version with text subtitle
 targets-coverhard-text = $(addprefix build/,$(addsuffix /coverhard-text/Ada_Zangemann-coverhard-text.sla,$(translations)))
