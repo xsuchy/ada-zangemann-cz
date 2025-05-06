@@ -56,7 +56,6 @@ status:
 
 # Derived images
 # Uses gravity and ratio to be resistant to changes in resolution
-# TODO: add list of targets based on p40-41 images
 # NOTE: using images from source instead of build directory to prevent ordering conflict
 build/images/illustrations/ada-p40.%.png: images/illustrations/ada-p40-41.%.png
 	convert $< -crop "3430:3527+0+0" $@
@@ -198,8 +197,6 @@ build/Ada_Zangemann-print-headings-none.%.sla: build/Ada_Zangemann.%.dbk build/i
 xmllint-format: Ada_Zangemann.dbk
 	mv Ada_Zangemann.dbk Ada_Zangemann.dbk.xmllintbak
 	xmllint --format Ada_Zangemann.dbk.xmllintbak > Ada_Zangemann.dbk
-
-# targets-scribus = build/Ada_Zangemann-print-all.%.sla build/Ada_Zangemann-print-headings-text.%.sla build/Ada_Zangemann-print-headings-none.%.sla
 
 .PHONY: targets-all-scribus
 targets-all-scribus: build/Ada_Zangemann-print-headings-img.all.sla build/Ada_Zangemann-print-headings-img-colophon-print.all.sla build/Ada_Zangemann-print-headings-text.all.sla build/Ada_Zangemann-print-headings-text-colophon-print.all.sla
