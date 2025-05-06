@@ -245,7 +245,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
     <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" xmlns:az="https://git.fsfe.org/FSFE/ada-zangemann/" translate="yes" selector="//db:para/@az:dropcapfileref" locNoteType="description">
       <its:locNote>File for the capital image, depending on the capital letter and the required color. Can be postponed to the publishing process. priority:70</its:locNote>
     </its:locNoteRule>
-    <!-- Enable changing image links by translators, as it is an externalResourceRefPointer by default for which itstool doesn't allow translations. -->
+    <!-- Enable changing image links by translators, as it is an externalResourceRefPointer by default for which itstool doesn’t allow translations. -->
     <its:withinTextRule xmlns:db="http://docbook.org/ns/docbook" withinText="no" selector="//db:imagedata"/>
     <!-- TODO: restore translation to 'yes' of fileref when language-specific filenames are supported in the automation -->
     <its:translateRule xmlns:db="http://docbook.org/ns/docbook" translate="no" selector="//db:imagedata/@fileref"/>
@@ -318,7 +318,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
         <!-- <imageobject condition="cover-web"> -->
         <!--   <imagedata fileref="images/illustrations/ada-a00.png"/> -->
         <!-- </imageobject> -->
-        <alt>Ada &amp; Zangemann - A Tale of Software, Skateboards, and Raspberry Ice Cream. By Matthias Kirschner and Sandra Brandstätter. On a mostly desaturated dark cyan background, in a frame composed of sometimes curled white lines that connect a mouse, a keyboard, and a pink smartphone, Ada and Zangemann are facing each other, both with their hands on their hips as a sign of challenge. Ada is smiling and Zangemann is frowning. Ada has black hair collected in two big right- and left-bound ringlets with red rubber bands, and red cheeks. She has little yellow stud earrings. She wears cyan and white horizontal striped shorts and a yellow shirt over a white undershirt that ends with embroidery that goes beyond the shirt. The shirt and undershirt come out over the shorts. Above the shirt Ada wears a blue hoodie. Ada is wearing red shoes with white tips and soles, and short white socks. She has one foot on a skateboard and the other on the ground. Zangemann has short gray hair and square glasses. He is wearing a purple turtle-neck sweater, light blue pants turned up, brown shoes, and white socks. He's wearing a big tech watch. Above Zangemann there are a pair of pliers with red handles crossing the wire frame.</alt>
+        <alt>Ada &amp; Zangemann - A Tale of Software, Skateboards, and Raspberry Ice Cream. By Matthias Kirschner and Sandra Brandstätter. On a mostly desaturated dark cyan background, in a frame composed of sometimes curled white lines that connect a mouse, a keyboard, and a pink smartphone, Ada and Zangemann are facing each other, both with their hands on their hips as a sign of challenge. Ada is smiling and Zangemann is frowning. Ada has black hair collected in two big right- and left-bound ringlets with red rubber bands, and red cheeks. She has little yellow stud earrings. She wears cyan and white horizontal striped shorts and a yellow shirt over a white undershirt that ends with embroidery that goes beyond the shirt. The shirt and undershirt come out over the shorts. Above the shirt Ada wears a blue hoodie. Ada is wearing red shoes with white tips and soles, and short white socks. She has one foot on a skateboard and the other on the ground. Zangemann has short gray hair and square glasses. He is wearing a purple turtle-neck sweater, light blue pants turned up, brown shoes, and white socks. He’s wearing a big tech watch. Above Zangemann there are a pair of pliers with red handles crossing the wire frame.</alt>
       </mediaobject>
     </cover>
     <cover role="back">
@@ -330,7 +330,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
         <alt>A soldering iron and a brush and can with yellow paint, connected by white electrical cord that forms a frame.</alt>
       </mediaobject>
       <simplesect xml:id="sec-back-cover">
-        <para xml:id="para-back-1" az:dropcap="true" az:dropcapcolor="#fddd66" az:dropcapbackgroundcolor="#71aaa4" az:dropcapfileref="images/capitals/T-yellow2.png" az:dropcapheightpt="50.56" az:dropcapwidthpt="42.72" az:dropcaplocalsc="0.16" az:dropcapscribuscharstyle="Capital Yellow 2"><phrase condition="capitals-text">The</phrase><phrase condition="capitals-img">he</phrase> inventor Zangemann is world-famous and immensely rich. Adults and children alike love his fabulous technical inventions. But one day there is a problem: the children's electronic skateboards no longer work properly. What’s going on? The curious girl Ada sees through what is going on. Together with her friends, she experiments with hardware and software, and the children forge a plan: Zangemann can no longer be the only one in control of the devices!</para>
+        <para xml:id="para-back-1" az:dropcap="true" az:dropcapcolor="#fddd66" az:dropcapbackgroundcolor="#71aaa4" az:dropcapfileref="images/capitals/T-yellow2.png" az:dropcapheightpt="50.56" az:dropcapwidthpt="42.72" az:dropcaplocalsc="0.16" az:dropcapscribuscharstyle="Capital Yellow 2"><phrase condition="capitals-text">The</phrase><phrase condition="capitals-img">he</phrase> inventor Zangemann is world-famous and immensely rich. Adults and children alike love his fabulous technical inventions. But one day there is a problem: the children’s electronic skateboards no longer work properly. What’s going on? The curious girl Ada sees through what is going on. Together with her friends, she experiments with hardware and software, and the children forge a plan: Zangemann can no longer be the only one in control of the devices!</para>
         <para>A book that arouses interest in tinkering and encourages shaping technology.</para>
       </simplesect>
       <!-- TODO: this is a duplication of the same image -->
@@ -382,11 +382,11 @@ This book by Matthias Kirschner (author) and Sandra Brandstätter (illustrator) 
 
 <emphasis role="bold">You may</emphasis> do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. If you remix, transform, or build upon the material, <emphasis role="bold">you must</emphasis> distribute your contributions under the same license as the original. (This is a human-readable summary of - and not a substitute for - the “legal code” of CC-BY-SA 4.0.)
 
-Furthermore for remix versions (derivative works), the licensor asks you not to make any modifications of the author's personal acknowledgments and the author's and illustrator's short biographies, instead please completely remove those parts from your remix version.
+Furthermore for remix versions (derivative works), the licensor asks you not to make any modifications of the author’s personal acknowledgments and the author’s and illustrator’s short biographies, instead please completely remove those parts from your remix version.
 
-Publication under this free cultural license was possible due to the great support by dpunkt.verlag GmbH / O'Reilly Media, Inc. for the German book and No Starch Press for the English book. Unfortunately, Creative Commons licenses are still rare exceptions for commercially published books, and often considered revolutionary and risky by publishers.
+Publication under this free cultural license was possible due to the great support by dpunkt.verlag GmbH / O’Reilly Media, Inc. for the German book and No Starch Press for the English book. Unfortunately, Creative Commons licenses are still rare exceptions for commercially published books, and often considered revolutionary and risky by publishers.
 
-<emphasis role="bold">A big thank you</emphasis> to <emphasis role="bold">dpunkt.verlag</emphasis> and <emphasis role="bold">No Starch Press</emphasis> for understanding the values of software freedom, taking the time to discuss and understand the advantages of free cultural licenses, and the great support to publish this book under conditions that respect the FSFE's values.</literallayout>
+<emphasis role="bold">A big thank you</emphasis> to <emphasis role="bold">dpunkt.verlag</emphasis> and <emphasis role="bold">No Starch Press</emphasis> for understanding the values of software freedom, taking the time to discuss and understand the advantages of free cultural licenses, and the great support to publish this book under conditions that respect the FSFE’s values.</literallayout>
       <literallayout condition="colophon-print" class="normal" its:locNote="Print colophon covering the entire page. Please reuse the license text translation from the official Creative Commons website https://creativecommons.org/licenses/by-sa/4.0/">Copyright © 2023 Matthias Kirschner and Sandra Brandstätter.
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
 To view a copy of this license, visit <link xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</link> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
@@ -433,11 +433,11 @@ This book by Matthias Kirschner (author) and Sandra Brandstätter (illustrator) 
 
 <emphasis role="bold">You may</emphasis> do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. If you remix, transform, or build upon the material, <emphasis role="bold">you must</emphasis> distribute your contributions under the same license as the original. (This is a human-readable summary of - and not a substitute for - the “legal code” of CC-BY-SA 4.0.)
 
-Furthermore for remix versions (derivative works), the licensor asks you not to make any modifications of the author's personal acknowledgments and the author's and illustrator's short biographies, instead please completely remove those parts from your remix version.
+Furthermore for remix versions (derivative works), the licensor asks you not to make any modifications of the author’s personal acknowledgments and the author’s and illustrator’s short biographies, instead please completely remove those parts from your remix version.
 
-Publication under this free cultural license was possible due to the great support by dpunkt.verlag GmbH / O'Reilly Media, Inc. for the German book and No Starch Press for the English book. Unfortunately, Creative Commons licenses are still rare exceptions for commercially published books, and often considered revolutionary and risky by publishers.
+Publication under this free cultural license was possible due to the great support by dpunkt.verlag GmbH / O’Reilly Media, Inc. for the German book and No Starch Press for the English book. Unfortunately, Creative Commons licenses are still rare exceptions for commercially published books, and often considered revolutionary and risky by publishers.
 
-<emphasis role="bold">A big thank you</emphasis> to <emphasis role="bold">dpunkt.verlag</emphasis> and <emphasis role="bold">No Starch Press</emphasis> for understanding the values of software freedom, taking the time to discuss and understand the advantages of free cultural licenses, and the great support to publish this book under conditions that respect the FSFE's values.</literallayout>
+<emphasis role="bold">A big thank you</emphasis> to <emphasis role="bold">dpunkt.verlag</emphasis> and <emphasis role="bold">No Starch Press</emphasis> for understanding the values of software freedom, taking the time to discuss and understand the advantages of free cultural licenses, and the great support to publish this book under conditions that respect the FSFE’s values.</literallayout>
 
 </simplesect>
 <simplesect xml:id="sec-p02bb" its:withinText="yes">
@@ -445,19 +445,19 @@ Publication under this free cultural license was possible due to the great suppo
 Free Software is about the freedoms you receive with the software, not about the price. Likewise publishing a book under a free culture license does not mean you have the right to get a gratis copy of the book or ebook. It means you get the rights described above, which enable society to benefit further from this book, as it should from all cultural works.
 
 We encourage you to support authors, publishers, and others involved in the creation of culture under free licenses – including <emphasis role="bold">financially supporting them through purchases or donations</emphasis>. (<link xlink:href="https://fsfe.org/donate">https://fsfe.org/donate</link>)
-Society should support those who respect others' freedom.</literallayout>
+Society should support those who respect others’ freedom.</literallayout>
     </simplesect>
   </colophon>
   <preface role="title-page">
     <info>
-      <title its:locNote="Page next to the colophon with title, subtitle, authors and illustration of Ada's dog.">Title page</title>
+      <title its:locNote="Page next to the colophon with title, subtitle, authors and illustration of Ada’s dog.">Title page</title>
     </info>
     <simplesect xml:id="sec-p03" az:pagenum="3">
       <anchor az:slidenum="1"/>
 
       <mediaobject xml:id="img-ada-cover">
         <!-- TODO: add combined imagedata or remove -->
-        <alt>Matthias Kirschner, Sandra Brandstätter - ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice Cream. Title in the middle, authors in the upper left. In the lower right, Ada's family's dog with gray fur and some white patches and with a red collar with shiny yellow LEDs, which wags its tail.</alt>
+        <alt>Matthias Kirschner, Sandra Brandstätter - ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice Cream. Title in the middle, authors in the upper left. In the lower right, Ada’s family’s dog with gray fur and some white patches and with a red collar with shiny yellow LEDs, which wags its tail.</alt>
       </mediaobject>
 
       <mediaobject xml:id="img-ada-p03-author">
@@ -481,7 +481,7 @@ Society should support those who respect others' freedom.</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p03-dog.png"/>
         </imageobject>
-        <alt>In the lower right, Ada's family's dog with gray fur and some white patches and with a red collar with shiny yellow LEDs, which wags its tail.</alt>
+        <alt>In the lower right, Ada’s family’s dog with gray fur and some white patches and with a red collar with shiny yellow LEDs, which wags its tail.</alt>
       </mediaobject>
 
       <literallayout>Matthias Kirschner
@@ -506,7 +506,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p04.png"/>
         </imageobject>
-        <alt>Ada in foreground leaving the house to go to school, in the background Ada's house and the junkyard. Ada has a brown backpack with yellow shoulder straps. To the left of Ada there is a red car, a Volkswagen Beetle, without wheels and no longer working, with one of the headlights remaining attached only with its wires. On the left, in front of the car, there are two tires, two boxes – one of which is a wooden box with an overturned bucket –, and an empty can, all among some plants with yellow flowers. In the background there is Ada's house, with her mother and her brother Alan waving goodbye, and the dog sitting on the ground. Alan is sitting on the two entrance steps of the house. He has short dark hair and is dressed in a white short-sleeved shirt with a red stripe at the edges of the sleeves and two red stripes at the bottom of the shirt. Alan wears blue shorts and he is barefoot. Ada's mom has dark lipstick and long black hair in a white headband. She is wearing a short blue shirt with white trim, white pants, and yellow shoes. Ada's house is built of wood, with the front being white. The roof is dark red corrugated sheeting. There are two windows in front in addition to the door, and another window on the left side. A yellow duck stands on top of the roof, while a gray chimney protrudes. An antenna on the left of the roof supports a clothesline on which red clothespins hold a green tank top, a pair of light blue pants, and white underpants. To the right of the house there is a veranda on which there is installed a solar panel. Under the veranda there are a mattress, a red oil drum, and a gray case. Behind the house there are piles of landfill objects among which you can see a washing machine, a car, and various wooden boards.</alt>
+        <alt>Ada in foreground leaving the house to go to school, in the background Ada’s house and the junkyard. Ada has a brown backpack with yellow shoulder straps. To the left of Ada there is a red car, a Volkswagen Beetle, without wheels and no longer working, with one of the headlights remaining attached only with its wires. On the left, in front of the car, there are two tires, two boxes – one of which is a wooden box with an overturned bucket –, and an empty can, all among some plants with yellow flowers. In the background there is Ada’s house, with her mother and her brother Alan waving goodbye, and the dog sitting on the ground. Alan is sitting on the two entrance steps of the house. He has short dark hair and is dressed in a white short-sleeved shirt with a red stripe at the edges of the sleeves and two red stripes at the bottom of the shirt. Alan wears blue shorts and he is barefoot. Ada’s mom has dark lipstick and long black hair in a white headband. She is wearing a short blue shirt with white trim, white pants, and yellow shoes. Ada’s house is built of wood, with the front being white. The roof is dark red corrugated sheeting. There are two windows in front in addition to the door, and another window on the left side. A yellow duck stands on top of the roof, while a gray chimney protrudes. An antenna on the left of the roof supports a clothesline on which red clothespins hold a green tank top, a pair of light blue pants, and white underpants. To the right of the house there is a veranda on which there is installed a solar panel. Under the veranda there are a mattress, a red oil drum, and a gray case. Behind the house there are piles of landfill objects among which you can see a washing machine, a car, and various wooden boards.</alt>
       </mediaobject>
     </simplesect>
     <simplesect xml:id="sec-p05" az:pagenum="5">
@@ -607,7 +607,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p13.png"/>
         </imageobject>
-        <alt>Zangemann descends the stairs from his mansion on the hill towards the city. Zangemann's house stands on a hill. The front is blue with large windows; the towers are dark blue, and from a window starts a yellow slide that ends in a large swimming pool with two palm trees. The roofs are red, and above the highest tower an antenna is installed. On the sides of the stairs to get off the hill there are evergreen trees.</alt>
+        <alt>Zangemann descends the stairs from his mansion on the hill towards the city. Zangemann’s house stands on a hill. The front is blue with large windows; the towers are dark blue, and from a window starts a yellow slide that ends in a large swimming pool with two palm trees. The roofs are red, and above the highest tower an antenna is installed. On the sides of the stairs to get off the hill there are evergreen trees.</alt>
       </mediaobject>
     </simplesect>
     <simplesect xml:id="sec-p14" az:pagenum="14">
@@ -618,7 +618,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p14.png"/>
         </imageobject>
-        <alt>Zangemann after the incident with the child. Zangemann screams from pain while holding up one of his legs with both hands at the shin. The child has brown hair that is blown back by Zangemann's scream; he is wearing a light blue hooded sweatshirt and dark green pants. He holds a red Zangemann electric skateboard.</alt>
+        <alt>Zangemann after the incident with the child. Zangemann screams from pain while holding up one of his legs with both hands at the shin. The child has brown hair that is blown back by Zangemann’s scream; he is wearing a light blue hooded sweatshirt and dark green pants. He holds a red Zangemann electric skateboard.</alt>
       </mediaobject>
     </simplesect>
     <simplesect xml:id="sec-p15" az:pagenum="15">
@@ -638,7 +638,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p16.png"/>
         </imageobject>
-        <alt>The city in the evening, with houses, a church, and two streetlights. Images/Illustrations emerge from the dwellings illustrating Zangemann's inventions bought by the inhabitants: a washing machine, a yellow vacuum cleaner, and a red car, all with Internet connection signals.</alt>
+        <alt>The city in the evening, with houses, a church, and two streetlights. Images/Illustrations emerge from the dwellings illustrating Zangemann’s inventions bought by the inhabitants: a washing machine, a yellow vacuum cleaner, and a red car, all with Internet connection signals.</alt>
       </mediaobject>
     </simplesect>
     <simplesect xml:id="sec-p17" az:pagenum="17">
@@ -646,7 +646,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p17.png"/>
         </imageobject>
-        <alt>Continuation of the previous picture, where in the background there is the hill with Zangemann's house from whose antenna come the signals to control the various devices. In emerging images/illustrations there are: a red electric skateboard, a light bulb, an ice cream machine, and a toilet, all of which are receiving commands from Zangemann.</alt>
+        <alt>Continuation of the previous picture, where in the background there is the hill with Zangemann’s house from whose antenna come the signals to control the various devices. In emerging images/illustrations there are: a red electric skateboard, a light bulb, an ice cream machine, and a toilet, all of which are receiving commands from Zangemann.</alt>
       </mediaobject>
     </simplesect>
   </chapter>
@@ -661,7 +661,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p18.png"/>
         </imageobject>
-        <alt>Five kids from the school who can't make skateboards work. Two girls wear helmets, respectively blue and red. A little girl with brown hair tied in two tails with yellow rubber bands is kneeling. She is trying to understand why the skateboard of her friend with the red helmet does not work. Four children have backpacks on their shoulders, while the little girl with the red helmet left hers leaning on a bench on which there are a yellow apple and a light blue bottle with a white flower on it.</alt>
+        <alt>Five kids from the school who can’t make skateboards work. Two girls wear helmets, respectively blue and red. A little girl with brown hair tied in two tails with yellow rubber bands is kneeling. She is trying to understand why the skateboard of her friend with the red helmet does not work. Four children have backpacks on their shoulders, while the little girl with the red helmet left hers leaning on a bench on which there are a yellow apple and a light blue bottle with a white flower on it.</alt>
       </mediaobject>
     </simplesect>
     <simplesect xml:id="sec-p19" az:pagenum="19">
@@ -720,7 +720,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p24.png"/>
         </imageobject>
-        <alt>Zangemann looks thoughtfully with his arms crossed out one of the great windows of his house, into which the sun's rays are shining.</alt>
+        <alt>Zangemann looks thoughtfully with his arms crossed out one of the great windows of his house, into which the sun’s rays are shining.</alt>
       </mediaobject>
     </simplesect>
   </chapter>
@@ -752,7 +752,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p27.png"/>
         </imageobject>
-        <alt>Ada racing with her electric skateboard for city sidewalks. Ada's skateboard is blue, with gray and pink wheels; the electronic part is placed above the skateboard (as opposed to Zangemann's skateboards where the electronic part is below). Ada is holding in both hands a remote control with a short antenna to maneuver it. Behind Ada are Marie and Toni who carry their own skateboards under their arms and look with amazement at Ada, who has shot past them and in front of them. Marie has dark long hair with two braids fastened with orange clips, yellow earrings, a fuchsia shirt with white sleeves with purple horizontal stripes, a white skirt, white and yellow sneakers, white socks, a white hat with yellow sides, and a light purple backpack. Marie has a blue artificial leg. Her skateboard is blue with yellow wheels. Toni has red hair closely trimmed on the sides. He is wearing a blue sweatshirt, dark green pants, and white shoes. He has a red backpack with white inserts and shoulder straps. One hand is next to his mouth. His skateboard is purple with orange wheels. There's also a father with his son walking in the opposite direction: the father is dressed in a blue checked jacket and blue pants and holds a brown briefcase. He is smiling at Ada. His son has a blue shirt, blue shorts, white shoes, a brown backpack, and a red and white hat. He holds under his arm a yellow Zangemann skateboard with light brown wheels, and he grins at Ada. In the background there is a bakery with large windows through which you can see the bread. It has a green and white striped awning around the corner and a sign on the sidewalk with the list of products. Overhead, a large pretzel is displayed. On the road there is a puddle that reflects the blue of the sky.</alt>
+        <alt>Ada racing with her electric skateboard for city sidewalks. Ada’s skateboard is blue, with gray and pink wheels; the electronic part is placed above the skateboard (as opposed to Zangemann’s skateboards where the electronic part is below). Ada is holding in both hands a remote control with a short antenna to maneuver it. Behind Ada are Marie and Toni who carry their own skateboards under their arms and look with amazement at Ada, who has shot past them and in front of them. Marie has dark long hair with two braids fastened with orange clips, yellow earrings, a fuchsia shirt with white sleeves with purple horizontal stripes, a white skirt, white and yellow sneakers, white socks, a white hat with yellow sides, and a light purple backpack. Marie has a blue artificial leg. Her skateboard is blue with yellow wheels. Toni has red hair closely trimmed on the sides. He is wearing a blue sweatshirt, dark green pants, and white shoes. He has a red backpack with white inserts and shoulder straps. One hand is next to his mouth. His skateboard is purple with orange wheels. There’s also a father with his son walking in the opposite direction: the father is dressed in a blue checked jacket and blue pants and holds a brown briefcase. He is smiling at Ada. His son has a blue shirt, blue shorts, white shoes, a brown backpack, and a red and white hat. He holds under his arm a yellow Zangemann skateboard with light brown wheels, and he grins at Ada. In the background there is a bakery with large windows through which you can see the bread. It has a green and white striped awning around the corner and a sign on the sidewalk with the list of products. Overhead, a large pretzel is displayed. On the road there is a puddle that reflects the blue of the sky.</alt>
       </mediaobject>
     </simplesect>
     <simplesect xml:id="sec-p28" az:pagenum="28">
@@ -763,7 +763,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p28.png"/>
         </imageobject>
-        <alt>Ada stops on her skateboard surrounded by children. Marie is on one end. She is pointing to Ada's skateboard and she's talking. Next to her is Konrad, with short blond hair, a dark gray helmet, glasses, a green shirt with white collar and cuffs, light blue pants with white cuffs, and gray shoes with white soles. He has a red skateboard with orange wheels. Behind Ada there are 4 other children. On the other end Toni is smiling. He touches his chin with one hand while with the other he holds a yellow helmet by the laces.</alt>
+        <alt>Ada stops on her skateboard surrounded by children. Marie is on one end. She is pointing to Ada’s skateboard and she’s talking. Next to her is Konrad, with short blond hair, a dark gray helmet, glasses, a green shirt with white collar and cuffs, light blue pants with white cuffs, and gray shoes with white soles. He has a red skateboard with orange wheels. Behind Ada there are 4 other children. On the other end Toni is smiling. He touches his chin with one hand while with the other he holds a yellow helmet by the laces.</alt>
       </mediaobject>
     </simplesect>
     <simplesect xml:id="sec-p29" az:pagenum="29">
@@ -809,7 +809,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p32.png"/>
         </imageobject>
-        <alt>Laboratory at the junkyard, under the veranda of Ada's house. Ada is sitting on a water case with a leg bent under her, using a soldering iron. Konrad is standing next to her and dismounting a speaker. Marie is sitting on two tires with an arm resting on a table and her upside-down skateboard from which wires come out. She is talking with Alan, who is standing with his arms resting on the same table. On the table there are also: pliers, two wrenches, a spool of solder, a can of blue paint (a bit of paint has dried on the table), and a pitcher and two glasses containing a pink drink. Toni is testing his skateboard with added yellow wings and a fan. It burps.</alt>
+        <alt>Laboratory at the junkyard, under the veranda of Ada’s house. Ada is sitting on a water case with a leg bent under her, using a soldering iron. Konrad is standing next to her and dismounting a speaker. Marie is sitting on two tires with an arm resting on a table and her upside-down skateboard from which wires come out. She is talking with Alan, who is standing with his arms resting on the same table. On the table there are also: pliers, two wrenches, a spool of solder, a can of blue paint (a bit of paint has dried on the table), and a pitcher and two glasses containing a pink drink. Toni is testing his skateboard with added yellow wings and a fan. It burps.</alt>
       </mediaobject>
     </simplesect>
     <simplesect xml:id="sec-p33" az:pagenum="33">
@@ -817,7 +817,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p33.png"/>
         </imageobject>
-        <alt>Marie and Ada's mom are dancing, facing each other. Alan, Ada, and Konrad are dancing in a circle. On the right there is a speaker playing, resting on an oil drum. Near the speaker there are two dancing mice. Toni is jumping through the tires. Ada's dog is howling, and from his mouth come two distorted musical notes.</alt>
+        <alt>Marie and Ada’s mom are dancing, facing each other. Alan, Ada, and Konrad are dancing in a circle. On the right there is a speaker playing, resting on an oil drum. Near the speaker there are two dancing mice. Toni is jumping through the tires. Ada’s dog is howling, and from his mouth come two distorted musical notes.</alt>
       </mediaobject>
     </simplesect>
     <simplesect xml:id="sec-p34" az:pagenum="34">
@@ -856,7 +856,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p37.png"/>
         </imageobject>
-        <alt>The President getting a phone call from the angry Zangemann. The videophone consists of an old red Zangemann dial phone connected to a monitor. Zangemann's face appears on the monitor, while a yellow flare of Zangemann's thundering voice comes out of the phone, and the President holds the receiver at arm's length. The president has white hair and wears a light blue shirt, a red tie, and a blue jacket with yellow buttons. The President is sitting on a green chair with white vertical lines, and his other hand is on the desk. On the desk, in addition to the videophone, there are sheets with something written on them and an open purple fountain pen. The President was eating a sandwich of meat and cheese with greens with two olives on a toothpick, over a blue napkin with white stripes.</alt>
+        <alt>The President getting a phone call from the angry Zangemann. The videophone consists of an old red Zangemann dial phone connected to a monitor. Zangemann’s face appears on the monitor, while a yellow flare of Zangemann’s thundering voice comes out of the phone, and the President holds the receiver at arm’s length. The president has white hair and wears a light blue shirt, a red tie, and a blue jacket with yellow buttons. The President is sitting on a green chair with white vertical lines, and his other hand is on the desk. On the desk, in addition to the videophone, there are sheets with something written on them and an open purple fountain pen. The President was eating a sandwich of meat and cheese with greens with two olives on a toothpick, over a blue napkin with white stripes.</alt>
       </mediaobject>
     </simplesect>
     <simplesect xml:id="sec-p38" az:pagenum="38">
@@ -893,7 +893,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p40-41.png"/>
         </imageobject>
-        <alt>Group of protesters. Among them there are: Ada's mother holding Alan's hand and raising a pink ice cream; 3 colleagues of Toni's father dressed in ties; two children holding the banner “Do your homework Mr. President and we will do ours!”; a robot with tank treads, irons as feet, an electric fan as abdomen, a monitor as head, and an eggbeater as one hand, holding a blue ice cream in his other hand; two parents holding the banner “Hacking 4 Freedom”; a lady holding an electronic sign “There is a code B”; two small birds, flying; the math teacher, Ms. Gernet, who has inserted in her cart a sign that says “They are young + need the code!“ The dog in her cart is barking; Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada's family's dog is now wearing a red harness with shiny yellow LEDs that matches the collar.</alt>
+        <alt>Group of protesters. Among them there are: Ada’s mother holding Alan’s hand and raising a pink ice cream; 3 colleagues of Toni’s father dressed in ties; two children holding the banner “Do your homework Mr. President and we will do ours!”; a robot with tank treads, irons as feet, an electric fan as abdomen, a monitor as head, and an eggbeater as one hand, holding a blue ice cream in his other hand; two parents holding the banner “Hacking 4 Freedom”; a lady holding an electronic sign “There is a code B”; two small birds, flying; the math teacher, Ms. Gernet, who has inserted in her cart a sign that says “They are young + need the code!“ The dog in her cart is barking; Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada’s family’s dog is now wearing a red harness with shiny yellow LEDs that matches the collar.</alt>
         <info>
           <az:excerpt its:locNote="Text on big banner, left on the illustration">Do your homework Mr. President and we will do ours!</az:excerpt>
         </info>
@@ -910,7 +910,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p41.png"/>
         </imageobject>
-        <alt>Detail of the previous image: Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada's family's little dog is now wearing a red harness with shiny yellow LEDs that matches the collar.</alt>
+        <alt>Detail of the previous image: Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada’s family’s little dog is now wearing a red harness with shiny yellow LEDs that matches the collar.</alt>
         <info>
           <az:excerpt its:locNote="Text on square signe on the right of the illustration">They are young + need the code!</az:excerpt>
           <az:excerpt its:locNote="Text on banner on the banner held by children on the right of the illustration. Alternatively the German text 'Ohne Code ist alles doof!' can be used, which translates to 'without code everything is dull!'.">Don’t wreck our tech!</az:excerpt>
@@ -930,7 +930,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p42.png"/>
         </imageobject>
-        <alt>One of Ada's friends lying on his stomach with one foot up in the air is typing on a laptop. He has wavy brown hair parted in the center, a red sweatshirt, blue pants, and white socks but no shoes. Next to the computer there are a green cup and two open books.</alt>
+        <alt>One of Ada’s friends lying on his stomach with one foot up in the air is typing on a laptop. He has wavy brown hair parted in the center, a red sweatshirt, blue pants, and white socks but no shoes. Next to the computer there are a green cup and two open books.</alt>
       </mediaobject>
       <para>The next day, the president invited Ada and her friends over. “We also want to be in charge of our software ourselves. In order for that to be true, the government must be independent from Zangemann. Can you tell me what you know about computer programs?” he asked them. Enthusiastically, they explained to him how software works and what you could do with it. The president was amazed.</para>
     </simplesect>
@@ -941,7 +941,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p43.png"/>
         </imageobject>
-        <alt>Ada and her friends in the President's office. Ada is reprogramming the President's computer. Toni is setting up a speaker for the President's secretary. Marie and Konrad are sitting on the floor and talking, and Marie has a laptop on her legs with an FSFE logo sticker (three stars: pea green, sky blue, and sea blue). On the floor are a bowl with candy and a plate with ice creams. The President's phone is ringing, but nobody is answering.</alt>
+        <alt>Ada and her friends in the President’s office. Ada is reprogramming the President’s computer. Toni is setting up a speaker for the President’s secretary. Marie and Konrad are sitting on the floor and talking, and Marie has a laptop on her legs with an FSFE logo sticker (three stars: pea green, sky blue, and sea blue). On the floor are a bowl with candy and a plate with ice creams. The President’s phone is ringing, but nobody is answering.</alt>
       </mediaobject>
     </simplesect>
   </chapter>
@@ -968,7 +968,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p45.png"/>
         </imageobject>
-        <alt>The President with Toni, Konrad, Marie, Ada, and a herald playing a trumpet. Marie is standing on top of a ladder talking into a microphone. Konrad firmly holds the ladder on which Marie is standing. Ada is standing on a chair and holds a copy of the new law bearing a seal. Ada's dog is sitting in front of her.</alt>
+        <alt>The President with Toni, Konrad, Marie, Ada, and a herald playing a trumpet. Marie is standing on top of a ladder talking into a microphone. Konrad firmly holds the ladder on which Marie is standing. Ada is standing on a chair and holds a copy of the new law bearing a seal. Ada’s dog is sitting in front of her.</alt>
       </mediaobject>
     </simplesect>
     <simplesect xml:id="sec-p46" az:pagenum="46">
@@ -978,7 +978,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p46.png"/>
         </imageobject>
-        <alt>Evening party. Children are holding ice cream and balloons with the words “I love FS (I love Free Software)”; other children are riding skateboards; yellow and orange flags are hanging; music comes out from a large speaker system; Ms. Gernet holds a pink tree-shaped ice cream with a yellow star on it; Ada's mom is dancing with a gentleman.</alt>
+        <alt>Evening party. Children are holding ice cream and balloons with the words “I love FS (I love Free Software)”; other children are riding skateboards; yellow and orange flags are hanging; music comes out from a large speaker system; Ms. Gernet holds a pink tree-shaped ice cream with a yellow star on it; Ada’s mom is dancing with a gentleman.</alt>
       </mediaobject>
     </simplesect>
     <simplesect xml:id="sec-p47" az:pagenum="47">
@@ -987,7 +987,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p47.png"/>
         </imageobject>
-        <alt>The President, the secretary, and other people around a table enjoying crazy ice cream; yellow and orange flags continue from the previous image; a little girl who just took a pink ghost-shaped ice cream from the modified ice cream machine; Ada's dog, Konrad, Marie, Ada, and Toni sneaking away from the party.</alt>
+        <alt>The President, the secretary, and other people around a table enjoying crazy ice cream; yellow and orange flags continue from the previous image; a little girl who just took a pink ghost-shaped ice cream from the modified ice cream machine; Ada’s dog, Konrad, Marie, Ada, and Toni sneaking away from the party.</alt>
       </mediaobject>
     </simplesect>
   </chapter>
@@ -1002,7 +1002,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p48.png"/>
         </imageobject>
-        <alt>Ada's little dog sniffing a trail of ice cream.</alt>
+        <alt>Ada’s little dog sniffing a trail of ice cream.</alt>
       </mediaobject>
       <anchor az:slidenum="26"/>
     </simplesect>
@@ -1028,7 +1028,7 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p50" az:pagenum="50">
       <para its:locNote="In the acknowledgments of the English version you can change 'No Starch Press' to the name of your publisher, as we would like to thank you for publishing this book in your language under a free cultural license, and encourage you to do that for other books in future as well.">Many thanks to Reinhard Wiesemann from the Linuxhotel for the financial support and motivation to no longer plan but to make. Thanks to Sandra Brandstätter, who has brought me joy with every new design for the illustrations. Thanks to my editor Wiebke Helmchen, who made developing and sharpening the story fun, and to No Starch Press for agreeing to publish the book under a free culture license.</para>
       <para>Thanks to Bea and Benni, Brian, Christine and Marc, Cory, Bernhard, Isabel and Amelia, Katta, Kristina, Martin, Mona and Arne, Nina, Oliver, Reinhard, Sabine, and Torsten for great ideas, inspiration, and practical tips, and to the many people of the Free Software movement, from which I was allowed to learn and whose engagement motivated me.</para>
-      <!-- TODO: this paragraph doesn't exist in the German version. Profiling of languages still needs handling -->
+      <!-- TODO: this paragraph doesn’t exist in the German version. Profiling of languages still needs handling -->
       <para lang="en" its:translate="no" xml:lang="en" condition="en">For the English edition, I would like to thank John for his valuable feedback to improve the language, as well as Catharina, Pam, Till, and Vint for assisting me in figuring out how to get the book published.</para>
       <para lang="it" its:translate="no" xml:lang="it" condition="it">Per l’edizione italiana, vorrei ringraziare Francesca e Luca per aver tradotto il libro utilizzando il proprio tempo libero, Emma e Greta per aver “testato” la traduzione e per i suggerimenti sui miglioramenti da apportare, e ancora un grande grazie a Luca per aver strutturato e per mantenere il repository git del libro.</para>
       <para>Thanks to my family, who made me write early in the morning, late in the evening, and on holiday, and who always supports my work for software freedom. Especially, I would like to thank my children, who inspired me with new ideas at each reading. Without them, this book would not exist.</para>
@@ -1038,7 +1038,7 @@ Raspberry Ice Cream</literallayout>
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p51.png"/>
         </imageobject>
-        <alt>Ada's dog wags its tail after finding Zangemann hidden behind a curtain and eating an ice cream cone with candies and a blue umbrella on it and lots of raspberry ice cream dripping.</alt>
+        <alt>Ada’s dog wags its tail after finding Zangemann hidden behind a curtain and eating an ice cream cone with candies and a blue umbrella on it and lots of raspberry ice cream dripping.</alt>
       </mediaobject>
     </simplesect>
   </appendix>
@@ -1090,7 +1090,7 @@ Raspberry Ice Cream</literallayout>
   </appendix>
   <appendix>
     <info>
-      <title xml:id="title-bookswebsite">Book's website</title>
+      <title xml:id="title-bookswebsite">Book’s website</title>
       <mediaobject xml:id="img-ada-p54-title">
         <imageobject>
           <imagedata fileref="images/illustrations/ada-p54-title.png"/>
