@@ -247,10 +247,9 @@ SPDX-License-Identifier: CC-BY-SA-4.0
     </its:locNoteRule>
     <!-- Enable changing image links by translators, as it is an externalResourceRefPointer by default for which itstool doesn’t allow translations. -->
     <its:withinTextRule xmlns:db="http://docbook.org/ns/docbook" withinText="no" selector="//db:imagedata"/>
-    <!-- TODO: restore translation to 'yes' of fileref when language-specific filenames are supported in the automation -->
-    <its:translateRule xmlns:db="http://docbook.org/ns/docbook" translate="no" selector="//db:imagedata/@fileref"/>
+    <its:translateRule xmlns:db="http://docbook.org/ns/docbook" translate="yes" selector="//db:imagedata/@fileref"/>
     <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//db:imagedata/@fileref">
-      <its:locNote>Link to the image. Only needs to be changed if the image is localized.</its:locNote>
+      <its:locNote>Link to the image. Only needs to be changed if the image is localized. Typical extensions are 'ltr' for left-to-right, 'rtl' for right-to-left' or a specific language. Many files are defined in https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations but some variants are generated in the automation.</its:locNote>
     </its:locNoteRule>
     <!-- Weblate flags to control behavior https://docs.weblate.org/en/latest/admin/checks.html#customizing-behavior-using-flags -->
     <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//az:charactername">
@@ -309,10 +308,10 @@ SPDX-License-Identifier: CC-BY-SA-4.0
       <!-- TODO: add link to correct image for the back -->
       <mediaobject xml:id="img-ada-a00">
         <imageobject condition="cover-print-img">
-          <imagedata fileref="images/illustrations/ada-a01.png"/>
+          <imagedata fileref="images/illustrations/ada-a01.en.png"/>
         </imageobject>
         <imageobject condition="cover-print-text">
-          <imagedata fileref="images/illustrations/ada-a01-nosubtitle.png"/>
+          <imagedata fileref="images/illustrations/ada-a01-nosubtitle.ltr.png"/>
         </imageobject>
         <!-- TODO: first make dbtoepub handle profiling (conditions) before using this conditional cover -->
         <!-- <imageobject condition="cover-web"> -->
@@ -325,7 +324,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
       <!-- TODO: the cover is currently a single image, but alt-text is defined for 2 images/illustrations -->
       <mediaobject xml:id="img-back_cover-a">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-z04.png"/>
+          <imagedata fileref="images/illustrations/ada-z04.ltr.png"/>
         </imageobject>
         <alt>A soldering iron and a brush and can with yellow paint, connected by white electrical cord that forms a frame.</alt>
       </mediaobject>
@@ -336,7 +335,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
       <!-- TODO: this is a duplication of the same image -->
       <mediaobject xml:id="img-back_cover-b">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-z04.png"/>
+          <imagedata fileref="images/illustrations/ada-z04.ltr.png"/>
         </imageobject>
         <alt>A power strip, with input and output of white electrical cord that is the frame.</alt>
       </mediaobject>
@@ -345,7 +344,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
       <!-- TODO: consider adding bridgehead texts and alt text-->
       <mediaobject xml:id="img-ada-a01-spine">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-a01-spine.png"/>
+          <imagedata fileref="images/illustrations/ada-a01-spine.ltr.btt.png" its:locNote="Extensions 'ttb' for top-to-bottom and 'btt' for bottom-to-top orientation of the text."/>
         </imageobject>
       </mediaobject>
     </cover>
@@ -358,7 +357,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
     <simplesect xml:id="sec-p01" az:pagenum="1">
       <mediaobject xml:id="img-ada-p01-titleonly">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p01-titleonly.png"/>
+          <imagedata fileref="images/illustrations/ada-p01-titleonly.ltr.png"/>
         </imageobject>
         <alt its:locNote="ignore-same">ADA &amp; ZANGEMANN</alt>
       </mediaobject>
@@ -462,24 +461,24 @@ Society should support those who respect others’ freedom.</literallayout>
 
       <mediaobject xml:id="img-ada-p03-author">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p03-author.png"/>
+          <imagedata fileref="images/illustrations/ada-p03-author.ltr.png"/>
         </imageobject>
         <alt its:locNote="ignore-same">Matthias Kirschner, Sandra Brandstätter</alt>
       </mediaobject>
 
       <mediaobject xml:id="img-ada-p03-title">
         <imageobject condition="headings-img">
-          <imagedata fileref="images/illustrations/ada-p03-title.png"/>
+          <imagedata fileref="images/illustrations/ada-p03-title.en.png"/>
         </imageobject>
         <imageobject condition="headings-text">
-          <imagedata fileref="images/illustrations/ada-p03-titleonly.png"/>
+          <imagedata fileref="images/illustrations/ada-p03-titleonly.ltr.png"/>
         </imageobject>
         <alt>ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice Cream. Title in the middle, authors in the upper left.</alt>
       </mediaobject>
 
       <mediaobject xml:id="img-ada-p03-dog">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p03-dog.png"/>
+          <imagedata fileref="images/illustrations/ada-p03-dog.ltr.png"/>
         </imageobject>
         <alt>In the lower right, Ada’s family’s dog with gray fur and some white patches and with a red collar with shiny yellow LEDs, which wags its tail.</alt>
       </mediaobject>
@@ -504,7 +503,7 @@ Raspberry Ice Cream</literallayout>
       <mediaobject xml:id="img-ada-p04">
         <!-- NOTE: that conditions for files could be used here -->
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p04.png"/>
+          <imagedata fileref="images/illustrations/ada-p04.ltr.png"/>
         </imageobject>
         <alt>Ada in foreground leaving the house to go to school, in the background Ada’s house and the junkyard. Ada has a brown backpack with yellow shoulder straps. To the left of Ada there is a red car, a Volkswagen Beetle, without wheels and no longer working, with one of the headlights remaining attached only with its wires. On the left, in front of the car, there are two tires, two boxes – one of which is a wooden box with an overturned bucket –, and an empty can, all among some plants with yellow flowers. In the background there is Ada’s house, with her mother and her brother Alan waving goodbye, and the dog sitting on the ground. Alan is sitting on the two entrance steps of the house. He has short dark hair and is dressed in a white short-sleeved shirt with a red stripe at the edges of the sleeves and two red stripes at the bottom of the shirt. Alan wears blue shorts and he is barefoot. Ada’s mom has dark lipstick and long black hair in a white headband. She is wearing a short blue shirt with white trim, white pants, and yellow shoes. Ada’s house is built of wood, with the front being white. The roof is dark red corrugated sheeting. There are two windows in front in addition to the door, and another window on the left side. A yellow duck stands on top of the roof, while a gray chimney protrudes. An antenna on the left of the roof supports a clothesline on which red clothespins hold a green tank top, a pair of light blue pants, and white underpants. To the right of the house there is a veranda on which there is installed a solar panel. Under the veranda there are a mattress, a red oil drum, and a gray case. Behind the house there are piles of landfill objects among which you can see a washing machine, a car, and various wooden boards.</alt>
       </mediaobject>
@@ -512,7 +511,7 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p05" az:pagenum="5">
       <mediaobject xml:id="img-ada-p05">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p05.png"/>
+          <imagedata fileref="images/illustrations/ada-p05.ltr.png"/>
         </imageobject>
         <alt>Prestigious magazines (“STARS“, “MONEY”, “Richest Man”) on whose cover are Zangemann and his villa.</alt>
       </mediaobject>
@@ -531,7 +530,7 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p07" az:pagenum="7">
       <mediaobject xml:id="img-ada-p07">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p07.png"/>
+          <imagedata fileref="images/illustrations/ada-p07.ltr.png"/>
         </imageobject>
         <alt>Zangemann as a child on a chair at a school table. From his head come six bubbles in which there are his ideas of places in which to insert computers: a video call system, a speaker, a washing machine, a skateboard with radio control on a big computer monitor, a wrist computer, and a shoulder computer with a monitor and keyboard. Zangemann has gray hair, a dark purple shirt with blue horizontal stripes, blue shorts, brown shoes and white socks. He wears glasses and a big watch on his left wrist. On the table there are an open notebook, a yellow pencil, and an eraser, while hanging on the side of the table there is his brown briefcase.</alt>
       </mediaobject>
@@ -541,14 +540,14 @@ Raspberry Ice Cream</literallayout>
       <para>“Finally, I can turn all my ideas into real things!” Zangemann exclaimed, and he got right to work. He found ways to put the small computers into all kinds of things to make them even more fun and useful. And then he sold them.</para>
       <mediaobject xml:id="img-ada-p08b">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p08b.png"/>
+          <imagedata fileref="images/illustrations/ada-p08b.ltr.png"/>
         </imageobject>
         <alt>Zangemann original ice cream machine. It is ice blue in color and is similar to a vending machine of drinks, but instead of the cup there is a cone that is filled with ice cream. Above the dispenser there is a monitor showing the variety that is distributed, in this case pineapple ice cream. On the left there are the slot for inserting coins, the various buttons to choose the flavor, and the hole for returning coins. At the top there is a round white sign with a scoop of candy-pink ice cream in a cone. On the back of the machine there is the refrigeration machinery with the “Z” of the Zangemann logo.</alt>
       </mediaobject>
       <para>Adults and children loved his inventions. All the kids wanted to have one of his skateboards — complete with the latest sounds to show off to their friends at school. Kids also loved his speaker invention, which could instantly play any song you requested. And, of course, everyone loved the ice cream served every afternoon from the automatic, extra-delicious Original Zangemann Ice Cream Machine. It all seemed like magic, but the secret was simple: the little computers that Zangemann built into his machines made it all possible.</para>
       <mediaobject xml:id="img-ada-p08a">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p08a.png"/>
+          <imagedata fileref="images/illustrations/ada-p08a.ltr.png"/>
         </imageobject>
         <alt>An original Zangemann electric skateboard leaving a blue trail with musical notes and colored circles. Only the knees, white socks, and olive green shoes with white soles of the child riding it are shown.</alt>
       </mediaobject>
@@ -556,7 +555,7 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p09" az:pagenum="9">
       <mediaobject xml:id="img-ada-p09">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p09.png"/>
+          <imagedata fileref="images/illustrations/ada-p09.ltr.png"/>
         </imageobject>
         <alt>Ada tinkers with objects in her improvised lab. Ada is sitting on an overturned water case, and working on a repair with a yellow screwdriver. Also on the table are green pliers, a red hammer, a white power strip, and another gadget. Ada is at a table consisting of a wooden board supported by two oil drums (one gray and one red) and a small wooden sawhorse. Behind Ada there are a washing machine, pipes, and a board. In front of the improvised table there are tires and an old phone with faulty wire. Alan is coming toward Ada holding a yellow fan over his head. Alan now wears white socks and yellow shoes.</alt>
       </mediaobject>
@@ -571,7 +570,7 @@ Raspberry Ice Cream</literallayout>
       <para>All he had to do was press the proper key on the golden computer, and immediately all the ice-cream machines in town would dispense only vanilla ice cream. If Zangemann wanted people to eat chocolate ice cream, he pressed the key for chocolate ice cream. If he gave the order for lemon ice cream, the machines made only lemon ice cream. Zangemann loved his inventions and was always thrilled at how amazingly well his machines worked. Sometimes people were disappointed when their favorite flavor wasn’t available, but what could they do? After all, there was ice cream on every street corner.</para>
       <mediaobject xml:id="img-ada-p10">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p10.png"/>
+          <imagedata fileref="images/illustrations/ada-p10.ltr.png"/>
         </imageobject>
         <alt>A white power strip attached to a wall socket. The power strip has 3 sockets and a green switch. One of the sockets is attached to a plug with a gray cable.</alt>
       </mediaobject>
@@ -580,7 +579,7 @@ Raspberry Ice Cream</literallayout>
       <para>Zangemann had a lot of fun pressing the sparkling keys and watching people eat ice cream. He spent many hours every day in front of his golden computer doing this. Again and again, he looked down on the city through a long telescope, observing how reliably his inventions carried out his commands.</para>
       <mediaobject xml:id="img-ada-p11">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p11.png"/>
+          <imagedata fileref="images/illustrations/ada-p11.ltr.png"/>
         </imageobject>
         <alt>Zangeman sitting in front of his golden computer on a golden armchair with a very tall red padded backrest at whose top is the “Z” of the Zangemann logo. He is wearing a purple turtle-neck sweater and light blue trousers. The computer has four ornate monitors of various sizes, each of which has the logo on the back. It is integrated into a costly wooden desk from which a gray cable flows that is connected to the power strip of the previous page.</alt>
       </mediaobject>
@@ -590,7 +589,7 @@ Raspberry Ice Cream</literallayout>
       <para>When he wasn’t sitting at his golden computer, Zangemann was building his little computers into new devices and then selling those. He built washing machines that sent a message to your cell phone when your laundry was done.  He made vacuums that played happy music instead of droning loudly. He invented light bulbs that turned on and off at the snap of a finger and cars that told you where the nearest grocery store was.</para>
       <mediaobject xml:id="img-ada-p12">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p12.png"/>
+          <imagedata fileref="images/illustrations/ada-p12.ltr.png"/>
         </imageobject>
         <alt>City landscape with houses and shops, with a central street turning right. On the road there are a car and a cyclist. There are various children and adults walking or going on skateboards, some eating ice cream, while others are buying ice cream from the original Zangemann machines.</alt>
       </mediaobject>
@@ -605,7 +604,7 @@ Raspberry Ice Cream</literallayout>
       <para>One day Zangemann thought, “Today I want to see my inventions up close.” He put away his big telescope, then climbed down the many stairs of his mansion and ventured out into the city, full of anticipation at the thought of enjoying his cool devices.</para>
       <mediaobject xml:id="img-ada-p13">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p13.png"/>
+          <imagedata fileref="images/illustrations/ada-p13.ltr.png"/>
         </imageobject>
         <alt>Zangemann descends the stairs from his mansion on the hill towards the city. Zangemann’s house stands on a hill. The front is blue with large windows; the towers are dark blue, and from a window starts a yellow slide that ends in a large swimming pool with two palm trees. The roofs are red, and above the highest tower an antenna is installed. On the sides of the stairs to get off the hill there are evergreen trees.</alt>
       </mediaobject>
@@ -616,7 +615,7 @@ Raspberry Ice Cream</literallayout>
       <para>He was completely absorbed in his thoughts when suddenly — BAM! — something crashed into his shin.</para>
       <mediaobject xml:id="img-ada-p14">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p14.png"/>
+          <imagedata fileref="images/illustrations/ada-p14.ltr.png"/>
         </imageobject>
         <alt>Zangemann after the incident with the child. Zangemann screams from pain while holding up one of his legs with both hands at the shin. The child has brown hair that is blown back by Zangemann’s scream; he is wearing a light blue hooded sweatshirt and dark green pants. He holds a red Zangemann electric skateboard.</alt>
       </mediaobject>
@@ -626,7 +625,7 @@ Raspberry Ice Cream</literallayout>
       <para>An angry Zangemann limped away. Suddenly, he heard loud music. He had never before heard something so horrible. He looked around and saw that the music was coming from a loudspeaker he himself had constructed. A child across the street was holding it. The child seemed to like the music, but it gave Zangemann a terrible headache, and his mood worsened. This was not how he had imagined his walk!</para>
       <mediaobject xml:id="img-ada-p15">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p15.png"/>
+          <imagedata fileref="images/illustrations/ada-p15.ltr.png"/>
         </imageobject>
         <alt>Advertisements for Zangemann ice cream (sandwich board), a Zangemann electric skateboard, and a Zangemann washing machine. The math teacher, Ms. Gernet, is passing in front of the billboards. Ms. Gernet is an old lady with short white hair. She is dressed in a light green t-shirt and a pea green sweater, dark brown pants, and light green heeled shoes. She has a fuchsia shoulder bag, worn behind her. She pushes a small shopping cart in which there is a small brown dog with a collar and tag.</alt>
       </mediaobject>
@@ -636,7 +635,7 @@ Raspberry Ice Cream</literallayout>
       <para>Zangemann was so furious with the two children. How dare they use his inventions this way? That night, he couldn’t sleep, so he sat down at his golden computer. From there, he gave all the little computers in the skateboards a command that they were no longer allowed to go on sidewalks. He ordered the small computers in the speakers to play music only at a low volume, except for his favorite music, which he immediately turned on to get into a better mood.</para>
       <mediaobject xml:id="img-ada-p16">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p16.png"/>
+          <imagedata fileref="images/illustrations/ada-p16.ltr.png"/>
         </imageobject>
         <alt>The city in the evening, with houses, a church, and two streetlights. Images/Illustrations emerge from the dwellings illustrating Zangemann’s inventions bought by the inhabitants: a washing machine, a yellow vacuum cleaner, and a red car, all with Internet connection signals.</alt>
       </mediaobject>
@@ -644,7 +643,7 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p17" az:pagenum="17">
       <mediaobject xml:id="img-ada-p17">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p17.png"/>
+          <imagedata fileref="images/illustrations/ada-p17.ltr.png"/>
         </imageobject>
         <alt>Continuation of the previous picture, where in the background there is the hill with Zangemann’s house from whose antenna come the signals to control the various devices. In emerging images/illustrations there are: a red electric skateboard, a light bulb, an ice cream machine, and a toilet, all of which are receiving commands from Zangemann.</alt>
       </mediaobject>
@@ -659,7 +658,7 @@ Raspberry Ice Cream</literallayout>
       <para xml:id="para-p18-1" az:dropcap="true" az:dropcapcharacter="T" az:dropcapfileref="images/capitals/T-olive.png" az:dropcapcolor="#bcc85a" az:dropcapbackgroundcolor="#ffffff" az:dropcapheightpt="50.56" az:dropcapwidthpt="38.4" az:dropcaplocalsc="0.16" az:dropcapscribuscharstyle="Capital Olive"><phrase condition="capitals-text">The</phrase><phrase condition="capitals-img">he</phrase> next day, there was a big commotion at Ada’s school. On the way to school, the kids’ skateboards had stopped working. The wheels simply stood still. And the children could no longer turn up the volume on their speakers. What was going on?</para>
       <mediaobject xml:id="img-ada-p18">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p18.png"/>
+          <imagedata fileref="images/illustrations/ada-p18.ltr.png"/>
         </imageobject>
         <alt>Five kids from the school who can’t make skateboards work. Two girls wear helmets, respectively blue and red. A little girl with brown hair tied in two tails with yellow rubber bands is kneeling. She is trying to understand why the skateboard of her friend with the red helmet does not work. Four children have backpacks on their shoulders, while the little girl with the red helmet left hers leaning on a bench on which there are a yellow apple and a light blue bottle with a white flower on it.</alt>
       </mediaobject>
@@ -668,7 +667,7 @@ Raspberry Ice Cream</literallayout>
       <para>Although she didn’t own any of these things, Ada wondered why the skateboards and the speakers suddenly stopped working. But she didn’t really have time to think much about it, because she was tinkering again. She put together a complete bicycle from the parts of three broken bicycles. She gave the bicycle to her mother as a present so that she wouldn’t have to spend her money on bus tickets to work. For her brother, Ada built a loudspeaker so he could fall asleep to nice stories in the evenings when their mother was still at work.</para>
       <mediaobject xml:id="img-ada-p19">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p19.png"/>
+          <imagedata fileref="images/illustrations/ada-p19.ltr.png"/>
         </imageobject>
         <alt>Close-up of Ada thoughtful, with a backpack and with one hand on her chin and the other resting on her side.</alt>
       </mediaobject>
@@ -689,7 +688,7 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p21" az:pagenum="21">
       <mediaobject xml:id="img-ada-p21">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p21.png"/>
+          <imagedata fileref="images/illustrations/ada-p21.ltr.png"/>
         </imageobject>
         <alt>Computer screen from which the elements of the programming language symbolically emerge: “while num &gt; 0“, “init“, “sx=42“, “for“, “v**3“. Ada is typing on a white keyboard with a blue cable, while her other hand enters the screen to change the program (“print(msg)”, “a+b+c+d=e”, “if”, “break”, “continue”, “exit()”). Next to the keyboard there are a pencil and an eraser.</alt>
       </mediaobject>
@@ -709,7 +708,7 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p23" az:pagenum="23">
       <mediaobject xml:id="img-ada-p23">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p23.png"/>
+          <imagedata fileref="images/illustrations/ada-p23.ltr.png"/>
         </imageobject>
         <alt>Ada comes to grips with programming. She is typing on a keyboard resting on a gray mat and connected to a smartphone with a blue cable. The smartphone is connected with a red wire to an electronic card with a yellow LED lamp. The smartphone is powered by a transformer connected to a power strip with a gray wire and plug. On the table there are also: 3 books, of which one is open; a clipboard and a pencil; pliers; glue; solder; and a disconnected soldering iron.</alt>
       </mediaobject>
@@ -718,7 +717,7 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p24" az:pagenum="24">
       <mediaobject xml:id="img-ada-p24">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p24.png"/>
+          <imagedata fileref="images/illustrations/ada-p24.ltr.png"/>
         </imageobject>
         <alt>Zangemann looks thoughtfully with his arms crossed out one of the great windows of his house, into which the sun’s rays are shining.</alt>
       </mediaobject>
@@ -750,7 +749,7 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p27" az:pagenum="27">
       <mediaobject xml:id="img-ada-p27">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p27.png"/>
+          <imagedata fileref="images/illustrations/ada-p27.ltr.png"/>
         </imageobject>
         <alt>Ada racing with her electric skateboard for city sidewalks. Ada’s skateboard is blue, with gray and pink wheels; the electronic part is placed above the skateboard (as opposed to Zangemann’s skateboards where the electronic part is below). Ada is holding in both hands a remote control with a short antenna to maneuver it. Behind Ada are Marie and Toni who carry their own skateboards under their arms and look with amazement at Ada, who has shot past them and in front of them. Marie has dark long hair with two braids fastened with orange clips, yellow earrings, a fuchsia shirt with white sleeves with purple horizontal stripes, a white skirt, white and yellow sneakers, white socks, a white hat with yellow sides, and a light purple backpack. Marie has a blue artificial leg. Her skateboard is blue with yellow wheels. Toni has red hair closely trimmed on the sides. He is wearing a blue sweatshirt, dark green pants, and white shoes. He has a red backpack with white inserts and shoulder straps. One hand is next to his mouth. His skateboard is purple with orange wheels. There’s also a father with his son walking in the opposite direction: the father is dressed in a blue checked jacket and blue pants and holds a brown briefcase. He is smiling at Ada. His son has a blue shirt, blue shorts, white shoes, a brown backpack, and a red and white hat. He holds under his arm a yellow Zangemann skateboard with light brown wheels, and he grins at Ada. In the background there is a bakery with large windows through which you can see the bread. It has a green and white striped awning around the corner and a sign on the sidewalk with the list of products. Overhead, a large pretzel is displayed. On the road there is a puddle that reflects the blue of the sky.</alt>
       </mediaobject>
@@ -761,7 +760,7 @@ Raspberry Ice Cream</literallayout>
       <para>“How can you ride your skateboard on the sidewalk?” they asked.</para>
       <mediaobject xml:id="img-ada-p28">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p28.png"/>
+          <imagedata fileref="images/illustrations/ada-p28.ltr.png"/>
         </imageobject>
         <alt>Ada stops on her skateboard surrounded by children. Marie is on one end. She is pointing to Ada’s skateboard and she’s talking. Next to her is Konrad, with short blond hair, a dark gray helmet, glasses, a green shirt with white collar and cuffs, light blue pants with white cuffs, and gray shoes with white soles. He has a red skateboard with orange wheels. Behind Ada there are 4 other children. On the other end Toni is smiling. He touches his chin with one hand while with the other he holds a yellow helmet by the laces.</alt>
       </mediaobject>
@@ -771,7 +770,7 @@ Raspberry Ice Cream</literallayout>
       <para>That evening, Ada tested out her theory on her classmate Toni’s skateboard. She worked secretly through most of the night, and the next day, Toni could ride on the sidewalk again. Unfortunately, his skateboard could no longer make the sounds that his parents had bought from Zangemann. Instead, every 10 minutes it made a strange noise that sounded like a drawn-out burp. Ada knew that little errors like that could pop up in programs all the time. But Toni’s burping skateboard was really quite funny.</para>
       <mediaobject xml:id="img-ada-p29">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p29.png"/>
+          <imagedata fileref="images/illustrations/ada-p29.ltr.png"/>
         </imageobject>
         <alt>Hopscotch diagram drawn with chalk on asphalt. In a row, within squares, the numbers 1, 2; 3 and 4 next to each other; 5, 6; and 7 and 8 next to each other. The number 9 is not inside a square but inside a wider semicircle beyond the squares of numbers 7 and 8. Between the number 1 and the number 2 there is a blue bottle with white polka dots. A yellow Zangemann skateboard with orange wheels on the side of the diagram actually hides the number 1.</alt>
       </mediaobject>
@@ -788,7 +787,7 @@ Raspberry Ice Cream</literallayout>
       <para>But that wasn’t all. With the software, they could give their skateboards new, cool features. Marie attached colorful LED lights to her board that glowed different colors depending on the speed. Konrad built old propellers onto his skateboard for extra speed.</para>
       <mediaobject xml:id="img-ada-p30">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p30.png"/>
+          <imagedata fileref="images/illustrations/ada-p30.ltr.png"/>
         </imageobject>
         <alt>A green battery with red and yellow wires, a power strip, glue, a roll of solder, and two pencils.</alt>
       </mediaobject>
@@ -799,7 +798,7 @@ Raspberry Ice Cream</literallayout>
       <para>Together, they changed the software for the speakers too. Then they turned up the music as loud as possible and danced wildly together.</para>
       <mediaobject xml:id="img-ada-p31">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p31.png"/>
+          <imagedata fileref="images/illustrations/ada-p31.ltr.png"/>
         </imageobject>
         <alt>A screwdriver with orange and gray handle, red pliers, and three LEDs: yellow, green, pink.</alt>
       </mediaobject>
@@ -807,7 +806,7 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p32" az:pagenum="32">
       <mediaobject xml:id="img-ada-p32">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p32.png"/>
+          <imagedata fileref="images/illustrations/ada-p32.ltr.png"/>
         </imageobject>
         <alt>Laboratory at the junkyard, under the veranda of Ada’s house. Ada is sitting on a water case with a leg bent under her, using a soldering iron. Konrad is standing next to her and dismounting a speaker. Marie is sitting on two tires with an arm resting on a table and her upside-down skateboard from which wires come out. She is talking with Alan, who is standing with his arms resting on the same table. On the table there are also: pliers, two wrenches, a spool of solder, a can of blue paint (a bit of paint has dried on the table), and a pitcher and two glasses containing a pink drink. Toni is testing his skateboard with added yellow wings and a fan. It burps.</alt>
       </mediaobject>
@@ -815,7 +814,7 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p33" az:pagenum="33">
       <mediaobject xml:id="img-ada-p33">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p33.png"/>
+          <imagedata fileref="images/illustrations/ada-p33.ltr.png"/>
         </imageobject>
         <alt>Marie and Ada’s mom are dancing, facing each other. Alan, Ada, and Konrad are dancing in a circle. On the right there is a speaker playing, resting on an oil drum. Near the speaker there are two dancing mice. Toni is jumping through the tires. Ada’s dog is howling, and from his mouth come two distorted musical notes.</alt>
       </mediaobject>
@@ -823,13 +822,13 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p34" az:pagenum="34">
       <mediaobject xml:id="img-ada-p34">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p34.png"/>
+          <imagedata fileref="images/illustrations/ada-p34.ltr.png"/>
         </imageobject>
         <alt>Hands holding wonderful ice cream cones: blue ice cream with a chocolate heart on top with a yellow heart on its center, and whipped cream on top of the chocolate; green ice cream with colored stars with a cucumber stuck on a stick; pink fish-shaped ice cream; pyramid-shaped ice cream with candies, and chocolate syrup, and a cherry on top; rainbow ice cream with a yellow umbrella; blue ghost-shaped ice cream with candies on it.</alt>
       </mediaobject>
       <mediaobject xml:id="img-ada-p34-bottom">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p34-bottom.png"/>
+          <imagedata fileref="images/illustrations/ada-p34-bottom.ltr.png"/>
         </imageobject>
       </mediaobject>
     </simplesect>
@@ -854,7 +853,7 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p37" az:pagenum="37">
       <mediaobject xml:id="img-ada-p37">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p37.png"/>
+          <imagedata fileref="images/illustrations/ada-p37.ltr.png"/>
         </imageobject>
         <alt>The President getting a phone call from the angry Zangemann. The videophone consists of an old red Zangemann dial phone connected to a monitor. Zangemann’s face appears on the monitor, while a yellow flare of Zangemann’s thundering voice comes out of the phone, and the President holds the receiver at arm’s length. The president has white hair and wears a light blue shirt, a red tie, and a blue jacket with yellow buttons. The President is sitting on a green chair with white vertical lines, and his other hand is on the desk. On the desk, in addition to the videophone, there are sheets with something written on them and an open purple fountain pen. The President was eating a sandwich of meat and cheese with greens with two olives on a toothpick, over a blue napkin with white stripes.</alt>
       </mediaobject>
@@ -865,7 +864,7 @@ Raspberry Ice Cream</literallayout>
       <para>They gathered in front of one of their rebuilt ice-cream machines and discussed the situation. It was clear that something had to be done about the new law, and they made a plan...</para>
       <mediaobject xml:id="img-ada-p38">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p38.png"/>
+          <imagedata fileref="images/illustrations/ada-p38.ltr.png"/>
         </imageobject>
         <alt>Cans of green, blue, and pink paint; a paintbrush with yellow paint; a light green marker; and a rolled banner on which some blue paint has fallen.</alt>
       </mediaobject>
@@ -882,7 +881,7 @@ Raspberry Ice Cream</literallayout>
       <para>On the following day, Ada and her friends again sat down in front of the parliament building, this time with support. Some classmates came whose skateboards Ada had reprogrammed. Toni’s father and other parents and adults also wanted to support the protest. They found the children’s devices very useful.</para>
       <mediaobject xml:id="img-ada-p39">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p39.png"/>
+          <imagedata fileref="images/illustrations/ada-p39.ltr.png"/>
         </imageobject>
         <alt>Yellow and green paint on the floor and wax crayons yellow, red, blue, green and brown; the latter 3 are in a gray cardboard box.</alt>
       </mediaobject>
@@ -891,7 +890,7 @@ Raspberry Ice Cream</literallayout>
       <para>With each passing day, more and more children and adults joined the protest. The bus driver they had helped drove up in her bus. She honked loudly to attract even more people to the protest. The custodian brought a few friends, and Toni’s father brought his colleagues from work, all wearing perfectly ironed ties. Even Ms. Gernet came. The crowd grew, and after a few weeks, there were protests not just in Ada’s city but also in many cities throughout the country.</para>
       <mediaobject xml:id="img-ada-p40-41">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p40-41.png"/>
+          <imagedata fileref="images/illustrations/ada-p40-41.en.png"/>
         </imageobject>
         <alt>Group of protesters. Among them there are: Ada’s mother holding Alan’s hand and raising a pink ice cream; 3 colleagues of Toni’s father dressed in ties; two children holding the banner “Do your homework Mr. President and we will do ours!”; a robot with tank treads, irons as feet, an electric fan as abdomen, a monitor as head, and an eggbeater as one hand, holding a blue ice cream in his other hand; two parents holding the banner “Hacking 4 Freedom”; a lady holding an electronic sign “There is a code B”; two small birds, flying; the math teacher, Ms. Gernet, who has inserted in her cart a sign that says “They are young + need the code!“ The dog in her cart is barking; Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada’s family’s dog is now wearing a red harness with shiny yellow LEDs that matches the collar.</alt>
         <info>
@@ -902,13 +901,13 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p41" az:pagenum="41">
       <mediaobject xml:id="img-ada-p40">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p40.png"/>
+          <imagedata fileref="images/illustrations/ada-p40.en.png"/>
         </imageobject>
         <alt>Detail of the previous image: two children holding the banner “Do your homework Mr. President and we will do ours!”</alt>
       </mediaobject>
       <mediaobject xml:id="img-ada-p41">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p41.png"/>
+          <imagedata fileref="images/illustrations/ada-p41.en.png"/>
         </imageobject>
         <alt>Detail of the previous image: Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada’s family’s little dog is now wearing a red harness with shiny yellow LEDs that matches the collar.</alt>
         <info>
@@ -928,7 +927,7 @@ Raspberry Ice Cream</literallayout>
       <anchor az:slidenum="22"/>
       <mediaobject xml:id="img-ada-p42">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p42.png"/>
+          <imagedata fileref="images/illustrations/ada-p42.ltr.png"/>
         </imageobject>
         <alt>One of Ada’s friends lying on his stomach with one foot up in the air is typing on a laptop. He has wavy brown hair parted in the center, a red sweatshirt, blue pants, and white socks but no shoes. Next to the computer there are a green cup and two open books.</alt>
       </mediaobject>
@@ -939,7 +938,7 @@ Raspberry Ice Cream</literallayout>
       <para>That evening, the children went home proud and satisfied. Something finally happened! Their long protest was worth it.</para>
       <mediaobject xml:id="img-ada-p43">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p43.png"/>
+          <imagedata fileref="images/illustrations/ada-p43.ltr.png"/>
         </imageobject>
         <alt>Ada and her friends in the President’s office. Ada is reprogramming the President’s computer. Toni is setting up a speaker for the President’s secretary. Marie and Konrad are sitting on the floor and talking, and Marie has a laptop on her legs with an FSFE logo sticker (three stars: pea green, sky blue, and sea blue). On the floor are a bowl with candy and a plate with ice creams. The President’s phone is ringing, but nobody is answering.</alt>
       </mediaobject>
@@ -953,7 +952,7 @@ Raspberry Ice Cream</literallayout>
       <para xml:id="para-p44-1" az:dropcap="true" az:dropcapfileref="images/capitals/T-red3.png" az:dropcapcharacter="T" az:dropcapcolor="#e74c5b" az:dropcapbackgroundcolor="#ffffff" az:dropcapheightpt="50.56" az:dropcapwidthpt="38.4" az:dropcaplocalsc="0.16" az:dropcapscribuscharstyle="Capital Red 3"><phrase condition="capitals-text">The</phrase><phrase condition="capitals-img">he</phrase> next morning, the president’s phone rang very early. It was Zangemann. He was angrier than ever. “Without me, the government computers will no longer work,” he threatened. But the president kept the call short and quickly hung up. The phone rang many more times that day, but Zangemann’s calls went unanswered. The president sat in a meeting with Ada, Toni, Marie, Konrad, and the government experts.</para>
       <mediaobject xml:id="img-ada-p44">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p44.png"/>
+          <imagedata fileref="images/illustrations/ada-p44.ltr.png"/>
         </imageobject>
         <alt>A herald, wearing a hat with a plume, playing a trumpet on which a red banner is hung.</alt>
       </mediaobject>
@@ -966,7 +965,7 @@ Raspberry Ice Cream</literallayout>
       <para>In addition, a new school subject was introduced: computer hardware and software.</para>
       <mediaobject xml:id="img-ada-p45">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p45.png"/>
+          <imagedata fileref="images/illustrations/ada-p45.ltr.png"/>
         </imageobject>
         <alt>The President with Toni, Konrad, Marie, Ada, and a herald playing a trumpet. Marie is standing on top of a ladder talking into a microphone. Konrad firmly holds the ladder on which Marie is standing. Ada is standing on a chair and holds a copy of the new law bearing a seal. Ada’s dog is sitting in front of her.</alt>
       </mediaobject>
@@ -976,7 +975,7 @@ Raspberry Ice Cream</literallayout>
       <para>That evening, everyone celebrated with a big party. Ada, Alan, Toni, Marie, Konrad, and other children from school and their parents; the president; Ms. Gernet; the bus driver; the custodian — they were all there. They decorated the streets, listened to loud music, and ate ice cream, as much as they wanted, and in every imaginable shape and color.</para>
       <mediaobject xml:id="img-ada-p46">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p46.png"/>
+          <imagedata fileref="images/illustrations/ada-p46.ltr.png"/>
         </imageobject>
         <alt>Evening party. Children are holding ice cream and balloons with the words “I love FS (I love Free Software)”; other children are riding skateboards; yellow and orange flags are hanging; music comes out from a large speaker system; Ms. Gernet holds a pink tree-shaped ice cream with a yellow star on it; Ada’s mom is dancing with a gentleman.</alt>
       </mediaobject>
@@ -985,7 +984,7 @@ Raspberry Ice Cream</literallayout>
       <para>While the others continued partying late into the night, Ada and her friends slipped away to their workshop. They already had a lot of ideas for new inventions. And they wanted to start right away.</para>
       <mediaobject xml:id="img-ada-p47">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p47.png"/>
+          <imagedata fileref="images/illustrations/ada-p47.ltr.png"/>
         </imageobject>
         <alt>The President, the secretary, and other people around a table enjoying crazy ice cream; yellow and orange flags continue from the previous image; a little girl who just took a pink ghost-shaped ice cream from the modified ice cream machine; Ada’s dog, Konrad, Marie, Ada, and Toni sneaking away from the party.</alt>
       </mediaobject>
@@ -1000,7 +999,7 @@ Raspberry Ice Cream</literallayout>
       <para xml:id="para-p48-1" az:dropcap="true" az:dropcapfileref="images/capitals/A-yellow.png" az:dropcapcharacter="A" az:dropcapcolor="#f8d66a" az:dropcapbackgroundcolor="#ffffff" az:dropcapheightpt="50.56" az:dropcapwidthpt="42.4" az:dropcaplocalsc="0.16" az:dropcapscribuscharstyle="Capital Yellow"><phrase condition="capitals-text">And</phrase><phrase condition="capitals-img">nd</phrase> Zangemann? No one’s heard much from him. Maybe he’s still sitting angrily in front of his golden computer. Maybe he doesn’t dare go out into the street anymore and has boarded up all the windows of his mansion so that he doesn’t have to worry about what other people are doing with his inventions. But maybe he also sometimes looks out into the world through his telescope and sees what the children are inventing every day. Perhaps then he will remember how much fun it was for himself to tinker and experiment. And maybe, just maybe, he eats pyramid-shaped raspberry ice cream with rainbow sprinkles.</para>
       <mediaobject xml:id="img-ada-p48">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p48.png"/>
+          <imagedata fileref="images/illustrations/ada-p48.ltr.png"/>
         </imageobject>
         <alt>Ada’s little dog sniffing a trail of ice cream.</alt>
       </mediaobject>
@@ -1009,7 +1008,7 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p49" az:pagenum="49">
       <mediaobject xml:id="img-ada-p49">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p49.png"/>
+          <imagedata fileref="images/illustrations/ada-p49.ltr.png"/>
         </imageobject>
         <alt>A trail of candies and raspberry ice cream on the ground.</alt>
       </mediaobject>
@@ -1021,7 +1020,7 @@ Raspberry Ice Cream</literallayout>
       <title xml:id="title-acknowledgments">Acknowledgments</title>
       <mediaobject xml:id="img-ada-p50-title">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p50-title.png"/>
+          <imagedata fileref="images/illustrations/ada-p50-title.en.png"/>
         </imageobject>
       </mediaobject>
     </info>
@@ -1036,7 +1035,7 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p51" az:pagenum="51">
       <mediaobject xml:id="img-ada-p51">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p51.png"/>
+          <imagedata fileref="images/illustrations/ada-p51.ltr.png"/>
         </imageobject>
         <alt>Ada’s dog wags its tail after finding Zangemann hidden behind a curtain and eating an ice cream cone with candies and a blue umbrella on it and lots of raspberry ice cream dripping.</alt>
       </mediaobject>
@@ -1050,7 +1049,7 @@ Raspberry Ice Cream</literallayout>
       <titleabbrev>About the Author - Matthias Kirschner</titleabbrev>
       <mediaobject xml:id="img-ada-p52-title">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p52-title.png"/>
+          <imagedata fileref="images/illustrations/ada-p52-title.en.png"/>
         </imageobject>
       </mediaobject>
     </info>
@@ -1058,7 +1057,7 @@ Raspberry Ice Cream</literallayout>
       <anchor az:slidenum="10"/>
       <mediaobject xml:id="img-ada-p52">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p52.png"/>
+          <imagedata fileref="images/illustrations/ada-p52.ltr.png"/>
         </imageobject>
         <alt>Close-up of Matthias smiling, waving with one hand, and wearing a headset. Matthias has short hair and a little beard.</alt>
       </mediaobject>
@@ -1073,7 +1072,7 @@ Raspberry Ice Cream</literallayout>
       <titleabbrev>About the Illustrator - Sandra Brandstätter</titleabbrev>
       <mediaobject xml:id="img-ada-p53-title">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p53-title.png"/>
+          <imagedata fileref="images/illustrations/ada-p53-title.en.png"/>
         </imageobject>
       </mediaobject>
     </info>
@@ -1081,7 +1080,7 @@ Raspberry Ice Cream</literallayout>
       <anchor az:slidenum="11"/>
       <mediaobject xml:id="img-ada-p53">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p53.png"/>
+          <imagedata fileref="images/illustrations/ada-p53.ltr.png"/>
         </imageobject>
         <alt>Sandra smiling with a pencil in her hand in front of her chin. She has earphones with an integrated microphone. Sandra has short hair and glasses.</alt>
       </mediaobject>
@@ -1093,7 +1092,7 @@ Raspberry Ice Cream</literallayout>
       <title xml:id="title-bookswebsite">Book’s website</title>
       <mediaobject xml:id="img-ada-p54-title">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p54-title.png"/>
+          <imagedata fileref="images/illustrations/ada-p54-title.en.png"/>
         </imageobject>
       </mediaobject>
     </info>
@@ -1110,7 +1109,7 @@ Raspberry Ice Cream</literallayout>
       <title xml:id="title-license">License</title>
       <mediaobject xml:id="img-ada-p55-title">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p55-title.png"/>
+          <imagedata fileref="images/illustrations/ada-p55-title.en.png"/>
         </imageobject>
       </mediaobject>
     </info>
@@ -1123,7 +1122,7 @@ Raspberry Ice Cream</literallayout>
     <simplesect xml:id="sec-p55" az:pagenum="55">
       <mediaobject xml:id="img-ada-p55">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p56.png"/>
+          <imagedata fileref="images/illustrations/ada-p56.ltr.png"/>
         </imageobject>
         <alt>A hand that holds a fish-shaped ice cream cone with a cucumber on a decorated toothpick, to color. In a bottom corner, a pencil writing.</alt>
       </mediaobject>
@@ -1133,7 +1132,7 @@ More information about the book can be found at <link xlink:href="https://ada.fs
     <simplesect xml:id="sec-p56" az:pagenum="56">
       <mediaobject xml:id="img-ada-p56">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-p57.png"/>
+          <imagedata fileref="images/illustrations/ada-p57.ltr.png"/>
         </imageobject>
         <alt>Three hands that hold as many empty ice cream cones, to draw and color. In the air above the middle cone is an umbrella.</alt>
       </mediaobject>
