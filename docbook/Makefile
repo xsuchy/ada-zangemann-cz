@@ -22,6 +22,19 @@ SHELL = /bin/sh
 # Use existing po translations as base to generate pattern rule targets for autocomplete
 translations = $(notdir $(basename $(wildcard po/*.po)))
 
+# Targets to create split protest pages based on protest pages present
+ada-p40s := $(addprefix build/,$(subst ada-p40-41,ada-p40,$(wildcard images/illustrations/ada-p40-41.*.png)))
+ada-p41s := $(addprefix build/,$(subst ada-p40-41,ada-p41,$(wildcard images/illustrations/ada-p40-41.*.png)))
+
+# Targets to create rotated spine images
+ada-spine-btt := $(addprefix build/,$(subst .ttb.,.btt.,$(wildcard images/illustrations/ada-a01-spine*.ttb.png)))
+ada-spine-ttb := $(addprefix build/,$(subst .btt.,.ttb.,$(wildcard images/illustrations/ada-a01-spine*.btt.png)))
+
+# PHONY target for illustrations that includes postprocessing
+# TODO: add targets for ttb and btt spine images
+.PHONY: build/images/illustrations/all
+build/images/illustrations/all: build/images/illustrations $(ada-p40s) $(ada-p41s) $(ada-spine-btt) $(ada-spine-ttb)
+
 # Translation file
 po/Ada_Zangemann.pot: Ada_Zangemann.dbk
 	itstool -n -o $@ Ada_Zangemann.dbk
@@ -44,17 +57,18 @@ status:
 # Derived images
 # Uses gravity and ratio to be resistant to changes in resolution
 # TODO: add list of targets based on p40-41 images
-build/images/illustrations/ada-p40.%.png: build/images/illustrations/ada-p40-41.%.png
+# NOTE: using images from source instead of build directory to prevent ordering conflict
+build/images/illustrations/ada-p40.%.png: images/illustrations/ada-p40-41.%.png
 	convert $< -crop "3430:3527+0+0" $@
 
-build/images/illustrations/ada-p41.%.png: build/images/illustrations/ada-p40-41.%.png
+build/images/illustrations/ada-p41.%.png: images/illustrations/ada-p40-41.%.png
 	convert $< -gravity East -crop "3430:3527+0+0" $@
 
 # Create spine variants (bottom-to-top and top-to-bottom)
-build/images/illustrations/%.btt.png: build/images/illustrations/%.ttb.png
+build/images/illustrations/%.btt.png: images/illustrations/%.ttb.png
 	convert $< -rotate 180 $@
 
-build/images/illustrations/%.ttb.png: build/images/illustrations/%.btt.png
+build/images/illustrations/%.ttb.png: images/illustrations/%.btt.png
 	convert $< -rotate 180 $@
 
 # Link illustrations
@@ -92,7 +106,7 @@ build/Ada_Zangemann-pure-profiled-text.%.dbk: build/Ada_Zangemann-pure.%.dbk
 # FIXME: warning 'No localization exists for "ada_zangemann" or "ada". Using default "en".'
 # Relies on XSLT 1.0 stylesheets https://github.com/docbook/xslt10-stylesheets/ included in Debian docbook-xsl package
 targets-html = $(addprefix build/Ada_Zangemann.,$(addsuffix .html,$(translations)))
-$(targets-html): build/Ada_Zangemann.%.html: build/Ada_Zangemann-pure-profiled-text.%.dbk build/images/illustrations
+$(targets-html): build/Ada_Zangemann.%.html: build/Ada_Zangemann-pure-profiled-text.%.dbk build/images/illustrations/all
 	xsltproc -o $@ /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl $<
 
 .PHONY: build/Ada_Zangemann.all.html
@@ -100,36 +114,40 @@ build/Ada_Zangemann.all.html: $(targets-html)
 
 # LaTeX based pdf processing
 # FIXME: not yet working
-build/Ada_Zangemann-dblatex.%.pdf: build/Ada_Zangemann-pure-profiled-text.%.dbk build/images/illustrations
+build/Ada_Zangemann-dblatex.%.pdf: build/Ada_Zangemann-pure-profiled-text.%.dbk build/images/illustrations/all
 	dblatex -o $@ $<
 
 # Epub processing
-build/Ada_Zangemann-dbtoepub.%.epub: build/Ada_Zangemann-pure-profiled-text.%.dbk
+targets-dbtoepub = $(addprefix build/Ada_Zangemann-dbtoepub.,$(addsuffix .epub,$(translations)))
+$(targets-dbtoepub): build/Ada_Zangemann-dbtoepub.%.epub: build/Ada_Zangemann-pure-profiled-text.%.dbk
 	dbtoepub -o $@ $<
 	epubcheck $@
 
+.PHONY: build/Ada_Zangemann-dbtoepub.all.epub
+build/Ada_Zangemann-dbtoepub.all.epub: $(targets-dbtoepub)
+
 # Pandoc markdown
 targets-pandoc-md = $(addprefix build/Ada_Zangemann-pandoc.,$(addsuffix .md,$(translations)))
-$(targets-pandoc-md): build/Ada_Zangemann-pandoc.%.md: build/Ada_Zangemann-pure-profiled-text.%.dbk build/images/illustrations
+$(targets-pandoc-md): build/Ada_Zangemann-pandoc.%.md: build/Ada_Zangemann-pure-profiled-text.%.dbk build/images/illustrations/all
 	pandoc -f docbook -o $@ $<
 
 .PHONY: build/Ada_Zangemann-pandoc.all.md
 build/Ada_Zangemann-pandoc.all.md: $(targets-pandoc-md)
 
 # Build version with all images (for debugging)
-build/Ada_Zangemann-print-all.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations build/images/capitals xsl/scribus.xsl
+build/Ada_Zangemann-print-all.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations/all build/images/capitals xsl/scribus.xsl
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file --stringparam profile.condition "colophon-simple" ../$< xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 # Build version with image headers
 targets-print-headings-img = $(addprefix build/Ada_Zangemann-print-headings-img.,$(addsuffix .sla,$(translations)))
-$(targets-print-headings-img): build/Ada_Zangemann-print-headings-img.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations build/images/capitals xsl/scribus.xsl
+$(targets-print-headings-img): build/Ada_Zangemann-print-headings-img.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations/all build/images/capitals xsl/scribus.xsl
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-img;capitals-img;colophon-simple" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 .PHONY: build/Ada_Zangemann-print-headings-img.all.sla
 build/Ada_Zangemann-print-headings-img.all.sla: $(targets-print-headings-img)
 
 targets-print-headings-img-colophon-print = $(addprefix build/Ada_Zangemann-print-headings-img-colophon-print.,$(addsuffix .sla,$(translations)))
-$(targets-print-headings-img-colophon-print): build/Ada_Zangemann-print-headings-img-colophon-print.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations build/images/capitals xsl/scribus.xsl
+$(targets-print-headings-img-colophon-print): build/Ada_Zangemann-print-headings-img-colophon-print.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations/all build/images/capitals xsl/scribus.xsl
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-img;capitals-img;colophon-print" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 .PHONY: build/Ada_Zangemann-print-headings-img-colophon-print.all.sla
@@ -137,14 +155,14 @@ build/Ada_Zangemann-print-headings-img-colophon-print.all.sla: $(targets-print-h
 
 # Build version with text headers
 targets-print-headings-text = $(addprefix build/Ada_Zangemann-print-headings-text.,$(addsuffix .sla,$(translations)))
-$(targets-print-headings-text): build/Ada_Zangemann-print-headings-text.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations build/images/capitals xsl/scribus.xsl
+$(targets-print-headings-text): build/Ada_Zangemann-print-headings-text.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations/all build/images/capitals xsl/scribus.xsl
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-text;capitals-text;colophon-simple" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 .PHONY: build/Ada_Zangemann-print-headings-text.all.sla
 build/Ada_Zangemann-print-headings-text.all.sla: $(targets-print-headings-text)
 
 targets-print-headings-text-colophon-print = $(addprefix build/Ada_Zangemann-print-headings-text-colophon-print.,$(addsuffix .sla,$(translations)))
-$(targets-print-headings-text-colophon-print): build/Ada_Zangemann-print-headings-text-colophon-print.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations build/images/capitals xsl/scribus.xsl
+$(targets-print-headings-text-colophon-print): build/Ada_Zangemann-print-headings-text-colophon-print.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations/all build/images/capitals xsl/scribus.xsl
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "headings-text;capitals-text;colophon-print" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 .PHONY: build/Ada_Zangemann-print-headings-text-colophon-print.all.sla
@@ -152,11 +170,11 @@ build/Ada_Zangemann-print-headings-text-colophon-print.all.sla: $(targets-print-
 
 # Build version with text subtitle
 targets-coverhard-text = $(addprefix build/Ada_Zangemann-coverhard-text.,$(addsuffix .sla,$(translations)))
-$(targets-coverhard-text): build/Ada_Zangemann-coverhard-text.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations build/images/capitals xsl/scribus.xsl
+$(targets-coverhard-text): build/Ada_Zangemann-coverhard-text.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations/all build/images/capitals xsl/scribus.xsl
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "capitals-text;cover-print-text;colophon-simple" xsl/scribus.xsl templates/template-coverhard.sla > $@.log 2>&1
 
 # Build version with no conditional content (for debugging)
-build/Ada_Zangemann-print-headings-none.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations build/images/capitals xsl/scribus.xsl
+build/Ada_Zangemann-print-headings-none.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations/all build/images/capitals xsl/scribus.xsl
 	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition ";colophon-simple" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 # TODO: add autocompletion for these pdf conversions
@@ -183,16 +201,14 @@ xmllint-format: Ada_Zangemann.dbk
 
 # targets-scribus = build/Ada_Zangemann-print-all.%.sla build/Ada_Zangemann-print-headings-text.%.sla build/Ada_Zangemann-print-headings-none.%.sla
 
-# targets-all-scribus = $(addprefix build/,$(addsuffix /all-scribus,$(translations)))
-# .PHONY: build/%/all-scribus
-# $(targets-all-scribus): build/%/all-scribus: $(targets-scribus)
+.PHONY: targets-all-scribus
+targets-all-scribus: build/Ada_Zangemann-print-headings-img.all.sla build/Ada_Zangemann-print-headings-img-colophon-print.all.sla build/Ada_Zangemann-print-headings-text.all.sla build/Ada_Zangemann-print-headings-text-colophon-print.all.sla
 
-# targets-all = $(addprefix build/,$(addsuffix /all,$(translations)))
-# .PHONY: build/%/all
-# $(targets-all): build/%/all: build/%/all-scribus build/%/Ada_Zangemann-pure.dbk build/%/Ada_Zangemann.html build/%/Ada_Zangemann-dblatex.pdf build/%/Ada_Zangemann-dbtoepub.epub build/%/Ada_Zangemann-pandoc.md
+.PHONY: targets-all
+targets-all: targets-all-scribus build/Ada_Zangemann.all.html build/Ada_Zangemann-pandoc.all.md build/Ada_Zangemann-dbtoepub.all.epub
 
-# .PHONY: all
-# all: $(targets-all)
+.PHONY: all
+all: $(targets-all)
 
 targets-all-po = $(addprefix po/,$(addsuffix .po,$(translations)))
 .PHONY: update
@@ -202,8 +218,6 @@ update: po/Ada_Zangemann.pot $(targets-all-po)
 .PHONY: clean
 clean:
 	rm -r build/ || exit 0
-	rm images/illustrations/ada-p40.*.png || exit 0
-	rm images/illustrations/ada-p41.*.png || exit 0
 
 # Print obsolete translations no longer matching source strings
 .PHONY: check-obsolete
