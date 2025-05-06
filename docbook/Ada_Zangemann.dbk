@@ -249,7 +249,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
     <its:withinTextRule xmlns:db="http://docbook.org/ns/docbook" withinText="no" selector="//db:imagedata"/>
     <its:translateRule xmlns:db="http://docbook.org/ns/docbook" translate="yes" selector="//db:imagedata/@fileref"/>
     <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//db:imagedata/@fileref">
-      <its:locNote>Link to the image. Only needs to be changed if the image is localized.</its:locNote>
+      <its:locNote>Link to the image. Only needs to be changed if the image is localized. Typical extensions are 'ltr' for left-to-right, 'rtl' for right-to-left' or a specific language. Many files are defined in https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/docbook/images/illustrations but some variants are generated in the automation.</its:locNote>
     </its:locNoteRule>
     <!-- Weblate flags to control behavior https://docs.weblate.org/en/latest/admin/checks.html#customizing-behavior-using-flags -->
     <its:locNoteRule xmlns:db="http://docbook.org/ns/docbook" locNoteType="description" selector="//az:charactername">
@@ -344,7 +344,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
       <!-- TODO: consider adding bridgehead texts and alt text-->
       <mediaobject xml:id="img-ada-a01-spine">
         <imageobject>
-          <imagedata fileref="images/illustrations/ada-a01-spine.ltr.btt.png"/>
+          <imagedata fileref="images/illustrations/ada-a01-spine.ltr.btt.png" its:locNote="Extensions 'ttb' for top-to-bottom and 'btt' for bottom-to-top orientation of the text."/>
         </imageobject>
       </mediaobject>
     </cover>
