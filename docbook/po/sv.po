@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-05-06 19:03+0200\n"
-"PO-Revision-Date: 2025-05-07 20:03+0000\n"
+"PO-Revision-Date: 2025-05-08 04:27+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/fsfe/"
 "ada-zangemann/sv/>\n"
@@ -32,7 +32,7 @@ msgstr "Ada &amp; Zangemann"
 #. (itstool) path: cover/bridgehead
 #: Ada_Zangemann.dbk:263 Ada_Zangemann.dbk:307
 msgid "A Tale of Software, Skateboards, and Raspberry Ice Cream"
-msgstr ""
+msgstr "En historia om mjukvara, skateboardbrädor och Hallonglass"
 
 #. (itstool) path: info/biblioid
 #. ISBN of print edition
@@ -219,7 +219,7 @@ msgstr "En bok som väcker intresse för att mixtra och som uppmuntrar till att 
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:340
 msgid "A power strip, with input and output of white electrical cord that is the frame."
-msgstr ""
+msgstr "Ett grenuttag, med in- och utmatning av vit elsladd som är ramen."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -376,7 +376,7 @@ msgstr ""
 #. illustration of Ada’s dog.
 #: Ada_Zangemann.dbk:452
 msgid "Title page"
-msgstr ""
+msgstr "Titel-sida"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -473,6 +473,9 @@ msgid ""
 "Software, Skateboards, and\n"
 "Raspberry Ice Cream"
 msgstr ""
+"En historia om\n"
+"Mjukvara, Skateboardbrädor, och\n"
+"Hallonglass"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -530,6 +533,8 @@ msgstr "images/illustrations/ada-p05.ltr.png"
 #: Ada_Zangemann.dbk:516
 msgid "Prestigious magazines (“STARS“, “MONEY”, “Richest Man”) on whose cover are Zangemann and his villa."
 msgstr ""
+"Prestigefyllda tidningar (\"STJÄRNOR\", \"PENGAR\", \"Rikaste mannen\") där "
+"Zangemann och hans villa är på framsidan."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:518
@@ -798,6 +803,8 @@ msgstr ""
 #: Ada_Zangemann.dbk:615
 msgid "He was completely absorbed in his thoughts when suddenly — BAM! — something crashed into his shin."
 msgstr ""
+"Han blev helt uppslukad i sina tankar när plötsligt — BOOM! — någonting "
+"kraschade in i hans haka."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1323,6 +1330,8 @@ msgstr "images/illustrations/ada-p31.ltr.png"
 #: Ada_Zangemann.dbk:803
 msgid "A screwdriver with orange and gray handle, red pliers, and three LEDs: yellow, green, pink."
 msgstr ""
+"En skruvmejsel med orange och grått handtag, röda tångar, och tre LED-lampor:"
+" gul, grön, rosa."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1606,7 +1615,7 @@ msgstr "Detaljer för den förra bilden: två barn som håller i banderollen \"G
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:910
 msgid "images/illustrations/ada-p41.en.png"
-msgstr ""
+msgstr "bilder/illustrationer/ada-p41.sv.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1619,7 +1628,7 @@ msgstr ""
 #. Text on square signe on the right of the illustration
 #: Ada_Zangemann.dbk:914
 msgid "They are young + need the code!"
-msgstr ""
+msgstr "De är unga + behöver koden!"
 
 #. (itstool) path: info/excerpt
 #. Text on banner on the banner held by children on the right of the
@@ -1770,6 +1779,8 @@ msgstr "\"Alla tillåts att programmera sina egna datorer så länge de håller 
 #: Ada_Zangemann.dbk:965
 msgid "In addition, a new school subject was introduced: computer hardware and software."
 msgstr ""
+"Som ett tillägg så introducerades ett nytt skolämne: datamaskiner och "
+"mjukvara."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1872,7 +1883,7 @@ msgstr "images/illustrations/ada-p48.ltr.png"
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:1004
 msgid "Ada’s little dog sniffing a trail of ice cream."
-msgstr ""
+msgstr "Ada's lilla hund som sniffar på en stig av glass."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1907,7 +1918,7 @@ msgstr "Erkännanden"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:1023
 msgid "images/illustrations/ada-p50-title.en.png"
-msgstr ""
+msgstr "bilder/illustrationer/ada-p50-titel.sv.png"
 
 #. (itstool) path: simplesect/para
 #. In the acknowledgments of the English version you can change 'No Starch
@@ -1952,7 +1963,7 @@ msgstr ""
 #. (itstool) id: Ada_Zangemann.dbk#title-author
 #: Ada_Zangemann.dbk:1047
 msgid "About the Author"
-msgstr ""
+msgstr "Om författare"
 
 #. (itstool) path: info/subtitle
 #. (itstool) id: Ada_Zangemann.dbk#subtitle-author
@@ -1975,7 +1986,7 @@ msgstr "Om författaren - Matthias Kirschner"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:1052
 msgid "images/illustrations/ada-p52-title.en.png"
-msgstr ""
+msgstr "bilder/illustrationer/ada-p52-titel.sv.png"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -2027,7 +2038,7 @@ msgstr "Om illustratören - Sandra Brandstätter"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:1075
 msgid "images/illustrations/ada-p53-title.en.png"
-msgstr ""
+msgstr "bilder/illustrationer/ada-p53-titel.sv.png"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -2056,7 +2067,7 @@ msgstr ""
 #. (itstool) id: Ada_Zangemann.dbk#title-bookswebsite
 #: Ada_Zangemann.dbk:1092
 msgid "Book’s website"
-msgstr ""
+msgstr "Böckernas hemsida"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -2067,7 +2078,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:1095
 msgid "images/illustrations/ada-p54-title.en.png"
-msgstr ""
+msgstr "bilder/illustrationer/ada-p54-titel.sv.png"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1100
@@ -2096,7 +2107,7 @@ msgstr "Licens"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:1112
 msgid "images/illustrations/ada-p55-title.en.png"
-msgstr ""
+msgstr "bilder/illustrationer/ada-p55-titel.sv.png"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1117
