@@ -55,13 +55,12 @@ status:
 	for p in po/*.po; do printf "$$p "; msgfmt -o /dev/null --stat $$p; done
 
 # Derived images
-# Uses gravity and ratio to be resistant to changes in resolution
 # NOTE: using images from source instead of build directory to prevent ordering conflict
 build/images/illustrations/ada-p40.%.png: images/illustrations/ada-p40-41.%.png
-	convert $< -crop "3430:3527+0+0" $@
+	convert $< -crop "3430x3527+0+0" $@
 
 build/images/illustrations/ada-p41.%.png: images/illustrations/ada-p40-41.%.png
-	convert $< -gravity East -crop "3430:3527+0+0" $@
+	convert $< -gravity East -crop "3430x3527+0+0" $@
 
 # Create spine variants (bottom-to-top and top-to-bottom)
 build/images/illustrations/%.btt.png: images/illustrations/%.ttb.png
