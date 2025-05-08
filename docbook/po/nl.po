@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-05-06 19:03+0200\n"
-"PO-Revision-Date: 2025-05-07 20:03+0000\n"
+"PO-Revision-Date: 2025-05-08 17:21+0000\n"
 "Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/fsfe/ada-zangemann/"
 "nl/>\n"
@@ -766,7 +766,11 @@ msgstr ""
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:562
 msgid "These inventions were very popular at Ada’s school, and many of her friends rode around on the cool skateboards. Ada was often sad, since her mother couldn’t buy her any of those great things: no skateboard, no speakers, no ice cream."
-msgstr "Deze uitvindingen waren erg populair op Ada's school en veel van haar vrienden reden rond op de coole skateboards. Ada was vaak verdrietig omdat haar moeder zulke grote dingen niet kon kopen: geen skateboard, geen luidsprekers, geen ijsjes."
+msgstr ""
+"Deze uitvindingen waren erg populair op Ada’s school en veel van haar "
+"vrienden reden rond op de coole skateboards. Ada was vaak verdrietig omdat "
+"haar moeder zulke grote dingen niet kon kopen: geen skateboard, geen "
+"luidsprekers, geen ijsjes."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:564
@@ -817,7 +821,11 @@ msgstr "Een witte stekkerdoos verbonden aan een stopcontact. De stekkerdoos heef
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:579
 msgid "Zangemann had a lot of fun pressing the sparkling keys and watching people eat ice cream. He spent many hours every day in front of his golden computer doing this. Again and again, he looked down on the city through a long telescope, observing how reliably his inventions carried out his commands."
-msgstr "Zangemann werd blij van het indrukken van de fonkelende toetsen en de mensen ijs te zien eten. Zo bracht hij dagelijks vele uren door achter zijn gouden computer. Keer op keer keek hij door een lange telescoop neer op de stad om te aanschouwen hoe betrouwbaar zijn uitvindingen zijn commando's opvolgden."
+msgstr ""
+"Zangemann werd blij van het indrukken van de fonkelende toetsen en de mensen "
+"ijs te zien eten. Zo bracht hij dagelijks vele uren door achter zijn gouden "
+"computer. Keer op keer keek hij door een lange telescoop neer op de stad om "
+"te aanschouwen hoe betrouwbaar zijn uitvindingen zijn commando’s opvolgden."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1029,7 +1037,12 @@ msgstr ""
 #. (itstool) id: Ada_Zangemann.dbk#para-p18-1
 #: Ada_Zangemann.dbk:658
 msgid "<phrase condition=\"capitals-text\">The</phrase><phrase condition=\"capitals-img\">he</phrase> next day, there was a big commotion at Ada’s school. On the way to school, the kids’ skateboards had stopped working. The wheels simply stood still. And the children could no longer turn up the volume on their speakers. What was going on?"
-msgstr "<phrase condition=\"capitals-text\">De</phrase><phrase condition=\"capitals-img\">e</phrase> volgende dag was er veel commotie op Ada's school. Onderweg naar school stopten de skateboards van de kinderen ermee. De wielen stonden simpelweg stil. En de kinderen konden niet langer hun luidsprekers harder zetten. Wat was er gebeurd?"
+msgstr ""
+"<phrase condition=\"capitals-text\">De</phrase><phrase condition=\"capitals-"
+"img\">e</phrase> volgende dag was er veel commotie op Ada’s school. Onderweg "
+"naar school stopten de skateboards van de kinderen ermee. De wielen stonden "
+"simpelweg stil. En de kinderen konden niet langer hun luidsprekers harder "
+"zetten. Wat was er gebeurd?"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1088,7 +1101,12 @@ msgstr "Close-up van Ada die nadenkt, met een rugzak en met één hand op haar k
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:675
 msgid "After a few days, the initial shock at Ada’s school was forgotten. The skateboards still didn’t go on the sidewalk, but apart from that, they still worked. And so now the children rode in circles around the playground and listened to soft music. Only a strange, pompous marching music continued to play at an unchanged volume, which the children found rather puzzling."
-msgstr "Na een paar dagen was men op Ada's school de eerste schok alweer vergeten. De skateboards gingen nog steeds niet de stoep op, maar verder werkten ze nog wel. En dus reden de kinderen nu in rondjes op de speelplaats en luisterden ze naar zachte muziek. Alleen een vreemde deftige marsmuziek bleef op een onveranderd volume spelen, wat de kinderen nogal verbaasde."
+msgstr ""
+"Na een paar dagen was men op Ada’s school de eerste schok alweer vergeten. "
+"De skateboards gingen nog steeds niet de stoep op, maar verder werkten ze "
+"nog wel. En dus reden de kinderen nu in rondjes op de speelplaats en "
+"luisterden ze naar zachte muziek. Alleen een vreemde deftige marsmuziek "
+"bleef op een onveranderd volume spelen, wat de kinderen nogal verbaasde."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:680
@@ -1119,8 +1137,15 @@ msgid ""
 "On one of those afternoons, Ada learned two new words: hardware and software. Hardware was a word for something Ada already knew: the electronic devices she tinkered with after school, or those devices she could hold in her hands and try to fix or make into something else. What was completely new to Ada was the word software. She soon learned that it meant instructions that ran on a computer to control other devices or computers. "
 "Some books called those instructions programs or code. With such a computer program, one could, for example, tell a loudspeaker which song to play and how loud."
 msgstr ""
-"Op een van deze middagen leerde Ada twee nieuwe woorden: hardware en software. Hardware was een woord voor iets dat Ada al kende: de elektronische apparaten waar ze na schooltijd aan sleutelde en de apparaten die ze in haar handen kon houden en kon repareren of iets anders van kon maken. Wat compleet nieuw was voor Ada, was het woord software. Ze leerde snel dat het instructies betekende die draaiden op een computer om andere "
-"apparaten of computers te besturen. Sommige boeken noemden die instructies programma's of code. Met zo'n computerprogramma kon iemand bijvoorbeeld een luidspreker vertellen welk nummer te spelen en hoe luid."
+"Op een van deze middagen leerde Ada twee nieuwe woorden: hardware en "
+"software. Hardware was een woord voor iets dat Ada al kende: de "
+"elektronische apparaten waar ze na schooltijd aan sleutelde en de apparaten "
+"die ze in haar handen kon houden en kon repareren of iets anders van kon "
+"maken. Wat compleet nieuw was voor Ada, was het woord software. Ze leerde "
+"snel dat het instructies betekende die draaiden op een computer om andere "
+"apparaten of computers te besturen. Sommige boeken noemden die instructies "
+"programma’s of code. Met zo’n computerprogramma kon iemand bijvoorbeeld een "
+"luidspreker vertellen welk nummer te spelen en hoe luid."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:686
@@ -1128,8 +1153,12 @@ msgid ""
 "The best thing about Ada’s new discovery was realizing that she could tinker with software just as she could with hardware. Hardware is built with tools — hammers, drills, and screws. Software is built simply by writing down the commands for the hardware, one after the other. There was a separate language for this — the programming language. With software, Ada could make her inventions even more useful. She really wanted to learn "
 "the programming language!"
 msgstr ""
-"Het beste aan Ada's nieuwe ontdekking was het besef dat ze net zo kon sleutelen aan software als aan hardware. Hardware is gebouwd met gereedschap: hamers, boren en schroeven. Software is gebouwd door simpelweg de commando's voor de hardware op te schrijven, de ene na de andere. Er was een aparte taal hiervoor: de programmeertaal. Met software kon Ada haar uitvindingen nog veel nuttiger maken. Ze wilde heel graag de "
-"programmeertaal leren!"
+"Het beste aan Ada’s nieuwe ontdekking was het besef dat ze net zo kon "
+"sleutelen aan software als aan hardware. Hardware is gebouwd met gereedschap:"
+" hamers, boren en schroeven. Software is gebouwd door simpelweg de commando’"
+"s voor de hardware op te schrijven, de ene na de andere. Er was een aparte "
+"taal hiervoor: de programmeertaal. Met software kon Ada haar uitvindingen "
+"nog veel nuttiger maken. Ze wilde heel graag de programmeertaal leren!"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1186,7 +1215,12 @@ msgstr "Eerst gebeurde er niets. Ada vroeg zich af wat de fout zou kunnen zijn. 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:706
 msgid "Ada was totally thrilled. She imagined all the great things she could do. If she just entered the right code, she could make her inventions do exactly what she wanted. It was not so easy, but after a few weeks, Ada wrote a truly useful program: one that would make Alan’s speakers automatically turn off half an hour after he had fallen asleep."
-msgstr "Ada was heel erg enthousiast. Ze stelde zich alle geweldige dingen voor die ze kon doen. Als ze maar de juiste code invoerde kon ze haar uitvindingen precies laten doen wat ze wilde. Het was niet zo eenvoudig maar na een paar weken schreef Ada een echt nuttig programma: een die Alan's luidsprekers een half uur nadat hij in slaap was gevallen automatisch uit liet schakelen."
+msgstr ""
+"Ada was heel erg enthousiast. Ze stelde zich alle geweldige dingen voor die "
+"ze kon doen. Als ze maar de juiste code invoerde kon ze haar uitvindingen "
+"precies laten doen wat ze wilde. Het was niet zo eenvoudig maar na een paar "
+"weken schreef Ada een echt nuttig programma: een die Alan’s luidsprekers een "
+"half uur nadat hij in slaap was gevallen automatisch uit liet schakelen."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -2247,7 +2281,6 @@ msgstr "Sandra heeft altijd graag geknutseld met scharen, tangen, lijm, draad, s
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-bookswebsite
 #: Ada_Zangemann.dbk:1092
-#, fuzzy
 msgid "Book’s website"
 msgstr "Website voor het boek"
 
