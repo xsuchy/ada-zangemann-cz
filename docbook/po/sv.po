@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-05-06 19:03+0200\n"
-"PO-Revision-Date: 2025-05-06 19:58+0200\n"
+"PO-Revision-Date: 2025-05-07 20:03+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/fsfe/ada-zangemann/sv/>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/fsfe/"
+"ada-zangemann/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -150,7 +151,7 @@ msgstr "Ms. Gernet"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:311
 msgid "images/illustrations/ada-a01.en.png"
-msgstr ""
+msgstr "bilder/illustrationer/ada-a01.en.png"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -413,7 +414,7 @@ msgstr "Matthias Kirschner, Sandra Brandstätter"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:471
 msgid "images/illustrations/ada-p03-title.en.png"
-msgstr ""
+msgstr "bilder/illustrationer/ada-p03-titel.sv.png"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1560,7 +1561,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:893
 msgid "images/illustrations/ada-p40-41.en.png"
-msgstr ""
+msgstr "bilder/illustrationer/ada-p40-41.sv.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1587,7 +1588,7 @@ msgstr "Gör din läxa Herr President så gör vi vår!"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:904
 msgid "images/illustrations/ada-p40.en.png"
-msgstr ""
+msgstr "bilder/illustrationer/ada-p40.sv.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
