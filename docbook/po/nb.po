@@ -947,8 +947,8 @@ msgid ""
 "An angry Zangemann limped away. Suddenly, he heard loud music. He had never before heard something so horrible. He looked around and saw that the music was coming from a loudspeaker he himself had constructed. A child across the street was holding it. The child seemed to like the music, but it gave Zangemann a terrible headache, and his mood worsened. This was not how he had "
 "imagined his walk!"
 msgstr ""
-"Rasende haltet Zangemann av gårde. Plutselig hørte han høy musikk. Han hadde aldri hørt noe så skrekkelig. Han så seg rundt og så at musikken kom fra en høyttaler han selv hadde utviklet. Et barn på andre siden av gaten hadde den i hånden. Barnet så ut til a nyte musikken, men den ga Zangemann en forferdelig hodepine og humøret ble dårligere. Det var ikke slik han hadde forestilt "
-"seg sin gåtur!"
+"Rasende haltet Zangemann av gårde. Plutselig hørte han høy musikk. Han hadde aldri hørt noe så skrekkelig. Han så seg rundt og så at musikken kom fra en høyttaler han selv hadde utviklet. Et barn på andre siden av gaten hadde den i hånden. Barnet så ut til å nyte musikken, men den ga Zangemann en forferdelig hodepine og humøret ble dårligere. Det var ikke slik han hadde forestilt "
+"seg sin spasertur!"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
