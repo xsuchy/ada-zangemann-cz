@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-05-06 19:03+0200\n"
-"PO-Revision-Date: 2025-05-08 17:21+0000\n"
+"PO-Revision-Date: 2025-05-09 19:27+0000\n"
 "Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/fsfe/ada-zangemann/"
 "nl/>\n"
@@ -2276,7 +2276,12 @@ msgstr "Sandra glimlacht met een potlood in haar hand voor haar kin. Ze heeft oo
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1087
 msgid "Sandra has always liked crafting with scissors, pliers, glue, wire, fabric, and paper. Today she works as an illustrator, comic author, and character designer for animated films and series, such as the German public television series Trudes Tier. On an ice-cream machine, Sandra would pick a creamy rainbow ice cream with lemon cucumber flavor and a lot of sprinkles."
-msgstr "Sandra heeft altijd graag geknutseld met scharen, tangen, lijm, draad, stof en papier. Vandaag werkt ze als een illustrator, stripauteur en karakterontwerpster voor animatiefilms en series, bijvoorbeeld voor de Duitse televisieserie Trudes Tier. Op een ijsjesmachine zou Sandra kiezen voor een romig regenboogijs met citroenkomkommersmaak en veel spikkels."
+msgstr ""
+"Sandra heeft altijd graag geknutseld met scharen, tangen, lijm, draad, stof "
+"en papier. Vandaag werkt ze als een illustrator, stripauteur en karakter­"
+"ontwerpster voor animatiefilms en series, bijvoorbeeld voor de Duitse "
+"televisieserie Trudes Tier. Op een ijsjesmachine zou Sandra kiezen voor een "
+"romig regenboogijs met citroen­komkommer­smaak en veel spikkels."
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-bookswebsite
