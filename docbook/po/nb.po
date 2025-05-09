@@ -1761,8 +1761,8 @@ msgid ""
 "in his other hand; two parents holding the banner “Hacking 4 Freedom”; a lady holding an electronic sign “There is a code B”; two small birds, flying; the math teacher, Ms. Gernet, who has inserted in her cart a sign that says “They are young + need the code!“ The dog in her cart is barking; Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking "
 "beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada’s family’s dog is now wearing a red harness with shiny yellow LEDs that matches the collar."
 msgstr ""
-"Gruppe med demonstranter. Blant dem er: Adas mor som holder Alan i hånden og hever en rosa iskrem; tre kollegaer av Tonis far kledd i slips; to barn som holder en plakat «Gjør hjemmeleksene dine, herr statsminister, så vil vi gjøre våre!»; en robot med beltevognbelter og strykjern som føtter, en elektrisk vifte som mage, en skjerm som hode og en visp som en hånd og som holder i "
-"en blå iskrem i den andre hånden; to foreldre som holder plakaten «fikler for frihet»; en dame som holder en elektronisk skilt «det finnes en kode B»; to små fugler som flyr; mattelæreren fru Gernet, som har et brett i vognen sin som sier «De er unge + trenger å kode!» Hunden hennes bjeffer; Ada og Konrad bærer plakaten «Ikke ødelegg teknologien vår!» Marie og Toni går under "
+"Gruppe med demonstranter. Blant dem er: Adas mor som holder Alan i hånden og hever en rosa iskrem; tre kollegaer av Tonis far kledd i slips; to barn som holder en plakat «Gjør hjemmeleksene dine, statsminister, så vil vi gjøre våre!»; en robot med beltevognbelter og strykjern som føtter, en elektrisk vifte som mage, en skjerm som hode og en visp som en hånd og som holder i "
+"en blå iskrem i den andre hånden; to foreldre som holder plakaten «fikler for frihet»; en dame som holder en elektronisk skilt «det finnes en kode B»; to små fugler som flyr; mattelæreren fru Gernet, som har et brett i vognen sin som sier «De er unge + trenger å kode!» Hunden hennes bjeffer; Ada og Konrad bærer plakaten «Ikke knus teknologien vår!» Marie og Toni går under "
 "banneret og Marie snakker gjennom en megafon som hun holder i hånden; Adas familiehund har nå på seg en rød trøye med skinnende gule LED med samme farge som halsbåndet."
 
 #. (itstool) path: info/excerpt
@@ -1806,7 +1806,7 @@ msgstr ""
 #: Ada_Zangemann.dbk:912
 #, fuzzy
 msgid "Detail of the previous image: Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada’s family’s little dog is now wearing a red harness with shiny yellow LEDs that matches the collar."
-msgstr "Detalj fra forrige bilde: Ada og Konrad bærer banneret \"Ikke ødelegg teknologien vår!\" Marie og Toni går under banneret, og Marie snakker gjennom en ropert hun holder i hånden; Adas familie lille hund har nå på seg en rød sele med skinnende gule LED-lys som matcher halsbåndet."
+msgstr "Detalj fra forrige bilde: Ada og Konrad bærer banneret \"Ikke knus teknologien vår!\" Marie og Toni går under banneret, og Marie snakker gjennom en ropert hun holder i hånden; Adas familie lille hund har nå på seg en rød sele med skinnende gule LED-lys som matcher halsbåndet."
 
 #. (itstool) path: info/excerpt
 #. Text on square signe on the right of the illustration
@@ -1843,7 +1843,7 @@ msgid ""
 "achieve?” Ada replied, “We want to determine for ourselves what we can and cannot do with our computers.” Her friends shouted in unison: “Don’t wreck our tech! Don’t wreck our tech!” and “We want the code! We want the code!”"
 msgstr ""
 "<phrase condition=\"capitals-text\">Ada</phrase><phrase condition=\"capitals-img\">da</phrase> demonstrerte foran stortingsbygningen hver uke, selv når det høljet ned. Det var akkurat på en slik regnværsdag at statsministeren kom forbi gruppen med dryppende våte barn. Han kunne ikke annet enn å beundre deres standhaftighet. Han spurte Ada: «Hvorfor sitter dere her hver dag? Hva "
-"er det dere vil oppnå?» Ada svarte: «Vi vil selv bestemme hva vi kan og ikke kan gjøre med datamaskinene våre.» Vennene hennes ropte i kor: «Uten kode er alt håp ute! Uten kode er alt håp ute!»."
+"er det dere vil oppnå?» Ada svarte: «Vi vil selv bestemme hva vi kan og ikke kan gjøre med datamaskinene våre.» Vennene hennes ropte i kor: «Ikke knus teknologien vår! Ikke knus teknologien vår!» og «Uten kode er alt håp ute! Uten kode er alt håp ute!»."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:926
