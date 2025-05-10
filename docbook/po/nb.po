@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2025-05-06 19:03+0200\n"
-"PO-Revision-Date: 2025-05-06 19:52+0200\n"
+"PO-Revision-Date: 2025-05-10 09:37+0200\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/fsfe/ada-zangemann/nb_NO/>\n"
 "Language: nb\n"
@@ -37,7 +37,7 @@ msgstr "Ada og Zangemann"
 #. (itstool) path: cover/bridgehead
 #: Ada_Zangemann.dbk:263 Ada_Zangemann.dbk:307
 msgid "A Tale of Software, Skateboards, and Raspberry Ice Cream"
-msgstr "En historie om programvare, rullebrett og bringebæris"
+msgstr "En fortelling om programvare, rullebrett og bringebæris"
 
 #. (itstool) path: info/biblioid
 #. ISBN of print edition
@@ -69,7 +69,7 @@ msgstr "<personname> <firstname>Sandra</firstname> <surname>Brandstätter</surna
 #. ignore-same
 #: Ada_Zangemann.dbk:282
 msgid "Ada"
-msgstr ""
+msgstr "Ada"
 
 #. (itstool) path: character/charactername
 #. Name must not be changed.
@@ -77,7 +77,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:285
 msgid "Zangemann"
-msgstr ""
+msgstr "Zangemann"
 
 #. (itstool) path: character/charactername
 #. Name must not be changed.
@@ -85,7 +85,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:288
 msgid "Alan"
-msgstr ""
+msgstr "Alan"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -100,7 +100,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:291
 msgid "Toni"
-msgstr ""
+msgstr "Toni"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -115,7 +115,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:294
 msgid "Konrad"
-msgstr ""
+msgstr "Konrad"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -130,7 +130,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:297
 msgid "Marie"
-msgstr ""
+msgstr "Marie"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -145,7 +145,7 @@ msgstr ""
 #. ignore-same
 #: Ada_Zangemann.dbk:300
 msgid "Ms. Gernet"
-msgstr ""
+msgstr "Fru Gernet"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -156,7 +156,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:311
 msgid "images/illustrations/ada-a01.en.png"
-msgstr ""
+msgstr "images/illustrations/ada-a01.en.png"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -173,14 +173,13 @@ msgstr "images/illustrations/ada-a01-nosubtitle.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:320
-#, fuzzy
 msgid ""
 "Ada &amp; Zangemann - A Tale of Software, Skateboards, and Raspberry Ice Cream. By Matthias Kirschner and Sandra Brandstätter. On a mostly desaturated dark cyan background, in a frame composed of sometimes curled white lines that connect a mouse, a keyboard, and a pink smartphone, Ada and Zangemann are facing each other, both with their hands on their hips as a sign of challenge. "
 "Ada is smiling and Zangemann is frowning. Ada has black hair collected in two big right- and left-bound ringlets with red rubber bands, and red cheeks. She has little yellow stud earrings. She wears cyan and white horizontal striped shorts and a yellow shirt over a white undershirt that ends with embroidery that goes beyond the shirt. The shirt and undershirt come out over the "
 "shorts. Above the shirt Ada wears a blue hoodie. Ada is wearing red shoes with white tips and soles, and short white socks. She has one foot on a skateboard and the other on the ground. Zangemann has short gray hair and square glasses. He is wearing a purple turtle-neck sweater, light blue pants turned up, brown shoes, and white socks. He’s wearing a big tech watch. Above "
 "Zangemann there are a pair of pliers with red handles crossing the wire frame."
 msgstr ""
-"Ada og Zangemann - En fortelling om programvare, rullebrett og bringebæris. Av Matthias Kirschner og Sandra Brandstätter. På en dempet, mørkeblå bakgrunn, omgitt av hvite kabler som bukter seg og kobler sammen en mus, et tastatur og en rosa smarttelefon, står Ada og Zangemann ansikt til ansikt, begge med hendene i siden som et tegn på utfordring. Ada smiler, mens Zangemann ser "
+"Ada og Zangemann - En fortelling om programvare, rullebrett og bringebæris. Av Matthias Kirschner og Sandra Brandstätter. På en dempet, mørkeblå bakgrunn, omgitt av hvite kabler som bukter seg og kobler sammen en mus, et tastatur og en rosa smarttelefon, står Ada og Zangemann ansikt til ansikt, begge med hendene på hoftene som et tegn på utfordring. Ada smiler, mens Zangemann ser "
 "misfornøyd ut. Ada har sort hår samlet i to store spenner festet med røde strikk på begge sider av hodet, og hun har rødmussede kinn. Hun har på seg små, gule øredobber. Hun er kledd i lyseblå og hvitstripete shorts og en gul skjorte over en hvit undertrøye, med broderi som stikker ut under skjorten. Skjorten og undertrøyen stikker ut over shortsen. Over skjorten har Ada på seg "
 "en blå hettegenser. Hun har på seg røde sko med hvite tupper og såler, og korte hvite sokker. Hun står med den ene foten på et rullebrett og den andre på bakken. Zangemann har kort grått hår og firkantede briller. Han er iført en lilla, høyhalset genser, lyseblå bukser som er brettet opp ved ankelen, brune sko og hvite sokker. Han bærer en stor smartklokke. Over Zangemann er det "
 "en tang med røde håndtak som krysser kablene i rammen."
@@ -214,7 +213,6 @@ msgstr "images/capitals/T-yellow2.png"
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-back-1
 #: Ada_Zangemann.dbk:332
-#, fuzzy
 msgid ""
 "<phrase condition=\"capitals-text\">The</phrase><phrase condition=\"capitals-img\">he</phrase> inventor Zangemann is world-famous and immensely rich. Adults and children alike love his fabulous technical inventions. But one day there is a problem: the children’s electronic skateboards no longer work properly. What’s going on? The curious girl Ada sees through what is going on. "
 "Together with her friends, she experiments with hardware and software, and the children forge a plan: Zangemann can no longer be the only one in control of the devices!"
@@ -287,7 +285,7 @@ msgstr "Utgivelsesinformasjon"
 #.
 #. In a literallayout element all space and newline characters are kept.
 #: Ada_Zangemann.dbk:372
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "Copyright © 2023 Matthias Kirschner and Sandra Brandstätter.\n"
 "This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.\n"
@@ -308,28 +306,19 @@ msgid ""
 "<emphasis role=\"bold\">A big thank you</emphasis> to <emphasis role=\"bold\">dpunkt.verlag</emphasis> and <emphasis role=\"bold\">No Starch Press</emphasis> for understanding the values of software freedom, taking the time to discuss and understand the advantages of free cultural licenses, and the great support to publish this book under conditions that respect the FSFE’s values."
 msgstr ""
 "© 2023 Matthias Kirschner og Sandra Brandstätter. © 2024-2025 Petter Reinholdtsen, Hagen Echzell og Henrik G. Sundt.\n"
+"\n"
+"Utgiver og redaktør: Petter Reinholdtsen\n"
+"\n"
 "Dette verket har bruksvilkår som beskrevet i Creative Commons Attribution-ShareAlike 4.0 International License. For å se bruksvilkårsteksten, besøk <link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</link> eller send et brev til Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.\n"
 "\n"
-"<emphasis role=\"bold\">Ada og Zangemann: En historie om programvare, rullebrett og bringebæris</emphasis> er en oversettelse fra den tyske originalen, Ada und Zangemann: Ein Märchen über Software, Skateboards und Himbeereis, © 2022 Matthias Kirschner og Sandra Brandstätter.\n"
+"<emphasis role=\"bold\">Ada og Zangemann: En fortelling om programvare, rullebrett og bringebæris</emphasis> er en oversettelse fra den tyske originalen, Ada und Zangemann: Ein Märchen über Software, Skateboards und Himbeereis, © 2022 Matthias Kirschner og Sandra Brandstätter.\n"
 "\n"
 "ISBN-13: 978-82-93828-XX-X (print)\n"
 "ISBN-13: 978-82-93828-XX-X (ebook)\n"
 "\n"
-"Utgiver og redaktør: Petter Reinholdtsen\n"
-"Forfatter: Matthias Kirschner\n"
-"Illustratør: Sandra Brandstätter\n"
+"For informasjon om distribusjon, bulksalg eller salg til bedrifter, ta kontakt med utgiver via <link xlink:href=\"https://codeberg.org/pere/text-ada-zangemann\">https://codeberg.org/pere/text-ada-zangemann</link> eller besøk <link xlink:href=\"https://www.lulu.com/shop\">https://www.lulu.com/shop</link>.\n"
 "\n"
-"For informasjon om distribusjon, bulksalg eller salg til bedrifter, ta kontakt med utgiver via <link xlink:href=\"https://codeberg.org/pere/text-ada-zangemann\">https://codeberg.org/pere/text-ada-zangemann</link> eller besøk <link xlink:href=\"https://www.lulu.com/shop\">https://www.lulu.com/shop</link>\n"
-"\n"
-"Alle produkter og selskapsnavn nevnt her kan være varemerker tilhørende av sine respektive eiere. I stedet for å bruke varemerkesymbolet på hver forekomst av et varemerket navn, så bruker vi navnene kun på en redaksjonell måte og til fordel for varemerkeeieren, uten noe ønske om a misbruke varemerket.\n"
-"\n"
-"Innholdet i denne boken distribueres «som den er», uten noen garanti. Selv om alle mulige forhåndsregler er tatt i utarbeidelsen av dette verket skal hverken forfatteren eller utgiveren ha noe plikt til å kompensere noen person eller aktør for noe tap eller skade forårsaket eller påstått å være forårsaket direkte eller indirekte av innholdet i dette verket.\n"
-"\n"
-"Alle figurer i denne utgivelsen er fiktive, og enhver likhet med virkelige personer, levende såvel som døde, er helt tilfeldig.\n"
-"\n"
-"**\n"
-"\n"
-"Denne boken av Matthias Kirschner (forfatter) og Sandra Brandstätter (illustratør) er gjort tilgjengelig med bruksvilkårene til <emphasis role=\"bold\">Creative Commons CC BY-SA</emphasis>, en fri kulturlisens.\n"
+"Denne boken av Matthias Kirschner (forfatter) og Sandra Brandstätter (illustratør) er gjort tilgjengelig med bruksvilkårene til fri kulturlisensen <emphasis role=\"bold\">Creative Commons CC BY-SA</emphasis>.\n"
 "\n"
 "<emphasis role=\"bold\">Du kan</emphasis> dele, kopiere og videredistribuere materialet i ethvert medium og format. <emphasis role=\"bold\">Du kan</emphasis> tilpasse, blande, omforme og bygge videre pa materialet til alle formål, også kommersielle. <emphasis role=\"bold\">Du må</emphasis> angi passende kreditering, oppgi en lenke til bruksvilkårene og opplyse om det er foretatt endringer.\n"
 "\n"
@@ -348,7 +337,7 @@ msgstr ""
 #.
 #. In a literallayout element all space and newline characters are kept.
 #: Ada_Zangemann.dbk:389
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "Copyright © 2023 Matthias Kirschner and Sandra Brandstätter.\n"
 "This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.\n"
@@ -405,7 +394,7 @@ msgstr ""
 "© 2023 Matthias Kirschner og Sandra Brandstätter. © 2024-2025 Petter Reinholdtsen, Hagen Echzell og Henrik G. Sundt.\n"
 "Dette verket har bruksvilkår som beskrevet i Creative Commons Attribution-ShareAlike 4.0 International License. For å se bruksvilkårsteksten, besøk <link xlink:href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</link> eller send et brev til Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.\n"
 "\n"
-"<emphasis role=\"bold\">Ada og Zangemann: En historie om programvare, rullebrett og bringebæris</emphasis> er en oversettelse fra den tyske originalen, Ada und Zangemann: Ein Märchen über Software, Skateboards und Himbeereis, © 2022 Matthias Kirschner og Sandra Brandstätter.\n"
+"<emphasis role=\"bold\">Ada og Zangemann: En fortelling om programvare, rullebrett og bringebæris</emphasis> er en oversettelse fra den tyske originalen, Ada und Zangemann: Ein Märchen über Software, Skateboards und Himbeereis, © 2022 Matthias Kirschner og Sandra Brandstätter.\n"
 "\n"
 "ISBN-13: 978-82-93828-XX-X (print)\n"
 "ISBN-13: 978-82-93828-XX-X (ebook)\n"
@@ -414,7 +403,7 @@ msgstr ""
 "Forfatter: Matthias Kirschner\n"
 "Illustratør: Sandra Brandstätter\n"
 "\n"
-"For informasjon om distribusjon, bulksalg eller salg til bedrifter, ta kontakt med utgiver via <link xlink:href=\"https://codeberg.org/pere/text-ada-zangemann\">https://codeberg.org/pere/text-ada-zangemann</link> eller besøk <link xlink:href=\"https://www.lulu.com/shop\">https://www.lulu.com/shop</link>\n"
+"For informasjon om distribusjon, bulksalg eller salg til bedrifter, ta kontakt med utgiver via <link xlink:href=\"https://codeberg.org/pere/text-ada-zangemann\">https://codeberg.org/pere/text-ada-zangemann</link> eller besøk <link xlink:href=\"https://www.lulu.com/shop\">https://www.lulu.com/shop</link>.\n"
 "\n"
 "Alle produkter og selskapsnavn nevnt her kan være varemerker tilhørende av sine respektive eiere. I stedet for å bruke varemerkesymbolet på hver forekomst av et varemerket navn, så bruker vi navnene kun på en redaksjonell måte og til fordel for varemerkeeieren, uten noe ønske om a misbruke varemerket.\n"
 "\n"
@@ -422,9 +411,7 @@ msgstr ""
 "\n"
 "Alle figurer i denne utgivelsen er fiktive, og enhver likhet med virkelige personer, levende såvel som døde, er helt tilfeldig.\n"
 "\n"
-"**\n"
-"\n"
-"Denne boken av Matthias Kirschner (forfatter) og Sandra Brandstätter (illustratør) er gjort tilgjengelig med bruksvilkårene til <emphasis role=\"bold\">Creative Commons CC BY-SA</emphasis>, en fri kulturlisens.\n"
+"Denne boken av Matthias Kirschner (forfatter) og Sandra Brandstätter (illustratør) er gjort tilgjengelig med bruksvilkårene til fri kulturlisensen <emphasis role=\"bold\">Creative Commons CC BY-SA</emphasis>.\n"
 "\n"
 "<emphasis role=\"bold\">Du kan</emphasis> dele, kopiere og videredistribuere materialet i ethvert medium og format. <emphasis role=\"bold\">Du kan</emphasis> tilpasse, blande, omforme og bygge videre pa materialet til alle formål, også kommersielle. <emphasis role=\"bold\">Du må</emphasis> angi passende kreditering, oppgi en lenke til bruksvilkårene og opplyse om det er foretatt endringer.\n"
 "\n"
@@ -441,7 +428,7 @@ msgstr ""
 #.
 #. In a literallayout element all space and newline characters are kept.
 #: Ada_Zangemann.dbk:443
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<emphasis role=\"bold\">Free as in freedom not price</emphasis>\n"
 "Free Software is about the freedoms you receive with the software, not about the price. Likewise publishing a book under a free culture license does not mean you have the right to get a gratis copy of the book or ebook. It means you get the rights described above, which enable society to benefit further from this book, as it should from all cultural works.\n"
@@ -466,9 +453,8 @@ msgstr "Tittelside"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:459
-#, fuzzy
 msgid "Matthias Kirschner, Sandra Brandstätter - ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice Cream. Title in the middle, authors in the upper left. In the lower right, Ada’s family’s dog with gray fur and some white patches and with a red collar with shiny yellow LEDs, which wags its tail."
-msgstr "Matthias Kirschner, Sandra Brandstätter - ADA og ZANGEMANN - En historie om programvare, rullebrett og bringebæris.  Tittel i midten, forfattere i øvre venstre.  I nedre høyre hjørne, Adas familehind med grå pels og noen hvite flekker og et rødt halsbånd med skinnende gule LED, som vifter med halen sin."
+msgstr "Matthias Kirschner, Sandra Brandstätter - ADA og ZANGEMANN - En fortelling om programvare, rullebrett og bringebæris.  Tittel i midten, forfattere i øvre venstre.  I nedre høyre hjørne, Adas familehind med grå pels og noen hvite flekker og et rødt halsbånd med skinnende gule LED, som vifter med halen sin."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -499,7 +485,7 @@ msgstr "Matthias Kirschner, Sandra Brandstätter"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:471
 msgid "images/illustrations/ada-p03-title.en.png"
-msgstr ""
+msgstr "images/illustrations/ada-p03-title.en.png"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -517,7 +503,7 @@ msgstr "images/illustrations/ada-p03-titleonly.ltr.png"
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:476
 msgid "ADA &amp; ZANGEMANN - A Tale of Software, Skateboards and Raspberry Ice Cream. Title in the middle, authors in the upper left."
-msgstr "ADA OG ZANGEMANN - En historie om programvare, rullebrett og bringebæris. Tittel i midten, forfatterne i øvre venstre."
+msgstr "ADA OG ZANGEMANN - En fortelling om programvare, rullebrett og bringebæris. Tittel i midten, forfatterne i øvre venstre."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -534,9 +520,8 @@ msgstr "images/illustrations/ada-p03-dog.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:483
-#, fuzzy
 msgid "In the lower right, Ada’s family’s dog with gray fur and some white patches and with a red collar with shiny yellow LEDs, which wags its tail."
-msgstr "I nedre høyre hjørne, Adas familehind med grå pels og noen hvite flekker og et rødt halsbånd med skinnende gule LED, som vifter med halen sin."
+msgstr "I nedre høyre hjørne, Adas familehund med grå pels og noen hvite flekker og et rødt halsbånd med skinnende gule LED, som vifter med halen sin."
 
 #. (itstool) path: simplesect/literallayout
 #. In a literallayout element all space and newline characters are kept.
@@ -559,7 +544,7 @@ msgid ""
 "Software, Skateboards, and\n"
 "Raspberry Ice Cream"
 msgstr ""
-"En historie om\n"
+"En fortelling om\n"
 "programvare, rullebrett og\n"
 "bringebæris"
 
@@ -594,7 +579,6 @@ msgstr "images/illustrations/ada-p04.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:508
-#, fuzzy
 msgid ""
 "Ada in foreground leaving the house to go to school, in the background Ada’s house and the junkyard. Ada has a brown backpack with yellow shoulder straps. To the left of Ada there is a red car, a Volkswagen Beetle, without wheels and no longer working, with one of the headlights remaining attached only with its wires. On the left, in front of the car, there are two tires, two "
 "boxes – one of which is a wooden box with an overturned bucket –, and an empty can, all among some plants with yellow flowers. In the background there is Ada’s house, with her mother and her brother Alan waving goodbye, and the dog sitting on the ground. Alan is sitting on the two entrance steps of the house. He has short dark hair and is dressed in a white short-sleeved shirt "
@@ -602,9 +586,9 @@ msgid ""
 "sheeting. There are two windows in front in addition to the door, and another window on the left side. A yellow duck stands on top of the roof, while a gray chimney protrudes. An antenna on the left of the roof supports a clothesline on which red clothespins hold a green tank top, a pair of light blue pants, and white underpants. To the right of the house there is a veranda on "
 "which there is installed a solar panel. Under the veranda there are a mattress, a red oil drum, and a gray case. Behind the house there are piles of landfill objects among which you can see a washing machine, a car, and various wooden boards."
 msgstr ""
-"Ada i forgrunnen forlater huset for å gå til skolen, i bakgrunnen Adas hus og skraphaugen. Ada har en brun ryggsett med gule reimer. Det er en rød bil til venstre for Ada, en Volkswagen Beetle, uten hjul og ute av drift og med kun en av frontlyktene igjen, tilkoblet kun med ledningene sine. På venstre side, foran bilen, er det to dekk, to bokser – en er en treboks med en snudd "
+"Ada i forgrunnen forlater huset for å gå til skolen, i bakgrunnen Adas hus og skraphaugen. Ada har en brun ryggsett med gule reimer. Det er en rød bil til venstre for Ada, en Volkswagen Beetle, uten hjul og ute av drift og med kun en av frontlyktene igjen, kun henger fast med ledningene sine. På venstre side, foran bilen, er det to dekk, to bokser – en er en treboks med en snudd "
 "bøtte –, og et tomt spann, alt sammen mellom planter med gule blomster. I bakgrunnen er Adas hus, der hennes mor og bror Alan vinker adjø, og hunden sitter på bakken. Alan sitter på de to trappetrinnene til huset. Han har kort mørkt hår og er kledd i en hvit, kortermet skjorte med en rød stripe på kanten av ermene, og to røde striper i nedre kant av skjorten. Alan er barføtt og "
-"har blå kortbukser. Adas mamma har mørk leppestift og langt sort hår i et hvitt hårbånd. Hun har på seg en kort blå skjorte med hvite kanter, hvite bukser og gule sko. Adas hus er bygd av tre, med en hvit front. Taket er mørkerødt bølgetak. Det er to vinduer foran i tillegg til døren, og et annet vindu på venstre side. En gul and står på toppen av mønet, og en grå pipe stikker "
+"har blå kortbukser. Adas mamma har mørk leppestift og langt sort hår i et hvitt hårbånd. Hun har på seg en kort blå skjorte med hvite kanter, hvite bukser og gule sko. Adas hus er bygd av tre, med en hvit fasade. Taket er mørkerødt bølgetak. Det er to vinduer foran i tillegg til døren, og et annet vindu på venstre side. En gul and står på toppen av mønet, og en grå pipe stikker "
 "opp. En antenne på venstre side av taket holder en klessnor der det henger en grønn topp, en par lyseblå bukser og hvite underbukser. Til høyre for huset er det en veranda der det er installert et solcellepanel. Under verandaen er det madrasser, en rød oljetønne og en grå kasse. Bak huset er det hauger med skrot, blant annet kan du se en vaskemaskin, en bil og forskjellige "
 "trebord."
 
@@ -900,12 +884,12 @@ msgstr "images/illustrations/ada-p13.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:609
-#, fuzzy
 msgid ""
 "Zangemann descends the stairs from his mansion on the hill towards the city. Zangemann’s house stands on a hill. The front is blue with large windows; the towers are dark blue, and from a window starts a yellow slide that ends in a large swimming pool with two palm trees. The roofs are red, and above the highest tower an antenna is installed. On the sides of the stairs to get off "
 "the hill there are evergreen trees."
 msgstr ""
-"Zangemann går ned trappene fra sin herskapshus på toppen av kollen mot byen. Zangemanns hus står på en kolle. Forsiden er blå med store vinduer; tårnene er mørkblå, og fra et vindu går en gul sklie som ender i et stor basseng med to palmetrær. Takene er røde, og over det høyeste tårnet er det satt opp en antenne. På begge sider av trappen ned fra kollen er det eviggrønne tre."
+"Zangemann går ned trappene og mot byen fra herskapshuset sitt på toppen av kollen. Zangemanns hus står på en kolle. Forsiden er blå med store vinduer; tårnene er mørkblå, og fra et vindu går en gul sklie som ender i et stor basseng med to palmetrær. Takene er røde, og over det høyeste tårnet er det satt opp en antenne. På begge sider av trappen ned fra kollen er det eviggrønne "
+"trær."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:613
@@ -932,9 +916,8 @@ msgstr "images/illustrations/ada-p14.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:620
-#, fuzzy
 msgid "Zangemann after the incident with the child. Zangemann screams from pain while holding up one of his legs with both hands at the shin. The child has brown hair that is blown back by Zangemann’s scream; he is wearing a light blue hooded sweatshirt and dark green pants. He holds a red Zangemann electric skateboard."
-msgstr "Zangemann etter hendelsen med barnet. Zangemann hyler av smerte mens han holder opp en av føttene sine med begge hendene på skinnleggen. Barnet har brunt hår som er blåst bakover av hylet til Zangemann, og har på seg en lyseblå hettegenser og mørkegrønne bukser. Han holder et rødt Zangemann elektrisk rullebrett."
+msgstr "Zangemann etter hendelsen med barnet.  Zangemann hyler av smerte mens han holder opp en av føttene sine med begge hendene på skinnleggen. Barnet har brunt hår som er blåst bakover av hylet til Zangemann, og har på seg en lyseblå hettegenser og mørkegrønne bukser.  Han holder et rødt Zangemann elektrisk rullebrett."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:624
@@ -965,7 +948,6 @@ msgstr "images/illustrations/ada-p15.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:630
-#, fuzzy
 msgid ""
 "Advertisements for Zangemann ice cream (sandwich board), a Zangemann electric skateboard, and a Zangemann washing machine. The math teacher, Ms. Gernet, is passing in front of the billboards. Ms. Gernet is an old lady with short white hair. She is dressed in a light green t-shirt and a pea green sweater, dark brown pants, and light green heeled shoes. She has a fuchsia shoulder "
 "bag, worn behind her. She pushes a small shopping cart in which there is a small brown dog with a collar and tag."
@@ -997,7 +979,6 @@ msgstr "images/illustrations/ada-p16.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:640
-#, fuzzy
 msgid "The city in the evening, with houses, a church, and two streetlights. Images/Illustrations emerge from the dwellings illustrating Zangemann’s inventions bought by the inhabitants: a washing machine, a yellow vacuum cleaner, and a red car, all with Internet connection signals."
 msgstr "Byen om kvelden, med hus, en kirke og to gatelys. Bilder dukker opp fra boligene og illustrerer Zangemanns oppfinnelser som er kjøpt av innbyggerne: en vaskemaskin, en gul støvsuger og en rød bil, alle med Internett-signaler."
 
@@ -1016,7 +997,6 @@ msgstr "images/illustrations/ada-p17.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:648
-#, fuzzy
 msgid "Continuation of the previous picture, where in the background there is the hill with Zangemann’s house from whose antenna come the signals to control the various devices. In emerging images/illustrations there are: a red electric skateboard, a light bulb, an ice cream machine, and a toilet, all of which are receiving commands from Zangemann."
 msgstr "Fortsettelse av det forrige bildet, hvor kollen med Zangemanns hus ligger i bakgrunnen, og fra antennen kommer signalene som kontrollerer de forskjellige enhetene. I bildene som dukker opp er det: et rødt elektrisk rullebrett, en lyspære, en iskremmaskin og et toalett, som alle mottar kommandoer fra Zangemann."
 
@@ -1054,7 +1034,6 @@ msgstr "images/illustrations/ada-p18.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:663
-#, fuzzy
 msgid ""
 "Five kids from the school who can’t make skateboards work. Two girls wear helmets, respectively blue and red. A little girl with brown hair tied in two tails with yellow rubber bands is kneeling. She is trying to understand why the skateboard of her friend with the red helmet does not work. Four children have backpacks on their shoulders, while the little girl with the red helmet "
 "left hers leaning on a bench on which there are a yellow apple and a light blue bottle with a white flower on it."
@@ -1150,9 +1129,8 @@ msgstr "images/illustrations/ada-p21.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:693
-#, fuzzy
 msgid "Computer screen from which the elements of the programming language symbolically emerge: “while num &gt; 0“, “init“, “sx=42“, “for“, “v**3“. Ada is typing on a white keyboard with a blue cable, while her other hand enters the screen to change the program (“print(msg)”, “a+b+c+d=e”, “if”, “break”, “continue”, “exit()”). Next to the keyboard there are a pencil and an eraser."
-msgstr "Dataskjerm der elementene til programmeringsspråket symbols dukker opp: «while num > 0», «init», «sx=42», «for», «v**3».  Ada skriver på et hvitt tastatur med en blå kabel, mens den andre hånden går inn i skjermen for å endre programmet («print(msg)», «a+b+c+d=e», «if», «break», «continue», «exit()»). Ved siden av tastaturet er det en blyant og et viskelær."
+msgstr "Dataskjerm der elementene til programmeringsspråket symbols dukker opp: «while num &gt; 0», «init», «sx=42», «for», «v**3».  Ada skriver på et hvitt tastatur med en blå kabel, mens den andre hånden går inn i skjermen for å endre programmet («print(msg)», «a+b+c+d=e», «if», «break», «continue», «exit()»). Ved siden av tastaturet er det en blyant og et viskelær."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:699
@@ -1234,7 +1212,6 @@ msgstr "images/illustrations/ada-p24.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:722
-#, fuzzy
 msgid "Zangemann looks thoughtfully with his arms crossed out one of the great windows of his house, into which the sun’s rays are shining."
 msgstr "Zangemann ser med armene i kors tankefullt ut gjennom en av de store vinduene i huset sitt, mens solstrålene skinner inn vinduet."
 
@@ -1328,7 +1305,6 @@ msgstr "images/illustrations/ada-p27.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:754
-#, fuzzy
 msgid ""
 "Ada racing with her electric skateboard for city sidewalks. Ada’s skateboard is blue, with gray and pink wheels; the electronic part is placed above the skateboard (as opposed to Zangemann’s skateboards where the electronic part is below). Ada is holding in both hands a remote control with a short antenna to maneuver it. Behind Ada are Marie and Toni who carry their own "
 "skateboards under their arms and look with amazement at Ada, who has shot past them and in front of them. Marie has dark long hair with two braids fastened with orange clips, yellow earrings, a fuchsia shirt with white sleeves with purple horizontal stripes, a white skirt, white and yellow sneakers, white socks, a white hat with yellow sides, and a light purple backpack. Marie "
@@ -1367,13 +1343,12 @@ msgstr "images/illustrations/ada-p28.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:765
-#, fuzzy
 msgid ""
 "Ada stops on her skateboard surrounded by children. Marie is on one end. She is pointing to Ada’s skateboard and she’s talking. Next to her is Konrad, with short blond hair, a dark gray helmet, glasses, a green shirt with white collar and cuffs, light blue pants with white cuffs, and gray shoes with white soles. He has a red skateboard with orange wheels. Behind Ada there are 4 "
 "other children. On the other end Toni is smiling. He touches his chin with one hand while with the other he holds a yellow helmet by the laces."
 msgstr ""
-"Ada stopper på rullebrettet sitt, og er omgitt av barn. Marie står i den ene enden. Hun peker på Adas rullebrett og snakker. Ved siden av henne står Konrad, med kort blondt hår, en mørkegrå hjelm, briller, en grønn skjorte med hvit krage og mansjetter, lyseblå bukser med hvite mansjetter og grå sko med hvite såler. Han har et rødt rullebrett med oransje hjul. Bak Ada er det fire "
-"andre barn. I den andre enden står Toni og smiler. Han berører haken med den ene hånden mens han holder en gul hjelm i remmene med den andre."
+"Ada stopper på rullebrettet sitt, omgitt av barn. Marie står i den ene enden. Hun peker på Adas rullebrett og snakker. Ved siden av henne står Konrad, med kort blondt hår, en mørkegrå hjelm, briller, en grønn skjorte med hvit krage og mansjetter, lyseblå bukser med hvite mansjetter og grå sko med hvite såler. Han har et rødt rullebrett med oransje hjul. Bak Ada er det fire andre "
+"barn. I den andre enden står Toni og smiler. Han berører haken med den ene hånden mens han holder en gul hjelm i remmene med den andre."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:769
@@ -1505,12 +1480,11 @@ msgstr "images/illustrations/ada-p32.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:811
-#, fuzzy
 msgid ""
 "Laboratory at the junkyard, under the veranda of Ada’s house. Ada is sitting on a water case with a leg bent under her, using a soldering iron. Konrad is standing next to her and dismounting a speaker. Marie is sitting on two tires with an arm resting on a table and her upside-down skateboard from which wires come out. She is talking with Alan, who is standing with his arms "
 "resting on the same table. On the table there are also: pliers, two wrenches, a spool of solder, a can of blue paint (a bit of paint has dried on the table), and a pitcher and two glasses containing a pink drink. Toni is testing his skateboard with added yellow wings and a fan. It burps."
 msgstr ""
-"Laboratoriet ved skraphaugen, under verandaen til Adas hus. Ada sitter på en vannboks med ett ben bøyd under seg og bruker en loddebolt. Konrad står ved siden av henne og demonterer en høyttaler. Marie sitter på to bildekk med en arm hvilende på et bord, rullebrettet hennes er opp-ned og har ledninger som kommer ut. Hun snakker med Alan, som står med armene hvilende på det samme "
+"Laboratoriet ved skraphaugen, under verandaen til Adas hus. Ada sitter på en vannkasse med ett ben bøyd under seg og bruker en loddebolt. Konrad står ved siden av henne og demonterer en høyttaler. Marie sitter på to bildekk med en arm hvilende på et bord, rullebrettet hennes er opp-ned og har ledninger som kommer ut. Hun snakker med Alan, som står med armene hvilende på det samme "
 "bordet. På bordet er det også: en tang, to skiftenøkler, en spole med loddetinn, en boks med blå maling (litt maling har tørket på bordet), en kanne og to glass med en rosa drikk. Toni tester rullebrettet sitt med påmonterte gule vinger og en vifte. Det gir fra seg en lyd."
 
 #. (itstool) path: imageobject/imagedata@fileref
@@ -1528,9 +1502,8 @@ msgstr "images/illustrations/ada-p33.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:819
-#, fuzzy
 msgid "Marie and Ada’s mom are dancing, facing each other. Alan, Ada, and Konrad are dancing in a circle. On the right there is a speaker playing, resting on an oil drum. Near the speaker there are two dancing mice. Toni is jumping through the tires. Ada’s dog is howling, and from his mouth come two distorted musical notes."
-msgstr "Marie og Adas mødre danser, med ansiktene mot hverandre. Alan, Ada og Konrad danser i en sirkel. På høyre side er det en høyttaler som spiller, stående på en oljetønne. Nær høyttaleren er det to mus som danser. Toni hopper gjennom dekk. Adas hund hyler, og fra munnen dens kommer det to forstyrrede musikknoter."
+msgstr "Marie og Adas mødre danser, med ansiktene mot hverandre. Alan, Ada og Konrad danser i en sirkel. På høyre side er det en høyttaler som spiller, stående på en oljetønne. Nær høyttaleren er det to mus som danser. Toni hopper gjennom dekk. Adas hund hyler, og fra munnen dens kommer det to forvrengte musikknoter."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1594,9 +1567,8 @@ msgstr ""
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:840
-#, fuzzy
 msgid "Some things they built just for fun, like the fart machine they put in their math teacher’s chair. Whenever Ms. Gernet sat down, the machine played a little fart sound. The teacher would scold them, but Ada was sure that she secretly smirked a little every time."
-msgstr "Noen ting bygde de bare for moro skyld, som prompemaskinen de satte på mattelærerens stol. Hver gang frøken Gernet satte seg spilte maskinen en liten prompelyd. Frøken Gernet irettesatte dem, men Ada var sikker på at også hun innerst inne syntes det var litt morsomt."
+msgstr "Noen ting bygde de bare for moro skyld, som prompemaskinen de satte på mattelærerens stol. Hver gang fru Gernet satte seg spilte maskinen en liten prompelyd. Fru Gernet irettesatte dem, men Ada var sikker på at også hun innerst inne syntes det var litt morsomt."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:845
@@ -1646,7 +1618,6 @@ msgstr "images/illustrations/ada-p37.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:858
-#, fuzzy
 msgid ""
 "The President getting a phone call from the angry Zangemann. The videophone consists of an old red Zangemann dial phone connected to a monitor. Zangemann’s face appears on the monitor, while a yellow flare of Zangemann’s thundering voice comes out of the phone, and the President holds the receiver at arm’s length. The president has white hair and wears a light blue shirt, a red "
 "tie, and a blue jacket with yellow buttons. The President is sitting on a green chair with white vertical lines, and his other hand is on the desk. On the desk, in addition to the videophone, there are sheets with something written on them and an open purple fountain pen. The President was eating a sandwich of meat and cheese with greens with two olives on a toothpick, over a "
@@ -1732,7 +1703,6 @@ msgstr "Gul og grønn maling på gulvet og voksstifter i gult, rødt, blått, gr
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:890
-#, fuzzy
 msgid ""
 "With each passing day, more and more children and adults joined the protest. The bus driver they had helped drove up in her bus. She honked loudly to attract even more people to the protest. The custodian brought a few friends, and Toni’s father brought his colleagues from work, all wearing perfectly ironed ties. Even Ms. Gernet came. The crowd grew, and after a few weeks, there "
 "were protests not just in Ada’s city but also in many cities throughout the country."
@@ -1749,21 +1719,20 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:893
 msgid "images/illustrations/ada-p40-41.en.png"
-msgstr ""
+msgstr "images/illustrations/ada-p40-41.en.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:895
-#, fuzzy
 msgid ""
 "Group of protesters. Among them there are: Ada’s mother holding Alan’s hand and raising a pink ice cream; 3 colleagues of Toni’s father dressed in ties; two children holding the banner “Do your homework Mr. President and we will do ours!”; a robot with tank treads, irons as feet, an electric fan as abdomen, a monitor as head, and an eggbeater as one hand, holding a blue ice cream "
 "in his other hand; two parents holding the banner “Hacking 4 Freedom”; a lady holding an electronic sign “There is a code B”; two small birds, flying; the math teacher, Ms. Gernet, who has inserted in her cart a sign that says “They are young + need the code!“ The dog in her cart is barking; Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking "
 "beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada’s family’s dog is now wearing a red harness with shiny yellow LEDs that matches the collar."
 msgstr ""
-"Gruppe med demonstranter. Blant dem er: Adas mor som holder Alan i hånden og hever en rosa iskrem; tre kollegaer av Tonis far kledd i slips; to barn som holder en plakat «Gjør hjemmeleksene dine, statsminister, så vil vi gjøre våre!»; en robot med beltevognbelter og strykjern som føtter, en elektrisk vifte som mage, en skjerm som hode og en visp som en hånd og som holder i "
-"en blå iskrem i den andre hånden; to foreldre som holder plakaten «fikler for frihet»; en dame som holder en elektronisk skilt «det finnes en kode B»; to små fugler som flyr; mattelæreren fru Gernet, som har et brett i vognen sin som sier «De er unge + trenger å kode!» Hunden hennes bjeffer; Ada og Konrad bærer plakaten «Ikke knus teknologien vår!» Marie og Toni går under "
-"banneret og Marie snakker gjennom en megafon som hun holder i hånden; Adas familiehund har nå på seg en rød trøye med skinnende gule LED med samme farge som halsbåndet."
+"Gruppe med demonstranter. Blant dem er: Adas mor som holder Alan i hånden og hever en rosa iskrem; tre kollegaer av Tonis far kledd i slips; to barn som holder en plakat «Gjør hjemmeleksene dine, statsminister, så vil vi gjøre våre!»; en robot med beltevognbelter og strykjern som føtter, en elektrisk vifte som mage, en skjerm som hode og en visp som en hånd og som holder i en blå "
+"iskrem i den andre hånden; to foreldre som holder plakaten «fikler for frihet»; en dame som holder en elektronisk skilt «det finnes en kode B»; to små fugler som flyr; mattelæreren fru Gernet, som har et brett i vognen sin som sier «De er unge + trenger å kode!» Hunden hennes bjeffer; Ada og Konrad bærer plakaten «Ikke knus teknologien vår!» Marie og Toni går under banneret og "
+"Marie snakker gjennom en megafon som hun holder i hånden; Adas familiehund har nå på seg en rød trøye med skinnende gule LED med samme farge som halsbåndet."
 
 #. (itstool) path: info/excerpt
 #. Text on big banner, left on the illustration
@@ -1780,7 +1749,7 @@ msgstr "Gjør leksene dine, statsminister, så skal vi gjøre våre!"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:904
 msgid "images/illustrations/ada-p40.en.png"
-msgstr ""
+msgstr "images/illustrations/ada-p40.en.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1798,15 +1767,14 @@ msgstr "Detalj fra forrige bilde: to barn som holder banneret «Gjør leksene di
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:910
 msgid "images/illustrations/ada-p41.en.png"
-msgstr ""
+msgstr "images/illustrations/ada-p41.en.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:912
-#, fuzzy
 msgid "Detail of the previous image: Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada’s family’s little dog is now wearing a red harness with shiny yellow LEDs that matches the collar."
-msgstr "Detalj fra forrige bilde: Ada og Konrad bærer banneret \"Ikke knus teknologien vår!\" Marie og Toni går under banneret, og Marie snakker gjennom en ropert hun holder i hånden; Adas familie lille hund har nå på seg en rød sele med skinnende gule LED-lys som matcher halsbåndet."
+msgstr "Detalj fra forrige bilde: Ada og Konrad bærer banneret \"Ikke knus teknologien vår!\" Marie og Toni går under banneret, og Marie snakker gjennom en ropert hun holder i hånden; Adas lille familiehund har nå på seg en rød sele med skinnende gule LED-lys som passer med halsbåndet."
 
 #. (itstool) path: info/excerpt
 #. Text on square signe on the right of the illustration
@@ -1865,7 +1833,6 @@ msgstr "images/illustrations/ada-p42.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:932
-#, fuzzy
 msgid "One of Ada’s friends lying on his stomach with one foot up in the air is typing on a laptop. He has wavy brown hair parted in the center, a red sweatshirt, blue pants, and white socks but no shoes. Next to the computer there are a green cup and two open books."
 msgstr "En av Adas venner ligger på magen med en fot i været og skriver på en bærbar datamaskin. Han har bølgete brunt hår med midtskill, en rød genser, blå bukser og hvite sokker men ingen sko. Ved siden av datamaskinen er det en grønn kopp og to åpne bøker."
 
@@ -1902,7 +1869,6 @@ msgstr "images/illustrations/ada-p43.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:943
-#, fuzzy
 msgid ""
 "Ada and her friends in the President’s office. Ada is reprogramming the President’s computer. Toni is setting up a speaker for the President’s secretary. Marie and Konrad are sitting on the floor and talking, and Marie has a laptop on her legs with an FSFE logo sticker (three stars: pea green, sky blue, and sea blue). On the floor are a bowl with candy and a plate with ice "
 "creams. The President’s phone is ringing, but nobody is answering."
@@ -1990,15 +1956,13 @@ msgstr "images/illustrations/ada-p45.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:970
-#, fuzzy
 msgid "The President with Toni, Konrad, Marie, Ada, and a herald playing a trumpet. Marie is standing on top of a ladder talking into a microphone. Konrad firmly holds the ladder on which Marie is standing. Ada is standing on a chair and holds a copy of the new law bearing a seal. Ada’s dog is sitting in front of her."
 msgstr "Statsministeren med Tony, Konrad, Marie, Ada og en herold som spiller trompet.  Marie står på toppet av en stige og snakker inn i en mikrofon. Konrad holder fast stigen som Marie står på. Ada står på en stol og holder en kopi av den nye loven som har et segl. Adas hund sitter foran henne."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:975
-#, fuzzy
 msgid "That evening, everyone celebrated with a big party. Ada, Alan, Toni, Marie, Konrad, and other children from school and their parents; the president; Ms. Gernet; the bus driver; the custodian — they were all there. They decorated the streets, listened to loud music, and ate ice cream, as much as they wanted, and in every imaginable shape and color."
-msgstr "Samme kveld feiret alle samen med en stor fest. Ada, Alan, og alle de andre barna fra skolen og deres foreldre, statsministeren, frøken Gernet, bussjåføren, vaktmesteren — alle var med. De pyntet gatene, hørte på høy musikk og spiste is. Så mye som de ville og med enhver tenkelig form og farge."
+msgstr "Samme kveld feiret alle samen med en stor fest. Ada, Alan, og alle de andre barna fra skolen og deres foreldre, statsministeren, fru Gernet, bussjåføren, vaktmesteren — alle var med. De pyntet gatene, hørte på høy musikk og spiste is. Så mye som de ville og med enhver tenkelig form og farge."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -2015,7 +1979,6 @@ msgstr "images/illustrations/ada-p46.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:980
-#, fuzzy
 msgid "Evening party. Children are holding ice cream and balloons with the words “I love FS (I love Free Software)”; other children are riding skateboards; yellow and orange flags are hanging; music comes out from a large speaker system; Ms. Gernet holds a pink tree-shaped ice cream with a yellow star on it; Ada’s mom is dancing with a gentleman."
 msgstr "Festkveld.  Barn holder iskremer og ballonger med ordene \"Jeg elsker FP (Jeg elsker Fri programvare)\". Andre barn kjører rullebrett. Gule og orange flagg henger, musikk kommer ut fra store høyttaleranlegg. Fru Gernet holder en rosa treformet iskrem med en gul stjerne. Adas mamma danser med en herremann."
 
@@ -2039,7 +2002,6 @@ msgstr "images/illustrations/ada-p47.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:989
-#, fuzzy
 msgid "The President, the secretary, and other people around a table enjoying crazy ice cream; yellow and orange flags continue from the previous image; a little girl who just took a pink ghost-shaped ice cream from the modified ice cream machine; Ada’s dog, Konrad, Marie, Ada, and Toni sneaking away from the party."
 msgstr "Statsministeren, sekretæren og andre folk rundt et bord nyter helt ville iskremer. Gule og oransje flagg fortsetter fra forrige bilde.  En liten pike som nettopp hentet en rosa spøkelsesformet iskrem fra den justerte iskremmaskinen. Adas hund, Konrad, Marie, Ada og Toni sniker seg bort fra festen."
 
@@ -2081,7 +2043,6 @@ msgstr "images/illustrations/ada-p48.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:1004
-#, fuzzy
 msgid "Ada’s little dog sniffing a trail of ice cream."
 msgstr "Adas lille hund som sniffer på en sti av iskrem."
 
@@ -2118,7 +2079,7 @@ msgstr "Hilsener"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:1023
 msgid "images/illustrations/ada-p50-title.en.png"
-msgstr ""
+msgstr "images/illustrations/ada-p50-title.en.png"
 
 #. (itstool) path: simplesect/para
 #. In the acknowledgments of the English version you can change 'No Starch
@@ -2158,7 +2119,6 @@ msgstr "images/illustrations/ada-p51.ltr.png"
 #. The alt tag contains an alternative text, describing the image for the
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:1040
-#, fuzzy
 msgid "Ada’s dog wags its tail after finding Zangemann hidden behind a curtain and eating an ice cream cone with candies and a blue umbrella on it and lots of raspberry ice cream dripping."
 msgstr "Adas hund logrer med halen etter at den oppdager Zangemann skjult bak en gardin, spisende på en iskrem med godteri og en blå paraply på toppen, og masse bringerbærisdryss."
 
@@ -2189,7 +2149,7 @@ msgstr "Om forfatteren - Matthias Kirschner"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:1052
 msgid "images/illustrations/ada-p52-title.en.png"
-msgstr ""
+msgstr "images/illustrations/ada-p52-title.en.png"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -2241,7 +2201,7 @@ msgstr "Om illustratøren - Sandra Brandstätter"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:1075
 msgid "images/illustrations/ada-p53-title.en.png"
-msgstr ""
+msgstr "images/illustrations/ada-p53-title.en.png"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -2269,7 +2229,6 @@ msgstr "Sandra har alltid likt å skape ting med saks, tang, lim, tråd, tøy og
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-bookswebsite
 #: Ada_Zangemann.dbk:1092
-#, fuzzy
 msgid "Book’s website"
 msgstr "Bokens nettside"
 
@@ -2282,7 +2241,7 @@ msgstr "Bokens nettside"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:1095
 msgid "images/illustrations/ada-p54-title.en.png"
-msgstr ""
+msgstr "images/illustrations/ada-p54-title.en.png"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1100
@@ -2313,12 +2272,12 @@ msgstr "Bruksvilkår"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:1112
 msgid "images/illustrations/ada-p55-title.en.png"
-msgstr ""
+msgstr "images/illustrations/ada-p55-title.en.png"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1117
 msgid "The book Ada &amp; Zangemann: A Tale of Software, Skateboards, and Raspberry Ice Cream by Matthias Kirschner and Sandra Brandstätter, published by No Starch Press, is licensed under “Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).”"
-msgstr "Boken Ada og Zangemann: En historie om programvare, rullebrett og bringebæris, av Matthias Kirschner og Sandra Brandstätter, utgitt av Petter Reinholdtsen, har bruksvilkår som beskrevet av «Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).»"
+msgstr "Boken Ada og Zangemann: En fortelling om programvare, rullebrett og bringebæris, av Matthias Kirschner og Sandra Brandstätter, utgitt av Petter Reinholdtsen, har bruksvilkår som beskrevet av «Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).»"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1118
