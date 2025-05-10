@@ -47,7 +47,7 @@ Some of those differences are listed here as a summary to assist in the developm
 ### Published hardcover
 
 - Sewn-bound with a bookmark ribbon
-- Inside cover is printed in yellow design with outline drawings
+- Endpapers are printed in yellow design with outline drawings
 
 ## Spanish screen pdf
 
