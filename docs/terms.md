@@ -73,3 +73,8 @@ in wording and to help you communicate clearly with professionals.
   Books are often designed in spreads to consider the point of the viewer where
   to pages can be seen at the same time. Some illustrations cover both pages of
   the spread.
+- **[Endpaper](https://en.wikipedia.org/wiki/Endpaper):** the spread at the
+  beginning and end of the book that connect the inner cover with the inner part
+  of the book. The German and Danish editions features a printed endpaper with
+  outlines of objects on a yellow background. A printed endpaper is a premium
+  feature at additional cost.
