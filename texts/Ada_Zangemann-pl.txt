@@ -198,7 +198,7 @@ Sandra Brandstätter
 
 ADA & ZANGEMANN
 
-Historia o oprogramowaniu, deskorolkach i lodach malinowych
+Opowieść o kodzie, deskorolkach i lodach malinowych
 
 ## 4 ##
 ==== Slide 2
@@ -796,8 +796,6 @@ podłączając prędkościomierz do swojego kasku.
 Razem, przeprogramowali swoje głośniki. Potem rozkręcili je na maksymalną
 głośność i tańczyli razem.
 
-Together, they changed the software for the speakers too. Then they
-turned up the music as loud as possible and danced wildly together.
 [[I:ada-p31
 IMAGE: A screwdriver with orange and gray handle, red pliers, and three
 LEDs: yellow, green, pink.
