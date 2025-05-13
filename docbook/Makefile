@@ -134,7 +134,7 @@ build/Ada_Zangemann-pandoc.all.md: $(targets-pandoc-md)
 
 # Build version with all images (for debugging)
 build/Ada_Zangemann-print-all.%.sla: build/Ada_Zangemann.%.dbk build/images/illustrations/all build/images/capitals xsl/scribus.xsl
-	xsltproc -o $@ --verbose --stringparam docbook-contents-file --stringparam profile.condition "colophon-simple" ../$< xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
+	xsltproc -o $@ --verbose --stringparam docbook-contents-file ../$< --stringparam profile.condition "colophon-simple" xsl/scribus.xsl templates/template-print.sla > $@.log 2>&1
 
 # Build version with image headers
 targets-print-headings-img = $(addprefix build/Ada_Zangemann-print-headings-img.,$(addsuffix .sla,$(translations)))
