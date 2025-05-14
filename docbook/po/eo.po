@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-05-06 19:03+0200\n"
-"PO-Revision-Date: 2025-05-06 18:29+0000\n"
-"Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
+"PO-Revision-Date: 2025-05-14 21:13+0000\n"
+"Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/fsfe/"
 "ada-zangemann/eo/>\n"
 "Language: eo\n"
@@ -110,7 +110,7 @@ msgstr "Toni"
 #. ignore-same
 #: Ada_Zangemann.dbk:294
 msgid "Konrad"
-msgstr ""
+msgstr "Konrado"
 
 #. (itstool) path: character/charactername
 #. Character names are mostly reference to existing people in computer
@@ -209,13 +209,18 @@ msgstr "images/capitals/T-yellow2.png"
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-back-1
 #: Ada_Zangemann.dbk:332
-#, fuzzy
 msgid ""
 "<phrase condition=\"capitals-text\">The</phrase><phrase condition=\"capitals-img\">he</phrase> inventor Zangemann is world-famous and immensely rich. Adults and children alike love his fabulous technical inventions. But one day there is a problem: the children’s electronic skateboards no longer work properly. What’s going on? The curious girl Ada sees through what is going on. "
 "Together with her friends, she experiments with hardware and software, and the children forge a plan: Zangemann can no longer be the only one in control of the devices!"
 msgstr ""
-"<phrase condition=\"capitals-text\">La</phrase><phrase condition=\"capitals-img\">a</phrase> inventisto Zangemann estas mondfama kaj ege riĉa. Plenkreskuloj kaj infanoj egale amas liajn mirindajn teknikajn inventaĵojn. Sed unu tagon aperas problemo: la elektronikaj rultabuloj de la infanoj jam ne funkcias ĝuste. Kio okazas? La scivolema knabino Ada travidas tion, kio okazas. Kune "
-"kun siaj amikoj, ŝi eksperimentas kun aparataro kaj programaro, kaj la infanoj elpensas planon: Zangemann jam ne plu povas esti la sola, kiu regas la aparatojn!"
+"<phrase condition=\"capitals-text\">La</phrase><phrase condition=\"capitals-"
+"img\">a</phrase> inventisto Zangemann estas mondfama kaj ege riĉa. "
+"Plenkreskuloj kaj infanoj egale amas liajn mirindajn teknikajn inventaĵojn. "
+"Sed unu tagon aperas problemo: la elektronikaj rultabuloj de la infanoj jam "
+"ne funkcias ĝuste. Kio okazas? La scivolema knabino Ada travidas tion, kio "
+"okazas. Kune kun siaj amikoj, ŝi eksperimentas kun aparataro kaj programaro, "
+"kaj la infanoj elpensas planon: Zangemann jam ne plu povas esti la sola, kiu "
+"regas la aparatojn!"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:333
@@ -587,11 +592,30 @@ msgid ""
 "enough that they could be built into other fun things. He knew what he would do. First, he would build a computer into his skateboard so that it would make cool noises when he rode it — maybe a fire engine siren or the sound of a rocket launch. Then he would use a computer to invent ice‑cream-making machines! The computer would mix the coolest flavors and even sell the ice cream. "
 "There would be machines on every street corner, and he could get ice cream in his favorite flavor whenever he felt like it, and just as much as he wanted. After that, he’d build a cleaning robot and a block-sorting machine so that his room would always be neat and clean. Zangemann had great new ideas like these every day. He could think of nothing else."
 msgstr ""
+"<phrase condition=\"capitals-text\">Komputiloj</phrase><phrase condition"
+"=\"capitals-img\">omputiloj</phrase> fascinis Zangemann-on ekde kiam li "
+"estis infano. Kiam li estis juna, komputiloj estis grandegaj maŝinoj kun "
+"multaj kabloj kaj laŭtaj, bruaj ventoliloj. En la lernejo, la malgranda "
+"Zangemann ofte revis pri ĉio, kion li farus per komputiloj se ili estus nur "
+"iom pli malgrandaj - sufiĉe malgrandaj por ke ili povu esti enigitaj en "
+"aliajn amuzajn aferojn. Li sciis, kion li farus. Unue, li enkonstruus "
+"komputilon en sian rultabulon, por ke ĝi faru malvarmetajn sonojn kiam li "
+"rajdus ĝin - eble pumpo-kamiona sireno aŭ la sono de raketo-lanĉo. Poste li "
+"uzus komputilon por inventi glaciaj-farajn maŝinojn! La komputilo miksus la "
+"plej malvarmetajn gustojn kaj eĉ vendus la glaciaĵon. Estus maŝinoj ĉe ĉiu "
+"stratangulo, kaj li povus akiri glaciaĵon en sia plej ŝatata gusto kiam ajn "
+"li volus, kaj tiom, kiom li dezirus. Post tio, li konstruus purigan roboton "
+"kaj bloko-sortigan maŝinon, por ke lia ĉambro ĉiam estu orda kaj pura. "
+"Zangemann havis bonegajn novajn ideojn kiel tiaj ĉi ĉiutage. Li povis pensi "
+"pri nenio alia."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:528
 msgid "As the years went by, Zangemann grew bigger and computers got smaller. In fact, by the time he finished school, they were so small they fit in his pocket. The smallest ones even fit on his fingertip."
 msgstr ""
+"Dum la jaroj, Zangemann kreskis kaj komputiloj fariĝis pli malgrandaj. "
+"Fakte, kiam li finis la lernejon, ili estis tiel malgrandaj, ke ili konvenis "
+"en lian poŝon. La plej malgrandaj eĉ povas stari sur lian fingropinton."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -617,6 +641,10 @@ msgstr ""
 #: Ada_Zangemann.dbk:540
 msgid "“Finally, I can turn all my ideas into real things!” Zangemann exclaimed, and he got right to work. He found ways to put the small computers into all kinds of things to make them even more fun and useful. And then he sold them."
 msgstr ""
+"“Finfine, mi povas transformi ĉiujn miajn ideojn en realajn aferojn!” "
+"Zangemann ekkriis, kaj li tuj eklaboris. Li trovis manierojn enmeti la "
+"malgrandajn komputilojn en ĉiajn aferojn por igi ilin eĉ pli amuzaj kaj "
+"utilaj. Kaj poste li vendis ilin."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -644,6 +672,14 @@ msgid ""
 "Adults and children loved his inventions. All the kids wanted to have one of his skateboards — complete with the latest sounds to show off to their friends at school. Kids also loved his speaker invention, which could instantly play any song you requested. And, of course, everyone loved the ice cream served every afternoon from the automatic, extra-delicious Original Zangemann "
 "Ice Cream Machine. It all seemed like magic, but the secret was simple: the little computers that Zangemann built into his machines made it all possible."
 msgstr ""
+"Plenkreskuloj kaj infanoj amis liajn inventaĵojn. Ĉiuj infanoj volis havi "
+"unu el liaj rultabuloj — kompleta kun la plej novaj sonoj por montri al siaj "
+"amikoj en la lernejo. Infanoj ankaŭ amis lian laŭtparolilan inventon, kiu "
+"povis tuj ludi ajnan kanton, kiun vi petis. Kaj, kompreneble, ĉiuj amis la "
+"glaciaĵon servatan ĉiun posttagmezon de la aŭtomata, ekstra bongusta "
+"Originala Zangemann Glaciaĵoj-maŝino. Ĉio ŝajnis magie, sed la sekreto estis "
+"simpla: la malgrandaj komputiloj, kiujn Zangemann enkonstruis en siajn "
+"maŝinojn, ebligis ĉion."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -687,6 +723,10 @@ msgstr ""
 #: Ada_Zangemann.dbk:562
 msgid "These inventions were very popular at Ada’s school, and many of her friends rode around on the cool skateboards. Ada was often sad, since her mother couldn’t buy her any of those great things: no skateboard, no speakers, no ice cream."
 msgstr ""
+"Ĉi tiuj inventaĵoj estis tre popularaj en la lernejo de Ada, kaj multaj el "
+"ŝiaj amikoj rajdis ĉirkaŭe sur la mojosaj rultabuloj. Ada ofte estis "
+"malĝoja, ĉar ŝia patrino ne povis aĉeti al ŝi iujn ajn el tiuj bonegaĵoj: "
+"nek rultabulon, nek laŭtparolilojn, nek glaciaĵon."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:564
@@ -694,16 +734,30 @@ msgid ""
 "Luckily, Ada lived right next to the junkyard. There were lots of broken gadgets and rusty parts, which she put together to make cool new things, like a soapbox she and Alan rode roaring down the hill, a windmill, and scary junk monsters, which she and Alan would fight together. She also found many useful items—an old cell phone, for example. The screen was cracked, but she could "
 "fix that, and while there wasn’t internet at the junkyard, she could get access somewhere else."
 msgstr ""
+"Bonŝance, Ada loĝis tuj apud la rubejo. Tie estis multaj rompitaj aparatoj "
+"kaj rustaj partoj, kiujn ŝi kunmetis por fari mojosajn novajn aferojn, kiel "
+"ekzemple keston, kiun ŝi kaj Alan rajdis muĝante laŭ la monteto, "
+"ventomuelejon, kaj timigajn ruba-monstrojn, kiujn ŝi kaj Alan batalis kune. "
+"Ŝi ankaŭ trovis multajn utilajn objektojn - ekzemple malnovan poŝtelefonon. "
+"La ekrano estis fendita, sed ŝi povis ripari tion, kaj kvankam ne estis "
+"interreto ĉe la rubodeponejo, ŝi povis akiri aliron aliloke."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:565
 msgid "Ada had so much fun tinkering in the junkyard and fixing broken things that she forgot all about the skateboards and the ice cream."
 msgstr ""
+"Ada tiom amuziĝis riparante en la rubejo kaj riparante rompitajn aĵojn, ke "
+"ŝi tute forgesis pri la rultabuloj kaj la glaciaĵo."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:569
 msgid "Because everyone bought his inventions, Zangemann soon became the richest person in the whole world. With all his money, he bought a huge golden computer with a keyboard made of jewels and set it up in the largest room of his mansion. From there, over the internet, he could control all the little computers built into his inventions."
 msgstr ""
+"Ĉar ĉiuj aĉetis liajn inventaĵojn, Zangemann baldaŭ fariĝis la plej riĉa "
+"homo en la tuta mondo. Per sia tuta mono, li aĉetis grandegan oran "
+"komputilon kun klavaro farita el juveloj kaj instalis ĝin en la plej granda "
+"ĉambro de sia domego. De tie, per la interreto, li povis regi ĉiujn "
+"malgrandajn komputilojn enigitajn en liajn inventojn."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:570
