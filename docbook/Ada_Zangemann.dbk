@@ -270,7 +270,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
         <surname>Kirschner</surname>
       </personname>
     </author>
-    <othercredit its:locNote="ignore-same">
+    <othercredit class="illustrator" its:locNote="ignore-same">
       <personname>
         <firstname>Sandra</firstname>
         <surname>Brandstätter</surname>
