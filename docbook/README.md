@@ -4,7 +4,9 @@ SPDX-FileCopyrightText: 2024 Nico Rikken <nico.rikken@fsfe.org>
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 
-# DocBook trial
+# DocBook automation
+
+This directory holds the DocBook automation. More information is available in the [automation design](../docs/automation-design.md) and [DocBook](../docs/docbook.md) documentation sections.
 
 ## Considerations
 
@@ -383,74 +385,6 @@ Some examples of XSLT intended for DocBook:
 - [Docbook2SLA Python package](https://pypi.org/project/docbook2sla/) that contains XSLT conversions for DocBook to Scribus and vice versa. The source code has been extracted from the source packages to [this repository](https://gitlab.com/nicorikken/docbook2sla)
 
 <!-- TODO: add details on Scribus and XML tooling -->
-
-## Schema summary
-
-A brief overview of the Docbook elements and custom attributes used in the source format.
-
-```xml
-<?xml az:datamodelversion="0.1.0-alpha"/>
-<book>
-  <info>
-    <title/>
-    <subtitle/>
-    <biblioid class="isbn" role="print"/>
-    <biblioid class="isbn" role="ebook"/>
-    <author>
-      <personname/>
-    </author>
-    <copyright/>
-    <legalnotice/>
-    <author/>
-    <othercredit class="illustrator"/>
-    <othercredit class="translator"/> # or proofreader, reviewer
-    <az:style>
-      <az:fontset condition="scribus">
-        <az:font role="body">
-          <az:fontfamily>Heebo</az:fontfamily>
-          <az:fontstyle>regular</az:fontstyle>
-          <az:fontsize>12pt</az:fontsize>
-          <az:fonthref>https://github.com/OdedEzer/heebo</az:fonthref>
-          <az:fontlicense>OFL-1.1</az:fontlicense>
-        </az:font>
-      </az:fontset>
-    </az:style>
-    <az:namedcharacters>
-      <az:character role="ada">
-        <az:charactername>Ada</az:charactername>
-        <az:characternameorigin>Ada Lovelace</az:characternameorigin>
-      </az:character>
-    </az:namedcharacters>
-    <cover role="front"/>
-    <cover role="back"/>
-  </info>
-  <colophon/>
-  <chapter xml:id="ch1">
-    <info>
-      <title/>
-      <subtitle/>
-      <titleabbrev/>
-    </info>
-    <anchor az:slidenum="1"/>
-    <simplesect xml:id="sec-p01" az:pagenum="1">
-      <literallayout/>
-      <para xml:id="para-p01-1" az:dropcap="true" az:dropcapcolor="#fddd66" az:dropcapbackgroundcolor="#71aaa4" az:dropcapfileref="../illustrations/Capitals/T-yellow2.png" az:dropcapheightpt="50.56" az:dropcapwidthpt="42.72" az:dropcaplocalsc="0.16">
-        <emphasis role="bold"/>
-        <link xlink:href="https://ada.fsfe.org">https://ada.fsfe.org</link>
-      </para>
-      <mediaobject xml:id="img-ada-p01">
-        <imageobject>
-          <imageobject condition="print">
-            <imagedata fileref="figs/print/ada.png"/>
-          </imageobject>
-        </imageobject>
-        <alt/>
-      </mediaobject>
-    </simplesect>
-  </chapter>
-  <appendix/>
-</book>
-```
 
 ## Other details
 

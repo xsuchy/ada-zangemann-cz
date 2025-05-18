@@ -26,3 +26,4 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 ## Technical
 
 - [Automation design](automation-design.md)
+- [DocBook](docbook.md)
