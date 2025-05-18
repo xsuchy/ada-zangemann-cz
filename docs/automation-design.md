@@ -90,6 +90,8 @@ Noteworthy decisions made in the automation.
    - The ITS standard is used to configure the translations, combined with the
      Itstool program to merge translations.
 
+More details are on the [DocBook page](docbook.md).
+
 ### Subtitles
 
 - The simple and common SRT file format is used.
