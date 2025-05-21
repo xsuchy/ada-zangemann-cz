@@ -5,16 +5,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-05-06 19:03+0200\n"
-"PO-Revision-Date: 2025-05-10 09:37+0200\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/fsfe/ada-zangemann/nb_NO/>\n"
+"PO-Revision-Date: 2025-05-21 20:51+0000\n"
+"Last-Translator: \"Henrik G. Sundt\" <hsundt@notam.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/fsfe/"
+"ada-zangemann/nb_NO/>\n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -616,8 +618,13 @@ msgid ""
 "Far away, at the other end of town, lived a famous inventor named Zangemann. He was immensely rich. No sheet of paper in the world was big enough to show his bank balance with all its numbers and zeros! He lived in a huge house with a swimming pool and waterslide, lots of staircases and towers, hundreds of windows, and so many rooms that he often got lost in them himself. "
 "Zangemann’s mansion stood high on a hill. From there, he could look out over the whole city."
 msgstr ""
-"Langt unna, i den andre enden av byen, bodde en berømt oppfinner som het Zangemann. Han var enormt rik. Det fantes ikke et papirark i verden som var stort nok til at man der kunne skrive hvor mye penger han hadde i banken. Ikke en gang hvis man skrev tallet med veldig små siffer! Han bodde i et kjempestort hus med svømmebasseng og vannsklie, massevis av trapper og tårn, hundrevis "
-"av vinduer og så mange rom at han ofte gikk seg bort i dem. Zangemanns herskapshus sto høyt oppe på en kolle. Derfra kunne han se ut over hele byen."
+"Langt unna, i den andre enden av byen, bodde en berømt oppfinner som het "
+"Zangemann. Han var enormt rik. Det fantes ikke et papirark i verden som var "
+"stort nok til å skrive ned hvor mye penger han hadde i banken. Ikke en gang "
+"hvis man skrev tallet med veldig små siffer! Han bodde i et kjempestort hus "
+"med svømmebasseng og vannsklie, massevis av trapper og tårn, hundrevis av "
+"vinduer og så mange rom at han ofte gikk seg bort i dem. Zangemanns "
+"herskapshus sto høyt oppe på en kolle. Derfra kunne han se ut over hele byen."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:523
@@ -750,7 +757,11 @@ msgstr ""
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:562
 msgid "These inventions were very popular at Ada’s school, and many of her friends rode around on the cool skateboards. Ada was often sad, since her mother couldn’t buy her any of those great things: no skateboard, no speakers, no ice cream."
-msgstr "Også på Adas skole var oppfinnelsene veldig populære, og mange av vennene hennes kjørte rundt på de stilige rullebrettene. Ada var ofte lei seg siden hennes mor ikke hadde råd til noen av de fantastiske tingene. Hverken rullebrett, høyttalere eller is."
+msgstr ""
+"Også på Adas skole var oppfinnelsene veldig populære, og mange av vennene "
+"hennes kjørte rundt på de stilige rullebrettene. Ada var ofte lei seg siden "
+"moren hennes ikke hadde råd til noen av de fantastiske tingene. Hverken "
+"rullebrett, høyttalere eller is."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:564
@@ -769,7 +780,12 @@ msgstr "Ada hadde det så morsomt med å fikle på skraphaugen og fikse ødelagt
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:569
 msgid "Because everyone bought his inventions, Zangemann soon became the richest person in the whole world. With all his money, he bought a huge golden computer with a keyboard made of jewels and set it up in the largest room of his mansion. From there, over the internet, he could control all the little computers built into his inventions."
-msgstr "Siden alle kjøpte oppfinnelsene hans, ble Zangemann raskt den rikeste personen i hele verden. Med alle pengene sine kjøpte han seg en datamaskin av gull med et tastatur av edelsteiner, som han satte opp i det største rommet i huset sitt. Fra den kunne han via Internettet kontrollere alle de små datamaskinene som var bygget inn i hans oppfinnelser."
+msgstr ""
+"Siden alle kjøpte oppfinnelsene hans, ble Zangemann raskt den rikeste "
+"personen i hele verden. Med alle pengene sine kjøpte han seg en datamaskin "
+"av gull med et tastatur av edelsteiner, som han satte opp i det største "
+"rommet i huset sitt. Fra den, via Internett, kunne han kontrollere alle de "
+"små datamaskinene som var bygget inn i oppfinnelsene hans."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:570
@@ -867,7 +883,11 @@ msgstr "En dag..."
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:604
 msgid "One day Zangemann thought, “Today I want to see my inventions up close.” He put away his big telescope, then climbed down the many stairs of his mansion and ventured out into the city, full of anticipation at the thought of enjoying his cool devices."
-msgstr "En dag tenkte Zangemann: «I dag vil jeg se oppfinnelsene mine på nært hold.» Han la vekk sitt store teleskop og gikk full av forventninger ned de mange trappene fra huset sitt og ned på gaten, for å komme ut i byen og nyte sine apparater."
+msgstr ""
+"En dag tenkte Zangemann: «I dag vil jeg se oppfinnelsene mine på nært hold.» "
+"Han la vekk det store teleskopet sitt, og gikk full av forventninger ned de "
+"mange trappene fra huset sitt og ned på gaten, for å komme seg til byen og "
+"beundre de kule apparatene sine."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -894,7 +914,12 @@ msgstr ""
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:613
 msgid "“Maybe a little trip might even give me a few new ideas. If I’m completely honest, my last inventions weren’t quite as useful as the first ones... ,” Zangemann pondered. “But my ice-cream machines are and will remain second to none,” he thought immediately afterward, and not without pride, as he passed a group of people all eating coconut ice cream, the flavor of the day."
-msgstr "«Kanskje kan en liten utflukt til og med gi meg noen nye ideer. For å være helt ærlig, så var mine siste oppfinnelser ikke like praktiske som de første…», tenkte Zangemann. «Men iskremmaskinene mine er og blir uten sidestykke», tenkte han like etter med en viss stolthet, da han gikk forbi en gruppe mennesker som slikket på en kokosis, som var dagens smak."
+msgstr ""
+"«Kanskje kan en liten utflukt til og med gi meg noen nye ideer. For å være "
+"helt ærlig, så var ikke de nyeste oppfinnelsene mine like nyttige som de "
+"første…», tenkte Zangemann. «Men iskremmaskinene mine er og blir uten "
+"sidestykke», tenkte han like etter med en viss stolthet, da han gikk forbi "
+"en gruppe mennesker som slikket på en kokosis, som var dagens smak."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:615
@@ -930,8 +955,12 @@ msgid ""
 "An angry Zangemann limped away. Suddenly, he heard loud music. He had never before heard something so horrible. He looked around and saw that the music was coming from a loudspeaker he himself had constructed. A child across the street was holding it. The child seemed to like the music, but it gave Zangemann a terrible headache, and his mood worsened. This was not how he had "
 "imagined his walk!"
 msgstr ""
-"Rasende haltet Zangemann av gårde. Plutselig hørte han høy musikk. Han hadde aldri hørt noe så skrekkelig. Han så seg rundt og så at musikken kom fra en høyttaler han selv hadde utviklet. Et barn på andre siden av gaten hadde den i hånden. Barnet så ut til å nyte musikken, men den ga Zangemann en forferdelig hodepine og humøret ble dårligere. Det var ikke slik han hadde forestilt "
-"seg sin spasertur!"
+"Rasende haltet Zangemann av gårde. Plutselig hørte han høy musikk. Han hadde "
+"aldri hørt noe så skrekkelig. Han så seg rundt og så at musikken kom fra en "
+"høyttaler han selv hadde utviklet. Et barn på andre siden av gaten hadde den "
+"i hånden. Barnet så ut til å like musikken, men den ga Zangemann en "
+"forferdelig hodepine, og humøret ble dårligere. Det var ikke slik han hadde "
+"forestilt seg spaserturen!"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -961,8 +990,13 @@ msgid ""
 "Zangemann was so furious with the two children. How dare they use his inventions this way? That night, he couldn’t sleep, so he sat down at his golden computer. From there, he gave all the little computers in the skateboards a command that they were no longer allowed to go on sidewalks. He ordered the small computers in the speakers to play music only at a low volume, except for "
 "his favorite music, which he immediately turned on to get into a better mood."
 msgstr ""
-"Zangemann var så rasende på de to ungene. Hvordan våget de bruke hans oppfinnelser slik? Samme natt klarte han ikke sove, så han satte seg ved sin gyldne datamaskin. Fra den sendte han ordre ut til alle de små datamaskinene i rullebrettene at de ikke lenger fikk lov til å kjøre på fortau. Han beordret de små datamaskinene i høyttalerne til å spille musikk kun på lavt, med mindre "
-"det var hans yndlingsmusikk, som han straks slo på for å komme i bedre humør."
+"Zangemann var så rasende på de to ungene. Hvordan våget de bruke "
+"oppfinnelsene hans på denne måten? Samme natt klarte han ikke sove, så han "
+"satte seg ved sin gyldne datamaskin. Fra den ga han ordre til alle de små "
+"datamaskinene i rullebrettene om at de ikke lenger fikk lov til å kjøre på "
+"fortau. Han beordret de små datamaskinene i høyttalerne til å kun spille "
+"musikk lavt, med mindre det var hans yndlingsmusikk, som han straks slo på "
+"for å komme i bedre humør."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1047,8 +1081,14 @@ msgid ""
 "Although she didn’t own any of these things, Ada wondered why the skateboards and the speakers suddenly stopped working. But she didn’t really have time to think much about it, because she was tinkering again. She put together a complete bicycle from the parts of three broken bicycles. She gave the bicycle to her mother as a present so that she wouldn’t have to spend her money on "
 "bus tickets to work. For her brother, Ada built a loudspeaker so he could fall asleep to nice stories in the evenings when their mother was still at work."
 msgstr ""
-"Selv om hun ikke selv eide noen av disse tingene, så undret Ada på hvorfor rullebrettene og høyttalerne plutselig sluttet å virke. Men hun hadde egentlig ikke tid til å tenke mye på det, for hun var igang med å fikle igjen. Av delene fra tre ødelagte sykler satte hun sammen en ny sykkel. Den ga hun til mammaen sin, slik at hun ikke trengte å bruke penger på å ta bussen til "
-"arbeide. Og til sin bror bygde hun en høyttaler, slik at han kunne høre på fine godnatthistorier om kvelden, når han skulle sove og mamma fortsatt var på jobb."
+"Selv om hun ikke selv eide noen av disse tingene, så undret Ada på hvorfor "
+"rullebrettene og høyttalerne plutselig sluttet å virke. Men hun hadde "
+"egentlig ikke tid til å tenke mye på det, for hun var igang med å fikle "
+"igjen. Av delene fra tre ødelagte sykler satte hun sammen en ny sykkel. Den "
+"ga hun til mammaen sin, slik at hun ikke trengte å bruke penger på å ta "
+"bussen til arbeidet. Og til sin bror bygde hun en høyttaler, slik at han "
+"kunne høre på fine godnatthistorier om kvelden, når han skulle sove og mamma "
+"fortsatt var på jobb."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1249,8 +1289,13 @@ msgid ""
 "Once he was done, he sent all the new programs from his golden computer to people’s devices. He ordered his speakers to play only his favorite music whenever he was within earshot. He programmed the ice-cream machines to stop selling ice cream in the afternoon. After all, he didn’t want his expensive clothes to get stained by ice cream while he was out for a walk. All day long he "
 "sat at the computer and typed and typed and typed..."
 msgstr ""
-"Da han var ferdig, sendte han alle de nye programmene fra sin gyldne datamaskin til folks enheter. Han beordret høyttalerne til å ikke spille noe annet enn favorittmusikken hans når han var nært nok til å kunne høre dem. Han programmerte iskremmaskinene til å ikke lenger selge iskrem på ettermiddagen, for han ville ikke få iskremflekker på sine dyre bukser når han var ute og "
-"spaserte. Hele dagen satt han ved datamaskinen sin og skrev og skrev og skrev..."
+"Da han var ferdig, sendte han alle de nye programmene fra sin gyldne "
+"datamaskin til folks enheter. Han beordret høyttalerne til å ikke spille noe "
+"annet enn favorittmusikken hans når han var nært nok til å kunne høre dem. "
+"Han programmerte iskremmaskinene til å ikke lenger selge iskrem på "
+"ettermiddagen, for han ville ikke få iskremflekker på de dyre buksene når "
+"han var ute og spaserte. Hele dagen satt han ved datamaskinen sin og skrev "
+"og skrev og skrev..."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:739
@@ -1272,23 +1317,41 @@ msgid ""
 "<phrase condition=\"capitals-text\">Summer</phrase><phrase condition=\"capitals-img\">ummer</phrase> break was already halfway over. Ada stood in front of her big project and scratched her head. She had built a skateboard from old parts and then connected a motor to make the wheels turn. With a motorized skateboard, Ada could zoom to the library or the junkyard even faster after "
 "school. Super practical! But it didn’t work. When she stood on it and pressed the Go! button, the wheels moved, but way too fast. Ada fell off the skateboard every time she started. No matter what she tried, she just couldn’t get it right."
 msgstr ""
-"<phrase condition=\"capitals-text\">Sommerferie</phrase><phrase condition=\"capitals-img\">ommerferie</phrase> var allerede halvveis over. Ada sto foran sitt store prosjekt og klødde seg i hodet. Hun hadde bygd et rullebrett fra gamle deler, og deretter koblet til en motor for å få hjulene til å snurre rundt. Med et motorisert rullebrett kunne Ada suse avgårde til biblioteket "
-"eller skraphaugen enda raskere etter skolen. Superpraktisk! Men det virket ennå ikke. Når hun sto på det og trykket på «Kjør!»-knappen, gikk hjulene rundt, men altfor raskt. Ada falt av rullebrettet hver gang hun startet det. Uansett hva hun prøvde, så fikk hun det bare ikke til å fungerer."
+"<phrase condition=\"capitals-text\">Sommerferie</phrase><phrase condition"
+"=\"capitals-img\">ommerferie</phrase> var allerede halvveis over. Ada sto "
+"foran det store prosjektet sitt, og klødde seg i hodet. Hun hadde bygd et "
+"rullebrett fra gamle deler, og så koblet til en motor for å få hjulene til å "
+"snurre rundt. Med et motorisert rullebrett kunne Ada suse av gårde etter "
+"skolen til biblioteket eller skraphaugen, enda raskere. Superpraktisk! Men "
+"det virket ennå ikke. Når hun sto på det og trykket på «Kjør!»-knappen, gikk "
+"hjulene rundt, men altfor raskt. Ada falt av rullebrettet hver gang hun "
+"startet det. Uansett hva hun prøvde, så fikk hun det bare ikke til å fungere."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:744
 msgid "After falling on her bottom for the hundredth time, she went back to the library. She always found answers to her questions there. And indeed, on the internet, she came across a program that someone had written for an electric scooter that also needed to start slowly. Ada downloaded it to her phone."
-msgstr "Etter å ha falt på rompen for hundrede gang, gikk hun tilbake til biblioteket. Der fant hun egentlig alltid svar på spørsmålene sine. Og sant nok. På Internett kom hun over et program som noen hadde skrevet for et elektrisk sparkesykkel som også måtte starte forsiktig. Ada lastet det ned til telefonen sin."
+msgstr ""
+"Etter å ha falt på rompen for hundrede gang, gikk hun tilbake til "
+"biblioteket. Der fant hun alltid svar på spørsmålene sine. Og sant nok, på "
+"Internett fant hun frem til et program noen hadde skrevet for en elektrisk "
+"sparkesykkel, som også måtte starte forsiktig. Ada lastet det ned til "
+"telefonen sin."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:746
 msgid "Back at the junkyard, she adapted some lines of code for her skateboard program. She tweaked a few things and kept tinkering."
-msgstr "Tilbake på skraphaugen tilpasset hun noen kodelinjer i rullebrettprogrammet sitt. Hun justerte på et par ting og fortsatte med fiklingen."
+msgstr ""
+"Tilbake på skraphaugen tilpasset hun noen kodelinjer i rullebrettprogrammet "
+"sitt. Hun justerte på et par ting, og fortsatte med fiklingen."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:747
 msgid "Several failed attempts later, on the last day of summer break, the time had finally come. Ada stood on the skateboard and pressed the Go! button, and the skateboard started moving, slowly at first, then faster. It worked! She tried to brake. It worked! Ada let out a cry of joy and took a trip to the park."
-msgstr "Flere feilede forsøk senere, så sommerferiens siste dag, sto Ada nok en gang på rullebrettet og trykket på Kjør!-knappen: Sakte begynte rullebrettet å bevege seg. Så ble det raskere. Det virket! Hun forsøkte å bremse. Det virket! Ada kom med et jubelrop og tok en tur i parken."
+msgstr ""
+"Flere mislykkede forsøk senere, på sommerferiens siste dag, sto Ada nok en "
+"gang på rullebrettet og trykket på «Kjør!»-knappen: Sakte begynte "
+"rullebrettet å bevege seg. Så gikk det raskere. Det virket! Hun forsøkte å "
+"bremse. Det virket også! Ada kom med et jubelrop, og tok en tur i parken."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
