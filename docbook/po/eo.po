@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-05-06 19:03+0200\n"
-"PO-Revision-Date: 2025-05-14 21:13+0000\n"
+"PO-Revision-Date: 2025-05-23 19:01+0000\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/fsfe/"
 "ada-zangemann/eo/>\n"
@@ -838,18 +838,26 @@ msgstr ""
 #: Ada_Zangemann.dbk:596
 msgid "Soon, almost every appliance in the world had a Zangemann computer built into it. Not all of his inventions seemed necessary at first, but people bought everything he made. That’s just the way it was. Everyone wanted the devices made by Zangemann, the greatest inventor in the world."
 msgstr ""
+"Baldaŭ, preskaŭ ĉiu aparato en la mondo havis enkonstruitan Zangemann-an "
+"komputilon. Ne ĉiuj liaj inventoj ŝajnis necesaj komence, sed homoj aĉetis "
+"ĉion, kion li faris. Tiel estis. Ĉiuj volis la aparatojn faritajn de "
+"Zangemann, la plej granda inventinto en la mondo."
 
 #. (itstool) path: info/title
 #. Intended as 'on a day', not 'a single day'. This is supposed to be
 #. equal to the beginning of the first sentence of this chapter.
 #: Ada_Zangemann.dbk:601
 msgid "One day..."
-msgstr ""
+msgstr "Iun tagon..."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:604
 msgid "One day Zangemann thought, “Today I want to see my inventions up close.” He put away his big telescope, then climbed down the many stairs of his mansion and ventured out into the city, full of anticipation at the thought of enjoying his cool devices."
 msgstr ""
+"Iun tagon Zangemann pensis: “Hodiaŭ mi volas vidi miajn inventaĵojn de "
+"proksime.” Li formetis sian grandan teleskopon, poste malsupreniris la "
+"multajn ŝtupojn de sia domego kaj kuraĝis eliri en la urbon, plena de "
+"antaŭĝojo pri la penso ĝui siajn mojosajn aparatojn."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -875,11 +883,18 @@ msgstr ""
 #: Ada_Zangemann.dbk:613
 msgid "“Maybe a little trip might even give me a few new ideas. If I’m completely honest, my last inventions weren’t quite as useful as the first ones... ,” Zangemann pondered. “But my ice-cream machines are and will remain second to none,” he thought immediately afterward, and not without pride, as he passed a group of people all eating coconut ice cream, the flavor of the day."
 msgstr ""
+"“Eble eta vojaĝo eĉ donus al mi kelkajn novajn ideojn. Se mi estas tute "
+"honesta, miaj lastaj inventoj ne estis tiom utilaj kiel la unuaj…,” "
+"Zangemann pripensis. “Sed miaj glaciaĵmaŝinoj estas kaj restos "
+"senkompareblaj,” li pensis tuj poste, kaj ne sen fiereco, dum li preterpasis "
+"grupon da homoj, kiuj ĉiuj manĝis kokosan glaciaĵon, la guston de la tago."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:615
 msgid "He was completely absorbed in his thoughts when suddenly — BAM! — something crashed into his shin."
 msgstr ""
+"Li estis tute sorbita de siaj pensoj, kiam subite — BAM! — io koliziis kun "
+"lia tibio."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -903,6 +918,10 @@ msgstr ""
 #: Ada_Zangemann.dbk:624
 msgid "Zangemann yelped and looked around for the cause. A startled child stood in front of him, holding an original Zangemann skateboard under his arm. “Sorry, I didn’t mean to do that,” the child stammered, but Zangemann wasn’t listening."
 msgstr ""
+"Zangemann ekkriis kaj ĉirkaŭrigardis por trovi la kaŭzon. Konsternita infano "
+"staris antaŭ li, tenante originalan Zangemann-rultabulon sub la brako. "
+"\"Pardonu, mi ne intencis fari tion,\" la infano balbutis, sed Zangemann ne "
+"aŭskultis."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:625
@@ -910,6 +929,12 @@ msgid ""
 "An angry Zangemann limped away. Suddenly, he heard loud music. He had never before heard something so horrible. He looked around and saw that the music was coming from a loudspeaker he himself had constructed. A child across the street was holding it. The child seemed to like the music, but it gave Zangemann a terrible headache, and his mood worsened. This was not how he had "
 "imagined his walk!"
 msgstr ""
+"Kolera Zangemann lamis for. Subite, li aŭdis laŭtan muzikon. Li neniam "
+"antaŭe aŭdis ion tiel teruran. Li rigardis ĉirkaŭen kaj vidis, ke la muziko "
+"venis de laŭtparolilo, kiun li mem konstruis. Infano trans la strato tenis "
+"ĝin. La infano ŝajnis ŝati la muzikon, sed ĝi kaŭzis al Zangemann teruran "
+"kapdoloron, kaj lia humoro plimalboniĝis. Tio ne estis kiel li imagis sian "
+"promenadon!"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
