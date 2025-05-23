@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-05-06 19:03+0200\n"
-"PO-Revision-Date: 2025-05-06 19:50+0200\n"
-"Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Kabyle <https://hosted.weblate.org/projects/fsfe/ada-zangemann/kab/>\n"
+"PO-Revision-Date: 2025-05-23 19:01+0000\n"
+"Last-Translator: Moonshadow <moonshadow@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Kabyle <https://hosted.weblate.org/projects/fsfe/"
+"ada-zangemann/kab/>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -139,7 +140,7 @@ msgstr "Marie"
 #. ignore-same
 #: Ada_Zangemann.dbk:300
 msgid "Ms. Gernet"
-msgstr ""
+msgstr "Mass Gernet"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -198,7 +199,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:332
 msgid "images/capitals/T-yellow2.png"
-msgstr ""
+msgstr "tugniwin/isekkilen imeqqranen/T-awraɣ2ng"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-back-1
@@ -553,7 +554,7 @@ msgstr "Zangemann d yiselkimen"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:527
 msgid "images/capitals/C-red1.png"
-msgstr ""
+msgstr "tugniwin/isekkilen imeqqranen/C-azewwaɣ1.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p06-1
@@ -899,7 +900,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:654
 msgid "Skateboards no longer work"
-msgstr ""
+msgstr "Skateboards dayen ur iteddu ara"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1108,7 +1109,7 @@ msgstr "Iḍ yessexlaεen"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:732
 msgid "images/capitals/Z-brown.png"
-msgstr ""
+msgstr "tugniwin/isekkilen imeqqranen/Z-aqehwi.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p25-1
@@ -1141,7 +1142,7 @@ msgstr "Asenfaṛ amezwaru n tidet"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:743
 msgid "images/capitals/S-red2.png"
-msgstr ""
+msgstr "tugniwin/isekkilen imeqqranen/S-azewwaɣ2.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p26-1
@@ -1197,7 +1198,7 @@ msgstr ""
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:760
 msgid "“How can you ride your skateboard on the sidewalk?” they asked."
-msgstr ""
+msgstr "Nnan-as: \"Amek ara tessekneḍ skateboard inek deg utṛutwar\"."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1254,7 +1255,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:781
 msgid "Hacking for freedom"
-msgstr ""
+msgstr "Asɣendef i tlelli"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1262,7 +1263,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:785
 msgid "images/capitals/M-yellow.png"
-msgstr ""
+msgstr "tugniwin/isekkilen imeqqranen/M-awraɣ.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p30-1
@@ -1403,7 +1404,7 @@ msgstr "images/illustrations/ada-p34-bottom.ltr.png"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:838
 msgid "images/capitals/E-pink.png"
-msgstr ""
+msgstr "tugniwin/isekkilen imeqqranen/E-axuxi.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p35-1
@@ -1436,7 +1437,7 @@ msgstr "Zangemann akked uselway"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:849
 msgid "images/capitals/O-green.png"
-msgstr ""
+msgstr "tugniwin/isekkilen imeqqranen/O-azegzaw.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p36-1
@@ -1581,7 +1582,7 @@ msgstr ""
 #. Text on big banner, left on the illustration
 #: Ada_Zangemann.dbk:897
 msgid "Do your homework Mr. President and we will do ours!"
-msgstr ""
+msgstr "Eg aɣanen-ik Mass Aselway, ad neg widak-nneɣ!"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1631,7 +1632,7 @@ msgstr "Meẓẓiyit yerna ḥwaǧen angal!"
 #. can be used, which translates to 'without code everything is dull!'.
 #: Ada_Zangemann.dbk:915
 msgid "Don’t wreck our tech!"
-msgstr ""
+msgstr "Ur aɣ-ttruẓu ara titiknulujiyin nneɣ!"
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:922
@@ -1725,7 +1726,7 @@ msgstr "Asaḍuf amaynut"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:952
 msgid "images/capitals/T-red3.png"
-msgstr ""
+msgstr "tugniwin/isekkilen imeqqranen/T-azewwaɣ3.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p44-1
@@ -1774,6 +1775,8 @@ msgstr ""
 #: Ada_Zangemann.dbk:965
 msgid "In addition, a new school subject was introduced: computer hardware and software."
 msgstr ""
+"Seg tama niḍen, yettwasekcem usentel aɣurbiz d amaynut: arrum asenselkam d "
+"useɣẓan."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1850,7 +1853,7 @@ msgstr "I Zangemann?"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:999
 msgid "images/capitals/A-yellow.png"
-msgstr ""
+msgstr "tugniwin/isekkilen imeqqranen/A-awraɣ.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p48-1
@@ -1894,7 +1897,7 @@ msgstr "images/illustrations/ada-p49.ltr.png"
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:1013
 msgid "A trail of candies and raspberry ice cream on the ground."
-msgstr ""
+msgstr "Tella tezribt n tḥelwatin akked tsemmaḍin ɣef lqaɛa."
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-acknowledgments
@@ -2059,9 +2062,8 @@ msgstr ""
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-bookswebsite
 #: Ada_Zangemann.dbk:1092
-#, fuzzy
 msgid "Book’s website"
-msgstr "Asebter Web n udlis"
+msgstr "Asmel web n udlis"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
