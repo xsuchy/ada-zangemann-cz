@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-05-06 19:03+0200\n"
-"PO-Revision-Date: 2025-05-23 19:01+0000\n"
+"PO-Revision-Date: 2025-05-25 07:01+0000\n"
 "Last-Translator: Hotripak <hotr1pak@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/fsfe/"
 "ada-zangemann/uk/>\n"
@@ -226,7 +226,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:332
 msgid "images/capitals/T-yellow2.png"
-msgstr ""
+msgstr "images/capitals/T-yellow2.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-back-1
@@ -693,7 +693,7 @@ msgstr ""
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:500
 msgid "images/capitals/O-cyan.png"
-msgstr ""
+msgstr "images/capitals/O-cyan.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p04-1
@@ -799,7 +799,7 @@ msgstr "Занґеманн і комп'ютери"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:527
 msgid "images/capitals/C-red1.png"
-msgstr ""
+msgstr "images/capitals/C-red1.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p06-1
@@ -1320,7 +1320,7 @@ msgstr "Скейтборди перестали працювати"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:658
 msgid "images/capitals/T-olive.png"
-msgstr ""
+msgstr "images/capitals/T-olive.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p18-1
@@ -1352,6 +1352,13 @@ msgid ""
 "Five kids from the school who can’t make skateboards work. Two girls wear helmets, respectively blue and red. A little girl with brown hair tied in two tails with yellow rubber bands is kneeling. She is trying to understand why the skateboard of her friend with the red helmet does not work. Four children have backpacks on their shoulders, while the little girl with the red helmet "
 "left hers leaning on a bench on which there are a yellow apple and a light blue bottle with a white flower on it."
 msgstr ""
+"П'ятеро дітей зі школи, які не можуть змуситискейтборди працювати. Дві "
+"дівчинки в шоломах, відповідно синього і червоного кольору. Маленька "
+"дівчинка з каштановим волоссям, зав'язаним у два хвости жовтими гумками, "
+"стоїть на колінах. Вона намагається зрозуміти, чому не працює скейт її "
+"подруги в червоному шоломі. У чотирьох дітей на плечах рюкзаки, а дівчинка в "
+"червоному шоломі залишила свій, притулившись до лавки, на якій стоять жовте "
+"яблуко і світло-блакитна пляшка з білою квіткою на ній."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:667
@@ -1384,6 +1391,8 @@ msgstr "images/illustrations/ada-p19.ltr.png"
 #: Ada_Zangemann.dbk:672
 msgid "Close-up of Ada thoughtful, with a backpack and with one hand on her chin and the other resting on her side."
 msgstr ""
+"Крупним планом Ада замислена, з рюкзаком, з однією рукою на підборідді, а "
+"іншою спирається на бік."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:675
@@ -1406,7 +1415,7 @@ msgstr "Ада та програмне забезпечення"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:684
 msgid "images/capitals/A-fucsia.png"
-msgstr ""
+msgstr "images/capitals/A-fucsia.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p20-1
@@ -1473,6 +1482,11 @@ msgstr "images/illustrations/ada-p21.ltr.png"
 #: Ada_Zangemann.dbk:693
 msgid "Computer screen from which the elements of the programming language symbolically emerge: “while num &gt; 0“, “init“, “sx=42“, “for“, “v**3“. Ada is typing on a white keyboard with a blue cable, while her other hand enters the screen to change the program (“print(msg)”, “a+b+c+d=e”, “if”, “break”, “continue”, “exit()”). Next to the keyboard there are a pencil and an eraser."
 msgstr ""
+"Екран комп'ютера, з якого символічно з'являються елементи мови програмування:"
+" “while num &gt; 0“, “init“, “sx=42“, “for“, “v**3“. Ада набирає текст на "
+"білій клавіатурі з синім кабелем, а іншою рукою вводить на екрані зміни в "
+"програмі (“print(msg)”, “a+b+c+d=e”, “if”, “break”, “continue”, “exit()”). "
+"Поруч з клавіатурою знаходяться олівець та гумка."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:699
@@ -1485,7 +1499,7 @@ msgstr "Програмування"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:703
 msgid "images/capitals/O-lightcyan.png"
-msgstr ""
+msgstr "images/capitals/O-lightcyan.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p22-1
@@ -1550,6 +1564,12 @@ msgid ""
 "Ada comes to grips with programming. She is typing on a keyboard resting on a gray mat and connected to a smartphone with a blue cable. The smartphone is connected with a red wire to an electronic card with a yellow LED lamp. The smartphone is powered by a transformer connected to a power strip with a gray wire and plug. On the table there are also: 3 books, of which one is open; "
 "a clipboard and a pencil; pliers; glue; solder; and a disconnected soldering iron."
 msgstr ""
+"Ада починає освоювати програмування. Вона набирає текст на клавіатурі, що "
+"лежить на сірому килимку і з'єднана зі смартфоном синім кабелем. Смартфон "
+"з'єднаний червоним дротом з електронною картою з жовтою світлодіодною "
+"лампою. Смартфон живиться від трансформатора, підключеного до подовжувача "
+"сірим дротом з вилкою. На столі також знаходяться 3 книги, одна з яких "
+"відкрита; планшет і олівець; плоскогубці; клей; припій; відключений паяльник."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:715
@@ -1576,6 +1596,8 @@ msgstr "images/illustrations/ada-p24.ltr.png"
 #: Ada_Zangemann.dbk:722
 msgid "Zangemann looks thoughtfully with his arms crossed out one of the great windows of his house, into which the sun’s rays are shining."
 msgstr ""
+"Занґеманн задумливо дивиться, схрестивши руки, в одне з великих вікон свого "
+"будинку, через яке пробиваються сонячні промені."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:728
@@ -1588,7 +1610,7 @@ msgstr "Жахлива ніч"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:732
 msgid "images/capitals/Z-brown.png"
-msgstr ""
+msgstr "images/capitals/Z-brown.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p25-1
@@ -1639,7 +1661,7 @@ msgstr "Перший реальний проект"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:743
 msgid "images/capitals/S-red2.png"
-msgstr ""
+msgstr "images/capitals/S-red2.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p26-1
@@ -1705,6 +1727,30 @@ msgid ""
 "direction: the father is dressed in a blue checked jacket and blue pants and holds a brown briefcase. He is smiling at Ada. His son has a blue shirt, blue shorts, white shoes, a brown backpack, and a red and white hat. He holds under his arm a yellow Zangemann skateboard with light brown wheels, and he grins at Ada. In the background there is a bakery with large windows through "
 "which you can see the bread. It has a green and white striped awning around the corner and a sign on the sidewalk with the list of products. Overhead, a large pretzel is displayed. On the road there is a puddle that reflects the blue of the sky."
 msgstr ""
+"Ада мчить на своєму електричному скейтборді міськими тротуарами. Скейтборд "
+"Ади блакитного кольору, з сірими та рожевими колесами; електронна частина "
+"розміщена над скейтом (на відміну від скейтбордів Занґеманна, де електронна "
+"частина знаходиться внизу). Ада тримає в обох руках пульт дистанційного "
+"керування з короткою антеною для маневрування. Позаду Ади стоять Марі і "
+"Тоні, які тримають свої скейтборди під пахвами і здивовано дивляться на Аду, "
+"яка промчала повз них і перед ними. У Марі темне довге волосся з двома "
+"косами, скріпленими помаранчевими затискачами, жовті сережки, сорочка "
+"кольору фуксії з білими рукавами з фіолетовими горизонтальними смугами, біла "
+"спідниця, біло-жовті кросівки, білі шкарпетки, білий капелюх з жовтими "
+"боками та світло-фіолетовий рюкзак. Марі має синю штучну ногу. Її скейтборд "
+"синій з жовтими колесами. Тоні має руде волосся, коротко підстрижене з "
+"боків. Він одягнений у синій світшот, темно-зелені штани та біле взуття. У "
+"нього червоний рюкзак з білими вставками та лямками. Одна рука прикладена до "
+"рота. Скейтборд фіолетового кольору з помаранчевими колесами. У протилежному "
+"напрямку йдуть батько з сином: батько одягнений у синій піджак у клітинку та "
+"сині штани і тримає в руках коричневий портфель. Він посміхається до Ади. "
+"Його син одягнений у синю сорочку, сині шорти, біле взуття, коричневий "
+"рюкзак і червоно-білу шапку. Він тримає під пахвою жовтий скейт Zangemann зі "
+"світло-коричневими колесами і посміхається до Ади. На задньому плані - "
+"пекарня з великими вікнами, крізь які видно хліб. За рогом пекарня має "
+"зелено-білий смугастий навіс, а на тротуарі - вивіску з переліком продуктів. "
+"Над ним зображений великий крендель. На дорозі - калюжа, в якій відбивається "
+"блакить неба."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:759
@@ -1737,6 +1783,14 @@ msgid ""
 "Ada stops on her skateboard surrounded by children. Marie is on one end. She is pointing to Ada’s skateboard and she’s talking. Next to her is Konrad, with short blond hair, a dark gray helmet, glasses, a green shirt with white collar and cuffs, light blue pants with white cuffs, and gray shoes with white soles. He has a red skateboard with orange wheels. Behind Ada there are 4 "
 "other children. On the other end Toni is smiling. He touches his chin with one hand while with the other he holds a yellow helmet by the laces."
 msgstr ""
+"Ада зупиняється на скейті в оточенні дітей. Марі стоїть з одного боку. Вона "
+"показує на скейт Ади і щось говорить. Поруч з нею стоїть Конрад, з коротким "
+"світлим волоссям, у темно-сірому шоломі, окулярах, зеленій сорочці з білим "
+"комірцем і манжетами, світло-блакитних штанях з білими манжетами і сірому "
+"взутті з білими підошвами. У нього червоний скейт з помаранчевими колесами. "
+"Позаду Ади стоять ще 4 дітей. На іншому кінці дроту посміхається Тоні. "
+"Однією рукою він торкається підборіддя, а іншою тримає за шнурки жовтий "
+"шолом."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:769
@@ -1780,6 +1834,12 @@ msgid ""
 "Hopscotch diagram drawn with chalk on asphalt. In a row, within squares, the numbers 1, 2; 3 and 4 next to each other; 5, 6; and 7 and 8 next to each other. The number 9 is not inside a square but inside a wider semicircle beyond the squares of numbers 7 and 8. Between the number 1 and the number 2 there is a blue bottle with white polka dots. A yellow Zangemann skateboard with "
 "orange wheels on the side of the diagram actually hides the number 1."
 msgstr ""
+"Схема, намальована крейдою на асфальті. У ряд, всередині квадратів, цифри 1, "
+"2; 3 і 4 поруч; 5, 6; і 7 і 8 поруч одна з одною. Цифра 9 знаходиться не "
+"всередині квадрата, а всередині ширшого півкола за межами квадратів цифр 7 і "
+"8. Між цифрою 1 і цифрою 2 - синя пляшка в білий горошок. Жовтий скейтборд "
+"Zangemann з помаранчевими колесами збоку від діаграми насправді приховує "
+"цифру 1."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:781
@@ -1792,7 +1852,7 @@ msgstr "Хакерство заради свободи"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:785
 msgid "images/capitals/M-yellow.png"
-msgstr ""
+msgstr "images/capitals/M-yellow.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p30-1
@@ -1836,6 +1896,8 @@ msgstr "images/illustrations/ada-p30.ltr.png"
 #: Ada_Zangemann.dbk:792
 msgid "A green battery with red and yellow wires, a power strip, glue, a roll of solder, and two pencils."
 msgstr ""
+"Зелена батарейка з червоним і жовтим проводами, подовжувач, клей, рулон "
+"припою і два олівці."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:796
@@ -1877,6 +1939,8 @@ msgstr "images/illustrations/ada-p31.ltr.png"
 #: Ada_Zangemann.dbk:803
 msgid "A screwdriver with orange and gray handle, red pliers, and three LEDs: yellow, green, pink."
 msgstr ""
+"Викрутка з помаранчевою та сірою ручкою, червоні плоскогубці та три "
+"світлодіоди: жовтий, зелений, рожевий."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1897,6 +1961,15 @@ msgid ""
 "Laboratory at the junkyard, under the veranda of Ada’s house. Ada is sitting on a water case with a leg bent under her, using a soldering iron. Konrad is standing next to her and dismounting a speaker. Marie is sitting on two tires with an arm resting on a table and her upside-down skateboard from which wires come out. She is talking with Alan, who is standing with his arms "
 "resting on the same table. On the table there are also: pliers, two wrenches, a spool of solder, a can of blue paint (a bit of paint has dried on the table), and a pitcher and two glasses containing a pink drink. Toni is testing his skateboard with added yellow wings and a fan. It burps."
 msgstr ""
+"Лабораторія на звалищі, під верандою будинку Ади. Ада сидить на ящику з "
+"водою, підігнувши під себе ногу, і користується паяльником. Конрад стоїть "
+"поруч і розбирає динамік. Марі сидить на двох покришках, поклавши руку на "
+"стіл і перевернутий скейтборд, з якого виходять дроти. Вона розмовляє з "
+"Аланом, який стоїть, поклавши руки на той самий стіл. На столі також лежать "
+"плоскогубці, два гайкові ключі, котушка з припоєм, банка з синьою фарбою ("
+"трохи фарби засохло на столі), а також глечик і дві склянки з рожевим "
+"напоєм. Тоні випробовує свій скейт з жовтими крилами і вентилятором. Він "
+"відригує."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1915,6 +1988,10 @@ msgstr "images/illustrations/ada-p33.ltr.png"
 #: Ada_Zangemann.dbk:819
 msgid "Marie and Ada’s mom are dancing, facing each other. Alan, Ada, and Konrad are dancing in a circle. On the right there is a speaker playing, resting on an oil drum. Near the speaker there are two dancing mice. Toni is jumping through the tires. Ada’s dog is howling, and from his mouth come two distorted musical notes."
 msgstr ""
+"Марі та мама Ади танцюють, стоячи обличчям одна до одної. Алан, Ада і Конрад "
+"танцюють у колі. Праворуч грає динамік, що спирається на діжку з-під масла. "
+"Біля колонки танцюють дві мишки. Тоні стрибає через шини. Виє собака Ади, і "
+"з його пащі вириваються дві спотворені музичні ноти."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1935,6 +2012,12 @@ msgid ""
 "Hands holding wonderful ice cream cones: blue ice cream with a chocolate heart on top with a yellow heart on its center, and whipped cream on top of the chocolate; green ice cream with colored stars with a cucumber stuck on a stick; pink fish-shaped ice cream; pyramid-shaped ice cream with candies, and chocolate syrup, and a cherry on top; rainbow ice cream with a yellow "
 "umbrella; blue ghost-shaped ice cream with candies on it."
 msgstr ""
+"Руки тримають чудові ріжки морозива: синє морозиво з шоколадним сердечком, в "
+"центрі якого жовте серце, а поверх шоколаду збиті вершки; зелене морозиво з "
+"різнокольоровими зірочками та огірочком на паличці; рожеве морозиво у формі "
+"рибки; морозиво у формі пірамідки з цукерками, шоколадним сиропом та "
+"вишенькою на верхівці; райдужне морозиво з жовтою парасолькою; синє морозиво "
+"у формі привида з цукерками на ньому."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1953,7 +2036,7 @@ msgstr "images/illustrations/ada-p34-bottom.ltr.png"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:838
 msgid "images/capitals/E-pink.png"
-msgstr ""
+msgstr "images/capitals/E-pink.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p35-1
@@ -2004,7 +2087,7 @@ msgstr "Занґеманн і президент"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:849
 msgid "images/capitals/O-green.png"
-msgstr ""
+msgstr "images/capitals/O-green.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p36-1
@@ -2056,6 +2139,17 @@ msgid ""
 "tie, and a blue jacket with yellow buttons. The President is sitting on a green chair with white vertical lines, and his other hand is on the desk. On the desk, in addition to the videophone, there are sheets with something written on them and an open purple fountain pen. The President was eating a sandwich of meat and cheese with greens with two olives on a toothpick, over a "
 "blue napkin with white stripes."
 msgstr ""
+"Президенту телефонує розлючений Занґеманн. Відеофон складається зі старого "
+"червоного телефонного апарату Zangemann, підключеного до монітора. На "
+"моніторі з'являється обличчя Занґеманна, а з телефону лунає жовтий відблиск "
+"громового голосу Занґеманна, і Президент тримає слухавку на відстані "
+"витягнутої руки. Президент має сиве волосся, одягнений у світло-блакитну "
+"сорочку, червону краватку і синій піджак з жовтими ґудзиками. Президент "
+"сидить на зеленому стільці з білими вертикальними лініями, інша його рука "
+"лежить на столі. На столі, окрім відеофону, лежать аркуші, на яких щось "
+"написано, і відкрита фіолетова авторучка. Президент їсть бутерброд з м'яса і "
+"сиру з зеленню з двома оливками на зубочистці, поверх синьої серветки з "
+"білими смужками."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:863
@@ -2090,6 +2184,8 @@ msgstr "images/illustrations/ada-p38.ltr.png"
 #: Ada_Zangemann.dbk:869
 msgid "Cans of green, blue, and pink paint; a paintbrush with yellow paint; a light green marker; and a rolled banner on which some blue paint has fallen."
 msgstr ""
+"Банки з зеленою, синьою та рожевою фарбою, пензлик з жовтою фарбою, світло-"
+"зелений маркер та згорнутий банер, на який впала синя фарба."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:875
@@ -2102,7 +2198,7 @@ msgstr "Протест"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:880
 msgid "images/capitals/T-cyan.png"
-msgstr ""
+msgstr "images/capitals/T-cyan.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p39-1
@@ -2149,6 +2245,9 @@ msgstr "images/illustrations/ada-p39.ltr.png"
 #: Ada_Zangemann.dbk:886
 msgid "Yellow and green paint on the floor and wax crayons yellow, red, blue, green and brown; the latter 3 are in a gray cardboard box."
 msgstr ""
+"Жовта і зелена фарби на підлозі та воскова крейда жовтого, червоного, "
+"синього, зеленого і коричневого кольорів; останні 3 знаходяться в сірій "
+"картонній коробці."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:890
@@ -2184,6 +2283,19 @@ msgid ""
 "in his other hand; two parents holding the banner “Hacking 4 Freedom”; a lady holding an electronic sign “There is a code B”; two small birds, flying; the math teacher, Ms. Gernet, who has inserted in her cart a sign that says “They are young + need the code!“ The dog in her cart is barking; Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking "
 "beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada’s family’s dog is now wearing a red harness with shiny yellow LEDs that matches the collar."
 msgstr ""
+"Група протестувальників. Серед них: мати Ади, яка тримає за руку Алана і "
+"піднімає рожеве морозиво; 3 колеги батька Тоні, одягнені в краватки; двоє "
+"дітей, які тримають плакат “Робіть свою домашню роботу, пане Президенте, а "
+"ми зробимо свою!”; робот з танковими протекторами, праскою замість ніг, "
+"електричним вентилятором замість живота, монітором замість голови та "
+"збивачкою для яєць в одній руці, який тримає синє морозиво в іншій руці; "
+"двоє батьків з плакатом “Хакерство 4 Свободи”; жінка з електронною табличкою "
+"“Існує код Б”; дві маленькі пташки, що летять; вчителька математики, пані "
+"Гернет, яка вставила у свій візок табличку з написом “Вони молоді + їм "
+"потрібен код!“ Собака у візку гавкає; Ада і Конрад несуть плакат “Не псуйте "
+"нашу техніку!”. Марі і Тоні проходять під плакатом, і Марі говорить у рупор, "
+"який тримає в руці; собака сім'ї Ади тепер носить червону шлейку з "
+"блискучими жовтими світлодіодами, що відповідає нашийнику."
 
 #. (itstool) path: info/excerpt
 #. Text on big banner, left on the illustration
@@ -2208,6 +2320,8 @@ msgstr "images/illustrations/ada-p40.en.png"
 #: Ada_Zangemann.dbk:906
 msgid "Detail of the previous image: two children holding the banner “Do your homework Mr. President and we will do ours!”"
 msgstr ""
+"Деталь попереднього зображення: двоє дітей тримають плакат “Робіть своє "
+"домашнє завдання, пане Президенте, а ми зробимо своє!”"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -2226,6 +2340,10 @@ msgstr "images/illustrations/ada-p41.en.png"
 #: Ada_Zangemann.dbk:912
 msgid "Detail of the previous image: Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and Toni are walking beneath the banner, and Marie is talking through a bullhorn held in her hand; Ada’s family’s little dog is now wearing a red harness with shiny yellow LEDs that matches the collar."
 msgstr ""
+"Деталь попереднього зображення: Ада та Конрад несуть банер “Не руйнуйте нашу "
+"техніку!” Марі і Тоні йдуть під банером, і Марі говорить у рупор, який "
+"тримає в руці; маленька собачка сім'ї Ади тепер носить червону шлейку з "
+"блискучими жовтими світлодіодами, яка відповідає нашийнику."
 
 #. (itstool) path: info/excerpt
 #. Text on square signe on the right of the illustration
@@ -2252,7 +2370,7 @@ msgstr "Діти допомагають уряду"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:925
 msgid "images/capitals/A-violet.png"
-msgstr ""
+msgstr "images/capitals/A-violet.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p42-1
@@ -2296,6 +2414,10 @@ msgstr "images/illustrations/ada-p42.ltr.png"
 #: Ada_Zangemann.dbk:932
 msgid "One of Ada’s friends lying on his stomach with one foot up in the air is typing on a laptop. He has wavy brown hair parted in the center, a red sweatshirt, blue pants, and white socks but no shoes. Next to the computer there are a green cup and two open books."
 msgstr ""
+"Один із друзів Ади, лежачи на животі, закинувши ногу на ногу, набирає текст "
+"на ноутбуці. У нього хвилясте каштанове волосся з проділом по центру, "
+"червоний світшот, сині штани, білі шкарпетки, але без взуття. Поруч з "
+"комп'ютером стоїть зелена чашка і дві відкриті книги."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:934
@@ -2345,6 +2467,12 @@ msgid ""
 "Ada and her friends in the President’s office. Ada is reprogramming the President’s computer. Toni is setting up a speaker for the President’s secretary. Marie and Konrad are sitting on the floor and talking, and Marie has a laptop on her legs with an FSFE logo sticker (three stars: pea green, sky blue, and sea blue). On the floor are a bowl with candy and a plate with ice "
 "creams. The President’s phone is ringing, but nobody is answering."
 msgstr ""
+"Ада та її друзі в кабінеті президента. Ада перепрограмовує комп'ютер "
+"президента. Тоні налаштовує гучномовець для секретаря президента. Марі і "
+"Конрад сидять на підлозі і розмовляють, у Марі на ногах ноутбук з наклейкою "
+"з логотипом FSFE (три зірки: горохово-зелена, небесно-блакитна і морська). "
+"На підлозі стоять миска з цукерками і тарілка з морозивом. Дзвонить телефон "
+"президента, але ніхто не відповідає."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:949
@@ -2357,7 +2485,7 @@ msgstr "Новий закон"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:952
 msgid "images/capitals/T-red3.png"
-msgstr ""
+msgstr "images/capitals/T-red3.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p44-1
@@ -2391,6 +2519,8 @@ msgstr "images/illustrations/ada-p44.ltr.png"
 #: Ada_Zangemann.dbk:957
 msgid "A herald, wearing a hat with a plume, playing a trumpet on which a red banner is hung."
 msgstr ""
+"Герольд, у капелюсі з плюмажем, грає на трубі, на якій висить червоний "
+"прапор."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:959
@@ -2444,6 +2574,10 @@ msgstr "images/illustrations/ada-p45.ltr.png"
 #: Ada_Zangemann.dbk:970
 msgid "The President with Toni, Konrad, Marie, Ada, and a herald playing a trumpet. Marie is standing on top of a ladder talking into a microphone. Konrad firmly holds the ladder on which Marie is standing. Ada is standing on a chair and holds a copy of the new law bearing a seal. Ada’s dog is sitting in front of her."
 msgstr ""
+"Президент з Тоні, Конрадом, Марі, Адою та герольдом, який грає на трубі. "
+"Марі стоїть на драбині і говорить у мікрофон. Конрад міцно тримає драбину, "
+"на якій стоїть Марі. Ада стоїть на стільці і тримає в руках копію нового "
+"закону з печаткою. Перед нею сидить собака Ади."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:975
@@ -2471,6 +2605,11 @@ msgstr "images/illustrations/ada-p46.ltr.png"
 #: Ada_Zangemann.dbk:980
 msgid "Evening party. Children are holding ice cream and balloons with the words “I love FS (I love Free Software)”; other children are riding skateboards; yellow and orange flags are hanging; music comes out from a large speaker system; Ms. Gernet holds a pink tree-shaped ice cream with a yellow star on it; Ada’s mom is dancing with a gentleman."
 msgstr ""
+"Вечірня вечірка. Діти тримають морозиво і повітряні кульки з написом “I love "
+"FS (Я люблю вільне програмне забезпечення)”; інші діти катаються на "
+"скейтбордах; висять жовто-помаранчеві прапори; з великої акустичної системи "
+"лунає музика; пані Гернет тримає рожеве морозиво у формі дерева з жовтою "
+"зіркою на ньому; мама Ади танцює з кавалером."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:984
@@ -2497,6 +2636,11 @@ msgstr "images/illustrations/ada-p47.ltr.png"
 #: Ada_Zangemann.dbk:989
 msgid "The President, the secretary, and other people around a table enjoying crazy ice cream; yellow and orange flags continue from the previous image; a little girl who just took a pink ghost-shaped ice cream from the modified ice cream machine; Ada’s dog, Konrad, Marie, Ada, and Toni sneaking away from the party."
 msgstr ""
+"Президент, секретар та інші люди за столом насолоджуються шаленим морозивом; "
+"жовто-помаранчеві прапори продовжують попереднє зображення; маленька "
+"дівчинка, яка щойно взяла рожеве морозиво у формі привида з модифікованого "
+"автомата для морозива; собака Ади, Конрад, Марі, Ада і Тоні тікають з "
+"вечірки."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:995
@@ -2509,7 +2653,7 @@ msgstr "А Занґеманн?"
 #. required color. Can be postponed to the publishing process. priority:70
 #: Ada_Zangemann.dbk:999
 msgid "images/capitals/A-yellow.png"
-msgstr ""
+msgstr "images/capitals/A-yellow.png"
 
 #. (itstool) path: simplesect/para
 #. (itstool) id: Ada_Zangemann.dbk#para-p48-1
@@ -2544,7 +2688,7 @@ msgstr "images/illustrations/ada-p48.ltr.png"
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:1004
 msgid "Ada’s little dog sniffing a trail of ice cream."
-msgstr ""
+msgstr "Песик Ади винюхує слід від морозива."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -2562,7 +2706,7 @@ msgstr "images/illustrations/ada-p49.ltr.png"
 #. visual impaired. priority:80
 #: Ada_Zangemann.dbk:1013
 msgid "A trail of candies and raspberry ice cream on the ground."
-msgstr ""
+msgstr "Слід від цукерок і малинового морозива на землі."
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-acknowledgments
@@ -2634,6 +2778,9 @@ msgstr "images/illustrations/ada-p51.ltr.png"
 #: Ada_Zangemann.dbk:1040
 msgid "Ada’s dog wags its tail after finding Zangemann hidden behind a curtain and eating an ice cream cone with candies and a blue umbrella on it and lots of raspberry ice cream dripping."
 msgstr ""
+"Собака Ади виляє хвостом, знайшовши Занґеманна, схованого за шторою, і їсть "
+"ріжок морозива з цукерками, блакитною парасолькою і великою кількістю "
+"малинового морозива, що капає з нього."
 
 #. (itstool) path: info/title
 #. (itstool) id: Ada_Zangemann.dbk#title-author
@@ -2681,6 +2828,8 @@ msgstr "images/illustrations/ada-p52.ltr.png"
 #: Ada_Zangemann.dbk:1062
 msgid "Close-up of Matthias smiling, waving with one hand, and wearing a headset. Matthias has short hair and a little beard."
 msgstr ""
+"Крупним планом Маттіас посміхається, махає однією рукою і носить гарнітуру. "
+"У Маттіаса коротке волосся і невелика борідка."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1064
@@ -2739,6 +2888,8 @@ msgstr "images/illustrations/ada-p53.ltr.png"
 #: Ada_Zangemann.dbk:1085
 msgid "Sandra smiling with a pencil in her hand in front of her chin. She has earphones with an integrated microphone. Sandra has short hair and glasses."
 msgstr ""
+"Сандра посміхається з олівцем у руці перед підборіддям. На ній навушники з "
+"вбудованим мікрофоном. У Сандри коротке волосся і окуляри."
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1087
@@ -2840,6 +2991,8 @@ msgstr "images/illustrations/ada-p56.ltr.png"
 #: Ada_Zangemann.dbk:1127
 msgid "A hand that holds a fish-shaped ice cream cone with a cucumber on a decorated toothpick, to color. In a bottom corner, a pencil writing."
 msgstr ""
+"Рука, яка тримає риб'ячий ріжок морозива з огірком на декорованій "
+"зубочистці, розфарбованій під колір. У нижньому кутку напис олівцем."
 
 #. (itstool) path: simplesect/literallayout
 #. In a literallayout element all space and newline characters are kept.
@@ -2871,3 +3024,5 @@ msgstr "images/illustrations/ada-p57.ltr.png"
 #: Ada_Zangemann.dbk:1137
 msgid "Three hands that hold as many empty ice cream cones, to draw and color. In the air above the middle cone is an umbrella."
 msgstr ""
+"Три руки, які тримають стільки ж порожніх ріжків від морозива, щоб малювати "
+"і розфарбовувати. У повітрі над середнім ріжком - парасолька."
