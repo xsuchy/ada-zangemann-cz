@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-05-06 19:03+0200\n"
-"PO-Revision-Date: 2025-05-23 19:01+0000\n"
+"PO-Revision-Date: 2025-05-27 07:01+0000\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/fsfe/"
 "ada-zangemann/eo/>\n"
@@ -765,6 +765,14 @@ msgid ""
 "All he had to do was press the proper key on the golden computer, and immediately all the ice-cream machines in town would dispense only vanilla ice cream. If Zangemann wanted people to eat chocolate ice cream, he pressed the key for chocolate ice cream. If he gave the order for lemon ice cream, the machines made only lemon ice cream. Zangemann loved his inventions and was always "
 "thrilled at how amazingly well his machines worked. Sometimes people were disappointed when their favorite flavor wasn’t available, but what could they do? After all, there was ice cream on every street corner."
 msgstr ""
+"Li nur devis premi la ĝustan klavon sur la ora komputilo, kaj tuj ĉiuj "
+"glaciaĵmaŝinoj en la urbo liverus nur vanilan glaciaĵon. Se Zangemann volis, "
+"ke homoj manĝu ĉokoladan glaciaĵon, li premis la klavon por ĉokolada "
+"glaciaĵo. Se li mendis citronan glaciaĵon, la maŝinoj faris nur citronan "
+"glaciaĵon. Zangemann amis siajn inventojn kaj ĉiam estis ravita pri tio, "
+"kiel mirinde bone funkciis liaj maŝinoj. Foje homoj seniluziiĝis, kiam ilia "
+"plej ŝatata gusto ne estis havebla, sed kion ili povis fari? Fine, glaciaĵo "
+"troviĝis sur ĉiu stratangulo."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -788,6 +796,11 @@ msgstr ""
 #: Ada_Zangemann.dbk:579
 msgid "Zangemann had a lot of fun pressing the sparkling keys and watching people eat ice cream. He spent many hours every day in front of his golden computer doing this. Again and again, he looked down on the city through a long telescope, observing how reliably his inventions carried out his commands."
 msgstr ""
+"Zangemann multe amuziĝis premante la brilantajn klavojn kaj rigardante "
+"homojn manĝi glaciaĵon. Li pasigis multajn horojn ĉiutage antaŭ sia ora "
+"komputilo farante tion. Denove kaj denove, li rigardis malsupren al la urbo "
+"per longa teleskopo, observante kiel fidinde liaj inventoj plenumis liajn "
+"komandojn."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -815,6 +828,12 @@ msgid ""
 "When he wasn’t sitting at his golden computer, Zangemann was building his little computers into new devices and then selling those. He built washing machines that sent a message to your cell phone when your laundry was done. He made vacuums that played happy music instead of droning loudly. He invented light bulbs that turned on and off at the snap of a finger and cars that told "
 "you where the nearest grocery store was."
 msgstr ""
+"Kiam li ne sidis ĉe sia ora komputilo, Zangemann konstruis siajn malgrandajn "
+"komputilojn en novajn aparatojn kaj poste vendis ilin. Li konstruis "
+"lavmaŝinojn, kiuj sendis mesaĝon al via poŝtelefono kiam via lavado estis "
+"farita. Li faris polvosuĉilojn, kiuj ludis ĝojan muzikon anstataŭ zumi "
+"laŭte. Li inventis ampolojn, kiuj ŝaltiĝis kaj malŝaltiĝis per fingroklako, "
+"kaj aŭtojn, kiuj indikis, kie estas la plej proksima nutraĵvendejo."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -962,6 +981,13 @@ msgid ""
 "Zangemann was so furious with the two children. How dare they use his inventions this way? That night, he couldn’t sleep, so he sat down at his golden computer. From there, he gave all the little computers in the skateboards a command that they were no longer allowed to go on sidewalks. He ordered the small computers in the speakers to play music only at a low volume, except for "
 "his favorite music, which he immediately turned on to get into a better mood."
 msgstr ""
+"Zangemann estis tiel kolera kontraŭ la du infanoj. Kiel ili kuraĝas uzi "
+"liajn inventaĵojn tiamaniere? Tiun nokton li ne povis dormi, do li sidiĝis "
+"ĉe sia ora komputilo. De tie, li ordonis al ĉiuj malgrandaj komputiloj en la "
+"rultabuloj, ke ili ne plu permesu iri sur trotuarojn. Li ordonis al la "
+"malgrandaj komputiloj en la laŭtparoliloj ludi muzikon nur je malalta "
+"laŭteco, krom sian plej ŝatatan muzikon, kiun li tuj ludis por plibonigi "
+"sian humoron."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1002,7 +1028,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:654
 msgid "Skateboards no longer work"
-msgstr ""
+msgstr "Rultabuloj ne plu funkcias"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1017,6 +1043,11 @@ msgstr ""
 #: Ada_Zangemann.dbk:658
 msgid "<phrase condition=\"capitals-text\">The</phrase><phrase condition=\"capitals-img\">he</phrase> next day, there was a big commotion at Ada’s school. On the way to school, the kids’ skateboards had stopped working. The wheels simply stood still. And the children could no longer turn up the volume on their speakers. What was going on?"
 msgstr ""
+"<phrase condition=\"capitals-text\">La</phrase><phrase condition=\"capitals-"
+"img\">a</phrase> sekvan tagon, estis granda tumulto en la lernejo de Ada. "
+"Survoje al la lernejo, la rultabuloj de la infanoj ĉesis funkcii. La radoj "
+"simple staris senmove. Kaj la infanoj ne plu povis plilaŭtigi la laŭtvoĉon "
+"de siaj laŭtparoliloj. Kio okazis?"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1044,6 +1075,13 @@ msgid ""
 "Although she didn’t own any of these things, Ada wondered why the skateboards and the speakers suddenly stopped working. But she didn’t really have time to think much about it, because she was tinkering again. She put together a complete bicycle from the parts of three broken bicycles. She gave the bicycle to her mother as a present so that she wouldn’t have to spend her money on "
 "bus tickets to work. For her brother, Ada built a loudspeaker so he could fall asleep to nice stories in the evenings when their mother was still at work."
 msgstr ""
+"Kvankam ŝi ne posedis iujn ajn el ĉi tiuj aĵoj, Ada scivolis, kial la "
+"rultabuloj kaj la laŭtparoliloj subite ĉesis funkcii. Sed ŝi ne vere havis "
+"tempon por multe pensi pri tio, ĉar ŝi denove riparis. Ŝi kunmetis kompletan "
+"biciklon el la partoj de tri rompitaj bicikloj. Ŝi donacis la biciklon al "
+"sia patrino, por ke ŝi ne devu elspezi sian monon por busbiletoj al la "
+"laboro. Por sia frato, Ada konstruis laŭtparolilon, por ke li povu endormiĝi "
+"al agrablaj rakontoj vespere, kiam ilia patrino ankoraŭ laboris."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1067,11 +1105,16 @@ msgstr ""
 #: Ada_Zangemann.dbk:675
 msgid "After a few days, the initial shock at Ada’s school was forgotten. The skateboards still didn’t go on the sidewalk, but apart from that, they still worked. And so now the children rode in circles around the playground and listened to soft music. Only a strange, pompous marching music continued to play at an unchanged volume, which the children found rather puzzling."
 msgstr ""
+"Post kelkaj tagoj, la komenca ŝoko ĉe la lernejo de Ada estis forgesita. La "
+"rultabuloj ankoraŭ ne iris sur la trotuaron, sed krom tio, ili ankoraŭ "
+"funkciis. Kaj tiel nun la infanoj biciklis en rondoj ĉirkaŭ la ludejo kaj "
+"aŭskultis mallaŭtan muzikon. Nur stranga, pompa marŝanta muziko daŭre ludis "
+"je senŝanĝa laŭteco, kion la infanoj trovis sufiĉe enigma."
 
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:680
 msgid "Ada and software"
-msgstr ""
+msgstr "Ada kaj programaro"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1124,7 +1167,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:699
 msgid "Programming"
-msgstr ""
+msgstr "Programado"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1203,7 +1246,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:728
 msgid "A horrible night"
-msgstr ""
+msgstr "Terura nokto"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1236,7 +1279,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:739
 msgid "First real project"
-msgstr ""
+msgstr "Unua vera projekto"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1300,7 +1343,7 @@ msgstr ""
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:760
 msgid "“How can you ride your skateboard on the sidewalk?” they asked."
-msgstr ""
+msgstr "“Kiel vi povas rajdi vian rultabulon sur la trotuaro?” ili demandis."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -1357,7 +1400,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: Ada_Zangemann.dbk:781
 msgid "Hacking for freedom"
-msgstr ""
+msgstr "Hakado por libereco"
 
 #. (itstool) path: simplesect/para@dropcapfileref
 #. (itstool) comment: simplesect/para@dropcapfileref
@@ -1412,6 +1455,8 @@ msgstr ""
 #: Ada_Zangemann.dbk:798
 msgid "Together, they changed the software for the speakers too. Then they turned up the music as loud as possible and danced wildly together."
 msgstr ""
+"Kune ili ŝanĝis ankaŭ la programaron por la laŭtparoliloj. Poste ili "
+"laŭtigis la muzikon kiel eble plej multe kaj sovaĝe dancis kune."
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
