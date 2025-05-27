@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2025-05-06 19:03+0200\n"
-"PO-Revision-Date: 2025-05-25 07:01+0000\n"
-"Last-Translator: Hotripak <hotr1pak@gmail.com>\n"
+"PO-Revision-Date: 2025-05-27 19:28+0000\n"
+"Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/fsfe/"
 "ada-zangemann/uk/>\n"
 "Language: uk\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "translator-credits"
+msgstr "Hotripak (hotr1pak) <hotr1pak@gmail.com>, 2025"
 
 #. (itstool) path: info/title
 #. (itstool) path: cover/bridgehead
@@ -159,7 +159,7 @@ msgstr "Пані Гернет"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:311
 msgid "images/illustrations/ada-a01.en.png"
-msgstr "images/illustrations/ada-a01.en.png"
+msgstr "images/illustrations/ada-a01.uk.png"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -601,7 +601,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:464
 msgid "images/illustrations/ada-p03-author.ltr.png"
-msgstr "images/illustrations/ada-p03-author.ltr.png"
+msgstr "images/illustrations/ada-p03-author.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. ignore-same
@@ -621,7 +621,7 @@ msgstr "Маттіас Кіршнер, Сандра Брандштеттер"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:471
 msgid "images/illustrations/ada-p03-title.en.png"
-msgstr "images/illustrations/ada-p03-title.en.png"
+msgstr "images/illustrations/ada-p03-title.uk.png"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -881,7 +881,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:543
 msgid "images/illustrations/ada-p08b.ltr.png"
-msgstr "images/illustrations/ada-p08b.ltr.png"
+msgstr "images/illustrations/ada-p08b.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -924,7 +924,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:550
 msgid "images/illustrations/ada-p08a.ltr.png"
-msgstr "images/illustrations/ada-p08a.ltr.png"
+msgstr "images/illustrations/ada-p08a.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1058,7 +1058,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:582
 msgid "images/illustrations/ada-p11.ltr.png"
-msgstr "images/illustrations/ada-p11.ltr.png"
+msgstr "images/illustrations/ada-p11.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1188,7 +1188,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:618
 msgid "images/illustrations/ada-p14.ltr.png"
-msgstr "images/illustrations/ada-p14.ltr.png"
+msgstr "images/illustrations/ada-p14.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1232,7 +1232,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:628
 msgid "images/illustrations/ada-p15.ltr.png"
-msgstr "images/illustrations/ada-p15.ltr.png"
+msgstr "images/illustrations/ada-p15.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1273,7 +1273,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:638
 msgid "images/illustrations/ada-p16.ltr.png"
-msgstr "images/illustrations/ada-p16.ltr.png"
+msgstr "images/illustrations/ada-p16.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1295,7 +1295,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:646
 msgid "images/illustrations/ada-p17.ltr.png"
-msgstr "images/illustrations/ada-p17.ltr.png"
+msgstr "images/illustrations/ada-p17.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1342,7 +1342,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:661
 msgid "images/illustrations/ada-p18.ltr.png"
-msgstr "images/illustrations/ada-p18.ltr.png"
+msgstr "images/illustrations/ada-p18.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1714,7 +1714,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:752
 msgid "images/illustrations/ada-p27.ltr.png"
-msgstr "images/illustrations/ada-p27.ltr.png"
+msgstr "images/illustrations/ada-p27.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1773,7 +1773,7 @@ msgstr "“Як ти можеш їздити на скейті по тротуа
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:763
 msgid "images/illustrations/ada-p28.ltr.png"
-msgstr "images/illustrations/ada-p28.ltr.png"
+msgstr "images/illustrations/ada-p28.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1824,7 +1824,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:773
 msgid "images/illustrations/ada-p29.ltr.png"
-msgstr "images/illustrations/ada-p29.ltr.png"
+msgstr "images/illustrations/ada-p29.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -1951,7 +1951,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:809
 msgid "images/illustrations/ada-p32.ltr.png"
-msgstr "images/illustrations/ada-p32.ltr.png"
+msgstr "images/illustrations/ada-p32.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -2128,7 +2128,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:856
 msgid "images/illustrations/ada-p37.ltr.png"
-msgstr "images/illustrations/ada-p37.ltr.png"
+msgstr "images/illustrations/ada-p37.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -2272,7 +2272,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:893
 msgid "images/illustrations/ada-p40-41.en.png"
-msgstr "images/illustrations/ada-p40-41.en.png"
+msgstr "images/illustrations/ada-p40-41.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -2312,7 +2312,7 @@ msgstr "Робіть своє домашнє завдання, пане През
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:904
 msgid "images/illustrations/ada-p40.en.png"
-msgstr "images/illustrations/ada-p40.en.png"
+msgstr "images/illustrations/ada-p40.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -2332,7 +2332,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:910
 msgid "images/illustrations/ada-p41.en.png"
-msgstr "images/illustrations/ada-p41.en.png"
+msgstr "images/illustrations/ada-p41.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -2457,7 +2457,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:941
 msgid "images/illustrations/ada-p43.ltr.png"
-msgstr "images/illustrations/ada-p43.ltr.png"
+msgstr "images/illustrations/ada-p43.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -2628,7 +2628,7 @@ msgstr ""
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:987
 msgid "images/illustrations/ada-p47.ltr.png"
-msgstr "images/illustrations/ada-p47.ltr.png"
+msgstr "images/illustrations/ada-p47.uk.png"
 
 #. (itstool) path: mediaobject/alt
 #. The alt tag contains an alternative text, describing the image for the
@@ -2723,7 +2723,7 @@ msgstr "Подяки"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:1023
 msgid "images/illustrations/ada-p50-title.en.png"
-msgstr "images/illustrations/ada-p50-title.en.png"
+msgstr "images/illustrations/ada-p50-title.uk.png"
 
 #. (itstool) path: simplesect/para
 #. In the acknowledgments of the English version you can change 'No Starch
@@ -2809,7 +2809,7 @@ msgstr "Про автора - Маттіас Кіршнер"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:1052
 msgid "images/illustrations/ada-p52-title.en.png"
-msgstr "images/illustrations/ada-p52-title.en.png"
+msgstr "images/illustrations/ada-p52-title.uk.png"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -2869,7 +2869,7 @@ msgstr "Про ілюстраторку - Сандра Брандштеттер"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:1075
 msgid "images/illustrations/ada-p53-title.en.png"
-msgstr "images/illustrations/ada-p53-title.en.png"
+msgstr "images/illustrations/ada-p53-title.uk.png"
 
 #. (itstool) path: imageobject/imagedata@fileref
 #. (itstool) comment: imageobject/imagedata@fileref
@@ -2917,7 +2917,7 @@ msgstr "Вебсайт книги"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:1095
 msgid "images/illustrations/ada-p54-title.en.png"
-msgstr "images/illustrations/ada-p54-title.en.png"
+msgstr "images/illustrations/ada-p54-title.uk.png"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1100
@@ -2956,7 +2956,7 @@ msgstr "Ліцензія"
 #. but some variants are generated in the automation.
 #: Ada_Zangemann.dbk:1112
 msgid "images/illustrations/ada-p55-title.en.png"
-msgstr "images/illustrations/ada-p55-title.en.png"
+msgstr "images/illustrations/ada-p55-title.uk.png"
 
 #. (itstool) path: simplesect/para
 #: Ada_Zangemann.dbk:1117
