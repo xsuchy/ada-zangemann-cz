@@ -1,937 +1,775 @@
 # SPDX-FileCopyrightText: 2022 Matthias Kirschner
-# SPDX-FileCopyrightText: 2025 Tomáš Starý (translator)
-#
+# 
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
 ## 0 ##
 
 [[IDX:
-toc:Table of Contents
+toc:Obsah
 text:Text
-cover:Cover
-other.titlepage:Front Cover
-chapter-01,cover:Front Cover
-chapter-02,page_02:Imprint
-chapter-03,page_04:Ada & Zangemann
-chapter-04,page_06:Zangemann and computers
-chapter-05,page_13:One day...
-chapter-06,page_18:Skateboards no longer work
-chapter-07,page_20:Ada and software
-chapter-08,page_22:Programming
-chapter-09,page_25:A horrible night
-chapter-10,page_26:First real project
-chapter-11,page_30:Hacking for freedom
-chapter-12,page_36:Zangemann and the President
+cover:Obálka
+other.titlepage:Přední obálka
+chapter-01,cover:Přední obálka
+chapter-02,page_02:Tiráž
+chapter-03,page_04:Ada a Zangemann
+chapter-04,page_06:Zangemann a počítače
+chapter-05,page_13:Jednoho dne ...
+chapter-06,page_18:Skateboardy přestaly fungovat
+chapter-07,page_20:Ada a software
+chapter-08,page_22:Programování
+chapter-09,page_25:Hrozná noc
+chapter-10,page_26:První opravdový projekt
+chapter-11,page_30:Programováním za svobodu
+chapter-12,page_36:Zangemann a prezident
 chapter-13,page_39:Protest
-chapter-14,page_42:Children help the government
-chapter-15,page_44:New law
-chapter-16,page_48:And Zangemann?
-chapter-17,page_50:Acknowledgments
-chapter-18,page_52:About the Author - Matthias Kirschner
-chapter-19,page_53:About the Illustrator - Sandra Brandstätter
-chapter-20,page_54:Website for the book and license
-chapter-21,page_55:Drawing templates
-chapter-22,back_cover:Back cover and synopsis
+chapter-14,page_42:Děti pomáhají vládě
+chapter-15,page_44:Nový zákon
+chapter-16,page_48:A co Zangemann?
+chapter-17,page_50:Poděkování
+chapter-18,page_52:O autorovi - Matthias Kirschner
+chapter-19,page_53:O ilustrátorce - Sandra Brandstätterová
+chapter-20,page_54:Web o knize
+chapter-21,page_55:Omalovánky
+chapter-22,back_cover:Zadní obálka a synopse
 ]]
 
 [[I:cover
-IMAGE: Ada & Zangemann - A Tale of Software, Skateboards, and Raspberry 
-Ice Cream.
-By Matthias Kirschner and Sandra Brandstätter.
-On a mostly desaturated dark cyan background, in a frame composed of 
-sometimes curled white lines that connect a mouse, a keyboard, and a 
-pink smartphone, Ada and Zangemann are facing each other, both with 
-their hands on their hips as a sign of challenge. Ada is smiling and 
-Zangemann is frowning.
-Ada has black hair collected in two big right- and left-bound ringlets 
-with red rubber bands, and red cheeks. She has little yellow stud 
-earrings. She wears cyan and white horizontal striped shorts and a 
-yellow shirt over a white undershirt that ends with embroidery that goes 
-beyond the shirt. The shirt and undershirt come out over the shorts. 
-Above the shirt Ada wears a blue hoodie. Ada is wearing red shoes with 
-white tips and soles, and short white socks. She has one foot on a 
-skateboard and the other on the ground.
-Zangemann has short gray hair and square glasses. He is wearing a purple 
-turtle-neck sweater, light blue pants turned up, brown shoes, and white 
-socks. He's wearing a big tech watch. Above Zangemann there are a pair 
-of pliers with red handles crossing the wire frame. 
+OBRÁZEK: Ada a Zangemann - Příběh o softwaru, skateboardech a malinové zmrzlině
+od Matthiase Kirschnera a Sandry Brandstätterové.
+Na převážně vybledlém tmavě tyrkysovém pozadí, v rámečku tvořeném místy zakroucenými bílými linkami, které spojují myš, klávesnici a růžový smartphone, stojí proti sobě Ada a Zangemann oba s rukama v bok na znamení vzdoru. Ada se usmívá a Zangemann se mračí.
+Ada má červené tváře a černé vlasy má na pravé a levé straně stažené červenými gumičkami do dvou velkých drdolů. V uších má malé žluté pecičkové náušnice. Je oblečena v kraťasech s vodorovnými tyrkysovými a bílými pruhy, pod žlutým tričkem jí vykukuje krajkovaný lem bílého nátělníku. Tričko i košilka jsou vytažené přes kraťasy. Přes tričko má Ada oblečenou modrou mikinu s kapucí. Na nohou má červené boty s bílými špičkami a podrážkami a nízké bílé ponožky. Jednou nohou stojí na skateboardu a druhou na zemi.
+Zangemann má krátké šedé vlasy a hranaté brýle. Na sobě má fialový rolák, světle modré kalhoty s ohrnutými nohavicemi, hnědé boty a bílé ponožky. Na ruce nosí velké moderní hodinky. Nad Zangemannem jsou kleště s červenými rukojeťmi, které přetínají rámeček z bílé linky.
 ]]
 
-** 1 **
+
+## 1 ##
 
 [[I:ada-p01
-ADA & ZANGEMANN
+ADA A ZANGEMANN
 ]]
 
 Matthias Kirschner
-  Sandra Brandstätter
+Sandra Brandstätterová
 
-ADA & ZANGEMANN
-Příběh o softwaru, skateboardech a malinové zmrzlině
+ADA A ZANGEMANN
+Příběh o softwaru, skateboardech a malinové zmrzlině.
 
 ## 2 ##
 
-Copyright © 2023 Matthias Kirschner and Sandra Brandstätter.
-This work is licensed under the Creative Commons Attribution-ShareAlike 
-4.0 International License.
-To view a copy of this license, visit 
-http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to 
-Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+Copyright © 2023 Matthias Kirschner a Sandra Brandstätterová.
+Toto dílo je chráněné licencí Creative Commons Attribution-ShareAlike 4.0 International License. Chcete-li si přečíst kopii licence, navštivte
+http://creativecommons.org/licenses/by-sa/4.0/ nebo si o ni napište na adresu Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-Copyright © 2025 Tomáš Starý (překlad)
-Tato kniha je odvozené dílo (český překlad) knihy z německého orginálu „Ada und Zangemann: Ein Märchen über Software, Skateboards und Himbeereise” a je publikováno pod svobodnou licencí <b>Creative Commons CC-BY-SA 4.0 International</b>.
-Pro obdržení kopie licence, navštivte prosím
-http://creativecommons.org/licenses/by-sa/4.0/ nebo pošlete dopis na adresu
-Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+<b>Ada a Zangemann: Příběh o softwaru, skateboardech a malinové zmrzlině</b> je překladem z německého originálu Ada und Zangemann: Ein Märchen über Software, Skateboards und Himbeereis, vydaného nakladatelstvím Dpunkt.verlag ve spolupráci s O’Reilly Media, Inc., pod značkou “O’REILLY,” © 2022 Matthias Kirschner and Sandra Brandstätter.
 
-<b>Ada & Zangemann: A Tale of Software, Skateboards, and Raspberry Ice 
-Cream</b> is a translation of the German original, Ada und Zangemann: 
-Ein Märchen über Software, Skateboards und Himbeereis, published by 
-Dpunkt.verlag in cooperation with O’Reilly Media, Inc., under the 
-imprint “O’REILLY,” © 2022 by Matthias Kirschner and Sandra 
-Brandstätter.
-
-First printing
+Vydání první
 
 26 25 24 23 22 1 2 3 4 5
 
 ISBN-13: 978-1-7185-0318-2 (print)
 ISBN-13: 978-1-7185-0319-9 (ebook)
 
-Publisher: William Pollock
-Author: Matthias Kirschner
-Illustrator: Sandra Brandstätter
-Managing Editor: Jill Franklin
-Production Editor: Jennifer Kepler
-Editor: Wiebke Helmchen
-Color Assistance: Olga Biryukova, Noémi Sárkány, Nathalie Scattolon, 
-Kristina Haidinger, and Jasmin Schlögl
-Cover Design: Sandra Brandstätter and Susan Brown
-Compositor: Maureen Forys, Happenstance Type-O-Rama
+Vydavatel: William Pollock
+Autor: Matthias Kirschner
+Ilustrátorka: Sandra Brandstätterová
+Vedoucí redaktorka: Jill Franklinová
+Produkční redaktorka: Jennifer Keplerová
+Redaktorka: Wiebke Helmchenová
+Pomoc s barvami: Olga Biryukova, Noémi Sárkányová, Nathalie Scattolonová, Kristina Haidingerová a Jasmin Schlöglová
+Návrh obálky: Sandra Brandstätterová a Susan Brownová
+Sazba: Maureen Forysová, Happenstance Type-O-Rama
 
-For information on distribution, bulk sales, or corporate sales, please 
-contact No Starch Press, Inc. directly at info@nostarch.com or:
+Pro informace o distribuci, velkoobchodním prodeji nebo firemním prodeji kontaktujte prosím přímo vydavatelství No Starch Press, Inc. na info@nostarch.com nebo:
 
 No Starch Press, Inc.
 245 8th Street, San Francisco, CA 94103
-phone: 1.415.863.9900
+Telefon: 1.415.863.9900
 www.nostarch.com
 
-A catalog record of this book is available from the Library of Congress.
+Záznam o této knize je dostupný v Knihovně Kongresu.
 
-No Starch Press and the No Starch Press logo are registered trademarks 
-of No Starch Press, Inc. Other product and company names mentioned 
-herein may be the trademarks of their respective owners. Rather than use 
-a trademark symbol with every occurrence of a trademarked name, we are 
-using the names only in an editorial fashion and to the benefit of the 
-trademark owner, with no intention of infringement of the trademark.
+No Starch Press a logo No Starch Press jsou registrované ochranné známky společnosti No Starch Press, Inc. Ostatní názvy produktů a společností uvedené v tomto textu mohou být ochrannými známkami příslušných vlastníků. Místo použití symbolu ochranné známky u každého výskytu chráněného názvu používáme tyto názvy pouze redakčně a ve prospěch vlastníka ochranné známky, bez úmyslu porušit tuto ochrannou známku.
 
-The information in this book is distributed on an “As Is” basis, without 
-warranty. While every precaution has been taken in the preparation of 
-this work, neither the author nor No Starch Press, Inc. shall have any 
-liability to any person or entity with respect to any loss or damage 
-caused or alleged to be caused directly or indirectly by the information 
-contained in it.
+Informace v této knize jsou poskytovány „tak, jak jsou“, tedy bez záruky. Ačkoli při přípravě této práce byla přijata veškerá opatření, autor ani No Starch Press, Inc. nenesou žádnou odpovědnost vůči jakékoli osobě či subjektu za jakoukoli ztrátu nebo škodu způsobenou či údajně způsobenou přímo nebo nepřímo informacemi v knize obsaženými.
 
-All characters in this publication are fictitious, and any resemblance 
-to real persons, living or dead, is purely coincidental.
+Všechny postavy v této publikaci jsou smyšlené a jakákoli podoba s reálnými osobami, živými či mrtvými, je čistě náhodná.
 
 **
 
-This book by Matthias Kirschner (author) and Sandra Brandstätter 
-(illustrator) is licensed under <b>Creative Commons CC-BY-SA</b>, a free 
-cultural license.
+Tato kniha od Matthiase Kirschnera (autor) a Sandry Brandstätterové (ilustrátorka) je chráněna licencí <b>Creative Commons CC-BY-SA</b>, což je svobodná kulturní licence.
 
-<b>You may</b> share, copy, and redistribute the material in any medium 
-or format. <b>You may</b> adapt, remix, transform, and build upon the 
-material for any purpose, even commercially. <b>You must</b> give 
-appropriate credit, provide a link to the license, and indicate if 
-changes were made.
-<b>You may</b> do so in any reasonable manner, but not in any way that 
-suggests the licensor endorses you or your use. If you remix, transform, 
-or build upon the material, <b>you must</b> distribute your 
-contributions under the same license as the original. (This is a 
-human-readable summary of - and not a substitute for - the “legal code” 
-of CC-BY-SA 4.0.)
+<b>Můžete</b> sdílet, kopírovat a redistribuovat materiál v jakémkoli médiu nebo formátu. <b>Můžete</b> materiál adaptovat, remixovat, transformovat a vytvářet z něj odvozená díla pro jakýkoli účel, dokonce i komerčně. <b>Musíte</b> zajistit správné přisouzení autorství, poskytnout odkaz na licenci a uvést, zda byly provedeny změny.
+<b>Můžete</b> to udělat jakýmkoli přiměřeným způsobem, ale ne způsobem, který by naznačoval, že poskytovatel licence vás nebo vaše použití schvaluje. Pokud remixujete, transformujete nebo vytváříte z materiálu odvozená díla, <b>musíte</b> své příspěvky distribuovat pod stejnou licencí jako původní dílo. (Toto je shrnutí srozumitelné pro lidi a není náhradou za „právní kód“ CC-BY-SA 4.0.)
 
-Furthermore for remix versions (derivative works), the licensor asks you 
-not to make any modifications of the author's personal acknowledgments 
-and the author's and illustrator's short biographies, instead please 
-completely remove those parts from your remix version.
+Poskytovatel licence navíc u remixovaných verzí (odvozených děl) žádá, abyste nijak neměnili osobní poděkování autora a krátké biografie autora a ilustrátorky. Namísto toho prosím tyto části ze své remixované verze úplně odstraňte.
 
-Publication under this free cultural license was possible due to the 
-great support by dpunkt.verlag GmbH / O'Reilly Media, Inc. for the 
-German book and No Starch Press for the English book. Unfortunately, 
-Creative Commons licenses are still rare exceptions for commercially 
-published books, and often considered revolutionary and risky by 
-publishers.
+Vydání pod touto svobodnou kulturní licencí bylo možné díky velké podpoře dpunkt.verlag GmbH a O'Reilly Media, Inc. pro německou verzi knihy a No Starch Press pro anglickou verzi. Bohužel, licence Creative Commons jsou stále vzácnou výjimkou u komerčně vydávaných knih a často jsou považovány vydavateli za revoluční a riskantní.
 
-<b>A big thank you</b> to <b>dpunkt.verlag</b> and </small><small><b>No 
-Starch Press</b></small><small> for understanding the values of software 
-freedom, taking the time to discuss and understand the advantages of 
-free cultural licenses, and the great support to publish this book under 
-conditions that respect the FSFE's values.
+<b>Velké poděkování</b> patří <b>dpunkt.verlag</b> a <small><b>No Starch Press</b></small> za pochopení hodnot svobody softwaru, za čas věnovaný diskusím a pochopení výhod svobodných kulturních licencí a za velkou podporu při vydání této knihy za podmínek, které respektují hodnoty FSFE.
 
 ## 2BB ##
 
-<b>Volné dílo je svobodné, což neznamená zdarma</b>
+<b>Bez omezení, ne bezplatně.</b>
 
-Svobodný software je o svobodě, kterou obdržíte se software, ne o jeho ceně. Stejně tak publikace pod svobodnou kulturní licencí neznamená, že máte právo obdržet vaši kopii knihy, nebo e-knihy zdarma. Znamená, že dostanete výše popsaná práva, které umožní společnosti dále využívat tuto knihu.
+Svobodný software se týká svobod, které se softwarem získáváte, nikoli jeho ceny. Stejně tak vydání knihy pod svobodnou kulturní licencí neznamená, že máte právo získat zdarma kopii knihy nebo e-knihy. Znamená to, že získáváte práva popsaná výše, která umožňují společnosti dále z této knihy těžit, stejně jako by měla těžit ze všech kulturních děl.
 
-Doporučujeme vám podpořit autory, vydavatele a další, kteří se podíleli na tvorbě kultury pod svobodnou licencí — to zahrnuje <b>finanční podporu skrze nákup a dary</b>.
+Podporujeme vás, abyste podpořili autory, vydavatele a další, kteří se podílejí na tvorbě kultury pod svobodnými licencemi – včetně <b>finanční podpory prostřednictvím nákupů nebo darů</b>.
 (https://fsfe.org/donate)
 Společnost by měla podporovat ty, kteří respektují svobodu ostatních.
 
-** 3 **
-=== Slide 1
+## 3 ##
+
+==== Slide 1
 
 [[I:ada-p03
-IMAGE: Matthias Kirschner, Sandra Brandstätter - ADA & ZANGEMANN - A 
-Tale of Software, Skateboards and Raspberry Ice Cream.
-Title in the middle, authors in the upper left.
-In the lower right, Ada's family's dog with gray fur and some white 
-patches and with a red collar with shiny yellow LEDs, which wags its 
-tail. 
+OBRÁZEK: Matthias Kirschner, Sandra Brandstätterová - ADA A ZANGEMANN -
+Příběh softwaru, skateboardů a malinové zmrzliny.
+Titulek uprostřed, autoři nahoře vlevo. Dole vpravo je Adin pes. Má
+šedivou srst s bílými skvrnami, červený obojek se svítícími
+žlutými LED a vrtí ocasem.
 ]]
 Matthias Kirschner
-Sandra Brandstätter
+Sandra Brandstätterová
 
-ADA & ZANGEMANN
+ADA a ZANGEMANN
 
-Příběh o softwaru, skateboardech a malinové zmrzlině
+Příběh o softwaru, skateboardech a malinové zmrzlině.
 
 ## 4 ##
+
 ==== Slide 2
 
-[B]ylo nebylo, žila jedna malá holčička, která se jmenovala Ada. Její rodina byla tak chudá, že se všechny její úspory vešly do plechovky od sušenek. Neměli dost peněz na to, aby bydleli v pěkném domě. Místo toho Ada žila se svou maminkou a bráškou Alanem v malé chatce poblíž smetiště na okraji města.
+Byla jednou jedna malá holčička a jmenovala se Ada. Její rodina byla tak chudá, že se všechny jejich úspory vešly do jedné sklenice od sušenek. Neměli ani tolik peněz, aby si mohli dovolit skutečný dům. Místo toho bydleli Ada a její malý bratr Alan s maminkou v chatce poblíž vrakoviště na kraji města.
+
 [[I:ada-p04
-IMAGE: Ada in foreground leaving the house to go to school, in the 
-background Ada's house and the junkyard. Ada has a brown backpack with 
-yellow shoulder straps.
-To the left of Ada there is a red car, a Volkswagen Beetle, without 
-wheels and no longer working, with one of the headlights remaining 
-attached only with its wires.
-On the left, in front of the car, there are two tires, two boxes – one 
-of which is a wooden box with an overturned bucket –, and an empty can, 
-all among some plants with yellow flowers.
-In the background there is Ada's house, with her mother and her brother 
-Alan waving goodbye, and the dog sitting on the ground.
-Alan is sitting on the two entrance steps of the house. He has short 
-dark hair and is dressed in a white short-sleeved shirt with a red 
-stripe at the edges of the sleeves and two red stripes at the bottom of 
-the shirt. Alan wears blue shorts and he is barefoot.
-Ada's mom has dark lipstick and long black hair in a white headband. She 
-is wearing a short blue shirt with white trim, white pants, and yellow 
-shoes.
-Ada's house is built of wood, with the front being white. The roof is 
-dark red corrugated sheeting. There are two windows in front in addition 
-to the door, and another window on the left side. A yellow duck stands 
-on top of the roof, while a gray chimney protrudes. An antenna on the 
-left of the roof supports a clothesline on which red clothespins hold a 
-green tank top, a pair of light blue pants, and white underpants. To the 
-right of the house there is a veranda on which there is installed a 
-solar panel. Under the veranda there are a mattress, a red oil drum, and 
-a gray case.
-Behind the house there are piles of landfill objects among which you can 
-see a washing machine, a car, and various wooden boards. 
+OBRÁZEK: Ada odchází z domu do školy. Má hnědý batoh se žlutými popruhy.
+Nalevo od Ady stojí červené auto, Volkswagen Brouk. Nemá kola a jediný zbylý
+světlomet už také visí jenom na drátech. Nalevo před autem mezi květinami leží dvě pneumatiky a dvě krabice. Jedna z nich je dřevěná a uvnitř je převrácený kbelík. Vedle leží prázdná plechovka.
+V pozadí je Adina chatrč, ve dveřích stojí maminka s bratrem a mávají Adě na rozloučenou.
+Na zemi před nimi sedí pes.
+Alan sedí na schodcích do chatrče. Má krátké tmavé vlasy a je oblečený
+do bílého trička s krátkými rukávy s červeným lemem a dvěma červenými
+pásky na spodním okraji trička. Má modré kraťasy a je bosý.
+Adina máma má tmavou rtěnku a černé vlasy svázané bílou stuhou. Má krátké
+modré tričko s bílým zakončením, bílé kalhoty a žluté boty.
+Adina chatrč je dřevěná. Přední stěna je natřená na bílo. Střecha je pokryta tmavě červenými
+vlnitými plechy. Na přední straně jsou kromě dveří ještě dvě okna a další okno je na
+levé straně. Na střeše stojí žlutá kachna. Střechou se prodírá bílý komín.
+Na levé straně střechy je televizní anténa, od které vede prádelní šňůra, na které visí
+zelený nátělník, světle modré kalhoty a bílé kalhotky, přichycené červenými kolíčky na prádlo.
+Na pravě straně domu je veranda se solárním panelem na střeše.
+Pod verandou je matrace, červený sud od oleje a šedý kufr. Za domem jsou hromady starých věcí, na kterých můžeme rozeznat pračku, auto a mnoho dřevěných prken.
 ]]
 
-** 5 **
+## 5 ##
 
 [[I:ada-p05
-IMAGE: Prestigious magazines (“STARS“, “MONEY”, “Richest Man”) on whose 
-cover are Zangemann and his villa. 
+IMAGE: Hromádka prestižních časopisů (“Stars“, “Money”, “Největší boháč”) a na titulních stranách je Zangemann a jeho vila.
 ]]
-Daleko odtud, na druhém konci města, bydlel slavný vynálezce, který se jmenoval Zangemann. Zangemann byl nebývale bohatý. Tak, že žádný papír na světě nebyl dostatečně velký na to, aby se na něj vešel stav jeho bankovního účtu se všemi čísly a nulami! Zangemann bydlel v obrovském domě s bazénem a tobogánem, spoustou schodišť a věží, stovkami oken a tolika pokoji, že se v nich často sám ztrácel. Jeho sídlo stálo vysoko na kopci, odkud viděl celé město.
+
+Daleko odtud, na opačném konci města, žil slavný vynálezce Zangemann. Byl nesmírně bohatý. Jeho konto přetékalo číslicemi a nulami. Zangemann bydlel v obrovském domě s bazénem a tobogánem, se spoustou schodů a věží, se stovkami oken a tolika pokoji, že se v nich často ztrácel i on sám. Zangemannovo sídlo se nacházelo vysoko na kopci a celé město měl pod sebou jako na dlani.
 
 ## 6 ##
+
 ==== Slide 3
-[P]očítače Zangemanna fascinovaly od dětství. Když a byl ještě malý chlapec, počítače bývaly obrovskými stroji se spoustou drátů a hlučných větráků. Ve škole malý Zangemann často sníval o všech těch věcech, které by mohl dělat s počítači, kdyby jen byly o trošičku menší — dost malé na to, aby mohly být zabudované do dalších zábavných věcí. Už tehdy věděl, co by s nimi udělal. Nejdříve by vestavěl počítač do svého skateboardu tak, aby vydával zajímavé zvuky, když na něm pojede — třeba zvuk sirény hasičského auta nebo zvuk startu rakety. Taky by za pomocí počítače vynalezl přístroj na dělání zmrzliny! Počítač v něm by namíchal ty nejlepší příchutě a dokonce by tu zmrzlinu sám prodával. Představoval si, že na každém rohu ulice by stál jeden takový přístroj a kdykoli by se mu zachtělo, mohl by si dát tolik zmrzliny své oblíbené příchutě, kolik by si jen přál. Potom by taky sestavil čisticího robota a přístroj na třídění krabic, takže jeho pokoj by vždy zůstal čistý a uklizený. Zangemann měl tyto úžasné nápady každý den. Nemohl zkrátka myslet na nic jiného.
 
-Jak roky ubíhaly, Zangemann rostl a počítače byly menší a menší. V době, kdy dokončil školu, byly tak malé, že se vešly do jeho kapsy. Nejmenší z nich se dokonce vešly na koneček jeho prstu.
+Počítače fascinovaly Zangemanna už od dětství. Když byl malý, byly to obrovské stroje, ve kterých se proplétaly dráty a hučely ventilátory. Ve škole pak malý Zangemann často snil o tom, co všechno by s počítači dokázal, kdyby byly jen o něco menší – dost malé na to, aby se vešly do nejrůznějších věcí.
+Jako první by zabudoval počítač do svého skateboardu, který by při jízdě vydával parádní zvuky – třeba jako hasičská siréna nebo startující raketa.
+A vymyslel by i stroj na zmrzlinu! Počítač by uměl namíchat ty nejlepší příchutě a rovnou by je i prodával. Jeho automaty by stály na každém rohu, takže by si mohl kdykoli skočit pro svou oblíbenou zmrzlinu.
+Také by postavil robota na úklid a stroj na třídění stavebnic, aby měl ve svém pokoji vždy krásně uklizeno. Každý den měl nový nápad a nemyslel téměř na nic jiného.
 
-** 7 **
+A skutečně – čím byl starší, tím byly počítače menší. Když dokončil školu, byly už tak titěrné, že se vešly do kapsy. A ty nejmenší? Jen na špičku prstu.
+
+## 7 ##
 
 [[I:ada-p07
-IMAGE: Zangemann as a child on a chair at a school table. From his head 
-come six bubbles in which there are his ideas of places in which to 
-insert computers: a video call system, a speaker, a washing machine, a 
-skateboard with radio control on a big computer monitor, a wrist 
-computer, and a shoulder computer with a monitor and keyboard.
-Zangemann has gray hair, a dark purple shirt with blue horizontal 
-stripes, blue shorts, brown shoes and white socks. He wears glasses and 
-a big watch on his left wrist.
-On the table there are an open notebook, a yellow pencil, and an eraser, 
-while hanging on the side of the table there is his brown briefcase. 
+OBRÁZEK: Zangemann sedící ve školní lavici. Jeho myšlenky jsou znázorněny jako šest bublin s nápady, kam by šlo vložit počítače: systém pro videohovory, reproduktor, pračka, skateboard s rádiovým ovládáním, náramkový počítač a přenosný počítač i s monitorem a klávesnicí. Zangemann má šedé vlasy, nosí brýle a má tmavě fialové tričko s modrými vodorovnými pruhy, modré šortky, hnědé boty a bílé ponožky. Na levém zápěstí má velké moderní hodinky. Na stole je otevřený sešit, žlutá tužka a guma. Na boku lavice visí jeho hnědá aktovka.
 ]]
 
 ## 8 ##
+
 ==== Slide 4
-„Konečně můžu proměnit všechny své nápady v doopravdické věci!“ zvolal Zangemann a dal se do práce. Našel způsob, jak zabudovat ty malé počítače do různých věcí, aby je udělal ještě zábavnějšími a užitečnějšími. A potom je prodával.
+
+„Konečně můžu všechny své nápady uskutečnit!“ jásal Zangemann a pustil se do práce. Zabudoval malé počítače do nejrůznějších zařízení a vylepšil tak jejich praktičtnost. A tyto přístroje pak prodával.
 
 [[I:ada-p08b
-IMAGE: Zangemann original ice cream machine.
-It is ice blue in color and is similar to a vending machine of drinks, 
-but instead of the cup there is a cone that is filled with ice cream.
-Above the dispenser there is a monitor showing the variety that is 
-distributed, in this case pineapple ice cream.
-On the left there are the slot for inserting coins, the various buttons 
-to choose the flavor, and the hole for returning coins.
-At the top there is a round white sign with a scoop of candy-pink ice 
-cream in a cone.
-On the back of the machine there is the refrigeration machinery with the 
-“Z” of the Zangemann logo. 
+OBRÁZEK: Zangemannova originální zmrzlinovačka.
+Je světle modrá, podobná automatu na nápoje, ale místo kelímku je zde kornoutek, který se plní zmrzlinou. Nad dávkovačem je monitor, který ukazuje příchuť zmrzliny, která se právě podává. V tomto případě je to ananasová zmrzlina.
+Vlevo se nachází otvor pro vkládání mincí, různé tlačítka pro výběr příchutě a otvor pro vracení mincí. Nahoře je kulatý bílý znak s kopečkem cukrově růžové zmrzliny v kornoutku.
+Na zadní straně stroje, na chladícím zařízení, je logo ve tvaru písmene „Z“ jako "Zangemann".
 ]]
-Dospělí i děti jeho vynálezy milovali. Všechny děti chtěly jeden z jeho skateboardů — spolu s nejnovějšími zvuky, které předváděli svým kamarádům ve škole. Dětem se taky líbil reproduktor, který jim okamžitě zahrál kteroukoli písničku si přály. A samozřejmě, každý měl moc rád chutnou zmrzlinu, kterou každý den prodávaly automatické originální Zangemannovy zmrzlinové stroje. Vypadalo to jako kouzlo, ale tajemství bylo prosté: vše umožnily malé počítače, které Zangemann zabudoval do svých přístrojů.
+Dospělí i děti jeho vynálezy milovali. Děti chtěly mít Zangemannův skateboard a k němu pokaždé ten nejnovější zvuk, aby se s ním mohly jaksepatří chlubit kamarádům na školním dvoře. Mnozí měli také jeho praktické reproduktory. Jakmile se do nich řekl název písně, ta se hned začala přehrávat. Komu ještě nějaké kapesné zbylo, mohl si odpoledne koupit automaticky namíchanou zmrzlinu z originální Zangemannovy zmrzlinovačky. Vypadalo to jako kouzla, ale vše zařizovaly malé počítače, které Zangemann do svých přístrojů vestavěl.
 [[I:ada-p08a
-IMAGE: An original Zangemann electric skateboard leaving a blue trail 
-with musical notes and colored circles. Only the knees, white socks, and 
-olive green shoes with white soles of the child riding it are shown. 
+OBRÁZEK: Originální Zangemannův elektrický skateboard zanechávající modrou stopu s notami a barevnými kruhy. Z dítěte, které jede na skateboardu, jsou vidět jenom kolena, bílé ponožky a olivově zelené tenisky s bílou podrážkou.
 ]]
 
-** 9 **
+## 9 ##
 
 [[I:ada-p09
-IMAGE: Ada tinkers with objects in her improvised lab.
-Ada is sitting on an overturned water case, and working on a repair with 
-a yellow screwdriver. Also on the table are green pliers, a red hammer, 
-a white power strip, and another gadget. Ada is at a table consisting of 
-a wooden board supported by two oil drums (one gray and one red) and a 
-small wooden sawhorse. Behind Ada there are a washing machine, pipes, 
-and a board. In front of the improvised table there are tires and an old 
-phone with faulty wire. Alan is coming toward Ada holding a yellow fan 
-over his head. Alan now wears white socks and yellow shoes. 
+OBRÁZEK: Ada kutí ve své improvizované laboratoři.
+Ada sedí na převrácené přepravce na lahve a pracuje na opravě nějakého přístroje. Používá k tomu žlutý šroubovák. Na stole dále leží zelené kleště, červené kladivo, bílá zásuvková lišta a ještě další přístroj.
+Ada pracuje u stolu, který se skládá z dřevěné desky položené na dvou olejových sudech (jednom šedém a jednom červeném) a menší dřevěné koze. Za Adou je pračka, potrubí a dřevěná deska. Před improvizovaným stolem jsou pneumatiky a starý telefon s rozbitým sluchátkem. Alan přichází k Adě a nad hlavou drží žlutý větrák. Má na sobě bílé ponožky a žluté boty.
 ]]
-Tyto vynálezy byly velmi oblíbené ve škole, kam chodila Ada. Spousta jejich přátel jezdila na skvělých skateboardech. Ada byla často smutná, protože její maminka ji nemohla koupit žádnou z těchto úžasných věcí: ani skateboard, ani reproduktor a ani zmrzlinu.
-==== Slide 5
-Naštěstí Ada bydlela kousek od smetiště. Tam byla spousta rozbitých zařízení a rezavých dílů, které Ada dávala dohromady, aby vyrobila zajímavé nové věci, jako například bednu od mýdel, na které spolu s bráškou Alanem s řinčením sjížděli z kopce, větrný mlýn a strašidelná odpadková strašidla, se kterými společně s Alanem bojovali. Taky našla spoustu použitelných předmětů — třeba starý mobil. Sice měl rozbitou obrazovku, ale s tím si Ada uměla poradit a, i když na skládce neměla internet, připojit se mohla odjinud.
 
-Ada si užívala tvoření na smetišti a opravování rozbitých věcí tak, že úplně zapomněla na skateboardy i zmrzlinu.
+I ve škole, kam chodila Ada, byly tyto vynálezy velkým hitem a její spolužáci na skateboardech jezdili sem a tam. Ada ale bývala často smutná – její maminka si nemohla dovolit koupit jí ani skateboard, ani reproduktor, ani zmrzlinu.
+
+==== Slide 5
+
+Naštěstí bydlela hned vedle vrakoviště, kde nacházela rozbité přístroje a rezavé součástky, ze kterých si stavěla parádní věci: krabici od mýdla na sjíždění z kopců, větrnou turbínu či děsivá monstra ze šrotu, která pak společně s bráškou Alanem poráželi. 
+Našla tam ale i užitečné věci – třeba starý mobil. Displej byl sice trochu naprasklý, ale to si koneckonců mohla opravit. I když na vrakovišti internet nebyl, mohla se připojit někde jinde.
+Tolik ji bavilo stavět a opravovat věci na vrakovišti, že nakonec na skateboardy a zmrzlinu úplně zapomněla.
 
 ## 10 ##
-==== Slide 6
-Zangemann se brzy stal nejbohatším člověkem na světě, protože všichni horlivě nakupovali jeho vynálezy. Za peníze si koupil obrovský zlatý počítač s klávesnicí z drahokamů a postavil ho do největšího pokoje svého sídla. Odtamtud mohl přes internet ovládat všechny maličké počítače, které byly zabudovány v jeho vynálezech.
 
-Vše, co musel udělat, bylo stisknout správné tlačítko na svém zlatém počítači a okamžitě všechny stroje na zmrzlinu v celém městě začaly dělat jenom vanilkovou příchuť. Když Zangemann chtěl, aby lidi jedli čokoládovou zmrzlinu, stiskl tlačítko čokoládové zmrzliny. Když dal příkaz pro citronovou zmrzlinu, přístroje vyráběly pouze citronovou příchuť. Zangemann miloval své vynálezy a byl vždy nadšen, jak skvěle fungují. Jen někteří lidé byli občas zklamaní, že jejich oblíbená příchuť zmrzliny zrovna nebyla k dostání, ale co mohli dělat? Aspoň, že přístroj na zmrzlinu byl na každém rohu.
+==== Slide 6
+
+Protože lidé Zangemannovy vynálezy nadšeně kupovali, stal se brzy nejbohatším člověkem na světě. Za své nesmírné bohatství si pořídil zlatý počítač s klávesnicí osázenou drahokamy a umístil ho do největšího sálu své vily. Odtud pak přes internet řídil všechny ty malé počítače, které zabudoval do svých vynálezů.
+
+Stačilo zmáčknout správnou klávesu a všechny zmrzlinové stroje ve městě začaly vydávat vanilkovou zmrzlinu. Když měl chuť na čokoládovou, jednoduše zadal jinou kombinaci. A když spustil příkaz pro citronovou, vyráběly stroje už jen citrónovou. Zangemann své vynálezy zbožňoval a obdivoval, jak spolehlivě plní každé jeho přání. Lidé sice bývali zklamaní, když jejich oblíbená příchuť zrovna nebyla k mání, ale co naplat – zmrzlina byla alespoň na každém rohu.
+
 [[I:ada-p10
-IMAGE: A white power strip attached to a wall socket. The power strip 
-has 3 sockets and a green switch. One of the sockets is attached to a 
-plug with a gray cable. 
+OBRÁZEK: Bílá prodlužovací šňůra připojená do nástěnné zásuvky. Prodlužovací šňůra má lištu se třemi zásuvkami a na ní zelený vypínač. V jedné ze zásuvek je zastrčená šedá elektrická šňůra.
 ]]
 
-** 11 **
+## 11 ##
 
-Zangemanna náramně bavilo mačkat blyštící se klávesy a dívat se na lidi, jak jí zmrzlinu. Každý den tím u svého zlatého počítače strávil spoustu času. Znova a znova se díval dolů na město skrze dlouhý dalekohled a sledoval, jak spolehlivě jeho vynálezy plní všechny jeho příkazy.
+Bavilo ho mačkat třpytivé klávesy a dívat se, jak lidé s chutí mlsají. Hodiny denně trávil u svého počítače a dlouhým dalekohledem pozoroval město pod sebou – jak přesně jeho stroje plní své úkoly.
 
 [[I:ada-p11
-IMAGE: Zangeman sitting in front of his golden computer on a golden 
-armchair with a very tall red padded backrest at whose top is the “Z” of 
-the Zangemann logo. He is wearing a purple turtle-neck sweater and light 
-blue trousers.
-The computer has four ornate monitors of various sizes, each of which 
-has the logo on the back. It is integrated into a costly wooden desk 
-from which a gray cable flows that is connected to the power strip of 
-the previous page. 
+OBRÁZEK: Zangemann sedí před zlatým počítačem ve zlatém křesle s velmi vysokým červeným polstrovaným opěradlem, na jehož vrcholu je „Z“, logo Zangemanna. Má na sobě fialový rolák a světle modré kalhoty. Počítač má čtyři zdobené monitory různých velikostí, na jejichž zadní straně je logo. Počítač je zabudován do drahého dřevěného stolu, ze kterého vychází šedý kabel, jenž je připojen k prodlužovací šňůře z předchozí stránky.
 ]]
 
 ## 12 ##
+
 ==== Slide 7
-Když neseděl před svým velkým počítačem, montoval Zangemann malé počítače do dalších přístrojů, které pak prodával. Vyrobil pračku, která, když doprala, uměla poslat zprávu do telefonu. Vylepšil vysavač tak, že hrál veselou hudbu namísto hlasitého hučení. Vynalezl žárovky, které se zapínaly a vypínaly, když luskl prsty, a auta, která mohla říct, kde je nejbližší obchod s potravinami.
+
+Když zrovna neseděl u svého zlatého počítače, vymýšlel Zangemann další a další přístroje s mikropočítači a posílal je na trh.
+Postavil pračky, které uměly poslat zprávu na mobil, jakmile se prádlo vypralo. Vysavače, které místo hlučného funění hrály veselou hudbu. Lampy, které se rozsvítily lusknutím prstů. A dokonce auta, která uměla navigovat do nejbližšího supermarketu.
+
 [[I:ada-p12
-IMAGE: City landscape with houses and shops, with a central street 
-turning right. On the road there are a car and a cyclist.
-There are various children and adults walking or going on skateboards, 
-some eating ice cream, while others are buying ice cream from the 
-original Zangemann machines. 
+OBRÁZEK: Pohled na město s domy a obchody, uprostřed je ulice směřující doprava. Po silnici jede malé červené auto a v protějšímu pruhu cyklista v modrém dresu.
+Po ulici chodí děti i dospělí,  jezdí na skateboardech, někteří jedí zmrzlinu, zatímco jiní si ji teprve kupují z originálních Zangemannových strojů.
 ]]
-Brzy v sobě mělo skoro každé zařízení na světě Zangemannův počítač. I když ne všechny jeho vynálezy byly na první pohled potřebné, lidé nakupovali vše, co vyrobil. Už to tak prostě bylo. Každý chtěl přístroje od Zangemanna, největšího světového vynálezce.
 
-** 13 **
+Brzy byl Zangemannův počítač zabudovaný skoro v každém zařízení. Ne všechno, co vymyslel, bylo nakonec tak praktické, jak se zdálo. Ale to nevadilo – lidé od něj kupovali úplně všechno.
+Takový byl zkrátka svět. Každý chtěl mít zařízení od Zangemanna, největšího vynálezce na světě.
 
-Jednoho dne si Zangemann pomyslel: „Dneska si prohlédnu své vynálezy pěkně zblízka“. Odsunul svůj velký dalekohled a zamířil si to dolů, po spoustě schodů svého sídla, až do města. Těšil se, jak se bude bavit sledováním svých skvělých přístrojů.
+## 13 ##
+
+Jednoho dne si Zangemann řekl: „Dneska si své vynálezy prohlédnu zblízka!“
+Odložil dalekohled a plný očekávání se vydal po schodech dolů do města, aby si osobně užil, jak skvěle jeho přístroje fungují.
+
 [[I:ada-p13
-IMAGE: Zangemann descends the stairs from his mansion on the hill 
-towards the city.
-Zangemann's house stands on a hill. The front is blue with large 
-windows; the towers are dark blue, and from a window starts a yellow 
-slide that ends in a large swimming pool with two palm trees. The roofs 
-are red, and above the highest tower an antenna is installed.
-On the sides of the stairs to get off the hill there are evergreen 
-trees. 
+OBRÁZEK: Zangemann schází po schodech ze svého sídla na kopci směrem k městu.
+Zangemannův dům stojí na kopci. Přední část je modrá s velkými okny; věže jsou tmavě modré a z jednoho okna vede žlutý tobogán, který ústí ve velkém bazénu se dvěma palmami. Střechy jsou červené a na nejvyšší věží je instalována anténa. Po stranách schodů vedoucích z kopce dolů rostou stromy.
 ]]
 
 ## 14 ##
 
-„Možná mi tento malý výlet pomůže přijít na další nápady. Abych řekl pravdu, mé poslední vynálezy nebyly tak užitečné jako ty první …“, přemýšlel Zangemann. „Ale mé přístroje na zmrzlinu jsou a budou nepřekonatelné,“ pomyslel si pyšně vzápětí, zatímco míjel skupinku, v níž všichni lidé jedli zmrzlinu s příchutí kokosu, která byla ten den k mání.
+„Možná mě cestou napadne něco nového. Pravda, poslední nápady nebyly tak užitečné jako ty první... Ale mé zmrzlinové stroje jsou a zůstanou nepřekonatelné,“ pomyslel si pyšně, když míjel skupinku lidí s kokosovou zmrzlinou – jedinou příchutí dne.
+
 ==== Slide 8
-Zangemann byl úplně ponořen do svých úvah, když se najednou ozvalo — BUM! — a něco mu vrazilo do holeně.
+
+Byl úplně zabraný do svých myšlenek, když najednou – BUM! Něco mu prudce narazilo do holeně.
+
 [[I:ada-p14
-IMAGE: Zangemann after the incident with the child. Zangemann screams 
-from pain while holding up one of his legs with both hands at the shin.
-The child has brown hair that is blown back by Zangemann's scream; he is 
-wearing a light blue hooded sweatshirt and dark green pants. He holds a 
-red Zangemann electric skateboard. 
+OBRÁZEK: Zangemann po incidentu s dítětem. Zangemann křičí bolestí a oběma rukama se drží za holeň. Dítě má hnědé vlasy, které vlají v proudu Zangemannova křiku. Na sobě má světle modrou mikinu s kapucí a tmavě zelené kalhoty. V ruce drží Zangemannův elektrický skateboard červené barvy.
 ]]
 
-** 15 **
+## 15 ##
 
-Zangemann vyjekl a koukal, co ho to mohlo uhodit. Před ním stál vylekaný kluk, který držel orginální Zangemannův skateboard pod paží. „Promiňte, já jsem nechtěl,“ koktal ze sebe kluk, ale Zangemann ho ani neposlouchal.
+Zaskučel bolestí a rozhlédl se. Před ním stál malý kluk s vyděšeným výrazem a pod paží svíral Zangemannův elektrický skateboard.
+„Promiňte, to jsem nechtěl,“ koktal, ale Zangemann ho už neposlouchal.
 
-Rozčílený Zangemann kulhal pryč, když najednou uslyšel hlasitou hudbu. Nikdy před tím nic tak hrozného neslyšel. Když se rozhlédl, viděl, že hudba vycházela z repráku, který sám sestavil a který drželo v ruce dítě na druhé straně ulice. Dítěti se zjevně hudba líbila, ale Zangemannovi se z ní strašně rozbolela hlava a jeho nálada byla ta tam. Takhle si teda svou procházku nepředstavoval!
+Se zamračenou tváří se belhal pryč. Vtom se zničehonic ozvala hlasitá hudba. Tak hrozný rámus ještě nikdy neslyšel! Rozhlédl se – a uviděl dítě na druhé straně ulice, jak drží reproduktor jeho vlastní výroby.
+Dítě vypadalo spokojeně, ale Zangemannovi se z toho spustila strašná bolest hlavy a jeho vztek jen rostl.
+Tak takhle si svou procházku rozhodně nepředstavoval!
+
 [[I:ada-p15
-IMAGE: Advertisments for Zangemann ice cream (sandwich board), a 
-Zangemann electric skateboard, and a Zangemann washing machine.
-The math teacher, Mrs. Gernet, is passing in front of the billboards.
-Mrs. Gernet is an old lady with short white hair.  She is dressed in a 
-light green t-shirt and a pea green sweater, dark brown pants, and light 
-green heeled shoes.  She has a fuchsia shoulder bag, worn behind her.
-She pushes a small shopping cart in which there is a small brown dog 
-with a collar and tag. 
+OBRÁZEK: Reklamní plocha s reklamou na Zangemannův elektrický skateboard a Zangemannovu pračku. Nalevo stojí reklamní stojánek s reklamou na Zangemannovu zmrzlinu. Učitelka matematiky, paní Gernetová, prochází kolem billboardů. Paní Gernetová je starší dáma s krátkými bílými kudrnatými vlasy. Má na sobě světle zelenou košili,  khaki zelený svetr, tmavě hnědé 3/4 kalhoty a světle zelené boty na podpatku. Přes rameno nese fuchsiovou kabelku. Tlačí malý nákupní vozík, ve kterém sedí malý jezevčík s obojkem a známkou.
 ]]
 
 ## 16 ##
+
 ==== Slide 9
-Zangemann byl strašně naštvaný na ty dvě děti. Co si to vůbec dovolují, používat jeho vynálezy tímto způsobem? Celou noc pak nemohl usnout, tak se namísto toho posadil před svůj zlatý počítač. Dal všem malým počítačům ve skateboardech zákaz vjezdu na chodníky. Malým počítačům v reproduktorech zase přikázal, aby hudbu hrály úplně potichu, tedy kromě jeho oblíbené hudby, kterou si okamžitě pustil, aby se mu zlepšila nálada.
+
+Zangemann se na děti strašlivě rozhněval. Jak mohly takhle zneužít jeho vynálezy!
+Nemohl usnout, a tak si uprostřed noci sedl ke svému zlatému počítači.
+Všem malým počítačům ve skateboardech zadal příkaz, aby na chodnících přestaly fungovat.
+Reproduktorům přikázal, že nesmějí hrát nahlas, pokud nehrají jeho oblíbené melodie. A aby si spravil náladu, hned si nechal pár svých oblíbených kousků zahrát.
+
 [[I:ada-p16
-IMAGE: The city in the evening, with houses, a church, and two 
-streetlights. Images emerge from the dwellings illustrating Zangemann's 
-inventions bought by the inhabitants: a washing machine, a yellow vacuum 
-cleaner, and a red car, all with Internet connection signals. 
+OBRÁZEK: Město ve večerních hodinách, s domy, kostelem a dvěma pouličními lampami. Z oken domů vycházejí komixové bubliny znázorňující Zangemannovy vynálezy, které si obyvatelé koupili: pračka, žlutý vysavač a červené auto. Všechny vynálezy jsou on-line, což ukazují plné čárky síťového připojení.
 ]]
 
-** 17 **
+## 17 ##
 
 [[I:ada-p17
-IMAGE: Continuation of the previous picture, where in the background 
-there is the hill with Zangemann's house from whose antenna come the 
-signals to control the various devices.
-In emerging images there are: a red electric skateboard, a light bulb, 
-an ice cream machine, and a toilet, all of which are receiving commands 
-from Zangemann. 
+OBRÁZEK: Pokračování předchozího obrázku, kde je v pozadí kopec s Zangemannovým domem, ze kterého anténa vysílá signály pro ovládání různých zařízení. V dalších bublinách jsou: červený elektrický skateboard, žárovka, zmrzlinový stroj a toaleta. Všechny přijímají příkazy od Zangemanna.
 ]]
 
 ## 18 ##
+
 ==== Slide 10
-[N]a druhý den byl v Adině škole velký rozruch. Už na cestě do školy dětem přestaly fungovat skateboardy. Kolečka jednoduše stála. A navíc děti nemohly zesílit hudbu ve svých reproduktorech. Co se to děje?
+
+Další den to ve škole u Ady pořádně vřelo. Skateboardy po cestě přestaly fungovat – najednou se jim všechna kolečka zastavila. A také reproduktory skoro nehrály. Nešlo je zesílit. Děti nechápaly, co se stalo.
+
 [[I:ada-p18
-IMAGE: Five kids from the school who can't make skateboards work. Two 
-girls wear helmets, respectively blue and red. A little girl with brown 
-hair tied in two tails with yellow rubber bands is kneeling. She is 
-trying to understand why the skateboard of her friend with the red 
-helmet does not work. Four children have backpacks on their shoulders, 
-while the little girl with the red helmet left hers leaning on a bench 
-on which there are a yellow apple and a light blue bottle with a white 
-flower on it. 
+OBRÁZEK: Pět dětí ze školy, které se marně snaží rozjet své skateboardy. Dvě dívky mají na hlavách přilby, jedna modrou a druhá červenou. Malá dívka s hnědými vlasy svázanými do dvou culíků se žlutými gumičkami klečí a snaží se přijít na to, proč skateboard její kamarádky s červenou helmou nefunguje. Čtyři děti mají na zádech batohy, zatímco malá dívka s červenou helmou nechala svůj batoh opřený o lavičku, na které je žluté jablko a světle modrá láhev s motivem bílého květu na ní.
 ]]
 
-** 19 **
+## 19 ##
 
-I když Ada neměla žádnou ze Zangemannových věcí, přišlo jí podivné, že skateboardy a reproduktory najednou přestaly fungovat. Ale dlouho nad tím neměla čas uvažovat, protože šla zase něco vyrábět. Ze tří rozbitých jízdních kol smontovala jedno nové. Dala ho své mámě jako dárek, aby nemusela utrácet peníze za jízdenku na autobus do práce. Svému bratrovi Ada vyrobila reproduktor, aby mohl při usínání poslouchat pěkné příběhy, zatímco jejich maminka byla ještě v práci.
+I když Ada žádný z těch vynálezů neměla, taky ji překvapilo, že přestaly fungovat.
+Neměla ale moc času nad tím přemýšlet – byla ponořená do svých vlastních projektů.
+Ze tří rozbitých kol složila jedno nové a darovala ho mamince, aby nemusela jezdit autobusem do práce.
+Bráškovi zase sestavila reproduktor, aby si mohl večer sám pouštět pohádky, než se maminka vrátí z práce.
 
 [[I:ada-p19
-IMAGE: Close-up of Ada thoughtful, with a backpack and with one hand on 
-her chin and the other resting on her side. 
+OBRÁZEK: (Detail) Přemýšlející Ada, s batohem na zádech, jednou rukou si hladí bradu.
 ]]
-Po několika dnech se na šok z nefungujících přístrojů zapomnělo. Skateboardy pořád nejezdily po chodníku, ale jinde fungovaly. A tak děti jezdily v kruzích po hřišti a poslouchaly tichou hudbu. Jenom podivná pompézní pochodová hudba mohla i teď hrát nahlas, což bylo pro děti docela matoucí.
+
+Po pár dnech první šok ve škole opadl. Skateboardy sice na chodníku pořád nefungovaly, ale na školním dvoře se s nimi jezdit dalo. Hudba z reproduktorů byla sice tichá, ale hrála.
+Jenže odkudsi z dálky se ozývala zvláštní, pompézní pochodová melodie – hlasitá a protivná.
+Dětem lezla na nervy.
 
 ## 20 ##
+
 ==== Slide 11
-[A]din oblíbený den byla středa. Každou středu ji totiž její maminka s Alanem vyzvedávali ze školy a společně šli do knihovny. Adu lákala sekce techniky. Byly tam knihy s nákresy, návody pokusů a vysvětlením toho, jak různé věci fungují. V knihovně se Ada taky mohla připojit online ze svého telefonu. Rychle se dozvěděla, že i tam může najít spoustu informací. Na internetu si mnoho lidí vyměňovalo své nápady, sdíleli si rady a pomáhali ostatním.
 
-Jednoho odpoledne se Ada naučila dvě nová slova: hardware a software. Hardware už Ada docela znala: elektronická zařízení, se kterými si hrála po konci školy nebo ty přístroje, které mohla držet v ruce a pokusit se je opravit nebo předělat na něco dalšího. Co pro ní bylo ale úplně nové, bylo slovo software. Brzy se dozvěděla, že to znamená instrukce, které běží na počítači a řídí další zařízení nebo počítače. Některé knihy těmto instrukcím říkaly programy, nebo kód. Takovým programem mohl někdo například říct reproduktoru, jakou skladbu hrát a jak nahlas.
+Adin nejoblíbenější den byla středa.
+To je maminka – Adu i Alana – vyzvedávala ze školy a společně šli do knihovny.
+Ada tam mířila rovnou do technického koutku. Byly tam knihy plné nákresů a návodů na nejrůznější pokusy a experimenty.
+V nich Ada objevovala, jak různé přístroje fungují.
+A co bylo nejlepší – v knihovně se mohla pomocí svého starého mobilu připojit na internet.
+Bylo tam tolik věcí k objevování!
+Lidé na internetu sdíleli své nápady a tipy na opravy, aby pomohli ostatním.
 
-Úplně nejlepší věcí bylo to, že si Ada uvědomila, že si může hrát se softwarem stejně, jako to dělá s hardwarem. Hardware je vyroben nářadím — kladivy, vrtáky a šroubky. Software je vyroben tak, že se sepíšou příkazy pro hardware, pěkně jeden za druhým. Na to se používá speciální řeč — programovací jazyk. Se softwarem mohla Ada udělat své vynálezy ještě více užitečné. Teď se opravdu chtěla naučit programovací jazyk!
+Jednoho odpoledne narazila Ada na dvě nová slova: hardware a software.
+Hardware – to bylo něco, co už znala: elektronická zařízení, která mohla vzít do ruky a z nich něco sestavit.
+Ale software? To bylo nové.
+Rychle zjistila, že jde o pokyny, které říkají přístrojům a počítačům, co mají dělat.
+V některých knihách se těmto pokynům říkalo také programy nebo kód.
+Například: program mohl říct reproduktoru, jakou písničku má přehrát a jak nahlas.
 
-** 21 **
+A to bylo na tom nejúžasnější – že si mohla se softwarem hrát úplně stejně jako s hardwarem!
+Na hardware byl potřeba šroubovák nebo kladívko, ale software stačilo psát – řádek za řádkem.
+A k tomu existoval i speciální jazyk – programovací jazyk.
+Ada si uvědomila, že díky softwaru může svoje vynálezy vylepšit ještě víc.
+Rozhodně se ten jazyk chtěla naučit!
+
+## 21 ##
 
 [[I:ada-p21
-IMAGE: Computer screen from which the elements of the programming 
-language symbolically emerge: “while num > 0“, “init“, “sx=42“, “for“, 
+OBRÁZEK: Počítačová obrazovka, na které svítí prvky programovacího jazyka: “while num > 0“, “init“, “sx=42“, “for“,
 “v**3“.
-Ada is typing on a white keyboard with a blue cable, while her other 
-hand enters the screen to change the program (“print(msg)”, “a+b+c+d=e”, 
-“if”, “break”, “continue”, “exit()“). Next to the keyboard there are a 
-pencil and an eraser. 
+Ada píše na bílé klávesnici připojené modrým kabelem, zatímco druhou rukou sahá na
+obrazovku, aby změnila program (“print(msg)”, “a+b+c+d=e”,
+“if”, “break”, “continue”, “exit()“). Vedle klávesnice leží tužka a guma.
 ]]
 
 ## 22 ##
+
 ==== Slide 12
-[B]ěhem několika následujících týdnů byla Ada každé odpoledne v knihovně. Našla knížky a webové stránky, které vysvětlovaly, jak programovácí jazyky a kód fungují. Pro Adu to bylo jako by se učila tajnou řeč, nebo cizí slovíčka ve škole. Ada to přímo hltala. Od svého prvního programu chtěla něco jednoduchého jako: „Udělej, ať tohle světýlko bliká!“
 
-Samozřejmě hned chtěla vyzkoušet svůj program, aby viděla, jestli to skutečně funguje. Na smetišti připojila svůj telefon k malé LED diodě. Pak napsala pár řádků do svého telefonu.
+V následujících týdnech trávila Ada každé odpoledne v knihovně. Četla knihy a webové stránky, které vysvětlovaly, jak funguje programování.
+Připadalo jí to, jako by se učila tajný jazyk – podobně jako když se ve škole biflovala slovíčka. Učila se s nadšením! Její úplně první program zněl:
+„Udělej, aby tahle lampa blikala!“ Samozřejmě to chtěla hned vyzkoušet. Na vrakovišti připojila mobil k malé lampičce a do telefonu napsala řádky kódu, které si poznamenala…
+    
+Ale nestalo se nic. Ada chvíli přemýšlela, kde mohla udělat chybu. Udělala pár drobných změn, zkusila to znovu – a najednou: „Jooo!“ Lampička zablikala. Zapnuto, vypnuto, zapnuto, vypnuto. Ada zírala na světlo a nemohla uvěřit svým očím. Právě napsala svůj první program!
 
-Nejdříve se nic nestalo. Ada se zamyslela, kde by mohla být chyba. Změnila několik maličkostí v kódu a zkusila to znova... „Jóóó!“ Malé světýlko začalo blikat. Světlo, tma, světlo, tma. Ada sledovala diodu s úžasem. Napsala svůj první program!
+Byla naprosto nadšená. V hlavě se jí začaly rojit nápady, co všechno by mohla vytvořit. Stačilo správně napsat program – a její vynálezy by ji poslouchaly na slovo. Nebyla to úplně hračka, ale po několika týdnech už zvládla i praktický program: Alanův reproduktor se po půlhodině automaticky vypnul, když bratříček usnul.
 
-Ada byla úplně nadšená. Představovala si všechny skvělé věci, které by mohla udělat. Když napíše ten správný kód. Mohla by své vynálezy přimět dělat přesně to, co chce. Nebylo to tak snadné, ale po několika týdnech napsala Ada skutečně užitečný program: takový, který automaticky vypnul Alanův reproduktor půl hodiny po tom, co Alan usnul.
-
-** 23 **
+## 23 ##
 
 [[I:ada-p23
-IMAGE: Ada comes to grips with programming. She is typing on a keyboard 
-resting on a gray mat and connected to a smartphone with a blue cable.
-The smartphone is connected with a red wire to an electronic card with a 
-yellow LED lamp. The smartphone is powered by a transformer connected to 
-a power strip with a gray wire and plug.
-On the table there are also: 3 books, of which one is open; a clipboard 
-and a pencil; pliers; glue; solder; and a disconnected soldering iron. 
+OBRÁZEK: Ada se učí programovat. Píše na klávesnici položené na šedé podložce, která je připojena k smartphonu modrým kabelem. Smartphone je spojen červeným drátem s tištěným spojem, na kterém bliká žlutá LED dioda. Smartphone je napájen transformátorem připojeným k prodlužovací šňůře šedým kabelem. Na stole jsou také tři knihy, z nichž jedna je otevřená, psací podložka a tužka, kleště, lepidlo, pájka a odpojená páječka.
 ]]
-Ada taky měla nápad na další program, který napíše. Byla to velká věc, skutečný projekt. Na jeho dokončení potřebovala nejspíš celé léto... a nemohla se toho dočkat!
+A hned dostala další nápad – tentokrát něco opravdu velkého.
+Bude to pořádný projekt, možná na celé letní prázdniny… Nemohla se dočkat!
 
 ## 24 ##
 
 [[I:ada-p24
-IMAGE: Zangemann looks thoughtfully with his arms crossed out one of the 
-great windows of his house, into which the sun's rays are shining. 
+OBRÁZEK: Zangemann má ruce zkřížené na prsou a zamyšleně hledí ven z okna svého domu, na který dopadají sluneční paprsky.
 ]]
 
-** 25 **
+## 25 ##
+
 ==== Slide 13
-[Z]angemann spal špatně každou noc od své strašlivé procházky po městě. Když šel večer do postele, sužovaly ho obavy. „Ó né, mé geniální vynálezy. Nemohu dopustit, aby si s nimi každý hrál, jak ho napadne. Tím by se mohlo všechno pokazit! Já jsem promyslel vše do posledního detailu,“ hloubal a hloubal Zangemann a obracel se ve své posteli celou bezesnou noc.
 
-Jednoho dne, když se procházel s velmi svraštěným čelem, rozhodl se. Musí to vše změnit. Zangemann si sedl před svůj počítač a psal jeden program za druhým. V těch programech napsal přesně to, co jeho vynálezy mohly dělat a co dělat nesměly za žádných okolností. Ten chaos se musí zastavit!
+Od té hrozné procházky Zangemann každou noc špatně spal. Když večer ulehl do postele, hlavou mu vířily obrovské starosti: „Ach ne, mé úžasné vynálezy! Nemůžu přece dovolit, aby si s nimi všichni jen tak hráli. Co všechno by se mohlo stát! A přitom jsem to všechno tak pečlivě naplánoval.“ Převaloval se celou noc a přemýšlel, jak to zastavit.
 
-Když byl hotov, odeslal nové programy ze svého zlatého počítače do všech přístrojů u lidí ve městě. Přikázal reproduktorům, aby hrály pouze jeho oblíbenou hudbu, kdykoli byl na doslech. Naprogramoval zmrzlinové stroje, aby v poledne přestaly prodávat zmrzlinu. Nemohl přece dopustit, aby jeho drahé oblečení bylo potřísněno zmrzlinou, když byl venku na procházce. Celý den seděl před svým počítačem a psal a psal a psal...
+Ráno vstal s bolavou hlavou a učinil rozhodnutí. Takhle to dál nejde! Sedl ke svému zlatému počítači a začal psát – jeden program za druhým. Každému zařízení určil, co smí a co nesmí dělat. Konec chaosu!
 
+Když měl hotovo, poslal všechny nové příkazy do svých vynálezů. Reproduktorům přikázal, aby hrály jen jeho oblíbenou hudbu – a jen tehdy, když je v doslechu. Zmrzlinovým strojům zakázal prodávat zmrzlinu odpoledne. Co kdyby mu kápla na kalhoty, až půjde na procházku? Celý den seděl u počítače a psal a psal a psal ...
 
 ## 26 ##
+
 ==== Slide 14
-[L]etní prázdniny už byly v půlce. Ada stála před svým velkým projektem a škrábala se na hlavě. Postavila skateboard ze starých dílů a pak spojila motor tak, aby se kolečka točila. Když skončí škola, tak se s motorovým skateboardem bude moct přiblížit do knihovny nebo na smetiště ještě rychleji. To bude děsně praktické! Bohužel to ale nefungovalo. Když se postavila na skateboard a stiskla tlačítko „Jedeme!“, kolečka se otáčela příliš rychle. Ada spadla ze skateboardu pokaždé, když se rozjel. Jakkoli to zkoušela opravit, vše bylo marné.
 
-Poté, co spadla na zadek snad po sté, se rozhodla jít zpátky do knihovny. Vždy se jí tam podařilo najít odpovědi na všechny otázky. A skutečně našla na internetu program, který někdo napsal pro elektrickou koloběžku, protože ta se taky měla rozjíždět pomalu. Ada stáhla kód do svého telefonu.
+Letní prázdniny byly už v půlce. Ada stála před svým velkým projektem a drbala se zamyšleně na hlavě. Ze starých součástek postavila skateboard a připojila k němu motor, který roztáčel kola. Díky tomu by mohla jezdit do knihovny nebo na vrakoviště mnohem rychleji. Byl to skvělý nápad – jenže nefungoval. Jakmile si stoupla na prkno a zmáčkla tlačítko „Start“, kola se roztočila příliš rychle. Ada z prkna pokaždé spadla. Zkoušela všechno možné, ale udržet se na něm prostě nešlo.
 
-Když byla zpátky na smetišti, přizpůsobila část kódu pro svůj program do skateboardu. Pak ještě vylepšila pár věcí a programovala dále.
+Když spadla na zadek asi po sto padesáté, rozhodla se zajít do knihovny – tam přece vždycky našla odpovědi. A opravdu. Na internetu narazila na program, který někdo napsal pro svou elektrickou koloběžku. Ta se rozjížděla pomalu – přesně jak Ada potřebovala. Ada si program stáhla do mobilu. 
 
-Po několika dalších nepovedených pokusech nadešel v posledním dni letních prázdnin konečně ten okamžik, na který čekala. Ada se postavila na skateboard a zmáčkla tlačítko „Jedeme!“ a skateboard se rozjel nejdříve pomalu a pak rychleji. Zafungovalo to. Zkusila zabrzdit. Šlo to! Ada vykřikla radostí a vyjela na zkušební jízdu do parku.
+Jakmile se vrátila na vrakoviště, upravila několik řádků kódu a přepsala ho pro svůj skateboard. Zkoušela to znovu a znovu. Až poslední den prázdnin se Ada znovu postavila na prkno, zmáčkla „Start“ a ... skateboard se pomalu rozjel. Pak zrychlil. Fungovalo to! Zabrzdila – a to fungovalo taky! Ada radostí vykřikla a vyrazila do parku.
 
-** 27 **
+## 27 ##
 
 [[I:ada-p27
-IMAGE: Ada racing with her electric skateboard for city sidewalks. Ada's 
-skateboard is blue, with gray and pink wheels; the electronic part is 
-placed above the skateboard (as opposed to Zangemann's skateboards where 
-the electronic part is below). Ada is holding in both hands a remote 
-control with a short antenna to maneuver it.
-Behind Ada are Marie and Toni who carry their own skateboards under 
-their arms and look with amazement at Ada, who has shot past them and in 
-front of them.
-Marie has dark long hair with two braids fastened with orange clips, 
-yellow earrings, a fuchsia shirt with white sleeves with purple 
-horizontal stripes, a white skirt, white and yellow sneakers, white 
-socks, a white hat with yellow sides, and a light purple backpack. Marie 
-has a blue artificial leg. Her skateboard is blue with yellow wheels.
-Toni has red hair closely trimmed on the sides. He is wearing a blue 
-sweatshirt, dark green pants, and white shoes. He has a red backpack 
-with white inserts and shoulder straps. One hand is next to his mouth. 
-His skateboard is purple with orange wheels.
-There's also a father with his son walking in the opposite direction: 
-the father is dressed in a blue checked jacket and blue pants and holds 
-a brown briefcase. He is smiling at Ada.
-His son has a blue shirt, blue shorts, white shoes, a brown backpack, 
-and a red and white hat. He holds under his arm a yellow Zangemann 
-skateboard with light brown wheels, and he grins at Ada.
-In the background there is a bakery with large windows through which you 
-can see the bread. It has a green and white striped awning around the 
-corner and a sign on the sidewalk with the list of products. Overhead, a 
-large pretzel is displayed.
-On the road there is a puddle that reflects the blue of the sky. 
+OBRÁZEK: Ada uhání na svém elektrickém skateboardu po chodníku. Adin skateboard je modrý, s šedými a růžovými kolečky; elektronická část je umístěna nad skateboardem (na rozdíl od Zangemannových skateboardů, kde je elektronika umístěna pod). Ada drží v obou rukou dálkové ovládání s krátkou anténou, aby ho mohla řídit. Za Adou jdou Marie a Toni, kteří nesou své skateboardy v podpaží a s úžasem sledují, jak Ada sviští před nimi.
+
+Marie má dlouhé tmavé vlasy spletené do dvou copů sepnutých oranžovými sponkami, žluté náušnice, fuchsiové tričko s bílými rukávy s fialovými vodorovnými pruhy, bílou sukni, bílé a žluté tenisky, bílé ponožky, bílý klobouk se žlutými stranami a světle fialový batoh. Místo pravé nohy má Marie modrou protézu. Její skateboard je modrý se žlutými kolečky.
+
+Toni má zrzavé vlasy krátce ostříhané po stranách. Má na sobě modrou mikinu, tmavě zelené kalhoty a bílé boty. Má červený batoh s bílými prvky a popruhy. Jednu ruku má u úst, jakoby přemýšlel. Jeho skateboard je fialový s oranžovými kolečky.
+
+Opačným směrem jde po chodníku otec se synem: otec má na sobě modré kostkované sako a modré kalhoty a drží hnědou aktovku. Usmívá se na Adu.
+
+Jeho syn má modrou košili, modré kraťasy, bílé boty, hnědý batoh a červeno-bílou čepici. V podpaží drží žlutý Zangemannův skateboard se světle hnědými kolečky a směje se na Adu.
+V pozadí je pekárna s velkými okny, skrz které je vidět chléb. Na straně za rohem má zeleno-bílou pruhovanou markýzu a také reklamní ceduli s menu. Na zdi visí vývěsní štít ve tvaru preclíku. Na silnici je louže, která odráží modrou oblohu.
 ]]
 
 ## 28 ##
-==== Slide 15
-Když jela Ada na svém skateboardu do školy první den po prázdninách, ostatní děti koukaly s překvapením. O přestávce všechny udivené děti obklopily Adu.
 
-„Jak to, že můžeš jezdit na skateboardu po chodníku?“ ptaly se jí.
+==== Slide 15
+
+Když se Ada po prázdninách objevila ve škole na svém elektrickém skateboardu, ostatní děti jen zíraly. O velké přestávce ji obklopili zvědaví spolužáci. „Jak to, že můžeš jezdit po chodníku?“ ptali se překvapeně.
+
 [[I:ada-p28
-IMAGE: Ada stops on her skateboard surrounded by children. Marie is on 
-one end. She is pointing to Ada's skateboard and she's talking.
-Next to her is Konrad, with short blond hair, a dark gray helmet, 
-glasses, a green shirt with white collar and cuffs, light blue pants 
-with white cuffs, and gray shoes with white soles. He has a red 
-skateboard with orange wheels.
-Behind Ada there are 4 other children. On the other end Toni is smiling. 
-He touches his chin with one hand while with the other he holds a yellow 
-helmet by the laces. 
+OBRÁZEK: Ada stojí na svém skateboardu obklopena dětmi. Na jednom konci je Marie, která ukazuje na Adin skateboard a něco říká. Vedle ní stojí Konrad s krátkými blond vlasy, tmavě šedou helmou, brýlemi, zeleným tričkem s bílým límečkem a manžetami, světle modrými kalhotami s bílými manžetami a šedými botami s bílými podrážkami. Má červený skateboard s oranžovými kolečky. Za Adou stojí další čtyři děti. Na druhém konci stojí Toni a usmívá se. Jednou rukou si sahá na bradu, zatímco v druhé ruce za šňůrky drží žlutou helmu.
 ]]
 
-** 29 **
+## 29 ##
 
-Ada chvíli přemýšlela a pak řekla: „Já si myslím, že to není vašimi skatebordy, ale ve skutečnosti softwarem, který je v nich. Je naprogramován tak, aby skateboardy nemohly jezdit po chodníku. Ale to se dá změnit!“
+Ada se zamyslela. „Myslím, že to není samotným skateboardem, ale tím, co je naprogramované vevnitř – softwarem. Pravděpodobně je tam nastaveno, že nesmí jezdit po chodníku. Ale to se dá změnit!“
 
-Ten večer Ada vyzkoušela svou teorii na skateboardu svého spolužáka Toniho. Tajně pracovala celou noc a další den Toni mohl jezdit zase po chodníku. Bohužel ale jeho skateboard už nedělal zvuky, které jeho rodiče koupili od Zangemanna. Namísto toho každých 10 minut dělal divné zvuky, které zněly, jako by si odbrkl. Ada věděla, že chybičky, jako je tato, se často v softwaru objevují. Ale Toniho brkající skatebord byl vlastně docela legrační.
+Večer si Ada vzala do parády skateboard svého spolužáka Toniho. Pracovala tajně dlouho do noci – a ráno už Toni znovu svištěl po chodníku. Jenže skateboard přestal vydávat zvuky, které do něj rodiče koupili. Místo nich se každých deset minut ozval zvláštní zvuk, jako kdyby si někdo pořádně říhnul. Ada věděla, že do programu se občas chybička vloudí.
+
+A Toniho říhající skateboard nakonec všechny dost pobavil.
+
 [[I:ada-p29
-IMAGE: Hopscotch diagram drawn with chalk on asphalt. In a row, within 
-squares, the numbers 1, 2; 3 and 4 next to each other; 5, 6; and 7 and 8 
-next to each other. The number 9 is not inside a square but inside a 
-wider semicircle beyond the squares of numbers 7 and 8.
-Between the number 1 and the number 2 there is a blue bottle with white 
-polka dots.
-A yellow Zangemann skateboard with orange wheels on the side of the 
-diagram actually hides the number 1. 
+OBRÁZEK: Skákací panák nakreslený křídou na asfaltu. V řadě, uvnitř čtverců, jsou čísla 1, 2; 3 a 4 vedle sebe; 5, 6; a 7 a 8 vedle sebe. Číslo 9 není uvnitř čtverce, ale uvnitř širšího půlkruhu za čtverci s čísly 7 a 8.
+Mezi číslem 1 a číslem 2 je modrá láhev s bílými puntíky.
+Žlutý Zangemannův skateboard s oranžovými kolečky stojí tak, že zakrývá číslo 1.
 ]]
 
 ## 30 ##
+
 ==== Slide 16
-[V]íc a víc dětí začalo po škole navštěvovat Adu na smetišti a ona jim pomohla přepsat programy v jejich skateboardech. Někteří její spolužáci byli z nového objevu velmi nadšení. Bylo neuvěřitelné, co se dalo udělat s kódem softwaru! Děti se chtěly dozvědět vše, co uměla Ada o programovacích jazycích a brzo mohly jezdit na svých skateboardech, kdekoli se jim zachtělo.
+
+Každé odpoledne teď chodilo za Adou na vrakoviště víc a víc dětí. Ada jim pomáhala upravit programy v jejich skateboardech. Některé děti byly novými možnostmi naprosto nadšené. Neuvěřitelné, co všechno se dalo dělat pomocí programovacího kódu! Všechny se chtěly od Ady naučit co nejvíc o tom tajemném jazyku, kterým se ovládají stroje. A brzy už mohly jezdit se svými skateboardy zase, kamkoli chtěly.
+
 ==== Slide 17
-Ale to nebylo vše. Se softwarem mohli svým skateboardům dát nové skvělé funkce. Marie ke svému skateboardu připojila barevné LED diody, které svítily různými barvami v závislosti na tom, jak rychle jela. Konrád zabudoval do svého skateboardu malé vrtulky, aby ho ještě více urychlil.
+
+A to nebylo všechno! Díky softwaru mohly teď děti svým skateboardům přidávat nové a zábavné funkce. Marie připevnila na prkno barevná LED světýlka, která měnila barvu podle rychlosti jízdy. A Konrad si nainstaloval staré vrtule, díky kterým byl ještě rychlejší. 
+
 [[I:ada-p30
-IMAGE: A green battery with red and yellow wires, a power strip, glue, a 
-roll of solder, and two pencils. 
+OBRÁZEK: Zelená baterie s červenými a žlutými dráty, prodlužovačka, lepidlo, rolička pájky a dvě tužky.
 ]]
 
-** 31 **
+## 31 ##
 
-Ada, Toni, Marie a Konrád strávili na smetišti skoro každé odpoledne. Dokonce sestavili skutečnou dílnu, ve které mohli dlouhé hodiny dále vylepšovat své programy. Při tom poslouchali hudbu z bedniček, které Ada sestavila pro Alana.
+Ada, Toni, Marie a Konrad teď trávili spoustu času na vrakovišti. Dokonce si tam zařídili vlastní dílnu, kde celé hodiny vylepšovali své programy. A při tom poslouchali hudbu z reproduktorů, které Ada kdysi postavila pro Alana. „Reproduktory tvého bráchy jsou mnohem hlasitější než ty naše,“ poznamenal Toni, zatímco si na helmu připevňoval rychloměr. „To bude určitě tím softwarem,“ řekla Marie.
 
-„Reproduktory tvého bráchy jsou mnohem hlasitější, než naše,“ poznamenal Toni, který měl plné ruce práce s připojováním tachometru na svou přilbu. „Jsem si jistá, že to je taky kvůli softwaru,“ odpověděla mu Marie.
+A tak změnili program i v reproduktorech. Pak hudbu zesílili, jak jen to šlo – a začala divoká taneční párty!
 
-Společně pak taky přeprogramovali software v reproduktorech. Pak zapnuli hudbu jak nejhlasitěji to šlo a začali spolu divoce tančit.
 [[I:ada-p31
-IMAGE: A screwdriver with orange and gray handle, red pliers, and three 
-LEDs: yellow, green, pink. 
+OBRÁZEK: Šroubovák s oranžovo-šedou rukojetí, červené kleště a tři LED: žlutá, zelená, růžová.
 ]]
 
 ## 32 ##
 
 [[I:ada-p32
-IMAGE: Laboratory at the junkyard, under the veranda of Ada's house.
-Ada is sitting on a water case with a leg bent under her, using a 
-soldering iron.
-Konrad is standing next to her and dismounting a speaker.
-Marie is sitting on two tires with an arm resting on a table and her 
-upside-down skateboard from which wires come out. She is talking with 
-Alan, who is standing with his arms resting on the same table.
-On the table there are also: pliers, two wrenches, a spool of solder, a 
-can of blue paint (a bit of paint has dried on the table), and a pitcher 
-and two glasses containing a pink drink.
-Toni is testing his skateboard with added yellow wings and a fan. It 
-burps. 
+OBRÁZEK: Dílna na vrakovišti pod verandou Adina domu. Ada sedí na bedně od minerálek, jednu nohou ohnutou pod sebou, a používá páječku. Vedle ní stojí Konrad a rozebírá reproduktor.
+Marie sedí na dvou pneumatikách, opírá si ruku o stůl a o svůj převrácený skateboard, ze kterého trčí dráty. Mluví s Alanem, který stojí s rukama opřenýma o stejný stůl.
+Na stole jsou také kleště, dva klíče, cívka s pájkou, plechovka modré barvy (trochou barvy je pokapán i stůl), džbán a dvě sklenice s růžovým nápojem. Toni testuje svůj skateboard s přidanými žlutými křídly a ventilátorem. Skateboard krkne.
 ]]
 
-** 33 **
+## 33 ##
 
 [[I:ada-p33
-IMAGE: Marie and Ada's mom are dancing, facing each other. Alan, Ada, 
-and Konrad are dancing in a circle.
-On the right there is a speaker playing, resting on an oil drum.
-Near the speaker there are two dancing mice.
-Toni is jumping through the tires.
-Ada's dog is howling, and from his mouth come two distorted musical 
-notes. 
+OBRÁZEK: Marie a Adina máma tančí tváří v tvář. Alan, Ada a Konrad tančí v kruhu.
+Vpravo hraje reproduktor,  který postavený na sudu od oleje. Vedle reproduktoru tančí na prkně dvě myši. Toni skáče přes pneumatiky. Adin pes vyje a z jeho tlamy vycházejí dvě pokroucené osminové noty.
 ]]
 
 ## 34 ##
 
 [[I:ada-p34
-IMAGE: Hands holding wonderful ice cream cones:
-blue ice cream with a chocolate heart on top with a yellow heart on its 
-center, and whipped cream on top of the chocolate;
-green ice cream with colored stars with a cucumber stuck on a stick;
-pink fish-shaped ice cream;
-pyramid-shaped ice cream with candies, and chocolate syrup, and a cherry 
-on top;
-rainbow ice cream with a yellow umbrella;
-blue ghost-shaped ice cream with candies on it. 
+OBRÁZEK: Ruce drží nádherné zmrzlinové kornouty:
+modrá zmrzlina s čokoládovým srdcem navrchu, ve kterém je žluté srdce uprostřed, a šlehačkou na vrcholu čokolády, zelená zmrzlina s barevnými hvězdičkami a okurkou napíchnutou na tyčce,
+růžová zmrzlina ve tvaru ryby, zmrzlina ve tvaru pyramidy s bonbóny, čokoládovým sirupem a třešní navrchu, duhová zmrzlina se žlutým deštníkem, modrá zmrzlina ve tvaru ducha s bonbóny na povrchu.
 ]]
 
-** 35 **
+## 35 ##
 ==== Slide 18
-[K]aždý den celé odpoledne Ada spolu s kamarády něco plánovali. Z rozbitého stroje na zmrzlinu sestavili takový, který mohl dělat zmrzlinu všech tvarů a barev, jaké si jen mohli představit. Jedli pak zmrzlinu tvaru kostky, srdce a dokonce pyramidy a taky jahodovou, malinovou a duhovou zmrzlinu s posypkou a horkou čokoládou — byly mnohem lepší než ty ze zmrzlinářských strojů od Zangemanna.
 
-Někdy mohli dokonce pomoci dospělákům. Toni přeprogramoval žehličku svého otce tak, aby mohl žehlit kravaty — Zangemann to zakázal, protože nesnášel kravaty jako prokletí. Řidičce autobusu vyrobili automatické zavlažování ze starých hadic a počítače, aby její rostliny neuschly během letních dní. A taky pomohli školníkovi změnit program v jeho vysavači, aby automaticky rozeznal hračky a nevysál je.
+Každé odpoledne si Ada a její kamarádi vymýšleli, co nového podniknou. Z jedné staré zmrzlinovačky postavili úplně nový stroj, který vyráběl zmrzlinu ve všech možných barvách a tvarech – hranatou, srdíčkovou, dokonce i pyramidovou! Byla malinová, jahodová, duhová, s posypem a čokoládou… A chutnala stokrát líp než ta ze Zangemannových automatů.
 
-Některé věci vyrobili pro zábavu, jako prdítko, které dali učitelce matematiky na židli. Kdykoli se paní Gernetová posadila, prdítko zahrálo zvuk prdu. Učitelka je sice vyhubovala, ale Ada si byla jistá, že se tomu pokaždé tajně trochu zasmála.
+Někdy dokázali pomoct i dospělým. Toni přeprogramoval tatínkův žehlící stroj, aby zase žehlil kravaty. Zangemann totiž kravaty nesnášel, a tak to strojům zakázal. Pro paní řidičku autobusu postavili zavlažovač z hadic a starého počítače – aby jí rostliny v létě nevyschly. A školníkovi upravili vysavač tak, aby poznal pohozené hračky a nevsál je.
+
+A někdy tvořili prostě jen pro zábavu. Například vymysleli prdící modul do židle paní Gernetové, učitelky matematiky. Kdykoli si sedla, ozval se malý prd. Paní učitelka sice vždycky nadávala, ale Ada byla přesvědčená, že se nad tím potají usmívá.
 
 ## 36 ##
+
 ==== Slide 19
-[J]ednoho dne si Zangemann všiml, že některé počítače už jeho programové příkazy neposlouchají. Šokován a plný hněvu volal prezidentovi. Rozechvělým hlasem Zangemann křičel: „Někdo přepisuje programy v mých zařízeních! To se nesmí, jsou to přece mé vynálezy. Je to strašně nebezpečné, že si každý může se svými počítači dělat, co chce. Musíte proti tomu zakročit zákonem!“
+Jednoho dne si Zangemann všiml, že některé počítače už neposlouchají jeho příkazy. Vyděsil se – a vztekem téměř explodoval. Okamžitě zavolal prezidentovi a přeskakujícím hlasem do telefonu křičel: „Někdo přepisuje programy v mých zařízeních! To je nepřijatelné – to jsou přece moje vynálezy! A je nebezpečné, když si každý může s počítačem dělat, co se mu zlíbí. Musí se to zakázat zákonem!“
 
-Prezident nechtěl naštvat Zangemanna. Všechny počítače jeho vlády byly naprogramovány Zangemannem. Bez počítačů by vláda nemohla řídit zemi. A tak schválili zákon, který si Zangemann přál:
+Prezident nechtěl Zangemanna rozhněvat – vždyť všechny vládní počítače naprogramoval právě on. Bez nich by stát vůbec nefungoval. A tak parlament přijal nový zákon, přesně podle Zangemanna: „Všechny počítače, které neposlouchají Zangemanna, jsou zakázány! Kdo jeho zařízení přeprogramuje, musí zaplatit pokutu 500 000 zlatých!“
 
-„Všechny počítače, které neposlouchají Zangemanna, jsou zakázané. Kdokoli přeprogramuje Zangemannův přístroj, dostane pokutu 500 000 zlaťáků.
-
-** 37 **
+## 37 ##
 
 [[I:ada-p37
-IMAGE: The President getting a phone call from the angry Zangemann.
-The videophone consists of an old red Zangemann dial phone connected to 
-a monitor. Zangemann's face appears on the monitor, while a yellow flare 
-of Zangemann's thundering voice comes out of the phone, and the 
-President holds the receiver at arm's length.
-The president has white hair and wears a light blue shirt, a red tie, 
-and a blue jacket with yellow buttons.
-The President is sitting on a green chair with white vertical lines, and 
-his other hand is on the desk. On the desk, in addition to the 
-videophone, there are sheets with something written on them and an open 
-purple fountain pen.
-The President was eating a sandwich of meat and cheese with greens with 
-two olives on a toothpick, over a blue napkin with white stripes. 
+OBRÁZEK: Prezident přijímá telefonát od rozzuřeného Zangemanna.
+Videotelefon se skládá ze starého červeného Zangemannova telefonního přístroje s otočným číselníkem, připojeného k monitoru. Na monitoru se objevuje Zangemannův obličej, zatímco z telefonu vychází žluté blesky Zangemannova hromového hlasu. Prezident drží sluchátko na délku paže.
+
+Prezident má bílé vlasy, nosí světle modrou košili, červenou kravatu a modré sako se žlutými knoflíky. Sedí na zelené židli s bílými svislými pruhy, a jeho druhá ruka spočívá na stole. Tam, kromě videotelefonu, leží listy s textem a otevřené fialové plnicí pero.
+
+Prezident má před sebou načatý sendvič s masem, sýrem, zeleninou a dvěma olivami na párátku, položený na modrém ubrousku s bílými pruhy.
 ]]
 
-## 38 ##
+## 38
+
 ==== Slide 20
-Když se o tom Ada a její kamarádi dozvěděli, byli naštvaní. „To je nespravedlivé,“ říkali si. „My jsme předělali a přeprogramovali naše skateboardy sami. Teď jsou mnohem lepší. Nikomu je nedáme!“
+Když se Ada a její přátelé dozvěděli, co Zangemann provedl, pořádně se rozzlobili. „To je tak nespravedlivé! Naše skateboardy jsme si přece sami postavili i naprogramovali. Teď jsou mnohem lepší – a nenecháme si je vzít!“ 
 
-Sešli se před jedním z předělaných strojů na zmrzlinu, aby situaci lépe probrali. Bylo jasné, že se proti novému zákonu musí něco udělat, a tak vymysleli plán...
+Všichni se sešli u jednoho z vlastnoručně přestavěných zmrzlinových strojů a přemýšleli, co s tím. Bylo jasné, že proti novému zákonu musí něco podniknout. A tak vymysleli plán...
+
 [[I:ada-p38
-IMAGE: Cans of green, blue, and pink paint; a paintbrush with yellow 
-paint; a light green marker; and a rolled banner on which some blue 
-paint has fallen. 
+OBRÁZEK: Plechovky s barvou (zelená, modré a růžové). Štětec se žlutou barvou,
+světle zelený označovač a svinutý transparent, na kterém ulpělo něco modré barvy.
 ]]
 
-** 39 **
-==== Slide 21
-[N]a druhý den nešli do školy. Namísto toho jeli se svými skateboardy před budovu parlamentu a s velkými protestními transparenty se usadili přímo před ni. Den předtím už připravili LED světýlka na některé z transparentů, takže teď zářivě blikaly. Připojili své reproduktory dohromady, takže každý na ulici slyšel, co volali. Někteří kolemjdoucí se zastavili a ptali se dětí, za co to vlastně demonstrují. „Za svobodný software!“ odvětily děti společně a řekly dospělákům svůj příběh. Užaslí dospělí pokyvovali hlavami a taky prezident se zvědavě díval na jejich cedule, zatímco se blížil k budově.
+## 39 ##
 
-Další den Ada a její kamarádi opět seděli před budovou parlamentu a jejich počet se navíc ještě rozrostl. Někteří spolužáci přišli se skateboardy, které Ada přeprogramovala. Toniho otec a další rodiče taky chtěli podpořit protest. Zjistili totiž, že přístroje dětí jsou velmi užitečné.
+==== Slide 21
+
+Druhý den do školy nešli. Místo toho se Ada a její kamarádi vydali na skateboardech k parlamentu – s velkými barevnými transparenty v rukou. Některé z nich večer ozdobili LED světýlky, která teď jasně blikala. Reproduktory propojili, aby bylo jejich poselství slyšet v každé ulici. Zvědaví kolemjdoucí se zastavovali a ptali se: „Proč protestujete?“ „Za svobodu softwaru!“ odpověděly děti sborově – a vyprávěly svůj příběh. Dospělí uznale přikyvovali – a i prezident si zvědavě prohlédl plakáty, když vstupoval do budovy.
+
+A ani další dny nepřestali. Ada a její přátelé se znovu usadili před parlamentem. Tentokrát už nebyli sami – přidali se spolužáci, kterým Ada upravila skateboardy. Dorazil i Toniho otec a další dospělí. Všichni chápali, že vynálezy těchto dětí jsou k užitku.
+
 [[I:ada-p39
-IMAGE: Yellow and green paint on the floor and wax crayons yellow, red, 
-blue, green and brown; the latter 3 are in a gray cardboard box. 
+OBRÁZEK: Kapky žluté a zelené barvy na zemi a žluté, červené, modré, zelené a hnědé voskovky. Poslední tři v šedé lepenkové krabičce.
 ]]
 
 ## 40 ##
 
-Každý další den se k protestu připojovalo více a více dětí a dospělých. Řidička autobusu je přivezla svým autobusem. Nahlas při tom troubila, aby přilákala ještě více lidí k protestu. Školník přivedl několik přátel a Toniho tatínek zase z práce několik kolegů, kteří měli všichni skvěle vyžehlené kravaty. Dokonce přišla i paní učitelka Gernetová. Dav se zvětšoval a po několika týdnech se protestovalo nejen ve městě, kde bydlela Ada, ale také v mnoha dalších městech po celé zemi.
+Každým dnem přibývalo víc a víc protestujících. Přijela i řidička autobusu, které děti pomohly s rostlinami – a hlasitě troubila, aby si všimli i ostatní. Školník přivedl několik svých přátel. A Toniho otec dorazil se svými kolegy – všichni měli perfektně vyžehlené kravaty. Dokonce i paní Gernetová, učitelka matematiky, se objevila mezi protestujícími. Dav rostl každým dnem a po pár týdnech už se neprotestovalo jen v Adině městě. Demonstrace vypukly po celé zemi.
+
 [[I:ada-p40-41
-IMAGE: Group of protesters. Among them there are:
-Ada's mother holding Alan's hand and raising a pink ice cream;
-3 colleagues of Toni's father dressed in ties;
-two children holding the banner “Do your homework Mr. President and we 
-will do ours!”;
-a robot with tank treads, irons as feet, an electric fan as abdomen, a 
-monitor as head, and an eggbeater as one hand, holding a blue ice cream 
-in his other hand;
-two parents holding the banner “Hacking 4 Freedom”;
-a lady holding an electronic sign “There is a code B”;
-two small birds, flying;
-the math teacher, Ms. Gernet, who has inserted in her cart a sign that 
-says “They are young + need the code!“ The dog in her cart is barking;
-Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and 
-Toni are walking beneath the banner, and Marie is talking through a 
-bullhorn held in her hand;
-Ada's family's dog is now wearing a red harness with shiny yellow LEDs 
-that matches the collar. 
+OBRÁZEK: Skupina protestujících. Mezi nimi jsou:
+Adina matka držící Alana za ruku a zvedající růžovou zmrzlinu;
+tři kolegové Toniho otce oblečení v kravatách;
+dvě děti držící transparent „Udělete si domácí úkol, pane prezidente, a my uděláme ten náš!“;
+robot s pásovým podvozkem, žehličkami místo nohou, elektrickým větrákem jako břichem, monitorem jako hlavou a metlou jako jednou rukou, který v druhé ruce drží modrou zmrzlinu;
+dva rodiče držící transparent „Programováním za svobodu“;
+dáma držící elektronický nápis „Je tu kód B“;
+dva malí ptáci létající nad hlavami;
+učitelka matematiky, paní Gernetová, která vložila do svého vozíku ceduli s nápisem „Jsou mladí a potřebují kód!“ Její pes ve vozíku štěká;
+Ada a Konrad nesou transparent „Neničte naši techniku!“ Marie a Toni jdou pod transparentem a Marie mluví do megafonu, který drží v ruce;
+Adin pes má nyní červený postroj se zářivými žlutými LED diodami, který ladí s jeho obojkem.
 ]]
 
-	## BIG SIGN: "Do your homework Mr. President and we will do ours!"
+VELKÝ NÁPIS: "Udělejte si domácí úkol, pane prezidente, a my uděláme ten svůj!"
 
-** 41 **
+## 41 ##
 
 [[I:ada-p40
-IMAGE: Detail of the previous image:
-two children holding the banner “Do your homework Mr. President and we 
-will do ours!” 
+OBRÁZEK: Detail předchozího obrázku: dvě děti nesou transparent "Udělejte si domácí úkol, pane prezidente, a my uděláme ten svůj!"
 ]]
 [[I:ada-p41
-IMAGE: Detail of the previous image:
-Ada and Konrad are carrying the banner “Don’t wreck our tech!” Marie and 
-Toni are walking beneath the banner, and Marie is talking through a 
-bullhorn held in her hand;
-Ada's family's little dog is now wearing a red harness with shiny yellow 
-LEDs that matches the collar. 
+Ada a Konrad nesou transparent “Neničte naši techniku!” Marie a Toni jdou pod transparentem a Marie mluví do megafonu, který drží v ruce. Adin pes má nyní červený postroj se zářivými žlutými LED diodami, který ladí s jeho obojkem.
 ]]
-	## TEACHER SIGN: "They are young + need the code!"
 
-	## MEDIUM SIGN: "Don’t wreck our tech!"
+TRANSPARENT UČITELKY: "Jsou mladí a potřebují kód!"
+
+STŘEDNÍ TRANSPARENT: "Neničte naši techniku!"
 
 ## 42 ##
 
-[A]da protestovala před parlamentem každý týden, dokonce i když lilo jako z konve. Jednoho takového deštivého dne, když prezident procházel kolem promoklých dětí, nemohl neobdivovat jejich vytrvalost. Zeptal se Ady: „Proč tady sedíte každý den? Co tím chcete dokázat?“ Ada odpověděla: „Chceme sami rozhodnout, co můžeme a co nemůžeme dělat se svými počítači,“ a její kamarádi společně křičeli: „Neničte naši techniku! Neničte naši techniku!“ a „My chceme kód! My chceme kód!“
+Ada protestovala před parlamentem každý týden. I v lijáku. Ať pršelo nebo svítilo slunce, nikdy nechyběla. Když prezident jednou procházel kolem promočených dětí, nemohl si pomoct – jejich vytrvalost ho dojala. Zastavil se a zeptal se: „Proč tu každý den sedíte? Co tím chcete říct?“ 
 
-Prezident pohlédl na přesvědčené tváře dětí. Upřímně, i on by chtěl sám rozhodnout, co vláda může a nemůže udělat se svými počítači. Avšak sám počítačům a programovacím jazykům vůbec nerozuměl, tak se vždy spoléhal na Zangemanna. S tím vstoupil zamyšlený prezident do budovy.
+Ada se postavila a klidně odpověděla: „Chceme sami rozhodovat, co smíme a nesmíme dělat se svými počítači.“ A její přátelé a kamarádky vykřikli sborově: „Bez kódu se nedá žít! Bez kódu se nedá žít!“
+
+Prezident se zahleděl do odhodlaných dětských tváří. A měl-li být upřímný – i on by si přál, aby vláda rozhodovala o svém softwaru sama. Jenže programování nerozuměl, a tak vše nechával na Zangemannovi. Zamyšleně vešel do parlamentu.
+
 ==== Slide 22
+
 [[I:ada-p42
-IMAGE: One of Ada's friends lying on his stomach with one foot up in the 
-air is typing on a laptop. He has wavy brown hair parted in the center, 
-a red sweatshirt, blue pants, and white socks but no shoes. Next to the 
-computer there are a green cup and two open books. 
+OBRÁZEK: Jeden z Adiných přátel leží na břiše, s jednou nohou ve vzduchu, a píše na notebooku. Má vlnité hnědé vlasy rozdělené uprostřed, červenou mikinu, modré kalhoty a bílé ponožky, ale žádné boty. Vedle počítače je zelený hrnek a dvě otevřené knihy.
 ]]
-Na další den prezident pozval Adu a její přátele k sobě. „My bychom taky chtěli mít software sami pod kontrolou. Abychom toho dosáhli, musíme být nezávislí na Zangemannovi. Můžete mě naučit to, co víte o počítačových programech?“ zeptal se jich. S nadšením mu vysvětlili, jak software pracuje a co je s ním možné dělat. Prezident žasl.
 
-** 43 **
+Další den pozval prezident Adu a její přátele do své kanceláře. „I my chceme rozhodovat o svém vlastním softwaru,“ řekl. „Ale k tomu musí být vláda nezávislá na Zangemannovi. Můžete mi vysvětlit, co víte o počítačových programech?“ Děti mu nadšeně vyprávěly, jak software funguje a co všechno s ním dokážou. Prezident jen užasle naslouchal.
 
-S těmito novými znalostmi by vláda mohla navrhnout svůj vlastní software — pokud by chtěli — a úplně bez Zangemanna. Vzápětí si prezident zavolal své poradce. Ve větší skupině pak probírali společně s dětmi, co všechno by mohli změnit a vylepšit v softwaru.
+## 43 ##
 
-Ten večer děti odcházely spokojeně a pyšné na to, co dokázaly. Něco se konečně stalo! Jejich dlouhý protest stál za to.
+Díky těmto novým znalostem mohla vláda začít vyvíjet svůj vlastní software – bez Zangemanna. Prezident ihned svolal poradce a společně s dětmi diskutovali o tom, co všechno by šlo změnit a zlepšit.  Toho večera se děti vracely domů pyšné a spokojené. Konečně se něco dělo. Jejich protest měl smysl!
+
 [[I:ada-p43
-IMAGE: Ada and her friends in the President's office.
-Ada is reprogramming the President's computer.
-Toni is setting up a speaker for the President's secretary.
-Marie and Konrad are sitting on the floor and talking, and Marie has a 
-laptop on her legs with an FSFE logo sticker (three stars: pea green, 
-sky blue, and sea blue).
-On the floor are a bowl with candy and a plate with ice creams.
-The President's phone is ringing, but nobody is answering. 
+OBRÁZEK: Ada a její přátelé v kanceláři prezidenta. Ada přeprogramovává prezidentův počítač.
+Toni nastavuje reproduktor pro prezidentovu sekretářku. Marie a Konrad sedí na podlaze a povídají si, Marie má na klíně notebook s nálepkou loga FSFE (tři hvězdy: hráškově zelená, nebesky modrá a mořsky modrá).
+Na podlaze je miska s bonbóny a talíř se zmrzlinou. Prezidentův telefon zvoní, ale nikdo ho nezvedá.
 ]]
 
 ## 44 ##
 
-[D]alší den zvonil prezidentův telefon už od časného rána. Byl to Zangemann. Byl ještě více rozčílený, než kdykoli předtím. „Beze mě nebudou už vládní počítače dále fungovat,“ vyhrožoval. Ale prezident se s ním dlouho neztrácel čas a brzo zavěsil. Telefon toho dne ještě mnohokrát zvonil, ale Zangemannovy telefonáty zůstaly bez odpovědi. Prezident seděl na schůzi s Adou, Tonim, Marií, Konrádem a vládními experty.
+Následující ráno zazvonil vládní telefon. Volal Zangemann – naštvanější než kdy jindy. „Beze mě vám ty počítače nepojedou!“ hřímal. Ale prezident se jen usmál, vzal sluchátko a zavěsil. Ten den telefon zvonil ještě mnohokrát, ale nikdo ho nezvedl. Prezident měl totiž schůzku s Adou, Tonim, Marií, Konradem a týmem vládních expertů.
 
 [[I:ada-p44
-IMAGE: A herald, wearing a hat with a plume, playing a trumpet on which 
-a red banner is hung. 
+OBRÁZEK: Herold, který má na sobě klobouk s perem, troubí na trubku, na které visí červený prapor.
 ]]
-V dalších dnech měli schůze od rána do noci a plánovali své první programy pro vládní počítače. Už nebyli vyrušováni Zangemannovými telefonáty. Toni měl dobrý nápad přeprogramovat telefony. Když Zangemann zavolal, ozvala se mu jen automatická zpráva: „Vláda chce pouze software, který může volně používat, studovat, sdílet a vylepšovat. Děkujeme za váš telefonát.“
+
+
+V dalších dnech společně pracovali od rána do večera a navrhovali první programy pro vládní systémy. Zangemannovy telefonáty je už nerušily. Toni přišel s nápadem přeprogramovat linku – a tak když Zangemann zavolal, ozvalo se jen: „Vláda chce používat jen software, který může volně používat, chápat, šířit a vylepšovat. Děkujeme za zavolání.“
+
 ==== Slide 23
-Po mnoha týdnech protestů a schůzí,
-přišel konečně ten čas: Zrušili starý
-Zangemannův zákon! Namísto toho vláda
-vydala prohlášení:
+Po mnoha týdnech k tomu konečně došlo. Parlament zrušil starý Zangemannův zákon! Místo toho bylo vyhlášeno:
 
-** 45 **
+## 45 ##
 
-„Každý může jakkoli přeprogramovat své vlastní počítače, pokud při tom respektuje ostatní zákony.“
+„Všichni lidé mohou sami programovat své počítače, pokud se přitom budou řídit ostatními zákony.“ A kromě toho byl zaveden nový školní předmět: Počítače a programování.
 
-Navíc zavedli nový školní předmět: výpočetní hardware a software.
 [[I:ada-p45
-IMAGE: The President with Toni, Konrad, Marie, Ada, and a herald playing 
-a trumpet.
-Marie is standing on top of a ladder talking into a microphone.
-Conrad firmly holds the ladder on which Marie is standing.
-Ada is standing on a chair and holds a copy of the new law bearing a 
-seal.
-Ada's dog is sitting in front of her. 
+OBRÁZEK: Prezident s Tonim, Konradem, Marií, Adou a heroldem hrajícím na trubku.
+Marie stojí na vrcholu žebříku a mluví do mikrofonu.
+Konrad pevně drží žebřík, na kterém Marie stojí.
+Ada stojí na židli a drží kopii nového zákona s pečetí.
+Adin pes sedí před ní.
 ]]
 
 ## 46 ##
+
 ==== Slide 24
-Ten večer uspořádali vekou párty a všichni slavili. Ada, Alan, Toni, Marie, Konrád a všechny ostatní děti ze školy i jejich rodiče, prezident, paní učitelka Gernetová, paní řidička autobusu, školník — ti všichni tam byli. Ozdobili ulice, poslouchali hlasitou hudbu a jedli tolik zmrzliny, kolik jen chtěli a v jakémkoli možném tvaru a chuti.
+Ten večer se konala velká slavnost. Sešli se Ada, Alan, děti ze školy i jejich rodiče, prezident, paní Gernetová, řidička autobusu i školník. Ulice byly vyzdobené, hrála hlasitá hudba – a všichni si pochutnávali na zmrzlině ve všech možných barvách a tvarech.
+
 [[I:ada-p46
-IMAGE: Evening party.
-Children are holding ice cream and balloons with the words “I love FS (I 
-love Free Software)”;
-other children are riding skateboards;
-yellow and orange flags are hanging;
-music comes out from a large speaker system;
-Mrs. Gernet holds a pink tree-shaped ice cream with a yellow star on it;
-Ada's mom is dancing with a gentleman. 
+OBRÁZEK: Večerní párty.
+Děti drží zmrzlinu a balónky s nápisem „I love FS (I love Free Software)“;
+další děti jezdí na skateboardech;
+mezi lampami jsou natažené provazy se žlutými a oranžovými vlaječkami;
+z velkého reproduktorového systému hraje hudba;
+paní Gernetová drží růžovou zmrzlinu ve tvaru stromu se žlutou hvězdou na vrcholu;
+Adina máma tančí s nějakým pánem.
 ]]
 
-** 47 **
+## 47 ##
 
-Zatímco všichni ostatní pokračovali v oslavě až do noci, Ada a její přátelé se vytratili do své dílny. Měli už totiž zase spoustu nápadů na další vynálezy a chtěli se dát hned do práce.
+Zatímco ostatní slavili až do noci, Ada, Toni, Marie a Konrad se tiše vytratili a zamířili do své dílny. Měli hlavu plnou nových nápadů – a nemohli se dočkat, až se do nich pustí.
+
 [[I:ada-p47
-IMAGE: The President, the secretary, and other people around a table 
-enjoying crazy ice cream;
-yellow and orange flags continue from the previous image;
-a little girl who just took a pink ghost-shaped ice cream from the 
-modified ice cream machine;
-Ada's dog, Konrad, Marie, Ada, and Toni sneaking away from the party. 
+OBRÁZEK: Prezident, sekretářka a další lidé kolem stolu si užívají bláznivou zmrzlinu,
+žluté a oranžové vlajky pokračují z předchozího obrázku,
+malá dívka, která si právě vzala růžovou zmrzlinu ve tvaru ducha z upraveného zmrzlinového stroje,
+Adin pes, Konrad, Marie, Ada a Toni se potichu vytrácejí z oslavy.
 ]]
 
 ## 48 ##
+
 ==== Slide 25
-[A] co se stalo se Zangemannem? O tom už toho nikdo moc neslyšel. Možná, že stále sedí rozčíleně před svým velkým počítačem. Možná, že se už do města neodváží a nechal zabednit všechna okna svého sídla tak, aby se nemusel dívat na to, co ostatní lidé dělají s jeho vynálezy. Ale možná se občas podívá na svět svým velkým dalekohledem a vidí, co děti vynalézají každý den. Možná, že si při tom vzpomene, kolik radosti mu kdysi přinášelo vynalézat a experimentovat. A možná, ale opravdu jenom možná, si dává malinovou zmrzlinu ve tvaru pyramidy s duhovou posypkou.
+
+A Zangemann? Od té doby o něm nikdo neslyšel. Možná dodnes zuří ve své obrovské vile a mračí se před svým zlatým počítačem. Možná se už ani neodvažuje vyjít na ulici – a dokonce zalepil všechna okna svého domu, aby nemusel vidět, co všechno lidé s jeho vynálezy dělají. Ale možná… možná se občas podívá dalekohledem ven do světa. A když vidí, co děti každý den nového vymýšlejí, možná si vzpomene, jak i jeho samotného kdysi bavilo vynalézat a zkoušet nové věci. A možná, úplně možná, přitom líže malinovou zmrzlinu ve tvaru pyramidy s duhovým posypem.
+
 [[I:ada-p48
-IMAGE: Ada's little dog sniffing a trail of ice cream. 
+OBRÁZEK: Adin pes čichá ke stopě ze zmrzliny.
 ]]
+
 ===== Slide 26
-** 49 **
+
+## 49 ##
 
 [[I:ada-p49
-IMAGE: A trail of candies and raspberry ice cream on the ground. 
+OBRÁZEK: Stopa z bonbónů a malinové zmrzliny na zemi.
 ]]
 
 ## 50 ##
 
 Poděkování autora
 
+Velké díky patří Reinhardovi Wiesemannovi z Linuxhotelu za finanční podporu knihy a motivaci přestat plánovat a začít jednat. Děkuji Sandře Brandstätterové, která mi s každým novým návrhem ilustrací udělala radost. Děkuji své redaktorce Wiebke Helmchenové, se kterou byla radost příběh rozvíjet a upřesňovat, a Ariane Hesseové za skvělou podporu ze strany nakladatelství.
 
-Mnohokrát děkuji Reinhardovi Wiesemannovi z Linuxhotelu za finanční poporu a motivaci neplánovat, ale dělat. Děkuji Sandře Brandstätter, která mě potěšila s každým novým návrhem a ilustrací. Děkuji mému editorovi Weibke Helmchenovi, který z rozvoje a vylepšování příběhu udělal zábavu, a No Starch Press za to, že souhlasili s publikací pod svobodnou kulturní licencí.
+Děkuji Bee a Benniemu, Christine a Marcovi, Corymu, Bernhardovi, Isabel a Amelii, Kattě, Kristině, Martinovi, Moně a Arnemu, Nině, Oliverovi, Reinhardovi, Sabine a Torstenovi za skvělé nápady, inspiraci a praktické tipy a mnoha lidem z hnutí za svobodný software, od kterých jsem se mohl učit a jejichž zapálení mě motivovalo.
 
-Mé poděkování za skvělé nápady inspiraci a praktické tipy taky patří lidem Bea a Benni, Brian, Christine a Marc, Cory, Bernhard, Isabel a Amelia, Katta, Kristina, Martin, Mona a Arne, Nina, Oliver, Reinhard, Sabine, a Torsten, stejně jako lidem z hnutí pro svobodný software, od kterých jsem se mohl učit a jejichž zapojení mě motivovalo.
+Upřímné díky patří mé rodině, která mě nechávala psát brzy ráno, pozdě večer a na dovolené a vždy podporovala mou práci pro svobodu softwaru. Obzvláště bych chtěl poděkovat svým dětem, které mě při každém předčítání inspirovaly novými nápady. Bez nich by tato kniha nevznikla.
 
-Děkuji mé rodině, která mě nechala psát brzo ráno, pozdě večer a i na dovolené a která mě taky vždy podpořila v mé práci pro svobodný software. Především bych chtěl poděkovat svým dětem, které mě inspirovaly k dalším nápadům při každém čtení. Bez nich by tato kniha nevznikla.
-
-** 51 **
+## 51 ##
 
 [[I:ada-p51
-IMAGE: Ada's dog wags its tail after finding Zangemann hidden behind a 
-curtain and eating an ice cream cone with candies and a blue umbrella on 
-it and lots of raspberry ice cream dripping. 
+OBRÁZEK: Adin pes vrtí ocasem, když objevil Zangemanna schovaného za
+závěsem, jak jí zmrzlinový kornout s bonbóny, má v něm zapíchnutý modrý
+deštníček a z něj ukapává spousta malinové zmrzliny.
 ]]
 
 ## 52 ##
 
 O autorovi
-Matthiasi Kirschnerovi
-
+Matthias Kirschner
 
 [[I:ada-p52
-IMAGE: Close-up of Matthias smiling, waving with one hand, and wearing a 
-headset. Matthias has short hair and a little beard. 
+OBRÁZEK: Detail na Matthiase, jak se směje, na hlavě má sluchátka a jednou rukou mává.
+Matthias má krátké vlasy a malý plnovous.
 ]]
-Matthias byl fascinován počítači a technologií už jako dítě. Měl brzy internetové připojení, skrze které se toho hodně naučil. Děti mají právo vzít svou budoucnost do svých rukou. Proto se Matthias zavázal k cíli pomáhat, aby všichni lidé mohli používat software způsobem, který jim zaručuje právo na sebeurčení. Také chce za pomocí svobodného softwaru postavit elektrický skateboard.
 
-** 53 **
+Matthias byl už jako dítě fascinován počítači a softwarem. Brzy měl připojení k internetu a díky tomu se hodně naučil. Děti mají právo převzít svou budoucnost do vlastních rukou. Proto se Matthias zasazuje o to, aby všichni lidé mohli software používat samostatně. Chtěl by si také jednou postavit elektrický skateboard se svobodným softwarem.
+
+## 53 ##
 
 O ilustrátorce
-Sandře Brandstätter
-
+Sandra Brandstätterová
 
 [[I:ada-p53
-IMAGE: Sandra smiling with a pencil in her hand in front of her chin. 
-She has earphones with an integrated microphone. Sandra has short hair 
-and glasses. 
+OBRÁZEK: Sandra se usmívá a před bradou drží v ruce tužku. Má sluchátka
+s integrovaným mikrofonem. Má krátké vlasy a brýle.
 ]]
-Sandra vždy ráda vyráběla věci s nůžkami, kleštěmi, lepidlem, drátem, látkou a papírem. Dnes pracuje jako ilustrátorka, autorka komixů a návrhářka postav pro animované filmy a seriály. Ve stroji na zmrzlinu by si vybrala krémovou duhovou zmrzlinu s příchutí citrónu a okurky a spostou posypky.
+
+Sandra vždycky ráda tvořila pomocí nůžek, kleštiček, lepidla, drátu, látky a papíru. Dnes pracuje jako ilustrátorka, autorka komiksů a návrhářka postav pro animované filmy a seriály, například pro seriál „Trudes Tier“ (Vysílání s myší). U zmrzlinového automatu by si Sandra objednala krémovou duhovou zmrzlinu s citronovo-okurkovou příchutí a spoustou cukrových posypů.
 
 ## 54 ##
 
-Webová stránka knihy
+Webová stránka ke knize
 
+Free Software Foundation Europe e. V. je nezisková organizace, která pomáhá lidem svobodně nakládat s technologiemi. Software ovlivňuje všechny oblasti našeho života. Proto je důležité, aby nám tato technologie poskytovala svobodu místo toho, aby nás omezovala. Svobodný software (také nazývaný open source) dává všem právo používat, chápat, šířit a vylepšovat programy. Takto svobodný software posiluje základní práva, jako je svoboda projevu, svoboda tisku a právo na soukromí.
 
-Evropská nadace pro svobodný software e.V je nezisková asociace, která propaguje myšlenku, že lidé by měli mít kontrolu nad technologií. Software zasahuje do všech oblastí našeho života. Proto je důležité, aby nás technologie osvobozovaly, namísto aby nás omezovaly. Svoboný software (občas nazýván/zaměňován s pojmem open source) dává všem lidem právo používat, studovat a vylepšovat programy. Proto svobodný software posiluje naše základní práva jako svoboda projevu, svoboda tisku a právo na soukromí.
+Na webové stránce ke knize najdete další informace a materiály: https://ada.fsfe.org
 
-Na stránce knihy naleznete spoustu informací a dalších zdrojů:
-https://ada.fsfe.org.
+## 55 ##
 
-** 55 **
+Licence
 
-License
+Kniha „Ada & Zangemann – Pohádka o softwaru, skateboardech a malinové zmrzlině“ od Matthiase Kirschnera a Sandry Brandstätterové, vydaná nakladatelstvím dpunkt.verlag GmbH, je chráněna pod licencí „Creative Commons Attribution–ShareAlike 4.0 International (CC BY-SA 4.0)“.
 
-
-The book Ada & Zangemann: A Tale of Software, Skateboards, and Raspberry 
-Ice Cream by Matthias Kirschner and Sandra Brandstätter, published by No 
-Starch Press, is licensed under “Creative Commons Attribution-ShareAlike 
-4.0 International (CC BY-SA 4.0).”
-
-https://creativecommons.org/licenses/by-sa/4.0/
+https://creativecommons.org/licenses/by-sa/4.0
 
 ## 56 ##
 
 [[I:ada-p56
-IMAGE: A hand that holds a fish-shaped ice cream cone with a cucumber on 
-a decorated toothpick, to color. In a bottom corner, a pencil writing. 
+OBRÁZEK: Ruka, která drží zmrzlinu ve tvaru ryby, s plátkem okurku na ozdobném
+párátku, kterou si děti mohou vybarvit. Ve spodním rohu je nápis tužkou.
 ]]
-Vymyslete si výtečné, veselé nebo šílené příchutě zmrzliny a nakreslete je na kornoutky zmrzliny na následující stránce.
 
-Více informací o knize je k nalezení na stránce https://ada.fsfe.org.
+Vymyslete si několik chutných, zábavných nebo bláznivých příchutí zmrzliny a nakreslete je do kornoutů na další straně. Více omalovánek a informací o knize najdete na https://ada.fsfe.org.
 
-** 57 **
+## 57 ##
 
 [[I:ada-p57
-IMAGE: Three hands that hold as many empty ice cream cones, to draw and 
-color. In the air above the middle cone is an umbrella. 
+OBRÁZEK: Tři ruce drží mnoho prázdných kornoutů od zmrzliny na dokreslení a dovybarvení.
+Ve vzduchu na prostředním kornoutem je deštníček.
 ]]
 
 ## 58 ##
 
-** 59 **
+## 59 ##
 
 ## 60 ##
 
 [[I:back_cover-a
-IMAGE: A soldering iron and a brush and can with yellow paint, connected 
-by white electrical cord that forms a frame. 
+OBRÁZEK: Páječka, štětec a plechovka se žlutou barvou propojené bílou
+elektrickou šňůrou, která tvoří rámeček kolem obrázku.
 ]]
 
-[V]ynálezce Zangemann je světoznámý a nesmírně bohatý. Dospělí i děti mají moc rádi jeho báječné technické vynálezy. Ale jednoho dne se objeví problém: elektronické skateboardy dětí už nefungují správně. Co se stalo? Zvídavá dívka Ada celou záhadu prokoukne. Společně se svými přáteli experimentuje s hardwarem a softwarem a děti vytvoří plán: Zangemann už nemůže být ten jediný, kdo má kontrolou nad jejich přístroji!
+Vynálezce Zangemann je světově proslulý a nesmírně bohatý. Dospělí i děti milují jeho úžasné technické vynálezy. Jednoho dne se však objeví problém: Elektronické skateboardy dětí přestaly správně fungovat. Co se to děje? Zvídavá Ada tu záhadu odhalí. Společně se svými přáteli začne experimentovat s vlastními počítačovými programy a děti zosnují plán: Zangemann už nesmí mít jako jediný kontrolu nad počítači!
 
-Tato kniha vzbuzuje zájem o kutilství a dodává sebedůvěru formovat technologie.
+Kniha pro děti, která přináší radost z vynalézání a povzbuzuje k samostatnému zacházení s technologiemi.
 
 [[I:back_cover-b
-IMAGE: A power strip, with input and output of white electrical cord 
-that is the frame. 
+OBRÁZEK: Prodlužovačka, do které je zapojena bílá elektrická šňůra tvořící rámeček okolo.
 ]]
+
