@@ -70,10 +70,11 @@ if ( !open( F, $textfile ) ) {
     exit(1);
 }
 
-# Removes inline '\n' line-feeds from the provided string
+# Removes '\n' line feeds from the beginning and end of provided string
 sub RemoveLF {
     my $pagetext = shift;
-    $pagetext =~ s/^\n+//gs;
+    $pagetext =~ s/^\n+//gs;    # Remove line feeds from the beginning
+                                # Remove line feeds from the back of the string
     while ( length($pagetext) > 0 && substr( $pagetext, -1 ) eq "\n" ) {
         chop($pagetext);
     }
@@ -268,18 +269,38 @@ sub FormatODPLast {
     return ($f);
 }
 
-$status     = -1;
-$pagechange = 0;
-$br         = 0;
-$pagenum    = 0;
-$slidenum   = 0;
+# Set variables to initial state
+$status     = -1;    # Keep parsing state to change text handling.
+$pagechange = 0;     # Indicate a page change, 0 or 1.
+$br         = 0;     # Keep amount of line breaks to add for TXT and REA output
+$pagenum    = 0;     # Keep current page number.
+$slidenum   = 0;     # Keep current slide number.
+
+# Status codes:
+# -1                   starting state
+# 0   0x00  0000 0000  default parsing for reading output
+# 1   0x01  0000 0001  default parsing for non-reading output
+# 2   0x02  0000 0010
+# 3   0x03  0000 0011
+# Special cases, indicated by bit 5 being set:
+# 16  0x10  0001 0000  used to set and unset bit 5
+# 17  0x11  0001 0001  used to check bit 5 and bit 1
+# 26  0x1A  0001 1010  slide 26 with license information
+# 27  0x1B  0001 1011
+
+# TODO: $pagechange logic is too complex as it can only be 0 or 1.
+# Read file as a single stream of characters and parse it.
+# TXT and REA output is printed directly.
+# SLA and ODP output is stored in variables for further processing.
 while (<F>) {
-    if ( $status == -1 ) {
-        if (m/^#/) {
-            print if ( $format == $TXT || $format == $REA );
-            $_ = "";
+    if ( $status == -1 ) {    # Starting state
+        if (m/^#/) {          # Comment lines at the beginning of the file
+            print
+              if ( $format == $TXT || $format == $REA )
+              ;               # Keep lines in TXT and REA output
+            $_ = "";          # Otherwise ignore
         }
-        else {
+        else { # Passed the comment header, change to status depending on format
             if ( $format == $REA ) {
                 $status = 0;
             }
@@ -288,38 +309,40 @@ while (<F>) {
             }
         }
     }
-    else {
-        if (m/^\[\[/) {
-            $status |= 0x10;
+    else {    # Default behavior
+        if (m/^\[\[/) {    # Start of index or image alt-text.
+            $status |=
+              0x10;    # Bitwise OR with 0001 0000 to set bit 5 (special case)
         }
         if ( $format == $REA || $format == $ODP ) {
-            if (m/^=== /) {
+            if (m/^=== /) {    # Start of presentation
                 $status     = 1;
                 $pagechange = 0 if ( $pagechange >= 0 );
             }
-            elsif (m/^=====/) {
+            elsif (m/^=====/) {    # End of presentation
                 $status = 3 if ( $format == $REA );
             }
         }
-        elsif (m/^===/) {
-            $_          = "\n";
+        elsif (m/^===/) {          # Not REA or ODP and start of a slide
+            $_          = "\n"; # Set default variable to line feed to ignore it
             $br         = 0;
             $pagechange = 0 if ( $pagechange >= 0 );
         }
 
         # Handle input format line endings to continuation or hard line breaks.
-        if (m/ $/) {
+        if (m/ $/) {            # Line endings using spaces
             if (   ( m/\S   $/ && $format == $ODP )
                 || ( m/\S  $/ && $format == $SLA ) )
             {
-                s/ +$//;    # Remove trailing spaces.
+                s/ +$//;        # Remove trailing spaces.
             }
-            else {
+            else {   # Normal line to continue, as identified by trailing spaces
                 chop;        # Remove one character (newline) to combine lines.
                 s/ +$/ /;    # Replace all trailing spaces with a single space.
             }
         }
-        if ( $status > 0 && ( $status & 0x11 ) == 1 ) {
+        if ( $status > 0 && ( $status & 0x11 ) == 1 )
+        {                    # Test bit 5 isn't set but bit 1 is.
 
             # Find page number separator and set variables accordingly
             if (m/^[\*#][\*#] \S+ [\*#][\*#]/) {
@@ -376,6 +399,8 @@ while (<F>) {
                     $pagechange = 0;
                 }
             }
+
+            # Handle comments or banner texts
             if ( m/^\t?#/ && $format != $TXT ) {
                 $_ = "";
             }
@@ -399,8 +424,10 @@ while (<F>) {
                     $_ = $rest;
                 }
             }
+
+            # Handle empty lines
             if (m/^$/) {
-                if ($br) {
+                if ($br) {    # $br != 0
                     $_ = "";
                 }
                 $br++;
@@ -421,11 +448,14 @@ while (<F>) {
                 $slide[$slidenum] .= Unformat($_);
             }
         }
-        if (m/^\]\]/) {
-            $status &= ~0x10;
+        if (m/^\]\]/) {    # End of index or image alt-text
+            $status &= ~0x10
+              ; # bitwise AND with inverse of 0x10 and assign to $status. Removes the special status.
             $br = 0 if ( $format != $REA );
         }
         if ( $format == $REA && ( $status & 0x02 ) ) {
+
+   # TODO: this code seems to effectively do nothing, so can probably be removed
 
             #$status&=0xFE;
             $status = 2;
@@ -434,31 +464,40 @@ while (<F>) {
 }
 close(F);
 
-# fix text
+# Correct text
 for ( $i = 0 ; $i <= $pagenum ; $i++ ) {
-    $pnum = sprintf( "%02d", $i );
-    $pagetext[$i] = RemoveLF( $pagetext[$i] );
+    $pnum = sprintf( "%02d", $i );    # Get a 2-digit page number
+    $pagetext[$i] =
+      RemoveLF( $pagetext[$i] );  # Remove line feeds from the beginning and end
     if ( $i >= 50 && $i <= 55 ) {
-        $pagetext[$i] =~ s/^.*?\n\n//s;
+        $pagetext[$i] =~ s/^.*?\n\n//s
+          ;    # Replace part before double newline (title and subtitle)
     }
-    $pagetext{$pnum} = $pagetext[$i];
-    @paragraph       = ();
-    $pl              = "A";
-    $n0              = 0;
+
+# TODO: use different variable for $pagetext to not combine array and associate array.
+    $pagetext{$pnum} =
+      $pagetext[$i];    # Load pagetext into value under $pgnum key
+    @paragraph = ();    # TODO: remove unused list
+    $pl        = "A";   # Initial $pl value A, to be incremented to B, C, etc.
+    $n0        = 0;     # Initial value to search for newlines
+     # Split $pagetext at double line feeds into named paragraphs like 09A, 09B.
     while ( ( $n1 = index( $pagetext[$i], "\n\n", $n0 ) ) > 0 ) {
-        $pagetext{"$pnum$pl"} = substr( $pagetext[$i], $n0, $n1 - $n0 );
-        $n0 = $n1 + 2;
-        $pl++;
+        $pagetext{"$pnum$pl"} =
+          substr( $pagetext[$i], $n0, $n1 - $n0 );    # Store part
+        $n0 = $n1 + 2;    # Move starting point to after the line feeds
+        $pl++;            # Increment letter character A, B, C
     }
-    $pagetext{"$pnum$pl"} = substr( $pagetext[$i], $n0 );
+    $pagetext{"$pnum$pl"} = substr( $pagetext[$i], $n0 );  # Store the last part
 }
 
 # For "special" text boxes (page 2 "Free as in freedom...)"
+# Remove line-feeds at the beginning and end for all $pagetext elements
 foreach $i ( keys %pagetext ) {
     $pagetext{$i} = RemoveLF( $pagetext{$i} );
 }
 
-for ( $i = 1 ; $i <= $slidenum ; $i++ ) {
+# Remove line-feeds at the beginning and end for all $slide elements
+for ( $i = 1 ; $i <= $slidenum ; $i++ ) {    # TODO: replace by foreach
     $slide[$i] = RemoveLF( $slide[$i] );
 }
 
@@ -572,7 +611,7 @@ elsif ( $format == $ODP ) {    # Presentation
     # Opening template content file:
     if ( !open( T, "$tmpdir/content.xml" ) ) {
         print STDERR
-"Could not open 'content.xml' file from template.\nPlease check that the template file is readeable\nand it is an OpenDocument Presentation zip file\n";
+"Could not open 'content.xml' file from template.\nPlease check that the template file is readable\nand it is an OpenDocument Presentation zip file\n";
         system("rm -rf $tmpdir");
         exit(4);
     }

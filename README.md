@@ -8,6 +8,8 @@ SPDX-License-Identifier: CC-BY-SA-3.0-DE
 
 [![REUSE status](https://api.reuse.software/badge/git.fsfe.org/fsfe/ada-zangemann)](https://api.reuse.software/info/git.fsfe.org/fsfe/ada-zangemann)
 
+[![Translation status](https://hosted.weblate.org/widget/fsfe/ada-zangemann/multi-auto.svg)](https://hosted.weblate.org/projects/fsfe/ada-zangemann/)
+
 This are the sources for the illustrated children's book "Ada &
 Zangemann - A Tale of Software, Skateboards and Raspberry Ice
 Cream".
@@ -67,21 +69,23 @@ book and being able to read it in their mother tongue. If you would like
 to do a community translation, please let [the FSFE's translation
 team](https://fsfe.org/contribute/translators) know about it and have a
 look at the [translation
-guidelines](https://git.fsfe.org/FSFE/ada-zangemann/src/branch/main/Translation-Guidelines.md).
+guidelines](docs/translation-guidelines.md).
 If you have any contacts with publishers, which are interested to
 publish the book in another language, or if you are interested to order
 a higher amount of books if the book would be available in a certain
 language, then please [reach out to us](https://fsfe.org/about/contact).
+
+The main texts can be found in the [texts directory](texts/).
 
 # Get your printed copy
 
 The printed version as well as ebooks of the book are currently
 available:
 
-* In English by No Starch Press. You can order it at your preferred book
-  store, or [directly from No Starch
-  Press](https://nostarch.com/ada-zangemann), get 25% off with the
-  coupon code "Hacking4Freedom", and receive the DRM free ebook. 
+* In English by No Starch Press. You can order it at your preferred book store,
+  or [directly from No Starch Press](https://nostarch.com/ada-zangemann), get
+  25% off with the coupon code "Hacking4Freedom", and receive the DRM free
+  ebook.
 
 * In German by dpunkt.verlag GmbH under the O'Reilly imprint. You can
   order it at your preferred book store, or with this affiliate link
@@ -92,12 +96,17 @@ available:
 * In French by C&F éditions. You can order it at your preferred book
   store, or [directly from C&F éditions](https://cfeditions.com/ada).
 
-* In Italian by Luca Bonissi. You can order them at your preferred book
-  store, or [directly from StreetLib (softcover and 
-  eBooks)](https://streetlib.co/isbn-9791222461823) or from [Lulu.com 
-  (hardcover)](https://www.lulu.com/shop/matthias-kirschner-and-sandra-brandst%C3%A4tter-and-luca-bonissi/ada-zangemann-una-fiaba-che-parla-di-software-skateboard-e-gelato-al-lampone/hardcover/product-2m2gvqw.html) for 
-  which the FSFE will receive 42% of the list price for printed books and
+* In Italian by Luca Bonissi. You can order them at your preferred book store,
+  or [directly from StreetLib (softcover and
+  eBooks)](https://streetlib.co/isbn-9791222461823) or from [Lulu.com
+  (hardcover)](https://www.lulu.com/shop/matthias-kirschner-and-sandra-brandst%C3%A4tter-and-luca-bonissi/ada-zangemann-una-fiaba-che-parla-di-software-skateboard-e-gelato-al-lampone/hardcover/product-2m2gvqw.html)
+  for which the FSFE will receive 42% of the list price for printed books and
   72% for eBook.
+
+* In Danish by Forlaget Modspil. The official publishing date is June
+  16, 2025, at which point you'll be able to order them at your local
+  bookstore or library. Currently available at [Coding Pirate's web
+  shop](https://merchcity.com/product/coding-pirates-ada-zangemann-en-fortaelling-om-software-skateboards-og-hindbaeris-bog/). 
 
 # Profits of sales
 
@@ -108,9 +117,10 @@ Brandstätter and the children's book editor Wiebke Helmchen for their
 work. Linuxhotel GmbH made the project possible by already agreeing at
 the beginning of the writing process, to buy 1000 copies once the book
 was finished.
-For the Italian edition, Luca Bonissi donated more than 2000 copies to 
-the FSFE and he sets all revenues of the books and eBooks sales to go 
-directly to the FSFE.
+
+For the Italian edition, Luca Bonissi donated more than 2000 copies to the FSFE
+and he sets all revenues of the books and eBooks sales to go directly to the
+FSFE.
 
 # Free as in freedom not price
 

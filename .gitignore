@@ -18,3 +18,17 @@ Book/*/*.png
 # Compare directories
 Book/*/compare-base/
 Book/*/compare-result/
+
+# Translation files
+*.mo
+
+# Build output
+docbook/build
+
+# Temporary files, including from msgmerge
+*~
+
+# Generated images
+# TODO: remove once imgaes are put into build directory
+docbook/images/illustrations/ada-p41.*.png
+docbook/images/illustrations/ada-p40.*.png

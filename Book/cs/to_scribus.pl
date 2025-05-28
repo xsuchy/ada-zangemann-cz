@@ -1,0 +1,1 @@
+../../scripts/to_scribus.pl

@@ -16,6 +16,8 @@ if ( length($file) > 0 ) {
 }
 binmode( $s,     ":utf8" );
 binmode( STDOUT, ":utf8" );
+
+# Parse the input line by line
 while ( $line = <$s> ) {
     if ( substr( $line, -2 ) eq " \n" && substr( $line, -3 ) ne "  \n" ) {
         chop($line);
