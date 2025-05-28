@@ -139,7 +139,7 @@ Příběh o softwaru, skateboardech a malinové zmrzlině.
 
 ==== Slide 2
 
-Byla jednou jedna malá holčička a jmenovala se Ada. Její rodina byla tak chudá, že se všechny jejich úspory vešly do jedné sklenice od sušenek. Neměli ani tolik peněz, aby si mohli dovolit skutečný dům. Místo toho bydleli Ada a její malý bratr Alan s maminkou v chatce poblíž vrakoviště na kraji města.
+[B]yla jednou jedna malá holčička a jmenovala se Ada. Její rodina byla tak chudá, že se všechny jejich úspory vešly do jedné sklenice od sušenek. Neměli ani tolik peněz, aby si mohli dovolit skutečný dům. Místo toho bydleli Ada a její malý bratr Alan s maminkou v chatce poblíž vrakoviště na kraji města.
 
 [[I:ada-p04
 OBRÁZEK: Ada odchází z domu do školy. Má hnědý batoh se žlutými popruhy.
@@ -173,7 +173,7 @@ Daleko odtud, na opačném konci města, žil slavný vynálezce Zangemann. Byl 
 
 ==== Slide 3
 
-Počítače fascinovaly Zangemanna už od dětství. Když byl malý, byly to obrovské stroje, ve kterých se proplétaly dráty a hučely ventilátory. Ve škole pak malý Zangemann často snil o tom, co všechno by s počítači dokázal, kdyby byly jen o něco menší – dost malé na to, aby se vešly do nejrůznějších věcí.
+[P]očítače fascinovaly Zangemanna už od dětství. Když byl malý, byly to obrovské stroje, ve kterých se proplétaly dráty a hučely ventilátory. Ve škole pak malý Zangemann často snil o tom, co všechno by s počítači dokázal, kdyby byly jen o něco menší – dost malé na to, aby se vešly do nejrůznějších věcí.
 Jako první by zabudoval počítač do svého skateboardu, který by při jízdě vydával parádní zvuky – třeba jako hasičská siréna nebo startující raketa.
 A vymyslel by i stroj na zmrzlinu! Počítač by uměl namíchat ty nejlepší příchutě a rovnou by je i prodával. Jeho automaty by stály na každém rohu, takže by si mohl kdykoli skočit pro svou oblíbenou zmrzlinu.
 Také by postavil robota na úklid a stroj na třídění stavebnic, aby měl ve svém pokoji vždy krásně uklizeno. Každý den měl nový nápad a nemyslel téměř na nic jiného.
@@ -337,7 +337,7 @@ Dětem lezla na nervy.
 
 ==== Slide 11
 
-Adin nejoblíbenější den byla středa.
+[A]din nejoblíbenější den byla středa.
 To je maminka – Adu i Alana – vyzvedávala ze školy a společně šli do knihovny.
 Ada tam mířila rovnou do technického koutku. Byly tam knihy plné nákresů a návodů na nejrůznější pokusy a experimenty.
 V nich Ada objevovala, jak různé přístroje fungují.
@@ -372,7 +372,7 @@ obrazovku, aby změnila program (“print(msg)”, “a+b+c+d=e”,
 
 ==== Slide 12
 
-V následujících týdnech trávila Ada každé odpoledne v knihovně. Četla knihy a webové stránky, které vysvětlovaly, jak funguje programování.
+[V] následujících týdnech trávila Ada každé odpoledne v knihovně. Četla knihy a webové stránky, které vysvětlovaly, jak funguje programování.
 Připadalo jí to, jako by se učila tajný jazyk – podobně jako když se ve škole biflovala slovíčka. Učila se s nadšením! Její úplně první program zněl:
 „Udělej, aby tahle lampa blikala!“ Samozřejmě to chtěla hned vyzkoušet. Na vrakovišti připojila mobil k malé lampičce a do telefonu napsala řádky kódu, které si poznamenala…
     
@@ -398,7 +398,7 @@ OBRÁZEK: Zangemann má ruce zkřížené na prsou a zamyšleně hledí ven z ok
 
 ==== Slide 13
 
-Od té hrozné procházky Zangemann každou noc špatně spal. Když večer ulehl do postele, hlavou mu vířily obrovské starosti: „Ach ne, mé úžasné vynálezy! Nemůžu přece dovolit, aby si s nimi všichni jen tak hráli. Co všechno by se mohlo stát! A přitom jsem to všechno tak pečlivě naplánoval.“ Převaloval se celou noc a přemýšlel, jak to zastavit.
+[O]d té hrozné procházky Zangemann každou noc špatně spal. Když večer ulehl do postele, hlavou mu vířily obrovské starosti: „Ach ne, mé úžasné vynálezy! Nemůžu přece dovolit, aby si s nimi všichni jen tak hráli. Co všechno by se mohlo stát! A přitom jsem to všechno tak pečlivě naplánoval.“ Převaloval se celou noc a přemýšlel, jak to zastavit.
 
 Ráno vstal s bolavou hlavou a učinil rozhodnutí. Takhle to dál nejde! Sedl ke svému zlatému počítači a začal psát – jeden program za druhým. Každému zařízení určil, co smí a co nesmí dělat. Konec chaosu!
 
@@ -408,7 +408,7 @@ Když měl hotovo, poslal všechny nové příkazy do svých vynálezů. Reprodu
 
 ==== Slide 14
 
-Letní prázdniny byly už v půlce. Ada stála před svým velkým projektem a drbala se zamyšleně na hlavě. Ze starých součástek postavila skateboard a připojila k němu motor, který roztáčel kola. Díky tomu by mohla jezdit do knihovny nebo na vrakoviště mnohem rychleji. Byl to skvělý nápad – jenže nefungoval. Jakmile si stoupla na prkno a zmáčkla tlačítko „Start“, kola se roztočila příliš rychle. Ada z prkna pokaždé spadla. Zkoušela všechno možné, ale udržet se na něm prostě nešlo.
+[L]etní prázdniny byly už v půlce. Ada stála před svým velkým projektem a drbala se zamyšleně na hlavě. Ze starých součástek postavila skateboard a připojila k němu motor, který roztáčel kola. Díky tomu by mohla jezdit do knihovny nebo na vrakoviště mnohem rychleji. Byl to skvělý nápad – jenže nefungoval. Jakmile si stoupla na prkno a zmáčkla tlačítko „Start“, kola se roztočila příliš rychle. Ada z prkna pokaždé spadla. Zkoušela všechno možné, ale udržet se na něm prostě nešlo.
 
 Když spadla na zadek asi po sto padesáté, rozhodla se zajít do knihovny – tam přece vždycky našla odpovědi. A opravdu. Na internetu narazila na program, který někdo napsal pro svou elektrickou koloběžku. Ta se rozjížděla pomalu – přesně jak Ada potřebovala. Ada si program stáhla do mobilu. 
 
@@ -457,7 +457,7 @@ Mezi číslem 1 a číslem 2 je modrá láhev s bílými puntíky.
 
 ==== Slide 16
 
-Každé odpoledne teď chodilo za Adou na vrakoviště víc a víc dětí. Ada jim pomáhala upravit programy v jejich skateboardech. Některé děti byly novými možnostmi naprosto nadšené. Neuvěřitelné, co všechno se dalo dělat pomocí programovacího kódu! Všechny se chtěly od Ady naučit co nejvíc o tom tajemném jazyku, kterým se ovládají stroje. A brzy už mohly jezdit se svými skateboardy zase, kamkoli chtěly.
+[K]aždé odpoledne teď chodilo za Adou na vrakoviště víc a víc dětí. Ada jim pomáhala upravit programy v jejich skateboardech. Některé děti byly novými možnostmi naprosto nadšené. Neuvěřitelné, co všechno se dalo dělat pomocí programovacího kódu! Všechny se chtěly od Ady naučit co nejvíc o tom tajemném jazyku, kterým se ovládají stroje. A brzy už mohly jezdit se svými skateboardy zase, kamkoli chtěly.
 
 ==== Slide 17
 
@@ -503,7 +503,7 @@ růžová zmrzlina ve tvaru ryby, zmrzlina ve tvaru pyramidy s bonbóny, čokol�
 ## 35 ##
 ==== Slide 18
 
-Každé odpoledne si Ada a její kamarádi vymýšleli, co nového podniknou. Z jedné staré zmrzlinovačky postavili úplně nový stroj, který vyráběl zmrzlinu ve všech možných barvách a tvarech – hranatou, srdíčkovou, dokonce i pyramidovou! Byla malinová, jahodová, duhová, s posypem a čokoládou… A chutnala stokrát líp než ta ze Zangemannových automatů.
+[K]aždé odpoledne si Ada a její kamarádi vymýšleli, co nového podniknou. Z jedné staré zmrzlinovačky postavili úplně nový stroj, který vyráběl zmrzlinu ve všech možných barvách a tvarech – hranatou, srdíčkovou, dokonce i pyramidovou! Byla malinová, jahodová, duhová, s posypem a čokoládou… A chutnala stokrát líp než ta ze Zangemannových automatů.
 
 Někdy dokázali pomoct i dospělým. Toni přeprogramoval tatínkův žehlící stroj, aby zase žehlil kravaty. Zangemann totiž kravaty nesnášel, a tak to strojům zakázal. Pro paní řidičku autobusu postavili zavlažovač z hadic a starého počítače – aby jí rostliny v létě nevyschly. A školníkovi upravili vysavač tak, aby poznal pohozené hračky a nevsál je.
 
@@ -512,7 +512,7 @@ A někdy tvořili prostě jen pro zábavu. Například vymysleli prdící modul 
 ## 36 ##
 
 ==== Slide 19
-Jednoho dne si Zangemann všiml, že některé počítače už neposlouchají jeho příkazy. Vyděsil se – a vztekem téměř explodoval. Okamžitě zavolal prezidentovi a přeskakujícím hlasem do telefonu křičel: „Někdo přepisuje programy v mých zařízeních! To je nepřijatelné – to jsou přece moje vynálezy! A je nebezpečné, když si každý může s počítačem dělat, co se mu zlíbí. Musí se to zakázat zákonem!“
+[J]ednoho dne si Zangemann všiml, že některé počítače už neposlouchají jeho příkazy. Vyděsil se – a vztekem téměř explodoval. Okamžitě zavolal prezidentovi a přeskakujícím hlasem do telefonu křičel: „Někdo přepisuje programy v mých zařízeních! To je nepřijatelné – to jsou přece moje vynálezy! A je nebezpečné, když si každý může s počítačem dělat, co se mu zlíbí. Musí se to zakázat zákonem!“
 
 Prezident nechtěl Zangemanna rozhněvat – vždyť všechny vládní počítače naprogramoval právě on. Bez nich by stát vůbec nefungoval. A tak parlament přijal nový zákon, přesně podle Zangemanna: „Všechny počítače, které neposlouchají Zangemanna, jsou zakázány! Kdo jeho zařízení přeprogramuje, musí zaplatit pokutu 500 000 zlatých!“
 
@@ -543,7 +543,7 @@ světle zelený označovač a svinutý transparent, na kterém ulpělo něco mod
 
 ==== Slide 21
 
-Druhý den do školy nešli. Místo toho se Ada a její kamarádi vydali na skateboardech k parlamentu – s velkými barevnými transparenty v rukou. Některé z nich večer ozdobili LED světýlky, která teď jasně blikala. Reproduktory propojili, aby bylo jejich poselství slyšet v každé ulici. Zvědaví kolemjdoucí se zastavovali a ptali se: „Proč protestujete?“ „Za svobodu softwaru!“ odpověděly děti sborově – a vyprávěly svůj příběh. Dospělí uznale přikyvovali – a i prezident si zvědavě prohlédl plakáty, když vstupoval do budovy.
+[D]ruhý den do školy nešli. Místo toho se Ada a její kamarádi vydali na skateboardech k parlamentu – s velkými barevnými transparenty v rukou. Některé z nich večer ozdobili LED světýlky, která teď jasně blikala. Reproduktory propojili, aby bylo jejich poselství slyšet v každé ulici. Zvědaví kolemjdoucí se zastavovali a ptali se: „Proč protestujete?“ „Za svobodu softwaru!“ odpověděly děti sborově – a vyprávěly svůj příběh. Dospělí uznale přikyvovali – a i prezident si zvědavě prohlédl plakáty, když vstupoval do budovy.
 
 A ani další dny nepřestali. Ada a její přátelé se znovu usadili před parlamentem. Tentokrát už nebyli sami – přidali se spolužáci, kterým Ada upravila skateboardy. Dorazil i Toniho otec a další dospělí. Všichni chápali, že vynálezy těchto dětí jsou k užitku.
 
@@ -586,7 +586,7 @@ STŘEDNÍ TRANSPARENT: "Neničte naši techniku!"
 
 ## 42 ##
 
-Ada protestovala před parlamentem každý týden. I v lijáku. Ať pršelo nebo svítilo slunce, nikdy nechyběla. Když prezident jednou procházel kolem promočených dětí, nemohl si pomoct – jejich vytrvalost ho dojala. Zastavil se a zeptal se: „Proč tu každý den sedíte? Co tím chcete říct?“ 
+[A]da protestovala před parlamentem každý týden. I v lijáku. Ať pršelo nebo svítilo slunce, nikdy nechyběla. Když prezident jednou procházel kolem promočených dětí, nemohl si pomoct – jejich vytrvalost ho dojala. Zastavil se a zeptal se: „Proč tu každý den sedíte? Co tím chcete říct?“ 
 
 Ada se postavila a klidně odpověděla: „Chceme sami rozhodovat, co smíme a nesmíme dělat se svými počítači.“ A její přátelé a kamarádky vykřikli sborově: „Bez kódu se nedá žít! Bez kódu se nedá žít!“
 
@@ -612,7 +612,7 @@ Na podlaze je miska s bonbóny a talíř se zmrzlinou. Prezidentův telefon zvon
 
 ## 44 ##
 
-Následující ráno zazvonil vládní telefon. Volal Zangemann – naštvanější než kdy jindy. „Beze mě vám ty počítače nepojedou!“ hřímal. Ale prezident se jen usmál, vzal sluchátko a zavěsil. Ten den telefon zvonil ještě mnohokrát, ale nikdo ho nezvedl. Prezident měl totiž schůzku s Adou, Tonim, Marií, Konradem a týmem vládních expertů.
+[N]ásledující ráno zazvonil vládní telefon. Volal Zangemann – naštvanější než kdy jindy. „Beze mě vám ty počítače nepojedou!“ hřímal. Ale prezident se jen usmál, vzal sluchátko a zavěsil. Ten den telefon zvonil ještě mnohokrát, ale nikdo ho nezvedl. Prezident měl totiž schůzku s Adou, Tonim, Marií, Konradem a týmem vládních expertů.
 
 [[I:ada-p44
 OBRÁZEK: Herold, který má na sobě klobouk s perem, troubí na trubku, na které visí červený prapor.
@@ -666,7 +666,7 @@ Adin pes, Konrad, Marie, Ada a Toni se potichu vytrácejí z oslavy.
 
 ==== Slide 25
 
-A Zangemann? Od té doby o něm nikdo neslyšel. Možná dodnes zuří ve své obrovské vile a mračí se před svým zlatým počítačem. Možná se už ani neodvažuje vyjít na ulici – a dokonce zalepil všechna okna svého domu, aby nemusel vidět, co všechno lidé s jeho vynálezy dělají. Ale možná… možná se občas podívá dalekohledem ven do světa. A když vidí, co děti každý den nového vymýšlejí, možná si vzpomene, jak i jeho samotného kdysi bavilo vynalézat a zkoušet nové věci. A možná, úplně možná, přitom líže malinovou zmrzlinu ve tvaru pyramidy s duhovým posypem.
+[A] Zangemann? Od té doby o něm nikdo neslyšel. Možná dodnes zuří ve své obrovské vile a mračí se před svým zlatým počítačem. Možná se už ani neodvažuje vyjít na ulici – a dokonce zalepil všechna okna svého domu, aby nemusel vidět, co všechno lidé s jeho vynálezy dělají. Ale možná… možná se občas podívá dalekohledem ven do světa. A když vidí, co děti každý den nového vymýšlejí, možná si vzpomene, jak i jeho samotného kdysi bavilo vynalézat a zkoušet nové věci. A možná, úplně možná, přitom líže malinovou zmrzlinu ve tvaru pyramidy s duhovým posypem.
 
 [[I:ada-p48
 OBRÁZEK: Adin pes čichá ke stopě ze zmrzliny.
@@ -765,7 +765,7 @@ OBRÁZEK: Páječka, štětec a plechovka se žlutou barvou propojené bílou
 elektrickou šňůrou, která tvoří rámeček kolem obrázku.
 ]]
 
-Vynálezce Zangemann je světově proslulý a nesmírně bohatý. Dospělí i děti milují jeho úžasné technické vynálezy. Jednoho dne se však objeví problém: Elektronické skateboardy dětí přestaly správně fungovat. Co se to děje? Zvídavá Ada tu záhadu odhalí. Společně se svými přáteli začne experimentovat s vlastními počítačovými programy a děti zosnují plán: Zangemann už nesmí mít jako jediný kontrolu nad počítači!
+[V]ynálezce Zangemann je světově proslulý a nesmírně bohatý. Dospělí i děti milují jeho úžasné technické vynálezy. Jednoho dne se však objeví problém: Elektronické skateboardy dětí přestaly správně fungovat. Co se to děje? Zvídavá Ada tu záhadu odhalí. Společně se svými přáteli začne experimentovat s vlastními počítačovými programy a děti zosnují plán: Zangemann už nesmí mít jako jediný kontrolu nad počítači!
 
 Kniha pro děti, která přináší radost z vynalézání a povzbuzuje k samostatnému zacházení s technologiemi.
 
