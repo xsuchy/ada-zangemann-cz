@@ -22,7 +22,7 @@
         <COLOR NAME="Yellow" SPACE="CMYK" C="0" M="0" Y="100" K="0"/>
         <HYPHEN/>
         <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" DIRECTION="0" LINESPMode="1" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" HyphenConsecutiveLines="2" BCOLOR="None" BSHADE="100"/>
-        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Heebo Regular" FONTSIZE="12" FONTFEATURES="-clig,-liga" FEATURES="inherit" FCOLOR="Black" FSHADE="100" HyphenWordMin="3" SCOLOR="Black" BGCOLOR="None" BGSHADE="100" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="it"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Roboto Regular" FONTSIZE="12" FONTFEATURES="-clig,-liga" FEATURES="inherit" FCOLOR="Black" FSHADE="100" HyphenWordMin="3" SCOLOR="Black" BGCOLOR="None" BGSHADE="100" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="it"/>
         <TableStyle NAME="Default Table Style" DefaultStyle="1" FillColor="None" FillShade="100">
             <TableBorderLeft>
                 <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
@@ -54,10 +54,10 @@
         <LAYERS NUMMER="0" LEVEL="0" NAME="Sfondo" SICHTBAR="1" DRUCKEN="1" EDIT="1" SELECT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="0" outputSeparations="0" useSpotColors="1" useColor="1" mirrorH="0" mirrorV="0" useICC="1" doGCR="0" doClip="0" setDevParam="0" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markLength="20.0013" markOffset="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="File" filename="/home/lucabon/Doc/FSFE/Ada/Book/it/Ada_Cover.ps" separationName="Tutti" printerCommand=""/>
         <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="2" Quality="0" EmbedPDF="0" MirrorH="0" MirrorV="0" Clip="0" rangeSel="0" rangeTxt="" RotateDeg="0" PresentMode="0" RecalcPic="0" FontEmbedding="0" Grayscale="0" RGBMode="0" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="11" Intent="1" Intent2="0" SolidP="82HU" ImageP="82HU" PrintP="PSO Coated v3" InfoString="Ada Soft Cover - spine 5mm - uncoated FOGRA51" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="1" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="1" markLength="42.5196850393701" markOffset="5.66929133858268" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" openAfterExport="0" PageLayout="0" openAction="">
-            <Fonts Name="Heebo Regular"/>
-            <Fonts Name="Heebo Italic"/>
-            <Fonts Name="Heebo Bold"/>
-            <Fonts Name="Heebo Bold Italic"/>
+            <Fonts Name="Roboto Regular"/>
+            <Fonts Name="Roboto Italic"/>
+            <Fonts Name="Roboto Bold"/>
+            <Fonts Name="Roboto Bold Italic"/>
             <LPI Color="" Frequency="10" Angle="0" SpotFunction="0"/>
             <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
             <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
@@ -175,8 +175,8 @@
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="-321.87968503937" YPOS="491.238377268059" OwnPage="-1" ItemID="423674760" PTYPE="4" WIDTH="53.1" HEIGHT="17.007874015748" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0.566929133858268" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L53.1 0 L53.1 17.0079 L0 17.0079 L0 0 Z" copath="M0 0 L53.1 0 L53.1 17.0079 L0 17.0079 L0 0 Z" gXpos="-760.029291338582" gYpos="0" gWidth="137.381366459627" gHeight="87.450290996234" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
-                <DefaultStyle OpticalMargins="0" FONT="Heebo Regular"/>
-                <ITEXT FONT="Heebo Regular" FONTSIZE="12" FCOLOR="White" CH="€ 15,00"/>
+                <DefaultStyle OpticalMargins="0" FONT="Roboto Regular"/>
+                <ITEXT FONT="Roboto Regular" FONTSIZE="12" FCOLOR="White" CH="€ 15,00"/>
                 <trail ALIGN="2" OpticalMargins="0"/>
             </StoryText>
         </PAGEOBJECT>
